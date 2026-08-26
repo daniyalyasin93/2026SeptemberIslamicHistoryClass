@@ -34,13 +34,28 @@ We currently hold printed pp. ۳۲–۷۸ (المقدمہ) and pp. ۴۵۶–۴۶
 
 ---
 
-## Tier 2 — the Arabic spine
+## Tier 2 — the Arabic spine · **you no longer need to acquire these**
+
+**UPDATE 2026-08-26: `shamela.ws` is directly reachable from this machine**, and every work below
+is in it, already typed and searchable. There is nothing to download, store or OCR — pages are
+fetched on demand and cached:
+
+```bash
+python tools/shamela.py get 34 110       # الإعلان بالتوبيخ, the فوائد التاريخ chapter
+python tools/shamela.py range 34 108 120 # a span
+```
+
+Already retrieved and cached: **book 34 = الإعلان بالتوبيخ لمن ذمّ أهل التاريخ (السخاوي)**, whose
+**باب فوائد التاريخ begins at printed p.۱۱۱** — the chapter Rehan sahib draws his whole فوائد list
+from. The course epigraph now comes from it in the original Arabic (see `IBRAH.md`).
+
+So this tier is a **lookup list, not a shopping list.** Book ids get recorded here as they are found.
 
 **Why this matters:** Arabic quotation carries authority in the room in a way an Urdu paraphrase
 does not. Every work below is one the muqaddima *itself* names and relies on, so quoting them is
 staying inside the course's own frame, not going outside it.
 
-**Get these first — they earn their keep immediately:**
+**Highest value, in order:**
 
 | Work | Author | Why this one |
 |---|---|---|

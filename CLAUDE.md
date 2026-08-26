@@ -151,6 +151,10 @@ archive/               superseded work, kept as a parts bin
 # extract a new source volume to page-marked text (offset auto-detected)
 python tools/extract_source.py sources/pdf/<file>.pdf sources/text/<file>.txt
 
+# fetch a citable Arabic page from al-Maktaba al-Shamela (cached under sources/shamela/)
+python tools/shamela.py get 34 110          # one page  -> reports the PRINTED page too
+python tools/shamela.py range 34 108 115    # a span
+
 # render an A4 printable: HTML -> PDF, fonts base64-embedded via @font-face
 #   (headless Chrome; prints identically at any print shop)
 chrome.exe --headless --disable-gpu --no-pdf-header-footer \
@@ -166,6 +170,18 @@ maroon `#7A2E2E` for caution. Serif `Georgia` for English headlines, `Segoe UI` 
 
 Build scripts fall back to `*_NEW.pptx` on `PermissionError` (PowerPoint holds a lock).
 
-**Network reality:** general web and Wikimedia are blocked on this machine; **YouTube is
-reachable via yt-dlp** (use Bash with `dangerouslyDisableSandbox: true`). Maps in practice come
-from Kings & Generals video frames via `tools/grab_frame.py`, plus our own schematic SVG.
+**Network reality (re-tested 2026-08-26 — the earlier "web is blocked" note was stale):**
+general web, Wikipedia/Wikimedia and `shamela.ws` all resolve from this machine. Two quirks:
+`sunnah.com` returns **403 to `WebFetch`** but serves fine to local `curl` with a browser
+User-Agent; `commons.wikimedia.org` failed while `upload.wikimedia.org` and `en.wikipedia.org`
+answered. YouTube remains reachable via yt-dlp.
+
+**Arabic verification — `shamela.ws` is the standard path.** al-Maktaba al-Shamela carries the
+classical corpus already typed and searchable (~7,180 books), so **Arabic quotations are verified
+against the actual work rather than paraphrased out of the Urdu** (see §1.4). Use
+`tools/shamela.py`; it caches to `sources/shamela/` so a citation once fetched is free to re-check
+and the exact text used is reproducible. **Cite the PRINTED page the tool reports, not the Shamela
+index** — they differ by one.
+
+Book ids found so far: **34** = الإعلان بالتوبيخ لمن ذمّ أهل التاريخ (السخاوي) — its
+**فوائد التاريخ** chapter begins at printed p.۱۱۱.
