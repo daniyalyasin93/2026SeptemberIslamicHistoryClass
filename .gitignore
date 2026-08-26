@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 # Local scratch — per global convention, .claude notes are NOT committed
 .claude/
+series/data/
+_*.png
