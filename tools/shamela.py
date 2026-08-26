@@ -57,13 +57,19 @@ def parse(html):
     mt = re.search(r"<title>(.*?)</title>", html, flags=re.S)
     if mt:
         title = untag(mt.group(1))
+    # Titles come as "ص111 - ..." or "ج7 - ص134 - ..." — capture both parts, since a
+    # citation to a multi-volume work needs the juz as well as the page.
+    juz = ""
+    mj = re.search(r"ج\s*([^\s\-]+)\s*-", title)
+    if mj:
+        juz = mj.group(1)
     printed = ""
-    mp = re.search(r"^\s*ص(\d+)", title)
+    mp = re.search(r"ص\s*(\d+)", title)
     if mp:
         printed = mp.group(1)
     return {
         "title": title,
-        "printed": printed,
+        "printed": (("ج%s ص%s" % (juz, printed)) if juz else printed),
         "header": head,
         "body": grab(html, "nass"),
         "notes": grab(html, "hamesh"),
@@ -98,6 +104,33 @@ def get(book, page, strip_harakat=False, force=False):
     return text
 
 
+TOC_RE = re.compile(r'href="(?:https://shamela\.ws)?/book/%s/(\d+)"[^>]*>(.*?)</a>', re.S)
+
+
+def toc(book, force=False):
+    """Whole table of contents in one fetch — chapter title -> shamela page index.
+
+    A book's landing page carries every entry (البدایہ والنہایہ has 3,362), so locating a
+    chapter costs one cached fetch instead of a search per chapter.
+    """
+    path = os.path.join(CACHE, str(book), "_toc.tsv")
+    if os.path.exists(path) and not force:
+        return [tuple(l.split("\t", 1)) for l in
+                io.open(path, encoding="utf-8").read().splitlines() if "\t" in l]
+
+    html = fetch("https://shamela.ws/book/%s" % book)
+    seen, rows = set(), []
+    for pg, label in re.findall(TOC_RE.pattern % book, html, flags=re.S):
+        title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", label)).strip()
+        if title and (pg, title) not in seen:
+            seen.add((pg, title))
+            rows.append((pg, title))
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    io.open(path, "w", encoding="utf-8").write(
+        "\n".join("%s\t%s" % r for r in rows))
+    return rows
+
+
 def emit(s):
     sys.stdout.buffer.write((s + "\n").encode("utf-8"))
 
@@ -113,11 +146,24 @@ def main():
     r = sub.add_parser("range")
     r.add_argument("book"); r.add_argument("start", type=int); r.add_argument("end", type=int)
 
+    t = sub.add_parser("toc")
+    t.add_argument("book")
+    t.add_argument("--find", default=None, help="only entries containing this text")
+    t.add_argument("--force", action="store_true")
+
     for p in (g, r):
         p.add_argument("--raw", action="store_true", help="strip vowel marks")
         p.add_argument("--force", action="store_true", help="refetch, ignore cache")
 
     a = ap.parse_args()
+
+    if a.cmd == "toc":
+        rows = toc(a.book, a.force)
+        hits = [x for x in rows if not a.find or a.find in x[1]]
+        emit("%d entries%s" % (len(hits), "" if not a.find else " matching %r" % a.find))
+        for pg, title in hits:
+            emit("  %-7s %s" % (pg, title))
+        return
     pages = [a.page] if a.cmd == "get" else list(range(a.start, a.end + 1))
     for i, pg in enumerate(pages):
         if i:

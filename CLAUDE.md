@@ -164,6 +164,14 @@ archive/               superseded work, kept as a parts bin
 **Never let two artifacts disagree.** A date, a لقب or a page number goes into
 `docs/catalogue/` first; every artifact reads it from there.
 
+**Stay inside the safe Sunni list.** For general narrative use only **البدایہ والنہایہ (30097)**,
+**سیر أعلام النبلاء (10906)**, **الکامل (21712)** and **الإعلان بالتوبيخ (34)** — all four are named
+and relied on by the course's own مقدمہ, so citing them stays inside the course's frame.
+**تاریخ الطبری (9783) is corroboration only, never alone**, and never for anything touching the
+مشاجرات — it collects with chains and does not sift, and presence in طبری is not authenticity
+(مقدمہ p.۷۱). Works the مقدمہ flags for sectarian lean (یعقوبی، مسعودی — p.۴۶) are not used without
+a specific decision. **Every Shamela page used gets a line in `docs/catalogue/SHAMELA_LOG.md`.**
+
 ## 5. Build commands
 
 ```bash
