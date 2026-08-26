@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What kind of rebellion? — Sorting the Ridda, 11–12 AH</title>
+<style>
+:root{
+  --ink:#0F1922;--ink-2:#16232E;--card:#182632;
+  --parch:#EAE4D4;--mute:#93A0A2;--rule:rgba(234,228,212,.14);
+  --prophecy:#B4463A;--sadaqa:#E3AA3E;--secession:#6E8FB8;--loyal:#4E9A88;
+  --display:"Palatino Linotype",Palatino,"Iowan Old Style","Book Antiqua",Georgia,serif;
+  --ui:"Avenir Next","Segoe UI",Inter,system-ui,-apple-system,sans-serif;
+  --mono:ui-monospace,"SF Mono","Roboto Mono",Menlo,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:radial-gradient(120% 80% at 50% -10%,#1B2C38 0%,var(--ink) 55%,#0A121A 100%);
+  background-attachment:fixed;
+  color:var(--parch);font-family:var(--ui);-webkit-font-smoothing:antialiased;min-height:100vh
+}
+.wrap{max-width:1240px;margin:0 auto;padding:22px 18px 48px}
+
+header{border-bottom:1px solid var(--rule);padding-bottom:16px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--sadaqa);margin:0 0 6px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(25px,5vw,42px);line-height:1.04;margin:0;letter-spacing:-.01em}
+h1 em{font-style:italic;color:var(--sadaqa)}
+.standfirst{margin:10px 0 0;max-width:66ch;color:var(--mute);font-size:14.5px;line-height:1.6}
+.standfirst b{color:var(--parch);font-weight:600}
+
+/* mode switch */
+.modes{display:flex;gap:0;margin:18px 0 4px;border:1px solid var(--rule);border-radius:2px;width:fit-content;overflow:hidden}
+.modes button{
+  font-family:var(--ui);font-size:13px;background:transparent;color:var(--mute);border:0;
+  padding:9px 18px;cursor:pointer;transition:all .2s;border-right:1px solid var(--rule)
+}
+.modes button:last-child{border-right:0}
+.modes button[aria-pressed="true"]{background:rgba(227,170,62,.13);color:var(--sadaqa)}
+.modes button:focus-visible{outline:2px solid var(--sadaqa);outline-offset:-2px}
+.modenote{font-size:13px;color:var(--mute);margin:10px 0 0;line-height:1.55;max-width:70ch}
+
+/* exercise tray */
+.tray{margin-top:18px;border:1px dashed var(--rule);border-radius:3px;padding:14px;display:none}
+.tray.on{display:block}
+.tray h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin:0 0 12px;font-weight:400}
+.tray-cards{display:flex;flex-wrap:wrap;gap:8px}
+.tray-empty{font-size:13px;color:var(--mute);font-style:italic}
+
+/* board */
+.board{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:20px}
+.col{border-top:2px solid;padding-top:12px;min-height:120px;border-radius:0}
+.col[data-k="prophecy"]{border-color:var(--prophecy)}
+.col[data-k="sadaqa"]{border-color:var(--sadaqa)}
+.col[data-k="secession"]{border-color:var(--secession)}
+.col[data-k="loyal"]{border-color:var(--loyal)}
+.col h2{font-family:var(--display);font-size:16.5px;font-weight:400;margin:0 0 4px;line-height:1.2}
+.col p.gloss{font-size:12px;color:var(--mute);line-height:1.5;margin:0 0 12px;min-height:3.6em}
+.col.drop{cursor:pointer}
+.col.drop:hover,.col.drop:focus-visible{background:rgba(234,228,212,.045);outline:none}
+.col.armed{background:rgba(227,170,62,.07)}
+
+/* cards */
+.card{
+  width:100%;text-align:left;display:block;background:var(--card);
+  border:1px solid var(--rule);border-left:3px solid var(--rule);
+  border-radius:2px;padding:10px 11px;margin-bottom:8px;cursor:pointer;
+  color:var(--parch);font-family:var(--ui);transition:border-color .18s,background .18s,transform .18s
+}
+.card:hover{background:#1D2E3B;border-color:rgba(234,228,212,.3)}
+.card:focus-visible{outline:2px solid var(--sadaqa);outline-offset:2px}
+.card[aria-current="true"]{background:#25384A;border-left-color:var(--parch);box-shadow:inset 0 0 0 1px rgba(234,228,212,.18)}
+.card .nm{display:block;font-size:14px;line-height:1.25;font-weight:600;letter-spacing:.01em}
+.card .meta{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin-top:5px}
+.card.k-prophecy{border-left-color:var(--prophecy)}
+.card.k-sadaqa{border-left-color:var(--sadaqa)}
+.card.k-secession{border-left-color:var(--secession)}
+.card.k-loyal{border-left-color:var(--loyal)}
+.card.tray-card{width:auto;margin:0;flex:0 1 auto;max-width:230px;border-left-color:var(--rule)}
+.card.ghost{background:transparent;border-style:dashed;opacity:.62}
+.card.ghost .nm{font-weight:400}
+.ghost-tag{display:block;font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-top:6px}
+
+/* dispute meter — signature */
+.meter{display:inline-flex;gap:2px;vertical-align:middle;margin-left:7px}
+.meter i{width:11px;height:3px;background:rgba(234,228,212,.16);border-radius:1px;display:block}
+.meter i.lit{background:var(--sadaqa)}
+.meter.hot i.lit{background:var(--prophecy)}
+
+.mark{float:right;font-family:var(--mono);font-size:10px;letter-spacing:.06em;padding:1px 5px;border-radius:2px}
+.mark.ok{color:var(--loyal);border:1px solid rgba(78,154,136,.5)}
+.mark.no{color:var(--prophecy);border:1px solid rgba(180,70,58,.5)}
+
+/* detail */
+.detail{margin-top:24px;border-top:1px solid var(--rule);padding-top:18px;display:grid;grid-template-columns:1.65fr 1fr;gap:26px}
+.detail.empty{color:var(--mute);font-size:14px;font-style:italic;display:block}
+.detail h3{font-family:var(--display);font-weight:400;font-size:23px;margin:0 0 3px}
+.detail .sub{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin:0 0 14px}
+.detail p{font-size:14.5px;line-height:1.62;margin:0 0 11px;max-width:62ch}
+.aside h4{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin:0 0 7px;font-weight:400}
+.aside .box{border-left:2px solid var(--prophecy);padding-left:12px;font-size:13.5px;line-height:1.6;color:var(--mute);margin-bottom:18px}
+.aside .box b{color:var(--parch);font-weight:600}
+.tagrow{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--rule);border-radius:2px;color:var(--mute)}
+
+/* controls */
+.bar{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-top:20px}
+button.ctl{font-family:var(--ui);font-size:13px;background:transparent;color:var(--parch);border:1px solid var(--rule);padding:8px 15px;border-radius:2px;cursor:pointer;transition:all .2s}
+button.ctl:hover:not(:disabled){border-color:var(--sadaqa);color:var(--sadaqa)}
+button.ctl:disabled{opacity:.32;cursor:default}
+button.ctl.primary{border-color:var(--sadaqa);color:var(--sadaqa)}
+button.ctl:focus-visible{outline:2px solid var(--sadaqa);outline-offset:2px}
+.score{font-family:var(--mono);font-size:12.5px;color:var(--mute);letter-spacing:.04em}
+.score b{color:var(--parch)}
+
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--rule);font-size:13px;line-height:1.65;color:var(--mute);max-width:88ch}
+footer h4{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin:0 0 8px;font-weight:400}
+footer b{color:var(--parch);font-weight:600}
+footer p{margin:0 0 10px}
+
+@media (max-width:900px){
+  .board{grid-template-columns:repeat(2,1fr)}
+  .detail{grid-template-columns:1fr;gap:18px}
+  .col p.gloss{min-height:0}
+}
+@media (max-width:560px){
+  .board{grid-template-columns:1fr;gap:20px}
+  .card.tray-card{max-width:none;flex:1 1 100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Companion to the Ridda campaign map · 11–12 AH</p>
+  <h1>What kind of <em>rebellion</em>?</h1>
+  <p class="standfirst">The sources call all of this <i>ridda</i> — apostasy. Sorted by what people actually did, it separates into at least three different things, and a fourth column of groups who never rebelled at all. <b>Several cases belong in two columns at once</b>, which is where the argument lives.</p>
+</header>
+
+<div class="modes" role="group" aria-label="View mode">
+  <button id="mBrowse" aria-pressed="true">Browse the classification</button>
+  <button id="mSort" aria-pressed="false">Sort it yourself</button>
+</div>
+<p class="modenote" id="modenote">Nineteen cases, placed where the weight of the evidence puts them. Dashed cards are the same case appearing a second time in a column it also has a claim on. Select any card for the detail and the dispute.</p>
+
+<p class="modenote" id="meterkey" style="margin-top:8px">The bars beside each name are a dispute meter: one bar where the classification is barely argued, three where the sources themselves disagree.</p>
+<div class="tray" id="tray">
+  <h2>Unsorted <span id="trayCount"></span></h2>
+  <div class="tray-cards" id="trayCards"></div>
+</div>
+
+<div class="board" id="board"></div>
+
+<div class="bar" id="bar" style="display:none">
+  <button class="ctl primary" id="check">Check my sort</button>
+  <button class="ctl" id="reset">Start over</button>
+  <span class="score" id="score"></span>
+</div>
+
+<div class="detail empty" id="detail">Select a card to read the case.</div>
+
+<footer>
+  <h4>Cases that resist the columns</h4>
+  <p><b>Iyas b. Abd Yalil, "al-Fuja'a", of Sulaym</b> asked Abu Bakr for arms to fight apostates and used them to raid Muslims and non-Muslims alike. He was banditry with a cover story, not a rebellion of any type. Abu Bakr had him burned at al-Baqi', and is said to have named it on his deathbed as one of the three acts he regretted.</p>
+  <p><b>Groups who had never converted</b> cannot logically have apostatised, yet appear in the campaign narratives all the same — frontier tribes of Quda'a and the north among them. Ask students what work the word <i>ridda</i> is doing when it is applied to them.</p>
+  <h4>On the sources</h4>
+  <p>The classifications here are reconstructions from al-Tabari, al-Baladhuri and Ibn Sa'd, much of it transmitted through Sayf b. Umar, who is widely distrusted and who had reasons to tidy a confused period into a campaign narrative. Later tribal and sectarian interests shaped which rebels were remembered as prophets, which as tax-dodgers, and which were quietly rehabilitated. Where the dispute meter is full, the disagreement is in the sources themselves, not only among modern historians. See Ella Landau-Tasseron on the Ridda traditions, Fred Donner, <i>The Early Islamic Conquests</i>, and Elias Shoufani, <i>Al-Riddah and the Muslim Conquest of Arabia</i>.</p>
+</footer>
+
+</div>
+
+<script>
+const COLS=[
+ {k:"prophecy",t:"Rival prophecy",g:"A claim to revelation of one's own. A direct challenge to Medina's religious basis, not just its tax collectors."},
+ {k:"sadaqa",t:"Withheld sadaqa",g:"Kept the prayer, refused the payment. Framed by the rebels as the lapse of a personal obligation to a dead man."},
+ {k:"secession",t:"Political secession",g:"No religious claim at all. Old kingships reasserted, or Qurashi supremacy simply rejected."},
+ {k:"loyal",t:"Held loyal",g:"Never rebelled. Included because their absence from the red is as informative as anyone's presence in it."},
+];
+
+const CASES=[
+/* ---- rival prophecy ---- */
+{id:"musaylima",n:"Musaylima b. Habib",who:"Banu Hanifa",wh:"Yamama",k:"prophecy",d:1,
+ tags:["Killed at Aqraba, 632","Largest single rebellion"],
+ p:[`Musaylima had led a Hanifa delegation to Medina and, by most accounts, claimed revelation of his own before Muhammad's death — proposing, in one widely repeated report, that they divide Arabia between them.`,
+    `Hanifa fought as a whole community rather than as a warband, which is why Yamama produced the war's only large set-piece battle. Ikrima was repulsed, Shurahbil fared no better, and Khalid needed Ansari reinforcements to win at Aqraba, where Musaylima was killed by Wahshi b. Harb — the same man who had killed Hamza at Uhud.`],
+ c:`The epithet <i>al-Kadhdhab</i>, the liar, is entirely a Muslim label. The scale and durability of his following suggest a genuine rival movement rather than a fraud, and the fragments of his revelations preserved in Muslim sources read as hostile parody rather than reportage.`},
+
+{id:"tulayha",n:"Tulayha b. Khuwaylid",who:"Banu Asad, with Ghatafan and Fazara",wh:"Buzakha, north Najd",k:"prophecy",d:2,also:"sadaqa",
+ tags:["Defeated at Buzakha","Returned to Islam"],
+ p:[`Tulayha claimed revelation and drew in Asad, much of Ghatafan under Uyayna b. Hisn, and part of Tayyi'. Khalid broke the coalition at Buzakha; Uyayna was captured and sent to Medina, and Tulayha escaped to Syria.`,
+    `He later returned to Islam and fought for the caliphate at al-Qadisiyya and Nihawand, dying in the conquest of Iran.`],
+ c:`His rehabilitation is the problem. A man who had claimed prophecy was reintegrated within a few years and given command — which suggests either that his claim was thinner than the sources imply, or that what Medina actually required was political submission and the doctrinal framing came afterwards. Several of his followers, notably Uyayna, look like opportunists attaching themselves to whichever authority was winning.`},
+
+{id:"sajah",n:"Sajah bt. al-Harith",who:"Banu Yarbu' of Tamim, with Taghlibi and Christian ties",wh:"From the Jazira into Najd",k:"prophecy",d:3,also:"secession",
+ tags:["Withdrew north","Later converted"],
+ p:[`Sajah moved south from the Jazira with Taghlibi support, gathered Tamimi allies, and is said to have met Musaylima at Yamama — in the best-known version, marrying him and agreeing to divide the revelation.`,
+    `She withdrew to Mesopotamia without a decisive battle and, in most accounts, later became Muslim.`],
+ c:`The accounts of her are the most lurid and least consistent in the whole Ridda corpus, and the Musaylima meeting reads as later polemic built to discredit both. She may be better understood as a tribal war-leader whose prophetic claim is a retrojection — which raises the question of how many other "false prophets" are the same phenomenon.`},
+
+{id:"aswad",n:"al-Aswad al-Ansi",who:"Ans, of Madhhij",wh:"San'a, Yemen",k:"prophecy",d:2,also:"secession",
+ tags:["Killed c. June 632","Predates the Ridda proper"],
+ p:[`Known as Dhu'l-Khimar, the veiled one, al-Aswad seized San'a, killed the governor Shahr b. Badhan and married his widow. Muslim agents across Yemen fled or went into hiding.`,
+    `He was assassinated by Fayruz al-Daylami with the help of the Persian <i>abna'</i> settled in Yemen, shortly before or around the time of Muhammad's death — news of which reached Medina in the Prophet's final days.`],
+ c:`His revolt begins before Abu Bakr's caliphate, so counting it as part of the Ridda is already an editorial choice. It also runs along an existing fault line between Yemeni tribes and the Persian <i>abna'</i>, which makes the prophetic claim only one layer of what was happening.`},
+
+/* ---- withheld sadaqa ---- */
+{id:"malik",n:"Malik b. Nuwayra",who:"Banu Yarbu' of Tamim",wh:"al-Butah",k:"sadaqa",d:3,also:"loyal",
+ tags:["Killed by Khalid","Umar called it murder"],
+ p:[`Malik had been Muhammad's own <i>sadaqa</i> collector among Yarbu'. On news of the death he stopped forwarding the collection, and in some reports returned it to his tribe. He had dealings with Sajah but did not fight for her.`,
+    `Khalid's men took him at al-Butah and killed him; Khalid married his widow shortly after. Abu Bakr paid compensation from the treasury but refused to punish Khalid.`],
+ c:`This is the single most disputed case in the war, and the dispute is inside the sources: Umar held that Khalid had killed a Muslim and should face the penalty, and traditions circulated in which Malik and his men prayed the night before they died. Abu Qatada is said to have refused to serve under Khalid again. If Malik never left Islam, he does not belong in this column at all — which is why he shows a second time under those who held loyal.`},
+
+{id:"ghatafan",n:"Uyayna b. Hisn and Ghatafan",who:"Fazara, Abs, Dhubyan",wh:"Central Najd",k:"sadaqa",d:2,also:"prophecy",
+ tags:["Raided Medina","Uyayna pardoned"],
+ p:[`Ghatafan and Abs sent word that they would keep the prayer but not the payment, then raided Medina itself. Abu Bakr repelled them and pursued to Abraq.`,
+    `Uyayna b. Hisn then threw in with Tulayha, was captured at Buzakha, brought to Medina in bonds — and pardoned. He appears again in the conquests.`],
+ c:`Uyayna straddles two columns cleanly: a tax refuser who then backed a rival prophet, and who abandoned that prophet the moment he lost. He is the clearest evidence that for some participants the religious framing was instrumental.`},
+
+{id:"zakat",n:"The delegations on zakat",who:"Various tribes",wh:"At Medina",k:"sadaqa",d:2,
+ tags:["Doctrinal core of the war","Abu Bakr against Umar"],
+ p:[`Delegations came to Medina offering to pray but not to pay. Abu Bakr refused any separation of the two, reportedly swearing he would fight over a hobbling-cord withheld from what had been given to the Prophet.`,
+    `Umar is shown objecting — how can you fight people who say the shahada? — and then accepting Abu Bakr's reasoning.`],
+ c:`This exchange does heavy legal work: it establishes zakat as an enforceable obligation of the state rather than a personal gift to Muhammad, and it makes Abu Bakr the guarantor of that principle. Which is precisely why it may have been shaped, or sharpened, by later jurists arguing about the status of zakat and about fighting fellow Muslims.`},
+
+{id:"sulaym",n:"Sulaym and Hawazin",who:"Sulaym, Hawazin",wh:"East of Mecca and Ta'if",k:"sadaqa",d:2,
+ tags:["Turayfa b. Hajiz's corps","Sparsely reported"],
+ p:[`The ninth corps under Turayfa b. Hajiz was sent against Sulaym and Hawazin, who had withheld payment and were partly drawn along by Ghatafan's example.`,
+    `Resistance collapsed quickly once Buzakha had been decided, and both were reintegrated without much recorded violence.`],
+ c:`Very thinly reported, which is itself the point: the tribes that submitted early and cheaply generate almost no narrative. What survives is disproportionately the spectacular cases, so the corpus systematically overstates how religious and how violent the Ridda was.`},
+
+/* ---- political secession ---- */
+{id:"laqit",n:"Laqit b. Malik, Dhu al-Taj",who:"Azd",wh:"Daba, Oman",k:"secession",d:1,
+ tags:["Took a royal title","Crushed at Daba"],
+ p:[`Laqit took the title Dhu al-Taj, the crowned one, and displaced the authority of the brothers Jayfar and 'Abbad b. al-Julanda, who had accepted Islam through Amr b. al-As. Amr withdrew to Medina.`,
+    `Hudhayfa b. Mihsan, joined by Ikrima, defeated him at Daba in 633.`],
+ c:`Barely disputed as a category: the epithet is a crown, not a revelation. Oman is the cleanest example of the Ridda as the collapse of a recent political arrangement rather than a religious rupture.`},
+
+{id:"bahrayn",n:"al-Hutam and al-Gharur",who:"Bakr b. Wa'il, with Lakhmid claimants",wh:"Bahrayn, eastern Arabia",k:"secession",d:1,
+ tags:["Attempted Lakhmid restoration","Broken at Hajar and Darin"],
+ p:[`When al-Mundhir b. Sawa died, al-Hutam b. Dubay'a raised Bakr b. Wa'il and put forward al-Mundhir b. al-Nu'man — remembered as al-Gharur, the deluded — as heir to the old Lakhmid kingship at al-Hira.`,
+    `Al-Ala' b. al-Hadrami returned, relieved the Muslims besieged at Juwatha, and finished the war by crossing to the island of Darin.`],
+ c:`An explicit dynastic restoration, and a useful corrective to any map that shades a whole region one colour: Abd al-Qays largely stayed Muslim under al-Jarud b. al-Mu'alla and were the ones under siege. Eastern Arabia was a civil war, not a defection.`},
+
+{id:"ashath",n:"al-Ash'ath b. Qays",who:"Kinda",wh:"Hadramawt",k:"secession",d:3,also:"sadaqa",
+ tags:["Siege of al-Nujayr","Pardoned and married into Abu Bakr's family"],
+ p:[`The trigger, in the usual telling, was a quarrel over a camel taken by Ziyad b. Labid in the course of collecting <i>sadaqa</i> from Kinda. It escalated into general revolt, and al-Ash'ath took the royal mantle of the Kindite house.`,
+    `He was besieged at the fortress of al-Nujayr, surrendered on terms, was sent to Medina, pardoned, and married Umm Farwa, Abu Bakr's sister.`],
+ c:`Whether this is apostasy at all is genuinely open — it can be read as a tax dispute and an honour quarrel that escalated. The accounts are also coloured by later Kufan politics, where al-Ash'ath's descendants mattered a great deal, giving both his enemies and his family reasons to reshape the story.`},
+
+{id:"qays",n:"Qays b. Abd Yaghuth",who:"Madhhij, against the Persian abna'",wh:"San'a and Yemen",k:"secession",d:2,
+ tags:["After al-Aswad's death","Suppressed by al-Muhajir and Ikrima"],
+ p:[`Qays had helped kill al-Aswad. He then turned on the Persian <i>abna'</i> who had been his partners in it, killing Dadhawayh and driving out Fayruz, in what was effectively a struggle over who would run Yemen.`,
+    `Al-Muhajir b. Abi Umayya, reinforced by Ikrima, restored Medinan control.`],
+ c:`No prophetic claim and no clear refusal of Islam — a factional contest between Yemeni tribal and Persian settler elites, folded into the Ridda narrative because Medina's agent was the loser. Yemen shows how much the label absorbs.`},
+
+{id:"quda",n:"Wadi'a and al-Harith",who:"Quda'a",wh:"Northern frontier",k:"secession",d:2,
+ tags:["Amr b. al-As and Shurahbil","Byzantine frontier"],
+ p:[`The northern confederations targeted by Amr b. al-As and Shurahbil b. Hasana had submitted very recently and sat on the Byzantine frontier, with the alternative patron that implies.`,
+    `They were brought back into line during 632–33, and the same commanders then continued north into Syria.`],
+ c:`Some of these groups were Christian and had never converted, so the charge of apostasy cannot apply to them in any literal sense. This is the clearest place to ask what <i>ridda</i> means when the state applies it to people who were never inside.`},
+
+/* ---- held loyal ---- */
+{id:"quraysh",n:"Quraysh",who:"Quraysh",wh:"Mecca",k:"loyal",d:1,
+ tags:["Attab b. Asid held","Some wobble reported"],
+ p:[`Mecca did not rebel. Attab b. Asid held the town, and though some reports mention alarm and hesitation there, no rising materialised.`,
+    `Quraysh instead supplied several of the war's leading commanders — Khalid b. al-Walid, Ikrima b. Abi Jahl, Amr b. al-As — men who had fought against Muhammad within living memory.`],
+ c:`Worth pressing hard in seminar: the tribe that resisted Muhammad longest was the one with the largest stake in the settlement that followed, and it stayed. Loyalty tracked interest at least as closely as belief.`},
+
+{id:"thaqif",n:"Thaqif",who:"Thaqif",wh:"Ta'if",k:"loyal",d:1,
+ tags:["Uthman b. Abi al-As","Submitted only in 630"],
+ p:[`Ta'if had held out against Muhammad longer than almost anywhere and submitted only around 630, yet Thaqif did not join the rising.`,
+    `Uthman b. Abi al-As, a young appointee, is credited with holding them by arguing that they had been last to enter Islam and should not be first to leave it.`],
+ c:`A recent and reluctant conversion did not predict rebellion — which undercuts the simplest explanation of the Ridda as a reflex of shallow conversion. Local leadership seems to have mattered more than depth of belief.`},
+
+{id:"ansar",n:"Aws and Khazraj",who:"The Ansar",wh:"Medina",k:"loyal",d:1,
+ tags:["Repelled the Ghatafan raid","Reinforced Yamama"],
+ p:[`Medina itself was raided in the first weeks and defended by a scratch force. The Ansar had contested the succession at Saqifa days earlier, yet none of that dispute translated into support for the rebels.`,
+    `Ansari contingents were then sent to Yamama, where they took heavy casualties at Aqraba.`],
+ c:`Saqifa is often narrated as a near-rupture. That the same men then fought and died for Abu Bakr's caliphate within months is a useful check on how deep that rupture actually ran.`},
+
+{id:"tayyi",n:"Tayyi'",who:"Tayyi'",wh:"Jabal Aja and Salma",k:"loyal",d:2,
+ tags:["Adi b. Hatim","Part had leaned to Tulayha"],
+ p:[`Part of Tayyi' had inclined towards Tulayha, and the tribe sat directly in his path. Adi b. Hatim — son of the pre-Islamic byword for generosity — brought them back and delivered their <i>sadaqa</i>.`,
+    `Tayyi' contingents then fought on the Muslim side at Buzakha.`],
+ c:`Placed here, but with a caveat: a tribe that partly defected and was recovered before the fighting is not the same as one that never wavered. Whether Tayyi' counts as loyal depends on where you draw the line between hesitation and rebellion.`},
+
+{id:"abdqays",n:"Abd al-Qays",who:"Abd al-Qays",wh:"Bahrayn",k:"loyal",d:1,
+ tags:["al-Jarud b. al-Mu'alla","Besieged at Juwatha"],
+ p:[`While Bakr b. Wa'il raised the Lakhmid restoration, Abd al-Qays under al-Jarud b. al-Mu'alla stayed Muslim and were besieged at Juwatha until al-Ala' b. al-Hadrami relieved them.`],
+ c:`The reason no honest map can shade a region uniformly. Bahrayn contained both the war's clearest dynastic secession and one of its most tenacious loyalist communities, a few days' ride apart.`},
+
+{id:"thumama",n:"Thumama b. Uthal",who:"Part of Banu Hanifa",wh:"Yamama",k:"loyal",d:1,
+ tags:["Fought his own tribe","Later killed in Bahrayn"],
+ p:[`Thumama, a Hanafi chief captured and released years earlier by Muhammad, held a section of his own tribe against Musaylima and joined al-Ala' b. al-Hadrami's operations in Bahrayn.`],
+ c:`The counterpart to Abd al-Qays: as region was not uniform, neither was tribe. Hanifa produced both the war's greatest rebel and one of its more committed loyalists, which makes any purely tribal explanation of the Ridda inadequate.`},
+];
+
+/* ---------- state ---------- */
+let mode="browse", sel=null, placed={}, checked=false, armed=null;
+const board=document.getElementById("board"),
+      tray=document.getElementById("tray"),
+      trayCards=document.getElementById("trayCards"),
+      detail=document.getElementById("detail"),
+      bar=document.getElementById("bar");
+
+const byId=id=>CASES.find(c=>c.id===id);
+const meter=d=>`<span class="meter${d===3?" hot":""}" title="How contested this placement is">${[1,2,3].map(i=>`<i class="${i<=d?"lit":""}"></i>`).join("")}</span>`;
+
+function cardEl(c,{ghost=false,inTray=false,mark=null}={}){
+  const b=document.createElement("button");
+  b.className="card"+(ghost?" ghost":"")+(inTray?" tray-card":"")+(mode==="browse"||checked?` k-${ghost?c.also:c.k}`:"");
+  b.dataset.id=c.id;
+  b.innerHTML=`${mark?`<span class="mark ${mark}">${mark==="ok"?"fits":"no"}</span>`:""}`
+    +`<span class="nm">${c.n}${ghost?"":meter(c.d)}</span>`
+    +`<span class="meta">${c.who} · ${c.wh}</span>`
+    +(ghost?`<span class="ghost-tag">also classifiable here</span>`
+      :(mark==="no"?`<span class="ghost-tag">belongs under ${COLS.find(x=>x.k===c.k).t.toLowerCase()}</span>`:""));
+  b.onclick=e=>{
+    if(mode==="sort"&&!checked&&!ghost){
+      e.stopPropagation();
+      if(inTray){ armed=(armed===c.id?null:c.id); }
+      else { delete placed[c.id]; armed=null; }   // click a placed card to send it back
+      render(); updateScore(); show(c); return;
+    }
+    e.stopPropagation(); show(c);};
+  if(sel===c.id&&!ghost) b.setAttribute("aria-current","true");
+  return b;
+}
+
+function render(){
+  board.innerHTML="";
+  COLS.forEach(col=>{
+    const d=document.createElement("div");
+    d.className="col"+(mode==="sort"&&!checked?" drop":"")+(armed&&mode==="sort"&&!checked?" armed":"");
+    d.dataset.k=col.k;
+    d.innerHTML=`<h2>${col.t}</h2><p class="gloss">${col.g}</p>`;
+    if(mode==="sort"&&!checked){
+      d.tabIndex=0;
+      const place=()=>{ if(!armed) return; placed[armed]=col.k; armed=null; render(); updateScore(); };
+      d.onclick=place;
+      d.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();place();}};
+    }
+    if(mode==="browse"){
+      CASES.filter(c=>c.k===col.k).forEach(c=>d.appendChild(cardEl(c)));
+      CASES.filter(c=>c.also===col.k).forEach(c=>d.appendChild(cardEl(c,{ghost:true})));
+    }else{
+      CASES.filter(c=>placed[c.id]===col.k).forEach(c=>{
+        const ok = checked ? (c.k===col.k||c.also===col.k) : null;
+        d.appendChild(cardEl(c,{mark: checked ? (ok?"ok":"no") : null}));
+      });
+      if(checked) CASES.filter(c=>c.also===col.k&&placed[c.id]!==col.k).forEach(c=>d.appendChild(cardEl(c,{ghost:true})));
+    }
+    board.appendChild(d);
+  });
+  // tray
+  const left=CASES.filter(c=>!placed[c.id]);
+  tray.classList.toggle("on",mode==="sort"&&!checked);
+  bar.style.display = mode==="sort" ? "flex":"none";
+  if(mode==="sort"&&!checked){
+    trayCards.innerHTML="";
+    document.getElementById("trayCount").textContent=`— ${left.length} of ${CASES.length} left`;
+    if(!left.length) trayCards.innerHTML='<p class="tray-empty">All placed. Check your sort.</p>';
+    left.forEach(c=>{
+      const b=cardEl(c,{inTray:true});
+      if(armed===c.id) b.setAttribute("aria-current","true");
+      trayCards.appendChild(b);
+    });
+  }
+  document.getElementById("check").disabled = left.length>0 || checked;
+}
+
+function updateScore(){
+  if(!checked){document.getElementById("score").textContent = armed ? "Now choose a column." : "";return;}
+  const n=CASES.filter(c=>placed[c.id]===c.k||placed[c.id]===c.also).length;
+  document.getElementById("score").innerHTML=`<b>${n}</b> of ${CASES.length} placed in a defensible column.`;
+}
+
+function show(c){
+  sel=c.id;
+  const col=COLS.find(x=>x.k===c.k).t;
+  const alt=c.also?COLS.find(x=>x.k===c.also).t:null;
+  detail.className="detail";
+  detail.innerHTML=`
+    <div>
+      <h3>${c.n}</h3>
+      <p class="sub">${c.who} · ${c.wh}</p>
+      ${c.p.map(t=>`<p>${t}</p>`).join("")}
+    </div>
+    <div class="aside">
+      <h4>Placed under</h4>
+      <div class="tagrow"><span class="tag" style="color:var(--${c.k});border-color:var(--${c.k})">${col}</span>
+      ${alt?`<span class="tag" style="color:var(--${c.also});border-color:var(--${c.also})">also ${alt}</span>`:""}</div>
+      <h4>Where it's contested ${meter(c.d)}</h4>
+      <div class="box">${c.c}</div>
+      <h4>Markers</h4>
+      <div class="tagrow">${c.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
+    </div>`;
+  render();
+  detail.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+/* ---------- modes ---------- */
+const NOTE={
+ browse:"Nineteen cases, placed where the weight of the evidence puts them. Dashed cards are the same case appearing a second time in a column it also has a claim on. Select any card for the detail and the dispute.",
+ sort:"Pick a case from the unsorted row, then choose a column for it. Cases with a real claim on two columns are marked correct either way — the point is not a score but noticing which ones refuse to sit still. Click a card you have already placed to send it back."};
+function setMode(m){
+  mode=m; checked=false; armed=null; placed={}; sel=null;
+  document.getElementById("mBrowse").setAttribute("aria-pressed",m==="browse");
+  document.getElementById("mSort").setAttribute("aria-pressed",m==="sort");
+  document.getElementById("modenote").textContent=NOTE[m];
+  detail.className="detail empty";
+  detail.textContent = m==="browse" ? "Select a card to read the case." : "Place a case, or select one to read it first.";
+  document.getElementById("score").textContent="";
+  render();
+}
+document.getElementById("mBrowse").onclick=()=>setMode("browse");
+document.getElementById("mSort").onclick=()=>setMode("sort");
+document.getElementById("check").onclick=()=>{checked=true;render();updateScore();};
+document.getElementById("reset").onclick=()=>setMode("sort");
+
+setMode("browse");
+</script>
+</body>
+</html>

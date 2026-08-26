@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ridda Wars — Teaching Map, 11–13 AH</title>
+<style>
+:root{
+  --ink:#0F1922;
+  --ink-2:#16232E;
+  --sea:#0A2028;
+  --land:#57553F;
+  --land-hi:#6B6850;
+  --sand:#7E795C;
+  --gold:#E3AA3E;
+  --madder:#B4463A;
+  --verdigris:#4E9A88;
+  --parch:#EAE4D4;
+  --mute:#93A0A2;
+  --rule:rgba(234,228,212,.14);
+  --display:"Palatino Linotype",Palatino,"Iowan Old Style","Book Antiqua",Georgia,serif;
+  --ui:"Avenir Next","Segoe UI",Inter,system-ui,-apple-system,sans-serif;
+  --mono:ui-monospace,"SF Mono","Roboto Mono",Menlo,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:
+    radial-gradient(120% 80% at 50% -10%, #1B2C38 0%, var(--ink) 55%, #0A121A 100%);
+  color:var(--parch);
+  font-family:var(--ui);
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 18px 40px}
+
+/* ---------- masthead ---------- */
+header{border-bottom:1px solid var(--rule);padding-bottom:14px;margin-bottom:16px}
+.eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);margin:0 0 6px
+}
+h1{
+  font-family:var(--display);font-weight:400;font-size:clamp(26px,5.2vw,44px);
+  line-height:1.02;margin:0;letter-spacing:-.01em
+}
+h1 em{font-style:italic;color:var(--gold)}
+.standfirst{margin:8px 0 0;max-width:60ch;color:var(--mute);font-size:14px;line-height:1.55}
+
+/* ---------- layout ---------- */
+.stage-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px;margin:18px 0 10px}
+.stage-num{font-family:var(--mono);font-size:12px;color:var(--gold);letter-spacing:.14em}
+.stage-title{font-family:var(--display);font-size:clamp(19px,3.4vw,26px);margin:0;font-weight:400}
+.stage-date{font-family:var(--mono);font-size:12px;color:var(--mute);letter-spacing:.06em}
+
+figure.map{margin:0;position:relative;border:1px solid var(--rule);border-radius:3px;overflow:hidden;background:var(--sea)}
+svg#map{display:block;width:100%;height:auto}
+
+.caption{
+  display:grid;grid-template-columns:1.6fr 1fr;gap:20px;margin-top:16px;
+  padding-top:16px;border-top:1px solid var(--rule)
+}
+.caption p{margin:0 0 10px;font-size:15px;line-height:1.6;max-width:62ch}
+.caution{
+  font-size:13px;line-height:1.55;color:var(--mute);
+  border-left:2px solid var(--madder);padding-left:12px;margin-top:12px
+}
+.caution b{color:var(--parch);font-weight:600}
+
+/* ---------- legend ---------- */
+.legend{font-size:12.5px;line-height:1.5}
+.legend h3{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin:0 0 8px;font-weight:400}
+.legend ul{list-style:none;margin:0;padding:0}
+.legend li{display:flex;gap:9px;align-items:flex-start;margin-bottom:6px;color:var(--mute)}
+.roll{margin-top:14px;padding-top:12px;border-top:1px solid var(--rule)}
+.roll dl{margin:0;font-size:12px;line-height:1.45}
+.roll div{display:flex;justify-content:space-between;gap:10px;padding:3px 0;border-bottom:1px dotted rgba(234,228,212,.09)}
+.roll dt{color:var(--parch)}
+.roll dd{margin:0;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+.roll dd.held{color:#4E9A88}.roll dd.lost{color:#B4463A}.roll dd.killed{color:#D9736A}
+.swatch{width:11px;height:11px;flex:none;margin-top:3px;border-radius:2px}
+.swatch.line{height:0;border-top:2.5px solid;margin-top:8px;border-radius:0}
+
+/* ---------- timeline spine (signature) ---------- */
+.spine{margin-top:26px;padding-top:18px;border-top:1px solid var(--rule)}
+.spine-rail{position:relative;height:64px}
+.spine-line{position:absolute;left:0;right:0;top:26px;height:1px;background:var(--rule)}
+.spine-fill{position:absolute;left:0;top:25px;height:3px;background:linear-gradient(90deg,var(--madder),var(--gold));transition:width .5s cubic-bezier(.4,0,.2,1)}
+.node{
+  position:absolute;top:0;transform:translateX(-50%);
+  background:none;border:0;padding:0;cursor:pointer;color:var(--mute);
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;text-align:center;width:96px
+}
+.node .dot{
+  width:9px;height:9px;border-radius:50%;background:var(--ink-2);
+  border:1.5px solid var(--mute);margin:21px auto 8px;transition:all .3s
+}
+.node .lbl{display:block;line-height:1.35;opacity:.8;font-size:9px}
+.node:hover .dot{border-color:var(--parch)}
+.node[aria-current="true"]{color:var(--gold)}
+.node[aria-current="true"] .dot{background:var(--gold);border-color:var(--gold);transform:scale(1.35)}
+.node[aria-current="true"] .lbl{opacity:1}
+.node:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+
+.controls{display:flex;gap:8px;align-items:center;margin-top:6px;flex-wrap:wrap}
+button.ctl{
+  font-family:var(--ui);font-size:13px;letter-spacing:.02em;
+  background:transparent;color:var(--parch);border:1px solid var(--rule);
+  padding:8px 15px;border-radius:2px;cursor:pointer;transition:all .2s
+}
+button.ctl:hover:not(:disabled){border-color:var(--gold);color:var(--gold)}
+button.ctl:disabled{opacity:.3;cursor:default}
+button.ctl.primary{border-color:var(--gold);color:var(--gold)}
+button.ctl:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.hint{font-size:12px;color:var(--mute);margin-left:auto}
+
+footer{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);font-size:12.5px;line-height:1.6;color:var(--mute)}
+footer b{color:var(--parch);font-weight:600}
+
+/* ---------- svg element styles ---------- */
+.zone{opacity:0;transition:opacity .6s}
+.zone.on{opacity:1}
+.zone-fill{fill:#7E7B5C;opacity:.62;filter:url(#feather)}
+.zone-fill.rebel{fill:var(--madder);opacity:.4}
+.t-label{fill:var(--parch);font-family:var(--ui);font-size:14px;letter-spacing:.03em;text-anchor:middle;opacity:.9}
+.t-label.small{font-size:12px;opacity:.7}
+.region{fill:var(--parch);font-family:var(--ui);font-size:19px;letter-spacing:.34em;text-anchor:middle;opacity:.2;text-transform:uppercase}
+.city{fill:var(--parch);font-family:var(--ui);font-size:12.5px;letter-spacing:.02em}
+.city,.battle-label,.rebel-lbl,.rebel-sub,.arrow-lbl{paint-order:stroke fill;stroke:#0C151C;stroke-width:3.2px;stroke-linejoin:round}
+.city-dot{fill:var(--parch)}
+.battle-label{fill:var(--gold);font-family:var(--ui);font-size:12.5px;font-weight:600}
+.rebel-lbl{fill:#F2B0A6;font-family:var(--ui);font-size:12.5px;font-weight:600}
+.rebel-sub{fill:#EAE4D4;font-family:var(--ui);font-size:10.5px;opacity:.62}
+.grp{opacity:0;transition:opacity .5s;pointer-events:none}
+.grp.on{opacity:1;pointer-events:auto}
+path.arrow{
+  fill:none;stroke-width:2.6;stroke-linecap:round;
+  stroke-dasharray:var(--len);stroke-dashoffset:var(--len);
+}
+path.arrow.draw{transition:stroke-dashoffset 1.05s cubic-bezier(.45,.05,.35,1);stroke-dashoffset:0}
+path.arrow.gold{stroke:var(--gold)}
+path.arrow.red{stroke:var(--madder)}
+path.arrow.thin{stroke-width:1.9;opacity:.85}
+.arrow-lbl{font-family:var(--mono);font-size:11px;letter-spacing:.03em;font-weight:600}
+.arrow-lbl.gold{fill:var(--gold)}
+.arrow-lbl.red{fill:#F2B0A6}
+.pin-held{fill:var(--verdigris)}
+.pin-lost{fill:var(--madder)}
+.pin-neutral{fill:var(--parch)}
+.pin-ring{fill:none;stroke-width:1.4}
+.flare{transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:.55}}
+.zone-fill.rebel.on-pulse{animation:pulse 3.4s ease-in-out infinite}
+
+.scrollnote{display:none;font-size:11.5px;color:var(--mute);margin:6px 0 0;font-family:var(--mono);letter-spacing:.04em}
+@media (max-width:760px){
+  .caption{grid-template-columns:1fr;gap:16px}
+  .hint{width:100%;margin-left:0;margin-top:6px}
+  /* the map needs real width to stay readable — let it scroll sideways */
+  figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  svg#map{width:900px;max-width:none}
+  .scrollnote{display:block}
+  .node{width:34px}
+  .node .lbl{display:none}
+  .spine-rail{height:34px}
+  .node .dot{margin:12px auto 0}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition-duration:.01ms !important}
+  path.arrow{stroke-dashoffset:0 !important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">11–13 AH · 632–634 CE</p>
+  <h1>The <em>Ridda</em> Wars</h1>
+  <p class="standfirst">Six steps through the crisis that opened Abu Bakr's caliphate: who lived where, who collected on the state's behalf, where that authority collapsed, and how it was reimposed by force in roughly ten months.</p>
+</header>
+
+<div class="stage-head">
+  <span class="stage-num" id="sNum">01 / 07</span>
+  <h2 class="stage-title" id="sTitle">Tribal Arabia</h2>
+  <span class="stage-date" id="sDate">c. 632 CE</span>
+</div>
+
+<figure class="map">
+<svg id="map" viewBox="0 0 1080 880" role="img" aria-labelledby="mapTitle">
+  <title id="mapTitle">Schematic map of the Arabian Peninsula showing tribal territories, governors, rebellions and campaigns of the Ridda Wars</title>
+  <defs>
+    <filter id="feather" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <marker id="ahGold" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5.2" markerHeight="5.2" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 z" fill="#E3AA3E"/>
+    </marker>
+    <marker id="ahRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5.2" markerHeight="5.2" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 z" fill="#B4463A"/>
+    </marker>
+    <pattern id="sands" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#8C8666" stroke-width="1" opacity=".28"/>
+    </pattern>
+  </defs>
+
+  <rect width="1080" height="880" fill="#0A2028"/>
+
+  <!-- landmass -->
+  <path id="arabia" fill="#4A4A38" stroke="#9C9576" stroke-width="1.1" stroke-opacity=".45"
+    d="M80,176 L100,220 L132,264 L168,320 L200,396 L232,456 L248,500 L280,560 L320,600
+       L360,648 L384,684 L400,760 L412,848 L448,856 L480,848 L540,820 L600,800 L644,780
+       L720,752 L780,712 L840,680 L900,620 L960,560 L1020,500 L1072,460 L1024,416 L968,384
+       L936,360 L936,304 L916,342 L892,348 L840,384 L780,392 L748,376 L744,324 L722,368
+       L688,320 L664,280 L632,220 L608,180 L592,144 L560,120 L456,84 L360,80 L260,100
+       L180,112 L120,140 Z"/>
+  <!-- empty quarter -->
+  <path fill="url(#sands)" opacity=".65"
+    d="M580,540 L740,520 L832,578 L790,650 L660,658 L580,618 Z"/>
+  <text class="region" x="702" y="592" opacity=".15">Al-Rub' al-Khali</text>
+
+  <!-- region names -->
+  <g id="regions">
+    <text class="region" x="270" y="450">Hijaz</text>
+    <text class="region" x="440" y="380">Najd</text>
+    <text class="region" x="606" y="508">Yamama</text>
+    <text class="region" x="566" y="232">Bahrayn</text>
+    <text class="region" x="972" y="492">Oman</text>
+    <text class="region" x="642" y="678">Hadramawt</text>
+    <text class="region" x="414" y="792">Yemen</text>
+    <text class="region" x="244" y="116">Syrian Marches</text>
+  </g>
+
+  <g id="zones"></g>
+  <g id="arrowLayer"></g>
+  <g id="places"></g>
+  <g id="pins"></g>
+  <g id="battles"></g>
+</svg>
+</figure>
+<p class="scrollnote">Drag the map sideways to see the whole peninsula.</p>
+
+<div class="caption">
+  <div>
+    <div id="sBody"></div>
+    <div class="caution" id="sCaution"></div>
+  </div>
+  <div class="legend">
+    <h3>Reading the map</h3>
+    <ul id="legendList"></ul>
+    <div id="legendExtra"></div>
+  </div>
+</div>
+
+<div class="spine">
+  <div class="spine-rail" id="rail">
+    <div class="spine-line"></div>
+    <div class="spine-fill" id="fill" style="width:0%"></div>
+  </div>
+  <div class="controls">
+    <button class="ctl" id="prev">← Back</button>
+    <button class="ctl primary" id="play">Play sequence</button>
+    <button class="ctl" id="next">Next →</button>
+    <span class="hint">Arrow keys also step through the sequence.</span>
+  </div>
+</div>
+
+<footer>
+  <b>Sources and their limits.</b> The narrative behind this map comes from al-Tabari, al-Baladhuri, Ibn Sa'd and the Sayf b. Umar material they transmit — written 150–250 years after the events, often in conflict on chronology, and shaped by later Iraqi and tribal claims. Sayf in particular is treated as unreliable by many modern scholars. Boundaries here are feathered because tribal territory had no lines; battle sites like Buzakha, Butah and Aqraba are located only approximately, and several are unidentified on the ground. Use the map to teach structure, not precision. For the scholarly baseline see Fred Donner, <i>The Early Islamic Conquests</i> (1981); Ella Landau-Tasseron on the Ridda traditions; Hugh Kennedy, <i>The Prophet and the Age of the Caliphates</i>.
+</footer>
+
+</div>
+
+<script>
+const SVGNS="http://www.w3.org/2000/svg";
+const el=(t,a={})=>{const n=document.createElementNS(SVGNS,t);for(const k in a)n.setAttribute(k,a[k]);return n;};
+
+/* ---------------- data ---------------- */
+const TRIBES=[
+ {n:"Judham · Lakhm · Bali",p:"110,152 170,132 182,226 120,232",lx:138,ly:200,s:1},
+ {n:"Kalb · Quda'a",p:"200,112 330,102 344,180 214,196",lx:272,ly:154},
+ {n:"Bakr b. Wa'il",p:"482,132 596,126 612,206 498,216",lx:546,ly:176},
+ {n:"Tayyi'",p:"296,208 376,200 386,258 310,268",lx:332,ly:222},
+ {n:"Banu Asad",p:"366,244 450,236 464,300 388,312",lx:408,ly:258},
+ {n:"Ghatafan",p:"290,300 396,286 418,346 322,366",lx:352,ly:334},
+ {n:"Banu Tamim",p:"452,254 574,248 594,340 472,352",lx:530,ly:280},
+ {n:"Banu Hanifa",p:"522,362 604,356 614,444 532,454",lx:594,ly:452},
+ {n:"Abd al-Qays",p:"594,272 664,288 672,352 602,346",lx:622,ly:306},
+ {n:"Sulaym",p:"298,394 372,382 392,430 318,448",lx:350,ly:410},
+ {n:"Hawazin",p:"332,450 404,440 424,498 352,516",lx:396,ly:474},
+ {n:"Quraysh",p:"244,464 302,464 318,522 284,550 240,528",lx:296,ly:460},
+ {n:"Aws · Khazraj",p:"230,344 296,338 308,390 258,408 224,384",lx:238,ly:332},
+ {n:"Thaqif",p:"300,486 342,480 352,520 310,530",lx:352,ly:534,s:1},
+ {n:"Khath'am · Bajila",p:"366,576 440,566 450,640 378,650",lx:404,ly:604},
+ {n:"Azd",p:"900,374 982,406 992,472 908,462",lx:944,ly:428},
+ {n:"Mahra",p:"714,616 826,600 834,672 730,690",lx:778,ly:648},
+ {n:"Kinda",p:"586,684 718,670 728,752 598,764",lx:658,ly:754},
+ {n:"Madhhij",p:"458,716 556,704 568,786 468,798",lx:528,ly:776},
+ {n:"Hamdan",p:"412,674 470,668 480,738 422,746",lx:420,ly:698,s:1},
+ {n:"Himyar",p:"428,776 510,768 516,842 438,850",lx:470,ly:828,s:1},
+];
+const REBEL_ZONES=["Banu Asad","Ghatafan","Banu Tamim","Banu Hanifa","Abd al-Qays","Azd","Mahra","Kinda","Madhhij","Hamdan","Himyar","Bakr b. Wa'il","Kalb · Quda'a","Sulaym","Hawazin"];
+
+const PLACES=[
+ {n:"Medina",x:264,y:380,anchor:"end",dx:-8},
+ {n:"Mecca",x:272,y:504,anchor:"end",dx:-8},
+ {n:"Ta'if",x:296,y:512,anchor:"start",dx:8},
+ {n:"Dhu Qissa",x:292,y:372,anchor:"start",dx:8,dy:-6},
+ {n:"Buzakha",x:348,y:260,anchor:"start",dx:8},
+ {n:"Butah",x:480,y:340,anchor:"start",dx:8},
+ {n:"al-Yamama",x:560,y:400,anchor:"start",dx:9},
+ {n:"Hajar",x:664,y:344,anchor:"start",dx:8},
+ {n:"Darin",x:682,y:296,anchor:"end",dx:-8},
+ {n:"Daba",x:932,y:336,anchor:"end",dx:-8},
+ {n:"Suhar",x:948,y:384,anchor:"end",dx:-8},
+ {n:"Najran",x:448,y:660,anchor:"start",dx:8},
+ {n:"San'a",x:448,y:744,anchor:"start",dx:8},
+ {n:"al-Janad",x:466,y:812,anchor:"start",dx:8},
+ {n:"al-Nujayr",x:632,y:724,anchor:"start",dx:8},
+ {n:"al-Hira",x:456,y:84,anchor:"start",dx:8},
+ {n:"Bosra",x:140,y:60,anchor:"start",dx:8},
+];
+
+/* agents appointed by Muhammad, and their fate in the Ridda */
+const AGENTS=[
+ {n:"Attab b. Asid",at:"Mecca",x:272,y:504,fate:"held",dx:-10,anchor:"end"},
+ {n:"Uthman b. Abi al-As",at:"Ta'if",x:296,y:512,fate:"held",dx:10,anchor:"start",dy:16},
+ {n:"Adi b. Hatim",at:"Tayyi'",x:344,y:240,fate:"held",dx:10,anchor:"start"},
+ {n:"al-Ala' b. al-Hadrami",at:"Bahrayn",x:664,y:344,fate:"lost",dx:12,anchor:"start",dy:16},
+ {n:"Amr b. al-As",at:"Oman",x:948,y:384,fate:"lost",dx:-10,anchor:"end",dy:16},
+ {n:"Shahr b. Badhan",at:"San'a",x:448,y:744,fate:"killed",dx:10,anchor:"start",dy:16},
+ {n:"Mu'adh b. Jabal",at:"al-Janad",x:466,y:812,fate:"lost",dx:10,anchor:"start",dy:16},
+ {n:"Amr b. Hazm",at:"Najran",x:448,y:660,fate:"lost",dx:10,anchor:"start",dy:16},
+ {n:"Ziyad b. Labid",at:"Hadramawt",x:632,y:724,fate:"held",dx:10,anchor:"start",dy:16},
+ {n:"Thumama b. Uthal",at:"Yamama",x:560,y:400,fate:"held",dx:10,anchor:"start",dy:16},
+];
+
+const REBELS=[
+ {n:"Tulayha b. Khuwaylid",sub:"Asad · Ghatafan",x:348,y:260,dx:10,anchor:"start",dy:-8},
+ {n:"Musaylima",sub:"Banu Hanifa",x:560,y:400,dx:12,anchor:"start",dy:-8},
+ {n:"Malik b. Nuwayra",sub:"Banu Tamim",x:480,y:340,dx:10,anchor:"start",dy:-8},
+ {n:"al-Hutam",sub:"Bahrayn",x:664,y:344,off:42},
+ {n:"Laqit b. Malik",sub:"Oman",x:932,y:336,dx:-10,anchor:"end",dy:-8},
+ {n:"al-Ash'ath b. Qays",sub:"Kinda",x:632,y:724,dx:10,anchor:"start",dy:-8},
+ {n:"Qays b. Abd Yaghuth",sub:"Yemen",x:448,y:744,dx:10,anchor:"start",dy:-8},
+ {n:"Sajah",sub:"Taghlib · Tamim",x:540,y:200,dx:10,anchor:"start",dy:-8},
+];
+
+/* arrows: [x1,y1,x2,y2,bend,colour,label,labelPos] */
+const A={
+ raid:[
+  {p:[364,330,284,376],b:24,c:"red",l:"Ghatafan and Abs raid Medina",lp:.15,ld:[-16,-48]},
+  {p:[268,392,318,354],b:-16,c:"gold",l:"Abu Bakr's riposte at Abraq",lp:.5,ld:[-46,66]},
+ ],
+ corps:[
+  {p:[292,376,348,268],b:-22,c:"gold",l:"1 Khalid b. al-Walid",lp:0.86,ld:[-92,-36]},
+  {p:[292,376,548,398],b:34,c:"gold",l:"2 Ikrima",lp:0.86,ld:[-6,30]},
+  {p:[292,376,552,414],b:62,c:"gold",l:"3 Shurahbil",lp:0.84,ld:[-30,38]},
+  {p:[292,376,452,730],b:70,c:"gold",l:"4 al-Muhajir",lp:0.8,ld:[-92,12]},
+  {p:[292,376,158,126],b:22,c:"gold",l:"5 Khalid b. Sa'id",lp:0.86,ld:[14,-8]},
+  {p:[292,376,252,146],b:-30,c:"gold",l:"6 Amr b. al-As",lp:0.84,ld:[18,16]},
+  {p:[292,376,918,332],b:-92,c:"gold",l:"7 Hudhayfa → Oman",lp:0.8,ld:[-40,-22]},
+  {p:[292,376,776,684],b:96,c:"gold",l:"8 Arfaja → Mahra",lp:0.8,ld:[-24,34]},
+  {p:[292,376,352,462],b:-18,c:"gold",l:"9 Turayfa",lp:0.92,ld:[12,16]},
+  {p:[292,376,404,700],b:38,c:"gold",l:"10 Suwayd → Tihama",lp:0.82,ld:[-96,6]},
+  {p:[292,376,652,348],b:-46,c:"gold",l:"11 al-Ala' → Bahrayn",lp:0.84,ld:[-46,-20]},
+  {p:[560,180,510,300],b:-24,c:"red",l:"Sajah from the Jazira",lp:0.3,ld:[14,-6]},
+ ],
+ khalid:[
+  {p:[292,376,344,264],b:-20,c:"gold",l:"",lp:.5,ld:[0,0]},
+  {p:[344,264,372,300],b:14,c:"gold",l:"Ghamra",lp:.6,ld:[8,6],thin:1},
+  {p:[372,300,404,244],b:16,c:"gold",l:"Zafar",lp:.6,ld:[8,-2],thin:1},
+  {p:[404,244,478,336],b:20,c:"gold",l:"",lp:.5,ld:[0,0]},
+  {p:[478,336,556,396],b:16,c:"gold",l:"",lp:.5,ld:[0,0]},
+  {p:[268,382,548,392],b:52,c:"gold",l:"Ansar reinforcements",lp:.5,ld:[-52,32],thin:1},
+  {p:[404,272,268,206],b:20,c:"red",l:"Tulayha flees to Syria",lp:.55,ld:[-4,-12],thin:1},
+ ],
+ east:[
+  {p:[292,376,652,346],b:-44,c:"gold",l:"al-Ala' b. al-Hadrami",lp:.42,ld:[-40,-10]},
+  {p:[664,344,678,300],b:12,c:"gold",l:"crossing to Darin",lp:.5,ld:[16,16],thin:1},
+  {p:[292,376,916,334],b:-96,c:"gold",l:"Hudhayfa · Ikrima → Daba",lp:.46,ld:[-150,-26]},
+  {p:[932,336,800,672],b:70,c:"gold",l:"Ikrima → Mahra",lp:.42,ld:[-40,-64],thin:1},
+  {p:[292,376,452,726],b:74,c:"gold",l:"al-Muhajir → San'a",lp:.6,ld:[12,10]},
+  {p:[452,744,624,722],b:26,c:"gold",l:"→ Hadramawt",lp:.42,ld:[-30,36],thin:1},
+  {p:[624,726,636,730],b:6,c:"gold",l:"",lp:.5,ld:[0,0],thin:1},
+ ],
+ out:[
+  {p:[556,398,586,196],b:34,c:"gold",l:"Khalid → Iraq, 633",lp:.34,ld:[-116,4]},
+  {p:[586,196,470,96],b:20,c:"gold",l:"",lp:.5,ld:[0,0],thin:1},
+  {p:[276,362,180,120],b:32,c:"gold",l:"Syrian corps, 633–34",lp:.45,ld:[-104,-4]},
+  {p:[470,96,168,110],b:-60,c:"gold",l:"Khalid's desert march, 634",lp:.5,ld:[-56,-14],thin:1},
+  {p:[178,120,120,106],b:12,c:"gold",l:"",lp:.5,ld:[0,0],thin:1},
+ ],
+};
+
+const BATTLES={
+ khalid:[{n:"Buzakha",x:348,y:260},{n:"Butah",x:480,y:340},{n:"Aqraba",x:560,y:400}],
+ east:[{n:"Hajar and Juwatha",x:664,y:344},{n:"Daba",x:932,y:336},{n:"al-Nujayr",x:632,y:724}],
+ out:[{n:"al-Hira",x:456,y:84},{n:"Ajnadayn",x:116,y:104}],
+};
+
+/* ---------------- stages ---------------- */
+const LEG={
+ tribe:['<span class="swatch" style="background:#6B6850"></span>','Tribal territory — feathered because it had no border'],
+ held:['<span class="swatch" style="background:#4E9A88"></span>','Agent held his post'],
+ lost:['<span class="swatch" style="background:#B4463A"></span>','Agent expelled or forced to withdraw'],
+ killed:['<span class="swatch" style="background:#B4463A;border:2px solid #EAE4D4"></span>','Agent killed'],
+ rebel:['<span class="swatch" style="background:#B4463A;opacity:.55"></span>','Territory in open revolt'],
+ gold:['<span class="swatch line" style="border-color:#E3AA3E"></span>','Movement of Medinan forces'],
+ red:['<span class="swatch line" style="border-color:#B4463A"></span>','Movement of rebel forces'],
+ battle:['<span class="swatch" style="background:#E3AA3E;border-radius:50%"></span>','Battle (site approximate)'],
+};
+
+const STAGES=[
+ {t:"Tribal Arabia",d:"c. 632 CE / 11 AH",tick:"632<br>tribes",
+  zones:"plain",places:1,tribeNames:1,
+  body:`<p>Start with the human geography, because everything after it is a story about these groups and not about provinces. The peninsula was a patchwork of kin-based confederations: the settled Quraysh at Mecca and the Aws and Khazraj at Medina; the great Najdi blocs of Asad, Ghatafan and Tamim; Hanifa in the oasis belt of Yamama; Abd al-Qays on the Gulf coast; Azd in Oman; Kinda, Madhhij, Hamdan and Himyar across Yemen and Hadramawt.</p>
+  <p>Almost none of these had been ruled by Medina for more than a year or two. Many had submitted only during the so-called Year of Delegations, 630–632.</p>`,
+  caution:`<b>Teaching point:</b> ask students what a "tribe" is on this map. These blobs merge, split and migrate; Ghatafan is itself a bundle of Abs, Dhubyan and Fazara. The soft edges are the argument.`,
+  leg:["tribe"]},
+
+ {t:"The Prophet's agents",d:"630 – June 632",tick:"630–32<br>agents",
+  zones:"faded",places:1,tribeNames:1,agents:"neutral",
+  body:`<p>Muhammad governed this space through personal appointees — <i>'ummal</i>, agents who collected <i>sadaqa</i> and represented Medina — rather than through a bureaucracy. Attab b. Asid at Mecca, Uthman b. Abi al-As at Ta'if, al-Ala' b. al-Hadrami in Bahrayn, Amr b. al-As in Oman, Mu'adh b. Jabal and others across Yemen, Ziyad b. Labid in Hadramawt.</p>
+  <p>The point to press with students: these are men, not offices. Their authority was an extension of one person's, and it had no institutional depth to fall back on.</p>`,
+  caution:`<b>Contested:</b> the lists of appointees differ between Ibn Sa'd, al-Tabari and al-Baladhuri, and some names may be retrojected. Treat the pattern as solid and any single name as arguable.`,
+  leg:["tribe"]},
+
+ {t:"The apostasy",d:"June – August 632",tick:"Jun 632<br>collapse",
+  zones:"rebel",places:1,agents:"fate",rebels:1,extra:`<div class="roll"><dl><div><dt>Attab b. Asid<span style="color:#93A0A2"> · Mecca</span></dt><dd class="held">held</dd></div><div><dt>Uthman b. Abi al-As<span style="color:#93A0A2"> · Ta'if</span></dt><dd class="held">held</dd></div><div><dt>Adi b. Hatim<span style="color:#93A0A2"> · Tayyi'</span></dt><dd class="held">held</dd></div><div><dt>Ziyad b. Labid<span style="color:#93A0A2"> · Hadramawt</span></dt><dd class="held">held</dd></div><div><dt>Thumama b. Uthal<span style="color:#93A0A2"> · Yamama</span></dt><dd class="held">held</dd></div><div><dt>al-Ala' b. al-Hadrami<span style="color:#93A0A2"> · Bahrayn</span></dt><dd class="lost">expelled</dd></div><div><dt>Amr b. al-As<span style="color:#93A0A2"> · Oman</span></dt><dd class="lost">withdrew</dd></div><div><dt>Amr b. Hazm<span style="color:#93A0A2"> · Najran</span></dt><dd class="lost">fled</dd></div><div><dt>Mu'adh b. Jabal<span style="color:#93A0A2"> · al-Janad</span></dt><dd class="lost">fled</dd></div><div><dt>Shahr b. Badhan<span style="color:#93A0A2"> · San'a</span></dt><dd class="killed">killed</dd></div></dl></div>`,
+  body:`<p>Muhammad died in Rabi' al-Awwal 11 / June 632. Within weeks the agent network came apart. In Yemen al-Aswad al-Ansi had already killed Shahr b. Badhan and driven Muslim agents out — he was assassinated shortly before or after the Prophet's death, but Yemen stayed unstable under Qays b. Abd Yaghuth. Al-Ala' was pushed out of Bahrayn, Amr b. al-As withdrew from Oman, Mu'adh and Amr b. Hazm fled the south.</p>
+  <p>Four figures claimed prophethood or something like it: Tulayha among Asad, Musaylima in Yamama, Sajah moving down from the Jazira with Taghlib support, and al-Aswad in Yemen. Others, like Malik b. Nuwayra of Tamim, simply stopped paying and made no religious claim at all.</p>`,
+  caution:`<b>The word does work:</b> "<i>ridda</i>" means apostasy and is the victors' framing. Much of the resistance was a refusal of taxation and of Qurashi political supremacy after the death of the man people had personally sworn to. Sorting the map's red into "left Islam", "withheld <i>sadaqa</i>", and "backed a rival prophet" is the single best discussion exercise in this unit.`,
+  leg:["held","lost","killed","rebel"]},
+
+ {t:"Dhu Qissa and the eleven corps",d:"August – September 632",tick:"Aug 632<br>Dhu Qissa",
+  zones:"rebel",places:1,arrows:["raid","corps"],
+  body:`<p>Ghatafan and Abs raided Medina itself. Abu Bakr repelled them with a scratch force and followed up at Abraq — a small engagement with outsized effect, since it broke the sense that Medina could be taken.</p>
+  <p>He then mustered at Dhu Qissa and divided the army into eleven corps, each with a named commander and a named target. This is the moment worth pausing on: it is the first act of the caliphate as a state, an allocation of force across a whole peninsula rather than a single expedition.</p>`,
+  caution:`<b>Contested:</b> the tidy figure of eleven corps with a written brief for each comes largely through Sayf b. Umar and may be a later schematisation of a messier sequence of dispatches. The arrows imply a simultaneity the sources do not really support.`,
+  leg:["gold","red","rebel"]},
+
+ {t:"Khalid in Najd and Yamama",d:"September – December 632",tick:"Sep–Dec<br>Najd",
+  zones:"rebel",places:1,arrows:["khalid"],battles:"khalid",
+  body:`<p>Khalid b. al-Walid took the central axis. At Buzakha he broke Tulayha's coalition — Uyayna b. Hisn was captured and Tulayha escaped to Syria, later returning to Islam. Mopping-up followed at Ghamra and Zafar.</p>
+  <p>At al-Butah he confronted Malik b. Nuwayra of Tamim and had him killed, then married his widow. He moved on to Yamama, where Ikrima had already been repulsed, and fought Musaylima at Aqraba — the bloodiest battle of the war, ending in the walled enclosure remembered as the Garden of Death. Musaylima was killed; so were a large number of Muslims who had memorised the Qur'an.</p>`,
+  caution:`<b>Contested and consequential:</b> Umar held that Khalid had murdered a Muslim and demanded he be punished; Abu Bakr refused. The episode is a live disagreement in the sources themselves, not a modern invention, and it anchors the debate over whether Khalid was indispensable or unaccountable. The tradition that Aqraba's casualties among the <i>qurra'</i> prompted the collection of the Qur'an is reported, but its reliability is disputed.`,
+  leg:["gold","red","battle"]},
+
+ {t:"The east and the south",d:"633",tick:"633<br>east & south",
+  zones:"rebel",places:1,arrows:["east"],battles:"east",
+  body:`<p>Al-Ala' b. al-Hadrami retook Bahrayn, relieving Juwatha and crossing to Darin. Hudhayfa and Ikrima put down Laqit b. Malik at Daba in Oman; Ikrima went on into Mahra with Arfaja. Al-Muhajir b. Abi Umayya restored Medinan control at San'a, then joined Ziyad b. Labid against Kinda in Hadramawt.</p>
+  <p>The war ended at the fortress of al-Nujayr, where al-Ash'ath b. Qays surrendered, was sent to Medina, was pardoned, and married Abu Bakr's sister. By the close of 633 the peninsula was under one authority for the first time.</p>`,
+  caution:`<b>Note the pattern:</b> elites who submitted were reintegrated rather than destroyed — al-Ash'ath, Uyayna, Tulayha, Amr b. al-As. The settlement was political as much as military, which is part of why it held.`,
+  leg:["gold","battle"]},
+
+ {t:"Outward",d:"633 – August 634",tick:"634<br>outward",
+  zones:"faded",places:1,arrows:["out"],battles:"out",
+  body:`<p>The armies raised for the Ridda did not stand down. Khalid went into Sasanian Iraq in 633, taking al-Hira; four corps under Amr b. al-As, Yazid b. Abi Sufyan, Shurahbil and Abu Ubayda moved on Byzantine Syria. In 634 Khalid crossed the desert from Iraq to reinforce them, and the combined force won at Ajnadayn in July.</p>
+  <p>Abu Bakr died the following month, in Jumada II 13 / August 634, having reigned about two years and three months. He left a unified peninsula and two open fronts.</p>`,
+  caution:`<b>Causation question for seminar:</b> was the outward push a deliberate policy, an economic necessity once raiding within Arabia was forbidden, or a momentum effect of having a mobilised army with nothing left to fight? Donner, Crone and Kennedy give different weight to each.`,
+  leg:["gold","battle"]},
+];
+
+/* ---------------- build ---------------- */
+const zonesG=document.getElementById("zones"),
+      placesG=document.getElementById("places"),
+      pinsG=document.getElementById("pins"),
+      arrowG=document.getElementById("arrowLayer"),
+      battleG=document.getElementById("battles");
+
+/* zones */
+TRIBES.forEach((t,i)=>{
+  const g=el("g",{class:"zone","data-tribe":t.n});
+  g.appendChild(el("polygon",{points:t.p,class:"zone-fill"+(REBEL_ZONES.includes(t.n)?" rebel-able":"")}));
+  const lab=el("text",{x:t.lx,y:t.ly,class:"t-label"+(t.s?" small":"")});
+  lab.textContent=t.n; g.appendChild(lab);
+  zonesG.appendChild(g);
+});
+
+/* places */
+PLACES.forEach(p=>{
+  const g=el("g");
+  g.appendChild(el("circle",{cx:p.x,cy:p.y,r:3.2,class:"city-dot"}));
+  const t=el("text",{x:p.x+(p.dx||6),y:p.y+(p.dy||4),class:"city","text-anchor":p.anchor||"start"});
+  t.dataset.key=p.x+","+p.y;
+  t.textContent=p.n; g.appendChild(t);
+  placesG.appendChild(g);
+});
+
+/* agents + rebels pins */
+const agentG=el("g",{class:"grp",id:"gAgents"});
+AGENTS.forEach(a=>{
+  const g=el("g",{"data-fate":a.fate});
+  g.appendChild(el("circle",{cx:a.x,cy:a.y,r:8,class:"pin-ring",stroke:"#EAE4D4","stroke-opacity":".55"}));
+  g.appendChild(el("circle",{cx:a.x,cy:a.y,r:4.5,class:"pin-neutral pin-core"}));
+  const t=el("text",{x:a.x+(a.dx||8),y:a.y+(a.dy||-8),class:"city agent-name","text-anchor":a.anchor||"start","font-size":"11.5"});
+  t.textContent=a.n; g.appendChild(t);
+  agentG.appendChild(g);
+});
+pinsG.appendChild(agentG);
+
+const rebelG=el("g",{class:"grp",id:"gRebels"});
+REBELS.forEach(r=>{
+  const g=el("g");
+  g.appendChild(el("circle",{cx:r.x,cy:r.y,r:15,fill:"none",stroke:"#F2B0A6","stroke-width":"1.5","stroke-dasharray":"3 4","stroke-opacity":".85"}));
+  const up=(r.off||-34);
+  const t=el("text",{x:r.x,y:r.y+up,class:"rebel-lbl","text-anchor":"middle"});
+  t.textContent=r.n; g.appendChild(t);
+  const sub=el("text",{x:r.x,y:r.y+up+12,class:"rebel-sub","text-anchor":"middle"});
+  sub.textContent=r.sub; g.appendChild(sub);
+  rebelG.appendChild(g);
+});
+pinsG.appendChild(rebelG);
+
+/* arrows */
+function arcPath(x1,y1,x2,y2,b){
+  const mx=(x1+x2)/2,my=(y1+y2)/2,dx=x2-x1,dy=y2-y1,L=Math.hypot(dx,dy)||1;
+  return `M${x1},${y1} Q${mx+(-dy/L)*b},${my+(dx/L)*b} ${x2},${y2}`;
+}
+const arrowGroups={};
+for(const key in A){
+  const g=el("g",{class:"grp",id:"gArr_"+key});
+  A[key].forEach(a=>{
+    const [x1,y1,x2,y2]=a.p;
+    const d=arcPath(x1,y1,x2,y2,a.b);
+    const p=el("path",{d,class:"arrow "+a.c+(a.thin?" thin":""),"marker-end":a.c==="gold"?"url(#ahGold)":"url(#ahRed)"});
+    g.appendChild(p);
+    if(a.l){
+      const mx=(x1+x2)/2,my=(y1+y2)/2,dx=x2-x1,dy=y2-y1,L=Math.hypot(dx,dy)||1;
+      const cx=mx+(-dy/L)*a.b, cy=my+(dx/L)*a.b;
+      const t=(a.lp??.5);
+      const px=(1-t)*(1-t)*x1+2*(1-t)*t*cx+t*t*x2;
+      const py=(1-t)*(1-t)*y1+2*(1-t)*t*cy+t*t*y2;
+      const lab=el("text",{x:px+(a.ld?a.ld[0]:0),y:py+(a.ld?a.ld[1]:0),class:"arrow-lbl "+a.c});
+      lab.textContent=a.l; g.appendChild(lab);
+    }
+  });
+  arrowG.appendChild(g);
+  arrowGroups[key]=g;
+}
+document.querySelectorAll("path.arrow").forEach(p=>{
+  const L=p.getTotalLength(); p.style.setProperty("--len",L);
+});
+
+/* battles */
+const battleGroups={};
+for(const key in BATTLES){
+  const g=el("g",{class:"grp",id:"gBat_"+key});
+  BATTLES[key].forEach(b=>{
+    g.appendChild(el("circle",{cx:b.x,cy:b.y,r:7,fill:"none",stroke:"#E3AA3E","stroke-width":"2"}));
+    g.appendChild(el("circle",{cx:b.x,cy:b.y,r:2.6,fill:"#E3AA3E"}));
+    const t=el("text",{x:b.x,y:b.y+22,class:"battle-label","text-anchor":"middle"});
+    t.textContent=b.n; g.appendChild(t);
+  });
+  battleG.appendChild(g);
+  battleGroups[key]=g;
+}
+
+/* ---------------- spine ---------------- */
+const rail=document.getElementById("rail");
+STAGES.forEach((s,i)=>{
+  const b=document.createElement("button");
+  b.className="node";
+  b.style.left=(STAGES.length===1?50:(i/(STAGES.length-1))*100)+"%";
+  b.innerHTML=`<span class="dot"></span><span class="lbl">${s.tick}</span>`;
+  b.setAttribute("aria-label","Step "+(i+1)+": "+s.t);
+  b.onclick=()=>{stop();go(i);};
+  rail.appendChild(b);
+});
+const nodes=[...rail.querySelectorAll(".node")];
+
+/* ---------------- render ---------------- */
+let cur=-1,timer=null;
+function go(i){
+  const s=STAGES[i]; if(!s) return;
+  const back = i<cur;
+  cur=i;
+  document.getElementById("sNum").textContent=String(i+1).padStart(2,"0")+" / "+String(STAGES.length).padStart(2,"0");
+  document.getElementById("sTitle").textContent=s.t;
+  document.getElementById("sDate").textContent=s.d;
+  document.getElementById("sBody").innerHTML=s.body;
+  document.getElementById("sCaution").innerHTML=s.caution;
+  document.getElementById("legendList").innerHTML=s.leg.map(k=>`<li>${LEG[k][0]}<span>${LEG[k][1]}</span></li>`).join("");
+  document.getElementById("legendExtra").innerHTML=s.extra||"";
+  document.getElementById("fill").style.width=(i/(STAGES.length-1))*100+"%";
+  nodes.forEach((n,j)=>n.setAttribute("aria-current",j===i?"true":"false"));
+  document.getElementById("prev").disabled=i===0;
+  document.getElementById("next").disabled=i===STAGES.length-1;
+
+  /* zones */
+  document.querySelectorAll("#zones .zone").forEach(z=>{
+    const name=z.dataset.tribe;
+    const fill=z.querySelector("polygon");
+    const lab=z.querySelector("text");
+    z.classList.add("on");
+    fill.classList.remove("rebel","on-pulse");
+    if(s.zones==="rebel"&&REBEL_ZONES.includes(name)){fill.classList.add("rebel","on-pulse");}
+    z.style.opacity = s.zones==="faded" ? .32 : 1;
+    lab.style.opacity = !s.tribeNames ? 0 : (s.zones==="faded" ? .5 : (lab.classList.contains("small")?.72:.92));
+  });
+
+  /* agents */
+  agentG.classList.toggle("on",!!s.agents);
+  agentG.querySelectorAll(".agent-name").forEach(t=>t.style.opacity = s.agents==="neutral" ? 1 : 0);
+  if(s.agents){
+    agentG.querySelectorAll("g").forEach(g=>{
+      const core=g.querySelector(".pin-core"), ring=g.querySelector(".pin-ring");
+      const f=g.dataset.fate;
+      if(s.agents==="neutral"){
+        core.setAttribute("fill","#EAE4D4"); ring.setAttribute("stroke","#EAE4D4"); ring.setAttribute("stroke-dasharray","");
+        ring.setAttribute("r",8);
+      }else{
+        const col=f==="held"?"#4E9A88":"#B4463A";
+        core.setAttribute("fill",col);
+        ring.setAttribute("stroke",col);
+        ring.setAttribute("stroke-dasharray",f==="held"?"":"3 3");
+        ring.setAttribute("r",f==="killed"?11:8);
+        if(f==="killed"){ring.setAttribute("stroke-width","2.4");}
+      }
+    });
+  }
+  rebelG.classList.toggle("on",!!s.rebels);
+
+  /* arrows */
+  for(const k in arrowGroups){
+    const on = s.arrows && s.arrows.includes(k);
+    arrowGroups[k].classList.toggle("on",!!on);
+    arrowGroups[k].querySelectorAll("path.arrow").forEach((p,idx)=>{
+      p.classList.remove("draw");
+      if(on){
+        void p.getBoundingClientRect();
+        setTimeout(()=>p.classList.add("draw"), back?0:120+idx*(s.arrows.length>1?90:150));
+      }
+    });
+  }
+  for(const k in battleGroups) battleGroups[k].classList.toggle("on",s.battles===k);
+  const busy=new Set((BATTLES[s.battles]||[]).map(b=>b.x+","+b.y));
+  placesG.querySelectorAll("text.city").forEach(t=>{t.style.opacity = busy.has(t.dataset.key)?0:1;});
+}
+
+/* ---------------- controls ---------------- */
+const playBtn=document.getElementById("play");
+function stop(){if(timer){clearInterval(timer);timer=null;playBtn.textContent="Play sequence";}}
+playBtn.onclick=()=>{
+  if(timer){stop();return;}
+  playBtn.textContent="Pause";
+  if(cur===STAGES.length-1) go(0);
+  timer=setInterval(()=>{
+    if(cur>=STAGES.length-1){stop();return;}
+    go(cur+1);
+  },6000);
+};
+document.getElementById("next").onclick=()=>{stop();go(Math.min(cur+1,STAGES.length-1));};
+document.getElementById("prev").onclick=()=>{stop();go(Math.max(cur-1,0));};
+document.addEventListener("keydown",e=>{
+  if(e.key==="ArrowRight"){stop();go(Math.min(cur+1,STAGES.length-1));}
+  if(e.key==="ArrowLeft"){stop();go(Math.max(cur-1,0));}
+});
+
+go(0);
+</script>
+</body>
+</html>

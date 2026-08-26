@@ -1,0 +1,8 @@
+# PowerPoint lock files
+~$*.pptx
+~$*.docx
+# Python
+__pycache__/
+*.pyc
+# Local scratch — per global convention, .claude notes are NOT committed
+.claude/
