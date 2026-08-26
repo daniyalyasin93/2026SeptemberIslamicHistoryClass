@@ -55,6 +55,25 @@ So this tier is a **lookup list, not a shopping list.** Book ids get recorded he
 does not. Every work below is one the muqaddima *itself* names and relies on, so quoting them is
 staying inside the course's own frame, not going outside it.
 
+
+### Shamela book ids — verified 2026-08-26
+
+| id | Work | Edition |
+|---|---|---|
+| **34** | الإعلان بالتوبيخ لمن ذمّ أهل التاريخ — السخاوي | ت الظفيري · فوائد التاريخ from printed p.۱۱۱ |
+| **30097** | البداية والنهاية — ابن كثير | ط دار ابن كثير (20 vols) — *preferred* |
+| 4445 | البداية والنهاية — ابن كثير | ت التركي (21 vols) |
+| **10906** | سير أعلام النبلاء — الذهبي | ط الرسالة (Shuʿayb al-Arnaʾūṭ) — *preferred* |
+| 22669 | سير أعلام النبلاء — الذهبي | ط الحديث |
+| **21712** | الكامل في التاريخ — ابن الأثير | ت تدمري (10 vols, to ۶۲۸ھ) |
+| **9783** | تاريخ الطبري = تاريخ الرسل والملوك | ط دار المعارف (11 vols) — use with the muqaddima's caution, p.۷۱ |
+
+Author pages: ابن كثير `/author/3` · الذهبي `/author/362` · السخاوي `/author/34`
+
+Still to find when needed: مقدمة ابن خلدون · تاريخ الإسلام (الذهبي).
+
+`python tools/shamela.py get <id> <page>`
+
 **Highest value, in order:**
 
 | Work | Author | Why this one |
