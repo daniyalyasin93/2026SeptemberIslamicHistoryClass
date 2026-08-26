@@ -55,7 +55,20 @@ The audience is mature adults. Interesting — but no theatrics.
   **Urdu script** for everything human — names, the one-line سبق, the take-home question.
 - Urdu/Arabic strings: single spaces only; never leave Latin letters inside an Arabic word.
 
-### 1.4 Content safety
+### 1.4 Arabic carries authority — use it wherever the source supplies it
+
+Arabic commands respect in this room, so a real Arabic quotation is free credibility. Where the
+source gives a saying in Arabic, **put the Arabic on the slide in `Traditional Arabic` (Naskh) with
+the Urdu rendering beneath it** — not the Urdu alone. The muqaddima is full of these and they were
+being thrown away: سفیان ثوری «لَمَّا اسْتَعْمَلَ الرُّوَاةُ الْكَذِبَ اسْتَعْمَلْنَاهُمُ التَّارِيخَ» ·
+حفص بن غیاث «إِذَا اتَّهَمْتُمْ فَحَاسِبُوهُ بِالسِّنِينَ» · حماد بن زید «لَمْ يُسْتَعَنْ عَلَى الْكَذَّابِينَ
+بِمِثْلِ التَّارِيخِ» · «مَا أَشْبَهَ اللَّيْلَةَ بِالْبَارِحَةِ» (all printed p.۵۳–۵۷).
+
+**Never compose Arabic ourselves.** Only reproduce what a source actually carries, and read it off
+the page image before it reaches a slide — the OCR caveat in §1.1 applies doubly to Arabic, where a
+single garbled letter changes the word.
+
+### 1.5 Content safety
 
 Sunni framing, presented as such. No novel claims. When in doubt, narrate what the book narrates
 and stop. The guardrail — تاریخِ اسلام = تاریخِ مسلمین, and the fiqh that studying the مشاجرات

@@ -1,0 +1,604 @@
+<title>Lessons from History</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Archivo:wght@500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600&family=Amiri:wght@400;700&display=swap">
+
+<style>
+:root{
+  --paper:#FAF7F0;
+  --paper-2:#F3EEE3;
+  --ink:#1C2321;
+  --ink-2:#3B4642;
+  --muted:#5A6862;
+  --teal:#104A43;
+  --teal-deep:#0A322E;
+  --teal-tint:rgba(16,74,67,.09);
+  --gold:#C49A45;
+  --gold-tint:rgba(196,154,69,.16);
+  --maroon:#7A2E2E;
+  --rule:rgba(16,74,67,.20);
+  --rule-soft:rgba(16,74,67,.10);
+  --bar:#104A43;
+  --bar-soft:#8FB0AA;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1512;
+    --paper-2:#151F1B;
+    --ink:#E8E4D9;
+    --ink-2:#C3CCC7;
+    --muted:#8B9993;
+    --teal:#5FA99C;
+    --teal-deep:#3E7C72;
+    --teal-tint:rgba(95,169,156,.13);
+    --gold:#D9B466;
+    --gold-tint:rgba(217,180,102,.16);
+    --maroon:#C9736E;
+    --rule:rgba(95,169,156,.28);
+    --rule-soft:rgba(95,169,156,.14);
+    --bar:#5FA99C;
+    --bar-soft:#2F5751;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1512;
+  --paper-2:#151F1B;
+  --ink:#E8E4D9;
+  --ink-2:#C3CCC7;
+  --muted:#8B9993;
+  --teal:#5FA99C;
+  --teal-deep:#3E7C72;
+  --teal-tint:rgba(95,169,156,.13);
+  --gold:#D9B466;
+  --gold-tint:rgba(217,180,102,.16);
+  --maroon:#C9736E;
+  --rule:rgba(95,169,156,.28);
+  --rule-soft:rgba(95,169,156,.14);
+  --bar:#5FA99C;
+  --bar-soft:#2F5751;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Spectral",Georgia,"Times New Roman",serif;
+  font-weight:400;
+  font-size:16px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+.ur{font-family:"Jameel Noori Nastaleeq","Noto Nastaliq Urdu",serif;line-height:2.05;direction:rtl;unicode-bidi:isolate}
+.ar{font-family:"Traditional Arabic","Amiri",serif;direction:rtl;unicode-bidi:isolate}
+.lbl{
+  font-family:"Archivo",system-ui,sans-serif;
+  font-weight:600;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted);
+}
+.num{font-family:"Archivo",system-ui,sans-serif;font-variant-numeric:tabular-nums}
+
+.wrap{max-width:920px;margin:0 auto;padding:56px 32px 88px}
+
+/* ---------- masthead ---------- */
+.mast{border-bottom:2px solid var(--teal);padding-bottom:26px}
+.mast .eyebrow{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:26px}
+.mast h1{
+  margin:0;
+  font-family:"Jameel Noori Nastaleeq","Noto Nastaliq Urdu",serif;
+  direction:rtl;
+  font-size:52px;line-height:1.75;font-weight:600;
+  color:var(--teal);
+  text-wrap:balance;
+}
+.mast .en{
+  margin:2px 0 0;
+  font-size:25px;font-weight:500;font-style:italic;color:var(--ink-2);letter-spacing:.01em;
+}
+.mast .meta{
+  margin-top:18px;display:flex;flex-wrap:wrap;gap:8px 26px;
+}
+
+/* ---------- generic blocks ---------- */
+section{margin-top:46px}
+h2{
+  margin:0 0 4px;font-size:13px;font-family:"Archivo",system-ui,sans-serif;
+  font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);
+}
+h2 + .sub{margin:0 0 20px;color:var(--muted);font-size:14.5px;font-style:italic}
+h3{margin:0 0 8px;font-size:18px;font-weight:600;color:var(--ink);text-wrap:balance}
+p{margin:0 0 14px;max-width:66ch}
+
+.aim{
+  margin:26px 0 0;padding:22px 26px;
+  background:var(--teal-tint);
+  border-left:3px solid var(--teal);
+  font-size:18.5px;line-height:1.58;color:var(--ink);
+}
+.aim b{font-weight:600;color:var(--teal-deep)}
+
+/* ---------- assurances ---------- */
+.assure{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:1px;background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.assure > div{background:var(--paper);padding:18px 20px}
+.assure h4{margin:0 0 6px;font-size:15px;font-weight:600;color:var(--teal-deep)}
+.assure p{margin:0;font-size:14px;line-height:1.55;color:var(--ink-2);max-width:none}
+
+/* ---------- the chart ---------- */
+.chartbox{border:1px solid var(--rule-soft);background:var(--paper-2);padding:20px 18px 14px;overflow-x:auto}
+.chartbox svg{display:block;min-width:620px;width:100%;height:auto}
+.chart-note{margin:12px 2px 0;font-size:13.5px;color:var(--muted);max-width:none;font-style:italic}
+
+/* ---------- syllabus ---------- */
+.weeks{border-top:1px solid var(--rule)}
+.wk{
+  display:grid;grid-template-columns:58px 1fr;gap:0 22px;
+  padding:22px 0;border-bottom:1px solid var(--rule-soft);
+  break-inside:avoid;page-break-inside:avoid;
+}
+.wk .idx{
+  font-family:"Archivo",system-ui,sans-serif;font-variant-numeric:tabular-nums;
+  font-size:27px;font-weight:700;color:var(--gold);line-height:1.15;letter-spacing:-.02em;
+}
+.wk .era{display:block;margin-top:3px;font-size:9.5px;font-weight:600;letter-spacing:.07em;color:var(--muted);text-transform:uppercase}
+.wk .ttl{
+  font-family:"Jameel Noori Nastaleeq","Noto Nastaliq Urdu",serif;direction:rtl;
+  font-size:27px;line-height:1.95;font-weight:600;color:var(--teal);margin:-6px 0 0;
+}
+.wk .gloss{margin:0 0 10px;font-size:15px;font-style:italic;color:var(--ink-2)}
+.wk .body{margin:0 0 12px;font-size:15px;max-width:64ch;color:var(--ink)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:10px 26px;margin-top:2px}
+.fact .lbl{display:block;margin-bottom:1px}
+.fact .val{font-size:14px;line-height:1.5;color:var(--ink-2)}
+.fact .val .ur{font-size:17px;line-height:1.95}
+.flag{
+  display:inline-block;margin-top:11px;padding:3px 9px;
+  font-family:"Archivo",system-ui,sans-serif;font-size:10px;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;
+  color:var(--maroon);border:1px solid currentColor;
+}
+
+/* ---------- shape / receive ---------- */
+.shape{border:1px solid var(--rule-soft);background:var(--paper-2)}
+.shape .row{display:grid;grid-template-columns:66px 1fr 46px;gap:16px;align-items:baseline;padding:9px 20px;border-bottom:1px solid var(--rule-soft)}
+.shape .row:last-child{border-bottom:0}
+.shape .t{font-family:"Archivo",system-ui,sans-serif;font-variant-numeric:tabular-nums;font-size:12.5px;font-weight:600;color:var(--gold)}
+.shape .d{font-size:15px}
+.shape .d .ur{font-size:18px}
+.shape .m{font-family:"Archivo",system-ui,sans-serif;font-size:11.5px;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+
+.give{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px 30px}
+.give h3{font-size:16.5px;margin-bottom:5px}
+.give p{font-size:14.5px;line-height:1.55;margin:0;color:var(--ink-2)}
+
+/* ---------- table ---------- */
+.tw{overflow-x:auto;border:1px solid var(--rule-soft)}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:14px}
+th,td{text-align:left;padding:10px 16px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+th{font-family:"Archivo",system-ui,sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--paper-2)}
+tr:last-child td{border-bottom:0}
+td .num{font-variant-numeric:tabular-nums}
+
+.foot{margin-top:56px;padding-top:22px;border-top:2px solid var(--teal);color:var(--muted);font-size:13.5px}
+.foot p{max-width:none;margin:0 0 6px}
+
+@media (max-width:620px){
+  .wrap{padding:36px 20px 64px}
+  .mast h1{font-size:38px}
+  .mast .en{font-size:20px}
+  .wk{grid-template-columns:1fr;gap:6px}
+  .wk .idx{font-size:22px}
+}
+
+@media print{
+  :root{
+    --paper:#fff;--paper-2:#F7F4EC;--ink:#1C2321;--ink-2:#3B4642;--muted:#5A6862;
+    --teal:#104A43;--teal-deep:#0A322E;--teal-tint:rgba(16,74,67,.08);
+    --gold:#A8823A;--maroon:#7A2E2E;--rule:rgba(16,74,67,.35);--rule-soft:rgba(16,74,67,.18);
+    --bar:#104A43;--bar-soft:#A8BFBA;
+  }
+  @page{size:A4;margin:15mm 14mm}
+  body{font-size:10.4pt;line-height:1.5;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding:0}
+  .mast h1{font-size:31pt}
+  .mast .en{font-size:15pt}
+  .aim{font-size:12pt}
+  section{margin-top:20px;break-inside:avoid}
+  .weeks{break-inside:auto}
+  .wk{padding:12px 0}
+  .wk .ttl{font-size:17pt}
+  .chartbox svg{min-width:0}
+  .foot{margin-top:26px}
+}
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="eyebrow">
+      <span class="lbl">Course Prospectus &middot; Ten Sessions</span>
+      <span class="lbl">Prepared 26 August 2026</span>
+    </div>
+    <h1 class="ur">تاریخ سے سبق</h1>
+    <p class="en">Lessons from History</p>
+    <div class="meta">
+      <span class="lbl">Weekly &middot; 45 minutes</span>
+      <span class="lbl">Begins 2 September 2026</span>
+      <span class="lbl">Delivered in Urdu</span>
+      <span class="lbl">Adult audience</span>
+    </div>
+  </header>
+
+  <div class="aim">
+    A ten-session course that gives non-specialists a <b>usable mental map of Islamic history</b> —
+    where events happened, in what order, how we know them, and what lessons the scholars have
+    drawn from them. Not a survey to be sat through: participants leave each evening having
+    <b>written on their own timeline and drawn on their own map</b>.
+  </div>
+
+  <section>
+    <h2>How this course is kept safe</h2>
+    <p class="sub">The commitments that govern every slide, every handout and every answer from the floor.</p>
+    <div class="assure">
+      <div>
+        <h4>One named Sunni source</h4>
+        <p>The course is built on <i>Tareekh-e-Ummat</i> by Maulana Muhammad Ismail Rehan, rather than
+        self-authored. Where a period falls outside it, a second named work is chosen openly and
+        stated to the audience.</p>
+      </div>
+      <div>
+        <h4>Every claim traceable</h4>
+        <p>Each source volume is indexed to its printed page numbers, so any date, name or quotation
+        on screen can be traced to a page a listener could open themselves. Nothing uncertain is
+        stated as fact.</p>
+      </div>
+      <div>
+        <h4>No lesson is the speaker&rsquo;s opinion</h4>
+        <p>Every conclusion is presented as a quotation with its author and page shown on the slide —
+        the Qur&rsquo;ān, a hadith, or a named scholar. The speaker narrates; he does not adjudicate.</p>
+      </div>
+      <div>
+        <h4>The sensitive material is fenced first</h4>
+        <p>Before any disputed episode, session 3 installs the fuqahā&rsquo;s own ruling from the source:
+        studying the <span class="ur">مشاجرات</span> without need is <span class="ur">مکروہ</span>, and
+        the Companions <span class="ur">ؓ</span> are met with <span class="ur">حُسنِ ظن</span> and <span class="ur">ادب</span>.</p>
+      </div>
+      <div>
+        <h4>No positions taken from the floor</h4>
+        <p>Contentious questions are answered from a bank of prepared, sourced replies, or deferred
+        warmly to the session that handles them with <span class="ur">اصول</span>. Nothing is
+        improvised on the Companions&rsquo; <span class="ur">ؓ</span> disputes.</p>
+      </div>
+      <div>
+        <h4>Prepared in writing, in advance</h4>
+        <p>Each session carries a written brief, a full Urdu script with timings, a one-page lectern
+        card, and printed handouts — completed before the evening, not assembled on the day.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>The whole span, and how the ten evenings sit on it</h2>
+    <p class="sub">Every session drawn to scale against ۶۲۲–۱۹۴۷ عیسوی.</p>
+    <div class="chartbox">
+      <svg viewBox="0 0 1000 336" role="img" aria-label="Chart of the ten sessions plotted to scale against the years 622 to 1947">
+        <g font-family="Archivo, system-ui, sans-serif" font-size="10.5" fill="currentColor">
+          <!-- axis -->
+          <line x1="150" y1="30" x2="970" y2="30" stroke="var(--rule)" stroke-width="1"></line>
+          <g fill="var(--muted)" text-anchor="middle" font-weight="600">
+            <text x="150" y="20">622</text><line x1="150" y1="24" x2="150" y2="30" stroke="var(--rule)"></line>
+            <text x="198" y="20">700</text><line x1="198" y1="24" x2="198" y2="30" stroke="var(--rule)"></line>
+            <text x="322" y="20">900</text><line x1="322" y1="24" x2="322" y2="30" stroke="var(--rule)"></line>
+            <text x="446" y="20">1100</text><line x1="446" y1="24" x2="446" y2="30" stroke="var(--rule)"></line>
+            <text x="570" y="20">1300</text><line x1="570" y1="24" x2="570" y2="30" stroke="var(--rule)"></line>
+            <text x="693" y="20">1500</text><line x1="693" y1="24" x2="693" y2="30" stroke="var(--rule)"></line>
+            <text x="817" y="20">1700</text><line x1="817" y1="24" x2="817" y2="30" stroke="var(--rule)"></line>
+            <text x="941" y="20">1900</text><line x1="941" y1="24" x2="941" y2="30" stroke="var(--rule)"></line>
+          </g>
+
+          <!-- rows -->
+          <g text-anchor="end" fill="var(--ink-2)" font-size="11">
+            <text x="140" y="56">The whole span</text>
+            <text x="140" y="80">Ab&#363; Bakr &middot; &#703;Umar</text>
+            <text x="140" y="104">&#703;Uthm&#257;n &middot; &#703;Al&#299;</text>
+            <text x="140" y="128">Umayyads</text>
+            <text x="140" y="152">Baghdad &middot; C&oacute;rdoba</text>
+            <text x="140" y="176">Crusades &middot; Mongols</text>
+            <text x="140" y="200">Ottomans</text>
+            <text x="140" y="224">Sindh &rarr; Mughals</text>
+            <text x="140" y="248">1857 &rarr; 1947</text>
+            <text x="140" y="272">Review &amp; close</text>
+          </g>
+          <g text-anchor="start" fill="var(--gold)" font-weight="700" font-size="10">
+            <text x="8" y="56">01</text><text x="8" y="80">02</text><text x="8" y="104">03</text>
+            <text x="8" y="128">04</text><text x="8" y="152">05</text><text x="8" y="176">06</text>
+            <text x="8" y="200">07</text><text x="8" y="224">08</text><text x="8" y="248">09</text>
+            <text x="8" y="272">10</text>
+          </g>
+
+          <g>
+            <rect x="150" y="46"  width="820"   height="12" fill="var(--bar-soft)"></rect>
+            <rect x="156" y="70"  width="8"     height="12" fill="var(--bar)"></rect>
+            <rect x="164" y="94"  width="10"    height="12" fill="var(--bar)"></rect>
+            <rect x="174" y="118" width="55"    height="12" fill="var(--bar)"></rect>
+            <rect x="229" y="142" width="459"   height="12" fill="var(--bar)"></rect>
+            <rect x="445" y="166" width="100"   height="12" fill="var(--bar)"></rect>
+            <rect x="569" y="190" width="387"   height="12" fill="var(--bar)"></rect>
+            <rect x="205" y="214" width="616"   height="12" fill="var(--bar)"></rect>
+            <rect x="914" y="238" width="56"    height="12" fill="var(--bar)"></rect>
+            <rect x="150" y="262" width="820"   height="12" fill="var(--bar-soft)"></rect>
+          </g>
+
+          <!-- callout on the formative sliver -->
+          <g stroke="var(--gold)" stroke-width="1">
+            <line x1="156" y1="66" x2="156" y2="300"></line>
+            <line x1="229" y1="130" x2="229" y2="300"></line>
+            <line x1="156" y1="300" x2="229" y2="300"></line>
+          </g>
+          <text x="240" y="304" font-size="11" fill="var(--muted)" font-style="italic">
+            Sessions 02&ndash;04 cover 9% of the span and take 30% of the evenings &mdash; the formative period is weighted deliberately.
+          </text>
+        </g>
+      </svg>
+      <p class="chart-note">Sessions overlap in time because they follow different regions: Baghdad and
+      Córdoba run alongside the Sultanate of Delhi, and the Ottomans alongside the Mughals. The
+      course keeps them in narrative order, not in strict chronological order.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>The ten sessions</h2>
+    <p class="sub">Each evening: one story, three people, one movement on the map, one sourced lesson.</p>
+
+    <div class="weeks">
+
+      <article class="wk">
+        <div class="idx">01<span class="era">۱۱ھ &ndash; ۱۹۴۷</span></div>
+        <div>
+          <p class="ttl">ایک نظر میں &mdash; پورا نقشہ</p>
+          <p class="gloss">The whole span in a single evening.</p>
+          <p class="body">Fourteen centuries told fast and in order — from a valley in Arabia to the
+          gates of France, to a caliph killed by a Mongol in ۶۵۶ھ, to the last empire ending in 1924,
+          to this city. The timeline and the map are built live and handed over completed, so every
+          later evening has somewhere to attach.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val"><span class="ur">عمر الفاروق ؓ · ہلاکو خان · سلطان محمد فاتح</span></span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">The whole basin; the six anchor cities placed</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val"><span class="ur">مولانا شمس الحق افغانیؒ</span> — the four things a people needs to rise, and why the past is the first of them</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">02<span class="era">۱۱ &ndash; ۲۳ھ</span></div>
+        <div>
+          <p class="ttl">بارہ سال</p>
+          <p class="gloss">Twelve years: from a threatened city to two broken empires.</p>
+          <p class="body">The Prophet ﷺ has died and Arabia is in revolt. Twelve years later Persia
+          has fallen and Byzantium has lost Syria and Egypt. How the succession held, how the
+          Qur&rsquo;ān was gathered, and how an administration was built while the fighting was still on.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val"><span class="ur">ابوبکر الصدیق ؓ · خالد بن الولید ؓ · ابو عبیدہ بن الجراح ؓ</span></span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">Madīna held → Yarmūk, Qādisiyyah, Egypt</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val">The source on why leadership rests on experience and judgment, and how history supplies centuries of both in an hour</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">03<span class="era">۲۳ &ndash; ۴۰ھ</span></div>
+        <div>
+          <p class="ttl">پہلا امتحان</p>
+          <p class="gloss">The first test — approached with the scholars&rsquo; own rules in place.</p>
+          <p class="body">The empire is vast and young, and the strain begins to show. This evening
+          opens by stating the fuqahā&rsquo;s ruling on studying these events at all, and Ibn Ḥajar
+          al-Haytamī&rsquo;s ؒ reason for narrating them: to show the Companions&rsquo; ؓ integrity, not to
+          weigh them against one another. Everything after that is narrated from the book and stops
+          where the book stops.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val"><span class="ur">عثمان ذو النورین ؓ · علی ؓ · معاویہ ؓ</span> — three Companions, which is itself the point</span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">Kūfa, Baṣra, Fusṭāṭ and Dimashq become the new centres</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val">The fiqh of studying history, and <span class="ur">ابن حجر الہیتمیؒ</span> on why it is narrated</span></div>
+          </div>
+          <span class="flag">Sensitive material &middot; guardrail installed here</span>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">04<span class="era">۴۰ &ndash; ۱۳۲ھ</span></div>
+        <div>
+          <p class="ttl">خلافت سے بادشاہت تک</p>
+          <p class="gloss">How a consultative office became a hereditary throne.</p>
+          <p class="body">The handover that ended the fighting and gave the year its name; then a
+          century in which the frontier reached Sindh and Spain within the same decade, and an
+          Umayyad caliph is remembered for returning what his family had taken.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val"><span class="ur">حسن بن علی ؓ · عمر بن عبد العزیز رحمہ اللہ · محمد بن قاسم</span></span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">The widest extent — Sindh and Spain, ۹۲–۹۳ھ</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val">The source on foresight and vigilance — <span class="ar">مَا أَشْبَهَ اللَّيْلَةَ بِالْبَارِحَةِ</span></span></div>
+          </div>
+          <span class="flag">Sensitive material &middot; handled per session 3</span>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">05<span class="era">۱۳۲ &ndash; ۸۹۷ھ</span></div>
+        <div>
+          <p class="ttl">دو دارالحکومت</p>
+          <p class="gloss">Baghdad and Córdoba — the same centuries, two capitals, two endings.</p>
+          <p class="body">Paper arrives from Samarqand and a city starts translating the world; at the
+          other end of the Mediterranean a second capital builds a library. What each achieved, what
+          each cost, and what happened when a scholar had to say no to a ruler.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val"><span class="ur">ہارون الرشید · امام احمد بن حنبل رحمہ اللہ · عبد الرحمن الداخل</span></span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">Baghdad and Córdoba together; then both collapses</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val"><span class="ur">امام علی بن المدینیؒ</span> and <span class="ur">علامہ سخاویؒ</span> — knowing men is half of knowledge; wisdom perishes unless written</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">06<span class="era">۴۹۲ &ndash; ۶۵۸ھ</span></div>
+        <div>
+          <p class="ttl">قریبِ مرگ</p>
+          <p class="gloss">Two centuries in which it nearly ended.</p>
+          <p class="body">Jerusalem lost and retaken; then a catastrophe from the east that took
+          Baghdad itself in ۶۵۶ھ. Why the civilisation survived losing its capital — where the books
+          went, where the scholars went, and where the counter-attack finally came from.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val"><span class="ur">صلاح الدین ایوبی رحمہ اللہ · ہلاکو خان · الظاہر بیبرس</span></span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">The Levant, then the Mongol sweep; Cairo becomes the refuge</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val">The source on <span class="ur">صبر و استقامت</span>, with the hadith of the nations before us</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">07<span class="era">۶۹۹ &ndash; ۱۳۴۲ھ</span></div>
+        <div>
+          <p class="ttl">آخری خلافت</p>
+          <p class="gloss">Six hundred years, and how they ended.</p>
+          <p class="body">A frontier principality becomes the longest-lived Muslim state in history,
+          takes Constantinople in ۸۵۷ھ, reaches Vienna — and then spends two centuries retreating.
+          The evening asks what length actually proves.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val"><span class="ur">سلطان محمد فاتح · سلطان سلیمان · سلطان عبد الحمید ثانی</span></span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">Anatolia → Constantinople → Vienna → the long retreat</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val">The author on <span class="ur">قومی غیرت</span> — what becomes of a people that forgets whose heirs it is</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">08<span class="era">۹۳ &ndash; ۱۱۱۹ھ</span></div>
+        <div>
+          <p class="ttl">یہ ہم تک کیسے پہنچا</p>
+          <p class="gloss">How Islam reached this land, and what was built here.</p>
+          <p class="body">A thousand years of Muslim South Asia — from Sindh, through the Sultanate of
+          Delhi, to an empire ruled from Agra and Delhi. The evening the course arrives at the
+          ground the audience is standing on.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val">To be set from the source for this period</span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val"><span class="ur">سندھ ← غزنوی و غوری ← سلطنتِ دہلی ← مغل</span></span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val"><span class="ur">شمس الحق افغانیؒ</span> — <span class="ur">ماضی سے ارتباط</span>, the first of the four</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">09<span class="era">1857 &ndash; 1947</span></div>
+        <div>
+          <p class="ttl">۱۸۵۷ سے ۱۹۴۷ تک</p>
+          <p class="gloss">Ninety years: from the end of one order to the beginning of another.</p>
+          <p class="body">The collapse of Muslim political power in the subcontinent, the scholarly and
+          educational responses to it, and the road that ends in 1947. The course stops here, at the
+          point where history becomes memory.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val"><span class="ur">شاہ ولی اللہ رحمہ اللہ</span> and two others, to be set from the source</span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">The subcontinent; 1857; 1947</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val">The source on knowing an adversary&rsquo;s methods, and on answering what is written about us</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="wk">
+        <div class="idx">10<span class="era">Review</span></div>
+        <div>
+          <p class="ttl">سب کچھ جوڑ کر</p>
+          <p class="gloss">Putting it together.</p>
+          <p class="body">No new history. The completed timeline and map go back up, the ten lessons
+          are read out together in the participants&rsquo; own words, and everyone leaves with a reading
+          path and the three books worth starting with. This is the evening the course is designed
+          to be remembered from.</p>
+          <div class="facts">
+            <div class="fact"><span class="lbl">Introduced</span><span class="val">The three historians to read next</span></div>
+            <div class="fact"><span class="lbl">On the map</span><span class="val">The whole map, now dense</span></div>
+            <div class="fact"><span class="lbl">Lesson, and whose</span><span class="val"><span class="ar">﴿لَقَدْ كَانَ فِي قَصَصِهِمْ عِبْرَةٌ لِأُولِي الْأَلْبَابِ﴾</span> &mdash; <span class="ur">سورۃ یوسف ۱۲:۱۱۱</span></span></div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>What happens in each evening</h2>
+    <p class="sub">The same shape every week — which is what lets someone who missed a session rejoin in three minutes.</p>
+    <div class="shape">
+      <div class="row"><span class="t">0:00</span><span class="d"><span class="ur">آغاز</span> — the timeline and map go up: last week here, tonight here</span><span class="m">3 min</span></div>
+      <div class="row"><span class="t">0:03</span><span class="d">The opening — a scene, never a definition</span><span class="m">5 min</span></div>
+      <div class="row"><span class="t">0:08</span><span class="d">The story, with the map moving as it goes</span><span class="m">20 min</span></div>
+      <div class="row"><span class="t">0:28</span><span class="d"><span class="ur">تعارف</span> — three people, each with one authentic incident</span><span class="m">7 min</span></div>
+      <div class="row"><span class="t">0:35</span><span class="d"><span class="ur">کیسے پتا چلا؟</span> — how we know this, and how forgeries were caught</span><span class="m">3 min</span></div>
+      <div class="row"><span class="t">0:38</span><span class="d"><span class="ur">آج کی بات</span> — the sourced lesson; everyone writes their own takeaway</span><span class="m">4 min</span></div>
+      <div class="row"><span class="t">0:42</span><span class="d"><span class="ur">اگلے ہفتے</span> — closing on a question</span><span class="m">3 min</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What each participant receives</h2>
+    <p class="sub">Printed, A4, and theirs to keep.</p>
+    <div class="give">
+      <div>
+        <h3>The workbook</h3>
+        <p>A stapled booklet given at session 1. It opens with a timeline they mark in their own
+        handwriting every week, and a base map they draw on. Then two pages per session: a map
+        worksheet, and three profile pages where the incident is left blank for them to write.</p>
+      </div>
+      <div>
+        <h3>A catch-up sheet</h3>
+        <p>A single page reissued weekly for anyone joining late — the timeline, the map, where the
+        course has reached, and one line on each session so far.</p>
+      </div>
+      <div>
+        <h3>The <span class="ur">تعارف نامہ</span></h3>
+        <p>At session 10, a bound directory of all thirty people met during the course, each with
+        their dates, what they did, and one incident — a reference they keep afterwards.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sources</h2>
+    <p class="sub">What the course is built on, and how it is cited.</p>
+    <div class="tw">
+      <table>
+        <thead>
+          <tr><th>Work</th><th>Used for</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i>Tareekh-e-Ummat</i>, vol. 1 — <span class="ur">المقدمہ</span><br><span class="lbl">Maulana Muhammad Ismail Rehan</span></td>
+            <td>How history is authenticated; the lessons framework; the fiqh of studying history. Indexed to printed pp. <span class="num">۳۲–۷۸</span></td>
+            <td>Held and indexed</td>
+          </tr>
+          <tr>
+            <td><i>Tareekh-e-Ummat</i>, vol. 1 — <span class="ur">خلافتِ راشدہ</span></td>
+            <td>Sessions 2 and 3. Opening portion held, indexed to printed pp. <span class="num">۴۵۶–۴۶۵</span></td>
+            <td>Remainder being obtained</td>
+          </tr>
+          <tr>
+            <td><i>Tareekh-e-Ummat</i>, later volumes</td>
+            <td>Sessions 4 to 7</td>
+            <td>Scheduled, one session ahead of delivery</td>
+          </tr>
+          <tr>
+            <td>A named Sunni work on Muslim South Asia</td>
+            <td>Sessions 8 and 9, where <i>Tareekh-e-Ummat</i>&rsquo;s coverage ends</td>
+            <td>Being selected; will be named to the audience</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:14px;font-size:14.5px;color:var(--muted)">Every source is indexed to the page
+    numbers printed in the physical book, so any claim made on screen can be checked against the
+    page it came from. Where a reading is uncertain, it is marked as such rather than asserted.</p>
+  </section>
+
+  <footer class="foot">
+    <p><span class="lbl">تاریخ سے سبق &middot; Lessons from History</span></p>
+    <p>Ten weekly sessions of 45 minutes, beginning 2 September 2026. Prepared materials for every
+    session are completed before delivery. Sessions 8 and 9 await their source text and their
+    content is marked accordingly above.</p>
+  </footer>
+
+</div>
