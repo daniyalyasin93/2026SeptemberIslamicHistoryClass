@@ -68,7 +68,26 @@ being thrown away: سفیان ثوری «لَمَّا اسْتَعْمَلَ ا�
 the page image before it reaches a slide — the OCR caveat in §1.1 applies doubly to Arabic, where a
 single garbled letter changes the word.
 
-### 1.5 Content safety
+### 1.5 Venue and standing policy (settled 2026-08-26)
+
+| | |
+|---|---|
+| **Venue** | DHA **Islamabad** |
+| **Organisation** | **Tanzeem-e-Islami** — they also review the sensitive material |
+| **Recording** | **Not permitted.** No filming, no clips |
+| **Questions** | **None during the 45 minutes.** Written slips into a box at the door; speaker stays 15 minutes afterwards for one-to-one. Identical in all ten sessions |
+| **محرم** | **No clash** — none of the ten dates falls in محرم, so کربلا in session 4 is not being delivered into محرم |
+| **The book** | Named openly to the room. The speaker says plainly that the course is based on *تاریخِ امت* and that he is reading a book, not authoring history |
+| **Headcount** | ⬜ still needed, for print quantities |
+
+**What Tanzeem-e-Islami implies for content.** The audience is religiously committed and
+Qur'an-literate, and **خلافت → ملوکیت (session 4) and the ending of the caliphate in ۱۹۲۴
+(session 7) sit close to the organisation's own reason for existing.** Those evenings will carry
+more charge than the others. The response is not to soften them and not to lean into them: narrate
+what the book narrates, let the quoted authorities carry every conclusion, and decline to
+adjudicate. The room may want the speaker to draw the inference; he does not.
+
+### 1.6 Content safety
 
 Sunni framing, presented as such. No novel claims. When in doubt, narrate what the book narrates
 and stop. The guardrail — تاریخِ اسلام = تاریخِ مسلمین, and the fiqh that studying the مشاجرات
