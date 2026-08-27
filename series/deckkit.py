@@ -131,11 +131,27 @@ def title_slide(prs, en, ur, sub, meta):
 
 
 def map_slide(prs, image, headline, sub=None, line=None, caption=None):
-    """Full-bleed map with a headline band. The map IS the slide."""
+    """Full-bleed map with a headline band. The map IS the slide.
+
+    Sizes by WIDTH for wide maps and by HEIGHT for near-square ones (the Arabian view is
+    almost 1:1 and was being cropped off the bottom of the slide when forced to full width).
+    """
     s = blank(prs, CREAM)
     p = os.path.join(VIS, "%s.png" % image)
     if os.path.exists(p):
-        s.shapes.add_picture(p, Inches(0), Inches(0.95), width=W)
+        top = Inches(0.95)
+        avail_h = H - top - Inches(0.12)
+        try:
+            from PIL import Image as _Im
+            with _Im.open(p) as im:
+                iw, ih = im.size
+        except Exception:
+            iw, ih = 16, 9
+        if iw / float(ih) >= W / float(avail_h):
+            s.shapes.add_picture(p, Inches(0), top, width=W)
+        else:
+            new_w = int(avail_h * iw / float(ih))
+            s.shapes.add_picture(p, Emu(int((W - new_w) / 2)), top, height=avail_h)
     band(s, 0, Inches(0.95), DARK)
     text(s, headline, Inches(0.7), Inches(0.16), Inches(8.6), Inches(0.7),
          size=30, color=CREAM, font=EN)

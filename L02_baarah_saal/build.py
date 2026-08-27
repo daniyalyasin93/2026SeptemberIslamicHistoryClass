@@ -16,6 +16,9 @@ from pptx.enum.text import PP_ALIGN
 from pptx.util import Inches, Pt
 
 
+NL = chr(10)
+
+
 def build(path):
     prs = deck()
 
@@ -100,15 +103,77 @@ def build(path):
             "The strongest thirty seconds of the whole ten weeks, and every word belongs to someone\n"
             "else. THEN: PEN-DOWN - mark 632 on the line.")
 
-    # 8 — the map
-    s = map_slide(prs, "map_s2_twelve", "Twelve years", "632 – 644", line=None)
-    note(s, "0:21 (8 min). WALK THE ARROWS one at a time - this is the spine of the second half.\n"
-            "  Yamama -> the Ridda held [SOURCE: al-Bidaya ج7 ص22-27 cached; do NOT state a number\n"
-            "  of columns until the book gives it]\n"
-            "  Yarmuk -> Byzantium out of Syria [al-Bidaya ج7 ص85-95]\n"
+    # 8 — Abu Bakr rides out
+    s = quote_slide(
+        prs,
+        "وَاللهِ لَا أَفْعَلُ، وَلَأُوَاسِيَنَّكُمْ بِنَفْسِي",
+        "“By God I will not. I will share it with you in person.”\nWhen the Companions asked him to stay behind and send someone else.",
+        "ABU BAKR AL-SIDDIQ  ·  AL-BIDAYA WA'L-NIHAYA, vol. 7 p. 21",
+        label="he rode out himself")
+    note(s, "0:21 (2 min). He went out with his sword drawn, and ALI took hold of his camel's reins:\n"
+            "  'Where to, O Caliph of the Messenger of God? I say to you what the Messenger said at\n"
+            "   Uhud: sheathe your sword, and do not afflict us with the loss of yourself.'\n"
+            "  (al-Bidaya ج7 ص22, al-Daraqutni; also from Aisha radiyallahu anha)\n"
+            "STATE IT AND MOVE ON. If anyone in the room carries an assumption about those two, this\n"
+            "answers it without you arguing anything.")
+
+    # 9 — THE RIDDA MAP
+    s = map_slide(prs, "map_s2_ridda", "Eleven banners", "632 – 633", line=None)
+    note(s, "0:23 (6 min). WALK THE ARROWS ONE AT A TIME - this is the map moment of the evening.\n"
+            "Eleven commissions, each written separately, all moving out from Dhu al-Qassa.\n"
+            "Name only the four or five the room can hold: Khalid to Buzakha against Tulayha;\n"
+            "Yamama against Musaylima; al-Ala' b. al-Hadrami to Bahrain; al-Muhajir to San'a.\n"
+            "THE INSTRUCTION IN THE LETTER, worth saying aloud: the sign is the adhan - if they\n"
+            "call it back, hold off from them (ج7 ص24).\n"
+            "PEN-DOWN once the arrows are drawn.")
+
+    # 9a — not one thing: what the Ridda actually was
+    s = blank(prs, CREAM)
+    eyebrow(s, "it was not one thing")
+    text(s, "Four different problems, called by one name",
+         Inches(0.85), Inches(1.0), Inches(11.6), Inches(0.9),
+         size=34, color=TEAL, font=EN)
+    band(s, Inches(2.02), Inches(0.04), GOLD, Inches(0.85), Inches(11.6))
+    cols = [
+        ("Rival prophecy", "Musaylima at Yamama" + NL + "Tulayha of Banu Asad" + NL + "al-Aswad al-Ansi, Yemen", MAROON),
+        ("Withheld the zakat", "The delegations who came" + NL + "affirming prayer" + NL + "Uyayna and Ghatafan", MAROON),
+        ("Political secession", "Tribes breaking away from" + NL + "Madina rather than from" + NL + "the religion", MUTED),
+        ("HELD LOYAL", "Quraysh · Thaqif" + NL + "Aws and Khazraj" + NL + "Tayyi · Abd al-Qays", TEAL),
+    ]
+    for i, (head, body, col) in enumerate(cols):
+        x = 0.85 + i * 3.02
+        text(s, head, Inches(x), Inches(2.42), Inches(2.85), Inches(0.7),
+             size=19, color=col, font=SANS, bold=True)
+        text(s, body, Inches(x), Inches(3.2), Inches(2.85), Inches(2.0),
+             size=17, color=INK, font=EN, spacing=1.4)
+    text(s, "Only the first group left Islam. That distinction is the whole evening.",
+         Inches(0.85), Inches(5.5), Inches(11.6), Inches(0.6),
+         size=20, color=MAROON, font=EN, italic=True)
+    note(s, "SAY THIS BEFORE THE MAP. It stops the Ridda being heard as everyone apostatised." + NL +
+            "The fourth column is the one that matters - large parts of Arabia never wavered." + NL +
+            "VERIFIED in al-Bidaya: Tayyi came over through Adi b. Hatim, who brought 500 fighters" + NL +
+            "and then a thousand riders of Jadila (vol.7 p.25); Uyayna and Ghatafan backed Tulayha" + NL +
+            "and both men later returned to Islam (vol.7 p.26)." + NL +
+            "[VERIFY the remaining tribe assignments against Tareekh-e-Ummat before delivery -" + NL +
+            " the grouping came from the earlier classification artifact, not from a read page.]")
+    # 9b — the payoff that closes the opening scene
+    s = statement_slide(prs, "Three zakat caravans reach Madina in one night.",
+                        "Announced by the same men who had been standing guard on the passes.",
+                        line="line_s2", kicker="sixty nights after the Prophet’s passing", bg=CREAM, fg=TEAL)
+    note(s, "THIS CLOSES THE LOOP ON YOUR OPENING SCENE - say so explicitly." + NL +
+            "One at the beginning of the night, one in the middle, one at the end:" + NL +
+            "  Safwan's      -> announced by Sa'd ibn Abi Waqqas" + NL +
+            "  al-Zibriqan's -> announced by Abd al-Rahman ibn Awf" + NL +
+            "  Adi ibn Hatim's -> announced by Ibn Mas'ud, or Abu Qatada al-Ansari" + NL +
+            "The zakat is arriving after all. The argument has become a fact, and you never had" + NL +
+            "to make it. VERIFIED: al-Bidaya vol.7 p.21.")
+    # 10 — the conquests map
+    s = map_slide(prs, "map_s2_twelve", "Then outward", "632 – 644", line=None)
+    note(s, "0:29 (4 min). Three arrows only, quickly:\n"
+            "  Yarmuk -> Byzantium out of Syria [al-Bidaya ج7 ص85-95 cached, outline only]\n"
             "  Qadisiyya -> Persia [ج7 ص132-140]\n"
             "  Fustat -> Egypt\n"
-            "PEN-DOWN after the arrows are drawn.")
+            "Do not linger - the weight of the evening was the decision, not the conquests.")
 
     # 9 — the envoy
     s = quote_slide(
