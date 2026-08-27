@@ -46,13 +46,21 @@ The audience is mature adults. Interesting — but no theatrics.
 ### 1.3 Language and type
 
 - **All Urdu in Urdu (Arabic) script. Never Roman Urdu.** Not on slides, not in scripts, not in chat.
-- **Urdu font: `Jameel Noori Nastaleeq`** — installed as `Jameel Noori Nastaleeq Kasheeda.ttf` in
-  the per-user font folder; its internal family name is `Jameel Noori Nastaleeq`, so that name
-  resolves in both CSS and PowerPoint.
+- **Urdu font: `Noto Nastaliq Urdu`** (installed 2026-08-27, per-user, registered).
+  **Do NOT use `Jameel Noori Nastaleeq`** — the only cut on this machine is the *Kasheeda* variant,
+  which elongates letters and rendered every Urdu line stretched and gappy. This was a real defect
+  in the first decks.
 - **Arabic font: `Traditional Arabic`** (`C:\Windows\Fonts\trado.ttf`) — Naskh. Qurʾānic text and
   Arabic quotations stay Naskh; **Nastaliq for Qurʾān is non-standard.**
-- Printables split by job: **English** for structure and geography (labels, dates, place names);
-  **Urdu script** for everything human — names, the one-line سبق, the take-home question.
+- **ENGLISH CARRIES THE SLIDES** (settled with Daniyal 2026-08-27). This is a DHA Islamabad
+  audience that reads English faster than Urdu. Headlines, structure, labels and translations in
+  English. **Urdu appears only where it is doing real work, and always with an English rendering
+  beside it.** Arabic quotations stay in Naskh with an English translation beneath.
+- **Latin digits on slides and in English contexts, always.** Urdu-Indic digits mixed with Latin
+  punctuation get reordered by the bidi algorithm into nonsense. This was a real bug in both the
+  first handout and the first decks.
+- **Never put Urdu and English in the same line or the same table cell.** Give Urdu its own block
+  with `dir="rtl"`. Inline mixing is what mangled the first speaker scripts.
 - Urdu/Arabic strings: single spaces only; never leave Latin letters inside an Arabic word.
 
 ### 1.4 Arabic carries authority — use it wherever the source supplies it
@@ -96,6 +104,19 @@ Never improvise a position on the Companions' disputes from the floor; defer war
 session where it is handled with اصول.
 
 ---
+
+## 1.7 Artifact rules learned the hard way
+
+- **No bare-text slides.** Every content slide carries a map, the timeline strip, a large statement,
+  or a sourced quotation. If it is only a line of text, it is not a slide — the first decks were
+  rejected as "too dry" and they were.
+- **Speaker packs are HTML → A4 PDF, never Markdown.** Markdown cannot keep Urdu and English apart
+  and the result is unreadable. See `L01_overview/speaker.html`.
+- **The cue card must fit on ONE page.** That is its entire purpose.
+- **Method content is minimal.** The weekly «کیسے پتا چلا؟» segment was cut on 2026-08-27 as too
+  academic. What survives: one four-minute "two ways of knowing the past" slide in session 1, plus
+  the سفیان ثوری quotation. Do not reintroduce a recurring methodology slot.
+- Regenerate visuals with `python series/make_visuals.py`; decks import `series/deckkit.py`.
 
 ## 2. The fixed session shape (45 min)
 

@@ -1,0 +1,244 @@
+<title>Session One — Speaker Pack</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=Archivo:wght@500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600&family=Amiri:wght@400;700&display=swap">
+<style>
+:root{--paper:#FAF7F0;--ink:#1C2321;--teal:#104A43;--deep:#0A322E;--gold:#C49A45;--muted:#5A6862;--maroon:#7A2E2E;--rule:rgba(16,74,67,.26);--faint:rgba(16,74,67,.11)}
+*{box-sizing:border-box}
+body{margin:0;background:#6b7570;font-family:"Spectral",Georgia,serif;color:var(--ink);font-size:11.2pt;line-height:1.5}
+
+/* Urdu and English NEVER share a line — that is what was mangling the old markdown. */
+.ur{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;text-align:right;unicode-bidi:isolate;
+    font-size:15pt;line-height:2.35;color:var(--deep)}
+.ar{font-family:"Amiri","Traditional Arabic",serif;direction:rtl;text-align:center;unicode-bidi:isolate;
+    font-size:17pt;line-height:1.9;color:var(--deep)}
+.lbl{font-family:"Archivo",system-ui,sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.14em;
+     text-transform:uppercase;color:var(--muted)}
+
+.page{width:210mm;min-height:297mm;background:var(--paper);padding:15mm 16mm 18mm;margin:0 auto 8mm;position:relative}
+.page + .page{page-break-before:always}
+
+h1{font-size:26pt;margin:0 0 2mm;color:var(--teal);font-weight:600;letter-spacing:-.01em}
+h1 + .sub{margin:0 0 6mm;font-style:italic;color:var(--muted);font-size:12pt}
+.hdr{border-bottom:2px solid var(--teal);padding-bottom:4mm;margin-bottom:6mm}
+
+/* a block = one step of the evening */
+.blk{display:grid;grid-template-columns:26mm 1fr;gap:0 6mm;padding:4mm 0;border-bottom:1px solid var(--faint);break-inside:avoid}
+.blk:last-child{border-bottom:0}
+.tm{font-family:"Archivo",sans-serif;font-variant-numeric:tabular-nums}
+.tm b{display:block;font-size:15pt;color:var(--gold);font-weight:700;line-height:1.1}
+.tm span{display:block;font-size:8.5pt;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:1mm}
+.blk h3{margin:0 0 2mm;font-size:13.5pt;color:var(--teal);font-weight:600}
+.blk p{margin:0 0 2.5mm}
+
+.say{border-left:3px solid var(--gold);padding:2mm 0 2mm 5mm;margin:3mm 0}
+.do{background:rgba(16,74,67,.055);padding:3mm 4mm;margin:3mm 0;font-size:10.4pt}
+.do b{color:var(--teal)}
+.warn{border-left:3px solid var(--maroon);padding:2mm 0 2mm 5mm;margin:3mm 0;color:var(--maroon);font-size:10.4pt}
+.src{font-family:"Archivo",sans-serif;font-size:8.5pt;letter-spacing:.06em;color:var(--teal);margin-top:1.5mm}
+.pen{display:inline-block;background:var(--gold);color:#fff;font-family:"Archivo",sans-serif;font-weight:700;
+     font-size:8.5pt;letter-spacing:.1em;padding:1mm 3mm;text-transform:uppercase}
+
+.quote{border:1px solid var(--rule);padding:5mm;margin:3mm 0}
+.quote .tr{text-align:center;font-style:italic;color:var(--ink);margin:3mm 0 0;font-size:11.5pt}
+
+/* cue card — must fit on ONE page; that is the whole point of it */
+.cue{font-size:10.4pt}
+.cue h2{font-size:11.5pt;color:var(--teal);margin:3.1mm 0 1.1mm;font-weight:600;border-bottom:1px solid var(--faint);padding-bottom:.8mm}
+.cue p{margin:0 0 1.2mm}
+.cue .big{font-size:10.6pt;line-height:1.38}
+.cue .ur{font-size:12.5pt;line-height:2.0}
+.cue .hdr{padding-bottom:2.5mm;margin-bottom:3mm}
+.cue h1{font-size:21pt}
+.cue .row{display:grid;grid-template-columns:34mm 1fr;gap:4mm;padding:1.6mm 0;border-bottom:1px dotted var(--faint)}
+.cue .row:last-child{border-bottom:0}
+.cue .k{font-family:"Archivo",sans-serif;font-size:9pt;font-weight:600;color:var(--muted)}
+.big{font-size:12.5pt;line-height:1.55}
+
+@media print{ body{background:#fff} @page{size:A4;margin:0} .page{margin:0} }
+</style>
+
+<!-- ═════════════════ PAGE 1 ═════════════════ -->
+<section class="page">
+  <div class="hdr">
+    <span class="lbl">Speaker pack &middot; print and take to the lectern</span>
+    <h1>Session 1 — The Whole Map</h1>
+    <p class="sub">Fourteen centuries in one evening &middot; 632–1947 &middot; target 45 minutes</p>
+  </div>
+
+  <div class="do" style="margin-top:0">
+    <b>Before the room fills:</b> banner up behind you (8 printed pegs, otherwise blank) &middot; base
+    map beside it &middot; one workbook and pen per chair &middot; question box at the door &middot; this pack on the lectern.
+  </div>
+
+  <div class="blk">
+    <div class="tm"><b>0:00</b><span>3 min &middot; آغاز</span></div>
+    <div>
+      <h3>Hand over the two objects</h3>
+      <p>Workbooks are already on the chairs. The <b>first instruction of the course</b> is that they write, not that you speak.</p>
+      <div class="say"><p class="ur">السلام علیکم۔ آج سے ہم دس ہفتے ساتھ چلیں گے۔ شروع کرنے سے پہلے ایک کام — اپنی کتاب کھولیے، اور پہلے صفحے پر اپنا نام لکھ لیجیے۔</p></div>
+      <div class="do">Give a genuine <b>30 seconds</b>. Do not talk over it.</div>
+      <p>Then point at the banner, then the map:</p>
+      <div class="say"><p class="ur">یہ لکیر — وقت۔ اور یہ نقشہ — جگہ۔ تاریخ اِنہی دو چیزوں کا نام ہے: کب، اور کہاں۔ ابھی دونوں خالی ہیں۔ دس ہفتوں میں یہ بھر جائیں گے — میرے ہاتھ سے نہیں، آپ کے ہاتھ سے۔</p></div>
+    </div>
+  </div>
+
+  <div class="blk">
+    <div class="tm"><b>—</b><span>the shield</span></div>
+    <div>
+      <h3>Say who you are. Do not skip this.</h3>
+      <div class="say"><p class="ur">اور ایک بات صاف کر دوں، آج ہی۔ اِن دس ہفتوں میں میں اپنی طرف سے کوئی بات نہیں کروں گا۔ ہم ایک کتاب پڑھیں گے — مولانا محمد اسماعیل ریحان صاحب کی تاریخِ امت۔ جہاں کوئی حوالہ آئے گا، وہ اسکرین پر لکھا ہوگا، صفحہ نمبر کے ساتھ۔ میں مؤرخ نہیں ہوں۔ میں پڑھ کر سنانے والا ہوں۔</p></div>
+      <div class="warn"><b>This is the most important thirty seconds of the whole course.</b> It makes you a narrator for ten weeks and it is your shield in every hard moment afterwards. Slowly.</div>
+    </div>
+  </div>
+
+  <div class="blk">
+    <div class="tm"><b>0:03</b><span>5 min &middot; opening</span></div>
+    <div>
+      <h3>Baghdad, 656 AH — stand still, no slide movement</h3>
+      <div class="say"><p class="ur">چلیں بغداد۔ صدیوں تک یہ شہر مسلمانوں کی دنیا کا مرکز رہا — کتب خانے، ترجمے کا کام، اور ایک خلیفہ جس کا نام وسطی ایشیا سے شمالی افریقہ تک خطبے میں پڑھا جاتا تھا۔</p>
+      <p class="ur">پھر ۶۵۶ھ آیا۔ مشرق سے ایک لشکر اترا — ہلاکو خان۔ شہر لیا گیا۔ خلیفہ قتل ہوا۔ اور کتب خانوں کا کیا بنا — یہ مؤرخین نے لکھا ہے۔</p></div>
+      <div class="warn">[SOURCE] The Mongol volume — the taking of Baghdad, the caliph’s name, and what the chroniclers record of the libraries. <b>Say nothing the book does not say.</b></div>
+      <div class="do"><b>Then walk to the banner.</b> Mark one filled square at the 656 peg. <span class="pen">pen-down 1</span> — «قلم اٹھائیے», then 15 silent seconds while the room copies it.</div>
+      <p>Let them see it sits near the middle, with blank line on both sides. Then:</p>
+      <div class="say"><p class="ur">یہ رات ہماری تاریخ کے وسط میں آتی ہے، آخر میں نہیں۔ تو دو سوال: اِس سے پہلے کتنا وقت گزر چکا تھا؟ اور اِس کے بعد کتنا باقی تھا؟</p></div>
+      <div class="warn"><b>Do not answer them.</b> Move on.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════════ PAGE 2 ═════════════════ -->
+<section class="page">
+  <div class="blk" style="padding-top:0">
+    <div class="tm"><b>0:08</b><span>20 min &middot; the story</span></div>
+    <div>
+      <h3>Six moves — a place on the map and a mark on the line</h3>
+      <p><b>1 · Madina, 632.</b> One city, one generation. Nobody would have predicted what follows.</p>
+      <p><b>2 · Spain and Sindh, the same decade.</b> This is the striking fact of the evening — deliver it slowly.</p>
+      <div class="say"><p class="ur">ایک ہی دہائی میں مسلمان مغرب میں اندلس تک اور مشرق میں سندھ تک پہنچ گئے۔ ایک ہی دہائی۔</p></div>
+      <div class="do"><span class="pen">pen-down 2</span> «دو تیر کھینچیے — ایک مغرب، ایک مشرق۔»</div>
+      <p><b>3 · Two capitals at once.</b> Baghdad translating the world; Córdoba building a library. <i>Trim this first if long.</i></p>
+      <p><b>4 · The break.</b> Crusades, then the sweep from the east. Now the opening mark gets its meaning — and the key idea of the evening: <b>the civilisation survived losing its capital, because the books and the scholars had already moved to Cairo.</b></p>
+      <div class="do"><span class="pen">pen-down 3</span></div>
+      <p><b>5 · 1453.</b> Constantinople; and in the east, Sindh leads on to Delhi.</p>
+      <p><b>6 · 1924 … 1947.</b> Sober. No present-day politics.</p>
+      <div class="do"><span class="pen">pen-down 4</span> — the last mark.</div>
+    </div>
+  </div>
+
+  <div class="blk">
+    <div class="tm"><b>0:28</b><span>7 min &middot; تعارف</span></div>
+    <div>
+      <h3>Three people — read from the card, never from memory</h3>
+      <p>Say this first, once:</p>
+      <div class="say"><p class="ur">آج جن تین لوگوں سے تعارف ہوگا، تینوں کی اپنی الگ نشست آگے آ رہی ہے۔ آج صرف تعارف — تفصیل اُس دن۔</p></div>
+      <p><b>Umar ibn al-Khattab ؓ</b> → session 2 &nbsp;·&nbsp; <b>Hulagu Khan</b> → session 6 &nbsp;·&nbsp; <b>Mehmed the Conqueror</b> → session 7</p>
+      <div class="warn">Hulagu’s incident <b>must not</b> be the fall of Baghdad — that was tonight’s opening scene and the segment would simply repeat itself.</div>
+      <div class="src">[SOURCE] all three panels — name, dates, one sentence, one incident. The laqab field stays empty until read off a page.</div>
+    </div>
+  </div>
+
+  <div class="blk">
+    <div class="tm"><b>0:33</b><span>6 min &middot; method</span></div>
+    <div>
+      <h3>Two ways of knowing the past — the only methodology all term</h3>
+      <p>Do not teach isnād as a technical subject. The point is only that there are two different ways of deciding what is true about the past, and ours has a mechanism the other lacks. <b>Be fair, not mocking.</b></p>
+      <p>Then demonstrate before you show the quotation:</p>
+      <div class="say"><p class="ur">فرض کریں کوئی آپ سے کہے — سلطان محمد فاتح نے ہلاکو خان کو خط لکھا تھا۔</p></div>
+      <div class="do">Point at <b>their own sheet</b>. They marked both themselves. Two centuries apart. Dead — with no Arabic, no isnād, no manuscripts. <b>That is what the line is for.</b></div>
+      <div class="quote">
+        <p class="ar">لَمَّا اسْتَعْمَلَ الرُّوَاةُ الْكَذِبَ اسْتَعْمَلْنَاهُمُ التَّارِيخَ</p>
+        <p class="tr">“When narrators began inventing, we used dates against them.”</p>
+        <p class="ur" style="text-align:center">جب راوی جھوٹی روایتیں گھڑنے لگے تو ہم نے تاریخ سے کام لیا</p>
+        <div class="src" style="text-align:center">Sufyān al-Thawrī &middot; Tareekh-e-Ummat, muqaddima, p. 57 &middot; verified</div>
+      </div>
+      <div class="warn">Read it once. <b>Then stop.</b> No further method tonight.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════════ PAGE 3 ═════════════════ -->
+<section class="page">
+  <div class="blk" style="padding-top:0">
+    <div class="tm"><b>0:39</b><span>4 min &middot; آج کی بات</span></div>
+    <div>
+      <h3>The point of the evening — and it is not yours</h3>
+      <p>The slide is headed by the attribution, not by the claim.</p>
+      <div class="quote">
+        <p style="text-align:center;font-size:12.5pt;margin:0 0 2mm"><b>Shams-ul-Haq Afghani</b> — four things a people needs in order to rise</p>
+        <p class="ur" style="text-align:center">ماضی سے ارتباط &nbsp;·&nbsp; وحدتِ فکر و عمل &nbsp;·&nbsp; فراہمیِ اسبابِ قوت &nbsp;·&nbsp; جہدِ مسلسل</p>
+        <p class="tr">Connection to its own past · Unity of thought and action · Building the means of strength · Sustained effort</p>
+        <div class="src" style="text-align:center">Tareekh-e-Ummat, muqaddima, p. 53</div>
+      </div>
+      <p>Read the four. Then <b>one</b> sentence of connection and no more:</p>
+      <div class="say"><p class="ur">اِن چاروں میں پہلی چیز ہے — ماضی سے ارتباط۔ اور باقی تینوں اِسی پر کھڑی ہیں۔ اِسی لیے آج ہم نے پہلے سال سے شروع نہیں کیا — پہلے پوری لکیر دیکھی۔</p></div>
+      <div class="do"><b>Then stop talking.</b> «اب اپنی کتاب میں لکھیے — آج آپ کیا لے کر جا رہے ہیں؟» <b>Ninety seconds of silence.</b> Let it be uncomfortable — the writing is the retention, not your talking.</div>
+      <div class="warn">Two volunteers maximum. You say «شکریہ» and <b>nothing else</b> — do not improve, correct, or build on what they said. The conclusion is theirs.</div>
+    </div>
+  </div>
+
+  <div class="blk">
+    <div class="tm"><b>0:43</b><span>3 min &middot; close</span></div>
+    <div>
+      <h3>End on a question</h3>
+      <p>Hold up the workbook: the only thing to bring back. Draw a bracket on the banner around 632–644 so they see how narrow next week is.</p>
+      <div class="say"><p class="ur">آج ہم نے چودہ سو سال دیکھے۔ اگلے ہفتے — بارہ سال۔ صرف بارہ۔</p>
+      <p class="ur">اور گھر لے جانے والا سوال: کوئی تاریخ کی بات کہے — تو اب آپ سب سے پہلے کیا پوچھیں گے؟</p></div>
+      <div class="do">The answer you want, and <b>do not say</b>: «کب؟ اور کس نے کہا؟»</div>
+    </div>
+  </div>
+
+  <div class="blk">
+    <div class="tm"><b>Q&amp;A</b><span>all ten weeks</span></div>
+    <div>
+      <h3>No questions during the 45 minutes</h3>
+      <p>Slips into the box at the door. You stay <b>15 minutes afterwards</b> for one-to-one. Same every week — say it in آغاز.</p>
+      <div class="cue">
+        <div class="row"><span class="k">Companions’ disputes</span><span class="ur">بہت اچھا سوال۔ تیسری نشست پوری اِسی کے اصول پر ہے۔</span></div>
+        <div class="row"><span class="k">Karbala</span><span class="ur">چوتھی نشست میں، اصول کے ساتھ۔</span></div>
+        <div class="row"><span class="k">1924</span><span class="ur">ساتویں نشست۔</span></div>
+        <div class="row"><span class="k">1947</span><span class="ur">نویں نشست۔</span></div>
+        <div class="row"><span class="k">Today’s politics</span><span class="ur">یہ کورس ۱۹۴۷ پر رکتا ہے۔</span></div>
+      </div>
+      <div class="warn"><b>Never improvise a position on the Companions ؓ from the floor.</b> Not once, not even a mild one.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════════ PAGE 4 — CUE CARD ═════════════════ -->
+<section class="page cue">
+  <div class="hdr">
+    <span class="lbl">If you blank — one page</span>
+    <h1>Session 1 · Lectern Card</h1>
+  </div>
+
+  <h2>The shape</h2>
+  <p class="big">آغاز 3 &rarr; opening scene 5 &rarr; six moves 20 &rarr; تعارف 7 &rarr; method 6 &rarr; آج کی بات 4 &rarr; close 3</p>
+
+  <h2>The one paragraph you must not skip</h2>
+  <p class="ur">میں مؤرخ نہیں ہوں۔ ہم ایک کتاب پڑھ رہے ہیں — تاریخِ امت۔</p>
+
+  <h2>The eight pegs</h2>
+  <p class="big">632 Rāshidūn · 661 Umayyads · 750 Abbasids · 1099 Crusades · <b>1258 Baghdad falls</b> · 1453 Constantinople · 1924 Caliphate ends · 1947</p>
+
+  <h2>The six moves</h2>
+  <p class="big">1 Madina 632 &rarr; 2 <b>Spain and Sindh, one decade</b> &rarr; 3 Baghdad + Córdoba &rarr;
+  4 <b>the break — books move to Cairo</b> &rarr; 5 Constantinople 1453 &rarr; 6 1924 … 1947</p>
+
+  <h2>Four pen-downs</h2>
+  <p class="big">after the opening scene · after the two arrows · after the 656 mark in context · at 1947.
+  Phrase: <span class="ur" style="font-size:13pt">قلم اٹھائیے</span> then <b>15 silent seconds</b>.</p>
+
+  <h2>The method demonstration</h2>
+  <p class="big">“Suppose someone says Mehmed wrote to Hulagu.” Point at <b>their own sheet</b> — two centuries apart. Dead.
+  Then: <span class="ar" style="font-size:13pt;display:inline">لَمَّا اسْتَعْمَلَ الرُّوَاةُ الْكَذِبَ اسْتَعْمَلْنَاهُمُ التَّارِيخَ</span> — Sufyān al-Thawrī, p. 57.</p>
+
+  <h2>آج کی بات</h2>
+  <p class="ur">ماضی سے ارتباط · وحدتِ فکر و عمل · فراہمیِ اسبابِ قوت · جہدِ مسلسل</p>
+  <p class="big">Shams-ul-Haq Afghani, p. 53. One sentence, then <b>90 seconds of silence</b>. Two volunteers max, «شکریہ», nothing more.</p>
+
+  <h2>If you freeze</h2>
+  <p class="big"><b>Walk to the banner and start pointing.</b> You cannot get lost while walking the line — every block has a physical object attached to it.</p>
+
+  <h2>If long — cut in this order</h2>
+  <p class="big">the EXTRAs &rarr; move 3 (two capitals) to one sentence &rarr; profiles 2 and 3 to two lines.<br>
+  <b>Never cut:</b> the narrator paragraph · the four pen-downs · آج کی بات · the take-home question.</p>
+</section>

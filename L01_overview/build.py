@@ -1,253 +1,217 @@
-"""Build L01 «ایک نظر میں — پورا نقشہ».  python L01_overview/build.py
+"""Build L01 "The Whole Map" — fourteen centuries in one evening.
 
-Slides are deliberately LIGHT — the depth lives in Script.md. Every slide carries its
-speaker note. Re-run to regenerate; never hand-edit the .pptx for structural changes.
+    python L01_overview/build.py
+
+English carries the slides; Urdu appears only where it works, always with English beside it.
+Latin digits throughout — mixing Urdu-Indic digits with Latin punctuation makes the bidi
+algorithm reorder the line into nonsense. Depth lives in Script.md, not here.
 """
-import copy
 import os
 import sys
 
-from pptx import Presentation
-from pptx.dml.color import RGBColor
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "series"))
+from deckkit import *  # noqa: F401,F403
 from pptx.enum.text import PP_ALIGN
-from pptx.oxml.ns import qn
-from pptx.util import Emu, Inches, Pt
-
-TEAL, DARK, GOLD = RGBColor(0x10, 0x4A, 0x43), RGBColor(0x0A, 0x32, 0x2E), RGBColor(0xC4, 0x9A, 0x45)
-CREAM, INK, MAROON = RGBColor(0xFA, 0xF7, 0xF0), RGBColor(0x1C, 0x23, 0x21), RGBColor(0x7A, 0x2E, 0x2E)
-UR, AR, EN, ENB = "Jameel Noori Nastaleeq", "Traditional Arabic", "Georgia", "Segoe UI"
-
-W, H = Inches(13.333), Inches(7.5)
+from pptx.util import Inches, Pt
 
 
-def set_cs(run, face):
-    """Complex-script typeface: Urdu/Arabic shape correctly while Latin keeps its own font."""
-    rPr = run._r.get_or_add_rPr()
-    cs = rPr.find(qn("a:cs"))
-    if cs is None:
-        cs = rPr.makeelement(qn("a:cs"), {})
-        rPr.append(cs)
-    cs.set("typeface", face)
+def paradigms(prs):
+    """The 'how we know' material, cut down to one slide. Not a methodology lecture."""
+    s = blank(prs, CREAM)
+    eyebrow(s, "how do we know any of this?")
+    text(s, "Two ways of knowing the past", Inches(0.85), Inches(1.0), Inches(11.6), Inches(0.9),
+         size=38, color=TEAL, font=EN)
+    band(s, Inches(2.15), Inches(0.04), GOLD, Inches(0.85), Inches(11.6))
 
+    for x, head, body, col in [
+        (0.85, "The modern method",
+         "Dig, infer, connect the dots.\nNo chain of transmission.\nNo rule for accepting or\nrejecting a report.", MUTED),
+        (7.1, "The Islamic method",
+         "Every report carries a chain\nback to an eyewitness — and\nevery narrator in that chain\nhas a documented life.", DARK),
+    ]:
+        text(s, head, Inches(x), Inches(2.5), Inches(5.4), Inches(0.6),
+             size=25, color=(TEAL if col == DARK else MUTED), font=EN, bold=False)
+        text(s, body, Inches(x), Inches(3.25), Inches(5.4), Inches(2.4),
+             size=21, color=col, font=EN, spacing=1.45)
 
-def rtl(par):
-    par._p.get_or_add_pPr().set("rtl", "1")
-    par.alignment = PP_ALIGN.RIGHT
-
-
-def deck():
-    p = Presentation()
-    p.slide_width, p.slide_height = W, H
-    return p
-
-
-def blank(prs, bg=CREAM):
-    s = prs.slides.add_slide(prs.slide_layouts[6])
-    r = s.shapes.add_shape(1, 0, 0, W, H)
-    r.fill.solid(); r.fill.fore_color.rgb = bg; r.line.fill.background()
-    r.shadow.inherit = False
+    text(s, "So when you hear “there is no historical basis for that” — ask which method is speaking.",
+         Inches(0.85), Inches(5.85), Inches(11.6), Inches(0.6),
+         size=19, color=MAROON, font=EN, italic=True)
+    note(s, "0:33 (4 min). THE ONLY METHODOLOGY IN THE WHOLE COURSE - keep it to four minutes.\n"
+            "Do not teach isnad as a technical subject. The point is only: there are two different\n"
+            "ways of deciding what is true about the past, and ours has a mechanism the other lacks.\n"
+            "Be fair, not mocking - they work hard, they simply have no isnad system.\n"
+            "Then go straight to the Sufyan quotation and stop.")
     return s
 
 
-def text(slide, txt, x, y, w, h, size=28, color=INK, font=EN, cs=UR,
-         bold=False, align=PP_ALIGN.LEFT, is_rtl=False, spacing=1.0):
-    tb = slide.shapes.add_textbox(x, y, w, h)
-    tf = tb.text_frame
-    tf.word_wrap = True
-    for i, line in enumerate(txt.split("\n")):
-        par = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
-        par.line_spacing = spacing
-        run = par.add_run(); run.text = line
-        f = run.font
-        f.size, f.bold, f.name = Pt(size), bold, font
-        f.color.rgb = color
-        set_cs(run, cs)
-        par.alignment = align
-        if is_rtl:
-            rtl(par)
-    return tb
-
-
-def rule(slide, x, y, w, color=GOLD, thick=Pt(2)):
-    ln = slide.shapes.add_shape(1, x, y, w, Emu(int(thick)))
-    ln.fill.solid(); ln.fill.fore_color.rgb = color; ln.line.fill.background()
-    ln.shadow.inherit = False
-
-
-def note(slide, s):
-    slide.notes_slide.notes_text_frame.text = s
-
-
-def eyebrow(slide, label):
-    text(slide, label, Inches(0.9), Inches(0.5), Inches(8), Inches(0.4),
-         size=12, color=TEAL, font=ENB, bold=True)
-
-
-# ----------------------------------------------------------------------------- slides
 def build(path):
     prs = deck()
 
-    # 1 · title
-    s = blank(prs, DARK)
-    text(s, "تاریخ سے سبق", Inches(0.9), Inches(1.9), Inches(11.5), Inches(1.6),
-         size=60, color=CREAM, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.6)
-    text(s, "Lessons from History  ·  نشست ۱", Inches(0.9), Inches(3.5), Inches(11.5), Inches(0.6),
-         size=22, color=GOLD, font=EN)
-    rule(s, Inches(0.9), Inches(4.35), Inches(3.2))
-    text(s, "وَأَسْبَابِ مَبَادِئِ الدُّوَلِ وَإِقْبَالِهَا، ثُمَّ سَبَبِ انْقِرَاضِهَا",
-         Inches(0.9), Inches(4.7), Inches(11.5), Inches(0.9),
-         size=26, color=CREAM, cs=AR, align=PP_ALIGN.RIGHT, is_rtl=True)
-    text(s, "علامہ سخاوی رحمہ اللہ  ·  الإعلان بالتوبيخ، ص۱۱۱",
-         Inches(0.9), Inches(5.7), Inches(11.5), Inches(0.5),
-         size=15, color=GOLD, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True)
-    note(s, "0:00 AGHAZ (3 min). Names into workbooks first - 30 real seconds, do not talk over it.\n"
-            "THEN THE NARRATOR PARAGRAPH - do not skip, do not rush. 'I am not a historian, I read a book.'\n"
-            "This is your shield for ten weeks.")
+    # 1
+    s = title_slide(prs, "Lessons from History", "تاریخ سے سبق",
+                    "Fourteen centuries in one evening",
+                    "SESSION 1  ·  632 – 1947  ·  DHA ISLAMABAD")
+    note(s, "0:00 AGHAZ (3 min). Workbooks and pens are already on the chairs.\n"
+            "FIRST INSTRUCTION OF THE COURSE: 'apna naam likh lijiye.' Give a real 30 seconds.\n"
+            "THEN THE NARRATOR PARAGRAPH - do not skip, do not rush:\n"
+            "  'main mu'arrikh nahin hoon. hum ek kitab parh rahe hain - Tareekh-e-Ummat.'\n"
+            "This is your shield for all ten weeks.")
 
-    # 2 · opening scene — nothing on screen
-    s = blank(prs, DARK)
-    text(s, "۶۵۶ھ", Inches(0.9), Inches(3.0), Inches(11.5), Inches(1.4),
-         size=72, color=GOLD, cs=UR, align=PP_ALIGN.CENTER)
-    note(s, "0:03 OPENING SCENE (5 min). STAND STILL. No map, no movement. Tell Baghdad plainly.\n"
-            "[SOURCE: the Mongol volume - the taking of Baghdad in 656, the caliph's name, and what the\n"
-            "chroniclers record of the libraries. Say nothing the book does not say.]\n"
-            "END: walk to the banner, mark ONE filled square at 656. 'aap bhi yehi nishaan laga lijiye'.\n"
-            "PEN-DOWN 1. Then the two questions - DO NOT ANSWER THEM.")
+    # 2 — the opening scene
+    s = statement_slide(prs, "656 AH", "Baghdad falls. The libraries burn.",
+                        kicker="one night, in the middle of our story", bg=DARK, fg=GOLD)
+    note(s, "0:03 OPENING SCENE (5 min). STAND STILL. No map yet. Tell it plainly, do not raise\n"
+            "your voice. [SOURCE: the Mongol volume - the taking of Baghdad, the caliph, and what\n"
+            "the chroniclers record of the libraries. Say nothing the book does not say.]\n"
+            "END: walk to the BANNER and mark one filled square at 656. Room copies it. PEN-DOWN 1.\n"
+            "Then the two questions - AND DO NOT ANSWER THEM.")
 
-    # 3 · the line
-    s = blank(prs)
-    eyebrow(s, "THE LINE  ·  وقت")
-    text(s, "۱۱ھ ← ۱۹۴۷", Inches(0.9), Inches(2.6), Inches(11.5), Inches(1.2),
-         size=54, color=TEAL, cs=UR, align=PP_ALIGN.CENTER)
-    text(s, "آٹھ نشان  ·  چودہ سو سال  ·  ایک شام",
-         Inches(0.9), Inches(4.0), Inches(11.5), Inches(0.7),
-         size=24, color=INK, cs=UR, align=PP_ALIGN.CENTER, is_rtl=True)
-    note(s, "Point at the banner, not the screen. The screen is scaffolding; the banner is the object.")
+    # 3 — the whole line
+    s = statement_slide(prs, "That night sits in the middle.",
+                        "Not at the end. So how much came before — and how much after?",
+                        line="line_full", kicker="you are here")
+    note(s, "Point at the BANNER, not the screen. They have just marked 656 themselves and can see\n"
+            "blank line on both sides. Let them sit with it.")
 
-    # 4-9 · the six moves
+    # 4 — the map
+    s = map_slide(prs, "map_s1_sweep", "The whole map, once",
+                  "six cities to remember", line=None)
+    note(s, "0:08 THE STORY (20 min) begins here. Six moves, ~3 min each.\n"
+            "Introduce the six anchor cities FIRST - they are the furniture for all ten weeks.\n"
+            "Then walk the arrows: out of Arabia, west to Cordoba, east to Sindh, north to\n"
+            "Constantinople.")
+
+    # 5-10 — the six moves
     moves = [
-        ("۱", "مدینہ، ۱۱ھ", "ایک شہر، ایک نسل",
-         "Move 1. One city. Nobody expects what follows."),
-        ("۲", "اندلس اور سندھ", "ایک ہی دہائی میں — مغرب اور مشرق",
-         "Move 2. THE striking fact of the course. Say it slowly. Draw BOTH arrows.\n"
-         "PEN-DOWN 2: 'do teer kheenchiye - ek maghrib, ek mashriq'. [verify 92-93 AH]"),
-        ("۳", "بغداد اور قرطبہ", "ایک ہی صدیوں میں دو مرکز",
-         "Move 3. Two capitals at once. [trim to one sentence first if running long]"),
-        ("۴", "ٹوٹ", "بغداد گیا — کتابیں قاہرہ چلی گئیں",
-         "Move 4. Now the opening mark gets its meaning. The civilisation survived because the\n"
-         "books and the scholars had already moved. PEN-DOWN 3.\n"
-         "[SOURCE: what actually survived 656 and where it went]"),
-        ("۵", "قسطنطنیہ، ۸۵۷ھ", "اور مشرق میں سندھ سے دہلی تک",
-         "Move 5. The recovery. [verify 857]"),
-        ("۶", "۱۹۲۴ … ۱۹۴۷", "زوال، اور پھر — یہاں",
-         "Move 6. Sober, no politics. PEN-DOWN 4 - the last mark.\n"
+        ("One city. One generation.", "Madina, 632. Nobody expected what came next.",
+         "line_s2", "move 1", CREAM,
+         "Move 1. The Prophet (peace be upon him) has died. At this moment nobody would have\n"
+         "predicted anything that follows."),
+        ("Spain and Sindh — the same decade.", "West to the Atlantic, east to the Indus, at once.",
+         "line_s4", "move 2", CREAM,
+         "Move 2. THE STRIKING FACT. Say it slowly - nobody expects it.\n"
+         "PEN-DOWN 2: 'do teer kheenchiye - ek maghrib, ek mashriq.' [verify 92-93 AH]"),
+        ("Two capitals at once.", "Baghdad translating the world; Cordoba building a library.",
+         "line_s5", "move 3", CREAM,
+         "Move 3. [trim to one sentence first if running long.]"),
+        ("The capital falls — and it does not end.", "The books and the scholars had already moved to Cairo.",
+         "line_s6", "move 4", DARK,
+         "Move 4. Now the opening mark gets its meaning. THE KEY IDEA OF THE WHOLE EVENING:\n"
+         "a civilisation survived losing its capital because it had moved what mattered.\n"
+         "PEN-DOWN 3. [SOURCE: what actually survived 656 and where it went.]"),
+        ("1453 — a door opens.", "Constantinople. And in the east, Sindh leads on to Delhi.",
+         "line_s7", "move 5", CREAM,
+         "Move 5. The recovery. [verify 1453]"),
+        ("1924 … and then 1947.", "The last caliphate ends. And the story arrives here.",
+         "line_s9", "move 6", DARK,
+         "Move 6. SOBER. No present-day politics - the venue has ruled it out.\n"
+         "PEN-DOWN 4, the last mark.\n"
          "If asked about 1924 -> SEVENTH session. About 1947 -> NINTH. Do not mix them up."),
     ]
-    for num, head, sub, nt in moves:
-        s = blank(prs)
-        text(s, num, Inches(0.9), Inches(0.6), Inches(1.2), Inches(1.0),
-             size=40, color=GOLD, cs=UR, bold=True)
-        rule(s, Inches(0.9), Inches(1.7), Inches(2.0))
-        text(s, head, Inches(0.9), Inches(2.4), Inches(11.5), Inches(1.3),
-             size=48, color=TEAL, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.5)
-        text(s, sub, Inches(0.9), Inches(4.0), Inches(11.5), Inches(0.9),
-             size=26, color=INK, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.5)
+    for big, sub, line, kick, bg, nt in moves:
+        s = statement_slide(prs, big, sub, line=line, kicker=kick, bg=bg,
+                            fg=(GOLD if bg == DARK else TEAL))
         note(s, nt)
 
-    # 10 · taaruf divider
-    s = blank(prs, TEAL)
-    text(s, "تعارف", Inches(0.9), Inches(2.9), Inches(11.5), Inches(1.4),
-         size=64, color=CREAM, cs=UR, align=PP_ALIGN.CENTER)
-    text(s, "تین لوگ  ·  تینوں کی اپنی نشست آ رہی ہے",
-         Inches(0.9), Inches(4.4), Inches(11.5), Inches(0.7),
-         size=22, color=GOLD, cs=UR, align=PP_ALIGN.CENTER, is_rtl=True)
-    note(s, "0:28 TAARUF (7 min). SAY FIRST: all three get their own session; tonight is introduction only.\n"
-            "READ EACH FROM THE PRINTED CARD - never from memory.\n"
-            "WARNING: Hulagu's waqi'a must NOT be the fall of Baghdad - that was tonight's opening scene.")
+    # 11 — taaruf divider
+    s = statement_slide(prs, "Three people", "Each one has their own evening later in the course.",
+                        kicker="تعارف  ·  who you are meeting", bg=TEAL, fg=CREAM)
+    note(s, "0:28 TAARUF (7 min). SAY FIRST: all three get their own session; tonight is an\n"
+            "introduction only. READ EACH FROM THE PRINTED CARD - never from memory.\n"
+            "Workbook prints the first lines and leaves ONE INCIDENT blank for them to write.")
 
-    for who, when in [("سیدنا عمر الفاروق ؓ", "اگلے ہفتے"),
-                      ("ہلاکو خان", "چھٹی نشست"),
-                      ("سلطان محمد فاتح", "ساتویں نشست")]:
-        s = blank(prs)
-        text(s, who, Inches(0.9), Inches(2.3), Inches(11.5), Inches(1.4),
-             size=46, color=TEAL, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.6)
-        rule(s, Inches(9.6), Inches(3.9), Inches(2.8))
-        text(s, when, Inches(0.9), Inches(4.2), Inches(11.5), Inches(0.7),
-             size=22, color=GOLD, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True)
-        note(s, "Four lines, read from the card: naam o nasab / sunain / one sentence / EK WAQI'A.\n"
-                "[SOURCE: all four lines. The laqab field stays EMPTY until read off the page.]\n"
-                "Workbook prints the first three and leaves 'ek waqi'a' blank for them to write.")
+    people = [
+        ("Umar ibn al-Khattab", "سیدنا عمر الفاروق ؓ", "AL-FARUQ — the one who separates truth from falsehood",
+         "الفاروق", "SECOND CALIPH  ·  COMES BACK IN SESSION 2",
+         "In his time Persia was ended and Byzantium lost Syria and Egypt — and he built the\nadministration that governed it.",
+         "[SOURCE: Siyar A'lam al-Nubala — dates and one incident, read off the page]",
+         "Meets them properly next week. Do not spend his material tonight."),
+        ("Hulagu Khan", "ہلاکو خان", "", "", "COMES BACK IN SESSION 6",
+         "The Mongol commander who took Baghdad in 656 AH and ended the Abbasid caliphate there.",
+         "[SOURCE: the Mongol volume]",
+         "WARNING: his incident must NOT be the fall of Baghdad - that was tonight's opening scene\n"
+         "and the segment would simply repeat itself. Pick something else."),
+        ("Mehmed the Conqueror", "سلطان محمد فاتح", "", "", "COMES BACK IN SESSION 7",
+         "Took Constantinople in 1453, thirty-nine years before Granada was lost in the west.",
+         "[SOURCE: no work on the shelf reaches the Ottomans — blocked until a volume arrives]",
+         "BLOCKED for sourcing. If you have nothing verified by the night, introduce only the\n"
+         "two you do have and say the third comes in session 7."),
+    ]
+    for en, ur, lq_en, lq_ur, dates, did, cite, nt in people:
+        s = person_slide(prs, en, ur, lq_en, lq_ur, dates, did, "—", cite)
+        note(s, nt)
 
-    # 14 · kaise pata chala
-    s = blank(prs)
-    eyebrow(s, "کیسے پتا چلا؟")
-    text(s, "لَمَّا اسْتَعْمَلَ الرُّوَاةُ الْكَذِبَ اسْتَعْمَلْنَاهُمُ التَّارِيخَ",
-         Inches(0.9), Inches(2.5), Inches(11.5), Inches(1.2),
-         size=40, color=DARK, cs=AR, align=PP_ALIGN.CENTER, is_rtl=True)
-    text(s, "جب راوی جھوٹی روایتیں گھڑنے لگے تو ہم نے اُن کی جانچ کے لیے تاریخ سے کام لیا",
-         Inches(0.9), Inches(4.0), Inches(11.5), Inches(0.9),
-         size=24, color=INK, cs=UR, align=PP_ALIGN.CENTER, is_rtl=True, spacing=1.5)
-    text(s, "سفیان ثوری رحمہ اللہ  ·  تاریخِ امت، مقدمہ، ص۵۷",
-         Inches(0.9), Inches(5.3), Inches(11.5), Inches(0.5),
-         size=16, color=TEAL, cs=UR, align=PP_ALIGN.CENTER, is_rtl=True)
-    note(s, "0:35 (3 min). FIRST the demonstration, THEN the slide.\n"
-            "'Suppose someone says Muhammad al-Fatih wrote a letter to Hulagu.' Point at THEIR OWN sheet.\n"
-            "Two centuries apart. Done. No Arabic needed, no isnad needed - the timeline alone killed it.\n"
-            "THEN put this up, read once, STOP. Teach no further method tonight.")
+    # 14-15 — the one methodology moment
+    paradigms(prs)
+    s = quote_slide(
+        prs,
+        "لَمَّا اسْتَعْمَلَ الرُّوَاةُ الْكَذِبَ اسْتَعْمَلْنَاهُمُ التَّارِيخَ",
+        "“When narrators began inventing, we used dates against them.”",
+        "SUFYAN AL-THAWRI  ·  TAREEKH-E-UMMAT, MUQADDIMA, p.57",
+        label="how a forgery dies",
+        urdu="جب راوی جھوٹی روایتیں گھڑنے لگے تو ہم نے تاریخ سے کام لیا")
+    note(s, "0:37 (2 min). DEMONSTRATE FIRST, then show this.\n"
+            "'Suppose someone tells you Mehmed the Conqueror wrote to Hulagu Khan.'\n"
+            "Point at THEIR OWN sheet - two centuries apart. Dead. No Arabic needed, no isnad\n"
+            "needed; the timeline alone killed it. THEN put this up, read once, and STOP.")
 
-    # 15 · aaj ki baat
-    s = blank(prs)
-    eyebrow(s, "آج کی بات")
-    text(s, "مولانا شمس الحق افغانی رحمہ اللہ فرماتے ہیں",
-         Inches(0.9), Inches(1.5), Inches(11.5), Inches(0.8),
-         size=26, color=TEAL, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True)
-    text(s, "ماضی سے ارتباط\nوحدتِ فکر و عمل\nفراہمیِ اسبابِ قوت\nجہدِ مسلسل",
-         Inches(0.9), Inches(2.5), Inches(11.5), Inches(2.8),
-         size=34, color=INK, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.7)
-    text(s, "تاریخِ امت، مقدمہ، ص۵۳",
-         Inches(0.9), Inches(5.6), Inches(11.5), Inches(0.5),
-         size=16, color=TEAL, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True)
-    note(s, "0:38 (4 min). The slide is headed by the ATTRIBUTION, not the claim. It is not your view.\n"
-            "[SOURCE: exact wording of the four + the reference the book gives - read by eye]\n"
-            "Read the four. ONE sentence of connection: 'pehli cheez maazi se irtibaat hai, baaqi teenon\n"
-            "isi par khari hain.' THEN STOP.\n"
-            "90 SECONDS OF SILENCE while they write. Two volunteers max. Say 'shukriya' and NOTHING else -\n"
-            "do not improve or build on what they said.")
+    # 16 — aaj ki baat
+    s = blank(prs, CREAM)
+    eyebrow(s, "آج کی بات  ·  today's point — not mine")
+    text(s, "Shams-ul-Haq Afghani", Inches(0.85), Inches(1.05), Inches(7.5), Inches(0.7),
+         size=30, color=TEAL, font=EN)
+    text(s, "مولانا شمس الحق افغانی رحمہ اللہ", Inches(7.6), Inches(1.0), Inches(4.9), Inches(0.7),
+         size=24, color=TEAL, font=UR, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.9)
+    text(s, "Four things a people needs in order to rise —", Inches(0.85), Inches(1.95),
+         Inches(11.6), Inches(0.5), size=20, color=MUTED, font=EN, italic=True)
+    for i, (en, ur) in enumerate([
+            ("Connection to its own past", "ماضی سے ارتباط"),
+            ("Unity of thought and action", "وحدتِ فکر و عمل"),
+            ("Building the means of strength", "فراہمیِ اسبابِ قوت"),
+            ("Sustained effort", "جہدِ مسلسل")]):
+        y = 2.55 + i * 0.78
+        text(s, "%d" % (i + 1), Inches(0.9), Inches(y), Inches(0.5), Inches(0.6),
+             size=22, color=GOLD, font=SANS, bold=True)
+        text(s, en, Inches(1.5), Inches(y), Inches(6.2), Inches(0.6),
+             size=25, color=(DARK if i == 0 else INK), font=EN, bold=(i == 0))
+        text(s, ur, Inches(7.8), Inches(y - 0.06), Inches(4.7), Inches(0.7),
+             size=22, color=(DARK if i == 0 else MUTED), font=UR, cs=UR,
+             align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.8)
+    text(s, "TAREEKH-E-UMMAT, MUQADDIMA, p.53", Inches(0.85), Inches(5.95), Inches(11.6), Inches(0.4),
+         size=13, color=TEAL, font=SANS)
+    note(s, "0:39 (4 min). The slide is headed by the ATTRIBUTION, not the claim. It is not your view.\n"
+            "[SOURCE: exact wording of the four and the reference the book gives - read by eye]\n"
+            "Read them. ONE sentence: the FIRST is connection to the past, and the other three rest\n"
+            "on it - which is why tonight began with the whole line instead of the first year.\n"
+            "THEN STOP. 90 SECONDS OF SILENCE while they write their own line.\n"
+            "Two volunteers max. Say 'shukriya' and NOTHING else - do not improve on what they said.")
 
-    # 16 · close
-    s = blank(prs, DARK)
-    text(s, "اگلے ہفتے — بارہ سال", Inches(0.9), Inches(2.4), Inches(11.5), Inches(1.3),
-         size=50, color=CREAM, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.6)
-    text(s, "۱۱ھ  ←  ۲۳ھ", Inches(0.9), Inches(3.9), Inches(11.5), Inches(0.8),
-         size=30, color=GOLD, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True)
-    rule(s, Inches(0.9), Inches(5.0), Inches(11.5), CREAM, Pt(1))
-    text(s, "کوئی تاریخ کی بات کہے — تو اب آپ سب سے پہلے کیا پوچھیں گے؟",
-         Inches(0.9), Inches(5.3), Inches(11.5), Inches(0.9),
-         size=26, color=GOLD, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True)
-    note(s, "0:42 (3 min). Hold up the workbook: 'yehi ek cheez agle hafte saath laani hai.'\n"
-            "Draw a bracket on the banner around 11-23 AH so they SEE how narrow next week is.\n"
-            "Say the take-home question ONCE, slowly, write it on the banner, and LEAVE IT UNANSWERED.\n"
-            "(want: 'kab? aur kis ne kaha?')")
+    # 17 — close
+    s = statement_slide(prs, "Next week: twelve years.",
+                        "632 to 644. All of it inside that one narrow bracket.",
+                        line="line_s2", kicker="اگلے ہفتے", bg=DARK, fg=CREAM)
+    note(s, "0:43 (3 min). Hold up the workbook: the only thing to bring back.\n"
+            "Draw a bracket on the BANNER around 11-23 AH so they SEE how narrow next week is.\n"
+            "TAKE-HOME, say once and leave unanswered:\n"
+            "  'koi tareekh ki baat kahe - to ab aap sab se pehle kya poochhenge?'\n"
+            "  (want: when? and who said it?)")
 
-    # 17 · sources
-    s = blank(prs)
-    eyebrow(s, "SOURCES  ·  show only if asked")
-    text(s, "تاریخِ امت — مولانا محمد اسماعیل ریحان\nمقدمہ، ص۵۳ · ص۵۷\n\n"
-            "الإعلان بالتوبيخ — علامہ سخاوی رحمہ اللہ، ص۱۱۱",
-         Inches(0.9), Inches(2.2), Inches(11.5), Inches(3.0),
-         size=24, color=INK, cs=UR, align=PP_ALIGN.RIGHT, is_rtl=True, spacing=1.6)
+    # 18 — sources
+    s = blank(prs, CREAM)
+    eyebrow(s, "sources  ·  show only if asked")
+    text(s, "Tareekh-e-Ummat\nMaulana Muhammad Ismail Rehan  —  muqaddima, pp. 53, 57\n\n"
+            "al-I'lan bi'l-Tawbikh\nal-Sakhawi  —  p. 111",
+         Inches(0.9), Inches(1.9), Inches(11.5), Inches(3.2),
+         size=24, color=INK, font=EN, spacing=1.6)
+    text(s, "Every claim tonight traces to a printed page you could open yourself.",
+         Inches(0.9), Inches(5.4), Inches(11.5), Inches(0.5),
+         size=19, color=MAROON, font=EN, italic=True)
     note(s, "Keep for credibility. Show only if someone asks where something came from.")
 
-    try:
-        prs.save(path)
-    except PermissionError:
-        alt = path.replace(".pptx", "_NEW.pptx")
-        prs.save(alt)
-        return alt
-    return path
+    return save(prs, path)
 
 
 if __name__ == "__main__":
     here = os.path.dirname(os.path.abspath(__file__))
-    out = build(os.path.join(here, "L01.pptx"))
-    print("saved:", out)
+    print("saved:", build(os.path.join(here, "L01.pptx")))
