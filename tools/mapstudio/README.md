@@ -39,6 +39,12 @@ Also: `Ctrl+Z` / `Ctrl+Shift+Z` undo and redo · `Ctrl+S` save · `Ctrl+E` expor
 
 ## The things worth knowing
 
+**Factions.** The **Factions** panel has a dot beside each faction — that is the one new
+armies, arrows and territories get, and keys `1`-`9` switch it. Set it *before* you draw:
+the arrow and territory previews use it live, so you see the right colour while you click.
+Adding a faction makes it the active one. To change something already placed, select it
+and use the **Faction** dropdown in the inspector.
+
 **Mark size.** The *Look* panel has a **Mark size** slider that lifts every mark and label
 together, and each object has its own **Size** slider on top of it. A map of the whole
 caliphate needs bigger marks than a map of Najd to stay legible from the back of a hall —

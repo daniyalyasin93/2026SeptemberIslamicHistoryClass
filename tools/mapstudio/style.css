@@ -281,3 +281,8 @@ button.layer .st { flex: 0 0 auto; font-size: 10.5px; color: var(--parch-dim); }
 
 .filebtn { position: relative; overflow: hidden; display: inline-block; }
 .filebtn input { position: absolute; inset: 0; opacity: 0; cursor: pointer; font-size: 100px; }
+
+/* The faction a new mark is created with. The radio is the picker; the row lights
+   up so the choice is visible without reading the radios. */
+.faction input[type="radio"] { flex: 0 0 auto; accent-color: var(--gold); margin: 0 2px 0 0; cursor: pointer; }
+.faction.on { background: rgba(227, 170, 62, 0.11); border-radius: 3px; padding: 2px 3px; margin-left: -3px; }

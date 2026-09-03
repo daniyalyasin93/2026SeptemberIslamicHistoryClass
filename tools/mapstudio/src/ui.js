@@ -18,6 +18,7 @@
   var images = {};             // dataURL -> HTMLImageElement
   var needsDraw = true;
   var statusTimer = null;
+  var activeFaction = null;    // which faction new armies / arrows / territories get
 
   var $ = function (sel) { return document.querySelector(sel); };
   var $$ = function (sel) { return Array.prototype.slice.call(document.querySelectorAll(sel)); };
@@ -43,6 +44,23 @@
   }
 
   function invalidate() { needsDraw = true; }
+
+  /* The faction new objects are created with. Validated on every read, because the
+   * faction it points at can be deleted out from under it. */
+  function activeFactionId() {
+    var fs = store.scene.factions;
+    for (var i = 0; i < fs.length; i++) if (fs[i].id === activeFaction) return activeFaction;
+    activeFaction = fs.length ? fs[0].id : null;
+    return activeFaction;
+  }
+
+  function setActiveFaction(id) {
+    activeFaction = id;
+    buildFactions();
+    invalidate();
+    var f = store.faction(id);
+    status('New armies, arrows and territories will be ' + f.name + '.');
+  }
 
   /* ---------------- canvas plumbing ---------------- */
 
@@ -77,7 +95,7 @@
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     var pts = draft.pts.map(function (p) { return P.toStage(store.scene.view, p[0], p[1]); });
     if (draft.hover) pts = pts.concat([draft.hover]);
-    var f = store.faction(draft.faction || store.scene.factions[0].id);
+    var f = store.faction(draft.faction || activeFactionId());
     if (draft.kind === 'territory' && pts.length >= 3) {
       T.territory(ctx, pts, f.color, 0.18, 1, false);
     } else if (pts.length >= 2) {
@@ -139,10 +157,10 @@
   var TOOLS = [
     { id: 'select', key: 'V', name: 'Select', hint: 'Click to select. Drag to move. Drag empty space to pan, wheel to zoom.' },
     { id: 'settlement', key: 'S', name: 'Settlement', hint: 'Click to place a settlement. It stays in this tool so you can place several.' },
-    { id: 'army', key: 'A', name: 'Army', hint: 'Click to place an army banner, then set its faction and unit type on the right.' },
+    { id: 'army', key: 'A', name: 'Army', hint: 'Click to place an army banner. It takes the faction ticked in the Factions panel - keys 1-9 switch that.' },
     { id: 'battle', key: 'B', name: 'Battle', hint: 'Click to mark a battle. Give it a name and a date.' },
-    { id: 'arrow', key: 'R', name: 'Arrow', hint: 'Click each waypoint, then Enter (or double-click) to finish. Backspace undoes a point, Esc cancels.' },
-    { id: 'territory', key: 'T', name: 'Territory', hint: 'Click around the area, then Enter (or double-click) to close it.' },
+    { id: 'arrow', key: 'R', name: 'Arrow', hint: 'Click each waypoint, then Enter (or double-click) to finish. Draws in the ticked faction colour - keys 1-9 switch. Backspace undoes a point.' },
+    { id: 'territory', key: 'T', name: 'Territory', hint: 'Click around the area, then Enter (or double-click) to close it. Takes the faction ticked in the Factions panel - keys 1-9 switch.' },
     { id: 'label', key: 'L', name: 'Label', hint: 'Click to drop free text - a region name, a sea, a note.' }
   ];
 
@@ -168,8 +186,8 @@
     var min = draft.kind === 'territory' ? 3 : 2;
     if (draft.pts.length >= min) {
       var o = draft.kind === 'territory'
-        ? S.newTerritory(draft.pts, { step: store.scene.steps.current })
-        : S.newArrow(draft.pts, { step: store.scene.steps.current });
+        ? S.newTerritory(draft.pts, { faction: activeFactionId(), step: store.scene.steps.current })
+        : S.newArrow(draft.pts, { faction: activeFactionId(), step: store.scene.steps.current });
       store.add(o);
       buildInspector();
     }
@@ -188,7 +206,7 @@
     var geo = P.toGeo(store.scene.view, s[0], s[1]);
 
     if (tool === 'arrow' || tool === 'territory') {
-      if (!draft) draft = { kind: tool, pts: [], faction: store.scene.factions[0].id };
+      if (!draft) draft = { kind: tool, pts: [], faction: activeFactionId() };
       draft.pts.push(geo);
       invalidate();
       return;
@@ -197,7 +215,7 @@
     if (tool !== 'select') {
       var made;
       if (tool === 'settlement') made = S.newSettlement(geo[0], geo[1], { step: store.scene.steps.current });
-      else if (tool === 'army') made = S.newArmy(geo[0], geo[1], { step: store.scene.steps.current });
+      else if (tool === 'army') made = S.newArmy(geo[0], geo[1], { faction: activeFactionId(), step: store.scene.steps.current });
       else if (tool === 'battle') made = S.newBattle(geo[0], geo[1], { step: store.scene.steps.current });
       else made = S.newLabel(geo[0], geo[1], { step: store.scene.steps.current });
       store.add(made);
@@ -434,7 +452,14 @@
     var box = $('#factions');
     box.innerHTML = '';
     box.appendChild(el('h3', { text: 'Factions' }));
+    box.appendChild(el('p', { class: 'muted small', text: 'The dot picks which faction new armies, arrows and territories are created with. Keys 1-9 switch it too.' }));
+    var current = activeFactionId();
     store.scene.factions.forEach(function (f, idx) {
+      var pick = el('input', {
+        type: 'radio', name: 'ms-active-faction', title: 'Use this faction for new marks',
+        checked: f.id === current ? '' : null
+      });
+      pick.addEventListener('change', function () { setActiveFaction(f.id); });
       var color = el('input', { type: 'color', value: f.color });
       color.addEventListener('input', function () { f.color = color.value; invalidate(); scheduleAutosave(); });
       var name = el('input', { type: 'text', value: f.name });
@@ -444,15 +469,18 @@
           if (store.scene.factions.length <= 1) return;
           store.checkpoint();
           store.scene.factions.splice(idx, 1);
+          if (activeFaction === f.id) activeFaction = null;   // activeFactionId() re-picks
           buildFactions(); buildInspector(); invalidate();
         }
       });
-      box.appendChild(el('div', { class: 'faction' }, [color, name, del]));
+      box.appendChild(el('div', { class: 'faction' + (f.id === current ? ' on' : '') }, [pick, color, name, del]));
     });
     box.appendChild(el('button', {
       class: 'wide', text: '+ Add faction', onclick: function () {
         store.checkpoint();
-        store.scene.factions.push({ id: S.uid('f'), name: 'New faction', ur: '', color: '#8C6BB1' });
+        var nf = { id: S.uid('f'), name: 'New faction', ur: '', color: '#8C6BB1' };
+        store.scene.factions.push(nf);
+        activeFaction = nf.id;
         buildFactions(); buildInspector();
       }
     }));
@@ -760,6 +788,10 @@
     if (k === 'Backspace' && draft) { draft.pts.pop(); invalidate(); return; }
     if ((k === 'Delete' || k === 'Backspace') && store.selection) {
       store.remove(store.selection); buildInspector(); buildLayers(); invalidate(); return;
+    }
+    if (k >= '1' && k <= '9') {
+      var fi = parseInt(k, 10) - 1;
+      if (fi < store.scene.factions.length) { setActiveFaction(store.scene.factions[fi].id); return; }
     }
     if (k === '[') { var st = store.scene.steps; st.current = Math.max(1, st.current - 1); buildSteps(); invalidate(); return; }
     if (k === ']') { var s2 = store.scene.steps; s2.current = Math.min(store.maxStep(), s2.current + 1); buildSteps(); invalidate(); return; }
