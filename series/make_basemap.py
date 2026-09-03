@@ -81,7 +81,7 @@ def land_paths(src):
 def svg(paths, labelled):
     o = []
     o.append('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %g %g" '
-             'font-family="Jameel Noori Nastaleeq, Noto Nastaliq Urdu, serif">' % (W, H))
+             'font-family="Noto Nastaliq Urdu, serif">' % (W, H))
     o.append('<defs><clipPath id="fr"><rect x="0" y="0" width="%g" height="%g"/></clipPath></defs>' % (W, H))
     o.append('<g clip-path="url(#fr)">')
     o.append('<rect x="0" y="0" width="%g" height="%g" fill="#DCE8E6"/>' % (W, H))   # sea

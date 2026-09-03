@@ -46,6 +46,27 @@ Stay inside this list for general narrative. All of them are named and relied on
 |---|---|---|---|---|
 | الإعلان 34 | **ص۱۱۱** | فوائد التاريخ | The course epigraph, on the title slide | ✅ **in use** |
 
+### Strand — سهيل بن عمرو ؓ, the man who held Mecca (research note: `docs/research/suhayl-ibn-amr.md`)
+
+Belongs to session 2 «بارہ سال» — Mecca's ۱۱ھ, running alongside المدینہ's.
+
+| Book | Volume & page | Chapter | Used for | Status |
+|---|---|---|---|---|
+| سیر 10906 | **ج۱ ص۱۹۲–۱۹۳** | أبو جندل · عبد الله بن سهيل | The two sons; طاعون عمواس ۱۸ھ | cached |
+| سیر 10906 | **ج۱ ص۱۹۴–۱۹۵** | ٢٥ - سهيل بن عمرو | خطیب قریش; Islam at الفتح; the two death reports; **الذہبی's «فَهَذَا لاَ يَسْتَقِيْمُ»** | cached |
+| البدایہ 30097 | **ج۴ ص۱۱۴–۱۱۵** | فداء أسرى بدر | **The teeth incident**, ابن کثیر's wording + his «مرسلٌ بل معضلٌ» grading | cached |
+| البدایہ 30097 | **ج۴ ص۳۸۰–۳۸۲** | غزوة الحديبية | His role as Quraysh's negotiator | cached |
+| البدایہ 30097 | **ج۵ ص۳۹۷–۳۹۸** | فصل (بعد وفاته ﷺ) | **Mecca wavers · عتاب ؓ hides · سہیل ؓ stands** | cached |
+| البدایہ 30097 | **ج۷ ص۱۲۷** | المتوفون سنة ۱۳ھ | عتاب بن أسيد ؓ — governor at 20, kept in post by ابوبکر ؓ | cached |
+| البدایہ 30097 | **ج۷ ص۱۶۵–۱۶۷** | المتوفون سنة ۱۵ھ | His obituary; the الیرموک-year dispute | cached |
+| الکامل 21712 | **ج۲ ص۲۴–۲۵** | غزوة بدر الكبرى | **The teeth incident — «دَعْهُ يَا عُمَرُ؛ فَسَيَقُومُ مَقَامًا تَحْمَدُهُ عَلَيْهِ»** | cached |
+| الکامل 21712 | **ج۲ ص۸۴** | عمرة الحديبية | «سُهِّلَ أَمْرُكُمْ» | cached |
+| الکامل 21712 | **ج۲ ص۱۸۶** | مرض رسول الله ﷺ ووفاته | **The Mecca speech, verbatim — the only safe-list source that carries it** | cached |
+
+⚠ The «يَا أَهْلَ مَكَّةَ، لَا تَكُونُوا آخِرَ مَنْ أَسْلَمَ وَأَوَّلَ مَنِ ارْتَدَّ» text is
+**ابن الاثیر's, ج۲ ص۱۸۶** — البدایہ carries only the substance of that stand, in different words.
+Never caption the الکامل wording to ابن کثیر. See the research note for both, side by side.
+
 ---
 
 ## Verified findings worth reusing

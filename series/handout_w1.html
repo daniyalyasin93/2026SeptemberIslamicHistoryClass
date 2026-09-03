@@ -4,7 +4,7 @@
 :root{--paper:#FAF7F0;--ink:#1C2321;--teal:#104A43;--deep:#0A322E;--gold:#C49A45;--muted:#5A6862;--rule:rgba(16,74,67,.3);--faint:rgba(16,74,67,.13)}
 *{box-sizing:border-box}
 body{margin:0;background:#5A6862;font-family:"Spectral",Georgia,serif;color:var(--ink)}
-.ur{font-family:"Jameel Noori Nastaleeq","Noto Nastaliq Urdu",serif;direction:rtl;unicode-bidi:isolate;line-height:2.1}
+.ur{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;unicode-bidi:isolate;line-height:2.1}
 .lbl{font-family:"Archivo",system-ui,sans-serif;font-weight:700;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
 .page{width:297mm;height:210mm;background:var(--paper);padding:14mm 16mm;margin:0 auto 8mm;position:relative;overflow:hidden;display:flex;flex-direction:column}
 .page + .page{page-break-before:always}
@@ -13,7 +13,7 @@ body{margin:0;background:#5A6862;font-family:"Spectral",Georgia,serif;color:var(
 
 /* cover */
 .cover{justify-content:center;align-items:center;text-align:center}
-.cover h1{font-family:"Jameel Noori Nastaleeq","Noto Nastaliq Urdu",serif;direction:rtl;font-size:64px;line-height:1.8;margin:0;color:var(--teal);font-weight:600}
+.cover h1{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;font-size:64px;line-height:1.8;margin:0;color:var(--teal);font-weight:600}
 .cover .en{font-size:22px;font-style:italic;color:var(--muted);margin:4px 0 30px}
 .cover .own{font-size:30px;margin-top:26px}
 .cover .own u{display:inline-block;min-width:230px;border-bottom:1px solid var(--rule);text-decoration:none}
@@ -23,7 +23,7 @@ body{margin:0;background:#5A6862;font-family:"Spectral",Georgia,serif;color:var(
 
 /* section head */
 .head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:2mm}
-.head h2{margin:0;font-family:"Jameel Noori Nastaleeq","Noto Nastaliq Urdu",serif;direction:rtl;font-size:34px;color:var(--teal);font-weight:600;line-height:1.9}
+.head h2{margin:0;font-family:"Noto Nastaliq Urdu",serif;direction:rtl;font-size:34px;color:var(--teal);font-weight:600;line-height:1.9}
 .instr{font-size:13px;color:var(--muted);font-style:italic;margin:0 0 3mm}
 
 figure{margin:0;flex:1;display:flex;align-items:center;justify-content:center}
@@ -32,7 +32,7 @@ figure img{max-width:100%;max-height:100%;object-fit:contain}
 /* profile panels */
 .panels{display:grid;grid-template-columns:repeat(3,1fr);gap:6mm;flex:1}
 .panel{border:1px solid var(--faint);padding:5mm;display:flex;flex-direction:column}
-.panel .nm{font-family:"Jameel Noori Nastaleeq","Noto Nastaliq Urdu",serif;direction:rtl;font-size:26px;color:var(--teal);line-height:2;margin-bottom:1mm}
+.panel .nm{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;font-size:26px;color:var(--teal);line-height:2;margin-bottom:1mm}
 .panel .wk{font-family:"Archivo",sans-serif;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:3mm}
 .panel .fld{margin-bottom:3mm}
 .panel .fld .lbl{display:block;margin-bottom:1mm}
@@ -41,7 +41,7 @@ figure img{max-width:100%;max-height:100%;object-fit:contain}
 .bottom{display:grid;grid-template-columns:1.35fr 1fr;gap:8mm;margin-top:4mm}
 .box{border:1px solid var(--faint);padding:4mm 5mm}
 .box .lbl{display:block;margin-bottom:2mm}
-.box .q{font-family:"Jameel Noori Nastaleeq","Noto Nastaliq Urdu",serif;direction:rtl;font-size:19px;color:var(--deep);line-height:2;margin-bottom:3mm}
+.box .q{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;font-size:19px;color:var(--deep);line-height:2;margin-bottom:3mm}
 .foot{position:absolute;bottom:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between}
 
 @media print{
@@ -83,7 +83,7 @@ figure img{max-width:100%;max-height:100%;object-fit:contain}
       </g>
       <g fill="#104A43"><circle cx="60" cy="230" r="6"/><circle cx="90.4" cy="230" r="6"/><circle cx="183.8" cy="230" r="6"/><circle cx="550.1" cy="230" r="6"/><circle cx="716.9" cy="230" r="6"/><circle cx="921.5" cy="230" r="6"/><circle cx="1415.9" cy="230" r="6"/><circle cx="1440" cy="230" r="6"/></g>
       <!-- staggered so the crowded ends stay legible -->
-      <g font-size="22" fill="#0A322E" text-anchor="middle" font-family="Jameel Noori Nastaleeq, Noto Nastaliq Urdu, serif" direction="rtl">
+      <g font-size="22" fill="#0A322E" text-anchor="middle" font-family="Noto Nastaliq Urdu, serif" direction="rtl">
         <text x="60"     y="150">خلافتِ راشدہ</text>
         <text x="90.4"   y="330">بنو امیہ</text>
         <text x="183.8"  y="105">بنو عباس</text>
@@ -96,7 +96,7 @@ figure img{max-width:100%;max-height:100%;object-fit:contain}
       <!-- Hijri and CE kept in SEPARATE elements: mixing Urdu and Latin digits inside one
            RTL string makes the bidi algorithm reorder them into nonsense. -->
       <g font-size="15" fill="#0A322E" text-anchor="middle" direction="rtl"
-         font-family="Jameel Noori Nastaleeq, Noto Nastaliq Urdu, serif">
+         font-family="Noto Nastaliq Urdu, serif">
         <text x="60"     y="176">۱۱ھ</text>
         <text x="90.4"   y="356">۴۰ھ</text>
         <text x="183.8"  y="131">۱۳۲ھ</text>

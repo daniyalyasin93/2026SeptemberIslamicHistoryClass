@@ -9,7 +9,58 @@ core plus weekly drop-ins.
 Materials must be **over-prepared**: ~2× the material the slot needs, full Urdu scripts,
 a one-page panic card, and a pre-written answer for every hostile question.
 
-**First session: 2 September 2026.** Weekly thereafter. ~45 minutes.
+**First session: ⬜ date to be set** — 2 September 2026 was **postponed** and no new date is fixed.
+Weekly thereafter. ~45 minutes.
+
+---
+
+## 0. Start here — never re-derive what is already written down
+
+**Read these three files before doing anything else. They are the whole context.**
+
+| File | What it holds |
+|---|---|
+| `docs/STATUS.md` | Where everything stands *right now* — what is built, what is blocked, what is next |
+| `docs/DECISIONS.md` | Every settled decision with its reason. **Append-only** |
+| `docs/research/INDEX.md` | The research catalogue — grep it before researching anything |
+
+### 0.1 The research catalogue rule (standing instruction)
+
+> **Before any research pass, grep `docs/research/INDEX.md`. If a note already answers the question,
+> read it and build on it — re-derive only what is genuinely stale or out of scope. After any
+> substantial pass, write a durable page-cited note into `docs/research/` and add its row to the
+> index.**
+
+Notes are **committed to the repo**. This deliberately overrides the global convention of keeping
+research in a gitignored `.claude/` — these notes are a course asset and must survive a machine
+change. Each note must carry: the question · findings with **PRINTED** pages · verbatim Arabic
+exactly as fetched · **what could not be established** · which Shamela indices were fetched.
+
+Certainty labels, used everywhere: **`[SOURCED]`** (a page was read — give it) ·
+**`[STANDARD]`** (conventional, not yet page-cited here — carries `(to verify)`) ·
+**`[CONVENTIONAL-ESTIMATE]`** (general scholarship; our sources do not fix it — **must be labelled
+as such on the slide itself**).
+
+### 0.2 Preserve decisions, not conversations
+
+Any decision that took more than a minute to settle goes into `docs/DECISIONS.md` **with its
+reason**, the same day. A decision that lives only in a chat transcript gets re-litigated from
+scratch next session, at full cost, and often gets re-decided differently.
+
+Once a fact is settled, **promote it out of the research note into `docs/catalogue/`** — that is
+what artifacts read from. Research notes are the working record; the catalogue is the source of
+truth.
+
+### 0.3 Costs worth avoiding
+
+- **Grep the cached TOCs before fetching**: `sources/shamela/30097/_toc.tsv`,
+  `sources/shamela/10906/_toc.tsv`. `docs/STATUS.md` §4 lists the chapter indices already located.
+- **A Shamela page fetched once is cached forever** under `sources/shamela/<book>/<index>.txt`.
+  Check the cache before fetching.
+- **`sources/pdf/*_text.pdf` (00–25in, jm) are scans of سیر with a garbled OCR layer — do not read
+  them.** Use Shamela **10906**. They are only for eyeballing a page image.
+- ***تاریخِ امت* vols 2–4 have no usable text layer.** Daniyal will OCR them himself; until he says
+  so, **do not plan any session around them** — build on the Arabic spine.
 
 ---
 
@@ -99,7 +150,12 @@ adjudicate. The room may want the speaker to draw the inference; he does not.
 
 Sunni framing, presented as such. No novel claims. When in doubt, narrate what the book narrates
 and stop. The guardrail — تاریخِ اسلام = تاریخِ مسلمین, and the fiqh that studying the مشاجرات
-without need is مکروہ — is installed in **session 3**, before anything sensitive.
+without need is مکروہ — is installed in **session 1** (moved there 2026-09-03, `DECISIONS.md` #14,
+because سقيفة now lands in session 1 and the guardrail must precede it). Its vehicle is the
+**حدیث / تاریخ / فقہ** distinction in the opening block: in fiqh a report must be authentic to
+bind; in تاریخ we record what was reported in order to fix sequence — **so a تاریخ report is
+neither a ruling nor a creed, and we do not judge between Companions.** Session 3 still carries the
+fuller fiqh treatment of the مشاجرات proper.
 Never improvise a position on the Companions' disputes from the floor; defer warmly to the
 session where it is handled with اصول.
 
@@ -123,6 +179,11 @@ session where it is handled with اصول.
 The furniture never changes; only the content does. This is deliberate — it is what lets a
 drop-in catch up in 3 minutes, and what stops the speaker from ever being lost.
 
+> **Session 1 is the one exception.** It is the orientation evening and runs its own shape —
+> see `docs/specs/2026-09-03-L01-v3-spec.md`. In particular it has **no separate تعارف block**;
+> the people are introduced inside the story, where each becomes load-bearing
+> (`DECISIONS.md` #15). **The fixed shape below governs sessions 2–10.**
+
 ```
 0:00  آغاز / re-anchor     3   The Line and the Map go up. "Last week here → tonight here."
 0:03  Opening scene        5   A scene. Never a definition.
@@ -145,7 +206,7 @@ mechanism.
 
 | # | Session | Era |
 |---|---|---|
-| 1 | «ایک نظر میں — پورا نقشہ» — the whole line in one evening | ۱۱ھ → ۱۹۴۷ |
+| 1 | «وقت، جگہ، اور ایک رات» — orientation in time and space · Medina's clans · سقیفہ · the eve of the ردہ | the whole line as **pegs**; the narrative stops at ۱۱ھ |
 | 2 | «بارہ سال» — ابوبکر ؓ + عمر ؓ | ۱۱–۲۳ھ |
 | 3 | «پہلا امتحان» — عثمان ؓ → علی ؓ · **the guardrail lands here** | ۲۳–۴۰ھ |
 | 4 | «خلافت سے بادشاہت تک» — بنو امیہ · کربلا · سندھ and Spain in one decade | ۴۰–۱۳۲ھ |
