@@ -1,0 +1,146 @@
+// Gazetteer for placement only.
+//
+// These coordinates exist so you can type a name instead of hunting for a spot on
+// the map. They are approximate modern coordinates and they are NOT a historical
+// claim about a site. Entries marked `approx:1` are places whose location is
+// genuinely debated or known only to within a district - battlefields especially.
+// The picker prints "site approximate" beside those.
+//
+// Urdu names are in Urdu script. Never Roman.
+
+window.MS_PLACES = [
+  // ---- Hijaz and the peninsula ----
+  {en:"Makkah",           ur:"مکہ",            lon:39.826, lat:21.423, tier:"capital"},
+  {en:"Madina",           ur:"مدینہ",           lon:39.611, lat:24.471, tier:"capital"},
+  {en:"Taif",             ur:"طائف",            lon:40.416, lat:21.270, tier:"city"},
+  {en:"Jeddah",           ur:"جدہ",             lon:39.197, lat:21.485, tier:"city"},
+  {en:"Badr",             ur:"بدر",             lon:39.793, lat:23.780, tier:"town"},
+  {en:"Uhud",             ur:"احد",             lon:39.613, lat:24.510, tier:"town"},
+  {en:"Khaybar",          ur:"خیبر",            lon:39.292, lat:25.697, tier:"fort"},
+  {en:"Tabuk",            ur:"تبوک",            lon:36.566, lat:28.383, tier:"town"},
+  {en:"Dumat al-Jandal",  ur:"دومۃ الجندل",     lon:39.869, lat:29.812, tier:"fort"},
+  {en:"Hunayn",           ur:"حنین",            lon:40.200, lat:21.500, tier:"town", approx:1},
+  {en:"Hail",             ur:"حائل",            lon:41.690, lat:27.520, tier:"town"},
+  {en:"Buzakha",          ur:"بزاخہ",           lon:41.400, lat:27.700, tier:"town", approx:1},
+  {en:"Yamama",           ur:"یمامہ",           lon:47.300, lat:24.150, tier:"city", approx:1},
+  {en:"Hajar (Bahrayn)",  ur:"ہجر",             lon:49.588, lat:25.383, tier:"city"},
+  {en:"Daba",             ur:"دبا",             lon:56.271, lat:25.620, tier:"town"},
+  {en:"Nizwa",            ur:"نزوی",            lon:57.533, lat:22.933, tier:"city"},
+  {en:"Sohar",            ur:"صحار",            lon:56.746, lat:24.347, tier:"city"},
+  {en:"Muscat",           ur:"مسقط",            lon:58.590, lat:23.590, tier:"city"},
+  {en:"Sana",             ur:"صنعاء",           lon:44.207, lat:15.354, tier:"capital"},
+  {en:"Najran",           ur:"نجران",           lon:44.222, lat:17.492, tier:"town"},
+  {en:"Zabid",            ur:"زبید",            lon:43.316, lat:14.195, tier:"city"},
+  {en:"Aden",             ur:"عدن",             lon:45.038, lat:12.788, tier:"city"},
+
+  // ---- Sham ----
+  {en:"Damascus",         ur:"دمشق",            lon:36.292, lat:33.513, tier:"capital"},
+  {en:"Bosra",            ur:"بصری",            lon:36.482, lat:32.518, tier:"town"},
+  {en:"Muta",             ur:"موتہ",            lon:35.700, lat:31.100, tier:"town"},
+  {en:"Bayt al-Maqdis",   ur:"بیت المقدس",      lon:35.234, lat:31.778, tier:"capital"},
+  {en:"Gaza",             ur:"غزہ",             lon:34.466, lat:31.502, tier:"city"},
+  {en:"Ascalon",          ur:"عسقلان",          lon:34.550, lat:31.670, tier:"city"},
+  {en:"Acre",             ur:"عکہ",             lon:35.075, lat:32.928, tier:"fort"},
+  {en:"Ajnadayn",         ur:"اجنادین",         lon:34.900, lat:31.700, tier:"town", approx:1},
+  {en:"Yarmuk",           ur:"یرموک",           lon:35.950, lat:32.720, tier:"town", approx:1},
+  {en:"Fahl (Pella)",     ur:"فحل",             lon:35.620, lat:32.450, tier:"town"},
+  {en:"Hittin",           ur:"حطین",            lon:35.450, lat:32.800, tier:"town", approx:1},
+  {en:"Ayn Jalut",        ur:"عین جالوت",       lon:35.350, lat:32.550, tier:"town", approx:1},
+  {en:"Tyre",             ur:"صور",             lon:35.204, lat:33.271, tier:"city"},
+  {en:"Sidon",            ur:"صیدا",            lon:35.375, lat:33.560, tier:"city"},
+  {en:"Beirut",           ur:"بیروت",           lon:35.500, lat:33.890, tier:"city"},
+  {en:"Tripoli (Sham)",   ur:"طرابلس الشام",    lon:35.844, lat:34.436, tier:"city"},
+  {en:"Homs",             ur:"حمص",             lon:36.723, lat:34.733, tier:"city"},
+  {en:"Hama",             ur:"حماہ",            lon:36.750, lat:35.130, tier:"city"},
+  {en:"Aleppo",           ur:"حلب",             lon:37.161, lat:36.202, tier:"city"},
+  {en:"Antioch",          ur:"انطاکیہ",         lon:36.160, lat:36.200, tier:"city"},
+  {en:"Latakia",          ur:"لاذقیہ",          lon:35.790, lat:35.520, tier:"city"},
+  {en:"Siffin",           ur:"صفین",            lon:38.900, lat:35.900, tier:"town", approx:1},
+  {en:"Raqqa",            ur:"رقہ",             lon:39.010, lat:35.950, tier:"city"},
+  {en:"Harran",           ur:"حران",            lon:39.030, lat:36.860, tier:"city"},
+  {en:"Edessa (al-Ruha)", ur:"الرہا",           lon:38.790, lat:37.160, tier:"city"},
+
+  // ---- Iraq ----
+  {en:"Madain",           ur:"مدائن",           lon:44.581, lat:33.096, tier:"capital"},
+  {en:"Baghdad",          ur:"بغداد",           lon:44.361, lat:33.312, tier:"capital"},
+  {en:"Samarra",          ur:"سامرا",           lon:43.874, lat:34.196, tier:"city"},
+  {en:"Mosul",            ur:"موصل",            lon:43.130, lat:36.340, tier:"city"},
+  {en:"Kufa",             ur:"کوفہ",            lon:44.400, lat:32.030, tier:"city"},
+  {en:"Najaf",            ur:"نجف",             lon:44.340, lat:31.990, tier:"city"},
+  {en:"Karbala",          ur:"کربلا",           lon:44.030, lat:32.610, tier:"city"},
+  {en:"Hira",             ur:"حیرہ",            lon:44.350, lat:31.900, tier:"city", approx:1},
+  {en:"Qadisiyya",        ur:"قادسیہ",          lon:44.300, lat:31.700, tier:"town", approx:1},
+  {en:"Basra",            ur:"بصرہ",            lon:47.780, lat:30.510, tier:"city"},
+  {en:"Wasit",            ur:"واسط",            lon:46.300, lat:32.190, tier:"city", approx:1},
+  {en:"Nahrawan",         ur:"نہروان",          lon:44.900, lat:33.200, tier:"town", approx:1},
+
+  // ---- Iran and the east ----
+  {en:"Nihawand",         ur:"نہاوند",          lon:48.377, lat:34.191, tier:"town"},
+  {en:"Hamadan",          ur:"ہمدان",           lon:48.515, lat:34.799, tier:"city"},
+  {en:"Ahwaz",            ur:"اہواز",           lon:48.690, lat:31.320, tier:"city"},
+  {en:"Rayy",             ur:"رے",              lon:51.430, lat:35.590, tier:"city"},
+  {en:"Isfahan",          ur:"اصفہان",          lon:51.667, lat:32.653, tier:"city"},
+  {en:"Istakhr",          ur:"اصطخر",           lon:52.890, lat:29.940, tier:"city"},
+  {en:"Shiraz",           ur:"شیراز",           lon:52.530, lat:29.610, tier:"city"},
+  {en:"Tabriz",           ur:"تبریز",           lon:46.290, lat:38.080, tier:"city"},
+  {en:"Nishapur",         ur:"نیشاپور",         lon:58.800, lat:36.210, tier:"city"},
+  {en:"Merv",             ur:"مرو",             lon:61.830, lat:37.660, tier:"city"},
+  {en:"Herat",            ur:"ہرات",            lon:62.200, lat:34.340, tier:"city"},
+  {en:"Zaranj",           ur:"زرنج",            lon:61.870, lat:30.960, tier:"city"},
+  {en:"Bukhara",          ur:"بخارا",           lon:64.420, lat:39.770, tier:"city"},
+  {en:"Samarqand",        ur:"سمرقند",          lon:66.960, lat:39.650, tier:"capital"},
+  {en:"Balkh",            ur:"بلخ",             lon:66.900, lat:36.760, tier:"city"},
+  {en:"Kabul",            ur:"کابل",            lon:69.180, lat:34.530, tier:"city"},
+  {en:"Ghazni",           ur:"غزنی",            lon:68.420, lat:33.550, tier:"city"},
+  {en:"Kashghar",         ur:"کاشغر",           lon:75.990, lat:39.470, tier:"city"},
+
+  // ---- Sindh and Hind ----
+  {en:"Debal",            ur:"دیبل",            lon:67.530, lat:24.750, tier:"city", approx:1},
+  {en:"Mansura",          ur:"منصورہ",          lon:68.780, lat:25.880, tier:"city", approx:1},
+  {en:"Thatta",           ur:"ٹھٹھہ",           lon:67.920, lat:24.750, tier:"city"},
+  {en:"Multan",           ur:"ملتان",           lon:71.520, lat:30.200, tier:"city"},
+  {en:"Lahore",           ur:"لاہور",           lon:74.343, lat:31.549, tier:"capital"},
+  {en:"Delhi",            ur:"دہلی",            lon:77.230, lat:28.610, tier:"capital"},
+  {en:"Panipat",          ur:"پانی پت",         lon:76.970, lat:29.390, tier:"town"},
+  {en:"Agra",             ur:"آگرہ",            lon:78.010, lat:27.180, tier:"city"},
+
+  // ---- Egypt and the Maghrib ----
+  {en:"Fustat / Cairo",   ur:"فسطاط",           lon:31.235, lat:30.045, tier:"capital"},
+  {en:"Alexandria",       ur:"اسکندریہ",        lon:29.919, lat:31.200, tier:"city"},
+  {en:"Damietta",         ur:"دمیاط",           lon:31.810, lat:31.420, tier:"city"},
+  {en:"Aswan",            ur:"اسوان",           lon:32.900, lat:24.090, tier:"town"},
+  {en:"Barqa",            ur:"برقہ",            lon:21.870, lat:32.490, tier:"city"},
+  {en:"Tripoli (Gharb)",  ur:"طرابلس الغرب",    lon:13.190, lat:32.890, tier:"city"},
+  {en:"Qayrawan",         ur:"قیروان",          lon:10.100, lat:35.680, tier:"capital"},
+  {en:"Tunis",            ur:"تونس",            lon:10.320, lat:36.850, tier:"city"},
+  {en:"Fes",              ur:"فاس",             lon:-4.990, lat:34.030, tier:"capital"},
+  {en:"Marrakesh",        ur:"مراکش",           lon:-8.000, lat:31.630, tier:"capital"},
+  {en:"Tangier",          ur:"طنجہ",            lon:-5.800, lat:35.770, tier:"city"},
+  {en:"Ceuta",            ur:"سبتہ",            lon:-5.320, lat:35.890, tier:"fort"},
+
+  // ---- Andalus ----
+  {en:"Qurtuba",          ur:"قرطبہ",           lon:-4.780, lat:37.880, tier:"capital"},
+  {en:"Ishbiliya",        ur:"اشبیلیہ",         lon:-5.980, lat:37.390, tier:"city"},
+  {en:"Tulaytula",        ur:"طلیطلہ",          lon:-4.030, lat:39.860, tier:"city"},
+  {en:"Gharnata",         ur:"غرناطہ",          lon:-3.600, lat:37.180, tier:"city"},
+  {en:"Saraqusta",        ur:"سرقسطہ",          lon:-0.880, lat:41.650, tier:"city"},
+  {en:"Marida",           ur:"ماردہ",           lon:-6.340, lat:38.920, tier:"city"},
+
+  // ---- Rum, Anatolia, Europe ----
+  {en:"Qustantiniyya",    ur:"قسطنطنیہ",        lon:28.980, lat:41.010, tier:"capital"},
+  {en:"Nicaea (Iznik)",   ur:"نیقیہ",           lon:29.720, lat:40.430, tier:"city"},
+  {en:"Bursa",            ur:"بورصہ",           lon:29.060, lat:40.190, tier:"capital"},
+  {en:"Edirne",           ur:"ادرنہ",           lon:26.560, lat:41.680, tier:"capital"},
+  {en:"Ankara",           ur:"انقرہ",           lon:32.850, lat:39.930, tier:"city"},
+  {en:"Konya",            ur:"قونیہ",           lon:32.490, lat:37.870, tier:"city"},
+  {en:"Tarsus",           ur:"طرسوس",           lon:34.900, lat:36.920, tier:"fort"},
+  {en:"Trebizond",        ur:"طرابزون",         lon:39.720, lat:41.000, tier:"city"},
+  {en:"Manzikert",        ur:"ملازکرد",         lon:42.540, lat:39.140, tier:"town"},
+  {en:"Ani",              ur:"آنی",             lon:43.570, lat:40.510, tier:"city"},
+  {en:"Derbent",          ur:"دربند",           lon:48.290, lat:42.060, tier:"fort"},
+  {en:"Athens",           ur:"اثینا",           lon:23.730, lat:37.980, tier:"city"},
+  {en:"Rome",             ur:"روم",             lon:12.500, lat:41.900, tier:"capital"},
+  {en:"Palermo",          ur:"صقلیہ",           lon:13.360, lat:38.120, tier:"city"},
+  {en:"Belgrade",         ur:"بلغراد",          lon:20.460, lat:44.820, tier:"fort"},
+  {en:"Vienna",           ur:"ویانا",           lon:16.370, lat:48.210, tier:"capital"}
+];

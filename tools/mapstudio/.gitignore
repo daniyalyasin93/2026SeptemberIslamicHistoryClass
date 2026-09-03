@@ -1,0 +1,3 @@
+# Build cache for build_terrain.py: ~13 MB of Natural Earth downloads.
+# Regenerate any time with `python build_terrain.py`.
+.cache/

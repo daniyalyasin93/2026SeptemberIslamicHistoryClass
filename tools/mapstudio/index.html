@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map Studio — تاریخ سے سبق</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <header id="topbar">
+    <div class="brand">Map Studio <span>تاریخ سے سبق</span></div>
+
+    <input id="title" type="text" placeholder="Map title" title="Shown in the cartouche, and used for the export filename">
+    <input id="subtitle" type="text" placeholder="Subtitle — dates, era" title="Second line of the cartouche">
+    <input id="urdutitle" type="text" placeholder="اردو عنوان" dir="rtl" title="Urdu title — its own line in the cartouche, never mixed with the English">
+
+    <select id="region" title="Fit the view to a region"></select>
+
+    <div class="spacer"></div>
+
+    <select id="exportscale" title="Export resolution">
+      <option value="1">1600 × 900</option>
+      <option value="2">3200 × 1800</option>
+      <option value="2.4" selected>3840 × 2160 (4K)</option>
+      <option value="4">6400 × 3600</option>
+    </select>
+
+    <button id="btn-new" title="Start an empty map">New</button>
+    <span class="filebtn"><button>Open…</button><input id="file-open" type="file" accept=".json,application/json" title="Open a saved scene"></span>
+    <span class="filebtn"><button>Underlay…</button><input id="file-underlay" type="file" accept="image/*" title="Load an image to trace over"></span>
+    <button id="btn-save" title="Save the scene as JSON  (Ctrl+S)">Save</button>
+    <button id="btn-export" class="primary" title="Export the stage as a PNG  (Ctrl+E)">Export PNG</button>
+    <button id="btn-export-steps" title="Export one PNG per step">Export steps</button>
+  </header>
+
+  <div id="body">
+    <nav id="tools"></nav>
+
+    <main id="stagewrap">
+      <canvas id="stage" width="1600" height="900"></canvas>
+    </main>
+
+    <aside id="side">
+      <section id="inspector"></section>
+      <section id="steps"></section>
+      <section id="gazetteer"></section>
+      <section id="factions"></section>
+      <section id="stylepanel"></section>
+      <section id="layers"></section>
+    </aside>
+  </div>
+
+  <footer id="status" class="dim">Ready.</footer>
+</div>
+
+<!-- Plain <script> tags, not modules: Chrome blocks ES modules and fetch() on
+     file:// URLs, and this tool has to open by double-clicking index.html. -->
+<script src="data/land.js"></script>
+<script src="data/relief.js"></script>
+<script src="data/water.js"></script>
+<script src="data/places.js"></script>
+<script src="src/proj.js"></script>
+<script src="src/store.js"></script>
+<script src="src/tokens.js"></script>
+<script src="src/render.js"></script>
+<script src="src/demo.js"></script>
+<script src="src/ui.js"></script>
+</body>
+</html>
