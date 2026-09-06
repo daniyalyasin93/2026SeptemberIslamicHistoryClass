@@ -242,17 +242,15 @@ PAGE = """<meta charset="utf-8">
 <!--EMBED-FONTS-->
 <style>%(css)s</style>
 <div class="doc-head">
-  <div class="kicker">Lessons from History &middot; research note</div>
+  <div class="kicker">Lessons from History &middot; %(kicker)s</div>
   <div class="file">%(rel)s</div>
 </div>
 %(body)s
 """
 
 
-def render(md_path):
-    md_path = os.path.abspath(md_path)
-    raw = open(md_path, encoding="utf-8").read()
-
+def to_html(raw):
+    """Markdown -> Arabic-aware HTML. The half of this module the speaker pack reuses."""
     body = markdown.markdown(
         explode_blockquotes(raw),
         extensions=["tables", "fenced_code", "sane_lists", "attr_list"],
@@ -260,22 +258,36 @@ def render(md_path):
     body = classify_blocks(body)
     body = linkify(body)
     body = wrap_inline_arabic(body)
-    body = colour_labels(body)
+    return colour_labels(body)
+
+
+def render(md_path, css=None, kicker="research note", out_dir=None, work=None):
+    md_path = os.path.abspath(md_path)
+    body = to_html(open(md_path, encoding="utf-8").read())
 
     stem = os.path.splitext(os.path.basename(md_path))[0]
     rel = os.path.relpath(md_path, ROOT).replace("\\", "/")
     title = re.search(r"<h1[^>]*>(.*?)</h1>", body, re.S)
     title = TAGSPLIT.sub("", title.group(1)).strip() if title else stem
 
-    os.makedirs(WORK, exist_ok=True)
-    html_path = os.path.join(WORK, stem + ".html")
+    work = work or WORK
+    os.makedirs(work, exist_ok=True)
+    html_path = os.path.join(work, stem + ".html")
     with open(html_path, "w", encoding="utf-8") as f:
-        f.write(PAGE % {"title": title, "css": CSS, "rel": rel, "body": body})
+        f.write(PAGE % {"title": title, "css": css or CSS, "rel": rel,
+                        "kicker": kicker, "body": body})
 
     pdf = embed_fonts.to_pdf(html_path)
-    final = os.path.join(os.path.dirname(md_path), stem + ".pdf")
+    final = os.path.join(out_dir or os.path.dirname(md_path), stem + ".pdf")
     shutil.move(pdf, final)
     return final
+
+
+def page_count(pdf):
+    """How many pages Chrome actually produced. The cue sheet must be exactly one."""
+    blob = open(pdf, "rb").read()
+    n = re.findall(rb"/Type\s*/Page[^s]", blob)
+    return len(n) or len(re.findall(rb"/Count\s+(\d+)", blob) or [b"0"])
 
 
 if __name__ == "__main__":

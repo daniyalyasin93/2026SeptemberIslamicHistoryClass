@@ -393,3 +393,38 @@ most speed-run-inducing structure in the old shape — it forces the story to be
 for it. Introducing a man where he matters is also simply better storytelling, which is what the
 managers asked for. The mechanism that actually produced retention was the **handwriting**, not
 the stage block, and the handwriting is kept.
+
+## 29 · تاریخ ابن خلدون joins the source list — for judgement, never as the sole authority — 2026-09-06
+
+Daniyal's call: *"are you also using tareekh ibn khuldun as a source as well? his judgements on
+events could be interesting."* He is right, and the reason he is right is the reason the addition
+needs a boundary.
+
+**Added:** **`12320` — تاریخ ابن خلدون (كتاب العبر وديوان المبتدأ والخبر)**.
+
+**Standing: analysis and framing. Never the sole authority for a fact.**
+
+- **Use him for** the shape of a thing — why the ردة took the form it did, what a conquest cost the
+  society that made it, why an institution appeared when it did. This is what he is unmatched at
+  and it is precisely what a lecture that must carry a سبق needs. It is also the thing the four
+  narrative works deliberately do *not* do.
+- **Do not use him alone for** a date, a name, a number, a chain, or the wording of a saying. For
+  the early period his narrative largely follows الطبری, so citing him alone for a fact is citing
+  الطبری at one remove — which `CLAUDE.md` §4 already forbids. Any fact taken from him must also be
+  found in البدایہ, سیر, or الکامل, and cited from there.
+- **Never for the مشاجرات.** Same rule as الطبری, for the same reason.
+
+**Where he is in the book, for the 11–23 AH window** (cached 2026-09-06, so this costs nothing to
+re-check): indices **1276–1370** — بعث أسامة 1280 · خبر السقيفة 1284 · the ردة 1286–1303 · Iraq
+1304–1310 · Shām 1311–1313 · خلافة عمر 1314 · القادسية 1321 · المدائن 1333 · أجنادين and
+بيت المقدس 1340 · عام الرمادة and طاعون عمواس 1350 · مصر 1351 · نهاوند 1353 · مقتل عمر والشورى 1365.
+
+**Why the boundary rather than a plain "yes":** the whole point of `CLAUDE.md` §4's safe list is
+that the course's own مقدمہ names the works it relies on, so citing them keeps the lecture inside
+its own declared frame rather than importing an outside authority the room has not been told about.
+Ibn Khaldūn is not in that frame. Bringing him in for *interpretation*, openly labelled as
+interpretation, is defensible from the platform — "Ibn Khaldūn reads it this way" is an honest
+sentence. Bringing him in for a *fact* would quietly widen the evidentiary base without saying so.
+
+**On the slide and in the room:** when a judgement of his is used, it is attributed to him by name.
+It is never presented as what happened; it is presented as how he read what happened.

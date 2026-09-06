@@ -308,6 +308,10 @@ archive/               superseded work, kept as a parts bin
 **Stay inside the safe Sunni list.** For general narrative use only **البدایہ والنہایہ (30097)**,
 **سیر أعلام النبلاء (10906)**, **الکامل (21712)** and **الإعلان بالتوبيخ (34)** — all four are named
 and relied on by the course's own مقدمہ, so citing them stays inside the course's frame.
+**تاریخ ابن خلدون (12320)** is admitted for **judgement and framing only** — never as the sole
+authority for a date, name, number or wording, and never for the مشاجرات (`DECISIONS.md` #29). When
+one of his readings is used it is attributed to him **by name**, as how he read the event, never as
+what happened. His 11–23ھ window is cached at indices ۱۲۷۶–۱۳۷۰.
 **تاریخ الطبری (9783) is corroboration only, never alone**, and never for anything touching the
 مشاجرات — it collects with chains and does not sift, and presence in طبری is not authenticity
 (مقدمہ p.۷۱). Works the مقدمہ flags for sectarian lean (یعقوبی، مسعودی — p.۴۶) are not used without

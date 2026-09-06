@@ -18,6 +18,7 @@ Stay inside this list for general narrative. All of them are named and relied on
 | **30097** | البدایہ والنہایہ — ابن کثیر رحمہ اللہ (ط دار ابن كثير) | ✅ Primary Arabic narrative. The مقدمہ's own recommendation — reason applied alongside chains |
 | **10906** | سیر أعلام النبلاء — الذہبی رحمہ اللہ (ط الرسالة) | ✅ Primary for تعارف profiles. The most carefully sifted of the biographical works |
 | **21712** | الکامل فی التاریخ — ابن الاثیر رحمہ اللہ | ✅ For sequence and year-by-year corroboration |
+| **12320** | تاریخ ابن خلدون — كتاب العبر وديوان المبتدأ والخبر | ⚖ **Judgement and framing only** (`DECISIONS.md` #29). Never the sole authority for a date, name, number or wording — his early narrative follows الطبری, so citing him alone for a fact is citing الطبری at one remove. Never for the مشاجرات. Attribute by name when used |
 | **34** | الإعلان بالتوبيخ — السخاوی رحمہ اللہ | ✅ For the فوائد and the value of history |
 | 9783 | تاریخ الطبری | ⚠️ **Corroboration only, never alone.** The raw well — collects with chains and does not sift. Presence in طبری is not authenticity; the مقدمہ devotes p.۷۱ to this. **Never** for anything touching the مشاجرات |
 
