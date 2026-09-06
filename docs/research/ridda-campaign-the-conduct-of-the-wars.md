@@ -1186,6 +1186,50 @@ doctrinal point on it.
 **Dispositions:** العلاء ؓ camped at **هَجَر** and sent to الجارود ؓ to bring عبد القيس against الحُطَم
 **from the other side**; both sides dug trenches and fought for a month (الکامل ج۲ ص۲۲۳).
 
+⚠ **عبد الله بن حذف — ONE MAN OR TWO? THE SOURCES DO NOT SAY.** Raised by Daniyal, 2026-09-06, and it is a
+real ambiguity rather than a slip in one book. The same name stands in two different places:
+
+- **Inside جواثى, among the besieged**, as the man who composed the four lines of verse —
+  «وقد قال رجل منهم يقال له عبد الله بن حذف، أحد بني بكر بن كلاب، وقد اشتد عليه الجوع»
+  (البدایہ ج۷ ص۳۸ · https://shamela.ws/book/30097/3184).
+- **In العلاء ؓ's camp at هَجَر**, as the volunteer scout — البدایہ ج۷ ص۳۹ (30097/3185) and
+  الکامل ج۲ ص۲۲۳ (21712/914), the latter adding that **his mother was of عِجْل**.
+
+If it is one man the sequence is coherent — besieged and starving in جواثى, the province relieved,
+then with the army at هَجَر — and **hunger appears in both scenes**, which is suggestive. But
+**no page joins them, and البدایہ gives a كلابي paternal line while الکامل gives a عِجْلي maternal
+one** — which is not a contradiction, but is not a confirmation either. **Do not assert from the
+platform that they are the same man.** Tell the two scenes as they stand; if a slip asks, say
+plainly that the books name him twice and do not tell us whether it is one person.
+
+**The scene at هَجَر, fuller than §7.3 first had it** (الکامل ج۲ ص۲۲۳):
+
+- What the Muslims heard was not general uproar but «ضوضاء هزيمة أو قتال» — **a commotion that
+  sounded like a rout or a battle**. That is *why* العلاء ؓ asked for a volunteer: he thought
+  something military was happening. It turned out to be drunken noise.
+- Caught at their trench, he shouts «يا أبجراه!» for his maternal uncle أبجر بن بُجير, who
+  recognises him and says:
+
+> وَاللَّهِ إِنِّي لَأَظُنُّكَ بِئْسَ ابْنُ أُخْتٍ أَتَيْتَ اللَّيْلَةَ أَخْوَالَكَ
+> — الکامل ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *"By God, I think you a poor sort of sister's-son, coming to your uncles tonight."*
+
+  He answers «دعني من هذا وأطعمني؛ فقد متُّ جوعاً», is fed, and asks for provisions and a mount
+  — «يقول هذا لرجل قد غلب عليه السكر». The uncle names him as an enemy out loud and lets him go
+  anyway, because he is too drunk to follow his own thought.
+
+⚠ **WHY WERE THEY DRINKING? NO PAGE SAYS.** Neither book gives an occasion — no feast, no festival.
+البدایہ ج۷ ص۳۹ has only «فوجدهم سُكارى لا يعقلون من الشراب». What the pages *do* supply is the
+setting: a **month** of trench stalemate, «وكانوا يتراوحون القتال ويرجعون إلى خندقهم، فكانوا
+كذلك شهرا» (الکامل ج۲ ص۲۲۳). **On the slide and from the platform: state the setting, and do not
+supply a reason the books withhold.**
+
+⚠ **AND WHY دارين NEEDED A SEPARATE OPERATION** — الکامل ج۲ ص۲۲۳: «فاجتمع المشركون كلهم إلى
+الحطم **إلا أهل دارين**». Every one of them gathered to الحُطَم **except the people of دارين**.
+So دارين was not merely where the beaten fled — it held a force that had never come to هَجَر at all.
+That is the answer to "why is there a second action after the battle is won", and it should be said
+in one sentence before the crossing is told.
+
 **The night the war turned** — الکامل's version is fuller than البدایہ's and is a complete scene:
 they heard uproar in the enemy camp; **عبد الله بن حَذْف** volunteered to go and find out, was
 captured, called out for **أبجر بن بُجَير — his own maternal uncle**, since his mother was of عِجْل —
