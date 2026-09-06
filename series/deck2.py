@@ -30,9 +30,10 @@ THREE THINGS IT DOES THAT deckkit.py DID NOT:
      box carrying its own IMAGE BRIEF, and the brief is repeated in the speaker notes. Daniyal
      pastes the Gemini output straight over it. Nothing is flattened, ever.
 
-FIVE PERMITTED SLIDE KINDS. Anything that is only a line of text is not a slide.
+SIX PERMITTED SLIDE KINDS. Anything that is only a line of text is not a slide.
 
-    image_slide      a map, a photograph, a generated illustration — the picture carries it
+    image_slide      a photograph or a generated illustration — the picture carries it
+    map_slide        a map on the left, up to five key lines down the right
     statement_slide  one large quotation, Arabic Naskh over its English rendering
     diagram_slide    boxes and arrows built here, or a rendered diagram image
     timeline_slide   the Line, with a caption
@@ -334,6 +335,68 @@ def _placeholder(s, x, y, w, h, brief, wanted):
         text(s, "expected: series/visuals/%s" % wanted, x, y + h - Inches(0.44), w, Inches(0.3),
              size=11, color=MUTED, font=SANS, align=PP_ALIGN.CENTER,
              scaffold=True, name=SCAFFOLD + "path")
+
+
+def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=None):
+    """A map on the left, a short key down the right.
+
+    The theatre of these campaigns — Egypt to Persia, Anatolia to Yemen — is very nearly square,
+    and a square picture on a 16:9 slide leaves a third of the screen empty. Rather than letterbox
+    it, the space carries a key: three to five places or forces, each one line, at full body size.
+    It fills the slide with something the audience can actually use while looking at the map.
+    """
+    s = blank(prs)
+    header(s, headline, kicker)
+
+    if keys and len(keys) > 5:
+        raise DeckContractError("%d key lines beside a map; five is the cap. More than that and "
+                                "nobody reads the map." % len(keys))
+
+    map_w = Emu(int(CONTENT_W * (0.60 if keys else 1.0)))
+    map_h = CONTENT_H - (Inches(0.62) if caption else Inches(0))
+
+    path = image if image and os.path.isabs(image) else os.path.join(VIS, image or "")
+    if image and os.path.exists(path):
+        path = _trim(path)
+        pic = s.shapes.add_picture(path, MARGIN, CONTENT_Y, height=map_h)
+        if pic.width > map_w:
+            pic.width, pic.height = map_w, Emu(int(pic.height * map_w / pic.width))
+        pic.left = MARGIN + Emu(int((map_w - pic.width) / 2))
+        pic.top = CONTENT_Y + Emu(int((map_h - pic.height) / 2))
+    else:
+        _placeholder(s, MARGIN, CONTENT_Y, map_w, map_h, brief or headline, image)
+
+    if keys:
+        kx = MARGIN + map_w + Inches(0.34)
+        kw = CONTENT_W - map_w - Inches(0.34)
+        # distribute over the whole column: a fixed step collided the moment a
+        # sub-line wrapped, which at a 24pt floor it very often does
+        step = Emu(int((CONTENT_H - Inches(0.25)) / max(len(keys), 1)))
+        for i, k in enumerate(keys):
+            label, sub = (k if isinstance(k, (tuple, list)) else (k, None))
+            y = CONTENT_Y + Inches(0.12) + Emu(int(i * step))
+            rect(s, kx, y + Inches(0.06), Inches(0.06), Inches(0.34), fill=GOLD)
+            text(s, label, kx + Inches(0.22), y, kw - Inches(0.22), Inches(0.5),
+                 size=BODY_PT, color=DARK, font=EN, bold=True)
+            if sub:
+                # eight, not twenty: at the 24pt floor a longer line wraps, and a wrapped key
+                # runs into the next one. The discipline belongs in the writing, not the layout.
+                if _count_words(sub) > 8:
+                    raise DeckContractError("map key line is %d words, cap is 8: %r"
+                                            % (_count_words(sub), sub))
+                text(s, sub, kx + Inches(0.22), y + Inches(0.46), kw - Inches(0.22),
+                     step - Inches(0.46),
+                     size=MIN_PT, color=MUTED, font=SANS, line=1.2)
+
+    if caption:
+        text(s, caption, MARGIN, H - Inches(0.70), CONTENT_W, Inches(0.5),
+             size=MIN_PT, color=MUTED, font=SANS, align=PP_ALIGN.CENTER)
+
+    if brief:
+        _briefs.append((len(prs.slides._sldIdLst), headline, brief))
+        note(s, "IMAGE BRIEF (paste into Gemini):\n\n%s\n\nFlat pure white #FFFFFF background, "
+                "no border, no text in the image." % brief)
+    return s
 
 
 def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=None,
