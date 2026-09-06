@@ -44,9 +44,12 @@ If uncertain, write `(to verify)`. A note that says "could not establish" has do
 | `abu-bakr-death-and-the-succession-of-umar.md` | The final illness; whom he consulted about عمر ؓ and what each said; the written عهد; his last words and the property he ordered returned | **L02** | adversarial |
 | `iraq-syria-and-yarmuk-12-15ah.md` | خالد ؓ in Iraq, الحيرة and the letters; the desert march to Syria; أجنادين, دمشق, يرموك; the dismissal from command | **L02** | adversarial |
 | `bayt-al-maqdis-and-the-umari-covenant.md` | The surrender demanded of the خليفة himself; the journey and the camel; the العهدة العمرية; the refusal to pray in the church | **L02** | adversarial |
-| `qadisiyya-madain-and-the-embassy.md` | الجسر and أبو عبيد ؓ; the embassies to رستم and ربعي بن عامر ؓ's answer; القادسية; المدائن; the founding of الكوفة and البصرة | **L02** | ⏳ verifying |
-| `umar-the-state-diwan-calendar-and-the-two-trials.md` | أمير المؤمنين; the هجری calendar decision; the ديوان and the عطاء; the السواد land question; عام الرمادة; طاعون عمواس | **L02** | ⏳ verifying |
-| `nahawand-the-shura-and-the-death-of-umar.md` | نهاوند, فتح الفتوح; the frontier at ۲۳ھ; أبو لؤلؤة and the assassination; the last days; the شورى of six | **L02** | ⏳ verifying |
+| `qadisiyya-madain-and-the-embassy.md` | الجسر and أبو عبيد ؓ; the embassies to رستم and ربعي بن عامر ؓ's answer; القادسية; المدائن; the founding of الكوفة and البصرة | **L02** | adversarial |
+| `umar-the-state-diwan-calendar-and-the-two-trials.md` | أمير المؤمنين; the هجری calendar decision; the ديوان and the عطاء; the السواد land question; عام الرمادة; طاعون عمواس | **L02** | adversarial |
+| `nahawand-the-shura-and-the-death-of-umar.md` | نهاوند, فتح الفتوح; the frontier at ۲۳ھ; أبو لؤلؤة and the assassination; the last days; the شورى of six | **L02** | adversarial |
+| `ridda-campaign-the-conduct-of-the-wars.md` | **The conduct of the ردة wars** — ذو القصة; the eleven armies and their sectors; بزاخة and طليحة; البطاح and مالك بن نويرة (guardrail); عقرباء and حديقة الموت; البحرين, عمان, مهرة, اليمن, حضرموت | **L02** | adversarial |
+| `great-statements-and-dialogues-11-23ah.md` | The verbatim statements bank, by speaker — slide-ready Arabic with printed page, shamela link and rendering | **L02** | adversarial |
+| `ibn-khaldun-on-the-ridda-the-conquests-and-method.md` | ابن خلدون: his causes of error in historical reports; العصبية as the frame for the ردة; his judgements on the events. **Framing only** (`DECISIONS.md` #29) | **L02** | adversarial |
 | `saqifah-people-profiles.md` | Page-cited profiles of every man who spoke or was named at سقيفة | L01 | — |
 
 *(Both strands previously listed here as "not written" completed on 2026-09-05 and are now rows in the table above.)*
