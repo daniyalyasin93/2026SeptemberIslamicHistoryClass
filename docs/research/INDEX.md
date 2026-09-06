@@ -37,9 +37,10 @@ If uncertain, write `(to verify)`. A note that says "could not establish" has do
 | `suhayl-ibn-amr.md` | سهيل بن عمرو ؓ — the teeth incident at بدر, and the speech that held Mecca at ۱۱ھ | L01 | adversarial |
 | `governors-at-11h.md` | The عمّال region by region at the Prophet's ﷺ death; جيش أسامہ ؓ; territorial extent | L01, L02 | — |
 | `wafat-and-medina-11h.md` | The death of the Prophet ﷺ, عمر ؓ's reaction, أبو بكر ؓ's خطبة and آل عمران ۱۴۴ | L01 | adversarial |
+| `tarikh-definition-and-the-guardrail.md` | What تاریخ is (السخاوي's own Arabic); حدیث/تاریخ/فقہ; the fiqh of the مشاجرات; تاریخِ اسلام = تاریخِ مسلمین; the forged Khaybar document | L01, L03 | — |
 | `timeline-pegs.md` | Dated pegs for all three nested timelines, each with a certainty label | L01, all | — |
 
-**Not written** (the two remaining strands did not complete): `tarikh-definition-and-the-guardrail.md` · `arabian-tribes-and-the-ridda-setup.md` · `saqifah-people-profiles.md`. The muqaddima anchors they would have carried are in `docs/catalogue/SOURCES.md` under *Verified anchors*.
+**Not written** (these strands did not complete): `arabian-tribes-and-the-ridda-setup.md` · `saqifah-people-profiles.md`. The muqaddima anchors they would have carried are in `docs/catalogue/SOURCES.md` under *Verified anchors*.
 
 **Certainty labels used across these notes:**
 

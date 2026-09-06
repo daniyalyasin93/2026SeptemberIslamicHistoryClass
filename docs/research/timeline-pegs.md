@@ -95,13 +95,13 @@ are reading books, not inventing history.
 |---|---|---|---|---|---|
 | 1 | **الهجرة** — the Hijra, and why the calendar starts here | **1ھ** | 622–623 CE | `[SOURCED]` البدایہ **ج3 ص478** | L01 |
 | 2 | **وفاة النبي ﷺ** | **11ھ** | 632 CE | `[SOURCED]` البدایہ **ج5 ص298** | L01, L02 |
-| 3 | **الخلافة الراشدة** — the thirty years | **11–40ھ** | 632–661 CE | `[SOURCED]` البدایہ **ج8 ص5** (ابن کثیر applies the «الخلافة ثلاثون سنة» hadith and closes the period at الحسن ؓ) | L02, L03 |
+| 3 | **الخلافة الراشدة** — the thirty years | **11–40ھ** | 632–661 CE | `[SOURCED]` البدایہ **ج8 ص5** (ابن کثیر applies the thirty-years hadith («أنَّ الخلافة بعده ﵇ ثلاثون سنة، ثم تكون مُلكًا») and closes the period at الحسن ؓ) | L02, L03 |
 | 4 | شہادت of سیدنا علی ؓ; end of the راشدہ period | **40ھ** | 660–661 CE | `[SOURCED]` البدایہ **ج7 ص538** (year heading: «فيها كان مقتل أمير المؤمنين علي بن أبي طالب») | L03 |
 | 5 | **بنو أمية** — «فأيام معاوية أول المُلْك» | **41ھ** | 661–662 CE | `[SOURCED]` البدایہ **ج8 ص5** | L04 |
 | 6 | **فتح الأندلس** — طارق بن زیاد; **قرطبہ taken** | **92ھ** | 710–711 CE (Ramaḍān 92 = June–July 711) | `[SOURCED]` سیر **ج4 ص500**; البدایہ **ج9 ص248** | L04, L05 |
 | 7 | **فتح السند** — محمد بن القاسم | **93ھ** | 711–712 CE | `[STANDARD]` (to verify) — **not found in our safe-list sources**; see §Gaps | L04, L08 |
 | 8 | **بنو العباس** — bayʿa to أبو العباس السفاح at الكوفة, 13 Rabīʿ II | **132ھ** | 749–750 CE (Rabīʿ II 132 = Nov–Dec 749) | `[SOURCED]` البدایہ **ج10 ص261** | L05 |
-| 9 | **بغداد — مدينة السلام** completed; المنصور moves in, Ṣafar | **146ھ** | 763 CE (begun 145ھ, «وقيل في سنة أربع وأربعين ومئة») | `[SOURCED]` البدایہ **ج10 ص333** | L05 |
+| 9 | **بغداد — مدينة السلام** completed; المنصور moves in, Ṣafar | **146ھ** | 763 CE (begun 145ھ, «وقيل في سنةِ أربع وأربعين ومئة») | `[SOURCED]` البدایہ **ج10 ص333** | L05 |
 | 10 | **قرطبہ** — عبد الرحمن الناصر, bayʿa at 22 | **300ھ** | 912–913 CE | `[SOURCED]` سیر **ج15 ص562** | L05 |
 | 11 | قرطبہ — the caliphal title taken («أَنَا أَوْلَى بِالاسْم وَالنَّعْت») | 316ھ | 929 CE | `[STANDARD]` (to verify) — الذہبی gives the *reason* but not this year; see §Gaps | L05 |
 | 12 | **الحروب الصليبية** — the Franks take بيت المقدس, Friday forenoon, Shaʿbān | **492ھ** | 1098–1099 CE; conventionally **15 July 1099** `[STANDARD]` (to verify) | `[SOURCED]` البدایہ **ج13 ص260** | L06 |
@@ -134,7 +134,7 @@ consciously before it reaches a slide**: either quote the neutral clause only, o
 line and attribute it plainly as ابن کثیر's wording. Do not silently edit an author's words and
 still present the result as a quotation.
 
-Row 12 also carries a casualty figure — «أزيد من سبعين ألف قتيل» (more than 70,000), البدایہ
+Row 12 also carries a casualty figure — «فقتلوا في وسطه أزيد من سبعين (٦) ألف قتيل» (more than 70,000), البدایہ
 **ج13 ص260**. The edition's own footnote records that one manuscript (ط) reads **ستين** (60,000),
 and that الکامل agrees with 70,000. If the number goes on a slide, it goes with "as ابن کثیر
 reports it", not as a settled figure.
@@ -153,7 +153,7 @@ must say so in as many words.
 ### 3A. What البدایہ والنہایہ actually says — this is `[SOURCED]` and it is the heart of the slide
 
 ابن کثیر opens his book with بدء الخلق and the قصص الأنبياء, and what he supplies is **intervals and
-lifespans, with the disagreements left standing** — not a chronology. Four findings:
+lifespans, with the disagreements left standing** — not a chronology. Six findings:
 
 **(i) Between آدم ؑ and نوح ؑ: ten قرون — and ابن کثیر himself says the word is ambiguous.**
 البدایہ **ج1 ص157**. He cites the hadith of أبو أمامة ؓ from صحيح ابن حبان, and a report of
@@ -161,9 +161,9 @@ lifespans, with the disagreements left standing** — not a chronology. Four fin
 if قرن means a generation, and the generations before نوح ؑ lived very long, then **thousands of
 years**. He closes with واللَّه أعلم. *He does not choose.*
 
-> <div dir="rtl">وكان بينهما عشرة قرون، كما قال الحافظ أبو حاتم بن حبان في صحيحه … أنَّ رجلًا قال: يا رسول اللَّه! أنبيُّ كانَ آدمُ؟ قال: "نعم، مُكلَّم". قال: فكم كان بينه وبين نوح؟ قال: "عشرة قرون".</div>
+> <div dir="rtl">وكان بينهما عشرة قرون، كما قال الحافظ أبو حاتم بن حبان في صحيحه (٢): حدَّثنا محمد بن عمر بن يوسف، حدَّثنا محمد بن عبد الملك بن زنجويه، حدَّثنا أبو توبة، حدَّثنا معاوية بن سلام، عن أخيه زيد بن سلام، سمعتُ أبا سلام، سمعتُ أبا أمامة: أنَّ رجلًا قال: يا رسول اللَّه! أنبيُّ كانَ آدمُ؟ قال: "نعم، مُكلَّم". قال: فكم كان بينه وبين نوح؟ قال: "عشرة قرون". قلت: وهذا على شرط مسلم، ولم يخرِّجوه.</div>
 
-> <div dir="rtl">فإن كان المراد بالقرن مئة سنة كما هو المتبادر عند كثير من الناس، فبينهما ألف سنة لا محالة … وإن كانَ المرادُ بالقَرْن الجيلَ من الناس … فقد كان الجيل قبلَ نوح يُعمَّرون الدهور الطويلة، فعلى هذا يكون بين آدم ونوح ألوف من السنين، واللَّه أعلم.</div>
+> <div dir="rtl">فإن كان المراد بالقرن مئة سنة كما هو المتبادر عند كثير من الناس، فبينهما ألف سنة لا محالة، لكن لا ينفي أن يكون أكثر باعتبار ما قيد به ابن عبَّاس بالإسلام، إذ قد يكون بينهما قرون أُخر متأخرة لم يكونوا على الإسلام، لكن حديث أبي أمامة يدلُّ على الحصر في عشرة قرون، وزادَنا ابنُ عبَّاس أنهم كلهم كانوا على الإسلام. وهذا يردُّ قولَ من زعم من أهل التواريخ وغيرهم من أهلِ الكتاب: أنَّ قابيلَ وبنيه عَبدُوا النَّار، واللَّه أعلم. وإن كانَ المرادُ بالقَرْن الجيلَ من الناس، كما في قوله تعالى: ﴿وَكَمْ أَهْلَكْنَا مِنَ الْقُرُونِ مِنْ بَعْدِ نُوحٍ﴾ [الإسراء: ١٧] وقوله: ﴿ثُمَّ أَنْشَأْنَا مِنْ بَعْدِهِمْ قَرْنًا آخَرِينَ﴾ [المؤمون: ٣١] وقال تعالى: ﴿وَقُرُونًا بَيْنَ ذَلِكَ كَثِيرًا﴾ [الفرقان: ٣٨] وقال ﴿وَكَمْ أَهْلَكْنَا قَبْلَهُمْ مِنْ قَرْنٍ﴾ [مريم: ٧٤] وكقوله ﵇: "خيرُ القرونِ قرني" (٤) الحديث. فقد كان الجيل قبلَ نوح يُعمَّرون الدهور الطويلة، فعلى هذا يكون بين آدم ونوح ألوف من السنين، واللَّه أعلم.</div>
 
 > *English (rendering, not on the slide as a quotation):* "And between them were ten qarn … If what
 > is meant by qarn is a hundred years, as most people take it, then between them is a thousand years
@@ -179,7 +179,7 @@ slot exists for.
 
 **(ii) نوح ؑ born 126 years after آدم ؑ died** — البدایہ **ج1 ص157**, on the authority of ابن جرير:
 
-> <div dir="rtl">وكان مولدُه بعد وفاة آدم بمئة سنة وست وعشرين سنة فيما ذكره ابن جرير وغيره. وعلى تاريخ أهل الكتاب المتقدم يكون بين مولد نوح وموت آدم مئة وست وأربعون سنة.</div>
+> <div dir="rtl">وكان مولدُه بعد وفاة آدم بمئة سنة وست وعشرين سنة فيما ذكره ابن جرير (١) وغيره. وعلى تاريخ أهل الكتاب المتقدم يكون بين مولد نوح وموت آدم مئة وست وأربعون سنة.</div>
 
 Note that ابن کثیر gives **two figures side by side** — 126 by ابن جرير, 146 by the chronology of
 أهل الكتاب — and does not choose. That is the method, and it is worth saying aloud.
@@ -200,7 +200,7 @@ chain of intervals our sources supply that spans موسى → داود → عي�
 > of Ramaḍān."
 
 ⚠ **This has a weak chain and must be labelled as such if used.** The isnād as البدایہ gives it is
-«قال أبو زرعة الدمشقي: حدّثنا عبد اللّه بن صالح، حدّثني معاوية بن صالح **عمّن حدّثه**» — the final
+«قال (٢) أبو زرعة الدمشقي: حدّثنا عبد اللّه بن صالح، حدّثني معاوية بن صالح عمّن حدّثه قال:» — the final
 authority is **unnamed**. It is a report ابن کثیر passes on, not a hadith. Presented honestly it is
 still valuable: *even the numbers our own tradition preserves come to us as intervals with a soft
 chain, not as dates.*
@@ -208,13 +208,12 @@ chain, not as dates.*
 **(v) عيسى ؑ** — البدایہ **ج2 ص265**, on the authority of ابن جرير: revelation came to him at
 **thirty**, and he was raised at **thirty-three**.
 
-> <div dir="rtl">وذى ابن جرير في "تأريخه" أنه أنزل عليه وهو ابن ثلاثين سنةً، ومكث حتى رفع إلى السماء وهو ابن ثلاث وثلاثين سنة</div>
+> <div dir="rtl">وذى ابن جرير في "تأريخه" (٤) أنه أنزل عليه وهو ابن ثلاثين سنةً، ومكث حتى رفع إلى السماء وهو ابن ثلاث وثلاثين سنة، كما سيأتي بيانه إن شاء اللّه تعالى.</div>
 
 *(The «وذى» is the edition's own typo for «وذكر». Quote it as printed or paraphrase; do not silently
 correct and still call it a quotation.)*
 
-**(vi) إبراهيم ؑ's age at death is disputed** — البدایہ **ج1 ص256**: «مات عن مئة وخمس وسبعين، وقيل:
-وتسعين سنة» (175, or 195), and «وقد وردَ ما يدلُّ أنه عاشَ مئتي سنة، كما قاله ابن الكلبي» (200), and
+**(vi) إبراهيم ؑ's age at death is disputed** — البدایہ **ج1 ص256**: «ثم مرض إبراهيم ﵇ وماتَ عن مئة وخمس وسبعين، وقيل: وتسعينَ سنة» (175, or 195), and «وقد وردَ ما يدلُّ أنه عاشَ مئتي سنة، كما قاله ابن الكلبي» (200), and
 a hadith in صحيح ابن حبان that he was circumcised at 120 and lived eighty years after. **Four figures,
 no verdict.** A lifespan, never a date.
 
@@ -305,7 +304,7 @@ with the Urdu rendering beneath. Never Nastaliq for Arabic.
 
 > <div dir="rtl">فمالَ عمرُ ﵁ إلى التاريخ بالهجرة لظهورهِ واشتهاره. واتفقوا معه على ذلك.</div>
 
-> <div dir="rtl">عن سهل بن سعد قال: ما عدُّوا من مَبْعَثِ النبيِّ ﷺ ولا من وفاته، ما عدُّوا إلا من مَقْدَمِه المدينة.</div>
+> <div dir="rtl">عن سهل بن سعد قال: ما عدُّوا من مَبْعَثِ النبيِّ ﷺ ولا من وفاته، ما عدُّوا إلا من مَقْدَمِه المدينة.</div>
 
 The second is a hadith ابن کثیر quotes from **صحيح البخاري** (the edition's footnote gives
 فتح الباري ٧/٢٦٧, كتاب مناقب الأنصار, باب التاريخ من أين أرخوا التاريخ). **This one really is in
@@ -315,7 +314,7 @@ community began.
 
 ### ۴۱ھ — خلافت becomes ملک · البدایہ **ج8 ص5**
 
-> <div dir="rtl">قد تقدَّم في الحديث أنَّ الخلافة بعده ﵇ ثلاثون سنة، ثم تكون مُلكًا، وقد انقضت الثلاثون سنة بخلافة الحسن بن علي، فأيام معاوية أول المُلْك، فهو أولُ ملوك الإسلام وخيارُهم.</div>
+> <div dir="rtl">قد تقدَّم في الحديث أنَّ الخلافة بعده ﵇ ثلاثون سنة، ثم تكون مُلكًا، وقد انقضت الثلاثون سنة بخلافة الحسن بن علي، فأيام معاوية أول المُلْك، فهو أولُ ملوك الإسلام وخيارُهم.</div>
 
 > *English:* "It has already been given in the hadith that the caliphate after him ﷺ is thirty
 > years, then it becomes kingship. The thirty years came to their end with the caliphate of
@@ -330,9 +329,9 @@ not. It also fixes the ۱۱–۴۰ھ span of Timeline 2 row 3 from the source ra
 
 ### ۹۲ھ — الأندلس and قرطبہ · سیر **ج4 ص500**
 
-> <div dir="rtl">١٩٦ - وَكَانَ فَتْحُ إِقْلِيْمِ الأَنْدَلُسِ فِي رَمَضَانَ، سَنَةَ اثْنَتَيْنِ وَتِسْعِيْنَ، عَلَى يَدِ: طَارِقٍ مَوْلَى مُوْسَى بنِ نُصَيْرٍ</div>
+> <div dir="rtl">١٩٦ - وَكَانَ فَتْحُ إِقْلِيْمِ الأَنْدَلُسِ فِي رَمَضَانَ، سَنَةَ اثْنَتَيْنِ وَتِسْعِيْنَ، عَلَى يَدِ: طَارِقٍ* مَوْلَى مُوْسَى بنِ نُصَيْر</div>
 
-> <div dir="rtl">فَبَادَرَ طَارِقٌ، وَعَدَّى فِي جُنْدِهِ، وَهَزَمَ الفِرَنْجَ، وَافْتَتَحَ قُرْطُبَةَ … وَكَتَبَ بِالنَّصْرِ إِلَى مَوْلاَهُ … فَتَلَقَّاهُ طَارِقٌ، وَقَالَ: إِنَّمَا أَنَا مَوْلاَكَ، وَهَذَا الفَتْحُ لَكَ.</div>
+> <div dir="rtl">فَبَادَرَ طَارِقٌ، وَعَدَّى فِي جُنْدِهِ، وَهَزَمَ الفِرَنْجَ، وَافْتَتَحَ قُرْطُبَةَ، وَقَتَلَ صَاحِبَهَا لُذْرِيْقَ، وَكَتَبَ بِالنَّصْرِ إِلَى مَوْلاَهُ، فَحَسَدَهُ عَلَى الانْفِرَادِ بِهَذَا الفَتْحِ العَظِيْمِ، وَتَوَعَّدَهُ، وَأَمَرَهُ أَنْ لاَ يَتَجَاوَزَ مَكَانَهُ، وَأَسْرَعَ مُوْسَى بِجُيُوْشِهِ، فَتَلَقَّاهُ طَارِقٌ، وَقَالَ: إِنَّمَا أَنَا مَوْلاَكَ، وَهَذَا الفَتْحُ لَكَ.</div>
 
 *(«١٩٦ -» is الذہبی's entry number in the سیر, not part of the sentence.)* البدایہ **ج9 ص248**
 carries the same under سنة ثنتين وتسعين, quoting الذہبی by name, and adds that طارق crossed «في اثني
@@ -340,15 +339,15 @@ carries the same under سنة ثنتين وتسعين, quoting الذہبی by n
 
 ### ۱۳۲ھ — بنو العباس · البدایہ **ج10 ص261**
 
-> <div dir="rtl">وأحضروا أبا العباس السفَّاح، وسلَّمُوا عليهِ بالخِلافة، وذلك بالكوفة، وكان عمرُهُ إذ ذاك سِتًّا وعشرين سنةً … وذلك ليلةَ الجُمعة، لثلاثَ عشرةَ ليلة خلَتْ من ربيع الآخر من هذه السنة</div>
+> <div dir="rtl">وأحضروا أبا العباس السفَّاح، وسلَّمُوا عليهِ بالخِلافة، وذلك بالكوفة، وكان عمرُهُ إذ ذاك سِتًّا وعشرين سنة … وكان أولَ مَنْ سَلَّمَ عليه بالخِلافة أبو سلمةَ الخَلَّال، وذلك ليلةَ الجُمعة، لثلاثَ عشرةَ ليلة خلَتْ من ربيع الآخر من هذه السنة</div>
 
 ### ۱۴۶ھ — بغداد · البدایہ **ج10 ص333** and **ج10 ص339**
 
-> <div dir="rtl">فيها تكامل بناءُ مدينةِ السلام ببغداد، وسكنها المنصور في صفر من هذهِ السنة، وكان مقيمًا قبلَ ذلك بالهاشميَّة المتاخمةِ للكوفة، وكان قد شَرَعَ في بنائِها في السنةِ الخارجة، وقيل في سنةِ أربع وأربعين ومئة. فاللّه أعلم.</div>
+> <div dir="rtl">فيها تكامل بناءُ مدينةِ السلام ببغداد، وسكنها المنصور في صفر من هذهِ السنة، وكان مقيمًا قبلَ ذلك بالهاشميَّة المتاخمةِ للكوفة، وكان قد شَرَعَ في بنائِها في السنةِ الخارجة، وقيل في سنةِ أربع وأربعين ومئة. فاللّه أعلم.</div>
 
 And المنصور's own words as he laid the first brick — البدایہ **ج10 ص333**:
 
-> <div dir="rtl">ثم كان هو أوَّلَ منْ وضع لَبنةً فيها بيدِه، وقال: بسم اللّه والحمدُ للّه ﴿إِنَّ الْأَرْضَ لِلَّهِ يُورِثُهَا مَنْ يَشَاءُ مِنْ عِبَادِهِ وَالْعَاقِبَةُ لِلْمُتَّقِينَ﴾ ثم قال: ابنوا على بَرَكةِ اللّه.</div>
+> <div dir="rtl">ثم كان هو أوَّلَ منْ وضع لَبنةً فيها بيدِه، وقال: بسم اللّه والحمدُ للّه ﴿إِنَّ الْأَرْضَ لِلَّهِ يُورِثُهَا مَنْ يَشَاءُ مِنْ عِبَادِهِ وَالْعَاقِبَةُ لِلْمُتَّقِينَ﴾ [الأعراف: ١٢٨]. ثم قال: ابنوا على بَرَكةِ اللّه.</div>
 
 And on the name — البدایہ **ج10 ص339**:
 
@@ -361,9 +360,9 @@ not our comment on the event.
 
 ### ۳۰۰ھ — قرطبہ · سیر **ج15 ص562**
 
-> <div dir="rtl">بَانِي مدينَة الزَّهْرَاء وَالَّذِي دَامتْ دولتُه خَمْسِيْنَ سنَةً، وَصَاحبَ الفُتُوْحَاتِ الكثيرَة، وَالغَزَوَات المَشْهُوْرَة، وَهُوَ أَوَّلُ مَنْ تَلقَّب بِأَلقَاب الخِلاَفَة، وَذَلِكَ لَمَّا بَلَغَه قَتْلُ المُقْتَدر، وَوَهْنُ الخِلاَفَة العَبَّاسِيَّة، فَقَالَ: أَنَا أَوْلَى بِالاسْم وَالنَّعْت.</div>
+> <div dir="rtl">بَانِي مدينَة الزَّهْرَاء (١) وَالَّذِي دَامتْ دولتُه خَمْسِيْنَ سنَةً، وَصَاحبَ الفُتُوْحَاتِ الكثيرَة، وَالغَزَوَات المَشْهُوْرَة، وَهُوَ أَوَّلُ مَنْ تَلقَّب بِأَلقَاب الخِلاَفَة، وَذَلِكَ لَمَّا بَلَغَه قَتْلُ المُقْتَدر، وَوَهْنُ الخِلاَفَة العَبَّاسِيَّة، فَقَالَ: أَنَا أَوْلَى بِالاسْم وَالنَّعْت.</div>
 
-> <div dir="rtl">فَلَمَّا مَاتَ جَدُّه، بُوْيِع هَذَا سَنَةَ ثَلاَثٍ مائَة … فولِي وَعمره اثْنَتَانِ وَعِشْرُوْنَ سَنَةً</div>
+> <div dir="rtl">فَلَمَّا مَاتَ جَدُّه، بُوْيِع هَذَا سَنَةَ ثَلاَثٍ مائَة مَعَ وَجودِ الأَكَابِر مِنْ أَعمَامه وَأَعمَام أَبِيهِ، فولِي وَعمره اثْنَتَانِ وَعِشْرُوْنَ سَنَة</div>
 
 **`[SOURCED]`: the bayʿa in 300ھ, the fifty-year reign, مدينة الزهراء, and the reason he took the
 caliphal titles. `[STANDARD]` and NOT sourced here: the year 316ھ / 929 CE for the proclamation —
@@ -384,12 +383,12 @@ agreement; the exact day of Shaʿbān is `(to verify)`.)*
 
 Exactly as printed (footnote markers included):
 
-> <div dir="rtl">فيها: كانت وقعة حِطَّين، التي كانت أمارة، ومقدمة وبشارة (٤)، لفتح بيت (٥) المقدس [على عباد اللّه الصالحين] (٦)، واستنقاذه من أيدي الكافرين (٧).</div>
+> <div dir="rtl">فيها: كانت وقعة حِطَّين (٣)، التي كانت أمارة، ومقدمة وبشارة (٤)، لفتح بيت (٥) المقدس [على عباد اللّه الصالحين] (٦)، واستنقاذه من أيدي الكافرين (٧).</div>
 
 Cleaned for a slide (markers and manuscript brackets removed — **this form is a slide rendering, not
 the edition's text**):
 
-> <div dir="rtl">فيها كانت وقعة حِطَّين، التي كانت أمارة ومقدمة وبشارة لفتح بيت المقدس واستنقاذه من أيدي الكافرين.</div>
+> <div dir="rtl">فيها كانت وقعة حِطَّين، التي كانت أمارة، ومقدمة وبشارة، لفتح بيت المقدس على عباد اللّه الصالحين، واستنقاذه من أيدي الكافرين.</div>
 
 ### ۵۸۳ھ — بيت المقدس retaken · البدایہ **ج14 ص345**
 
@@ -408,13 +407,13 @@ endure.
 
 And the scale — same page:
 
-> <div dir="rtl">وكان قدوم هلاكوخان بجنوده كلها، وكانوا نحو مئتي ألف مقاتل - إلى بغداد في ثاني عشر المحرم من هذه السنة</div>
+> <div dir="rtl">وكان قدوم هلاكوخان بجنوده كلها، وكانوا نحو مئتي (٨) ألف مقاتل - إلى بغداد في ثاني عشر المحرم من هذه السنة</div>
 
 **One sentence ends five hundred years.** That is the whole peg; nothing needs to be added to it.
 
 ### ۶۵۸ھ — عين جالوت · البدایہ **ج15 ص351–352**
 
-> <div dir="rtl">اتفق وقوع هذا كله في العشر الأخير من رمضان من هذه السنة، فما مضت سوى ثلاثة أيام حتى جاءت البشارة بنصرة المسلمين على التتار بعين جالوت، ولله الحمد</div>
+> <div dir="rtl">اتفق وقوع هذا كله في العشر الأخير من رمضان من هذه السنة، فما مضت سوى ثلاثة أيام (١٢) حتى جاءت البشارة بنصرة المسلمين على التتار بعين جالوت، ولله الحمد</div>
 
 *(The sentence begins on **ج15 ص351** under the heading «وقعة عين جالوت» and completes on **ج15 ص352**
 — cite the span, not one page.)* البدایہ dates it to **the last ten days of Ramaḍān 658ھ**; the
@@ -431,7 +430,7 @@ conventional Gregorian day, 3 September 1260, is `[STANDARD]` (to verify).
    Sind is central to session 8; it needs either a fresh الکامل TOC fetch or a named second source.
    **Left `[STANDARD]` (to verify).**
 2. **العثمانيون ۶۹۹ھ, فتح القسطنطينية ۸۵۷ھ, سقوط غرناطة ۸۹۷ھ, بابر ۹۳۲ھ, أورنگزيب, ۱۸۵۷, ۱۹۲۴, ۱۹۴۷.**
-   All **outside البدایہ's range** — ابن کثیر رحمہ اللہ died in ۷۷۴ھ. The only «القسطنطينية» entries in
+   All **outside البدایہ's range** — ابن کثیر رحمہ اللہ died in ۷۷۴ھ. The only القسطنطينية entries in
    its TOC are the eschatological ones in the الفتن section, which are **not** about 857ھ and must
    never be cited for it. All `[STANDARD]` (to verify).
 3. **The year قرطبہ's caliphate was proclaimed.** سیر ج15 ص562 gives الناصر's bayʿa (300ھ) and his
@@ -519,3 +518,31 @@ read from. Before any deck is built from this note:
   *«آپ نے انبیاء علیہم السلام کی تاریخیں کہاں سے لیں؟»* The answer is in §3C and §3D and should be
   lifted verbatim: we did not take them from our sources, we said so on the slide, and our sources
   give an interval rather than a date.
+
+---
+
+## 8. Verification actually performed on this note
+
+**Every Arabic string in this file was machine-checked, character for character, against the cached
+page it is attributed to** — not eyeballed. The check extracts each `dir="rtl"` block and each
+inline «…» quotation and requires it to appear as an exact substring of a file under
+`sources/shamela/`. The first pass **failed**: several quotations had silently lost their editorial
+footnote markers `(١)(٤)(٦)`, a manuscript asterisk on `طَارِقٍ*`, and the verse reference
+`[الأعراف: ١٢٨]`, and one diacritic sequence in `تقدَّم` did not match. All were regenerated
+directly from the source files rather than retyped, and the check now passes.
+
+**Exactly two strings do not match a source, both deliberately and both labelled where they stand:**
+
+1. The **«cleaned for a slide»** form of the حطين line in §4 — footnote markers and manuscript
+   brackets removed. It is marked in place as a slide rendering, **not** the edition's text.
+2. The **عين جالوت** sentence, which runs across the page break from **ج15 ص351** to **ج15 ص352**
+   and therefore exists in no single cached file.
+
+**What this check does NOT establish.** It proves the Arabic matches *the Shamela text layer*. It
+does not replace reading the page image, and it says nothing about the `[STANDARD]` and
+`[CONVENTIONAL-ESTIMATE]` rows, which have no source in this repo to be checked against.
+
+**To re-run it** after editing this file, re-extract each quotation from
+`sources/shamela/<book>/<index>.txt` and test substring membership. Diacritic-insensitive anchors
+(strip U+064B–U+0652, U+0640, U+0670) are needed to *find* a passage; the text that goes in the
+file must then be copied from the source, never retyped.

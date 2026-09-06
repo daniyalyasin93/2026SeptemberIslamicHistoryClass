@@ -12,6 +12,11 @@ Sources are **البدایہ والنہایہ** — ط دار ابن كثير �
 `docs/research/saqifah-bani-saida.md` · `docs/research/wafat-and-medina-11h.md` ·
 `docs/research/muhajirun-quraysh-structure.md` · `docs/catalogue/QA_BANK.md`.
 
+**Honorifics — said aloud every time, on this sheet as on the podium.** Every Companion named here
+carries **رضي الله عنه**, the Prophet carries **ﷺ**, and the later scholars carry **رحمہ اللہ**.
+Where a name is written in Latin letters the رضي الله عنه sign is left off the spelling only
+because a combining mark cannot sit on a Latin letter. **It is never left off the speech.**
+
 *Typesetting note for whoever prints this: every page citation is set off by a spaced em-dash and
 never wrapped in Latin brackets, so that the Urdu-Indic digits are not reordered against Latin
 punctuation. Keep that convention if you edit the sheet.*
@@ -95,7 +100,7 @@ Six moves, all of them on **ج۵ ص۳۴۵–۳۴۷**:
 6. **An Anṣārī struck it before ʿUmar could.** — ج۵ ص۳۴۷
 
 Separately — and this is the argument that actually settles it in Ibn Kathir's telling — ʿUmar's
-appeal to **the prayer**, from the report of Ibn Masʿūd ؓ
+appeal to **the prayer**, from the report of Ibn Masʿūd
 
 <div dir="rtl">«يا معشرَ الأنْصار ألستم تعلمون أن رسولَ اللَّه ﷺ قد أمر أبا بكر أن يَؤُمّ النَّاسَ؟ فأيُّكم تطيبُ نفسُه أن يتقدم أبا بكر؟ فقالت الأنصار: نعوذُ باللَّه أن نتقدم أبا بكر» — ج۵ ص۳۴۷</div>
 
@@ -105,7 +110,7 @@ appeal to **the prayer**, from the report of Ibn Masʿūd ؓ
 
 ### 5. Which clan was Bashīr b. Saʿd from, and what does the book actually say he did?
 
-**al-Khazraj**, of the Anṣār. He is the father of **al-Nuʿmān b. Bashīr ؓ**. He is named as the man
+**al-Khazraj**, of the Anṣār. He is the father of **al-Nuʿmān b. Bashīr**. He is named as the man
 who struck Abū Bakr's hand **before** ʿUmar — the first bayʿah of the day. He is given **no speech**
 in these pages. His whole part is an action, and it is reported in ʿUmar's own words:
 
@@ -129,7 +134,7 @@ at **Fihr**, further out than all of them:
 
 <div dir="rtl">«يَجْتَمِعُ فِي النَّسَبِ هُوَ وَالنَّبِيُّ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ- فِي فِهْرٍ» — سیر أعلام النبلاء ج۱ ص۶</div>
 
-And it was Abū ʿUbayda ؓ together with ʿUmar ؓ whom Abū Bakr ؓ put forward at the Saqīfa —
+And it was Abū ʿUbayda together with ʿUmar whom Abū Bakr put forward at the Saqīfa —
 **ج۵ ص۳۴۶**. Nearness of blood was not the currency.
 
 ### 7. Saʿd b. ʿUbāda: his clan, his condition that day, and the one thing البدایہ records him saying.
@@ -150,13 +155,13 @@ these pages that he gave bayʿah, and does not say that he refused. Do not fill 
 
 ### 8. Who was *not* in that courtyard?
 
-**ʿAlī ؓ and al-Zubayr ؓ** — they and those with them stayed behind in Fāṭima's ؓ house.
+**ʿAlī and al-Zubayr** — they and those with them stayed behind in the house of فاطمہ ؓ.
 Both gave bayʿah when Abū Bakr summoned them from the minbar, each answering «لا تَثْريبَ يا خليفةَ
 رسولِ اللَّه ﷺ» — *no reproach*.
 
 <div dir="rtl">«تَخَلَّفوا في بَيْت فاطمة بنتِ رسول اللَّه ﷺ» — ج۵ ص۳۴۵ · بیعت: ج۵ ص۳۵۰</div>
 
-And the correction that is easy to get wrong: **Usayd b. Ḥuḍayr ؓ and Thābit b. Qays ؓ are not
+And the correction that is easy to get wrong: **Usayd b. Ḥuḍayr and Thābit b. Qays are not
 mentioned at the Saqīfa at all** — not in ج۵ ص۳۴۳–۳۵۷، not in ج۷ ص۵–۸. They stand on the clan chart
 as chiefs of their people. **Do not put them in that courtyard.**
 
@@ -193,8 +198,8 @@ narration as "a man of the Anṣār"; the identification comes at the end of the
 
 <div dir="rtl">«قال ابنُ شهاب: وأخبرني سعيدُ بن المُسَيّب أنَّ الذي قال: أنا جُذَيْلُها المُحَكَّكُ وعُذَيْقُها المُرَجَّب. هو الحباب بن المنذر» — ج۵ ص۳۴۶</div>
 
-The Anṣār say the same thing **collectively** in the Ibn Masʿūd ؓ report at **ج۵ ص۳۴۷**. And the
-longer al-Ḥubāb ؓ speech familiar from سيرة ابن ہشام / الطبری is **not carried in these pages** — do
+The Anṣār say the same thing **collectively** in the Ibn Masʿūd report at **ج۵ ص۳۴۷**. And the
+longer al-Ḥubāb speech familiar from سيرة ابن ہشام / الطبری is **not carried in these pages** — do
 not import it.
 
 ---
@@ -225,8 +230,8 @@ it must not be softened. Three things, in this order.
 
 These are **ʿUmar's own words, reported by ʿUmar against himself, in public**, in a sermon whose
 entire point was that the day had been dangerous and must never be repeated. Ibn Kathir's own answer
-comes **one page later**, first as a section heading at **ج۵ ص۳۴۷** and then as Saʿd's ؓ own
-«صدقتَ، نحن الوزراءُ وأنتم الأمراءُ» at **ج۵ ص۳۴۸**. And on whether Saʿd ؓ ever gave bayʿah —
+comes **one page later**, first as a section heading at **ج۵ ص۳۴۷** and then as Saʿd's own
+«صدقتَ، نحن الوزراءُ وأنتم الأمراءُ» at **ج۵ ص۳۴۸**. And on whether Saʿd ever gave bayʿah —
 **state the acceptance, say the rest is disputed on weak chains, and do not adjudicate.** البدایہ
 reports only the agreement; سیر carries a refusal report which al-Dhahabī رحمہ اللہ brands in three
 words:
