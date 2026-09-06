@@ -67,7 +67,14 @@ MAROON = RGBColor(0x7A, 0x2E, 0x2E)
 RULE = RGBColor(0xD8, 0xD2, 0xC4)
 
 _HAS_AR = re.compile("[؀-ۿﭐ-﷿ﹰ-﻿]")
-AR = "Traditional Arabic"       # Naskh. Nastaliq for Arabic is non-standard (CLAUDE.md 1.3)
+AR = "Traditional Arabic"
+# Traditional Arabic HAS NO GLYPH for U+0613 ؓ (رضي الله عنه) — verified against trado.ttf's
+# cmap. Every ؓ in session 1 rendered as a dotted circle because of it. Arabic Typesetting
+# ships with Windows, is also Naskh, and carries U+0610–U+0615 as well as ﷺ, so any run that
+# contains an honorific sign is set in it instead. Quotations with no honorific keep
+# Traditional Arabic, so the look of the Arabic on a statement slide does not change.
+AR_HON = "Arabic Typesetting"
+_HONORIFIC = re.compile("[\u0610-\u0615\u0617-\u061A]")       # Naskh. Nastaliq for Arabic is non-standard (CLAUDE.md 1.3)
 EN = "Georgia"                  # English headlines
 SANS = "Segoe UI"               # English body
 
@@ -158,9 +165,16 @@ def text(slide, txt, x, y, w, h, size=BODY_PT, color=INK, font=EN, bold=False,
         r.font.bold = bold
         r.font.italic = italic
         r.font.color.rgb = color
-        # A headline in Georgia may still contain ؓ or ﷺ. The complex-script face has to be an
-        # Arabic one or PowerPoint substitutes a dotted circle for the honorific.
-        set_cs(r, AR if font != AR and _HAS_AR.search(para_txt) else font)
+        # Pick the complex-script face from what the run actually contains. A Latin headline
+        # carrying ؓ or ﷺ still needs an Arabic face, and if it carries a Companion
+        # honorific that face has to be one that HAS the glyph.
+        if _HONORIFIC.search(para_txt):
+            r.font.name = AR_HON if font == AR else font
+            set_cs(r, AR_HON)
+        elif font != AR and _HAS_AR.search(para_txt):
+            set_cs(r, AR)
+        else:
+            set_cs(r, font)
     return box
 
 
@@ -458,10 +472,31 @@ def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=
 
 
 def timeline_slide(prs, image, headline, caption=None, kicker=None):
-    """The Line. Same kind as an image slide, named separately because it is a fixed furniture
-    piece — it opens and closes every session and must look identical each time."""
-    return image_slide(prs, image, headline, caption=caption, kicker=kicker,
-                       brief=None if image else "The series timeline strip.")
+    """The Line — fixed furniture. It opens and closes every session and must look identical.
+
+    Sized to the FULL content width rather than fitted to the content height: the strip is about
+    9:1, so height-fitting made it render at a fraction of the slide and the one graphic whose job
+    is to re-anchor the room was the smallest thing on screen.
+    """
+    s = blank(prs)
+    header(s, headline, kicker)
+
+    path = image if image and os.path.isabs(image) else os.path.join(VIS, image or "")
+    if image and os.path.exists(path):
+        pic = s.shapes.add_picture(_trim(path), MARGIN, CONTENT_Y, width=CONTENT_W)
+        avail = CONTENT_H - (Inches(0.62) if caption else Inches(0))
+        if pic.height > avail:
+            pic.height, pic.width = avail, Emu(int(pic.width * avail / pic.height))
+            pic.left = MARGIN + Emu(int((CONTENT_W - pic.width) / 2))
+        pic.top = CONTENT_Y + Emu(int((avail - pic.height) / 2))
+    else:
+        _placeholder(s, MARGIN, CONTENT_Y, CONTENT_W, Inches(1.6),
+                     "The series timeline strip.", image)
+
+    if caption:
+        text(s, caption, MARGIN, H - Inches(0.70), CONTENT_W, Inches(0.5),
+             size=MIN_PT, color=MUTED, font=SANS, align=PP_ALIGN.CENTER)
+    return s
 
 
 def diagram_slide(prs, headline, rows, kicker=None, caption=None):

@@ -1,0 +1,877 @@
+<meta charset="utf-8">
+<title>Session 2 — «بارہ سال»</title>
+<!--EMBED-FONTS-->
+<style>
+@page { size: A4; margin: 16mm 15mm 16mm 15mm; }
+* { box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', 'Calibri', system-ui, sans-serif;
+  font-size: 10.5pt; line-height: 1.58; color: #1C2321;
+  margin: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+
+/* ---- the title block ------------------------------------------------- */
+.doc-head { border-bottom: 3px solid #104A43; padding-bottom: 10px; margin-bottom: 22px; }
+.doc-head .kicker {
+  font: 700 8pt 'Segoe UI', sans-serif; letter-spacing: .16em; text-transform: uppercase;
+  color: #C49A45; margin-bottom: 5px;
+}
+.doc-head .file { font: 400 8.5pt Consolas, monospace; color: #6B7472; margin-top: 4px; }
+
+/* ---- headings -------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', serif; color: #0A322E;
+  line-height: 1.25; margin: 1.5em 0 .5em; break-after: avoid; page-break-after: avoid;
+}
+h1 { font-size: 20pt; margin-top: 0; }
+h2 { font-size: 14.5pt; border-bottom: 1px solid #D8D2C4; padding-bottom: 4px; margin-top: 1.9em; }
+h3 { font-size: 12pt; color: #104A43; }
+h4, h5, h6 { font-size: 10.5pt; color: #104A43; }
+h1.ar, h2.ar, h3.ar, h4.ar { font-family: 'Traditional Arabic', serif; font-size: 20pt; }
+
+p { margin: .55em 0; orphans: 3; widows: 3; }
+hr { border: 0; border-top: 1px solid #D8D2C4; margin: 1.8em 0; }
+strong { color: #0A322E; }
+a { color: #104A43; text-decoration: none; border-bottom: .5pt solid #A8BEB9; word-break: break-all; }
+code {
+  font: 9pt Consolas, monospace; background: #F2EFE7; padding: .5pt 3pt;
+  border-radius: 2px; color: #7A2E2E;
+}
+
+/* ---- ARABIC. The whole reason this renderer exists. ------------------- */
+/* Traditional Arabic sits small against Latin at the same nominal size, so both the block and the
+   inline runs are scaled up deliberately. Line-height is generous because Naskh stacks marks
+   above and below the baseline and a tight leading makes ؓ collide with the line above. */
+.ar-i {
+  font-family: 'Traditional Arabic', 'Segoe UI Historic', serif;
+  font-size: 1.34em; line-height: 1; unicode-bidi: isolate;
+}
+.ar .ar-i, .ar-block .ar-i { font-size: 1em; }
+
+p.ar, li.ar, td.ar, th.ar {
+  font-family: 'Traditional Arabic', 'Segoe UI Historic', serif;
+  font-size: 19pt; line-height: 1.95; color: #0A322E;
+  text-align: right; direction: rtl;
+  margin: .35em 0;
+}
+
+blockquote {
+  margin: 1.1em 0; padding: 10px 14px 10px 16px;
+  background: #FAF7F0; border-left: 3px solid #C49A45;
+  break-inside: avoid; page-break-inside: avoid;
+}
+blockquote p { margin: .25em 0; }
+blockquote p.ar { font-size: 20pt; margin: .1em 0 .35em; }
+blockquote p.cite {
+  font-size: 8.6pt; color: #5C6664; direction: ltr; text-align: left;
+  border-top: .5pt dotted #D8D2C4; padding-top: 5px; margin-top: 7px;
+}
+blockquote p.cite .ar-i { font-size: 1.25em; }
+blockquote p.cite.ar { direction: rtl; text-align: right; font-size: 13.5pt; line-height: 1.7;
+                       font-family: 'Traditional Arabic', serif; }
+p.cite.ar .ar-i { font-size: 1em; }
+blockquote p.tr { font-size: 10pt; color: #3A4442; font-style: italic; }
+
+/* ---- tables ---------------------------------------------------------- */
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 9.3pt;
+        break-inside: avoid; page-break-inside: avoid; }
+th { background: #104A43; color: #FAF7F0; font-weight: 600; text-align: left; }
+th, td { border: .5pt solid #C9C3B5; padding: 5px 7px; vertical-align: top; }
+tr:nth-child(even) td { background: #F7F5EF; }
+td.ar, th.ar { font-size: 15pt; line-height: 1.7; }
+
+ul, ol { margin: .55em 0; padding-left: 1.4em; }
+li { margin: .28em 0; }
+
+/* ---- the certainty labels, so they are visible at a glance ----------- */
+code:where(:not(a code)) { white-space: nowrap; }
+
+/* Read at home, twice, in an armchair — so: bigger, looser, and broken by scene. */
+@page { margin: 18mm 20mm; }
+body { font-size: 12pt; line-height: 1.72; }
+h2 { break-before: page; page-break-before: always; margin-top: 0; font-size: 17pt; }
+h2:first-of-type { break-before: auto; page-break-before: auto; }
+h3 { font-size: 13.5pt; margin-top: 1.6em; }
+p { margin: .75em 0; }
+blockquote p.ar { font-size: 22pt; }
+.doc-head .kicker { color: #104A43; }
+</style>
+<div class="doc-head">
+  <div class="kicker">Lessons from History &middot; speaker briefing</div>
+  <div class="file">L02_baarah_saal/BRIEFING.md</div>
+</div>
+<h1>Session 2 — «<span class="ar-i">بارہ سال</span>»</h1>
+<p><strong><span class="ar-i">أبو بكر الصدیق ؓ</span>'s caliphate entire · 11–13 AH / 632–634 CE</strong></p>
+<p><em>Read this twice at home. It never goes to the lectern — that is what <code>CUE.pdf</code> is for. Its whole
+job is to put the evening into your head so completely that on the night you are telling it, not
+reading it. Everything here comes from <code>SPINE.md</code>; nothing has been added.</em></p>
+<hr />
+<h2>Where we are</h2>
+<p>Session 1 stopped on a morning. <span class="ar-i">سقيفة</span> was over, the ummah had a caliph, and the room was shown a map
+of Arabia with the <span class="ar-i">ردة</span> about to break across it. Then the lights came up. Tonight opens on that same
+map, unchanged, and starts moving it.</p>
+<p>Tonight is <strong>two years and three months</strong>. That is the whole span. <span class="ar-i">أبو بكر ؓ</span> became caliph and died
+inside it, and inside it Arabia came apart and was put back together, the Qur'an was gathered into
+one set of <span class="ar-i">صحف</span> for the first time, and the first armies left the peninsula. The room will not
+believe how short it is — which is why the evening opens with a hands-up on exactly that.</p>
+<p>The verdict after session 1 was that it felt like a speed-run. So tonight is one caliphate, told
+slowly, in scenes: a dozen stories told properly, with the map doing the joining.</p>
+<p><strong>The one thing the evening is actually about.</strong> Every scene tonight is a man being told, by people
+who love him and are not fools, to bend — and not bending. Send the army later. Give us an older
+commander. Keep the troops here. Do not do a thing the Messenger of Allah <span class="ar-i">ﷺ</span> did not do. Take a
+salary you were lawfully voted. Each time he answers, and each answer is short. That is the thread.
+If you have to cut half the evening, keep the thread.</p>
+<hr />
+<h2>ACT 1 · The army he would not call back</h2>
+<p><em>11 AH · the first ten days</em></p>
+<blockquote>
+<p>🖐 <strong>[HANDS]</strong> Hands up — how long do you think <span class="ar-i">أبو بكر ؓ</span> was caliph, in total?</p>
+<p><em>(Two years and three months. Everything tonight happens inside that.)</em></p>
+</blockquote>
+<h3>1 · The appointment nobody liked</h3>
+<p>In his last weeks the Prophet <span class="ar-i">ﷺ</span> raised an army for the Syrian frontier and put <span class="ar-i">أسامة بن زيد ؓ</span> over
+it. <span class="ar-i">أسامة ؓ</span> was eighteen. Standing in the ranks under him were <span class="ar-i">عمر بن الخطاب ؓ</span> and the senior men of
+the <span class="ar-i">مهاجرون</span> and the <span class="ar-i">أنصار</span>. People said so out loud — an eighteen-year-old over these men. The
+Prophet <span class="ar-i">ﷺ</span> heard the talk, stood up, and answered it himself.</p>
+<p>The audience will not expect the map to point where it points here. The arrow goes north-west, past
+<span class="ar-i">تبوك</span>, toward <span class="ar-i">البلقاء</span> and <span class="ar-i">أُبنى</span> — Byzantine ground. This is the first time in the series the map
+looks at an empire.</p>
+<p>The statement is the Prophet's <span class="ar-i">ﷺ</span> own, and it does two things at once: defends <span class="ar-i">أسامة ؓ</span>, and tells the
+room how the Prophet <span class="ar-i">ﷺ</span> regarded him and his father.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">إن تَطْعُنوا في إمارَتِهِ فَقَدْ كُنْتُمْ تَطْعُنون في إمارةِ أبيه منْ قَبْلُ، وايْمُ اللَّهِ إن كان لخليقًا للإمارة، وإن كان لمنْ أحَبِّ النّاس إليَّ، وإنَّ هذا لمِنْ أحبِّ الناسِ إليَّ بَعْدَه</span></p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۵ ص۳۱۱</span> · <a href="https://shamela.ws/book/30097/2495">https://shamela.ws/book/30097/2495</a></p>
+<p class="tr"><em>English:</em> "If you find fault with his command, you found fault with his father's command before</p>
+<p>him. And by Allah, he was fit for command, and he was among the dearest of people to me — and this</p>
+<p>one is among the dearest of people to me after him."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> A man is fit for a task because of what he can do, not because of how long he has been
+alive.</p>
+<h3>2 · "I will not untie a knot"</h3>
+<p>Then the Prophet <span class="ar-i">ﷺ</span> died, and the situation inverted. Tribes around <span class="ar-i">المدینہ</span> broke away. Others
+refused the <span class="ar-i">زکاۃ</span>. And the state's only field army was outside the walls, pointed at the Roman
+frontier and marching away from the capital.</p>
+<p>The advice to recall it came from the best men he had. <span class="ar-i">عمر ؓ</span> was among them. The advice was correct
+by every ordinary measure. He refused it, and he refused hard.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">والذي نفس أبي بكر بيده لو ظننت أن السباعَ تَخْطفني لأنفذتُ بعثَ أسامةَ كما أمرَ به رسولُ الله ﷺ؛ ولو لم يبقَ في القرى غيري لأنفذته</span></p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۱۰</span> · <a href="https://shamela.ws/book/30097/3156">https://shamela.ws/book/30097/3156</a></p>
+<p class="tr"><em>English:</em> "By Him in whose hand is <span class="ar-i">أبو بكر</span>'s soul — if I thought the wild beasts would snatch me</p>
+<p>away, I would still send out <span class="ar-i">أسامة</span>'s expedition as the Messenger of Allah <span class="ar-i">ﷺ</span> ordered it. And if</p>
+<p>there were no one left in the settlements but me, I would still send it."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> There is a kind of steadiness that is not stubbornness: it is refusing to treat an
+emergency as permission.</p>
+<p><em>On the sources:</em> the connected narrative here runs through <span class="ar-i">سيف بن عمر</span>; the wording at <span class="ar-i">ج۷ ص۱۱</span> comes
+by a separate route. You do not need to say that on stage. You need to know it if a slip asks.</p>
+<h3>3 · The beard, and the man who would not be deposed</h3>
+<p>The column had reached <span class="ar-i">الجُرْف</span>, one march out. The <span class="ar-i">أنصار</span> in it sent <span class="ar-i">عمر ؓ</span> back with a second, much
+softer request — not "cancel the march", but "give us an older commander." <span class="ar-i">عمر ؓ</span> carried the
+message. <span class="ar-i">أبو بكر ؓ</span> had been sitting on the ground. He came up off it, took <span class="ar-i">عمر ؓ</span> by the beard, and
+answered in one sentence.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">ثَكِلَتْكَ أُمُّكَ يَا ابْنَ الْخَطَّابِ</span>! <span class="ar-i">اسْتَعْمَلَهُ رَسُولُ اللَّهِ</span> - <span class="ar-i">صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ</span> - <span class="ar-i">وَتَأْمُرُنِي أَنْ أَعْزِلَهُ؟</span>!</p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۱۹۵</span> · <a href="https://shamela.ws/book/21712/886">https://shamela.ws/book/21712/886</a></p>
+<p class="tr"><em>English:</em> "May your mother lose you, son of <span class="ar-i">الخطاب</span>! The Messenger of Allah <span class="ar-i">ﷺ</span> appointed him — and</p>
+<p>you order me to depose him?"</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> Authority that can be renegotiated the moment its author is gone was never authority.</p>
+<h3>4 · The caliph on foot</h3>
+<p>Then he walked the army out himself. Hold this picture for the room, because it is a picture and it
+needs no commentary: the caliph of the Muslims on foot in the dust; the eighteen-year-old commander
+in the saddle; <span class="ar-i">عبد الرحمن بن عوف ؓ</span> behind them leading the caliph's riding-beast, empty. <span class="ar-i">أسامة ؓ</span>
+could not bear it and offered to get down. He was refused.</p>
+<p>And at the end <span class="ar-i">أبو بكر ؓ</span> asked one favour — and asked it of <span class="ar-i">أسامة ؓ</span>, not of <span class="ar-i">عمر ؓ</span>, because <span class="ar-i">أسامة ؓ</span>
+was the commander and <span class="ar-i">عمر ؓ</span> was in his army: <em>would you release <span class="ar-i">عمر</span> to me?</em></p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فقال أسامةُ</span>: <span class="ar-i">يا خليفةَ رسولِ الله</span>: <span class="ar-i">إما أن تركبَ وإما أن أنزلَ، فقال</span>: <span class="ar-i">والله لستَ بنازلٍ ولستُ براكب</span></p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۱۱</span> · <a href="https://shamela.ws/book/30097/3157">https://shamela.ws/book/30097/3157</a></p>
+<p class="tr"><em>English:</em> "<span class="ar-i">أسامة</span> said: 'O successor of the Messenger of Allah, either you ride or I dismount.' He</p>
+<p>said: 'By Allah, you shall not dismount, and I shall not ride.'"</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> Rank is a place in an order, not a claim about who is the better man.</p>
+<h3>5 · Forty days, and what the tribes concluded</h3>
+<p>The column marched north through country that was ready to rise, and it did not fight its way
+through — it simply passed. And the men watching it pass drew the only conclusion available to them:
+nobody sends an army <em>away</em> unless he has more behind him. Forty days later — some say seventy — it
+came back whole and carrying spoil.</p>
+<p>On the map, watch what happens: the arrow goes out, strikes, comes back, and the ring of hostile
+clans around <span class="ar-i">المدینہ</span> <strong>thins</strong> instead of closing.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فجعل لا يمرُّ بقبيل يريدون الارتداد إلَّا قالوا</span>: <span class="ar-i">لولا أن لهؤلاء قوةً ما خرجَ مثلُ هؤلاء من عندهم</span></p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۱۱</span> · <a href="https://shamela.ws/book/30097/3157">https://shamela.ws/book/30097/3157</a></p>
+<p class="tr"><em>English:</em> "He passed no tribe intending to break away but they said: 'Were it not that these</p>
+<p>people have strength, men like these would not have gone out from among them.'"</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> What people believe about your strength does as much work as your strength does.</p>
+<p><em>What the sources disagree about, and you should know:</em> the blow the column struck is described
+differently in different books — a raid on <span class="ar-i">أُبنى</span> in the <span class="ar-i">البلقاء</span>, or on <span class="ar-i">قُضاعة</span> clans that had broken
+away, or a clash with Roman forces. The two books that comment on the <em>effect</em> — <span class="ar-i">البدایہ ج۷ ص۱۱</span> and
+<span class="ar-i">الکامل ج۲ ص۱۹۶</span> — agree on it. <span class="ar-i">سیر ج۲ ص۴۹۷</span> names the target and says nothing about the effect, so do
+not enlist it for that. The forty days puts the return in <span class="ar-i">جمادى</span>, but <strong>the month of the return is
+our arithmetic</strong>, not a dated report on any page we have read. Do not state it as a date.</p>
+<p><strong>Telling it:</strong> About five minutes. This is the easiest act to tell and the best place to settle
+your voice, so take it slowly and do not rush the first hands-up — let the guesses come, let them be
+wrong, then give the number. The two beats to pause on are the beard and the caliph walking; pause
+<em>after</em> the beard line, not before. If you are running long, card 3 can go — card 4 absorbs its
+point. <strong>What not to say:</strong> do not editorialise about <span class="ar-i">عمر ؓ</span> being wrong. He gave the advice any
+responsible man would give, and the story is far better if the room understands that the advice was
+<em>good</em> and was refused anyway.</p>
+<p><strong>If a slip asks — "why put an eighteen-year-old over <span class="ar-i">عمر ؓ</span>?"</strong> The page is open: the Prophet <span class="ar-i">ﷺ</span> was
+asked that in his own lifetime and answered it himself. Card 1's quotation is the answer, and it is
+about fitness, not age. <strong>If a slip asks whether <span class="ar-i">أبو بكر ؓ</span> and <span class="ar-i">عمر ؓ</span> quarrelled</strong> — this is one
+government making a decision, not a dispute between Companions, and the same <span class="ar-i">عمر ؓ</span> is the man he
+later names as his successor. Go no further. If the slip is really reaching toward the <span class="ar-i">مشاجرات</span>, use
+the deferral line from <code>QA_BANK.md</code> §0: it is handled with <span class="ar-i">اصول</span> in session 3, and you do not
+adjudicate from the floor.</p>
+<hr />
+<h2>ACT 2 · Arabia comes apart</h2>
+<p><em>11 AH</em></p>
+<h3>6 · The night raid on Medina</h3>
+<p>The delegation that had offered the prayer and refused the <span class="ar-i">زکاۃ</span> went home. On the way out, they
+counted the men in the city.</p>
+<p>Three days later the raiders came at night. Half of them stayed back at a valley called <span class="ar-i">ذو حُسى</span> as a
+reserve. <span class="ar-i">أبو بكر ؓ</span> came out with whoever was in the mosque, on the watering-camels, and drove the
+raiders off — and then pursued them straight into the reserve, which rolled inflated skins down at
+the Muslims' camels. The camels bolted and carried their riders all the way home.</p>
+<p>Flag this to the room <em>as</em> a surprise: the first engagement of the <span class="ar-i">ردة</span> war was a reverse, and the
+book records it without embarrassment.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فَخَرَجَ عَلَيْهِمُ الرِّدْءُ بِأَنْحَاءَ قَدْ نَفَخُوهَا</span> … <span class="ar-i">فَنَفَرَتْ إِبِلُ الْمُسْلِمِينَ وَهُمْ عَلَيْهَا، وَرَجَعَتْ بِهِمْ إِلَى الْمَدِينَةِ، وَلَمْ يُصْرَعْ مُسْلِمٌ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۰۲</span> · <a href="https://shamela.ws/book/21712/893">https://shamela.ws/book/21712/893</a></p>
+<p class="tr"><em>English:</em> "The reserve came out at them with skins they had inflated … The Muslims' camels bolted</p>
+<p>with them on their backs and carried them back to Medina — and not one Muslim was thrown."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The first engagement of the war was a setback, and the book records it without
+embarrassment.</p>
+<p><em>Map caution:</em> <span class="ar-i">ذو حُسى</span> is a valley in the country of <span class="ar-i">عبس</span> and <span class="ar-i">غطفان</span>. <strong>No page we have gives its
+distance from <span class="ar-i">المدینہ</span>, so do not name one.</strong></p>
+<h3>7 · The counter-attack before dawn</h3>
+<p>They thought the Muslims were finished. He spent that same night forming his men up — the three
+brothers of Muqarrin on the right, the left and the rear — and marched in the dark. At first light
+the two forces were standing on the same ground and the enemy had not heard them come. The swords
+were among them before the sun's rim showed. By sunrise they were running.</p>
+<p>He pursued, camped at <span class="ar-i">ذو القصّة</span>, left a detachment there under al-Nuʿmān b. Muqarrin <span class="ar-i">ؓ</span>, and went
+home.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فَمَا طَلَعَ الْفَجْرُ إِلَّا وَهُمْ وَالْعَدُوُّ عَلَى صَعِيدٍ وَاحِدٍ</span> … <span class="ar-i">فَمَا ذَرَّ قَرْنُ الشَّمْسِ حَتَّى وَلَّوْهُمُ الْأَدْبَارَ</span> … <span class="ar-i">وَكَانَ أَوَّلَ الْفَتْحِ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل ج۲ ص۲۰۳</span> · <a href="https://shamela.ws/book/21712/894">https://shamela.ws/book/21712/894</a></p>
+<p class="tr"><em>English:</em> "Dawn did not break until they and the enemy were on one ground … and the sun's rim had</p>
+<p>not risen before they turned their backs … and that was the first victory."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The recovery came out of the very night the reverse happened, spent preparing.</p>
+<blockquote>
+<p>🖐 <strong>[HANDS]</strong> Hands up — Medina is one town. How many armies would you send out at once?</p>
+</blockquote>
+<h3>8 · Eleven banners at <span class="ar-i">ذو القصّة</span></h3>
+<p><strong>This is the evening's biggest map moment. Do not spend it quickly.</strong></p>
+<p>He rode out a third time with his sword drawn, and ʿAlī <span class="ar-i">ؓ</span> walked at his camel's head. This time the
+Companions would not let him go on. He agreed — and then, on that ground, tied eleven banners, gave
+each commander his objective and his written orders, and went back to <span class="ar-i">المدینہ</span>. The eleven separated,
+each with his own troops joining him, and rode off in eleven directions from one spot of desert.</p>
+<p>On screen: one dot at <span class="ar-i">ذو القصّة</span>, one day out from <span class="ar-i">المدینہ</span>, and eleven arrows leaving it at once —
+north-east to <span class="ar-i">نجد</span>, east to <span class="ar-i">اليمامة</span>, north to <span class="ar-i">الشام</span> and to <span class="ar-i">قُضاعة</span>, south-east to <span class="ar-i">البحرين</span>, far east to
+<span class="ar-i">عمان</span>, south-east to <span class="ar-i">مَهْرة</span>, south to <span class="ar-i">اليمن</span> and to <span class="ar-i">تِهامة</span>, south to <span class="ar-i">حضرموت</span>. They go up as outlines
+and fill in one by one across the rest of the evening. Count them out loud with the room.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فَفَصَلَتِ الْأُمَرَاءُ مِنْ ذِي الْقَصَّةِ، وَلَحِقَ بِكُلِّ أَمِيرٍ جُنْدُهُ، وَعَهِدَ إِلَى كُلِّ أَمِيرٍ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل ج۲ ص۲۰۴</span> · <a href="https://shamela.ws/book/21712/895">https://shamela.ws/book/21712/895</a></p>
+<p class="tr"><em>English:</em> "The commanders separated from Dhū al-Qaṣṣa, and each commander's troops joined him, and</p>
+<p>he gave each commander his commission."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The whole war was set moving from one camp, in one sitting, by a man who had just been
+told to go home.</p>
+<p>⚠ <strong>Know this before you go on stage.</strong> Ibn Kathīr <span class="ar-i">رحمہ اللہ</span> announces eleven and prints ten;
+<strong><span class="ar-i">الکامل</span> prints all eleven.</strong> If a listener has counted ten in another book, that is why. And <strong>do
+not name the ninth commander</strong> — three sources give three forms of the name.</p>
+<h3>9 · The letter that went ahead of the armies</h3>
+<p>Before the armies came, the letters came. One wording, copied out many times, carried by messengers
+who rode ahead of the columns, and read aloud in every assembly of the tribe.</p>
+<p>The thing worth stopping on is what the letter contains: a single test that any man could apply from
+a distance, with no lawyer and no court. Call the adhān when you halt. If they answer it, stop. If
+they do not, ask them what they owe.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">وقد أمرتُ رسولي أن يقرأ كتابه في كلِّ مَجْمعٍ لكم، والداعية الأذان، فإذا إذَّنَ المسلمون فأذنوا فكُفُّوا عنهم، وإن لم يُؤَذِّنوا فسلوهم ما عليهم</span>.</p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۲۴</span> · <a href="https://shamela.ws/book/30097/3170">https://shamela.ws/book/30097/3170</a></p>
+<p class="tr"><em>English:</em> "I have ordered my messenger to read his letter in every assembly of yours. The summons</p>
+<p>is the adhān: when the Muslims call it and they call it too, hold off from them; and if they do not</p>
+<p>call it, ask them what they owe."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The test was something the other side could pass, and passing it stopped the war where
+they stood.</p>
+<p>⚠ <strong>The same letter contains a harsh clause. Do not quote it and do not deny it.</strong> If a slip raises
+it: it is on that page, transmitted by <span class="ar-i">سيف بن عمر</span>; the operative test on the same page is the adhān;
+and the question of the clause is for the fuqahāʾ, not for you. That is logged in <code>QA_BANK.md</code>.</p>
+<h3>10 · <span class="ar-i">بُزاخة</span> — the man who walked off the field</h3>
+<p>Ṭulayḥa sat wrapped in a cloak, waiting for revelation, while ʿUyayna b. Ḥiṣn did the fighting with
+seven hundred men of Fazāra. Nearby, Banū ʿĀmir sat armed and watched to see which way it would go.
+Three times ʿUyayna broke off the fighting, walked back to the cloak, and asked whether Jibrīl had
+come. Twice the answer was no. The third time it was yes — and then Ṭulayḥa told him what had been
+said.</p>
+<p>Let the room hear the revelation before you comment on it. It is a mill, and a matter you will not
+forget. It says nothing. That is the point.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">قَالَ لِي</span>: <span class="ar-i">إِنَّ لَكَ رَحًا كَرَحَاهُ، وَحَدِيثًا لَا تَنْسَاهُ</span>. <span class="ar-i">فَقَالَ عُيَيْنَةُ</span>: <span class="ar-i">قَدْ عَلِمَ اللَّهُ أَنَّهُ سَيَكُونُ حَدِيثٌ لَا تَنْسَاهُ، انْصَرِفُوا يَا بَنِي فَزَارَةَ فَإِنَّهُ كَذَّابٌ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۰۵</span> · <a href="https://shamela.ws/book/21712/896">https://shamela.ws/book/21712/896</a></p>
+<p class="tr"><em>English:</em> "He said to me: you have a mill like his mill, and a matter you will not forget. ʿUyayna</p>
+<p>said: Allah knows there will be a matter you will not forget. Withdraw, Banū Fazāra — the man is a</p>
+<p>liar."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The claim collapsed the moment somebody asked it for something specific.</p>
+<p><strong>Ṭulayḥa's own exit is on the same page</strong> and it is worth having: he had a horse ready and a mount
+for his wife, got away with her, and called back over his shoulder — «<span class="ar-i">يَا مَعْشَرَ فَزَارَةَ، مَنِ
+اسْتَطَاعَ أَنْ يَفْعَلَ هَكَذَا وَيَنْجُوَ بِامْرَأَتِهِ فَلْيَفْعَلْ</span>» — <em>"whoever can do this and
+get away with his wife, let him do it."</em> On the map a thin red line then runs from <span class="ar-i">بُزاخة</span>
+north-west, all the way to <span class="ar-i">الشام</span>.</p>
+<h3>11 · The terms at Medina, and <span class="ar-i">عمر ؓ</span>'s objection</h3>
+<p>The delegation of <span class="ar-i">بُزاخة</span> came to <span class="ar-i">المدینہ</span> asking for terms. <span class="ar-i">أبو بكر ؓ</span> gave them a choice of two and
+named them: a war of expulsion, or a humbling settlement. They said they knew what war meant — what
+was the settlement? He listed it. Weapons and horses surrendered. Compensation for what you took
+from us, and none for what we took from you. You testify that our dead are in the Garden and yours
+in the Fire. And you pay blood-money for our dead, and we pay none for yours.</p>
+<p>And then <span class="ar-i">عمر ؓ</span> interrupted him — in public, in front of the men the terms applied to — and struck
+one clause out.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فَقَالَ عمر</span>: <span class="ar-i">أما قولك</span>: <span class="ar-i">تدون قتلانا، فإنّ قتلانا قتلوا على أمر الله لا ديات لهم</span> … <span class="ar-i">وقال عمر في الثاني</span>: <span class="ar-i">نعم ما رأيت</span>.</p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۲۷</span> · <a href="https://shamela.ws/book/30097/3173">https://shamela.ws/book/30097/3173</a> — <strong><span class="ar-i">صحيح البخاري ٧٢٢١</span></strong></p>
+<p class="tr"><em>English:</em> "ʿUmar said: as for your saying 'and you pay blood-money for our dead' — our dead were</p>
+<p>killed upon the command of Allah; there is no blood-money for them … And ʿUmar said of the rest:</p>
+<p>excellent is what you have judged."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The terms were read out in front of the men they applied to, and one clause of them was
+struck out in public.</p>
+<p>Two additions, both on the page and both useful. Ibn Masʿūd <span class="ar-i">ؓ</span> defines the first option — «<span class="ar-i">وَأَمَّا
+الْحَرْبُ الْمُجْلِيَةُ فَأَنْ يُخْرَجُوا مِنْ دِيَارِهِمْ</span>» (<span class="ar-i">الکامل ج۲ ص۲۰۱</span>). And <strong>no captives were
+taken at <span class="ar-i">بُزاخة</span></strong>: «<span class="ar-i">وَلَمْ يُؤْخَذْ مِنْهُمْ سَبْيٌ</span> … <span class="ar-i">فَآمَنَهُمْ</span>» (<span class="ar-i">الکامل ج۲ ص۲۰۶</span>). Say the second
+one. The room will assume captives were taken; the page says they were not, and there is no captives
+marker on the map.</p>
+<p><strong>Telling it:</strong> About five minutes, and this act has the most moving parts — so hold the running
+order in your head rather than the detail: <em>raid → reverse → night march → victory → eleven banners
+→ letters → <span class="ar-i">بُزاخة</span> → terms.</em> Seven beats. The second hands-up sits between beat four and beat five
+and does real work: let them guess two, or three, then put eleven arrows on the screen. If you are
+running long, tell card 6's reverse in two sentences and drop the Banū ʿĀmir detail from card 10;
+<strong>card 8 must not be shortened.</strong> <strong>What not to say:</strong> do not call the <span class="ar-i">ردة</span> a rebellion of hypocrites
+or characterise the tribes' motives beyond what the pages say, and do not let the word "apostasy" do
+more work than the letter does — the letter's own test is the adhān.</p>
+<p><strong>If a slip asks — "were these wars fought against Muslims?"</strong> Open the page rather than argue. The
+letter sets a low test: call the adhān; if they call it back, hold off. Those who called it were
+left alone. Beyond that, whether a given group was inside or outside Islam is a question for the
+fuqahāʾ — and the honest answer, which is also the disarming one, is that you are reading a book and
+telling the room what is in it. That is line 3 in <code>QA_BANK.md</code> §0, and it is true.</p>
+<hr />
+<h2>ACT 3 · <span class="ar-i">اليمامة</span></h2>
+<p><em>11–12 AH · the hardest day of the war</em></p>
+<h3>12 · The tent and the prisoner — <span class="ar-i">عَقْرَباء</span></h3>
+<p>Musaylima had about forty thousand fighting men. He camped at <span class="ar-i">عَقْرَباء</span> with the farmland and the
+families behind his back — which meant no man in his line could retreat without running through his
+own household. Say that plainly and let the room work out what it does to a battle.</p>
+<p>The night before, <span class="ar-i">خالد ؓ</span>'s vanguard picked up a raiding party coming home. He executed them and kept
+one man alive, because someone in the party told him to: <em>if you mean anything at all for the people
+of <span class="ar-i">اليمامة</span> tomorrow, keep this one.</em> The man was Mujjāʿa b. Murāra, and he was put in irons in the
+tent with <span class="ar-i">خالد ؓ</span>'s wife, with an instruction to treat him well.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">أيها الرجل إن كنتَ تريد بأهل اليمامة غدًا خيرًا أو شرًا فاستبق هذا الرجل</span> … <span class="ar-i">فاستبقاه خالد مقيدًا، وجعله في الخيمة مع امرأته، وقال</span>: <span class="ar-i">استوصي به خيرًا</span>.</p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۳۳</span> · <a href="https://shamela.ws/book/30097/3179">https://shamela.ws/book/30097/3179</a></p>
+<p class="tr"><em>English:</em> "Man — if you intend anything tomorrow for the people of Yamāma, good or ill, keep this</p>
+<p>man alive … So Khālid kept him, in irons, and put him in the tent with his wife, and said: treat</p>
+<p>him well."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> He kept one prisoner alive on a stranger's advice, and that decision settled the end of
+the battle before it started.</p>
+<h3>13 · Thābit b. Qays <span class="ar-i">ؓ</span> puts on his shroud</h3>
+<p>Hold the map still for this one. Nothing moves; you are standing on one patch of ground at <span class="ar-i">عَقْرَباء</span>
+while the Muslim line goes backwards.</p>
+<p>Anas <span class="ar-i">ؓ</span> came to Thābit b. Qays <span class="ar-i">ؓ</span> and found him rubbing himself with burial perfume. He had put on two
+white garments — the ones he was buried in. Anas <span class="ar-i">ؓ</span> said: do you not see what is happening? He said:
+in a moment, nephew. Then he walked forward past the men who were falling back, told them to get out
+of his way, and said the thing that everyone in that generation would have understood instantly.
+Then he took the <span class="ar-i">أنصار</span>'s banner, dug his feet into the ground to the middle of his shins, and did
+not move from there until he was killed.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">هَكَذَا عَنْ وُجُوْهِنَا نُقَارِعُ القَوْمَ، بِئْسَ مَا عَوَّدْتُم أَقْرَانَكُم، مَا هَكَذَا كُنَّا نُقَاتِلُ مَعَ رَسُوْلِ اللهِ ﷺ</span>.</p>
+<p class="cite">— <span class="ar-i">سیر أعلام النبلاء ج۱ ص۳۱۱</span> · <a href="https://shamela.ws/book/10906/1737">https://shamela.ws/book/10906/1737</a> — <strong><span class="ar-i">صحيح البخاري ٢٨٤٥</span></strong></p>
+<p class="tr"><em>English:</em> "Get out of our faces so we can strike the enemy. Wretched is what you have accustomed</p>
+<p>your opponents to! This is not how we used to fight alongside the Messenger of Allah <span class="ar-i">ﷺ</span>."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> He did not tell them what to do; he told them what they had already been.</p>
+<p><strong>In the same minutes, on the same field</strong> — all four verbatim from <span class="ar-i">البدایہ ج۷ ص۳۴</span> except the last,
+which is <span class="ar-i">ج۷ ص۳۳</span>. Use one or two, not all four; they are there so you have a choice.</p>
+<ul>
+<li>The <span class="ar-i">مهاجرون</span> asked Sālim <span class="ar-i">ؓ</span>, the freedman of Abū Ḥudhayfa <span class="ar-i">ؓ</span>, whether he feared the line would break from
+his side — «<strong><span class="ar-i">بئس حامل القرآن أنا إذًا</span></strong>».</li>
+<li>Zayd b. al-Khaṭṭāb <span class="ar-i">ؓ</span> — «<strong><span class="ar-i">والله لا أتكلَّمُ حتى يهزمهم اللهُ أو ألقىَ اللهَ فأكلِّمه بحجَّتي</span></strong>».</li>
+<li>Abū Ḥudhayfa <span class="ar-i">ؓ</span> — «<strong><span class="ar-i">يا أهلَ القرآنِ زيِّنوا القرآنَ بالفِعال</span></strong>».</li>
+<li>The whole army calling to each other — «<strong><span class="ar-i">يا أصحاب سورةِ البقرةِ، بَطلَ السِّحْرُ اليوم</span></strong>».</li>
+</ul>
+<p><strong>Sālim <span class="ar-i">ؓ</span> is the man the Prophet <span class="ar-i">ﷺ</span> went out at night to listen to</strong> — <span class="ar-i">سیر ج۱ ص۱۶۸</span>. That one line is
+worth more than any adjective you could add.</p>
+<h3>14 · <span class="ar-i">حديقة الموت</span> — al-Barāʾ <span class="ar-i">ؓ</span> over the wall</h3>
+<p>When Banū Ḥanīfa broke, one of their commanders called them into a walled garden and shut the gate
+behind them. Thousands inside, a solid wall, one gate.</p>
+<p>al-Barāʾ b. Mālik <span class="ar-i">ؓ</span> — the brother of Anas <span class="ar-i">ؓ</span> — told the Muslims to throw him over it. They refused.
+He made them do it. They lifted him on a shield raised on spear-shafts until he topped the wall, and
+he went down among them alone, fought his way to the gate, and opened it.</p>
+<p>On screen the gate is drawn shut. Then it opens <strong>from the inside</strong>.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">يَا مَعْشَرَ الْمُسْلِمِينَ، أَلْقُونِي عَلَيْهِمْ فِي الْحَدِيقَةِ</span>. <span class="ar-i">فَقَالُوا</span>: <span class="ar-i">لَا نَفْعَلُ، فَقَالَ</span>: <span class="ar-i">وَاللَّهِ لَتَطْرَحُنَّنِي عَلَيْهِمْ بِهَا</span>! … <span class="ar-i">وَقَاتَلَ عَلَى الْبَابِ وَفَتَحَهُ لِلْمُسْلِمِينَ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۱۸</span> · <a href="https://shamela.ws/book/21712/909">https://shamela.ws/book/21712/909</a></p>
+<p class="tr"><em>English:</em> "Company of Muslims — throw me over onto them into the garden. They said: we will not.</p>
+<p>He said: By Allah, you will throw me onto them in it! … And he fought at the gate and opened it for</p>
+<p>the Muslims."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> One man asked to be thrown where nobody could follow him, and the whole army came in
+behind him through the gate he opened.</p>
+<p><strong>What it cost him</strong> — <span class="ar-i">سیر ج۱ ص۱۹۶</span>: «<span class="ar-i">فَجُرِحَ يَوْمَئِذٍ</span> <strong><span class="ar-i">بِضْعَةً وَثَمَانِيْنَ جُرْحاً</span></strong><span class="ar-i">،
+وَلِذَلِكَ أَقَامَ خَالِدُ بنُ الوَلِيْدِ عَلَيْهِ شَهْراً يُدَاوِي جِرَاحَهُ</span>» — <em>some eighty-odd
+wounds, and <span class="ar-i">خالد ؓ</span> stayed a month over him treating them.</em> ⚠ <strong>He survived. Do not say he died
+there.</strong> Ibn Khaldūn <span class="ar-i">رحمہ اللہ</span> appears to list him among the killed; <span class="ar-i">سیر</span> contradicts it, and <span class="ar-i">سیر</span> is
+the page we are standing on.</p>
+<h3>15 · The death of Musaylima, and what Waḥshī <span class="ar-i">ؓ</span> said afterwards</h3>
+<p>They got through to him standing in a gap in the wall. Waḥshī b. Ḥarb <span class="ar-i">ؓ</span> — the man who had killed
+Ḥamza <span class="ar-i">ؓ</span> at Uḥud, before he was a Muslim — threw his javelin and it went through him and out the
+other side; a second man struck him with a sword and he fell. A woman cried out from the fort above.</p>
+<p>And afterwards, when Waḥshī <span class="ar-i">ؓ</span> was asked about that battle, what he said was not about himself.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">وَعَنْ وَحْشِيٍّ، قَالَ</span>: <span class="ar-i">لَمْ أَرَ قَطُّ أَصْبَرَ عَلَى الْمَوْتِ مِنْ أَصْحَابِ مُسَيْلِمَةَ، ثُمَّ ذَكَرَ أَنَّهُ شَارَكَ فِي قَتْلِ مُسَيْلِمَةَ</span>.</p>
+<p class="cite">— <span class="ar-i">سیر أعلام النبلاء</span> (<span class="ar-i">سير الخلفاء الراشدين</span>) <span class="ar-i">ص۴۸</span> · <a href="https://shamela.ws/book/10906/1196">https://shamela.ws/book/10906/1196</a></p>
+<p class="tr"><em>English:</em> "From Waḥshī: I never saw men more steadfast in the face of death than Musaylima's</p>
+<p>companions — then he mentioned that he had a share in killing Musaylima."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The man who killed their leader is the one the book quotes praising their courage.</p>
+<p>⚠ <strong>Sources differ on the second man.</strong> <span class="ar-i">البدایہ ج۷ ص۳۴</span> names Abū Dujāna <span class="ar-i">ؓ</span>; <span class="ar-i">الکامل ج۲ ص۲۱۸</span> says only
+"a man of the <span class="ar-i">أنصار</span>". <strong>Say "a second man came up."</strong> ⚠ And <strong>do not use the anonymous saying on the
+same <span class="ar-i">سیر</span> page about the best and the worst of the people of the earth</strong> — it makes a ranking claim
+the room will want to argue with, and you gain nothing. <span class="ar-i">البدایہ</span>'s plain apposition is better and
+safer: <em>Waḥshī b. Ḥarb <span class="ar-i">ؓ</span>, who had killed Ḥamza <span class="ar-i">ؓ</span>.</em></p>
+<p><strong><span class="ar-i">خالد ؓ</span> walking the dead with the prisoner</strong> — <span class="ar-i">البدایہ ج۷ ص۳۵</span> — is the natural close of the act if
+you want one. He was shown a body and asked, is this him? «<strong><span class="ar-i">لا، والله هذا خيرٌ منه</span></strong>». Then they
+came to a small sallow man, and <span class="ar-i">خالد ؓ</span> said: «<strong><span class="ar-i">قبَّحكم الله على اتّباعكم هذا</span></strong>» — <em>"May Allah
+disfigure you for following this."</em></p>
+<p><strong>Telling it:</strong> About five minutes, and it is the emotional centre of the first half. Slow right
+down. The act has no map movement in its middle, deliberately — you are standing still on one field,
+and the pace should feel different from acts 1 and 2. Three beats: the prisoner, Thābit <span class="ar-i">ؓ</span>'s shroud,
+the wall. Take a real pause after «<span class="ar-i">مَا هَكَذَا كُنَّا نُقَاتِلُ مَعَ رَسُوْلِ اللهِ ﷺ</span>» — three full
+seconds, count them. If you are short, cut the four extra sayings under card 13 to one and cut <span class="ar-i">خالد
+ؓ</span> walking the dead. <strong>What not to say:</strong> do not describe the killing, and do not dwell on numbers
+here — they come in the next act, where they are the point. And do not let Musaylima become a joke;
+the sources make the men who followed him serious opponents, and Waḥshī <span class="ar-i">ؓ</span>'s words are there
+precisely to stop the room laughing at them.</p>
+<p><strong>If a slip asks — "how can a man who killed Ḥamza <span class="ar-i">ؓ</span> be given <span class="ar-i">ؓ</span>?"</strong> He accepted Islam. The books
+name him with the honorific and quote him with respect, and the quotation the deck uses is him
+praising the courage of the men he had just fought. That is the whole answer, and the page carries
+it.</p>
+<hr />
+<h2>ACT 4 · What <span class="ar-i">اليمامة</span> cost, and what it produced</h2>
+<p><em>12 AH</em></p>
+<h3>16 · The killing ran hot among the reciters</h3>
+<p>At <span class="ar-i">اليمامة</span> the <span class="ar-i">ردة</span> was broken and Musaylima was killed. Then Ibn Kathīr <span class="ar-i">رحمہ اللہ</span> stops the
+narrative and counts the cost — which is unusual, and worth telling the room <em>as</em> unusual. The dead
+in the garden and in the battle at close to ten thousand, though he adds that some say twenty-one
+thousand. The Muslim dead at six hundred, or five hundred. And then he writes <em>and Allah knows
+best</em>.</p>
+<p>Among the fallen were men who carried the Qur'an in their memories. His phrase for it is <strong><span class="ar-i">استحرَّ
+القتل في القرّاء</span></strong> — the killing <em>ran hot</em> among the reciters. The editor glosses <span class="ar-i">استحرَّ</span> as <span class="ar-i">اشتدَّ</span>,
+grew fierce.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">وقتل من المسلمين ستمئة، وقيل</span>: <span class="ar-i">خمسمئة، فالله أعلم، وفيهم من سادات الصحابة، وأعيان الناس من يُذكر بعد</span></p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۳۵</span> · <a href="https://shamela.ws/book/30097/3181">https://shamela.ws/book/30097/3181</a></p>
+<p class="tr"><em>English:</em> "Six hundred of the Muslims were killed — and it is said five hundred — and Allah knows</p>
+<p>best. Among them were leaders of the Companions and men of standing, who will be named later."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> A generation can carry something priceless and never notice how thin the carrying is until
+some of it is dropped.</p>
+<p><em>Dates:</em> Ibn Kathīr <span class="ar-i">رحمہ اللہ</span> has <span class="ar-i">اليمامة</span> begun in <span class="ar-i">۱۱ھ</span> and finished in <span class="ar-i">۱۲ھ</span>, with «<span class="ar-i">المشهور</span>» at <span class="ar-i">ربيع
+۱۲ھ</span>; Ibn al-Athīr <span class="ar-i">رحمہ اللہ</span> places it in <span class="ar-i">۱۱ھ</span>. Say the span, not a single month. ⚠ <strong>Never put a
+number of <span class="ar-i">قرّاء</span> on the slide or in the room — none of our sources gives one.</strong></p>
+<h3>17 · "How can we do a thing the Messenger of Allah <span class="ar-i">ﷺ</span> did not do?"</h3>
+<p>This is the still point of the evening. No map, no movement, <span class="ar-i">المدینہ</span> only.</p>
+<p>After <span class="ar-i">اليمامة</span>, <span class="ar-i">أبو بكر ؓ</span> sent for <span class="ar-i">زيد بن</span> Thābit <span class="ar-i">ؓ</span>. Introduce him here, in one breath, because the
+room needs to know why him: a young man of <span class="ar-i">بنو النجار</span>, eleven years old when the Prophet <span class="ar-i">ﷺ</span> arrived
+in <span class="ar-i">المدینہ</span>, who had memorised seventeen <span class="ar-i">سور</span> before he was introduced, who learned the Jews' script
+in a fortnight because the Prophet <span class="ar-i">ﷺ</span> asked him to, and who had written the revelation down as it
+came.</p>
+<p><span class="ar-i">أبو بكر ؓ</span> told him to go and find the whole Qur'an and gather it. And <span class="ar-i">زيد ؓ</span> balked — and his
+objection is the most serious objection there is, which is exactly why the room should hear it in
+his own words rather than yours.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فَقُلْتُ</span>: <span class="ar-i">كَيْفَ تَفْعَلُوْنَ شَيْئاً لَمْ يَفْعَلْهُ رَسُوْلُ اللهِ</span> -<span class="ar-i">صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ</span>-. <span class="ar-i">قَالَ</span>: <span class="ar-i">هُوَ</span> -<span class="ar-i">وَاللهِ</span>- <span class="ar-i">خَيْرٌ</span>. <span class="ar-i">فَلَمْ يَزَلْ أَبُو بَكْرٍ يُرَاجِعُنِي حَتَّى شَرَحَ اللهُ صَدْرِي لِلَّذِي شَرَحَ لَهُ صَدْرَ أَبِي بَكْرٍ وَعُمَر</span></p>
+<p class="cite">— <span class="ar-i">سیر أعلام النبلاء ج۲ ص۴۳۱</span> · <a href="https://shamela.ws/book/10906/2411">https://shamela.ws/book/10906/2411</a></p>
+<p class="tr"><em>English:</em> "I said: 'How will you do a thing the Messenger of Allah <span class="ar-i">ﷺ</span> did not do?' He said: 'By</p>
+<p>Allah, it is good.' And <span class="ar-i">أبو بكر</span> did not stop coming back to me until Allah opened my breast to</p>
+<p>that to which He had opened the breasts of <span class="ar-i">أبو بكر</span> and <span class="ar-i">عمر</span>."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The men closest to the Prophet <span class="ar-i">ﷺ</span> were the most afraid of adding to what he <span class="ar-i">ﷺ</span> left — which
+is exactly why what they did add can be trusted.</p>
+<h3>18 · Parchment, shoulder-blades, palm-stalks, and the breasts of men</h3>
+<p>There was no volume to copy from. That is the sentence the room will not have understood before
+tonight. <span class="ar-i">زيد ؓ</span> had to track it down — his own verb is <strong><span class="ar-i">تتبَّع</span></strong>, to follow a thing up piece by
+piece — and gather it off whatever the Companions had written it on: strips of parchment, the flat
+shoulder-blades of animals, the bare stalks of palm branches, thin white stones, and out of the
+memories of the men who had it by heart. Then it was one set of <span class="ar-i">صحف</span>, in one place, for the first
+time.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فَكُنْتُ أَتَتَبَّعُ القُرْآنَ، أَجْمَعُهُ مِنَ الرِّقَاعِ، وَالأَكْتَافِ، وَالعُسُبِ، وَصُدُوْرِ الرِّجَالِ</span>.</p>
+<p class="cite">— <span class="ar-i">سیر أعلام النبلاء ج۲ ص۴۳۱</span> · <a href="https://shamela.ws/book/10906/2411">https://shamela.ws/book/10906/2411</a></p>
+<p class="tr"><em>English:</em> "So I began to track down the Qur'an, gathering it from the parchments, the</p>
+<p>shoulder-blades, the palm-stalks, and the breasts of men."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> Preservation is not one heroic act; it is somebody doing a careful, unglamorous job
+properly.</p>
+<p><em>A small source note worth having:</em> Ibn Kathīr <span class="ar-i">رحمہ اللہ</span> at <span class="ar-i">البدایہ ج۷ ص۷۹</span> names <strong><span class="ar-i">اللِّخاف</span></strong> — the
+thin white stones — where <span class="ar-i">الذہبی رحمہ اللہ</span> names <strong><span class="ar-i">الرقاع</span></strong>. If you want both, say so and cite both.
+Do not silently merge them.</p>
+<p><strong>Telling it:</strong> About four minutes, and this is the act to protect at all costs — if the evening
+runs badly late you cut from acts 6 and 7, never from here. The rhythm is a cost, then a
+consequence. Do not join them with a lesson; let the room join them. The one piece of stagecraft in
+the whole evening sits at the end of card 18: say the four things once, slowly, then ask the room to
+say them back. Parchment. Shoulder-blades. Palm-stalks. The breasts of men. That is the line people
+repeat in the car. <strong>What not to say:</strong> do not say or imply the Qur'an was at risk of being lost, do
+not put a number on the <span class="ar-i">قرّاء</span> who died, and do not stray toward <span class="ar-i">عثمان ؓ</span>'s later copies — that
+belongs to a later session, and mixing them is how rooms get confused.</p>
+<p><strong>If a slip asks — "so the Qur'an was collected after the Prophet <span class="ar-i">ﷺ</span>?"</strong> The page is open and it
+answers itself. <span class="ar-i">زيد ؓ</span> raised exactly that objection first, and raised it as an objection. <span class="ar-i">أبو بكر ؓ</span>
+did not overrule him with authority; he kept coming back to him until <span class="ar-i">زيد ؓ</span> was convinced. What was
+gathered was what the Companions already had written and memorised, checked and put in one place.
+Read the two quotations and stop there. Do not go into methodology, and do not answer a question
+about the ʿUthmānic copies tonight — say warmly that it belongs to a later session.</p>
+<hr />
+<h2>ACT 5 · Arabia whole again</h2>
+<p><em>12 AH</em></p>
+<h3>19 · <span class="ar-i">دارين</span> — into the water</h3>
+<p>The beaten took ship for <strong><span class="ar-i">دارين</span></strong>, an anchorage a day and a night out from the <span class="ar-i">البحرين</span> shore. This
+looks like an escape, and the room will assume it was.</p>
+<p>al-ʿAlāʾ <span class="ar-i">ؓ</span> did not chase them straight away. He first wrote to the Muslims of Bakr b. Wāʾil to sit
+on every road and close the land behind him. Only then did he bring his men to the water's edge —
+where ships would have been too slow — and tell them what he intended.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">قَدْ أَرَاكُمُ اللَّهُ مِنْ آيَاتِهِ فِي الْبَرِّ لِتَعْتَبِرُوا بِهَا فِي الْبَحْرِ، فَانْهَضُوا إِلَى عَدُوِّكُمْ وَاسْتَعْرِضُوا الْبَحْرَ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۲۴</span> · <a href="https://shamela.ws/book/21712/915">https://shamela.ws/book/21712/915</a></p>
+<p class="tr"><em>English:</em> "Allah has shown you of His signs on land so that you may take heed of them at sea. Rise</p>
+<p>against your enemy, and go straight across the sea."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> He closed the roads behind the enemy before he opened one in front of himself.</p>
+<p><strong>Both books describe the crossing the same way</strong> — «<span class="ar-i">يمشون على مثل رملةٍ دمثةٍ فوقها ماء لا يغمر
+أخفاف الإبل</span>» (<span class="ar-i">البدایہ ج۷ ص۴۰</span>) — out and back in a single day, with nothing lost in the water except
+one man's horse-fodder, which al-ʿAlāʾ <span class="ar-i">ؓ</span> went back and brought him. <span class="ar-i">البدایہ ج۷ ص۴۰</span> prints the duʿāʾ
+they said going in. And afterwards: «<strong><span class="ar-i">وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ</span></strong>» (<span class="ar-i">الکامل ج۲ ص۲۲۴</span>).</p>
+<h3>20 · What Ibn Kathīr <span class="ar-i">رحمہ اللہ</span> says the whole war was</h3>
+<p>When he finishes the whole account, Ibn Kathīr <span class="ar-i">رحمہ اللہ</span> stops and sums it up himself — and his
+summary is not the one the room is expecting. He does not describe a conquest. He says there was no
+region of Arabia in which some people did not turn, and that <span class="ar-i">أبو بكر ؓ</span> sent armies and commanders
+<strong>to be a support to whichever believers were already in that region</strong>. The fifth of the spoils came
+back to <span class="ar-i">المدینہ</span> and was spent among the people. And it went on that way until there was nobody left
+in the peninsula except people in obedience and people under a covenant of protection — like the
+people of <span class="ar-i">نجران</span>, who had sent a delegation to renew theirs while Muslim tribes were breaking theirs.</p>
+<p>Let the author have the last word on his own material. Read it as his verdict, not yours.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">ما من ناحية من جزيرة العرب إلا وحصلَ في أهلها ردَّةٌ لبعض الناس، فبعثَ الصدِّيقُ إليهم جيوشًا وأمراء يكونون عونًا لمن في تلك الناحية من المؤمنين</span> … <span class="ar-i">ولم يزل الأمر كذلك حتى لم يبق بجزيرة العرب إلَّا أهل طاعة للّه ولرسوله، وأهل ذمة من الصديق، كأهل نجران وما جرى مجراهم ولله الحمد</span>.</p>
+<p class="ar" dir="rtl"><span class="ar-i">وعامة ما وقع من هذه الحروب كان في أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة</span>.</p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۴۳</span> · <a href="https://shamela.ws/book/30097/3189">https://shamela.ws/book/30097/3189</a></p>
+<p class="tr"><em>English:</em> "There was no region of the Arabian peninsula in which apostasy did not occur among some</p>
+<p>of its people; so al-Ṣiddīq sent them armies and commanders to be a support to whichever believers</p>
+<p>were in that region … And matters continued so until there remained in the peninsula none but</p>
+<p>people obedient to Allah and His Messenger, and people under al-Ṣiddīq's protection, such as the</p>
+<p>people of Najrān. The general run of these wars was in the last part of the year 11 and the first</p>
+<p>part of the year 12."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The armies were sent to hold up people who were already standing, and the whole thing was
+over in a little more than a year.</p>
+<h3>21 · ⭐ The call does not add numbers; it removes rivalry</h3>
+<p>Ask the question before you answer it, because everyone in the room is already holding it: a
+peninsula that has just fragmented is moving against two empires within two years. How?</p>
+<p>Ibn Khaldūn <span class="ar-i">رحمہ اللہ</span>'s answer does not multiply anyone's numbers. He says a religious call takes
+away the rivalry and the mutual envy that exist among people bound by kin, and points them all one
+way. Once that happens nothing stands in front of them — because the direction is one, the object is
+equal in every eye, and they will die for it. He names the conquests as his own example.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">والسّبب في ذلك</span> … <span class="ar-i">أنّ الصّبغة الدّينيّة تذهب بالتنافس والتّحاسد الّذي في أهل العصبيّة وتفرد الوجهة</span></p>
+<p class="ar" dir="rtl"><span class="ar-i">إلى الحقّ فإذا حصل لهم الاستبصار في أمرهم لم يقف لهم شيء لأنّ الوجهة واحدة والمطلوب متساو عندهم</span></p>
+<p class="ar" dir="rtl"><span class="ar-i">وهم مستميتون عليه</span></p>
+<p class="cite">— <span class="ar-i">تاریخ ابن خلدون ج۱ ص۱۹۸</span> · <a href="https://shamela.ws/book/12320/196">https://shamela.ws/book/12320/196</a></p>
+<p class="tr"><em>English:</em> "The reason for it … is that the religious colouring takes away the rivalry and mutual</p>
+<p>envy that are in people of <span class="ar-i">عصبية</span>, and makes their direction single, towards the truth. Then, once</p>
+<p>clear sight in their affair is theirs, nothing stands in their way — because the direction is one,</p>
+<p>the object is equal in all their eyes, and they will die for it."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> What changed in Arabia was not how many men there were, but which way they were all
+facing.</p>
+<p>⚠ <strong>Say his name, and say "as he reads it".</strong> Ibn Khaldūn <span class="ar-i">رحمہ اللہ</span> never wrote this about the <span class="ar-i">ردة</span>.
+Joining his chapter to the year eleven is our doing, and the slide must show that it is. This is the
+one place tonight where you are offering an interpretation rather than a report, and the room must
+be able to hear the difference.</p>
+<blockquote>
+<p>✍ <strong>[WORKSHEET — 90 seconds, silent]</strong> Mark three places on the blank map. Write the years into</p>
+<p>three of the six timeline boxes. <strong>Say nothing while they write.</strong></p>
+</blockquote>
+<p><strong>Telling it:</strong> About three minutes for the two narrative cards, then card 21 as the hinge into the
+break. Then the worksheet, and the hardest instruction of the night: <em>stop talking.</em> Ninety seconds
+of silence feels like five minutes on stage. Do not fill it, do not explain the worksheet twice, do
+not walk about. Stand still, let them write, watch the clock — that silence is what makes the second
+half feel like a fresh start. If you are running long, tell <span class="ar-i">دارين</span> in three sentences: roads closed,
+water crossed, back the same day. But <strong>card 20 stays</strong> — it is Ibn Kathīr <span class="ar-i">رحمہ اللہ</span>'s own verdict,
+and it is what keeps the <span class="ar-i">ردة</span> section from sounding like a conquest narrative. <strong>What not to say:</strong>
+do not draw any present-day parallel from card 21. None. The moment <span class="ar-i">عصبية</span> becomes a comment on
+anything current you have started adjudicating, and this room holds settled views. State it as Ibn
+Khaldūn <span class="ar-i">رحمہ اللہ</span>'s reading of the past, and move on.</p>
+<p><strong>If a slip asks — "why is Ibn Khaldūn <span class="ar-i">رحمہ اللہ</span> being quoted here?"</strong> He is used in this course for
+judgement and framing only, never as the authority for a date, a name or a number, and he is always
+named. Tonight he supplies one explanation, labelled as his, of something the narrative sources
+report but do not explain. That is exactly the use he is admitted for.</p>
+<hr />
+<h2>ACT 6 · Outward</h2>
+<p><em>12–13 AH</em></p>
+<h3>22 · The order to Iraq</h3>
+<p>Here the map stops being Arabia. The first arrow leaves the peninsula — from <span class="ar-i">اليمامة</span> east to the
+lower Euphrates — and for the rest of the series Arabia is no longer the whole board. Mark that
+moment for the room.</p>
+<p><span class="ar-i">خالد ؓ</span> had just finished <span class="ar-i">اليمامة</span> when a letter came from <span class="ar-i">المدینہ</span>. It did not say "conquer Iraq." It
+said: come at Iraq from its lower end. Call the people to God. If they answer, they are Muslims —
+what is yours is theirs. If they refuse, take the jizya. If they refuse that, fight.</p>
+<p>And then two restrictions that are easy to miss and are the reason this card is in the evening at
+all. Do not compel any man to march with you. And do not use any man who apostatised, even if he has
+come back.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">وأن يَتألَّفَ الناسَ ويدعوهم إلى الله ﷿، فإن أجابوا وإلا أخذ منهم الجزيةَ فإن امتنعوا عن ذلك قاتلهم،</span></p>
+<p class="ar" dir="rtl"><span class="ar-i">وأمره أن لا يُكْرِه أحدًا على المسير معه، ولا يستعينُ بمنِ ارتدّ عن الإسلام وإن كان</span> [<span class="ar-i">قد</span>] <span class="ar-i">عاد إليه</span></p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۶۲</span> · <a href="https://shamela.ws/book/30097/3208">https://shamela.ws/book/30097/3208</a></p>
+<p class="tr"><em>English:</em> "…that he should win the people over and call them to God; if they answered, well, and</p>
+<p>if not, take the jizya from them; and if they refused that, fight them. And he ordered him not to</p>
+<p>compel anyone to march with him, and not to make use of any man who had apostatised from Islam,</p>
+<p>even if he had returned to it."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> A state that has just won a civil war and still refuses to conscript the defeated is
+telling you what it thinks it is for.</p>
+<h3>23 · The march across the waterless desert</h3>
+<p><strong>This is the map moment of the second half.</strong> A line strikes north-west out of Iraq at Qurāqir,
+crosses blank desert with no road on it, and comes out at Suwā and Tadmur — behind the Roman armies.</p>
+<p>The commanders in Syria wrote to <span class="ar-i">أبو بكر ؓ</span> asking for reinforcement and telling him what the Romans
+had gathered at the Yarmūk. He wrote back to <span class="ar-i">خالد ؓ</span> in Iraq: put a deputy over Iraq, bring the men
+you have to Syria, and when you reach them you are the commander over them. <span class="ar-i">خالد ؓ</span> set off at once —
+but not by any road. He chose the Samāwa, waterless country.</p>
+<p>His guide was Rāfiʿ b. ʿUmayra al-Ṭāʾī, and Rāfiʿ told him plainly it could not be done with cavalry
+and baggage: a lone rider fears that road. <span class="ar-i">خالد ؓ</span> said he had no choice; he had to come out behind
+the Romans.</p>
+<p>So they prepared, and the preparation is the part worth telling slowly, because nobody in the room
+will have heard it. The strongest camels were made thirsty, then watered twice over, their lips cut
+and their mouths bound so they could not chew and lose the water. Every day they opened the bellies
+of ten of them and watered the horses from what was inside.</p>
+<p>On the last stretch Rāfiʿ, whose eyes were bad, asked the men whether they could see a box-thorn
+bush the height of a seated man. They said no. He said: then by God you are dead, and I am dead with
+you. They looked again. The bush was there, cut down to a stump. They dug at its root and found the
+spring.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">وَاللَّهِ مَا وَرَدْتُ هَذَا الْمَاءَ قَطُّ إِلَّا مَرَّةً وَاحِدَةً مَعَ أَبِي وَأَنَا غُلَامٌ</span></p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۵۳</span> · <a href="https://shamela.ws/book/21712/944">https://shamela.ws/book/21712/944</a></p>
+<p class="tr"><em>English:</em> "By God, I have come to this water only once in my life — with my father, when I was a</p>
+<p>boy."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The march was survived on preparation and on one man's memory; neither was an accident.</p>
+<p><em>Length of the march:</em> <span class="ar-i">البدایہ</span> says nine days; <span class="ar-i">الکامل</span> and <span class="ar-i">سیر</span> say five nights. <strong>Say both</strong>, in one
+breath, and move on. Saying both costs four seconds and buys you the room's trust for the rest of
+the evening.</p>
+<h3>24 · <span class="ar-i">خالد ؓ</span> hands the command round</h3>
+<p>The Muslim armies came to the Yarmūk still divided — four commanders, each over his own men, nobody
+over all of them. The Roman camp was at al-Wāqūṣa with a ravine at its back and the Muslim line
+sitting across the only road out.</p>
+<p>On the morning of the battle <span class="ar-i">خالد ؓ</span> stood up and made a proposal. He did not ask for the command. He
+proposed that they pass it round: one of us today, another tomorrow, another the day after, until
+every one of us has held it — <em>and let me have today.</em> They made him commander, expecting the
+arrangement to last a long time.</p>
+<p>It lasted one day.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">إن هذا يوم من أيام الله، لا ينبغي فيه الفخر ولا البغي</span> … <span class="ar-i">فتعالوا فلنتعاور الإمارة فليكن عليها بعضُنا</span></p>
+<p class="ar" dir="rtl"><span class="ar-i">اليوم والآخر غدًا والآخر بعد غد، حتى يتأمَّر كلكم، ودعوني اليوم أليكم</span></p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۸۹</span> · <a href="https://shamela.ws/book/30097/3235">https://shamela.ws/book/30097/3235</a></p>
+<p class="tr"><em>English:</em> "This is a day of God's days — there should be no boasting in it and no aggression …</p>
+<p>So come, let us take the command in turn: one of us today, another tomorrow, another the day</p>
+<p>after, until every one of you has commanded. And let me have charge of you today."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The man who asked for one day got the day; a man who had demanded the whole command might
+have got neither.</p>
+<h3>25 · "Armies are made many by victory"</h3>
+<p><span class="ar-i">خالد ؓ</span> had come in from Iraq and was looking at the Roman lines. A Christian Arab standing near him
+said out loud what everyone there could see: how many the Romans are, and how few the Muslims. The
+answer he got had nothing to do with counting.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">ويلك، أتخوّفني بالروم؟ وإنما تكثر الجنود بالنصر، وتقل بالخذلان لا بعدد الرجال</span></p>
+<p class="cite">— <span class="ar-i">البدایہ والنہایہ ج۷ ص۹۲</span> · <a href="https://shamela.ws/book/30097/3238">https://shamela.ws/book/30097/3238</a></p>
+<p class="tr"><em>English:</em> "Woe to you — are you frightening me with the Romans? Armies are made many by victory</p>
+<p>and few by abandonment, not by the number of men."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> Counting the enemy is useful; being governed by the count is not.</p>
+<p>This is the right place to be honest about numbers in front of the room, and it will do you credit.
+Ask them to guess the two army sizes; take three guesses; then show that the books themselves give
+three different answers, and say why that happens with pre-modern figures. Then put the caveat line
+on screen under the numbers panel and leave it there.</p>
+<p><strong>Telling it:</strong> About five minutes, and the pace should pick up — you have come out of a battlefield
+and a still point, and this act is movement. Three beats: the letter, the desert, the command.
+<strong>Spend the time on the desert march</strong>; the camels and the box-thorn bush are the kind of detail
+nobody forgets, and they are on the page. If you are running late, cards 24 and 25 can both go — you
+lose nothing tonight by stopping the act at the spring. <strong>What not to say:</strong> do not narrate the
+battle of the Yarmūk. It is not tonight's material, the evening has to reach a deathbed, and
+starting a battle you cannot finish is the fastest way to lose the last ten minutes.</p>
+<p><strong>If a slip asks — "was this aggression? Why march on Iraq at all?"</strong> Do not defend and do not
+apologise; read the letter. It sets an order: call them, then the jizya, then fighting only if both
+are refused. And it contains two restrictions that an aggressor would not write — no man is
+compelled to march, and no man who had apostatised is used, even if he had returned. That is what
+the page says. Whether that satisfies a modern objection is not a question you settle from a
+lectern, and you can say so pleasantly.</p>
+<hr />
+<h2>ACT 7 · He dies</h2>
+<p><em>13 AH</em></p>
+<p><em>Nothing moves on the map for the whole of this act. Say that out loud when you get here — the map
+stops, and the last twenty minutes of the man's life are all indoors. It changes the temperature of
+the room.</em></p>
+<h3>26 · He asks <span class="ar-i">عبد الرحمن بن عوف ؓ</span> about <span class="ar-i">عمر ؓ</span></h3>
+<p>He called <span class="ar-i">عبد الرحمن بن عوف ؓ</span> in and asked him to tell him about <span class="ar-i">عمر ؓ</span>. <span class="ar-i">عبد الرحمن ؓ</span> said what
+everyone in <span class="ar-i">المدینہ</span> already thought: he is better than you think — except there is harshness in him.</p>
+<p><span class="ar-i">أبو بكر ؓ</span> did not argue with the description. He explained it. <em>He is hard because he sees me being
+soft. When I was angry with a man, <span class="ar-i">عمر</span> showed me leniency; when I was gentle with a man, <span class="ar-i">عمر</span> showed
+me severity. Put the office in his hands and much of that will go.</em></p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فَقَالَ</span>: <span class="ar-i">إِنَّهُ أَفْضَلُ مِنْ رَأْيِكَ إِلَّا أَنَّهُ فِيهِ غِلْظَةٌ</span>. <span class="ar-i">فَقَالَ أَبُو بَكْرٍ</span>: <span class="ar-i">ذَلِكَ لِأَنَّهُ يَرَانِي رَقِيقًا، وَلَوْ أَفْضَى الْأَمْرُ إِلَيْهِ لَتَرَكَ كَثِيرًا مِمَّا هُوَ عَلَيْهِ</span></p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۶۶</span> · <a href="https://shamela.ws/book/21712/957">https://shamela.ws/book/21712/957</a></p>
+<p class="tr"><em>English:</em> "He said: he is better than your opinion of him — except that there is harshness in</p>
+<p>him. Abū Bakr said: that is because he sees me being gentle. If the affair passed to him he would</p>
+<p>leave much of what he is now."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> A man's edge is often the shape of the gap he thinks he is filling.</p>
+<h3>27 · "I have not appointed a relative over you"</h3>
+<p>The document was finished and he ordered it read out. The people gathered. The letter went with a
+freedman of his, and <span class="ar-i">عمر ؓ</span> walked beside him telling the crowd to be quiet and listen. It was read.
+They said: we hear and we obey.</p>
+<p>Then <span class="ar-i">أبو بكر ؓ</span> looked out over them himself and asked them a question — <em>are you content with the
+man I have appointed?</em> And then he told them the thing nobody had asked him.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">أَتَرْضُونَ بِمَنِ اسْتَخْلَفْتُ عَلَيْكُمْ؟ فَإِنِّي مَا اسْتَخْلَفْتُ عَلَيْكُمْ ذَا قَرَابَةٍ، وَإِنِّي قَدِ اسْتَخْلَفْتُ عَلَيْكُمْ عُمَرَ فَاسْمَعُوا لَهُ وَأَطِيعُوا، فَإِنِّي وَاللَّهِ مَا أَلَوْتُ مِنْ جُهْدِ الرَّأْيِ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۶۷</span> · <a href="https://shamela.ws/book/21712/958">https://shamela.ws/book/21712/958</a></p>
+<p class="tr"><em>English:</em> "Are you content with the one I have appointed over you? For I have not appointed over</p>
+<p>you a relative of mine. I have appointed ʿUmar over you, so hear him and obey — for by God, I have</p>
+<p>not fallen short of the utmost of my judgement."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> He had a son and a family in that city, and he named the hardest man in it instead.</p>
+<h3>28 · The list of what he owned</h3>
+<p>He called <span class="ar-i">عائشة ؓ</span>. He told her that since the day he took charge of the Muslims' affair he had not
+eaten a dinar or a dirham of theirs — only the coarsest of their food, only the roughest of their
+clothing.</p>
+<p>Then he listed what was in the house that belonged to the Muslims and not to him. An Abyssinian
+servant. A camel used for carrying water. The worn nap of one blanket. <em>When I die, send them to
+<span class="ar-i">عمر</span>.</em> She did.</p>
+<p>Read the list slowly. Three items. The room will be counting them.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">وليس عندنا من فيء المسلمين شيء إلا هذا العبد الحبشي وهذا البعير الناضح وجرد هذه القطيفة، فإذا مت فابعثي بهن إلى عمر، ففعلت</span>.</p>
+<p class="cite">— <span class="ar-i">سیر أعلام النبلاء، ج الراشدون ص۱۹</span> · <a href="https://shamela.ws/book/10906/1167">https://shamela.ws/book/10906/1167</a></p>
+<p class="tr"><em>English:</em> "We have nothing of the Muslims' fayʾ except this Abyssinian servant, this water-carrying</p>
+<p>camel, and the worn nap of this blanket. When I die, send them to ʿUmar. And she did."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> He kept an account of what was not his, and he closed it before he died.</p>
+<h3>29 · Sell my land and pay them back</h3>
+<p>He had been given a maintenance out of the treasury. The community voted it to him when he gave up
+trading, because a man cannot run a market stall and a state at once. It was lawful, it was agreed,
+and it was his.</p>
+<p>On his deathbed he gave an instruction about it. Sell a piece of land of mine. Take the price. Pay
+it in against every dirham I have drawn.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">فَلَمَّا حَضَرَتْهُ الْوَفَاةُ أَوْصَى أَنْ تُبَاعَ أَرْضٌ لَهُ وَيُصْرَفَ ثَمَنُهَا عِوَضَ مَا أَخَذَهُ مِنْ مَالِ الْمُسْلِمِينَ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۶۶</span> · <a href="https://shamela.ws/book/21712/957">https://shamela.ws/book/21712/957</a></p>
+<p class="tr"><em>English:</em> "When death came to him he directed that land of his be sold and its price paid over in</p>
+<p>compensation for what he had taken of the Muslims' property."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> He treated a lawful salary as a debt.</p>
+<p>⚠ <strong>Do not give a figure.</strong> The sources give the salary as 6,000 dirhams a year (<span class="ar-i">الکامل ج۲ ص۲۶۶</span>), as
+half a sheep a day (<span class="ar-i">سیر الراشدون ص۱۴</span>), and as 2,500 (<span class="ar-i">سیر الراشدون ص۱۴</span>). The instruction is the
+point, not the amount, and a figure you cannot defend is worth nothing.</p>
+<h3>30 · The shroud</h3>
+<p>He gave instructions for his own washing — his wife <span class="ar-i">أسماء بنت عميس ؓ</span>, and his son <span class="ar-i">عبد الرحمن ؓ</span>. Then
+the shroud. Use the two garments I am wearing, and buy one more to go with them. And he said: the
+living need the new more than the dead.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">وَقَالَ</span>: <span class="ar-i">الْحَيُّ أَحْوَجُ إِلَى الْجَدِيدِ مِنَ الْمَيِّتِ، إِنَّمَا هُوَ لِلْمُهْلَةِ وَالصَّدِيدِ</span>.</p>
+<p class="cite">— <span class="ar-i">الکامل فی التاریخ ج۲ ص۲۶۲</span> · <a href="https://shamela.ws/book/21712/953">https://shamela.ws/book/21712/953</a></p>
+<p class="tr"><em>English:</em> "He said: the living have more need of the new than the dead — this is only for the</p>
+<p>decay."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> The last instruction he gave about himself was an instruction to spend less on himself.</p>
+<h3>31 · Monday night, and a grave already dug beside another</h3>
+<p>He died on the Monday evening. He had asked to be buried beside the Messenger of Allah <span class="ar-i">ﷺ</span>, so they
+dug there. <span class="ar-i">عمر ؓ</span> prayed over him in the Prophet's <span class="ar-i">ﷺ</span> mosque, four takbīrs. They carried him on the
+same bier the Prophet <span class="ar-i">ﷺ</span> had been carried on. Four men went down into the grave: his son <span class="ar-i">عبد الرحمن
+ؓ</span>, <span class="ar-i">عمر ؓ</span>, <span class="ar-i">عثمان ؓ</span>, and <span class="ar-i">طلحة ؓ</span>. They laid his head at the Prophet's <span class="ar-i">ﷺ</span> shoulders and put his niche
+against the Prophet's <span class="ar-i">ﷺ</span> niche. He was buried before morning came.</p>
+<p>He was sixty-three — the age at which the Prophet <span class="ar-i">ﷺ</span> had died. Say that last, and then stop.</p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">وقالت عائشة</span>: <span class="ar-i">مات ليلة الثلاثاء، ودفن قبل أن يصبح</span>.</p>
+<p class="cite">— <span class="ar-i">سیر أعلام النبلاء، ج الراشدون ص۱۹</span> · <a href="https://shamela.ws/book/10906/1167">https://shamela.ws/book/10906/1167</a></p>
+<p class="tr"><em>English:</em> "ʿĀʾisha <span class="ar-i">ؓ</span> said: he died on the night of Tuesday, and was buried before morning came."</p>
+</blockquote>
+<p><strong><span class="ar-i">عبرت</span>:</strong> Two years and three months of authority, and it ended in a room, at night, with four men
+and a spade.</p>
+<p><em>The graves diagram</em> is fixed by one sentence on the same page — <span class="ar-i">سیر أعلام النبلاء، ج الراشدون ص۱۹</span> ·
+<a href="https://shamela.ws/book/10906/1167:">https://shamela.ws/book/10906/1167:</a></p>
+<blockquote>
+<p class="ar" dir="rtl"><span class="ar-i">رأس أبي بكر عند كتفي رسول الله صلى الله عليه وسلم، ورأس عمر عند حقوي أبي بكر</span>.</p>
+</blockquote>
+<p>⚠ <strong>Do not say the burial was "in <span class="ar-i">عائشة ؓ</span>'s house."</strong> These pages say <em>beside the Prophet <span class="ar-i">ﷺ</span></em>, and no
+more. The date the pages give is Monday evening, with eight nights remaining of <span class="ar-i">جمادى الآخرة</span>, 13 AH.</p>
+<p><strong>Telling it:</strong> About seven minutes, and it is the whole reason the evening works. Slow to your
+slowest. Say once, before card 26, that the map has stopped moving — that single sentence tells the
+room the ending has begun, and they will settle. Four beats: the assessment of <span class="ar-i">عمر ؓ</span>, the public
+appointment, the three objects, the grave. Cards 29 and 30 are short enough to be footnotes to card
+28 — a salary repaid, a shroud not bought — which keeps the momentum toward the grave. If you are
+running late, <strong>cut 29 and 30</strong>, never 27 or 28. <strong>What not to say:</strong> do not compare him to anyone,
+and do not draw a governance lesson out loud — the three objects do it silently and better. Do not
+add a eulogy. The plainest possible delivery of card 31 is the strongest one available to you, and
+anything you add takes weight out of it.</p>
+<p><strong>If a slip asks — "why did he appoint a successor when the Prophet <span class="ar-i">ﷺ</span> did not?"</strong> Read what the page
+records him doing: he consulted, he wrote a document, he had it read aloud in public, he asked the
+people whether they were content, and he told them unprompted that he had not appointed a relative.
+That is the record. The wider question of the succession and the disputes around it is handled with
+<span class="ar-i">اصول</span> in session 3, and you do not settle it from the floor tonight. Use the deferral line in
+<code>QA_BANK.md</code> §0, warmly, and offer to talk afterwards — you have fifteen minutes after the session
+and one-to-one is where this conversation belongs.</p>
+<hr />
+<h2>The close</h2>
+<ol>
+<li><strong>The Line</strong>, with tonight's events lit up and nothing else — <code>line_s2_lit.png</code>.</li>
+<li><strong>The Map</strong>, at 13 AH, against where it stood when the room walked in — <code>map_s2_close_13ah.png</code>.
+   <em>(Both of these open session 3 unchanged. That is the whole re-anchor mechanism: the room sees
+   the continuity instead of being told about it.)</em></li>
+<li><strong>Tonight's <span class="ar-i">عبرت</span> lines</strong>, all on one screen.</li>
+<li>🖐 <strong>[HANDS]</strong> Hands up — what year are we in now?</li>
+<li>Next week, as a question.</li>
+<li>A loud <span class="ar-i">السلام علیکم</span>, then the dua. The room must know it has ended.</li>
+</ol>
+<p><strong>Telling the close:</strong> five minutes, and do not improvise any of it. The last hands-up is not
+decoration — it is the room proving to itself that it has kept the timeline, and it is the moment
+they walk out feeling competent. Give them a beat to answer. Then the <span class="ar-i">عبرت</span> screen, read once,
+without elaboration. Then the question for next week, and nothing after it. The salām is loud on
+purpose.</p>
+<hr />
+<h2>The five <span class="ar-i">عبرت</span> lines</h2>
+<p>⚠ <strong><code>SLIDES.md</code> did not exist when this briefing was written, so these five are my selection from
+the 31 cards, not a reading of the deck.</strong> Every one is a card's own <span class="ar-i">عبرت</span> line, copied unchanged —
+no new sentence has been written. <strong>Reconcile against <code>SLIDES.md</code> once it exists; if the deck's five
+differ, the deck wins.</strong> They are chosen to span the arc rather than cluster.</p>
+<ol>
+<li><strong>There is a kind of steadiness that is not stubbornness: it is refusing to treat an emergency as
+permission.</strong> <em>(Act 1, card 2 — <span class="ar-i">جيش أسامة</span>)</em></li>
+<li><strong>He did not tell them what to do; he told them what they had already been.</strong> <em>(Act 3, card 13 —
+Thābit b. Qays <span class="ar-i">ؓ</span> at <span class="ar-i">عَقْرَباء</span>)</em></li>
+<li><strong>Preservation is not one heroic act; it is somebody doing a careful, unglamorous job properly.</strong>
+<em>(Act 4, card 18 — <span class="ar-i">زيد ؓ</span> and the four materials)</em></li>
+<li><strong>What changed in Arabia was not how many men there were, but which way they were all facing.</strong>
+<em>(Act 5, card 21 — Ibn Khaldūn <span class="ar-i">رحمہ اللہ</span>, as he reads it)</em></li>
+<li><strong>He kept an account of what was not his, and he closed it before he died.</strong> <em>(Act 7, card 28 —
+the servant, the camel, the blanket)</em></li>
+</ol>
+<p><strong>Three alternates, if the deck wants a different balance</strong> — all likewise copied from their cards:</p>
+<ul>
+<li><em>What people believe about your strength does as much work as your strength does.</em> (card 5)</li>
+<li><em>The recovery came out of the very night the reverse happened, spent preparing.</em> (card 7)</li>
+<li><em>A state that has just won a civil war and still refuses to conscript the defeated is telling you
+what it thinks it is for.</em> (card 22)</li>
+</ul>
+<p><strong>One rule for all of them:</strong> they are drawn from the events and they stay there. No present-day
+parallel, from the lectern or in answer to a slip. The room contains an organisation with settled
+views, and the moment a <span class="ar-i">عبرت</span> line is heard as a comment on anything current, you have started
+adjudicating — which is the one thing this course does not do.</p>

@@ -38,19 +38,37 @@ Everything is under `sources/shamela/<book>/<index>.txt`, each file carrying its
 **printed** page in the header. **Daniyal can read these directly** — they are plain text, no tool
 needed.
 
-**Next, in order:**
+**Session 2 is BUILT.** Everything below is done and committed.
 
-1. Finish / check the eight L02 research notes in `docs/research/` (the pass was running when this
-   was written; each note ends in an `## EVENT CARDS` section, which is the raw material).
-2. Fold **Ibn Khaldūn's judgements** in from `sources/shamela/12320/` — attributed by name, framing
-   only, never as the sole authority for a fact (`DECISIONS.md` #29).
-3. Build `L02_baarah_saal/CONTENT.md` — the tiered event pool — by collecting the `EVENT CARDS`
-   sections. Daniyal filters it.
-4. Generate the L02 maps (list in the spec §6.3), **including both closing pairs**, 13 AH and 23 AH.
-5. Build the six artifacts: `SLIDES.md` → `build.py` → `L02.pptx`, then `CUE.pdf`,
-   `BRIEFING.pdf`, `WORKSHEET.pdf`.
-6. Check the deck by eye: `python series/preview.py L02_baarah_saal/L02.pptx` and **look at the
-   contact sheet**. Session 1's decks were built blind; there is no longer any excuse.
+| Artifact | | |
+|---|---|---|
+| `L02_baarah_saal/L02_ALL.pptx` | **275 slides** | every one of the 263 researched cards, nothing dropped. Speaker notes carry the full narrative, date, map move, عبرت line, statement and source |
+| `L02_baarah_saal/L02.pptx` | **60 slides** | the crafted session: أبو بكر ؓ's caliphate entire, 11–13 AH, 31 cards |
+| `L02_baarah_saal/CUE.pdf` | **1 page** | headings, names, dates, cues. No sentences |
+| `L02_baarah_saal/BRIEFING.pdf` | 34 pages | 10,500 words of prose, to read at home |
+| `L02_baarah_saal/WORKSHEET.pdf` | 2 pages | blank Arabia map + blank timeline + «ایک واقعہ» lines |
+| `L02_baarah_saal/CONTENT.md` · `SPINE.md` | | the pool, and the declared running order |
+| `series/visuals/map_s2_*.png` | 11 assets | 4:3, tight-cropped, both closing pairs (13 AH and 23 AH) |
+
+**Daniyal's call, still open:** which cards go in which session. The recommended cut lives in
+`SPINE.md` and is a *suggestion in a separate file* — every card is in `L02_ALL.pptx` regardless.
+
+**What is left for session 2**
+
+1. **Daniyal filters.** Delete slides from `L02_ALL.pptx`, or start from `L02.pptx` and add.
+2. **Gemini fills the image placeholders** — 5 in `L02.pptx`, 31 in `L02_ALL.pptx`. Every brief is
+   in the slide's speaker notes and ends with the flat-white instruction, so an image drops on with
+   no seam. Briefs are non-figurative by design: no depiction of the Prophet ﷺ or any Companion.
+3. **Eyeball the Arabic before it is projected.** Everything is verified against Shamela's *text*,
+   not against page images, and Shamela carries its own typesetting slips — four were found in one
+   stretch. `CLAUDE.md` §1.1 stands: locate by grep, **quote by eye**.
+4. **One open question from the map build:** card RC05's `Map:` line says *eleven* arrows leave
+   ذو القصّة but names only **ten** destinations, and its [HANDS] cue asks the room to count along.
+   Either an eleventh destination is added from the sources or the counting cue is reworded. The
+   map itself prints no count, so it is safe either way.
+
+**Sessions 3+ are already researched.** عمر ؓ's ~130 page-cited cards are in `CONTENT.md` and in
+`L02_ALL.pptx`, tiered and quote-checked. No new research is needed to build them.
 
 ---
 
