@@ -1,10 +1,56 @@
 # STATUS — read this first, every session
 
-**Purpose of this file:** a new session should be fully oriented after reading *only*
-`CLAUDE.md` + this file + `docs/DECISIONS.md`. If you find yourself re-deriving something,
-it belongs here and did not get written down. Fix that before continuing.
+> **2026-09-06 · RESUME POINT.** Session 1 has been **delivered**. The feedback from it rewrote how
+> this repo produces a lecture — see `docs/DECISIONS.md` **#19–#29** and
+> `docs/specs/2026-09-06-L02-and-production-v4-spec.md`. **Read those two before anything else.**
+> Work is now on **session 2 (11–23 AH)**. If this session ended at a token limit, the "Where to
+> pick up" block below says exactly where.
 
-**Last updated:** 2026-09-03 (session 1 v3 build)
+---
+
+## 0. Where to pick up (2026-09-06)
+
+**Done and committed — do not redo any of this:**
+
+| | |
+|---|---|
+| `43a4235` | session 1 exactly as delivered (`L01_DY.pptx`, script, three research notes) |
+| `52e323c` | production pipeline **v4** — DECISIONS #19–28, the L02 spec, `CLAUDE.md` rewritten |
+| `ec1ec88` | `tools/render_note.py` — research notes → readable A4 PDF, Arabic in Naskh at reading size |
+| `9de326e` | `series/deck2.py` (the deck contract, enforced) + `series/preview.py` (deck → PNG contact sheet) |
+| `ef33547` | `series/pack.py` (cue sheet / briefing / worksheet) + DECISIONS #29 (Ibn Khaldūn) |
+
+**The tooling is finished.** All six per-session artifacts can now be produced. What remains for
+session 2 is **content**, not code.
+
+**Raw sources are cached, so re-fetching costs nothing.** This was done deliberately in one sweep
+so that a token limit cannot strand the work:
+
+| Book | id | Pages cached | Covers |
+|---|---|---|---|
+| البدایہ والنہایہ | `30097` | ~515 | the whole window and more |
+| سیر أعلام النبلاء | `10906` | ~279 | the تراجم |
+| الکامل فی التاریخ | `21712` | ~178 | year-by-year |
+| **تاریخ ابن خلدون** | `12320` | **1276–1370** | أسامة · السقيفة · the ردة · Iraq · Shām · قادسية · المدائن · بيت المقدس · عام الرمادة · طاعون عمواس · نهاوند · الشورى |
+| تاریخ الطبری | `9783` | ~10 | corroboration only |
+
+Everything is under `sources/shamela/<book>/<index>.txt`, each file carrying its URL, volume and
+**printed** page in the header. **Daniyal can read these directly** — they are plain text, no tool
+needed.
+
+**Next, in order:**
+
+1. Finish / check the eight L02 research notes in `docs/research/` (the pass was running when this
+   was written; each note ends in an `## EVENT CARDS` section, which is the raw material).
+2. Fold **Ibn Khaldūn's judgements** in from `sources/shamela/12320/` — attributed by name, framing
+   only, never as the sole authority for a fact (`DECISIONS.md` #29).
+3. Build `L02_baarah_saal/CONTENT.md` — the tiered event pool — by collecting the `EVENT CARDS`
+   sections. Daniyal filters it.
+4. Generate the L02 maps (list in the spec §6.3), **including both closing pairs**, 13 AH and 23 AH.
+5. Build the six artifacts: `SLIDES.md` → `build.py` → `L02.pptx`, then `CUE.pdf`,
+   `BRIEFING.pdf`, `WORKSHEET.pdf`.
+6. Check the deck by eye: `python series/preview.py L02_baarah_saal/L02.pptx` and **look at the
+   contact sheet**. Session 1's decks were built blind; there is no longer any excuse.
 
 ---
 
