@@ -13,3 +13,6 @@ sources/archive*
 # research notes render to PDF for reading (tools/render_note.py --all); the .md is canonical
 docs/research/.render/
 docs/research/*.pdf
+
+# cached auto-trimmed copies of visual assets (series/deck2.py)
+series/visuals/*.trim.png
