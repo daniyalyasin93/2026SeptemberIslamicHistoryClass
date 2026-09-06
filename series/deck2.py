@@ -66,6 +66,7 @@ MUTED = RGBColor(0x5A, 0x68, 0x62)
 MAROON = RGBColor(0x7A, 0x2E, 0x2E)
 RULE = RGBColor(0xD8, 0xD2, 0xC4)
 
+_HAS_AR = re.compile("[؀-ۿﭐ-﷿ﹰ-﻿]")
 AR = "Traditional Arabic"       # Naskh. Nastaliq for Arabic is non-standard (CLAUDE.md 1.3)
 EN = "Georgia"                  # English headlines
 SANS = "Segoe UI"               # English body
@@ -157,7 +158,9 @@ def text(slide, txt, x, y, w, h, size=BODY_PT, color=INK, font=EN, bold=False,
         r.font.bold = bold
         r.font.italic = italic
         r.font.color.rgb = color
-        set_cs(r, font)
+        # A headline in Georgia may still contain ؓ or ﷺ. The complex-script face has to be an
+        # Arabic one or PowerPoint substitutes a dotted circle for the honorific.
+        set_cs(r, AR if font != AR and _HAS_AR.search(para_txt) else font)
     return box
 
 

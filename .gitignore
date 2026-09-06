@@ -16,3 +16,7 @@ docs/research/*.pdf
 
 # cached auto-trimmed copies of visual assets (series/deck2.py)
 series/visuals/*.trim.png
+
+# per-slide PNG exports from series/preview.py
+*_preview/
+*_sheet.png
