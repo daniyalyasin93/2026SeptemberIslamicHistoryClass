@@ -40,6 +40,13 @@ If uncertain, write `(to verify)`. A note that says "could not establish" has do
 | `tarikh-definition-and-the-guardrail.md` | What تاریخ is (السخاوي's own Arabic); حدیث/تاریخ/فقہ; the fiqh of the مشاجرات; تاریخِ اسلام = تاریخِ مسلمین; the forged Khaybar document | L01, L03 | — |
 | `timeline-pegs.md` | Dated pegs for all three nested timelines, each with a certainty label | L01, all | — |
 | `arabian-tribes-and-the-ridda-setup.md` | The tribal map of Arabia; عدنان vs قحطان; Ibn Kathīr's own four categories of the ردة; the four claimants; who did **not** break away; gazetteer; audit of the two existing ردة artifacts | **L02** | — |
+| `abu-bakr-usama-and-the-jam-of-the-quran.md` | جيش أسامة ؓ — the refusal to recall it; the جمع of the Qur'an after اليمامة, زيد بن ثابت ؓ's own account, the chain to حفصة ؓ | **L02** | adversarial |
+| `abu-bakr-death-and-the-succession-of-umar.md` | The final illness; whom he consulted about عمر ؓ and what each said; the written عهد; his last words and the property he ordered returned | **L02** | adversarial |
+| `iraq-syria-and-yarmuk-12-15ah.md` | خالد ؓ in Iraq, الحيرة and the letters; the desert march to Syria; أجنادين, دمشق, يرموك; the dismissal from command | **L02** | adversarial |
+| `bayt-al-maqdis-and-the-umari-covenant.md` | The surrender demanded of the خليفة himself; the journey and the camel; the العهدة العمرية; the refusal to pray in the church | **L02** | adversarial |
+| `qadisiyya-madain-and-the-embassy.md` | الجسر and أبو عبيد ؓ; the embassies to رستم and ربعي بن عامر ؓ's answer; القادسية; المدائن; the founding of الكوفة and البصرة | **L02** | ⏳ verifying |
+| `umar-the-state-diwan-calendar-and-the-two-trials.md` | أمير المؤمنين; the هجری calendar decision; the ديوان and the عطاء; the السواد land question; عام الرمادة; طاعون عمواس | **L02** | ⏳ verifying |
+| `nahawand-the-shura-and-the-death-of-umar.md` | نهاوند, فتح الفتوح; the frontier at ۲۳ھ; أبو لؤلؤة and the assassination; the last days; the شورى of six | **L02** | ⏳ verifying |
 | `saqifah-people-profiles.md` | Page-cited profiles of every man who spoke or was named at سقيفة | L01 | — |
 
 *(Both strands previously listed here as "not written" completed on 2026-09-05 and are now rows in the table above.)*
