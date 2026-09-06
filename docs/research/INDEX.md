@@ -39,8 +39,10 @@ If uncertain, write `(to verify)`. A note that says "could not establish" has do
 | `wafat-and-medina-11h.md` | The death of the Prophet ﷺ, عمر ؓ's reaction, أبو بكر ؓ's خطبة and آل عمران ۱۴۴ | L01 | adversarial |
 | `tarikh-definition-and-the-guardrail.md` | What تاریخ is (السخاوي's own Arabic); حدیث/تاریخ/فقہ; the fiqh of the مشاجرات; تاریخِ اسلام = تاریخِ مسلمین; the forged Khaybar document | L01, L03 | — |
 | `timeline-pegs.md` | Dated pegs for all three nested timelines, each with a certainty label | L01, all | — |
+| `arabian-tribes-and-the-ridda-setup.md` | The tribal map of Arabia; عدنان vs قحطان; Ibn Kathīr's own four categories of the ردة; the four claimants; who did **not** break away; gazetteer; audit of the two existing ردة artifacts | **L02** | — |
+| `saqifah-people-profiles.md` | Page-cited profiles of every man who spoke or was named at سقيفة | L01 | — |
 
-**Not written** (these strands did not complete): `arabian-tribes-and-the-ridda-setup.md` · `saqifah-people-profiles.md`. The muqaddima anchors they would have carried are in `docs/catalogue/SOURCES.md` under *Verified anchors*.
+*(Both strands previously listed here as "not written" completed on 2026-09-05 and are now rows in the table above.)*
 
 **Certainty labels used across these notes:**
 
