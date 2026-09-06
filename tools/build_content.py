@@ -35,6 +35,10 @@ ORDER = [
     ("bayt-al-maqdis-and-the-umari-covenant", "بيت المقدس and the العهدة العمرية"),
     ("umar-the-state-diwan-calendar-and-the-two-trials", "عمر ؓ builds a state — and the two trials"),
     ("nahawand-the-shura-and-the-death-of-umar", "نهاوند, the assassination, and the شورى"),
+    ("the-house-of-umm-sulaym", "The people: the house of أم سليم ؓ"),
+    ("abu-hudhayfa-and-salim-mawla-abi-hudhayfa", "The people: أبو حذيفة ؓ and سالم ؓ"),
+    ("zayd-ibn-al-khattab-and-the-dead-of-yamama", "The people: زيد بن الخطاب ؓ and the dead of اليمامة"),
+    ("the-men-who-had-fought-against-it", "The people: the men who had fought against it"),
     ("great-statements-and-dialogues-11-23ah", "The statements bank — slide-ready, by speaker"),
     ("ibn-khaldun-on-the-ridda-the-conquests-and-method", "ابن خلدون: how he reads it (framing only)"),
 ]

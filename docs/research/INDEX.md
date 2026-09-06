@@ -50,6 +50,10 @@ If uncertain, write `(to verify)`. A note that says "could not establish" has do
 | `ridda-campaign-the-conduct-of-the-wars.md` | **The conduct of the ردة wars** — ذو القصة; the eleven armies and their sectors; بزاخة and طليحة; البطاح and مالك بن نويرة (guardrail); عقرباء and حديقة الموت; البحرين, عمان, مهرة, اليمن, حضرموت | **L02** | adversarial |
 | `great-statements-and-dialogues-11-23ah.md` | The verbatim statements bank, by speaker — slide-ready Arabic with printed page, shamela link and rendering | **L02** | adversarial |
 | `ibn-khaldun-on-the-ridda-the-conquests-and-method.md` | ابن خلدون: his causes of error in historical reports; العصبية as the frame for the ردة; his judgements on the events. **Framing only** (`DECISIONS.md` #29) | **L02** | adversarial |
+| `the-house-of-umm-sulaym.md` | أم سليم ؓ, أبو طلحة ؓ, أنس ؓ, البراء بن مالك ؓ, أنس بن النضر ؓ, أم حرام ؓ — the mahr of Islam, أحد, حديقة الموت, تُسْتَر. ⚠ **البراء ؓ's mother is NOT established** — only that he is أنس ؓ's brother | **L02**, all | adversarial |
+| `abu-hudhayfa-and-salim-mawla-abi-hudhayfa.md` | أبو حذيفة ؓ (whose father fell at بدر against the Muslims) and سالم ؓ, who led the المهاجرون at قباء for carrying the most Qurʾān; both dead at اليمامة | **L02** | adversarial |
+| `zayd-ibn-al-khattab-and-the-dead-of-yamama.md` | زيد ؓ, عمر ؓ's elder brother, Muslim before him; عمر ؓ's grief; أبو عقيل ؓ; ثابت بن قيس ؓ and the dream about his armour; the قرّاء figures | **L02** | adversarial |
+| `the-men-who-had-fought-against-it.md` | عكرمة بن أبي جهل ؓ · وحشي ؓ · خالد ؓ at أحد · طليحة, who claimed prophethood, returned, and died in the Muslim armies | **L02**, L03 | adversarial |
 | `saqifah-people-profiles.md` | Page-cited profiles of every man who spoke or was named at سقيفة | L01 | — |
 
 *(Both strands previously listed here as "not written" completed on 2026-09-05 and are now rows in the table above.)*
