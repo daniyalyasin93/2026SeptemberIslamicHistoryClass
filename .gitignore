@@ -10,3 +10,6 @@ series/data/
 _*.png
 sources/pdf/*
 sources/archive*
+# research notes render to PDF for reading (tools/render_note.py --all); the .md is canonical
+docs/research/.render/
+docs/research/*.pdf
