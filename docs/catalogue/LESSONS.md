@@ -11,7 +11,7 @@ needs it, and two sessions end up drawing the same lesson in different words.
 adjudicate. A deck uses at most **six** on its closing screen.
 
 
-**343 lines across 14 blocks.**
+**372 lines across 15 blocks.**
 
 
 ## The statements bank — slide-ready, by speaker
@@ -105,6 +105,40 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `RCT/E-RC38` | CORE | He turned the question round: the danger was not what would be done to them, but what would |
 | `RCT/E-RC39` | GOOD | Two men who agreed about the war disagreed about who should run it, and the book records |
 | `RCT/E-RC40` | CUT |  |
+
+## Setting: the tribal map, and why the ردة took its shape
+
+| Card | Tier | عبرت |
+|---|---|---|
+| `ATA/E-TB01` | CORE | The unit of that country was the line of fathers, and everything that happened next has to |
+| `ATA/E-TB02` | CORE | Half the tribal map of that country is contained in one answer to one question. |
+| `ATA/E-TB03` | CORE | The people who would one day receive the hijra and the people who would one day rise in |
+| `ATA/E-TB04` | GOOD | Even the boundary of the most famous tribe in Arabia had two answers, and the book keeps |
+| `ATA/E-TB05` | CORE | The first thing the hijra did was to put the two ends of Arabia inside one set of walls. |
+| `ATA/E-TB06` | CORE | The book refuses to call the whole year one thing, and the sorting on the screen is the |
+| `ATA/E-TB07` | CORE | Two men can refuse the same payment for two different reasons, and the book takes care to |
+| `ATA/E-TB08` | CORE | The decision that held the state together was taken against the advice of the men best |
+| `ATA/E-TB09` | CORE | The argument was settled on a point of law about a hobbling-cord, and the man who had |
+| `ATA/E-TB10` | CORE | The honest map has three colours inside one tribe, and the sentence that licenses it is the |
+| `ATA/E-TB11` | CORE | He was not choosing between two prophecies. He was choosing between two lines of descent |
+| `ATA/E-TB12` | CORE | A man can know which of two claims is true and still act on which of two families is his. |
+| `ATA/E-TB13` | CORE | The refusal stated itself in the language of who should rule, and the answer it was given |
+| `ATA/E-TB14` | CORE | Most of what broke in that year had already begun before the year began. |
+| `ATA/E-TB15` | CORE | One document divides the country between two tribes, and the other answers that the country |
+| `ATA/E-TB16` | GOOD | The claim was refused while it was still only a request, years before it had to be fought. |
+| `ATA/E-TB17` | GOOD | The two claims that broke the peninsula are named together, by their cities, in one |
+| `ATA/E-TB18` | GOOD | The tribe that supplied her following was not the tribe she came from, and the book is |
+| `ATA/E-TB19` | GOOD | A claim that could be settled for half a land-tax was priced by the man who bought it. |
+| `ATA/E-TB20` | CORE | The man's ability was taken and his ambition was not fed, and the book calls that a point |
+| `ATA/E-TB21` | CORE | The most quotable sentence about that year is corrected three times by the same book that |
+| `ATA/E-TB22` | CORE | The newest Muslims in the peninsula held, and what was standing among them was a man the |
+| `ATA/E-TB23` | GOOD | A tribe that is on the list of those who broke is on it because of one of its own men, and |
+| `ATA/E-TB24` | CORE | Both sides in that region were arguing from the same fact, and the difference was one man |
+| `ATA/E-TB25` | CORE | Descent explains the vocabulary people used that year. It does not predict where any of |
+| `ATA/E-TB26` | CORE | The first of the four claims was already finished before the crisis that is named after it |
+| `ATA/E-TB27` | CORE | A man who had just put down a rebellion had three quiet days, and then heard the news that |
+| `ATA/E-TB28` | GOOD | The whole of it took less than a season, and the book still writes "Allah knows best" over |
+| `ATA/E-TB29` | CUT |  |
 
 ## عمر ؓ builds a state — and the two trials
 

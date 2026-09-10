@@ -12,11 +12,20 @@ Where two rows disagree about the same event, that disagreement is real and is i
 **Do not resolve it here.** Narrate what the sources narrate and say they differ.
 
 
-**238 dated cards.**
+**258 dated cards.**
 
 | When | Certainty | Card | Event |
 |---|---|---|---|
 | 1 المحرم 14ھ | `SOURCED` | `QMA/E-Q5` | عمر ؓ is talked out of leading the campaign himself |
+| 10ھ–12ھ | `SOURCED` | `ATA/E-TB14` | Four claimants, and when each of them began |
+| 11ھ | `SOURCED` | `ATA/E-TB06` | What the break actually was — Ibn Kathīr's own sorting |
+| 11ھ | `SOURCED` | `ATA/E-TB08` | The Companions proposed going easy, and he refused |
+| 11ھ | `SOURCED` | `ATA/E-TB09` | «لو مَنَعوني عِقالًا» — and what ʿUmar ؓ said afterwards |
+| 11ھ | `SOURCED` | `ATA/E-TB10` | One tribe, three answers |
+| 11ھ | `SOURCED` | `ATA/E-TB13` | The verse that puts the objection as politics |
+| 11ھ | `SOURCED` | `ATA/E-TB18` | Sajāḥ — who she actually was |
+| 11ھ | `SOURCED` | `ATA/E-TB21` | «ما خلا أهل المسجدين» — and the book's own corrections to it |
+| 11ھ | `SOURCED` | `ATA/E-TB25` | The Azd stood on both sides of the map |
 | 11ھ | `SOURCED` | `RCT/E-RC09` | بُزاخة — the man who walked off the field |
 | 11ھ | `SOURCED` | `RCT/E-RC13` | الفُجاءة — the man who asked for weapons |
 | 11ھ | `SOURCED` | `RCT/E-RC14` | البُطاح and Mālik b. Nuwayra ؓ — ⚠ SPEAKER'S DISCRETION |
@@ -36,11 +45,16 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ, after بُزاخة | `SOURCED` | `RCT/E-RC10` | The terms at Medina, and ʿUmar's ؓ objection |
 | 11ھ, after بُزاخة | `SOURCED` | `RCT/E-RC11` | The three things asked of the men who came back |
 | 11ھ, after بُزاخة | `SOURCED` | `RCT/E-RC12` | أم زمل |
+| 11ھ, and again at المدینہ afterwards | `SOURCED` | `ATA/E-TB11` | ʿUyayna b. Ḥiṣn says why he followed Ṭulayḥa |
 | 11ھ, approaching بُزاخة | `SOURCED` | `RCT/E-RC08` | The two scouts |
+| 11ھ, as the delegations arrive | `SOURCED` | `ATA/E-TB07` | Two refusals, not one |
 | 11ھ, at the ridda appointment | `SOURCED` | `TMW/E-TRN21` | The ḥadīth about the Sword of Allah, and who carries it |
 | 11ھ, at الجُرْف | `SOURCED` | `GSA/E-ST3` | The caliph walks and the eighteen-year-old rides |
 | 11ھ, at المدينة | `—` | `RCT/E-RC38` | ʿUmar ؓ to Quraysh — the framing card |
 | 11ھ, at اليمامة | `SOURCED` | `RCT/E-RC15` | ʿIkrima ؓ goes too early, and the letter that follows him |
+| 11ھ, at اليمامة, and afterwards | `SOURCED` | `ATA/E-TB19` | What her claim was worth to the other claimant |
+| 11ھ, before any arrow is drawn | `SOURCED` | `ATA/E-TB01` | Arabia was a map of kin, not a map of provinces |
+| 11ھ, before بُزاخة | `SOURCED` | `ATA/E-TB23` | ʿAdī b. Ḥātim ؓ, and the two names Ṭayyiʾ called Abū Bakr ؓ |
 | 11ھ, before بُزاخة | `SOURCED` | `RCT/E-RC07` | ʿAdī b. Ḥātim ؓ buys three days |
 | 11ھ, before جيش أسامة marched | `SOURCED` | `GSA/E-ST4` | The ten rules given to an army before it marched |
 | 11ھ, the days after the bayʿah | `SOURCED` | `GSA/E-ST11` | «I shall still milk your sheep» |
@@ -49,9 +63,12 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ, the same night as the reverse | `SOURCED` | `RCT/E-RC02` | The counter-attack before dawn |
 | 11ھ, with the eleven | `SOURCED` | `RCT/E-RC06` | The letter that went ahead of the armies |
 | 11ھ, within days of the delegation's return | `SOURCED` | `RCT/E-RC01` | The night raid on Medina |
+| 11ھ, البحرين | `SOURCED` | `ATA/E-TB24` | Al-Jārūd ؓ asks his tribe five questions |
 | 11ھ, البحرين | `SOURCED` | `RCT/E-RC24` | جُواثى under siege |
 | 11ھ, البحرين | `SOURCED` | `RCT/E-RC26` | The trench month, and the nephew in the enemy camp |
 | 11ھ, اليمن | `SOURCED` | `RCT/E-RC31` | صنعاء — the two women in the street |
+| 11ھ; the delegation was in سنة تسع | `SOURCED` | `ATA/E-TB22` | Thaqīf had been Muslim for two years, and did not break |
+| 11ھ–12ھ, اليمامة | `SOURCED` | `ATA/E-TB12` | The man who followed Musaylima knowing he was lying |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC16` | The tent and the prisoner — عَقْرَباء |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC20` | حديقة الموت — al-Barāʾ ؓ over the wall |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC21` | The death of Musaylima, and what Waḥshī ؓ said afterwards |
@@ -187,6 +204,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | the conquest of تُسْتَر — سیر ج1 ص198 says 20ھ; البدایہ and الکامل narrate it under 17ھ both ways | `SOURCED` | `THO/E-HS17` | The oath at Tustar |
 | the day after the Prophet ﷺ died, 11ھ | `SOURCED` | `ABU/E-U2` | The crier, the morning after |
 | the four days of القادسية, 14ھ — and the tradition disputes the year: | `—` | `QMA/E-Q11` | The commander who could not sit up |
+| the months before 11ھ | `SOURCED` | `ATA/E-TB28` | How long the first false prophet ruled |
 | the point concerns الحجاج بن يوسف, d. 95ھ (to verify) | `STANDARD` | `IKO/E-IKM6` | The schoolteacher's son |
 | the years after 12ھ | `SOURCED` | `ZIA/E-ZY6` | The east wind |
 | the ḥadīth: at Medina, in the Prophet's ﷺ lifetime. The expedition: 28ھ — البدایہ ج7 ص290 records 27، 28 and 33 | `SOURCED` | `THO/E-HS13` | Umm Ḥarām and the sea |
@@ -196,6 +214,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | «أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة» | `—` | `RCT/E-RC36` | What Ibn Kathīr says the whole war was |
 | آخر ربيع الأول 11ھ | `SOURCED` | `ABU/E-U5` | The caliph on foot |
 | آخر ربيع الأول 11ھ , with a competing report Ibn Kathīr records and does not | `SOURCED` | `ABU/E-U9` | The first victory he never fought |
+| آخر سنة عشر | `SOURCED` | `ATA/E-TB15` | Musaylima's letter, and the reply |
 | أجنادين, 2 nights remaining of جمادى الأولى 13 AH [SOURCED — الکامل | `—` | `ISA/E-C8` | The spy's report |
 | أحد, 3ھ | `STANDARD` | `THO/E-HS8` | The water-carriers at Uḥud |
 | أحد, 3ھ (as — the year is not fixed on the pages read) | `STANDARD` | `THO/E-HS5` | Known by his fingertips |
@@ -235,6 +254,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | ربيع الأول 11ھ | `SOURCED` | `ABU/E-U4` | The beard, and the man who would not be deposed |
 | ربيع الأول 11ھ (the connected narrative runs through | `SOURCED` | `ABU/E-U3` | "I will not untie a knot" |
 | ربيع الأول 11ھ, at الجُرْف — البدایہ ج7 ص12: «أمضى أبو بكر | `SOURCED` | `RCT/E-RC04` | The rules the first army carried |
+| ربيع الأول 11ھ, صنعاء | `SOURCED` | `ATA/E-TB27` | Three days of prayer, and then the ground moved |
 | ربيع الأول 16ھ | `SOURCED` | `GSA/E-ST26` | Which Shaʿbān? — the calendar begins with an unpaid debt |
 | رمضان 8ھ (to verify) | `STANDARD` | `TMW/E-TRN7` | Umm Ḥakīm ؓ goes after her husband |
 | رمضان 8ھ (to verify) | `STANDARD` | `TMW/E-TRN24` | Al-Dhahabī on Abū Sufyān ؓ, unsoftened |
