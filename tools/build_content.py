@@ -62,8 +62,14 @@ def cards_in(path):
     m = re.search(r"^#{1,3}\s*EVENT CARDS.*$", text, re.M)
     if not m:
         return []
-    # the cards run to the end of the file in every note written so far
+    # The cards run until the next heading of the SAME OR HIGHER level. Several notes carry
+    # sections AFTER their cards — "WHERE EACH CARD BELONGS", "ADVERSARIAL RE-CHECK", "Promote to
+    # the catalogue" — and reading to end-of-file swallowed them into the last card's body, which
+    # then went into a slide's speaker notes and into CONTENT.md as if it were narrative.
     section = text[m.end():]
+    stop = re.search(r"^#{1,2}\s+\S", section, re.M)
+    if stop:
+        section = section[:stop.start()]
 
     out, hits = [], list(CARD.finditer(section))
     for n, m in enumerate(hits):

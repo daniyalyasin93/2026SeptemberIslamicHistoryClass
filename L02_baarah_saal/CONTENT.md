@@ -854,68 +854,6 @@ E-TB21, are what `MAPS.md` should carry.
 
 ---
 
-## VERIFICATION RUN ON THE CARDS (2026-09-10)
-
-Every Arabic quotation in the cards above — **36 blockquoted statements and every inline `«…»`** —
-was machine-checked twice, with diacritics, tatweel and punctuation normalised away: **(a)** against
-the prose of this note above, and **(b)** against the cached Shamela page file for the URL printed
-beside it. **All of them trace to a fetched page.** No Arabic in this section was composed, retyped
-from memory, re-vowelled or "corrected"; every string was lifted from the note's own findings.
-
-Three things the check turned up, all now recorded in place:
-
-| What | Result |
-|---|---|
-| ج۷ ص۱۸, the zakāt ḥadīth | the cached page prints «**كانو** يؤدّونه» (no final alif); the note reads «كانوا». Logged as a **reading** at E-TB09 — verify on the image |
-| سیر ج۳ ص۱۶۲–۱۶۳ for عدي بن حاتم ؓ | both sentences used are on **ص۱۶۳ = index 2772**, not 2771. Citation corrected at E-TB23 |
-| سیر ج۲ ص۳۷۴, the ثقيف notice | the printed سیر spells out «صلى الله عليه وسلم» where this note and the card use the **ﷺ** glyph. Repo-wide convention, not a variant reading |
-
-⚠ **This does not discharge `CLAUDE.md` §1.1 and §1.4.** The Shamela text is a typed edition, not a
-page image. **Anything here that reaches a slide, a cue card or a handout must still be eyeballed
-against a printed page image first.** The two quotations that most need it before printing are the
-**٤٣٧٥** bracelets ḥadīth (E-TB17, the stray shadda) and the **جُواثى** verse (E-TB24, the divergent
-last word).
-
-**No Urdu was generated anywhere in this section. No لقب was invented. No عبرت line draws a
-present-day parallel. No CE year is used** — §8 of this note establishes none. **الطبری (9783) and
-ابن خلدون (12320) are not relied on at any point.**
-
----
-
-## WHERE EACH CARD BELONGS
-
-| Card | Session | Sits beside |
-|---|---|---|
-| E-TB01 · Arabia was a map of kin | **1**, and re-shown as the opening frame of **2** | the orientation-in-space block; before anything else in this note |
-| E-TB02 · Ten sons of Sabaʾ | **1**, with E-TB01 | immediately after E-TB01 — it fills the southern half of the same map |
-| E-TB03 · The dam broke | **1** | after E-TB02, and **before** the Medina-clans block — it is where the Aws and Khazraj come from |
-| E-TB04 · Where Quraysh begins | **1** | with the قريش بطون material; GOOD, cut first if the block runs long |
-| E-TB05 · Two halves of the peninsula | **1** | **immediately before the سقيفة block** — it is the fact underneath it |
-| E-TB06 · Ibn Kathīr's own sorting (diagram) | **2**, first half | the single frame slide before `RCT/E-RC01`; everything in the campaign hangs off it |
-| E-TB07 · Two refusals, not one | **2**, first half | straight after E-TB06, before `RCT/E-RC01` (the delegation that counted the men) |
-| E-TB08 · The Companions proposed going easy | **2**, first half | after E-TB07, before E-TB09 |
-| E-TB09 · «لو مَنَعوني عِقالًا» | **2**, first half | **immediately after E-TB08** — proposal, refusal, reason, in one run |
-| E-TB10 · One tribe, three answers | **2**, first half | with the map key; the campaign note's own CUT entry points here |
-| E-TB11 · ʿUyayna says why | **2** | **before** `RCT/E-RC09` (بُزاخة — the man who walked off the field) — same man, earlier moment |
-| E-TB12 · The man who followed knowing | **2** | with the اليمامة block, before `RCT/E-RC16`; or paired with E-TB11 as one عصبية beat |
-| E-TB13 · The verse that puts it as politics | **2**, first half | between E-TB07 and E-TB09, never standing alone at the end of a block |
-| E-TB14 · Four claimants, and when each began | **2**, first half | on the timeline strip, before any claimant is narrated |
-| E-TB15 · The letter and the reply | **2** | after E-TB14; the best pair in the strand, and it precedes `RCT/E-RC16`–`RCT/E-RC21` |
-| E-TB16 · Musaylima at Medina | **2** | before E-TB15; and **before** `RCT/E-RC18` (ثابت بن قيس ؓ), who is standing in this scene |
-| E-TB17 · The two bracelets | **2** | with E-TB14 or E-TB16, wherever the two claimants are named together |
-| E-TB18 · Sajāḥ, who she was | **2** | after `RCT/E-RC13` and **before** `RCT/E-RC14` (البُطاح — ⚠ SPEAKER'S DISCRETION) |
-| E-TB19 · What her claim was worth | **2** | immediately after E-TB18; end on the السهيلي line |
-| E-TB20 · Ṭulayḥa comes back | **2** | after `RCT/E-RC09`, with `RCT/E-RC32` (Abū Bakr ؓ judges two men who fought against him) |
-| E-TB21 · «ما خلا أهل المسجدين» | **2** | the closing map of the **first half**, and the bookend the second half opens on |
-| E-TB22 · Thaqīf did not break | **2** | one of the three corrections added to E-TB21, in front of the room |
-| E-TB23 · ʿAdī ؓ and the two names | **2** | **before** `RCT/E-RC07` (ʿAdī ؓ buys three days) — same operation, from the Medina end |
-| E-TB24 · Al-Jārūd ؓ asks five questions | **2** | with `RCT/E-RC24` (جُواثى under siege) — same page, same region, the other colour |
-| E-TB25 · The Azd on both sides | **2** | the **closing عبرت of the fault-line strand**; also fits `RCT/E-RC29` (دَبا) |
-| E-TB26 · «قُتل العنسيُّ البارحةَ» | **2**, first half | before `ABU/E-U9`; the killing and the news are two different nights |
-| E-TB27 · Three days, and the ground moved | **2** | **the opening of the ردة block** — before E-TB06 if the evening needs a scene before a diagram |
-| E-TB28 · How long the first claimant ruled | **2** | with E-TB26; GOOD, cut first if اليمن is being compressed |
-| E-TB29 · Why the map has no lines | — | not a slide. Speaker-facing; belongs in `MAPS.md` and in `BRIEFING.pdf` |
-
 ---
 
 ## The ردة wars: the campaign, front by front
@@ -1886,93 +1824,6 @@ came past. **Use the setup note's card, not a new one.**
 
 ---
 
-# VERIFICATION PASS RUN ON THIS NOTE (2026-09-06)
-
-Every blockquoted Arabic statement in this note — **119 of them** — was machine-checked back against
-the cached Shamela page files, with diacritics and footnote markers normalised away. **All 119 trace
-to a fetched page.** The only mismatches were (a) short connective words I placed in front of a
-quotation that the source separates from it by an isnād or a footnote marker, and (b) three
-quotations that straddle a printed page break — the letter to عكرمة ؓ («…بِالْيَمَنِ | وَحَضْرَمَوْتَ»,
-الکامل ج۲ ص۲۱۴–۲۱۵) and the reprisals sentence («…وَعَدَوْا عَلَى | الْإِسْلَامِ», الکامل ج۲ ص۲۰۶–۲۰۷),
-both of which are already cited across the two pages. **No Arabic in this note was composed or
-retyped from memory.**
-
-⚠ **This does not discharge CLAUDE.md §1.1 and §1.4.** The Shamela text is a typed edition, not a
-page image. **Anything that reaches a slide, a script or a handout must still be eyeballed against a
-printed page image before it is printed** — a single wrong letter changes the word, and this note
-carries a great deal of Arabic.
-
-**Also not yet done, deliberately, to avoid collision with concurrent work:**
-`docs/catalogue/SHAMELA_LOG.md` and `docs/research/INDEX.md` were **not** edited. §Z lists every
-index fetched; both files still need their rows.
-
----
-
-## ADVERSARIAL RE-CHECK (2026-09-06, second pass)
-
-Every Arabic quotation — blockquoted and inline `«…»` — was re-located in the cached pages by
-normalised substring search, and **every printed page and every shamela URL was checked against the
-cached file's own header**. All Arabic traces to a fetched page. **The following were wrong and are
-now repaired in place:**
-
-| What was wrong | Repair |
-|---|---|
-| §Z gave **3227** for البدایہ ج۷ ص۷۹ | ج۷ ص۷۹ is index **3225** (file header + البخاري ٤٩٨٦ on it). Corrected; E-RC37 was already right |
-| §0 "Sources fetched" omitted 3225 and 3158 | Both added |
-| E-RC35's URL `21712/924` | «إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ…» is on **923** (ج۲ ص۲۳۲). URL corrected; 924 kept for the ransom terms |
-| §13 put **مَحْجَر الزُّرْقان** at ج۲ ص۲۳۲ | It is at **ج۲ ص۲۳۱** (index 922) |
-| §6.7 put «فكانت فتنةُ الرجَّال أعظمَ…» at ج۷ ص۳۲ | It is at **ج۷ ص۳۳** (index 3179) |
-| §6.10 put «والجمع بينها…» wholly at ج۷ ص۳۶ | It straddles **ص۳۵–۳۶** (3181→3182); both disclosed |
-| §2.2 "**Three days later**, عبس and ذبيان killed the Muslims" | **No page gives an interval** — الکامل ج۲ ص۲۰۳ has only «فَوَثَبَ». Deleted |
-| E-RC02 "three nights later", and its عبرت | Both books form the counter-attack up **that same night** («وباتَ أبو بكر قائمًا ليله يُعَبِّئُ الناسَ»). Corrected |
-| E-RC04's «ربيع الأول ۱۱ھ` [SOURCED]`» with no page, contradicting §X | Page supplied: **البدایہ ج۷ ص۱۲** (index 3158) «أمضى أبو بكر جيشَ أسامةَ… في آخر ربيع الأول». §X item 2 and §12.2 amended to match |
-| E-RC34 dated النُّجَير **۱۲ھ** `[SOURCED]` | الکامل prints it **before** «ثم دخلت سنة اثنتي عشرة»; §12.2 says the month is not established. Year removed |
-| E-RC35 dated the ransom **۱۳ھ** `[SOURCED]` | The year is on no page used. Removed |
-| §8.2 and E-RC30 "**three weeks** earlier" | Invented interval. Deleted |
-| E-RC12 "whose mother's name had been a byword for standing" | Not on the page. Replaced with the sourced relation (daughter of أم قرفة) |
-| E-RC09's hands-up "he had followed this man **for a year**" | Invented. Corrected |
-| E-RC01's map "**ذو حُسى**, one day out" | No page gives its distance; only ذو القصة is «على مرحلةٍ». Corrected |
-| §5 gave **عدي بن حاتم ؓ over طيّئ** on ابن خلدون ج۲ ص۴۹۷ alone | A fact on ابن خلدون's sole authority — `DECISIONS.md` #29. Struck from the roster, recorded as not-usable |
-| §13 listed **ثنية اليمامة** as a map place on ابن خلدون alone | Marked ⚠ do-not-draw, same reason |
-| §5.2 said "**البدایہ and الکامل** put the scouts' deaths after طيّئ" | البدایہ ج۷ ص۲۵ puts them **before**. Corrected; the divergence is now stated |
-| §Y: «الفارس ستة آلاف» flagged as ابن خلدون's alone | It is also in **سیر ج۱ ص۲۶۵**. Corrected |
-| §12.3: «الغَرور **pardoned**» | The pages say captured, and he became Muslim. Corrected |
-| Three §Y figures silently trimmed | «عشرة آلاف **مقاتل**» restored; ابن خلدون's casualty line restored to the page's own word order («قد قُتل من الأنصار ما ينيف…») and «التابعين **لهم** مثلها»; «الفارس ستة آلاف» re-attributed |
-| Eight quotations whose **opening connective or an interpolated name** did not match the page | «فَقَالُوا لَهُ»→«وَقَالُوا لَهُ» · «فَقَالَ لَهُ: هَلْ جَاءَكَ»→«فَقَالَ: هَلْ جَاءَكَ» · «وَكَانَ أَعْظَمَ فِتْنَةً»→«فَكَانَ» · «فبعث بهما المُهاجر»→«وبعث» · «وَقَالَ الْبَرَاءُ»→«قَالَ الْبَرَاءُ» · «وَأَعْتَقَتْهَا»→«فَأَعْتَقَتْهَا» · «وَكَانُوا أَوَّلَ مُنْتَقِضٍ»→«فَكَانُوا» · «فَقَالَ **أَبُو بَكْرٍ**: هِيهِ يَا عُمَرُ» → the name is not inside the sentence |
-| Four quotations that straddle a page break with only one index given | Both indices now printed: الکامل ص۲۰۴–۲۰۵ (895/896), ص۲۰۶–۲۰۷ (897/898), ص۲۱۲–۲۱۳ (903/904), ص۲۱۴–۲۱۵ (905/906) |
-| §12.1 and E-RC36: «وعامة ما وقع…» printed twice, once outside the blockquote | De-duplicated |
-| §6.5 rendered «يتواصَون» as "charge one another" | → "enjoin one another" (ambiguous in a battle scene) |
-
-**Checked and found sound** (recorded so they are not re-checked): all three البخاري numbers
-(٧٢٢١ on البدایہ ج۷ ص۲۷ · ٢٨٤٥ on سیر ج۱ ص۳۱۱ · ٤٩٨٦ on البدایہ ج۷ ص۷۹) · «فَعَقَدَ أَحَدَ عَشَرَ لِوَاءً»
-and all eleven names in الکامل ج۲ ص۲۰۳–۲۰۴ against Ibn Kathīr's ten at ج۷ ص۲۲–۲۳ · the الصبر/النصر
-divergence in the جُواثى verse · the أذان rule on both pages · «half their force at ذو حُسى»
-(البدایہ ج۷ ص۲۰: «وخلَّفوا نصفَهم بذي حُسَى») · «واقفٌ في ثُلْمةِ جدارٍ» · «لَمْ يَكُنْ فِيهَا إِلَّا النِّسَاءُ
-وَالصِّبْيَانُ وَالضُّعَفَاءُ» · «اكْتُبُوا مَا شِئْتُمْ ثُمَّ هَلُمُّوا الْكِتَابَ حَتَّى أَخْتِمَهُ» · عمر ؓ's mail
-coat at بدر and ثابت ؓ's two white garments (سیر ج۱ ص۲۹۸، ص۳۱۱) · «فرأى أن الشُّقَّة بعيدةٌ لا يصلونَ
-إليهم في السفن» (البدایہ ج۷ ص۴۰) · العلاء ؓ's award of the خميصة («وَنَفَّلَ… فَأَعْطَى ثُمَامَةَ») beside
-ثمامة ؓ's own «اشْتَرَيْتُهَا مِنَ الْمَغْنَمِ» — the tension is the source's, not ours ·
-«فَلَمَّا دَنَا عُمَرُ مِنْهُمْ سَكَتُوا… فَلَمْ يُجِيبُوهُ» · the الفُجاءة sequence entire ·
-عكرمة ؓ's «بِضْعاً وَسَبْعِيْنَ» (سیر ج۱ ص۳۲۴ — at **اليرموك**, not in the ridda) ·
-the elided clause in Ibn Kathīr's summing-up («ويبعثون بأخماسِ ما يغنمون إلى الصديق فينفقه في
-الناس»), which the English rendering reproduces correctly. **No generated Urdu anywhere; no invented
-لقب; no عبرت line draws a present-day parallel; الطبری (9783) is not relied on at any point.**
-
-⚠ **One Shamela typo to be aware of when the page image is checked:** البدایہ ج۷ ص۲۰ prints
-«وكان أول الفتح، **قى** ذلّ بها المشركون» — the note reads it as «قد», which is plainly right, but
-that is a reading, so verify it on the image.
-
-**Promote to the catalogue:**
-
-| Fact | Goes to |
-|---|---|
-| اليمامة ۱۱ھ→۱۲ھ; جمادى الآخرة ۱۱ھ (the الأبرق ride); ربيع الأول ۱۲ھ (زيد بن الخطاب ؓ); «أواخر ۱۱ وأوائل ۱۲» for the war as a whole | `TIMELINE.md` |
-| **البراء بن مالك ؓ** (the wall, the eighty wounds, عمر ؓ's standing order) · **ثابت بن قيس ؓ** (the ḥanūṭ, البخاري ٢٨٤٥) · **سالم مولى أبي حذيفة ؓ** («بئس حامل القرآن أنا إذًا») · **زيد بن الخطاب ؓ** («ما هبت الصبا») · **العلاء بن الحضرمي ؓ** (the sixteen riders) · **عكرمة بن أبي جهل ؓ** (the letter, and the march that followed it) · **مُجّاعة بن مُرارة** (not a Companion — a counterpart) — seven ready-made notices with a real واقعہ each | `PEOPLE.md` |
-| Every index in §Z | `SHAMELA_LOG.md` |
-| The reprisals (§5.4); the البُطاح disagreement (§5.7); the «يحرقهم بالنار» clause; the burning of الفُجاءة and the unsourced "regret" claim; the البراء ؓ death confusion in ابن خلدون | `QA_BANK.md` |
-| The eleven-arrow ذو القصّة map; the four-colour key already set in `MAPS.md`; **the rule that عمان, البحرين and تميم each need more than one colour**; the gazetteer additions in §13 | `MAPS.md` |
-| «فَوَفَى لَهُمْ وَلَمْ يَغْدِرْ» (the treaty kept against an order) · «وكان هذا الاختلاف رحمة على المؤمنين» · «قبل منهما علانيتهما ووكل سرائرهما إلى الله» · وحشي ؓ on the courage of the men he beat | `LESSONS.md` |
-
 ---
 
 ## جيش أسامة ؓ, and the Qur'an collected
@@ -2316,22 +2167,6 @@ met.
 البدایہ ج۷ ص۱۷, where Ibn Kathīr says «والأول أشهر». Do not adjudicate on a slide.)*
 
 ---
-
-## 10. Promote to the catalogue
-
-Once these are settled, the following belong in `docs/catalogue/` and artifacts should read them
-from there, not from this note:
-
-| Fact | Goes to |
-|---|---|
-| أسامة ؓ was eighteen at his appointment — سیر ج۲ ص۵۰۰ | `PEOPLE.md` |
-| زيد بن ثابت ؓ — کاتب الوحی, أفرض الأمة, orphaned at بُعاث, eleven at the Hijra, seventeen سور, the Jews' script in a fortnight, Syriac in seventeen days — سیر ج۲ ص۴۲۷–۴۳۲ | `PEOPLE.md` (a complete تعارف panel, four lines, already page-cited) |
-| جيش أسامة marched آخر ربيع الأول ۱۱ھ; away 40 (said 70) days — البدایہ ج۷ ص۱۰، ص۱۲ | `TIMELINE.md` |
-| جمع القرآن = سنة ۱۲ھ — البدایہ ج۷ ص۷۹; سیر راشدون ص۶۳ | `TIMELINE.md` |
-| اليمامة straddles ۱۱–۱۲ھ; المشهور = ربيع ۱۲ھ — البدایہ ج۷ ص۳۵–۳۶، ص۴۳; الکامل places it in ۱۱ھ (ج۲ ص۲۱۴) | `TIMELINE.md`, **with the dispute recorded, not resolved** |
-| «کیسے پتا چلا؟» item: Ibn Kathīr grading his own narrator on the page (عبّاد بن كثير, البدایہ ج۷ ص۱۱) and الذہبی grading علی ؓ's chain «إسناده حسن» (سیر راشدون ص۱۵) | `HOWWEKNOW.md` |
-| Q&A: *"Wasn't the Qur'an changed when they collected it?"* — answer from زيد ؓ's own reported objection and أبو بكر ؓ's «هو والله خير», plus علی ؓ's statement, plus the صحف returned to حفصة ؓ | `QA_BANK.md` |
-| Every page in §9's index table | `SHAMELA_LOG.md` |
 
 ---
 
@@ -5070,34 +4905,6 @@ tell it to you as history.")*
 
 ---
 
-## WHERE EACH CARD BELONGS
-
-| Card | Sits beside | Why |
-|---|---|---|
-| **E-HS1** The dower that was Islam | **L01** — beside the Medina clans block (`medina-ansar-structure.md`), or as the opening تعارف of the household | Introduces بنو النجار as a *household*, not a name on a clan chart. If L01 is full, it opens L02's household thread instead. |
-| **E-HS2** The gift she had left | **L01**, immediately after E-HS1 | Same evening, same house, ten seconds later in narrative time. |
-| **E-HS3** Ten years, and not one rebuke | **L01** — the «آج کا سبق» candidate, or L10's closing | Self-contained, ṣaḥīḥ, and needs no map. |
-| **E-HS4** «I find the scent of Paradise» | **L01** if أحد is touched at all; otherwise **L02**, as the *first* card of the household thread, told before حديقة الموت | This is the card that makes E-HS16 land. If only one household card can be told before session 2's ردة block, it is this one. |
-| **E-HS5** Known by his fingertips | Immediately after **E-HS4**, same slide-pair | It is the second half of the same ṣaḥīḥ report. Never separate them by more than a minute. |
-| **E-HS6** «What will you do with life after him?» | **L02**, beside the wafāt/آل عمران ۱۴۴ material in `wafat-and-medina-11h.md` | The verse أبو بكر ؓ recites in ۱۱ھ is the verse البدایہ ج۴ ص۲۰۲ attaches to this very moment at أحد. Two crises, one verse — a real, page-cited echo. |
-| **E-HS7** The dagger at Ḥunayn | **L01** or **L02**, wherever أم سليم ؓ is introduced | Short, memorable, and it is the card that stops the household being heard as a domestic story. |
-| **E-HS8** The water-carriers at Uḥud | **L01**, with E-HS4/E-HS5 | Same day, same field; also introduces أبو طلحة ؓ as a fighter before he is needed as a husband. |
-| **E-HS9** «It was a loan» | **L01** — strong «آج کا سبق» candidate; or a later session on ṣabr | The single most-retold story of the household. Its value here is that we now have the *page* version and the popular version side by side. |
-| **E-HS10** Bayruḥāʾ | **L01**, or park for a later session | Excellent, but not load-bearing for the ردة narrative. |
-| **E-HS11** «I have won» | **L01** if بئر معونة is touched; otherwise **L02**, as the pair to E-HS12 | Must be told **before** E-HS12, which depends on it. |
-| **E-HS12** The reason the Prophet ﷺ came to that house | Immediately after **E-HS11** | Meaningless without it; devastating with it. |
-| **E-HS13** Umm Ḥarām and the sea | **L02** if the frontier at ۲۳ھ is drawn, else **L03** (۲۳–۴۰ھ, عثمان ؓ) | Its map value is that it is the **first point across water** — the natural bridge from the Rāshidūn land frontier to the Mediterranean. It also pairs with `nahawand-the-shura-and-the-death-of-umar.md` on what عمر ؓ refused and عثمان ؓ allowed. |
-| **E-HS14** «Do not put al-Barāʾ over an army» | **L02**, in the عمر ؓ / state-building block, beside `umar-the-state-diwan-calendar-and-the-two-trials.md` | It is an administration card wearing a battlefield costume — exactly the register the عمر ؓ block needs. |
-| **E-HS15** «Do you see me dying in my bed?» | **L02**, immediately before **E-HS16** | Sets up the wall: he had already told his brother he would not die in bed. |
-| **E-HS16** Over the wall at Ḥadīqat al-Mawt | **L02 — directly beside the existing حديقة الموت card (RCT/E-RC20)** | This is the whole point of the strand. The existing card carries the *event*; this one carries the *family sentence*. They should be one beat, not two. |
-| **E-HS17** The oath at Tustar | **L02**, in the ۱۷–۲۰ھ Persian-frontier block (with `qadisiyya-madain-and-the-embassy.md`) | Closes البراء ؓ's story at تُسْتَر, on the same map, moving eastward. (Give no interval in years: the garden is ۱۲ھ, but تُسْتَر is narrated under both ۱۷ھ and ۲۰ھ — §5.5.) |
-| **E-HS18** The dawn prayer at Tustar | Immediately after **E-HS17** | Puts the servant-boy of L01 at his brother's death, and closes the household loop in one line. |
-| **E-HS19** «Equip me» | **L03** (۲۳–۴۰ھ), in the عثمان ؓ block | He dies under عثمان ؓ; and his sea voyage sits naturally next to E-HS13's Cyprus expedition, which is the same caliphate and the same water. |
-
-**If only three of these can be told in the whole course:** E-HS4 + E-HS5 (Uḥud, the uncle), then
-E-HS16 (the wall, the nephew, with the family sentence). The room meets a family in session 1 and
-recognises it in session 2 — which is what this strand was commissioned to make possible.
-
 ---
 
 ## The people: أبو حذيفة ؓ and سالم ؓ
@@ -5554,44 +5361,6 @@ have one.
 
 ---
 
-## WHERE EACH CARD BELONGS
-
-`RCT` = `docs/research/ridda-campaign-the-conduct-of-the-wars.md` card pool ·
-`WFT` = `docs/research/wafat-and-medina-11h.md` · `SHU` = `docs/research/suhayl-ibn-amr.md` ·
-`SHU` cards sit in session 2's Mecca block.
-
-| Card | Sits beside | Session | Why there |
-|---|---|---|---|
-| **E-AS01** The half-dinar ship | — (session 1 backstory, or cut) | **1**, if the orientation evening wants one pre-hijra beat | It is the only card here that is not ۱۱–۱۲ھ. **Most likely CUT from session 2** — it does not earn its 90 seconds against the rest |
-| **E-AS02** Son of the elder of the Jāhiliyya | opens the pairing | **2** | The set-up card. Nothing else works until the room knows whose son he was |
-| **E-AS03** Badr — the father and the brother | immediately after E-AS02 | **2** | One slide; the map shows بدر once and does not come back to it |
-| **E-AS04** The face at the well | immediately after E-AS03 | **2** | The pay-off of the Badr pair, and the humane note. **If only one Badr card survives, keep this one** |
-| **E-AS05** The sentence he feared | after E-AS04 — ⚠ discretion | **2** | It is the card that reaches forward to al-Yamāma. Cut it before cutting E-AS04 |
-| **E-AS06** From Iṣṭakhr | opens the Sālim ؓ half | **2** | Must precede E-AS07 or the Qubāʾ card has no force |
-| **E-AS07** The imām at Qubāʾ | after E-AS06 · **pairs naturally with `RCT/E-RC37`** (the Qurʾān was collected because of this) | **2** | Same theme: what the ummah lost when the reciters died |
-| **E-AS08** The night he was listened to | after E-AS07 | **2** | Already used inside `RCT` §6.5 — **avoid telling it twice in one evening**; give it here and drop it from the al-Yamāma block |
-| **E-AS09** Take the Qurʾān from four | after E-AS08 · **directly before `RCT/E-RC37`** | **2** | It is the single sentence that makes E-RC37 land |
-| **E-AS10** The adoption undone | ⚠ discretion — after E-AS06 if used at all | **2** | The household card. **Recommended: hold in reserve, do not script** |
-| **E-AS11** "A wretched bearer of the Qurʾān" | **beside `RCT/E-RC18`** (Thābit ؓ and the shroud) and before `RCT/E-RC19` («امتازوا») | **2** | Same phase of the battle, same register |
-| **E-AS12** "Adorn the Qurʾān with deeds" | **immediately after E-AS11** | **2** | The two must be told as a pair or the point is lost |
-| **E-AS13** The banner nobody would leave | **beside `RCT/E-RC23`** (Zayd b. al-Khaṭṭāb ؓ) | **2** | It is the same moment told from the other man's side |
-| **E-AS14** The pit | **beside `RCT/E-RC18`** | **2** | Same act, same words; tell them together or tell only E-RC18 |
-| **E-AS15** The hand and the verse | after E-AS12, **before `RCT/E-RC20`** (حديقة الموت) | **2** | It reaches back to `WFT` and Abū Bakr's ؓ khuṭba — the strongest single link in the evening |
-| **E-AS16** "Lay me down between them" | **immediately after `RCT/E-RC20`**, as the field goes quiet | **2** | It is the closing beat of the battle block. Nothing should follow it except E-AS17 |
-| **E-AS17** How they were found | **immediately after E-AS16** | **2** | Two sentences, then stop |
-| **E-AS18** "Had Sālim been alive" | **beside `RCT/E-RC38`** or, better, held for the شورى block near `nahawand…md` **E-U18** | **2**, late | It is the card that shows the cost of ۱۲ھ still being counted in ۲۳ھ. **Best placed at the very end of the evening** |
-| **E-AS19** The inheritance sent back | after E-AS17, if time | **2** | GOOD, not CORE. First to cut |
-
-**If the evening can carry only five of these**, the five are **E-AS02 → E-AS04 → E-AS07 →
-E-AS11+E-AS12 (as one) → E-AS16**, and they tell the whole household in about six minutes: whose son
-he was, what the Prophet ﷺ asked him at the well, who the freedman was and why they put him in
-front, what each of them called out on the last field, and what the freedman asked for at the end.
-
-**And the connection to `suhayl-ibn-amr.md` is free and should be taken.** سهلة ؓ, the wife of
-أبو حذيفة ؓ, is the daughter of سهيل بن عمرو ؓ (سیر ج۱ ص۱۶۵). **The man who held Mecca in ۱۱ھ was
-this household's father-in-law.** One sentence, no extra research, and it stitches the Mecca block
-of session 2 to the al-Yamāma block.
-
 ---
 
 ## The people: زيد بن الخطاب ؓ and the dead of اليمامة
@@ -5984,31 +5753,6 @@ reciters" has misread البدایہ ج۷ ص۵۵.**
 
 ---
 
-## WHERE EACH CARD BELONGS
-
-| Card | Sits beside | Why |
-|---|---|---|
-| **E-ZY1** The brother who went first | **before RCT/E-RC15** — or in the بدر pegs of session 1 | It is a Badr scene. It has to be planted early so that E-ZY5 and E-ZY6 can collect on it later in the same evening |
-| **E-ZY2** The banner and the vow | **immediately after RCT/E-RC17** (the line breaks), before RCT/E-RC18 | It belongs in the rally sequence with سالم ؓ and أبو حذيفة ؓ, which E-RC18's tail already carries |
-| **E-ZY3** The first man out of their line | **inside RCT/E-RC17**, as one line | Too small for its own slide; it is the sentence that connects الرجال (already introduced) to زيد ؓ |
-| **E-ZY4** The man who killed him | **after RCT/E-RC22** (the treaty kept) | It is an after-the-battle scene and it belongs with the other "what happened to the enemy afterwards" material |
-| **E-ZY5** «سبقني إلى الحسنيين» | **merge into RCT/E-RC23** as its opening | E-RC23 currently opens on the biography; this is the stronger opening and it is on a page E-RC23 does not yet cite |
-| **E-ZY6** The east wind | **RCT/E-RC23 already carries this quotation** — replace its body with E-ZY5+E-ZY6 and keep the son's answer as the tail | One card, three sentences of ʿUmar ؓ, ending on the wind |
-| **E-ZY7** The poet and the consolation | **after the reworked RCT/E-RC23**, if time — **GOOD, and cuttable** | Guardrail card. It is the first thing to drop if the evening is running long |
-| **E-ZY8** Two brothers by appointment | **new opening for the whole اليمامة act**, before RCT/E-RC16 | It is the frame the act has been missing: it tells the room to watch for households, and then the act delivers four of them |
-| **E-ZY9** «So that I may confirm him dead» | **session 1 closing, or session 2 Bookend IN** | Maʿn ؓ is already on the road to سقيفة in session 1. Say this line there, and the room recognises the name when he dies in session 2. **This is the single best use of the bookend mechanism in the whole strand** |
-| **E-ZY10** «Are you not content to live praised?» | **immediately before RCT/E-RC18** | E-RC18 is a gesture without it and a fulfilment with it |
-| **E-ZY11** The armour in the cooking pot | **immediately after RCT/E-RC18** | Same man, and it moves the act from the field back to Medina, which is where the act has to end |
-| **E-ZY12** The arrow he pulled out | **beside RCT/E-RC20** (al-Barāʾ ؓ over the wall) | Two men who would not be carried. Al-Barāʾ ؓ survived with eighty wounds; Abū ʿAqīl ؓ did not survive. Tell them as a pair |
-| **E-ZY13** The son of the head of the hypocrites | **anywhere in the اليمامة roll block** — GOOD | Best used as one of two or three names read out over the roll slide rather than as its own beat |
-| **E-ZY14** Three generations, one morning | **in the same roll block**, right after E-ZY13 | Two household cards back to back give the roll its shape |
-| **E-ZY15** The mother at al-Yamāma | **before RCT/E-RC21** (the death of Musaylima) | Ḥabīb ؓ establishes what Musaylima was, in one page-cited scene, so that E-RC21 does not have to assert it. And it puts her on the field before her son's killer is killed |
-| **E-ZY16** The father at al-Yamāma, the son at al-Yarmūk | **hold for the end of the اليمامة act, or roll forward to the يرموك act** | It is the natural hinge from the ردة to the Byzantine frontier — the map moves from Najd to Syria on one family |
-| **E-ZY17** The number nobody can give | **immediately before the existing جمع القرآن card** (CONTENT.md line ~1290) | It is the honesty beat that has to come before the collection is narrated, and it forecloses the wrong number being said from the floor |
-| — | **Promote to `PEOPLE.md`:** زيد بن الخطاب ؓ · معن بن عدي ؓ · ثابت بن قيس ؓ (expanded) · أبو عقيل ؓ · عبد الله بن عبد الله بن أبي ؓ · حزن ؓ · أم عمارة رضي الله عنها · الطفيل بن عمرو ؓ — eight notices with a real واقعہ each | |
-| — | **Promote to `TIMELINE.md`:** **ربيع الأول ۱۲ھ** for زيد بن الخطاب ؓ (already there from the ridda note — this note confirms it from سیر ج۱ ص۲۹۸) | |
-| — | **Promote to `QA_BANK.md`:** the متمم guardrail (§3.4) · the dream-and-will report and الهيثمي's «هو في الصحيح غير قصة الدرع» (§5.5) · **the qurrāʾ number (§12) — this is the likeliest hostile slip of the evening** · the four accounts of who killed مسيلمة (§9.3) | |
-
 ---
 
 ## The people: the men who had fought against it
@@ -6270,44 +6014,6 @@ reciters" has misread البدایہ ج۷ ص۵۵.**
 **Hands-up?** no — but say the last clause slowly. It is the seed of session 4.
 
 ---
-
-## WHERE EACH CARD BELONGS
-
-Daniyal decides what goes where; this is where each would land if nothing else changed.
-`RCT/E-RC20` = the ḥadīqat al-mawt card in the session-2 ridda pool.
-
-| Card | Sits beside | Session |
-|---|---|---|
-| E-TRN1 · Uḥud order of battle | **the opening of the evening**, before Khālid ؓ is first named — it is the frame the whole strand hangs on | **2** |
-| E-TRN2 · Waḥshī ؓ tells it himself | immediately before E-TRN3; or hold as a source-remark inside E-TRN4 | **2** |
-| E-TRN3 · "Keep your face away" | pairs with E-TRN2 — read the two as one beat | **2** |
-| E-TRN4 · The same spear | **`RCT/E-RC20` — ḥadīqat al-mawt.** This is the card that gives that field its second half | **2** |
-| E-TRN5 · Waḥshī ؓ on Musaylima's men | same slide as E-TRN4, as its closing line | **2** |
-| E-TRN6 · The ship | before any ridda material, in the ۸ھ recap the evening needs anyway | **2** (or **1**, if session 1's Conquest material is extended) |
-| E-TRN7 · Umm Ḥakīm ؓ | same slide as E-TRN6 — they are one journey | **2** |
-| E-TRN8 · The cloak | closes the E-TRN6/7 block | **2** |
-| E-TRN9 · "Not until you have proved yourself" | **the ʿUmān and Mahra cards** — this is the sentence that sent him there | **2** |
-| E-TRN10 · The muṣḥaf | as the ʿIkrima ؓ notice on the worksheet, or as the closing عبرت of the ridda block | **2** |
-| E-TRN11 · "Shall I run from you today?" | **the Yarmūk block** | **2** |
-| E-TRN12 · The one cup | **directly after E-TRN11, same slide.** Never separate them | **2** |
-| E-TRN13 · Buzākha, the question | **the Buzākha card in the ridda pool** | **2** |
-| E-TRN14 · Ṭulayḥa ؓ comes back | **wherever session 2 currently ends Ṭulayḥa's story** — it must not end with him fleeing | **2** |
-| E-TRN15 · Consulted, never commanded | with E-TRN14, or in the Qādisiyya block | **2** |
-| E-TRN16 · The night ride at Nahāwand | **the Nahāwand block** — Nahāwand is late session 2 or early session 3 | **2 → 3** |
-| E-TRN17 · How Ṭulayḥa ؓ died | closes E-TRN16 | **2 → 3** |
-| E-TRN18 · The voice under the banner | **the Yarmūk block**, after E-TRN11/12 | **2** |
-| E-TRN19 · Abū Bakr ؓ walks beside the stirrup | **the sending of the Syrian armies** | **2** |
-| E-TRN20 · Two men on the same road | with E-TRN1, as its answer; or in session 1's Conquest material | **2** (or **1**) |
-| E-TRN21 · The Sword of Allah ḥadīth | **the moment Khālid ؓ is given the ridda command** | **2** |
-| E-TRN22 · Where ʿIkrima ؓ died | as the evening's one source-remark — "how do we know?" — inside the Yarmūk block | **2** |
-| E-TRN23 · The house of Abū Jahl at Ajnādayn | **the Ajnādayn card**; or fold into E-TRN11 as one sentence | **2** |
-| E-TRN24 · Al-Dhahabī on Abū Sufyān ؓ | **hold for session 4.** It is the fairest available introduction to Banū Umayya, in an imām's own words | **4** |
-| E-TRN25 · How Muʿāwiya ؓ came to hold Syria | **the plague of ʿAmwās card** in session 2, planted; harvested in **session 4** | **2 → 4** |
-
-**One structural suggestion.** E-TRN1 and E-TRN11 are the same fact seen from two ends, twelve
-years apart. If session 2 opens with the Uḥud order of battle on a diagram and closes the Yarmūk
-block with ʿIkrima ؓ's sentence, the evening's largest عبرت needs no commentary at all — the room
-will have supplied it.
 
 ---
 
