@@ -94,7 +94,8 @@ def parse_statement(block):
         else:
             if phase != "ar":
                 english.append(re.sub(r"^\*?English:?\*?\s*", "", line, flags=re.I).strip("* "))
-    return (" ".join(arabic) or None, cite, " ".join(english) or None)
+    strip = lambda v: re.sub(r"</?[a-zA-Z][^>]{0,120}>", "", v).strip() if v else v
+    return (strip(" ".join(arabic)) or None, cite, strip(" ".join(english)) or None)
 
 
 def cards_of(content_md):
@@ -147,6 +148,8 @@ def notes_for(c):
     return "\n".join(bits)
 
 
+HON_KEEP = re.compile("[\u0610-\u0615\u0617-\u061A\uFDFA\uFDFB]")
+
 ARABIC_DIGITS = str.maketrans("\u0660\u0661\u0662\u0663\u0664\u0665\u0666\u0667\u0668\u0669"
                               "\u06f0\u06f1\u06f2\u06f3\u06f4\u06f5\u06f6\u06f7\u06f8\u06f9",
                               "01234567890123456789")
@@ -155,6 +158,30 @@ ARABIC_DIGITS = str.maketrans("\u0660\u0661\u0662\u0663\u0664\u0665\u0666\u0667\
 # CLAUDE.md 1.3 forbids Arabic and English sharing one line - the bidi algorithm reorders it and
 # "The ردة wars" came out as "The ردةwars".
 TRANSLIT = [
+    ("أبو عبيدة", "Abu Ubayda"),
+    ("حديقة الموت", "Hadiqat al-Mawt"),
+    ("ذو القصّة", "Dhu al-Qassa"),
+    ("ذو القصة", "Dhu al-Qassa"),
+    ("أم زمل", "Umm Zaml"),
+    ("الجابية", "al-Jabiya"),
+    ("الفُجاءة", "al-Fuja'a"),
+    ("البُطاح", "al-Butah"),
+    ("عَقْرَباء", "Aqraba"),
+    ("بُزاخة", "Buzakha"),
+    ("جُواثى", "Juwatha"),
+    ("دارين", "Darin"),
+    ("دَبا", "Daba"),
+    ("الأبرق", "al-Abraq"),
+    ("خالد", "Khalid"),
+    ("أم سليم", "Umm Sulaym"),
+    ("أبو حذيفة", "Abu Hudhayfa"),
+    ("سالم", "Salim"),
+    ("زيد بن الخطاب", "Zayd b. al-Khattab"),
+    ("اليمامة", "al-Yamama"),
+    ("العهدة العمرية", "the Umari Covenant"),
+    ("أسامة", "Usama"),
+    ("أبو بكر الصديق", "Abu Bakr al-Siddiq"),
+    ("الردة", "Ridda"),
     ("\u0627\u0644\u0631\u062f\u0629", "Ridda"), ("\u0631\u062f\u0629", "Ridda"),
     ("\u062c\u064a\u0634 \u0623\u0633\u0627\u0645\u0629", "Jaysh Usama"),
     ("\u0623\u0628\u0648 \u0628\u0643\u0631", "Abu Bakr"), ("\u0639\u0645\u0631", "Umar"),
@@ -205,7 +232,25 @@ def cite_en(t):
 
 
 TIER_LEAD = re.compile(r"^\s*(?:CORE|GOOD|CUT)\b\s*[\u2014\u2013:.\-]*\s*", re.I)
+HTML_TAG = re.compile(r"</?[a-zA-Z][^>]{0,120}>")
 CARD_REF = re.compile(r"\(?\s*(?:see\s+)?(?:[A-Z]{2,4}/)?E-[A-Z]{1,4}\d+[^)\n]{0,40}?\)?", re.I)
+
+
+AR_WORD = re.compile("[\u0621-\u064A\u066E-\u06D3]{2,}")
+
+
+def romanise(t):
+    """Apply the transliteration table only — no stripping."""
+    for a, e in TRANSLIT:
+        t = t.replace(a, e)
+    return t
+
+
+def headline_for(title):
+    """A projected headline must not mix scripts (CLAUDE.md 1.3) — unless the alternative is worse."""
+    if AR_WORD.search(romanise(title)):
+        return clean(title)                  # something has no romanisation: keep it whole
+    return clean(title, translit=True)
 
 
 def clean(t, translit=False):
@@ -215,14 +260,27 @@ def clean(t, translit=False):
     prose to point at another card; that is apparatus for us and meaningless to the room
     (DECISIONS.md #30).
     """
-    t = CARD_REF.sub("", str(t))
+    # Some notes wrap their Arabic in <div dir="rtl"> … </div>. The tag is markup for a
+    # rendered page, and it was printing literally on slides.
+    t = HTML_TAG.sub("", str(t))
+    t = CARD_REF.sub("", t)
     # a few notes wrote the tier into the card TITLE ("CUT - recorded so it is never...")
     t = TIER_LEAD.sub("", t)
     t = re.sub(r"[`*_]", "", t).translate(ARABIC_DIGITS)
     if translit:
         for a, e in TRANSLIT:
             t = t.replace(a, e)
-        t = ARABIC_CH.sub("", t)                      # anything left over would break the line
+        # Keep the honorific marks (ؓ ﷺ) — they are single glyphs, they read correctly
+        # beside English, and deck2 sets them in a face that has them. Strip only
+        # Arabic WORDS that had no transliteration.
+        t = HON_KEEP.sub(lambda m: "\x00%d\x00" % ord(m.group(0)), t)
+        t = ARABIC_CH.sub("", t)
+        t = re.sub(r"\x00(\d+)\x00", lambda m: chr(int(m.group(1))), t)
+        # stripping can leave a heading dangling — "The people: and", "and the dead of".
+        # A section slide is projected, so a fragment is worse than a slightly blunt title.
+        t = re.sub(r"\s{2,}", " ", t)
+        t = re.sub(r"[\s,·:—–-]*\b(?:and|of|the|for|in|to)\b[\s,·:—–-]*$", "", t, flags=re.I)
+        t = re.sub(r"^[\s,·:—–-]+|[\s,·:—–-]+$", "", t)
     return re.sub(r"\s{2,}", " ", t).strip(" \u00b7,-\u2014")
 
 
@@ -257,7 +315,7 @@ def build(session_dir, out_name="L02_ALL.pptx"):
             section = c["section"]
             D.section_slide(prs, clean(section, translit=True))
 
-        head = clean(short(face(c["title"]), 9))
+        head = headline_for(short(face(c["title"]), 9))
         # ONLY the date reaches the slide face. The tier, the certainty label and the card id
         # are production apparatus and belong in the speaker notes (DECISIONS.md #30) — deck2's
         # audit now refuses a build that puts any of them in front of the room.

@@ -240,19 +240,39 @@ def note(slide, s):
 
 
 def header(slide, headline, kicker=None):
-    """The teal title bar and the gold rule — the whole of the series identity."""
-    rect(slide, 0, 0, W, BAND_H, fill=TEAL, name="band")
-    rect(slide, 0, BAND_H, W, Pt(4.5), fill=GOLD, name="rule")
+    """The teal title bar and the gold rule — the whole of the series identity.
+
+    THE BAND GROWS TO FIT ITS HEADLINE, and the type steps down if it must.
+
+    Before this, the band was a fixed 1.18 inches and the headline a fixed 40pt. A headline of
+    more than about forty characters wrapped to two lines, and because the box was middle-anchored
+    the overflow went BOTH ways: upward over the gold kicker, and downward past the bottom of the
+    band onto the white slide — where cream text on white is invisible. Daniyal saw it as "the top
+    row is not visible in many slides, due to the white color". It was not a colour bug; the text
+    had simply left the coloured area.
+    """
+    hl = str(headline or "")
+
+    # Georgia bold, measured across the content width. Two lines is the hard limit — a
+    # three-line headline is not a headline.
+    for size, per_line in ((HEADLINE_PT, 42), (34, 51), (30, 58), (MIN_PT + 2, 64)):
+        lines = max(1, -(-len(hl) // per_line))
+        if lines <= 2:
+            break
+
+    top = Inches(0.44) if kicker else Inches(0.20)
+    text_h = Inches(0.10 + lines * size * 1.22 / 72.0)
+    band_h = max(BAND_H, top + text_h + Inches(0.12))
+
+    rect(slide, 0, 0, W, band_h, fill=TEAL, name="band")
+    rect(slide, 0, band_h, W, Pt(4.5), fill=GOLD, name="rule")
 
     if kicker:
-        text(slide, kicker, MARGIN, Inches(0.10), CONTENT_W, Inches(0.32),
+        text(slide, kicker, MARGIN, Inches(0.10), CONTENT_W, Inches(0.30),
              size=MIN_PT, color=GOLD, font=SANS, bold=True)
-        y, h = Inches(0.44), Inches(0.66)
-    else:
-        y, h = Inches(0.20), Inches(0.80)
 
-    text(slide, headline, MARGIN, y, CONTENT_W, h, size=HEADLINE_PT, color=CREAM,
-         font=EN, bold=True, anchor=MSO_ANCHOR.MIDDLE)
+    text(slide, hl, MARGIN, top, CONTENT_W, text_h, size=size, color=CREAM,
+         font=EN, bold=True, anchor=MSO_ANCHOR.TOP, line=1.16)
     return slide
 
 
