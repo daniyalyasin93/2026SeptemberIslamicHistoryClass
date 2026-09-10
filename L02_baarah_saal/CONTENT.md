@@ -1833,7 +1833,7 @@ Abū Bakr ؓ to tell him what he had done. Ibn Kathīr gives the reason in one c
 apostate Arabs who heard of it would take warning. A separate report in al-Dhahabī, about Banū Sulaym,
 records that ʿUmar ؓ objected to Abū Bakr ؓ — and records Abū Bakr's ؓ answer.
 **The statement:**
-> … فَقَالَ عُمَرُ لأَبِي بَكْرٍ: أَتَدَعُ رَجُلاً يُعَذِّبُ بِعَذَابِ اللهِ؟ قَالَ: وَاللهِ لاَ أَشِيْمُ (٢) سَيْفاً سَلَّهُ اللهُ عَلَى عَدُوِّهِ
+> … فَقَالَ عُمَرُ لأَبِي بَكْرٍ: أَتَدَعُ رَجُلاً يُعَذِّبُ بِعَذَابِ اللهِ؟ قَالَ: وَاللهِ لاَ أَشِيْمُ سَيْفاً سَلَّهُ اللهُ عَلَى عَدُوِّهِ
 > — سیر أعلام النبلاء ج۱ ص۳۷۲ · https://shamela.ws/book/10906/1798
 > *English:* "ʿUmar said to Abū Bakr: Will you leave a man who punishes with the punishment of Allah? He
 > said: By Allah, I will not sheathe a sword Allah has drawn against His enemy."
