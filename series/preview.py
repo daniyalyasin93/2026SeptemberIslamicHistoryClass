@@ -23,6 +23,25 @@ import glob
 from PIL import Image
 
 PPT_SAVE_AS_PNG = 18
+PPT_SAVE_AS_PDF = 32
+
+
+def to_pdf(pptx, out=None):
+    """Export a deck to PDF beside it, so it can be read anywhere a .pptx cannot be opened."""
+    pptx = os.path.abspath(pptx)
+    out = os.path.abspath(out or os.path.splitext(pptx)[0] + ".pdf")
+    ps = ("$ErrorActionPreference='Stop';"
+          "$app = New-Object -ComObject PowerPoint.Application;"
+          "$p = $app.Presentations.Open('%s', $true, $false, $false);"
+          "$p.SaveCopyAs('%s', %d);"
+          "$p.Close(); $app.Quit();"
+          "[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app) | Out-Null"
+          % (pptx.replace("'", "''"), out.replace("'", "''"), PPT_SAVE_AS_PDF))
+    r = subprocess.run(["powershell", "-NoProfile", "-NonInteractive", "-Command", ps],
+                       capture_output=True, text=True)
+    if r.returncode != 0 or not os.path.exists(out):
+        raise SystemExit("PDF export failed:\n" + (r.stderr or r.stdout)[:800])
+    return out
 
 
 def export(pptx, outdir=None):

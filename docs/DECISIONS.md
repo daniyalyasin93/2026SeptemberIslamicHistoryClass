@@ -428,3 +428,43 @@ sentence. Bringing him in for a *fact* would quietly widen the evidentiary base 
 
 **On the slide and in the room:** when a judgement of his is used, it is attributed to him by name.
 It is never presented as what happened; it is presented as how he read what happened.
+
+## 30 · A slide face carries only what the room may see — and every deck ships a PDF — 2026-09-10
+
+Daniyal's standing instruction, given after reading the decks:
+
+> *"in the pptx you build, ever. always make sure there is nothing which can not be presented to
+> audience, like ai markers etc. or guidelines to me, you can put that in the notes for the slides,
+> also please always export a pdf preview as well."*
+
+### 30.1 Nothing on a slide face but the lecture
+
+**Production apparatus never appears on a slide. It goes in the SPEAKER NOTES.** That includes:
+certainty labels (`[SOURCED]`, `[STANDARD]`, `[CONVENTIONAL-ESTIMATE]`, `(to verify)`) · tier tags
+(`CORE`, `GOOD`, `CUT`, `Tier:`) · card ids (`RCT/E-RC20`, `E-HS4`) and cross-references between
+cards · build markers (`CUT-IF-SHORT`) · instructions to the speaker (`[HANDS]`, `WORKSHEET`,
+"speaker's discretion") · `n/a` and other not-applicable markers · `IMAGE BRIEF` text · the words
+Claude, Gemini, AI-generated, LLM · and raw URLs, since a slide cites the **printed page**, not a
+link.
+
+**This is enforced, not remembered.** `series/deck2.py` carries a `FORBIDDEN` list and `audit()`
+raises on any match found in a slide's text, so the build fails rather than shipping it. The one
+exemption is the image placeholder, which is named `PLACEHOLDER::…` precisely so the audit can see
+that it is scaffolding meant to be deleted — and `save()` reports how many are still unfilled.
+
+**Why it is a build rule and not a review item.** This is exactly the class of defect that survives
+every review and then appears on a projector in front of two hundred people. When the rule was
+first written, a single build of `L02_ALL.pptx` was found to be putting `[SOURCED]`, `CORE ·`,
+`(to verify)` and `n/a` on slide faces — and four separate rounds of fixing were needed before the
+audit went quiet, because each round revealed another field nobody had thought about. A human
+reviewer would not have caught the fourth one.
+
+### 30.2 Every deck ships a PDF beside it
+
+`deck2.save()` now writes `<deck>.pdf` alongside `<deck>.pptx`, every time, via PowerPoint.
+
+**Why:** Daniyal reads and checks on a phone and on other machines, where a `.pptx` is not
+viewable and PowerPoint is not to hand. A deck nobody can open is a deck nobody checks — and every
+defect session 1's audience reported was one a single glance would have caught. `series/preview.py`
+also exports per-slide PNGs and a contact sheet, which is what Claude itself should look at before
+claiming a deck is right.

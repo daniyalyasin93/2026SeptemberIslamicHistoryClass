@@ -29,64 +29,101 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #
 # Acts are the shape of the evening, not headings the audience sees.
 # --------------------------------------------------------------------------------------------
+# A card marked with a leading "*" is in the RECOMMENDED 45-MINUTE CUT. Everything else is the
+# over-build (DECISIONS.md #20) and is there to be deleted. The four people strands are woven in
+# at the exact points their own notes' "where each card belongs" tables specify — a household is
+# only worth researching if the room meets it inside the story, not in an appendix.
 SPINE = [
-    ("ACT 1 · The army he would not call back",
-     "11 AH · the first ten days", [
-         "ABU/E-U1",    # the appointment nobody liked
-         "ABU/E-U3",    # "I will not untie a knot the Prophet ﷺ tied"
-         "ABU/E-U4",    # the beard, and the man who would not be deposed
-         "ABU/E-U5",    # the caliph on foot beside the mounted commander
-         "ABU/E-U6",    # forty days, and what the tribes concluded
+    ("ACT 1 \u00b7 The army he would not call back",
+     "11 AH \u00b7 the first ten days", [
+         "TMW/E-TRN1",   # أحد order of battle - the frame, planted BEFORE خالد ؓ is first named
+         "*ABU/E-U1",    # the appointment nobody liked
+         "*ABU/E-U3",    # "I will not untie a knot the Prophet ﷺ tied"
+         "ABU/E-U4",     # the beard, and the man who would not be deposed
+         "ABU/E-U5",     # the caliph on foot beside the mounted commander
+         "*ABU/E-U6",    # forty days, and what the tribes concluded
      ]),
 
-    ("ACT 2 · Arabia comes apart",
+    ("ACT 2 \u00b7 Arabia comes apart",
      "11 AH", [
-         "RCT/E-RC01",  # the night raid on Medina - while the army is away
-         "RCT/E-RC02",  # the counter-attack before dawn
-         "RCT/E-RC05",  # eleven banners at ذو القصّة   <- the map opens
-         "RCT/E-RC06",  # the letter that went ahead of the armies
-         "RCT/E-RC09",  # بُزاخة - the man who walked off the field
-         "RCT/E-RC10",  # the terms at Medina, and عمر ؓ's objection
+         "*RCT/E-RC01",  # the night raid on Medina - while the army is away
+         "RCT/E-RC02",   # the counter-attack before dawn
+         "*RCT/E-RC05",  # eleven banners at ذو القصّة   <- the map opens
+         "RCT/E-RC06",   # the letter that went ahead of the armies
+         "*TMW/E-TRN21", # the سيف الله hadith - said as خالد ؓ is given the command
+         "*RCT/E-RC09",  # بُزاخة - the man who walked off the field
+         "TMW/E-TRN13",  # بزاخة, the question
+         "*RCT/E-RC10",  # the terms at Medina, and عمر ؓ's objection
      ]),
 
-    ("ACT 3 · اليمامة",
-     "11–12 AH · the hardest day of the war", [
-         "RCT/E-RC16",  # the tent and the prisoner - عَقْرَباء
-         "RCT/E-RC18",  # ثابت بن قيس ؓ puts on his shroud
-         "RCT/E-RC20",  # حديقة الموت - البراء ؓ over the wall
-         "RCT/E-RC21",  # the death of مسيلمة, and what وحشي ؓ said afterwards
+    ("ACT 3 \u00b7 اليمامة",
+     "11\u201312 AH \u00b7 the hardest day of the war", [
+         "*ZIA/E-ZY8",   # two brothers by appointment - tells the room to watch for households
+         "AHA/E-AS02",   # أبو حذيفة ؓ, son of the elder of the جاهلية
+         "AHA/E-AS04",   # the face at the well
+         "AHA/E-AS06",   # سالم ؓ, from إصطخر
+         "AHA/E-AS07",   # the imām at قباء - he carried the most Qur'ān
+         "RCT/E-RC16",   # the tent and the prisoner - عَقْرَباء
+         "*RCT/E-RC17",  # the line breaks
+         "ZIA/E-ZY2",    # زيد بن الخطاب ؓ - the banner and the vow
+         "ZIA/E-ZY10",   # "are you not content to live praised?"
+         "*RCT/E-RC18",  # ثابت بن قيس ؓ puts on his shroud
+         "AHA/E-AS11",   # "a wretched bearer of the Qur'ān"
+         "AHA/E-AS12",   # "adorn the Qur'ān with deeds"
+         "ZIA/E-ZY11",   # the armour in the cooking pot - and أبو بكر ؓ's ruling
+         "*THO/E-HS4",   # أنس بن النضر ؓ at أحد - "I find the scent of Paradise"
+         "THO/E-HS5",    # known by his fingertips
+         "THO/E-HS15",   # "do you see me dying in my bed?"
+         "*RCT/E-RC20",  # حديقة الموت - البراء ؓ over the wall
+         "*THO/E-HS16",  # whose son he is - the family sentence, same beat as the wall
+         "ZIA/E-ZY12",   # أبو عقيل ؓ, the arrow he pulled out
+         "*AHA/E-AS16",  # "lay me down between them"
+         "AHA/E-AS17",   # how they were found
+         "ZIA/E-ZY15",   # the mother at اليمامة
+         "*RCT/E-RC21",  # the death of مسيلمة, and what وحشي ؓ said afterwards
+         "TMW/E-TRN4",   # the same spear
+         "TMW/E-TRN5",   # وحشي ؓ on مسيلمة's men
+         "ZIA/E-ZY5",    # «سبقني إلى الحسنيين»
+         "*ZIA/E-ZY6",   # the east wind - عمر ؓ on his brother
      ]),
 
-    ("ACT 4 · What اليمامة cost, and what it produced",
+    ("ACT 4 \u00b7 What اليمامة cost, and what it produced",
      "12 AH", [
-         "ABU/E-Q1",    # the killing ran hot among the reciters
-         "ABU/E-Q2",    # "how can we do a thing the Messenger ﷺ did not do?"
-         "ABU/E-Q3",    # parchment, shoulder-blades, palm-stalks, and the breasts of men
+         "*ZIA/E-ZY17",  # the number nobody can give - the honesty beat, BEFORE the collection
+         "ABU/E-Q1",     # the killing ran hot among the reciters
+         "AHA/E-AS09",   # take the Qur'ān from four - the sentence that makes the next card land
+         "*ABU/E-Q2",    # "how can we do a thing the Messenger ﷺ did not do?"
+         "*ABU/E-Q3",    # parchment, shoulder-blades, palm-stalks, and the breasts of men
      ]),
 
-    ("ACT 5 · Arabia whole again",
+    ("ACT 5 \u00b7 Arabia whole again",
      "12 AH", [
-         "RCT/E-RC27",  # دارين - into the water
-         "RCT/E-RC36",  # what Ibn Kathīr says the whole war was
-         "IKO/E-IKR1",  # ⭐ Ibn Khaldūn: the call does not add numbers, it removes rivalry
+         "RCT/E-RC27",   # دارين - into the water
+         "TMW/E-TRN9",   # عكرمة ؓ - "not until you have proved yourself"
+         "TMW/E-TRN10",  # the muṣḥaf
+         "*TMW/E-TRN14", # طليحة ؓ comes back - the evening must NOT end with him fleeing
+         "*RCT/E-RC36",  # what Ibn Kathīr says the whole war was
+         "*IKO/E-IKR1",  # ⭐ Ibn Khaldūn: the call does not add numbers, it removes rivalry
      ]),
 
-    ("ACT 6 · Outward",
-     "12–13 AH", [
-         "ISA/E-C1",    # the order to Iraq
-         "ISA/E-C5",    # the march across the waterless desert
-         "ISA/E-C9",    # خالد ؓ hands the command round
-         "ISA/E-C10",   # "armies are made many by victory"
+    ("ACT 6 \u00b7 Outward",
+     "12\u201313 AH", [
+         "ISA/E-C1",     # the order to Iraq
+         "TMW/E-TRN19",  # أبو بكر ؓ walks beside the stirrup
+         "ISA/E-C5",     # the march across the waterless desert
+         "ISA/E-C9",     # خالد ؓ hands the command round
+         "ISA/E-C10",    # "armies are made many by victory"
      ]),
 
-    ("ACT 7 · He dies",
+    ("ACT 7 \u00b7 He dies",
      "13 AH", [
-         "ABD/E-B3",    # he asks عبد الرحمن بن عوف ؓ about عمر ؓ
-         "ABD/E-B7",    # "I have not appointed a relative over you"
-         "ABD/E-B9",    # the list of what he owned
-         "ABD/E-B11",   # sell my land and pay them back
-         "ABD/E-B14",   # the shroud
-         "ABD/E-B15",   # Monday night, and a grave already dug beside another
+         "ABD/E-B3",     # he asks عبد الرحمن بن عوف ؓ about عمر ؓ
+         "ABD/E-B7",     # "I have not appointed a relative over you"
+         "*ABD/E-B9",    # the list of what he owned
+         "*ABD/E-B11",   # sell my land and pay them back
+         "ABD/E-B14",    # the shroud
+         "*ABD/E-B15",   # Monday night, and a grave already dug beside another
+         "*AHA/E-AS18",  # "had Sālim ؓ been alive" - ۱۲ھ still being counted in ۲۳ھ
      ]),
 ]
 
@@ -112,7 +149,7 @@ def main(session_dir):
         body = txt[m.end():hits[i + 1].start() if i + 1 < len(hits) else len(txt)].rstrip()
         pool[m.group(1)] = (m.group(2), body)
 
-    out, n, missing = [], 0, []
+    out, n, missing, starred = [], 0, [], []
     out.append("""# Session 2 — the running order
 
 **أبو بكر الصدیق ؓ's caliphate entire: 11–13 AH / 632–634 CE.** A 45-minute slot; this is about
@@ -135,6 +172,8 @@ they become sessions 3 and 4, already page-cited and waiting in `CONTENT.md`.
     for act, when, ids in SPINE:
         out.append("\n---\n\n## %s\n\n*%s*\n" % (act, when))
         for cid in ids:
+            star = cid.startswith("*")
+            cid = cid.lstrip("*")
             if cid not in pool:
                 missing.append(cid)
                 continue
@@ -142,7 +181,10 @@ they become sessions 3 and 4, already page-cited and waiting in `CONTENT.md`.
             title, body = pool[cid]
             if cid in HANDS:
                 out.append("\n> 🖐 **[HANDS]** %s\n" % HANDS[cid])
-            out.append("\n### %d. %s · %s\n%s\n" % (n, cid, title, body))
+            out.append("\n### %d. %s%s · %s\n%s\n"
+                       % (n, "\u2605 " if star else "", cid, title, body))
+            if star:
+                starred.append(cid)
             if cid == WORKSHEET_AFTER:
                 out.append("\n> ✍ **[WORKSHEET — 90 seconds, silent]** Mark three places on the "
                            "blank map. Write the years into three of the six timeline boxes. "
@@ -160,7 +202,9 @@ they become sessions 3 and 4, already page-cited and waiting in `CONTENT.md`.
     dst = os.path.join(ROOT, session_dir, "SPINE.md")
     with open(dst, "w", encoding="utf-8") as f:
         f.write("\n".join(out))
-    print("%-38s %d cards  (~%d min of material)" % (os.path.relpath(dst, ROOT), n, round(n * 2.2)))
+    print("%-38s %d cards, ~%d min   |   \u2605 recommended cut: %d cards, ~%d min"
+          % (os.path.relpath(dst, ROOT), n, round(n * 2.2), len(starred),
+             round(len(starred) * 2.2)))
     if missing:
         print("   MISSING FROM POOL: " + ", ".join(missing))
     return dst

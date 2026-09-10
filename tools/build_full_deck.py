@@ -39,6 +39,19 @@ FIELD = {
     "ibrah": re.compile(r"\*\*عبرت:\*\*\s*(.*?)\s*$", re.M),
     "hands": re.compile(r"\*\*Hands-up\?\*\*\s*(.*?)\s*$", re.M),
 }
+def is_na(v):
+    """A card field the researcher marked not-applicable.
+
+    It is metadata for us, never text for the room (DECISIONS.md #30). Several notes write it
+    as "n/a", "n/a.", or "n/a - hold on the marker", so match the prefix, not the exact value.
+    """
+    return not str(v or "").strip() or bool(_NA.match(str(v)))
+
+
+_NA = re.compile(r"\s*n\s*/?\s*a\b", re.I)
+
+
+LABEL = re.compile(r"\[(?:SOURCED|STANDARD|CONVENTIONAL-ESTIMATE)\]|\(to verify\)", re.I)
 WHAT = re.compile(r"\*\*What happened:\*\*\s*(.*?)(?=\n\*\*|\Z)", re.S)
 STATEMENT = re.compile(r"\*\*The statement:\*\*\s*\n((?:>.*\n?)+)", re.M)
 ARABIC_CH = re.compile("[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]")
@@ -191,14 +204,31 @@ def cite_en(t):
     return ", ".join(x for x in (name, tail) if x)
 
 
+TIER_LEAD = re.compile(r"^\s*(?:CORE|GOOD|CUT)\b\s*[\u2014\u2013:.\-]*\s*", re.I)
+CARD_REF = re.compile(r"\(?\s*(?:see\s+)?(?:[A-Z]{2,4}/)?E-[A-Z]{1,4}\d+[^)\n]{0,40}?\)?", re.I)
+
+
 def clean(t, translit=False):
-    """Strip markdown, normalise digits, and optionally romanise the recurring Arabic terms."""
-    t = re.sub(r"[`*_]", "", str(t)).translate(ARABIC_DIGITS)
+    """Strip markdown, normalise digits, and optionally romanise the recurring Arabic terms.
+
+    Also removes card cross-references. Researchers write "(see E-HS4)" inside a card's
+    prose to point at another card; that is apparatus for us and meaningless to the room
+    (DECISIONS.md #30).
+    """
+    t = CARD_REF.sub("", str(t))
+    # a few notes wrote the tier into the card TITLE ("CUT - recorded so it is never...")
+    t = TIER_LEAD.sub("", t)
+    t = re.sub(r"[`*_]", "", t).translate(ARABIC_DIGITS)
     if translit:
         for a, e in TRANSLIT:
             t = t.replace(a, e)
         t = ARABIC_CH.sub("", t)                      # anything left over would break the line
     return re.sub(r"\s{2,}", " ", t).strip(" \u00b7,-\u2014")
+
+
+def face(v):
+    """Text bound for a slide FACE. Empty if the researcher marked it n/a."""
+    return "" if is_na(v) else str(v)
 
 
 def short(s, words):
@@ -227,18 +257,20 @@ def build(session_dir, out_name="L02_ALL.pptx"):
             section = c["section"]
             D.section_slide(prs, clean(section, translit=True))
 
-        head = clean(short(c["title"], 9))
-        kicker = clean("%s \u00b7 %s" % (c["tier"], short(c["when"], 5)),
-                       translit=True).replace("ھ", " AH").replace("هـ", " AH")
-        kicker = re.sub(r"\s{2,}", " ", kicker).strip(" \u00b7,") or None
+        head = clean(short(face(c["title"]), 9))
+        # ONLY the date reaches the slide face. The tier, the certainty label and the card id
+        # are production apparatus and belong in the speaker notes (DECISIONS.md #30) — deck2's
+        # audit now refuses a build that puts any of them in front of the room.
+        kicker = clean(LABEL.sub("", short(face(c["when"]), 6)), translit=True).replace("\u06be", " AH")
+        kicker = re.sub(r"\s{2,}", " ", kicker).strip(" \u00b7,-") or None
 
         try:
             if c["arabic"] and ar_len(c["arabic"]) <= AR_SLIDE_MAX:
                 # The rendering is truncated on the slide and given whole in the notes. A 146-word
                 # translation projected at 30pt is not readable from the back of a hall, and the
                 # deck contract exists precisely to stop that being shipped again.
-                s = D.statement_slide(prs, english=short(c["english"] or "", EN_SLIDE_MAX),
-                                      arabic=c["arabic"], cite=cite_en(c["cite"]),
+                s = D.statement_slide(prs, english=clean(short(face(c["english"]), EN_SLIDE_MAX)),
+                                      arabic=c["arabic"], cite=face(cite_en(c["cite"])),
                                       headline=head, kicker=kicker)
             elif c["arabic"]:
                 # Too long to project whole. The slide holds the card; the statement waits in the
@@ -248,9 +280,9 @@ def build(session_dir, out_name="L02_ALL.pptx"):
                                         "architecture, objects or texture only - no people, no "
                                         "faces. Muted ochre, teal and bone. 16:9."
                                         % short(c["what"], 30))
-            elif c["map"]:
+            elif not is_na(c["map"]):
                 s = D.map_slide(prs, None, head, kicker=kicker,
-                                keys=[(short(c["map"], 4), short(c["what"], 8))],
+                                keys=[(clean(short(face(c["map"]), 4)), clean(short(face(c["what"]), 8)))],
                                 brief="A restrained editorial illustration for: %s. Landscape, "
                                       "architecture, objects or texture only — no people, no faces. "
                                       "Muted ochre, teal and bone. 16:9."

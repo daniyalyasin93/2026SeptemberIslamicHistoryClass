@@ -192,6 +192,16 @@ exactly, so a generated image drops in with no seam. `SLIDES.md` carries a paste
 (`DECISIONS.md` #22). Prose lives in `BRIEFING.pdf` and is read at home. The prose speaker script
 is retired as a delivery artifact.
 
+**A SLIDE FACE CARRIES ONLY WHAT THE ROOM MAY SEE (`DECISIONS.md` #30).** Certainty labels, tier
+tags, card ids, cross-references, build markers, `[HANDS]` cues, `n/a`, IMAGE BRIEF text, the words
+Claude/Gemini/AI, and raw URLs are **production apparatus and belong in the speaker notes**.
+`deck2.audit()` enforces this with a `FORBIDDEN` list and **fails the build** on any match — this is
+the class of defect that survives every review and then appears on a projector.
+
+**Every deck ships a PDF beside it.** `deck2.save()` writes `<deck>.pdf` automatically, because
+Daniyal checks on a phone and on machines without PowerPoint. `series/preview.py` also exports
+per-slide PNGs and a contact sheet — **look at the contact sheet before calling a deck finished.**
+
 - **No bare-text slides.** Every content slide carries a map, the timeline strip, a large statement,
   or a sourced quotation. If it is only a line of text, it is not a slide — the first decks were
   rejected as "too dry" and they were.

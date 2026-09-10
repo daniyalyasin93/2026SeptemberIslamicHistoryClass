@@ -100,6 +100,27 @@ SCAFFOLD = "PLACEHOLDER::"
 
 _briefs = []                    # collected IMAGE BRIEFs, written beside the deck on save
 
+# --------------------------------------------------------------------------- audience safety
+# STANDING RULE (DECISIONS.md #30). A slide FACE carries only what the room may see. Production
+# apparatus — certainty labels, tier tags, card ids, notes to the speaker, build markers — goes in
+# the SPEAKER NOTES, never on the slide. This is enforced rather than remembered because it is the
+# kind of thing that survives every review and then appears on a projector in front of 200 people.
+FORBIDDEN = [
+    (r"\[SOURCED\]|\[STANDARD\]|\[CONVENTIONAL-ESTIMATE\]", "a certainty label"),
+    (r"\bCUT-IF-SHORT\b|\bCUT IF SHORT\b", "a build marker"),
+    (r"\bTier\s*:|^\s*(?:CORE|GOOD|CUT)\b[^a-z]", "a tier tag"),   # anchored: "good." in a sentence is not a tier tag
+    (r"\bE-[A-Z]{1,4}\d", "a card id"),
+    (r"\b(?:RCT|ABU|ABD|ISA|QMA|BAM|UTS|NTS|GSA|IKO|THO|AHA|ZIA|TMW)/", "a card id"),
+    (r"IMAGE BRIEF|IMAGE GOES HERE|placeholder|TODO|TBD|FIXME", "build scaffolding"),
+    (r"\bClaude\b|\bGemini\b|\bChatGPT\b|\bAI[- ]generated\b|\bLLM\b", "an AI marker"),
+    (r"\bspeaker'?s discretion\b|\bhands[- ]up\b|\[HANDS\]|\bWORKSHEET\b",
+     "an instruction to the speaker"),
+    (r"\bto verify\b|\(to verify\)", "an unresolved-source marker"),
+    (r"\bn/a\b", "a placeholder value"),
+    (r"shamela\.ws|https?://", "a URL — cite the printed page, not a link"),
+]
+_FORBIDDEN = [(re.compile(p, re.I | re.M), why) for p, why in FORBIDDEN]
+
 
 class DeckContractError(AssertionError):
     """A slide violated the deck contract. The build fails rather than shipping it."""
@@ -581,6 +602,13 @@ def audit(prs):
             if not shape.has_text_frame:
                 continue
             words = 0
+            face = shape.text_frame.text
+            for rx, why in _FORBIDDEN:
+                m = rx.search(face)
+                if m:
+                    bad.append("slide %d: %r is %s. It must not be on a slide FACE — put it in "
+                               "the speaker notes (DECISIONS.md #30)."
+                               % (i, m.group(0)[:40], why))
             for p in shape.text_frame.paragraphs:
                 for r in p.runs:
                     pt = r.font.size.pt if r.font.size else None
@@ -602,7 +630,13 @@ def audit(prs):
     return scaffolds
 
 
-def save(prs, path):
+def save(prs, path, pdf=True):
+    """Write the deck, and beside it a PDF preview — always (DECISIONS.md #30).
+
+    Daniyal reads and checks on a phone and on other machines, where PowerPoint is not always to
+    hand and a .pptx is not viewable. A deck nobody can open is a deck nobody checks, and session
+    1's defects were all things a single glance would have caught.
+    """
     scaffolds = audit(prs)
     try:
         prs.save(path)
@@ -611,6 +645,15 @@ def save(prs, path):
         prs.save(path)
     n = len(prs.slides._sldIdLst)
     print("%-34s %2d slides  %8.1f KB" % (os.path.basename(path), n, os.path.getsize(path) / 1024))
+    if pdf:
+        try:
+            import sys as _sys
+            _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import preview as _preview
+            p = _preview.to_pdf(path)
+            print("%-34s %8.1f KB  (preview)" % (os.path.basename(p), os.path.getsize(p) / 1024))
+        except Exception as e:                                   # noqa: BLE001
+            print("   PDF preview not written: %s" % str(e)[:90])
     if scaffolds:
         print("   %d image placeholder(s) still to be filled — briefs are in the speaker notes."
               % scaffolds)
