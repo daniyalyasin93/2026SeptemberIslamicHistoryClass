@@ -11,8 +11,56 @@ needs it, and two sessions end up drawing the same lesson in different words.
 adjudicate. A deck uses at most **six** on its closing screen.
 
 
-**373 lines across 15 blocks.**
+**375 lines across 15 blocks.**
 
+
+## The ردة wars: the campaign, front by front
+
+| Card | Tier | عبرت |
+|---|---|---|
+| `RCT/E-RC01` | CORE | The first engagement of the war was a setback, and the book records it without |
+| `RCT/E-RC02` | CORE | The recovery came out of the very night the reverse happened, spent preparing. |
+| `RCT/E-RC03` | GOOD | He asked no man to stand anywhere he had not stood himself. |
+| `RCT/E-RC04` | CORE | The first thing the state did when it had almost no strength was to limit what its own |
+| `RCT/E-RC05` | CORE | The whole war was set moving from one camp, in one sitting, by a man who had just been told |
+| `RCT/E-RC06` | CORE | The test was something the other side could pass, and passing it stopped the war where they |
+| `RCT/E-RC07` | GOOD | A commander in a hurry gave away three days, and a whole tribe came over instead of being |
+| `RCT/E-RC08` | GOOD | Two names are all that a whole army's reconnaissance amounted to, and the book keeps both. |
+| `RCT/E-RC09` | CORE | The claim collapsed the moment somebody asked it for something specific. |
+| `RCT/E-RC10` | CORE | The terms were read out in front of the men they applied to, and one clause of them was |
+| `RCT/E-RC11` | GOOD | What was being demanded was short enough to say in one breath, and a chief who had asked to |
+| `RCT/E-RC12` | GOOD | A defeat is not finished on the day of the battle; it is finished when the beaten have |
+| `RCT/E-RC13` | GOOD | The one man the state armed on his own word did more damage with those weapons than the |
+| `RCT/E-RC14` | GOOD | Four books tell this and they do not tell it the same way, and that is the first thing to |
+| `RCT/E-RC15` | CORE | He was not dismissed for the defeat; he was given more ground to cross. |
+| `RCT/E-RC16` | CORE | He kept one prisoner alive on a stranger's advice, and that decision settled the end of the |
+| `RCT/E-RC17` | CORE | Each of them saved the other's life on the same day, and the book keeps both halves. |
+| `RCT/E-RC18` | CORE | He did not tell them what to do; he told them what they had already been. |
+| `RCT/E-RC19` | GOOD | He did not make them braver; he made it impossible for anyone's failure to be anonymous. |
+| `RCT/E-RC20` | CORE | One man asked to be thrown where nobody could follow him, and the whole army came in behind |
+| `RCT/E-RC21` | CORE | The man who killed their leader is the one the book quotes praising their courage. |
+| `RCT/E-RC22` | CORE | He had been deceived into the agreement and he kept it anyway, because the agreement had |
+| `RCT/E-RC23` | GOOD | The Companions' grief is recorded as carefully as their victories, and by the same men. |
+| `RCT/E-RC24` | GOOD | The place that held out longest was one village, and its message out was four lines of |
+| `RCT/E-RC25` | CORE | The state had almost no soldiers to send; what it sent instead was a commander and a piece |
+| `RCT/E-RC26` | GOOD | A month of trenches was decided by one night on which one side could not think. |
+| `RCT/E-RC27` | CORE | He closed the roads behind the enemy before he opened one in front of himself. |
+| `RCT/E-RC28` | GOOD | He survived the war and was killed for a piece of cloth by men who had already surrendered. |
+| `RCT/E-RC29` | CORE | The men who saved that day were from the same country as the men they were fighting. |
+| `RCT/E-RC30` | GOOD | He wrote before he marched, and half the enemy stopped being the enemy. |
+| `RCT/E-RC31` | GOOD | He was saved by a sentence spoken by someone who was not talking to him. |
+| `RCT/E-RC32` | CORE | The state judged what it could see and left what it could not see to the One who sees it. |
+| `RCT/E-RC33` | CORE | A province went to war over one animal, a naming mistake and a public insult, and every |
+| `RCT/E-RC34` | CORE | He wrote a safe-conduct for everyone he was bargaining with and left himself off it. |
+| `RCT/E-RC35` | GOOD | The war's last act was the state buying back the people its own victory had taken. |
+| `RCT/E-RC36` | CORE | The armies were sent to hold up people who were already standing, and the whole thing was |
+| `RCT/E-RC37` | CORE | The mushaf the room reads from was gathered because of the men who were killed in the |
+| `RCT/E-RC38` | CORE | He turned the question round: the danger was not what would be done to them, but what would |
+| `RCT/E-RC39` | GOOD | Two men who agreed about the war disagreed about who should run it, and the book records |
+| `RCT/E-RC40` | CUT |  |
+| `RCT/E-RC41` | GOOD | The first objection to the severity came from inside the leadership, and it was said aloud and answered. |
+| `RCT/E-RC42` | CORE | Sometimes the truest counsel is to tell a brave man that the community cannot afford to lose him. |
+| `RCT/E-RC43` | CORE | The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself. |
 
 ## The statements bank — slide-ready, by speaker
 
@@ -60,52 +108,6 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `GSA/E-ST40` | GOOD | The clearest description of the change came from a man describing himself in it. |
 | `GSA/E-ST41` | GOOD | The men who preserved this history corrected themselves in writing, and left the correction in the book. |
 | `GSA/E-ST42` | CUT |  |
-
-## The ردة wars: the campaign, front by front
-
-| Card | Tier | عبرت |
-|---|---|---|
-| `RCT/E-RC01` | CORE | The first engagement of the war was a setback, and the book records it without |
-| `RCT/E-RC02` | CORE | The recovery came out of the very night the reverse happened, spent preparing. |
-| `RCT/E-RC03` | GOOD | He asked no man to stand anywhere he had not stood himself. |
-| `RCT/E-RC04` | CORE | The first thing the state did when it had almost no strength was to limit what its own |
-| `RCT/E-RC05` | CORE | The whole war was set moving from one camp, in one sitting, by a man who had just been told |
-| `RCT/E-RC06` | CORE | The test was something the other side could pass, and passing it stopped the war where they |
-| `RCT/E-RC07` | GOOD | A commander in a hurry gave away three days, and a whole tribe came over instead of being |
-| `RCT/E-RC08` | GOOD | Two names are all that a whole army's reconnaissance amounted to, and the book keeps both. |
-| `RCT/E-RC09` | CORE | The claim collapsed the moment somebody asked it for something specific. |
-| `RCT/E-RC10` | CORE | The terms were read out in front of the men they applied to, and one clause of them was |
-| `RCT/E-RC11` | GOOD | What was being demanded was short enough to say in one breath, and a chief who had asked to |
-| `RCT/E-RC12` | GOOD | A defeat is not finished on the day of the battle; it is finished when the beaten have |
-| `RCT/E-RC13` | GOOD | The one man the state armed on his own word did more damage with those weapons than the |
-| `RCT/E-RC14` | GOOD | Four books tell this and they do not tell it the same way, and that is the first thing to |
-| `RCT/E-RC15` | CORE | He was not dismissed for the defeat; he was given more ground to cross. |
-| `RCT/E-RC16` | CORE | He kept one prisoner alive on a stranger's advice, and that decision settled the end of the |
-| `RCT/E-RC17` | CORE | Each of them saved the other's life on the same day, and the book keeps both halves. |
-| `RCT/E-RC18` | CORE | He did not tell them what to do; he told them what they had already been. |
-| `RCT/E-RC19` | GOOD | He did not make them braver; he made it impossible for anyone's failure to be anonymous. |
-| `RCT/E-RC20` | CORE | One man asked to be thrown where nobody could follow him, and the whole army came in behind |
-| `RCT/E-RC21` | CORE | The man who killed their leader is the one the book quotes praising their courage. |
-| `RCT/E-RC22` | CORE | He had been deceived into the agreement and he kept it anyway, because the agreement had |
-| `RCT/E-RC23` | GOOD | The Companions' grief is recorded as carefully as their victories, and by the same men. |
-| `RCT/E-RC24` | GOOD | The place that held out longest was one village, and its message out was four lines of |
-| `RCT/E-RC25` | CORE | The state had almost no soldiers to send; what it sent instead was a commander and a piece |
-| `RCT/E-RC26` | GOOD | A month of trenches was decided by one night on which one side could not think. |
-| `RCT/E-RC27` | CORE | He closed the roads behind the enemy before he opened one in front of himself. |
-| `RCT/E-RC28` | GOOD | He survived the war and was killed for a piece of cloth by men who had already surrendered. |
-| `RCT/E-RC29` | CORE | The men who saved that day were from the same country as the men they were fighting. |
-| `RCT/E-RC30` | GOOD | He wrote before he marched, and half the enemy stopped being the enemy. |
-| `RCT/E-RC31` | GOOD | He was saved by a sentence spoken by someone who was not talking to him. |
-| `RCT/E-RC32` | CORE | The state judged what it could see and left what it could not see to the One who sees it. |
-| `RCT/E-RC33` | CORE | A province went to war over one animal, a naming mistake and a public insult, and every |
-| `RCT/E-RC34` | CORE | He wrote a safe-conduct for everyone he was bargaining with and left himself off it. |
-| `RCT/E-RC35` | GOOD | The war's last act was the state buying back the people its own victory had taken. |
-| `RCT/E-RC36` | CORE | The armies were sent to hold up people who were already standing, and the whole thing was |
-| `RCT/E-RC37` | CORE | The mushaf the room reads from was gathered because of the men who were killed in the |
-| `RCT/E-RC38` | CORE | He turned the question round: the danger was not what would be done to them, but what would |
-| `RCT/E-RC39` | GOOD | Two men who agreed about the war disagreed about who should run it, and the book records |
-| `RCT/E-RC40` | CUT |  |
-| `RCT/E-RC41` | GOOD | The first objection to the severity came from inside the leadership, and it was said aloud and answered. |
 
 ## Setting: the tribal map, and why the ردة took its shape
 

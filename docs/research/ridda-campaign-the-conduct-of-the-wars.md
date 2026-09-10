@@ -2879,6 +2879,44 @@ adjudicate. al-Dhahabī's editor marks the Sulaym report **mursal**. The same an
 them as one. Full answer for a written slip: docs/catalogue/QA_BANK.md §6.3.
 Sources: الکامل ج۲ ص۲۰۶–۲۰۷ (21712/897–898) · البدایہ ج۷ ص۲۷ · سیر ج۱ ص۳۷۲ (10906/1798)
 
+### E-RC42 · ʿAlī ؓ takes the reins: «sheathe your sword»
+**Tier:** CORE · **When:** ۱۱ھ `[SOURCED]` · **Map:** المدينة to ذو القصّة, and the caliph turned back at the camp
+**What happened:** When the Arabs apostatised, Abū Bakr ؓ went out to Dhū al-Qaṣṣa with his sword drawn. ʿAlī ؓ came, took hold of the reins of his mount, and said to him: Where to, Khalīfa of the Messenger of Allah? I say to you what the Messenger of Allah ﷺ said to you on the day of Uḥud. Abū Bakr ؓ turned back — and sent the army on.
+**The statement:**
+> … يَوْمَ أُحُدٍ: شِمْ سَيْفَكَ، لَا تُفْجِعْنَا بِنَفْسِكَ، فَوَاللَّهِ لَئِنْ أُصِبْنَا بِكَ لَا يَكُونُ لِلْإِسْلَامِ نِظَامٌ
+> — الکامل فی التاریخ ج۲ ص۲۶۴ · https://shamela.ws/book/21712/955
+> *English:* "…on the day of Uḥud: Sheathe your sword, do not bereave us of yourself — for by Allah, if we are struck through you, Islam will have no order."
+**عبرت:** Sometimes the truest counsel is to tell a brave man that the community cannot afford to lose him.
+**Hands-up?** no
+
+⚠ The second wording, with its grading. البدایہ carries the scene through الدارقطني from Ibn ʿUmar, with «لُمَّ» for «شِمْ» and an added «وارجع إلى المدينة»:
+> لما برزَ أبو بكر إلى القصّة واستوى على راحلته، أخذ عليُّ بن أبي طالب بزمامها وقال: إلى أين يا خليفةَ رسولِ الله؟ أقول لك ما قال رسول الله ﷺ يوم أُحُدٍ: لمّ سيفَكَ ولا تَفْجَعْنا بنفسك، وارجع إلى المدينة، فواللهِ لئن فُجعنا بك لا يكونُ للإسلام نظامٌ أبدًا، فرجع
+> — البدایہ والنہایہ ج۷ ص۲۲ · https://shamela.ws/book/30097/3168
+Ibn Kathīr grades that route himself, on the same page: «هذا حديث غريب من طريق مالك». Tell it from الکامل; if a slip asks, say both books carry it and Ibn Kathīr calls the Mālik route غريب. سیر (الراشدون ص۳۹–۴۰, 10906/1187–1188) has *the people* urging him back to Medina, where he had left the hypocrisy boiling, without naming ʿAlī ؓ.
+
+### E-RC43 · The eleven banners — who went where
+**Tier:** CORE · **When:** ۱۱ھ `[SOURCED]` · **Map:** eleven arrows out of ذو القصّة — scene dhu-al-qassa-the-columns
+**What happened:** In a single sitting at Dhū al-Qaṣṣa, one day's ride from Medina, Abū Bakr ؓ tied eleven banners and gave each commander a region. The two books disagree on the count, and the disagreement has a simple answer: one of them folds two commands into one.
+
+**Ibn Kathīr announces eleven and prints ten** (ج۷ ص۲۲–۲۳). **Ibn al-Athīr prints eleven**
+
+| # | Commander | Objective, as commissioned | البدایہ ج۷ ص۲۲–۲۳ | الکامل ج۲ ص۲۰۳–۲۰۴ | ابن خلدون ج۲ ص۴۹۵ |
+|---|---|---|---|---|---|
+| 1 | **خالد بن الوليد ؓ** | طليحة first; then **مالك بن نويرة at البُطاح** if he stands | ✓ | ✓ | ✓ |
+| 2 | **عكرمة بن أبي جهل ؓ** | **مسيلمة** | ✓ | ✓ | ✓ |
+| 3 | **شُرَحبيل بن حَسَنة ؓ** | in عكرمة's wake to مسيلمة, **then بنو قُضاعة** | ✓ | ✓ | ✓ |
+| 4 | **المهاجر بن أبي أمية ؓ** | the Ansī's troops + relieving الأبناء against قيس بن مكشوح — **الکامل adds: «ثُمَّ يَمْضِي إِلَى كِنْدَةَ بِحَضْرَمَوْتَ»** | ✓ | ✓ | **absent from his list** |
+| 5 | **خالد بن سعيد بن العاص ؓ** | **مشارف الشام** | ✓ | ✓ | ✓ |
+| 6 | **عمرو بن العاص ؓ** | البدایہ: «جِماع قُضاعة ووَديعة والحارث» · الکامل: قُضاعة | ✓ | ✓ | ✓ |
+| 7 | **حذيفة بن مِحْصَن** | **أهل دَبا** (عمان) | ✓ | ✓ | ✓ |
+| 8 | **عرفجة بن هَرْثمة** | **مَهْرة** — *the eleventh*, folded into ⑦'s entry by Ibn Kathīr | **absorbed into ⑦** | ✓ **separate** | ✓ **separate** |
+| 9 | **the son of حاجز/حاجب** | **بنو سُلَيم and the هوازن with them** | «**طَرَفة بن حاجب**» | «**مَعْن بن حاجز**» | «**طريفة بن حاجز**» |
+| 10 | **سُوَيد بن مُقَرِّن ؓ** | **تِهامة اليمن** | ✓ | ✓ | ✓ |
+| 11 | **العلاء بن الحَضْرمي ؓ** | **البحرين** | ✓ | ✓ | ✓ |
+
+**عبرت:** The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself.
+**Hands-up?** Before the table: *"Medina is one town. How many armies would you send out at once?"*
+
 # VERIFICATION PASS RUN ON THIS NOTE (2026-09-06)
 
 Every blockquoted Arabic statement in this note — **119 of them** — was machine-checked back against

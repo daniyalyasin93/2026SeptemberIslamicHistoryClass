@@ -12,7 +12,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 **Do not resolve it here.** Narrate what the sources narrate and say they differ.
 
 
-**259 dated cards.**
+**261 dated cards.**
 
 | When | Certainty | Card | Event |
 |---|---|---|---|
@@ -32,6 +32,8 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ | `SOURCED` | `RCT/E-RC25` | The sixteen riders |
 | 11ھ | `SOURCED` | `RCT/E-RC39` | The men of Badr who were kept out of office |
 | 11ھ | `—` | `RCT/E-RC40` | The three-colour tribe — CUT, recorded so it is never re-researched |
+| 11ھ | `SOURCED` | `RCT/E-RC42` | ʿAlī ؓ takes the reins: «sheathe your sword» |
+| 11ھ | `SOURCED` | `RCT/E-RC43` | The eleven banners — who went where |
 | 11ھ | `SOURCED` | `ABU/E-U8b` | What المدینہ felt like, in عائشة ؓ's words |
 | 11ھ | `SOURCED` | `TMW/E-TRN13` | Ṭulayḥa at Buzākha — the question, and the answer he got |
 | 11ھ | `SOURCED` | `GSA/E-ST5` | The zakāt refusers, and عمر ؓ saying out loud that he had been wrong |
