@@ -79,6 +79,10 @@ EXTRA = {
     "Hajar":         (49.588, 25.383, "city"), "Sumayra":   (42.10, 27.20, "town"),
     "Jalula":        (45.15, 34.27, "town"), "al-Jabiya":   (36.05, 32.80, "town"),
     "Ubna":          (35.20, 31.55, "town"), "Marj al-Suffar": (36.25, 33.20, "town"),
+    # ذو حُسى: "a valley in the country of عبس and غطفان" (البدایہ ed. fn. ج۷ ص۲۰). NO PAGE GIVES
+    # ITS DISTANCE — an earlier map labelled it "one day out" and that was caught and corrected.
+    # Placed on the axis the note describes (ذو حُسى, ذو القصة, الأبرق), never labelled with a distance.
+    "Dhu Husa":      (39.95, 24.52, "town"), "al-Abraq":   (41.10, 24.62, "town"),
     "Jerusalem":     (35.230, 31.778, "city"), "Najran":     (44.130, 17.491, "city"),
     "Yarmuk":        (35.950, 32.720, "town"), "Ajnadayn":   (34.900, 31.700, "town"),
     "Qadisiyya":     (44.300, 31.700, "town"), "Hira":       (44.350, 31.900, "city"),
@@ -329,6 +333,45 @@ def scenes():
                   place("Madina", "below"), place("Damascus", "left"), place("Madain", "above"),
                   place("Fustat / Cairo", "left"), place("Nihawand", "right"),
                   note(43.0, 11.5, "The dashed outline is where the map stood at 11 AH", 20),
+              ]))
+
+    # ---------------------------------------------------------------- Dhu Husa to Dhu al-Qassa
+    # A five-step build-up. The sequence is the ridda note §2.1 and cards RC01-RC03, RC05; each
+    # label on the map is a clause the page itself carries.
+    S.append(("dhu-husa-to-dhu-al-qassa", "The night raid, and the road out of Medina",
+              "11 AH — while Usama's army was away in the north", [38.9, 23.7, 41.7, 25.3], [
+                  # step 1 — the night raid
+                  place("Madina", "left", step=1),
+                  place("Dhu Husa", "above", step=1),
+                  army("Abs and Dhubyan: the reserve", "Dhu Husa", faction="f4",
+                       off=(0.05, 0.22), step=1),
+                  route(["Dhu Husa", "Madina"], "the raiders come at the passes", faction="f4",
+                        width=11, step=1),
+                  note(39.25, 25.12, "Usama's army is away in the north", 20, step=1),
+
+                  # step 2 — the pursuit, and the reserve springs
+                  army("Abu Bakr, with the men of the mosque", "Madina", unit="cavalry",
+                       off=(-0.05, -0.22), step=2),
+                  route(["Madina", "Dhu Husa"], "out on the watering-camels", width=13, step=2),
+                  route(["Dhu Husa", "Madina"], "the camels bolt back", dashed=True,
+                        width=10, step=2),
+                  note(39.78, 24.08, "\u201cand not one Muslim was thrown\u201d", 20, step=2),
+
+                  # step 3 — the dawn counter-attack
+                  place("Dhu al-Qassa", "below", tier="fort", step=3),
+                  route(["Madina", "Dhu al-Qassa"], "before dawn", width=15, step=3),
+                  battle("Dhu al-Qassa", "Dhu al-Qassa", "11 AH", label_pos="below", step=3),
+                  note(40.45, 23.92, "one stage out \u00b7 \u201cthe first victory\u201d", 20, step=3),
+
+                  # step 4 — on to al-Abraq
+                  place("al-Abraq", "above", step=4),
+                  route(["Dhu al-Qassa", "al-Abraq"], "Abu Bakr rides out himself", width=13, step=4),
+                  battle("al-Abraq", "al-Abraq", "11 AH", label_pos="below", step=4),
+                  note(41.10, 25.02, "in al-Rabadha", 20, step=4),
+
+                  # step 5 — back to Dhu al-Qassa, where the banners are tied
+                  route(["al-Abraq", "Dhu al-Qassa"], "", dashed=True, width=9, step=5),
+                  note(40.30, 23.78, "The eleven banners are tied here", 22, step=5),
               ]))
     return S
 

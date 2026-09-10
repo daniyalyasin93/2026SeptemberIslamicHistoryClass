@@ -61,3 +61,6 @@ here is a schematic, **not a frontier**.
 | `usama-expedition.json` | The army he would not call back | 11 AH — out to the Syrian marches, and back | 7 |
 | `yamama-aqraba.json` | Aqraba and the Garden of Death | 12 AH — the hardest day of the war | 7 |
 | `yarmuk.json` | Yarmuk | 15 AH | 7 |
+| `dhu-husa-to-dhu-al-qassa.json` | The night raid, and the road out of Medina | 11 AH — **five steps**, export one PNG per step | 21 |
+
+⚠ **ذو حُسى carries no distance, on purpose.** No page gives one; an earlier map labelled it "one day out" and that was caught and corrected. Only ذو القصّة is sourced as «على مرحلةٍ».
