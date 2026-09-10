@@ -110,6 +110,7 @@ FORBIDDEN = [
     (r"\bCUT-IF-SHORT\b|\bCUT IF SHORT\b", "a build marker"),
     (r"\bTier\s*:|^\s*(?:CORE|GOOD|CUT)\b[^a-z]", "a tier tag"),   # anchored: "good." in a sentence is not a tier tag
     (r"\bE-[A-Z]{1,4}\d", "a card id"),
+    (r"^\s*Card\s+\d+\b|\bCard\s+\d+\s*[·|]", "a card number"),   # our index into SPINE.md, not the room's
     (r"\b(?:RCT|ABU|ABD|ISA|QMA|BAM|UTS|NTS|GSA|IKO|THO|AHA|ZIA|TMW)/", "a card id"),
     (r"IMAGE BRIEF|IMAGE GOES HERE|placeholder|TODO|TBD|FIXME", "build scaffolding"),
     (r"\bClaude\b|\bGemini\b|\bChatGPT\b|\bAI[- ]generated\b|\bLLM\b", "an AI marker"),

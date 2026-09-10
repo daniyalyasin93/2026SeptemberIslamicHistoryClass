@@ -1258,7 +1258,7 @@ ridda; joining his chapter to the year eleven is our doing (§7.2).
 *12–13 AH*
 
 
-### 53. ISA/E-C1 · The order to Iraq
+### 53. ★ ISA/E-C1 · The order to Iraq
 
 **Tier:** CORE · **When:** المحرم 12 AH `[SOURCED — البدایہ ج۷ ص۶۲]` · **Map:** first arrow leaves
 Arabia — from اليمامة east to the lower Euphrates. Arabia stops being the whole board.
@@ -1321,7 +1321,7 @@ two answers. Then tell them.
 *(Length: البدایہ says nine days, الکامل and سیر say five nights. Say both.)*
 
 
-### 56. ISA/E-C9 · Khālid ؓ hands the command round
+### 56. ★ ISA/E-C9 · Khālid ؓ hands the command round
 
 **Tier:** CORE · **When:** the morning of اليرموك `[SOURCED — البدایہ ج۷ ص۸۹; الکامل ج۲ ص۲۵۵]` ·
 **Map:** the Yarmūk. Roman camp at al-Wāqūṣa with the ravine at its back; the Muslim line sitting

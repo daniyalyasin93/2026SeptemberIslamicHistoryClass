@@ -108,10 +108,10 @@ SPINE = [
 
     ("ACT 6 \u00b7 Outward",
      "12\u201313 AH", [
-         "ISA/E-C1",     # the order to Iraq
+         "*ISA/E-C1",     # the order to Iraq
          "TMW/E-TRN19",  # أبو بكر ؓ walks beside the stirrup
          "ISA/E-C5",     # the march across the waterless desert
-         "ISA/E-C9",     # خالد ؓ hands the command round
+         "*ISA/E-C9",     # خالد ؓ hands the command round
          "ISA/E-C10",    # "armies are made many by victory"
      ]),
 
