@@ -12,7 +12,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 **Do not resolve it here.** Narrate what the sources narrate and say they differ.
 
 
-**258 dated cards.**
+**259 dated cards.**
 
 | When | Certainty | Card | Event |
 |---|---|---|---|
@@ -45,6 +45,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ, after بُزاخة | `SOURCED` | `RCT/E-RC10` | The terms at Medina, and ʿUmar's ؓ objection |
 | 11ھ, after بُزاخة | `SOURCED` | `RCT/E-RC11` | The three things asked of the men who came back |
 | 11ھ, after بُزاخة | `SOURCED` | `RCT/E-RC12` | أم زمل |
+| 11ھ, after بُزاخة | `SOURCED` | `RCT/E-RC41` | The reprisals, and the objection that was spoken aloud |
 | 11ھ, and again at المدینہ afterwards | `SOURCED` | `ATA/E-TB11` | ʿUyayna b. Ḥiṣn says why he followed Ṭulayḥa |
 | 11ھ, approaching بُزاخة | `SOURCED` | `RCT/E-RC08` | The two scouts |
 | 11ھ, as the delegations arrive | `SOURCED` | `ATA/E-TB07` | Two refusals, not one |

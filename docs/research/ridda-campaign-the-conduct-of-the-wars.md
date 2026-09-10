@@ -2855,6 +2855,30 @@ came past. **Use the setup note's card, not a new one.**
 
 ---
 
+### E-RC41 · The reprisals, and the objection that was spoken aloud
+**Tier:** GOOD · **When:** ۱۱ھ, after بُزاخة `[SOURCED]` · **Map:** n/a
+**What happened:** Khālid ؓ accepted no submission from Asad, Ghaṭafān, Ṭayyiʾ, Sulaym and ʿĀmir until they
+handed over the men who had burned and mutilated Muslims during the rising. When those men were handed
+over, he put them to death by fire, by stoning, and by throwing them from heights — and he wrote to
+Abū Bakr ؓ to tell him what he had done. Ibn Kathīr gives the reason in one clause: so that the
+apostate Arabs who heard of it would take warning. A separate report in al-Dhahabī, about Banū Sulaym,
+records that ʿUmar ؓ objected to Abū Bakr ؓ — and records Abū Bakr's ؓ answer.
+**The statement:**
+> وَلَمْ يَقْبَلْ مِنْ أَحَدٍ مِنْ أَسَدٍ، وَغَطَفَانَ، وَطَيِّئٍ، وَسُلَيْمٍ، وَعَامِرٍ — إِلَّا أَنْ يَأْتُوهُ **بِالَّذِينَ حَرَّقُوا وَمَثَّلُوا وَعَدَوْا عَلَى الْإِسْلَامِ فِي حَالِ رِدَّتِهِمْ**، فَأَتَوْهُ بِهِمْ، فَمَثَّلَ بِهِمْ وَحَرَّقَهُمْ وَرَضَخَهُمْ بِالْحِجَارَةِ، وَرَمَى بِهِمْ مِنَ الْجِبَالِ، وَنَكَّسَهُمْ فِي الْآبَارِ، **وَأَرْسَلَ إِلَى أَبِي بَكْرٍ يُعْلِمُهُ مَا فَعَلَ**.
+> — سیر أعلام النبلاء ج۱ ص۳۷۲ · https://shamela.ws/book/10906/1798
+> *English:* "ʿUmar said to Abū Bakr: Will you leave a man who punishes with the punishment of Allah? He
+> said: By Allah, I will not sheathe a sword Allah has drawn against His enemy."
+**عبرت:** The first objection to the severity came from inside the leadership, and it was said aloud and answered.
+**Hands-up?** no
+
+⚠ Speaker's discretion. Handle exactly as ridda-campaign note §5.4 prescribes: the terms first (the
+men handed over were those who had burned and mutilated Muslims), then the reprisals in one plain
+sentence, then ʿUmar's ؓ objection and Abū Bakr's ؓ answer — and stop. Do not defend, excuse or
+adjudicate. al-Dhahabī's editor marks the Sulaym report **mursal**. The same answer, «لا أشيم
+سيفًا», is also given about مالك بن نويرة (card E-RC14) — two incidents; do not let the room hear
+them as one. Full answer for a written slip: docs/catalogue/QA_BANK.md §6.3.
+Sources: الکامل ج۲ ص۲۰۶–۲۰۷ (21712/897–898) · البدایہ ج۷ ص۲۷ · سیر ج۱ ص۳۷۲ (10906/1798)
+
 # VERIFICATION PASS RUN ON THIS NOTE (2026-09-06)
 
 Every blockquoted Arabic statement in this note — **119 of them** — was machine-checked back against

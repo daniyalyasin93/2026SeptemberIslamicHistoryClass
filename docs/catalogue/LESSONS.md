@@ -11,7 +11,7 @@ needs it, and two sessions end up drawing the same lesson in different words.
 adjudicate. A deck uses at most **six** on its closing screen.
 
 
-**372 lines across 15 blocks.**
+**373 lines across 15 blocks.**
 
 
 ## The statements bank — slide-ready, by speaker
@@ -105,6 +105,7 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `RCT/E-RC38` | CORE | He turned the question round: the danger was not what would be done to them, but what would |
 | `RCT/E-RC39` | GOOD | Two men who agreed about the war disagreed about who should run it, and the book records |
 | `RCT/E-RC40` | CUT |  |
+| `RCT/E-RC41` | GOOD | The first objection to the severity came from inside the leadership, and it was said aloud and answered. |
 
 ## Setting: the tribal map, and why the ردة took its shape
 
