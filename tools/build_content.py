@@ -25,7 +25,7 @@ NOTES = os.path.join(ROOT, "docs", "research")
 
 # The order the evening tells them. Notes not listed here are appended after, in filename order,
 # so a new strand is never silently dropped.
-ORDER = [
+ORDER_L02 = [
     ("arabian-tribes-and-the-ridda-setup", "Setting: the tribal map, and why the ردة took its shape"),
     ("ridda-campaign-the-conduct-of-the-wars", "The ردة wars: the campaign, front by front"),
     ("abu-bakr-usama-and-the-jam-of-the-quran", "جيش أسامة ؓ, and the Qur'an collected"),
@@ -42,6 +42,35 @@ ORDER = [
     ("great-statements-and-dialogues-11-23ah", "The statements bank — slide-ready, by speaker"),
     ("ibn-khaldun-on-the-ridda-the-conquests-and-method", "ابن خلدون: how he reads it (framing only)"),
 ]
+
+# Session 3 — «پہلا امتحان», 23-40 AH. عثمان ؓ → علی ؓ, and the handover of 41 AH.
+ORDER_L03 = [
+    ("uthman-the-man-and-the-caliphate-begins", "ذو النورين عثمان ؓ, and how the caliphate began"),
+    ("uthman-the-conquests-and-the-first-fleet", "The conquests: إفريقية, قبرص, the sea, and the end of Persia"),
+    ("uthman-the-mushaf-and-the-state", "The مصحف, and the state عثمان ؓ ran"),
+    ("the-mashajarat-and-how-to-narrate-it", "The اصول: how a fitna is narrated from the platform"),
+    ("the-grievances-against-uthman", "What was complained of, and by whom"),
+    ("the-siege-and-the-killing-of-uthman", "The siege, and the killing of عثمان ؓ"),
+    ("ali-the-man-and-the-bayah", "علي ؓ, and the بيعة of 35 AH"),
+    ("the-battle-of-the-camel", "وقعة الجمل"),
+    ("siffin", "صفين"),
+    ("the-arbitration-and-the-nahrawan", "التحكيم, the first خوارج, and النهروان"),
+    ("the-khawarij-in-the-prophetic-reports", "What the Prophet ﷺ is reported to have said about the خوارج"),
+    ("egypt-and-the-fraying-of-the-command", "مصر, the raids, and the fraying of the command"),
+    ("the-killing-of-ali", "The killing of علي ؓ"),
+    ("the-caliphate-of-hasan-and-the-year-of-unity", "الحسن ؓ, the handover, and عام الجماعة"),
+    ("the-fadail-of-ali-as-the-books-report-them", "The فضائل of علي ؓ, and what ابن كثير does with each report"),
+    ("the-companions-who-stood-back", "The people: the Companions who stood back"),
+    ("people-of-the-fitna-profiles-i", "The people: profiles I — عثمان ؓ's circle and the men of الجمل"),
+    ("people-of-the-fitna-profiles-ii", "The people: profiles II — الكوفة, الشام, and the men of صفين"),
+    ("the-deaths-of-the-generation-23-40ah", "The people: the generation thins — who died, year by year"),
+    ("great-statements-and-dialogues-23-40ah", "The statements bank — slide-ready, by speaker"),
+    ("timeline-and-frontier-23-40ah", "The dates, the frontier, and the gazetteer"),
+    ("ibn-khaldun-on-the-fitna", "ابن خلدون: how he reads the fitna (framing only)"),
+]
+
+# A note is only ever pulled into the session whose order names it, so the two pools never mix.
+ORDERS = {"L02": ORDER_L02, "L03": ORDER_L03}
 
 CARD = re.compile(r"^### (E-[^\s·]+)\s*·\s*(.*?)\s*$", re.M)
 TIER = re.compile(r"\*\*Tier:\*\*\s*([A-Z]+)")
@@ -86,16 +115,21 @@ def cards_in(path):
 
 
 def build(session_dir, title, span, out_name="CONTENT.md"):
-    stems = {s: t for s, t in ORDER}
+    key = os.path.basename(session_dir.rstrip("/\\"))[:3].upper()
+    if key not in ORDERS:
+        sys.exit("no running order declared for %r — add one to ORDERS in this file" % key)
+    order = ORDERS[key]
+    session_no = int(key[1:])
+    stems = {s: t for s, t in order}
     found = {os.path.splitext(f)[0]: os.path.join(NOTES, f)
              for f in os.listdir(NOTES) if f.endswith(".md") and f != "INDEX.md"}
 
-    ordered = [(s, stems[s], found[s]) for s, _ in ORDER if s in found]
-    extra = sorted(k for k in found if k not in stems)
-    ordered += [(k, k.replace("-", " "), found[k]) for k in extra]
+    # Only this session's declared notes are pulled in. An unlisted note belongs to another
+    # session's pool, so appending strays here would put 11-23 AH cards into the 23-40 AH file.
+    ordered = [(s, stems[s], found[s]) for s, _ in order if s in found]
 
     blocks, totals = [], {"CORE": 0, "GOOD": 0, "CUT": 0}
-    index_rows, missing = [], [s for s, _ in ORDER if s not in found]
+    index_rows, missing = [], [s for s, _ in order if s not in found]
 
     for stem, heading, path in ordered:
         cs = cards_in(path)
@@ -123,12 +157,12 @@ def build(session_dir, title, span, out_name="CONTENT.md"):
 
     head = """# %s — the event pool
 
-**Session 2 · %s · a 45-minute slot.**
+**Session %d · %s · a 45-minute slot.**
 
 > **THIS FILE IS NOT THE LECTURE. IT IS THE POOL YOU CUT DOWN TO ONE.**
 > `DECISIONS.md` #20. Delete the rows you do not want. What survives is the evening. Overflow is
-> not compressed — it rolls into session 3. Coverage is never bought by speeding up, which is the
-> one thing the room objected to last time.
+> not compressed — it rolls into the next session. Coverage is never bought by speeding up, which
+> is the one thing the room objected to last time.
 
 **How to cut.** Read top to bottom; it is already in narrative order. Delete whole cards. Keep
 roughly **%d cards** for a 45-minute slot told calmly — the rest is deliberate over-build.
@@ -155,7 +189,7 @@ the map move · a verbatim Arabic statement with its printed page and shamela li
 
 %s
 ## The cards
-""" % (title, span, int(45 / 2.0), total, round(mins), max(0, round(100 * (1 - 45.0 / mins))),
+""" % (title, session_no, span, int(45 / 2.0), total, round(mins), max(0, round(100 * (1 - 45.0 / mins))),
        "\n".join(index_rows),
        ("\n> ⚠ **Not yet written:** %s\n" % ", ".join("`%s.md`" % m for m in missing)) if missing else "")
 
