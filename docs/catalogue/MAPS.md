@@ -39,7 +39,7 @@ every map in the series.
 
 ⚠ **Every scene carries `sites placed approximately` in its note, and it means it.** The
 gazetteer is approximate modern coordinates for placement only, never a claim about a site;
-بزاخة, عقرباء, دارين, أجنادين, يرموك and قادسية are genuinely disputed. A territory outline
+⁨بزاخة⁩, ⁨عقرباء⁩, ⁨دارين⁩, ⁨أجنادين⁩, ⁨يرموك⁩ and ⁨قادسية⁩ are genuinely disputed. A territory outline
 here is a schematic, **not a frontier**.
 
 | Scene | Title | When | Objects |
@@ -63,4 +63,4 @@ here is a schematic, **not a frontier**.
 | `yarmuk.json` | Yarmuk | 15 AH | 7 |
 | `dhu-husa-to-dhu-al-qassa.json` | The night raid, and the road out of Medina | 11 AH — **five steps**, export one PNG per step | 21 |
 
-⚠ **ذو حُسى carries no distance, on purpose.** No page gives one; an earlier map labelled it "one day out" and that was caught and corrected. Only ذو القصّة is sourced as «على مرحلةٍ».
+⚠ **⁨ذو حُسى⁩ carries no distance, on purpose.** No page gives one; an earlier map labelled it "one day out" and that was caught and corrected. Only ⁨ذو القصّة⁩ is sourced as «⁨على مرحلةٍ⁩».

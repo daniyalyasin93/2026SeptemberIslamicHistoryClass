@@ -1,4 +1,4 @@
-# HOWWEKNOW — the «کیسے پتا چلا؟» bank
+# HOWWEKNOW — the «⁨کیسے پتا چلا؟⁩» bank
 
 The whole muqaddima, redistributed — three minutes per week, in the week each piece is needed.
 Rotation and verified page anchors are in

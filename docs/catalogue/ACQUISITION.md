@@ -27,10 +27,10 @@ you are done. Near zero means it is images, and only then is OCR the question.
 
 | # | What | Unlocks | Urgency |
 |---|---|---|---|
-| 1 | **_Tareekh-e-Ummat_ vol. 1, the rest of خلافتِ راشدہ** — the ابوبکر ؓ chapter in full (ردہ، جمعُ القرآن، فدک), the عمر ؓ chapter (فتوحات، دیوان، تقویم), عثمان ؓ, علی ؓ | **Sessions 2 and 3** | **Blocking.** Session 2 is 14 days out |
+| 1 | **_Tareekh-e-Ummat_ vol. 1, the rest of ⁨خلافتِ راشدہ⁩** — the ⁨ابوبکر ؓ⁩ chapter in full (⁨ردہ، جمعُ القرآن، فدک⁩), the ⁨عمر ؓ⁩ chapter (⁨فتوحات، دیوان، تقویم⁩), ⁨عثمان ؓ⁩, ⁨علی ؓ⁩ | **Sessions 2 and 3** | **Blocking.** Session 2 is 14 days out |
 | 2 | **_Tareekh-e-Ummat_, all remaining volumes** — confirm the volume count and what each covers from the publisher's own listing before assuming | Sessions 4–7, and possibly 8–9 | Within 3 weeks |
 
-We currently hold printed pp. ۳۲–۷۸ (المقدمہ) and pp. ۴۵۶–۴۶۵ — a ten-page slice. That is all.
+We currently hold printed pp. ۳۲–۷۸ (⁨المقدمہ⁩) and pp. ۴۵۶–۴۶۵ — a ten-page slice. That is all.
 
 ---
 
@@ -45,8 +45,8 @@ python tools/shamela.py get 34 110       # الإعلان بالتوبيخ, the 
 python tools/shamela.py range 34 108 120 # a span
 ```
 
-Already retrieved and cached: **book 34 = الإعلان بالتوبيخ لمن ذمّ أهل التاريخ (السخاوي)**, whose
-**باب فوائد التاريخ begins at printed p.۱۱۱** — the chapter Rehan sahib draws his whole فوائد list
+Already retrieved and cached: **book 34 = ⁨الإعلان بالتوبيخ لمن ذمّ أهل التاريخ⁩ (⁨السخاوي⁩)**, whose
+**⁨باب فوائد التاريخ⁩ begins at printed p.۱۱۱** — the chapter Rehan sahib draws his whole ⁨فوائد⁩ list
 from. The course epigraph now comes from it in the original Arabic (see `IBRAH.md`).
 
 So this tier is a **lookup list, not a shopping list.** Book ids get recorded here as they are found.
@@ -60,17 +60,17 @@ staying inside the course's own frame, not going outside it.
 
 | id | Work | Edition |
 |---|---|---|
-| **34** | الإعلان بالتوبيخ لمن ذمّ أهل التاريخ — السخاوي | ت الظفيري · فوائد التاريخ from printed p.۱۱۱ |
-| **30097** | البداية والنهاية — ابن كثير | ط دار ابن كثير (20 vols) — *preferred* |
-| 4445 | البداية والنهاية — ابن كثير | ت التركي (21 vols) |
-| **10906** | سير أعلام النبلاء — الذهبي | ط الرسالة (Shuʿayb al-Arnaʾūṭ) — *preferred* |
+| **34** | ⁨الإعلان بالتوبيخ لمن ذمّ أهل التاريخ⁩ — ⁨السخاوي⁩ | ⁨ت الظفيري⁩ · ⁨فوائد التاريخ⁩ from printed p.۱۱۱ |
+| **30097** | ⁨البداية والنهاية⁩ — ⁨ابن كثير⁩ | ⁨ط دار ابن كثير⁩ (20 vols) — *preferred* |
+| 4445 | ⁨البداية والنهاية⁩ — ⁨ابن كثير⁩ | ⁨ت التركي⁩ (21 vols) |
+| **10906** | ⁨سير أعلام النبلاء⁩ — ⁨الذهبي⁩ | ⁨ط الرسالة⁩ (Shuʿayb al-Arnaʾūṭ) — *preferred* |
 | 22669 | سير أعلام النبلاء — الذهبي | ط الحديث |
-| **21712** | الكامل في التاريخ — ابن الأثير | ت تدمري (10 vols, to ۶۲۸ھ) |
-| **9783** | تاريخ الطبري = تاريخ الرسل والملوك | ط دار المعارف (11 vols) — use with the muqaddima's caution, p.۷۱ |
+| **21712** | ⁨الكامل في التاريخ⁩ — ⁨ابن الأثير⁩ | ⁨ت تدمري⁩ (10 vols, to ⁨۶۲۸ھ⁩) |
+| **9783** | ⁨تاريخ الطبري⁩ = ⁨تاريخ الرسل والملوك⁩ | ⁨ط دار المعارف⁩ (11 vols) — use with the muqaddima's caution, p.۷۱ |
 
-Author pages: ابن كثير `/author/3` · الذهبي `/author/362` · السخاوي `/author/34`
+Author pages: ⁨ابن كثير⁩ `/author/3` · ⁨الذهبي⁩ `/author/362` · ⁨السخاوي⁩ `/author/34`
 
-Still to find when needed: مقدمة ابن خلدون · تاريخ الإسلام (الذهبي).
+Still to find when needed: ⁨مقدمة ابن خلدون⁩ · ⁨تاريخ الإسلام⁩ (⁨الذهبي⁩).
 
 `python tools/shamela.py get <id> <page>`
 
@@ -78,25 +78,25 @@ Still to find when needed: مقدمة ابن خلدون · تاريخ الإسل
 
 | Work | Author | Why this one |
 |---|---|---|
-| **الإعلان بالتوبيخ لمن ذمّ أهل التاريخ** | السخاوي | **The highest-value single acquisition.** This is the book Rehan sahib quotes throughout pp.۵۱–۵۶ for the فوائد, the fiqh grading, and the historian's conditions. Owning it gives the **Arabic originals of the exact quotations the course already uses** |
-| **مقدمة ابن خلدون** | ابن خلدون | The classical treatment of why civilisations rise and fall — precisely the "civilizational lessons" material, from an authority, so no conclusion has to be ours |
-| **البداية والنهاية** | ابن كثير | The muqaddima's own recommendation as the soundest readable narrative history. **The natural second spine wherever _Tareekh-e-Ummat_ runs out** |
-| **سير أعلام النبلاء** | الذهبي | The model for the تعارف format we adopted — biographical notices with dates and one defining incident. Sessions 2–7 draw their profiles from here |
+| **⁨الإعلان بالتوبيخ لمن ذمّ أهل التاريخ⁩** | ⁨السخاوي⁩ | **The highest-value single acquisition.** This is the book Rehan sahib quotes throughout pp.۵۱–۵۶ for the ⁨فوائد⁩, the fiqh grading, and the historian's conditions. Owning it gives the **Arabic originals of the exact quotations the course already uses** |
+| **⁨مقدمة ابن خلدون⁩** | ⁨ابن خلدون⁩ | The classical treatment of why civilisations rise and fall — precisely the "civilizational lessons" material, from an authority, so no conclusion has to be ours |
+| **⁨البداية والنهاية⁩** | ⁨ابن كثير⁩ | The muqaddima's own recommendation as the soundest readable narrative history. **The natural second spine wherever _Tareekh-e-Ummat_ runs out** |
+| **⁨سير أعلام النبلاء⁩** | ⁨الذهبي⁩ | The model for the ⁨تعارف⁩ format we adopted — biographical notices with dates and one defining incident. Sessions 2–7 draw their profiles from here |
 
 **Get these as the course reaches them:**
 
 | Work | Author | Used for |
 |---|---|---|
-| الكامل في التاريخ | ابن الأثير | Year-by-year narrative, sessions 4–6 |
-| تاريخ الإسلام | الذهبي | The most carefully sifted of the large histories |
-| تاريخ الرسل والملوك (تاريخ الطبري) | الطبري | The raw well — everything with its chain. **Use with the muqaddima's own caution: presence in Ṭabarī is not authenticity** |
-| الإصابة في تمييز الصحابة | ابن حجر | Companion biographies, sessions 2–3 |
-| الاستيعاب · أسد الغابة | ابن عبد البر · ابن الأثير | Companion biographies, corroboration |
-| لسان الميزان | ابن حجر | Holds the Shāfiʿī wine-cup refutation the muqaddima cites (p.۵۷) |
-| تاريخ بغداد | الخطيب البغدادي | The scholar behind the forged-Khaybar-document episode (p.۵۸) |
-| الطبقات الكبرى | ابن سعد | Sessions 2–3 |
-| فتوح البلدان | البلاذري | The conquests city by city, session 2 |
-| المنتظم · مرآة الزمان | ابن الجوزي · سبط ابن الجوزي | The two works the muqaddima calls overlooked |
+| ⁨الكامل في التاريخ⁩ | ⁨ابن الأثير⁩ | Year-by-year narrative, sessions 4–6 |
+| ⁨تاريخ الإسلام⁩ | ⁨الذهبي⁩ | The most carefully sifted of the large histories |
+| ⁨تاريخ الرسل والملوك⁩ (⁨تاريخ الطبري⁩) | ⁨الطبري⁩ | The raw well — everything with its chain. **Use with the muqaddima's own caution: presence in Ṭabarī is not authenticity** |
+| ⁨الإصابة في تمييز الصحابة⁩ | ⁨ابن حجر⁩ | Companion biographies, sessions 2–3 |
+| ⁨الاستيعاب⁩ · ⁨أسد الغابة⁩ | ⁨ابن عبد البر⁩ · ⁨ابن الأثير⁩ | Companion biographies, corroboration |
+| ⁨لسان الميزان⁩ | ⁨ابن حجر⁩ | Holds the Shāfiʿī wine-cup refutation the muqaddima cites (p.۵۷) |
+| ⁨تاريخ بغداد⁩ | ⁨الخطيب البغدادي⁩ | The scholar behind the forged-Khaybar-document episode (p.۵۸) |
+| ⁨الطبقات الكبرى⁩ | ⁨ابن سعد⁩ | Sessions 2–3 |
+| ⁨فتوح البلدان⁩ | ⁨البلاذري⁩ | The conquests city by city, session 2 |
+| ⁨المنتظم⁩ · ⁨مرآة الزمان⁩ | ⁨ابن الجوزي⁩ · ⁨سبط ابن الجوزي⁩ | The two works the muqaddima calls overlooked |
 
 **Death-dates:** the muqaddima carries its own list of these at pp.۶۷–۷۸. Take every date from
 there before it appears on a slide. Do not take a death-date from memory or from a website.
@@ -113,9 +113,9 @@ checking, in order:
 
 | Work | Author | Covers | Check |
 |---|---|---|---|
-| **تاریخ اسلام** | اکبر شاہ خان نجیب آبادی | A standard Urdu general history; its later volume treats India | Confirm the volume and its coverage |
-| **تاریخ دعوت و عزیمت** | سید ابو الحسن علی ندوی | The reformers — شاہ ولی اللہ, سرہندی and after. Fits session 9 exactly | Confirm which volumes |
-| **حجة الله البالغة** | شاہ ولی اللہ | Session 9's central figure in his own words (Arabic) | Optional but strong |
+| **⁨تاریخ اسلام⁩** | ⁨اکبر شاہ خان نجیب آبادی⁩ | A standard Urdu general history; its later volume treats India | Confirm the volume and its coverage |
+| **⁨تاریخ دعوت و عزیمت⁩** | ⁨سید ابو الحسن علی ندوی⁩ | The reformers — ⁨شاہ ولی اللہ⁩, ⁨سرہندی⁩ and after. Fits session 9 exactly | Confirm which volumes |
+| **⁨حجة الله البالغة⁩** | ⁨شاہ ولی اللہ⁩ | Session 9's central figure in his own words (Arabic) | Optional but strong |
 
 The final choice should be run past a scholar you trust before it is named to the audience.
 
@@ -124,8 +124,8 @@ The final choice should be run past a scholar you trust before it is named to th
 ## Tier 4 — verification, not reading
 
 For checking āyah and hadith references before they reach a slide: a reliable muṣḥaf reference, and
-صحیح البخاری / صحیح مسلم in a numbered edition. Two references in `IBRAH.md` are already waiting on
-this — the سنن ابن ماجہ number for «إِذَا لَمْ تَسْتَحْيِ فَاصْنَعْ مَا شِئْتَ», and the البخاری chapter for
+⁨صحیح البخاری⁩ / ⁨صحیح مسلم⁩ in a numbered edition. Two references in `IBRAH.md` are already waiting on
+this — the ⁨سنن ابن ماجہ⁩ number for «⁨إِذَا لَمْ تَسْتَحْيِ فَاصْنَعْ مَا شِئْتَ⁩», and the ⁨البخاری⁩ chapter for
 the hadith of the nations before us. **Both are currently marked "verify" and neither may be quoted
 with a number until checked.**
 

@@ -1,76 +1,46 @@
 # STATUS — read this first, every session
 
-> **2026-09-06 · RESUME POINT.** Session 1 has been **delivered**. The feedback from it rewrote how
-> this repo produces a lecture — see `docs/DECISIONS.md` **#19–#29** and
-> `docs/specs/2026-09-06-L02-and-production-v4-spec.md`. **Read those two before anything else.**
-> Work is now on **session 2 (11–23 AH)**. If this session ended at a token limit, the "Where to
-> pick up" block below says exactly where.
+> **2026-09-13 · RESUME POINT.** **Session 3 («⁨پہلا امتحان⁩», ۲۳–⁨۴۱ھ⁩) is researched in full** — 23
+> page-cited notes, **1,459 event cards** in `L03_pehla_imtihan/CONTENT.md`. Read
+> `docs/research/READING_ORDER.md` before the notes; it declares the order to read them in, which is
+> deliberately not the order the evening tells them. Session 1 was delivered; session 2 is built.
+> The date of the next session is **still not set**.
 
 ---
 
-## 0. Where to pick up (2026-09-06)
+## 0. Where to pick up (2026-09-13)
 
-**Done and committed — do not redo any of this:**
+**Session 3 — done and committed. Do not redo any of it.**
 
 | | |
 |---|---|
-| `43a4235` | session 1 exactly as delivered (`L01_DY.pptx`, script, three research notes) |
-| `52e323c` | production pipeline **v4** — DECISIONS #19–28, the L02 spec, `CLAUDE.md` rewritten |
-| `ec1ec88` | `tools/render_note.py` — research notes → readable A4 PDF, Arabic in Naskh at reading size |
-| `9de326e` | `series/deck2.py` (the deck contract, enforced) + `series/preview.py` (deck → PNG contact sheet) |
-| `ef33547` | `series/pack.py` (cue sheet / briefing / worksheet) + DECISIONS #29 (Ibn Khaldūn) |
+| Sources | **1,569 Shamela pages** cached for ۲۳–⁨۴۱ھ⁩ — ⁨البدایہ⁩ 30097 · ⁨الکامل⁩ 21712 · ⁨سیر⁩ 10906 · ⁨ابن خلدون⁩ 12320. Logged chapter by chapter in `docs/catalogue/SHAMELA_LOG.md` |
+| Notes | **23**, in `docs/research/`, each ending in a machine-parsable `## EVENT CARDS` section |
+| Pool | `L03_pehla_imtihan/CONTENT.md` — **1,459 cards** (802 CORE · 615 GOOD · 42 CUT), ≈2,568 minutes of material for a 45-minute slot |
+| Citations | **4,410 quotations across every note in the repo: 0 problems** (`python tools/check_citations.py`) |
+| Card structure | 1,459 cards, 2 problems (`python tools/check_cards.py L03_pehla_imtihan`) |
+| Reading order | `docs/research/READING_ORDER.md`; numbered PDFs in `docs/research/read/` (git-ignored, rebuild with `python tools/reading_order.py --pdf`) |
+| Catalogue | `LESSONS.md` 1,834 lines · `TIMELINE.md` 1,423 lines, both regenerated from both pools |
+| QA | `docs/catalogue/QA_BANK.md` extended with 20 session-3 questions — the ones this window actually invites |
 
-**The tooling is finished.** All six per-session artifacts can now be produced. What remains for
-session 2 is **content**, not code.
+**What is NOT done for session 3.** No deck, no cue sheet, no briefing, no worksheet. The pool is
+the deliverable so far; the six per-session artifacts (spec v4 §1) have not been built, and
+**Daniyal has not yet cut the pool** — that cut is the next decision, and it is his.
 
-**Raw sources are cached, so re-fetching costs nothing.** This was done deliberately in one sweep
-so that a token limit cannot strand the work:
+**New tooling, all of it free to run:**
 
-| Book | id | Pages cached | Covers |
-|---|---|---|---|
-| البدایہ والنہایہ | `30097` | ~515 | the whole window and more |
-| سیر أعلام النبلاء | `10906` | ~279 | the تراجم |
-| الکامل فی التاریخ | `21712` | ~178 | year-by-year |
-| **تاریخ ابن خلدون** | `12320` | **1276–1370** | أسامة · السقيفة · the ردة · Iraq · Shām · قادسية · المدائن · بيت المقدس · عام الرمادة · طاعون عمواس · نهاوند · الشورى |
-| تاریخ الطبری | `9783` | ~10 | corroboration only |
+| Tool | Does |
+|---|---|
+| `tools/check_citations.py` | every Arabic quotation vs. the cached page it cites. **No note is finished until this is silent** (`DECISIONS.md` #32) |
+| `tools/check_cards.py` | card fields, tiers, certainty labels, duplicate ids, apparatus leaking into a spoken narrative |
+| `tools/bidi_fix.py` | wraps inline Arabic in U+2068/U+2069 so a Markdown preview stops scrambling mixed lines. Stripped again by `build_content.py` |
+| `tools/reading_order.py` | `READING_ORDER.md` + numbered PDFs |
 
-Everything is under `sources/shamela/<book>/<index>.txt`, each file carrying its URL, volume and
-**printed** page in the header. **Daniyal can read these directly** — they are plain text, no tool
-needed.
-
-**Session 2 is BUILT.** Everything below is done and committed.
-
-| Artifact | | |
-|---|---|---|
-| `L02_baarah_saal/L02_ALL.pptx` | **275 slides** | every one of the 263 researched cards, nothing dropped. Speaker notes carry the full narrative, date, map move, عبرت line, statement and source |
-| `L02_baarah_saal/L02.pptx` | **60 slides** | the crafted session: أبو بكر ؓ's caliphate entire, 11–13 AH, 31 cards |
-| `L02_baarah_saal/CUE.pdf` | **1 page** | headings, names, dates, cues. No sentences |
-| `L02_baarah_saal/BRIEFING.pdf` | 34 pages | 10,500 words of prose, to read at home |
-| `L02_baarah_saal/WORKSHEET.pdf` | 2 pages | blank Arabia map + blank timeline + «ایک واقعہ» lines |
-| `L02_baarah_saal/CONTENT.md` · `SPINE.md` | | the pool, and the declared running order |
-| `series/visuals/map_s2_*.png` | 11 assets | 4:3, tight-cropped, both closing pairs (13 AH and 23 AH) |
-
-**Daniyal's call, still open:** which cards go in which session. The recommended cut lives in
-`SPINE.md` and is a *suggestion in a separate file* — every card is in `L02_ALL.pptx` regardless.
-
-**What is left for session 2**
-
-1. **Daniyal filters.** Delete slides from `L02_ALL.pptx`, or start from `L02.pptx` and add.
-2. **Gemini fills the image placeholders** — 5 in `L02.pptx`, 31 in `L02_ALL.pptx`. Every brief is
-   in the slide's speaker notes and ends with the flat-white instruction, so an image drops on with
-   no seam. Briefs are non-figurative by design: no depiction of the Prophet ﷺ or any Companion.
-3. **Eyeball the Arabic before it is projected.** Everything is verified against Shamela's *text*,
-   not against page images, and Shamela carries its own typesetting slips — four were found in one
-   stretch. `CLAUDE.md` §1.1 stands: locate by grep, **quote by eye**.
-4. **One open question from the map build:** card RC05's `Map:` line says *eleven* arrows leave
-   ذو القصّة but names only **ten** destinations, and its [HANDS] cue asks the room to count along.
-   Either an eleventh destination is added from the sources or the counting cue is reworded. The
-   map itself prints no count, so it is safe either way.
-
-**Sessions 3+ are already researched.** عمر ؓ's ~130 page-cited cards are in `CONTENT.md` and in
-`L02_ALL.pptx`, tiered and quote-checked. No new research is needed to build them.
-
----
+**⚠ Open, and it matters: the 11–23 AH notes were repaired, not re-verified by eye.** The checker
+found 115 defects in them — quotations on no cached page, quotations running past the page cited,
+wrong printed pages, one citation resting on ⁨الطبری⁩ alone. All are now cleared, but
+`L02_ALL.pptx` was built **before** that, so **the deck still carries the old citations**. Rebuild
+it from the corrected `CONTENT.md` before session 2 is delivered.
 
 ## 1. Where the series stands
 
@@ -79,8 +49,9 @@ needed.
 | **Sessions delivered** | **none.** Session 1 was scheduled 2 Sep 2026 and was **postponed** |
 | **Next session date** | ⬜ **NOT SET** — needed for the print deadline and the build plan |
 | **Session 1 status** | being **rebuilt** to the v3 shape (see `docs/specs/2026-09-03-L01-v3-spec.md`) |
-| **Session 2 status** | built to the v2 shape, opens on the ردة — **still correct**, unaffected by the v3 rebuild |
-| **Sessions 3–10** | not started; blocked on sources (see §3) |
+| **Session 2 status** | built to the v2 shape, opens on the ⁨ردة⁩ — **still correct**, unaffected by the v3 rebuild |
+| **Session 3 status** | **researched in full** (1,459 cards). No artifacts built yet; the pool awaits Daniyal's cut |
+| **Sessions 4–10** | not started |
 
 ## 2. What is built, and where
 
@@ -111,18 +82,18 @@ needed.
 
 | Source | Path / access | Covers |
 |---|---|---|
-| *تاریخِ امت*, vol 1 — المقدمہ | `sources/text/TUM_v1_muqaddima.txt` | printed pp.۳۲–۷۸ |
-| *تاریخِ امت*, vol 1 — خلافتِ راشدہ opening | `sources/text/TUM_v1_abubakr.txt` | printed pp.۴۵۶–۴۶۵ |
-| البدایہ والنہایہ (ابن كثير) | Shamela **30097** via `tools/shamela.py` | everything |
-| سیر أعلام النبلاء (الذہبی) | Shamela **10906** | everything |
-| الکامل (ابن الأثیر) | Shamela **21712** | to ۶۲۸ھ |
-| الإعلان بالتوبيخ (السخاوی) | Shamela **34** | فوائد التاریخ from printed p.۱۱۱ |
+| *⁨تاریخِ امت⁩*, vol 1 — ⁨المقدمہ⁩ | `sources/text/TUM_v1_muqaddima.txt` | printed pp.۳۲–۷۸ |
+| *⁨تاریخِ امت⁩*, vol 1 — ⁨خلافتِ راشدہ⁩ opening | `sources/text/TUM_v1_abubakr.txt` | printed pp.۴۵۶–۴۶۵ |
+| ⁨البدایہ والنہایہ⁩ (⁨ابن كثير⁩) | Shamela **30097** via `tools/shamela.py` | everything |
+| ⁨سیر أعلام النبلاء⁩ (⁨الذہبی⁩) | Shamela **10906** | everything |
+| ⁨الکامل⁩ (⁨ابن الأثیر⁩) | Shamela **21712** | to ⁨۶۲۸ھ⁩ |
+| ⁨الإعلان بالتوبيخ⁩ (⁨السخاوی⁩) | Shamela **34** | ⁨فوائد التاریخ⁩ from printed p.۱۱۱ |
 
 **NOT usable — do not plan around these:**
 
 - `sources/pdf/Tareekh e Ummat e Muslima … 2/3/4.pdf` — **no usable text layer. Daniyal must OCR
   these himself and has not yet.** Confirmed 2026-09-03. Assume they do not exist until he says so.
-- `sources/pdf/*_text.pdf` (00–25in, jm) — these are **scans of سیر أعلام النبلاء** with a badly
+- `sources/pdf/*_text.pdf` (00–25in, jm) — these are **scans of ⁨سیر أعلام النبلاء⁩** with a badly
   garbled Arabic OCR layer. **Use Shamela 10906 instead** — it is typed, clean and page-accurate.
   These PDFs are only useful for eyeballing a page image.
 
@@ -155,10 +126,10 @@ Chapter indices already located (saves the hunt):
 | ثابت بن قيس بن شماس ؓ | 10906 | 1734 |
 | معاذ بن جبل ؓ | 10906 | 1869 |
 | النعمان بن بشير ؓ | 10906 | 3019 |
-| فوائد التاريخ (السخاوي) | 34 | 110 (= printed p.۱۱۱) |
+| ⁨فوائد التاريخ⁩ (⁨السخاوي⁩) | 34 | 110 (= printed p.۱۱۱) |
 
 `tools/shamela.py` caches to `sources/shamela/<book>/<index>.txt`. **A page fetched once is free
-forever — check the cache before fetching.** The file header reports the printed ج/ص; **cite that,
+forever — check the cache before fetching.** The file header reports the printed ⁨ج⁩/⁨ص⁩; **cite that,
 never the index.**
 
 ## 5. Blocked / open
@@ -166,11 +137,11 @@ never the index.**
 | # | Open item | Blocks | Owner |
 |---|---|---|---|
 | 1 | **New session-1 date** | print deadline, whole build plan | Daniyal |
-| 2 | **OCR of *تاریخِ امت* vols 2–4** (and the rest of vol 1) | sessions 3–7 Urdu spine | Daniyal |
+| 2 | **OCR of *⁨تاریخِ امت⁩* vols 2–4** (and the rest of vol 1) | sessions 3–7 Urdu spine | Daniyal |
 | 3 | Headcount | print quantities | Daniyal |
 | 4 | Karbala depth and framing | session 4 | conversation needed |
-| 5 | South Asia source — does *تاریخِ امت* reach it? | sessions 8–9 | check on OCR |
-| 6 | Sunan Ibn Majah number for «إِذَا لَمْ تَسْتَحْيِ فَاصْنَعْ مَا شِئْتَ»; Bukhari chapter for the hadith of the nations before us | `IBRAH.md` | both marked *(to verify)* — **may not be quoted with a number until checked** |
+| 5 | South Asia source — does *⁨تاریخِ امت⁩* reach it? | sessions 8–9 | check on OCR |
+| 6 | Sunan Ibn Majah number for «⁨إِذَا لَمْ تَسْتَحْيِ فَاصْنَعْ مَا شِئْتَ⁩»; Bukhari chapter for the hadith of the nations before us | `IBRAH.md` | both marked *(to verify)* — **may not be quoted with a number until checked** |
 
 ## 6. The next three things to do
 

@@ -21,7 +21,7 @@ building, then stop.
 | # | Read | What it gives you | Cards | Quotations | Size |
 |---|---|---|---|---|---|
 | **03-01** | [`the-mashajarat-and-how-to-narrate-it.md`](the-mashajarat-and-how-to-narrate-it.md) | **Read this first.** What may and may not be said from the platform about a quarrel between Companions, and the words that close the subject. | 56 | 83 | 128 KB |
-| **03-02** | `timeline-and-frontier-23-40ah.md` | ⬜ **not written yet** | — | — | — |
+| **03-02** | [`timeline-and-frontier-23-40ah.md`](timeline-and-frontier-23-40ah.md) | Every date in the window with its certainty label, the frontier at 23 · 35 · 41 AH, and the gazetteer. Read once, and the rest has somewhere to sit. | 35 | 24 | 110 KB |
 | **03-03** | [`uthman-the-man-and-the-caliphate-begins.md`](uthman-the-man-and-the-caliphate-begins.md) | ذو النورين — who he was before 24 AH, the بيعة and its terms, his صفة and سيرة, and the فضائل the books record. | 49 | 159 | 225 KB |
 | **03-04** | [`uthman-the-conquests-and-the-first-fleet.md`](uthman-the-conquests-and-the-first-fleet.md) | إفريقية, قبرص, the first sea battle, and the end of the Sasanian house — the empire still growing while the trouble starts. | 53 | 128 | 193 KB |
 | **03-05** | [`uthman-the-mushaf-and-the-state.md`](uthman-the-mushaf-and-the-state.md) | The توحيد المصاحف, and the administration: the mosque, the أذان, the عطاء, the ring in the well. | 56 | 128 | 191 KB |
@@ -41,7 +41,7 @@ building, then stop.
 | **03-19** | [`people-of-the-fitna-profiles-i.md`](people-of-the-fitna-profiles-i.md) | تراجم notices — طلحة ؓ · الزبير ؓ · عائشة ؓ · ابن عوف ؓ · سعد ؓ · عمار ؓ · أبو ذر ؓ · ابن مسعود ؓ. | 94 | 116 | 190 KB |
 | **03-20** | [`people-of-the-fitna-profiles-ii.md`](people-of-the-fitna-profiles-ii.md) | تراجم notices — عمرو بن العاص ؓ · أبو موسى ؓ · المغيرة ؓ · الأشتر · محمد بن أبي بكر ؓ and the men of الكوفة and صفين. | 55 | 120 | 234 KB |
 | **03-21** | [`people-of-the-fitna-profiles-iii.md`](people-of-the-fitna-profiles-iii.md) | تراجم notices — معاوية ؓ · الحسن ؓ · ابن عباس ؓ · the governors · كعب الأحبار and the rest. | 70 | 94 | 171 KB |
-| **03-22** | `great-statements-and-dialogues-23-40ah.md` | ⬜ **not written yet** | — | — | — |
+| **03-22** | [`great-statements-and-dialogues-23-40ah.md`](great-statements-and-dialogues-23-40ah.md) | The slide-ready Arabic, by speaker. Go here when building the deck, not when learning the story. | 66 | 254 | 201 KB |
 | **03-23** | [`ibn-khaldun-on-the-fitna.md`](ibn-khaldun-on-the-fitna.md) | How ابن خلدون reads it — **framing only** (`DECISIONS.md` #29), never the authority for a fact. | 61 | 101 | 147 KB |
 
 ---
@@ -50,21 +50,21 @@ building, then stop.
 
 | # | Read | What it gives you | Cards | Quotations | Size |
 |---|---|---|---|---|---|
-| **02-01** | [`arabian-tribes-and-the-ridda-setup.md`](arabian-tribes-and-the-ridda-setup.md) | The tribal map of Arabia, and why the ردة took the shape it did | 29 | 39 | 149 KB |
-| **02-02** | [`ridda-campaign-the-conduct-of-the-wars.md`](ridda-campaign-the-conduct-of-the-wars.md) | The conduct of the ridda wars — the campaign, front by front, ۱۱–۱۲ھ | 43 | 142 | 283 KB |
-| **02-03** | [`abu-bakr-usama-and-the-jam-of-the-quran.md`](abu-bakr-usama-and-the-jam-of-the-quran.md) | أبو بكر الصديق ؓ's first two decisions — جيش أسامة ؓ and the جمع of the Qur'an | 17 | 72 | 100 KB |
+| **02-01** | [`arabian-tribes-and-the-ridda-setup.md`](arabian-tribes-and-the-ridda-setup.md) | The tribal map of Arabia, and why the ردة took the shape it did | 29 | 39 | 150 KB |
+| **02-02** | [`ridda-campaign-the-conduct-of-the-wars.md`](ridda-campaign-the-conduct-of-the-wars.md) | The conduct of the ridda wars — the campaign, front by front, ۱۱–۱۲ھ | 43 | 142 | 286 KB |
+| **02-03** | [`abu-bakr-usama-and-the-jam-of-the-quran.md`](abu-bakr-usama-and-the-jam-of-the-quran.md) | أبو بكر الصديق ؓ's first two decisions — جيش أسامة ؓ and the جمع of the Qur'an | 17 | 72 | 102 KB |
 | **02-04** | [`abu-bakr-death-and-the-succession-of-umar.md`](abu-bakr-death-and-the-succession-of-umar.md) | The death of أبو بكر الصدیق ؓ (13 AH) and the succession of عمر ؓ | 24 | 90 | 99 KB |
-| **02-05** | [`iraq-syria-and-yarmuk-12-15ah.md`](iraq-syria-and-yarmuk-12-15ah.md) | The first conquests — Iraq, the desert march, Syria and اليرموک (12–15 AH) | 20 | 72 | 120 KB |
+| **02-05** | [`iraq-syria-and-yarmuk-12-15ah.md`](iraq-syria-and-yarmuk-12-15ah.md) | The first conquests — Iraq, the desert march, Syria and اليرموک (12–15 AH) | 20 | 73 | 123 KB |
 | **02-06** | [`qadisiyya-madain-and-the-embassy.md`](qadisiyya-madain-and-the-embassy.md) | القادسية, المدائن, and the embassies to رستم | 25 | 107 | 160 KB |
 | **02-07** | [`bayt-al-maqdis-and-the-umari-covenant.md`](bayt-al-maqdis-and-the-umari-covenant.md) | بيت المقدس and the العهدة العمرية — عمر ؓ's journey to إيلياء | 16 | 61 | 100 KB |
-| **02-08** | [`umar-the-state-diwan-calendar-and-the-two-trials.md`](umar-the-state-diwan-calendar-and-the-two-trials.md) | عمر ؓ builds a state (15–18 AH) — and the two years that tested it | 27 | 121 | 152 KB |
+| **02-08** | [`umar-the-state-diwan-calendar-and-the-two-trials.md`](umar-the-state-diwan-calendar-and-the-two-trials.md) | عمر ؓ builds a state (15–18 AH) — and the two years that tested it | 27 | 120 | 161 KB |
 | **02-09** | [`nahawand-the-shura-and-the-death-of-umar.md`](nahawand-the-shura-and-the-death-of-umar.md) | نهاوند, the killing of عمر ؓ, and the شورى of six | 26 | 117 | 199 KB |
 | **02-10** | [`the-house-of-umm-sulaym.md`](the-house-of-umm-sulaym.md) | The house of أم سليم ؓ — one Anṣārī household from أحد to تُسْتَر | 19 | 81 | 144 KB |
-| **02-11** | [`abu-hudhayfa-and-salim-mawla-abi-hudhayfa.md`](abu-hudhayfa-and-salim-mawla-abi-hudhayfa.md) | أبو حذيفة بن عتبة ؓ and سالم مولى أبي حذيفة ؓ — one household, from بدر to اليمامة | 19 | 61 | 120 KB |
-| **02-12** | [`zayd-ibn-al-khattab-and-the-dead-of-yamama.md`](zayd-ibn-al-khattab-and-the-dead-of-yamama.md) | زيد بن الخطاب ؓ, and the men who died at اليمامة | 17 | 82 | 154 KB |
+| **02-11** | [`abu-hudhayfa-and-salim-mawla-abi-hudhayfa.md`](abu-hudhayfa-and-salim-mawla-abi-hudhayfa.md) | أبو حذيفة بن عتبة ؓ and سالم مولى أبي حذيفة ؓ — one household, from بدر to اليمامة | 19 | 61 | 121 KB |
+| **02-12** | [`zayd-ibn-al-khattab-and-the-dead-of-yamama.md`](zayd-ibn-al-khattab-and-the-dead-of-yamama.md) | زيد بن الخطاب ؓ, and the men who died at اليمامة | 17 | 82 | 156 KB |
 | **02-13** | [`the-men-who-had-fought-against-it.md`](the-men-who-had-fought-against-it.md) | The men who had fought against it — turned lives in the wars of 11–23ھ | 25 | 59 | 130 KB |
-| **02-14** | [`great-statements-and-dialogues-11-23ah.md`](great-statements-and-dialogues-11-23ah.md) | The great statements and recorded dialogues of 11–23 AH | 42 | 149 | 210 KB |
-| **02-15** | [`ibn-khaldun-on-the-ridda-the-conquests-and-method.md`](ibn-khaldun-on-the-ridda-the-conquests-and-method.md) | What ابن خلدون رحمہ اللہ adds that the narrative works do not — his method, his عصبية, and his reading of ۱۱–۲۳ھ | 26 | 79 | 113 KB |
+| **02-14** | [`great-statements-and-dialogues-11-23ah.md`](great-statements-and-dialogues-11-23ah.md) | The great statements and recorded dialogues of 11–23 AH | 42 | 149 | 213 KB |
+| **02-15** | [`ibn-khaldun-on-the-ridda-the-conquests-and-method.md`](ibn-khaldun-on-the-ridda-the-conquests-and-method.md) | What ابن خلدون رحمہ اللہ adds that the narrative works do not — his method, his عصبية, and his reading of ۱۱–۲۳ھ | 26 | 79 | 115 KB |
 
 ---
 
