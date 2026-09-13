@@ -468,3 +468,61 @@ viewable and PowerPoint is not to hand. A deck nobody can open is a deck nobody 
 defect session 1's audience reported was one a single glance would have caught. `series/preview.py`
 also exports per-slide PNGs and a contact sheet, which is what Claude itself should look at before
 claiming a deck is right.
+
+## 31 · The existing tribal worksheets stay in use — 2026-09-10
+
+`L02_baarah_saal/tribal-relationships-worksheets.pdf` and `tribale_worksheet_small.pdf` were checked
+link by link against the cached pages. They follow **Ibn Isḥāq's genealogy as البدایہ records it**
+(ج۲ ص۴۰۲–۴۱۱، ص۴۷۵–۴۷۹), and every tribe on them sits where at least one classical authority puts
+it. **Daniyal's decision: keep them as they are. No rebuild.**
+
+**Why:** the bar for a worksheet is that it can be defended from the books, and it can. Where the
+book records a second view, the sheet shows Ibn Isḥāq's.
+
+**Worth knowing if a question comes up** (these are not changes to the sheet):
+- أنمار (خثعم · بجيلة): Ibn Hishām also records a Yemeni line to كهلان بن سبأ, and Ibn Kathīr says
+  the Sabaʾ ḥadīth supports it (ج۲ ص۴۷۶).
+- إياد: Ibn Hishām makes him إياد بن نزار (ج۲ ص۴۷۵–۴۷۶). قضاعة: the قحطانی view is at ج۲ ص۴۰۳–۴۰۴.
+- حمير and مذحج are two of سبأ's ten in the ḥadīth (ج۲ ص۴۰۷). The sheet's dashed lines from قحطان
+  are true, but the book puts both under سبأ.
+- قريش = بنو النضر is **Ibn Kathīr's own verdict** (ج۲ ص۴۷۹). The research note's line that he
+  "records both without adjudicating" is wrong on that point.
+- طيئ, عنس, سليم and the four غطفان branches follow the standard genealogy but are not on any page
+  in our cache.
+
+## 32 · Citations are verified by a script, not by a second model — 2026-09-13
+
+Until now the way a research note's Arabic was checked was to send a second agent over it to re-grep
+every quotation. That is the most expensive verification in the project, and the session-3 pass
+showed it is also not reliable: **`tools/check_citations.py`, run over the eleven notes that had
+already passed an adversarial model re-check, found 115 defects in 1,211 quotations** — 64 where the
+quoted Arabic is on no cached page of the book it cites, 34 where it runs past the page it names,
+16 wrong printed pages, and one citation resting on تاریخ الطبری alone, which `CLAUDE.md` §4 forbids.
+
+**The check is not a judgement call.** The quoted Arabic either occurs on the cited page or it does
+not; the printed page either matches the cached file's own header or it does not. So it is string
+work, and it is now done by a script, for nothing:
+
+```
+python tools/check_citations.py                 # every note
+python tools/check_citations.py docs/research/siffin.md
+```
+
+It reports `TEXT_ABSENT` · `TEXT_PARTIAL` (starts on the cited page, runs past it) · `PRINTED_WRONG`
+· `PAGE_MISSING` · `BOOK_BANNED`. Matching ignores everything a typesetter can vary — harakat,
+tatweel, editorial brackets, footnote markers, punctuation, whitespace — and folds the letter forms
+Shamela varies (أ إ آ ٱ / ى ي / ة ه / ؤ ئ), so a real quotation passes and a half-remembered one
+does not. A quotation broken by … is split there and each piece checked separately.
+
+**The model is now only ever asked to fix what the script flags.** On the session-3 pass that was
+20 quotations out of 1,489 — and the thirteen of those that could not be found on any of the 3,335
+cached pages, nor on a freshly fetched window of ±6 pages around the citation, are Arabic the model
+composed rather than copied. That is the failure this project cannot tolerate (`CLAUDE.md` §1.1),
+it is invisible to a reviewer reading for sense, and it is caught in seconds by a substring test.
+
+**Standing rule: no note is finished until `check_citations.py` reports zero problems for it, and
+an unlocatable quotation is deleted rather than repaired.** Never write Arabic to fix Arabic.
+
+**Not yet done:** the 115 defects in the 11-23 AH notes. They are inherited by
+`L02_baarah_saal/CONTENT.md` and therefore by `L02_ALL.pptx`, so they must be cleared before session
+2 is delivered — see `docs/STATUS.md`.
