@@ -21,3 +21,6 @@ series/visuals/*.trim.png
 *_preview/
 *_sheet.png
 docs/research/read/
+
+# video clips are too large for the repo; decks that embed them are not committed either
+*.mp4
