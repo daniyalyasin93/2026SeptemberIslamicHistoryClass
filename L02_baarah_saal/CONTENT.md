@@ -1,11 +1,11 @@
 # Twelve Years — the event pool
 
-**Session 2 · 11–23 AH · 632–644 CE · a 45-minute slot.**
+**Session 2 · 11-23 AH · 632-644 CE · a 45-minute slot.**
 
 > **THIS FILE IS NOT THE LECTURE. IT IS THE POOL YOU CUT DOWN TO ONE.**
 > `DECISIONS.md` #20. Delete the rows you do not want. What survives is the evening. Overflow is
-> not compressed — it rolls into session 3. Coverage is never bought by speeding up, which is the
-> one thing the room objected to last time.
+> not compressed — it rolls into the next session. Coverage is never bought by speeding up, which
+> is the one thing the room objected to last time.
 
 **How to cut.** Read top to bottom; it is already in narrative order. Delete whole cards. Keep
 roughly **22 cards** for a 45-minute slot told calmly — the rest is deliberate over-build.
