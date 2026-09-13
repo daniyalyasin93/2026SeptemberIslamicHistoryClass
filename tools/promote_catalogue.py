@@ -122,8 +122,17 @@ def write(name, body, tail):
     return p
 
 
+# Every session's pool is promoted, not just session 2's — a سبق line or a date that exists only
+# in one session's CONTENT.md cannot be found when a later session needs it, which is the exact
+# failure this script was written to end.
+SESSIONS = ["L02_baarah_saal", "L03_pehla_imtihan"]
+
+
 if __name__ == "__main__":
-    cards = load("L02_baarah_saal")
+    cards = []
+    for _s in SESSIONS:
+        if os.path.exists(os.path.join(ROOT, _s, "CONTENT.md")):
+            cards += load(_s)
     for name, fn in (("LESSONS.md", lessons), ("TIMELINE.md", timeline)):
         tail = keep_tail(os.path.join(CAT, name))
         body, n = fn(cards)

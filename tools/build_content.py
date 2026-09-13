@@ -84,9 +84,16 @@ NO_STATEMENT = "none in the sources we use"
 MINUTES = {"CORE": 2.0, "GOOD": 1.5, "CUT": 1.0}
 
 
+# The notes carry U+2068/U+2069 bidi isolates around their inline Arabic so that a Markdown preview
+# renders the mixed lines in the right order (tools/bidi_fix.py). They are invisible, but they are
+# still characters, and a character that reaches a slide can be a box in the wrong font — so they
+# are stripped here, at the one door everything downstream comes through.
+ISOLATES = str.maketrans({"⁨": None, "⁩": None, "⁦": None, "⁧": None})
+
+
 def cards_in(path):
     """Split a note's EVENT CARDS section into (id, title, tier, when, has_statement, body)."""
-    text = open(path, encoding="utf-8").read()
+    text = open(path, encoding="utf-8").read().translate(ISOLATES)
     # Notes head this section as either "# EVENT CARDS" or "## EVENT CARDS", so match the level
     # rather than a fixed string — a mismatch here silently dropped two thirds of the pool.
     m = re.search(r"^#{1,3}\s*EVENT CARDS.*$", text, re.M)

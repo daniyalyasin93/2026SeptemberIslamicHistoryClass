@@ -50,6 +50,12 @@ URL_RE = re.compile(r"https?://shamela\.ws/book/(\d+)/(\d+)")
 FOLD = str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا", "ى": "ي", "ة": "ه", "ؤ": "و", "ئ": "ي"})
 
 
+# The notes carry U+2066..U+2069 bidi isolates around their inline Arabic (tools/bidi_fix.py), so
+# every read here strips them: the checker must report the same thing whether or not that pass has
+# been run, and a control character must never be the reason a quotation looks wrong.
+ISOLATES = str.maketrans({"⁦": None, "⁧": None, "⁨": None, "⁩": None})
+
+
 def norm(s):
     """Arabic letters only, folded — everything a typesetter can vary is thrown away."""
     s = HARAKAT.sub("", s).translate(FOLD)
@@ -80,7 +86,7 @@ class Book(object):
             if not os.path.exists(path):
                 Book._loaded[key] = None
             else:
-                text = io.open(path, encoding="utf-8").read()
+                text = io.open(path, encoding="utf-8").read().translate(ISOLATES)
                 head, _, body = text.partition("=" * 72)
                 Book._loaded[key] = (printed_of(head), norm(body or text))
         return Book._loaded[key]
@@ -117,7 +123,7 @@ def blocks_of(text):
 
 
 def check_note(path):
-    text = io.open(path, encoding="utf-8").read()
+    text = io.open(path, encoding="utf-8").read().translate(ISOLATES)
     problems, checked = [], 0
     for lineno, arabic, cite, book, idx in blocks_of(text):
         checked += 1
