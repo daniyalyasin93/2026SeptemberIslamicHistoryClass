@@ -28,6 +28,9 @@ NOTES = os.path.join(ROOT, "docs", "research")
 ORDER_L02 = [
     ("arabian-tribes-and-the-ridda-setup", "Setting: the tribal map, and why the ردة took its shape"),
     ("ridda-campaign-the-conduct-of-the-wars", "The ردة wars: the campaign, front by front"),
+    ("al-aswad-al-ansi-and-yemen-before-the-ridda", "Yemen I: al-Aswad al-ʿAnsī, from the Abnāʾ to the dawn adhān"),
+    ("the-second-yemen-ridda-and-kinda-11-12ah", "Yemen II: the second ردة of Yemen, and Ḥaḍramawt/Kinda to al-Nujayr"),
+    ("kinda-the-kingdom-before-islam-and-the-house-of-al-ashath", "Kinda: the kingdom before Islam, and the house of al-Ashʿath"),
     ("abu-bakr-usama-and-the-jam-of-the-quran", "جيش أسامة ؓ, and the Qur'an collected"),
     ("abu-bakr-death-and-the-succession-of-umar", "The death of أبو بكر ؓ, and the succession"),
     ("iraq-syria-and-yarmuk-12-15ah", "Iraq, Shām, and يرموك"),

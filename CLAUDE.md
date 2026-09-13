@@ -279,6 +279,13 @@ pool and Daniyal cuts; whatever does not fit rolls forward. **Sessions may there
 and that is the intended behaviour** — coverage is never bought by speeding up, which is what the
 room objected to after session 1. The eras below are the *order*; the week numbers are not a promise.
 
+**Pools by era, evenings by number** (`DECISIONS.md` #33). `L02_baarah_saal/CONTENT.md` is the
+**11–23 AH pool** and `L03_pehla_imtihan/CONTENT.md` the **23–41 AH pool** — whatever their folder
+names say. An evening is a numbered delivery folder `SNN_<slug>/` that picks card ids out of a pool.
+**Where the story has actually reached lives only in `docs/catalogue/DELIVERED.md`** — read its last
+row before planning any evening. Evening 2 stopped after بزاخة (37 min, ran short); evening 3 is
+`S03_yemen/`.
+
 The **muqaddima** is no longer delivered in a weekly slot (`DECISIONS.md` #27). Its material is
 drawn on **inside the story**, one remark at the moment a listener would ask "how do we know that?"
 The bank still lives in `docs/catalogue/HOWWEKNOW.md`.
@@ -298,12 +305,15 @@ docs/catalogue/        the durable knowledge base — SINGLE SOURCE OF TRUTH
   LESSONS.md           the ten سبق lines
   QA_BANK.md           safe Sunni answers to hostile questions
   MAPS.md              map inventory
+  DELIVERED.md         the ledger: which card ids were spoken on which evening
 docs/specs/            the series design + one spec per session
 sources/pdf/           source PDFs
 sources/text/          page-marked, greppable extractions
 series/                the Line, the base map SVG, the workbook, the print pipeline
-LNN_<slug>/            per session, exactly six artifacts (spec v4 §1):
-  CONTENT.md             the POOL — numbered event cards, tiered CORE/GOOD/CUT. Daniyal deletes rows
+L02_baarah_saal/       the 11–23 AH POOL (CONTENT.md) + evening 2's artifacts as built
+L03_pehla_imtihan/     the 23–41 AH POOL (CONTENT.md)
+SNN_<slug>/            per evening (DECISIONS #33): RUNSHEET.md (card ids to cut), then six artifacts (spec v4 §1):
+  CONTENT.md             (pools only) numbered event cards, tiered CORE/GOOD/CUT
   SLIDES.md              one block per slide + the paste-ready IMAGE BRIEF for Gemini
   build.py -> LNN.pptx   editable, white ground, image placeholders. Never hand-edit for structure
   CUE.pdf                ONE page for the lectern. Headings, names, dates. No sentences

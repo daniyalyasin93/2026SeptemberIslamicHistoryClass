@@ -1,6 +1,6 @@
 # Twelve Years — the event pool
 
-**Session 2 · 11-23 AH · 632-644 CE · a 45-minute slot.**
+**Session 2 · 11-23 AH · a 45-minute slot.**
 
 > **THIS FILE IS NOT THE LECTURE. IT IS THE POOL YOU CUT DOWN TO ONE.**
 > `DECISIONS.md` #20. Delete the rows you do not want. What survives is the evening. Overflow is
@@ -12,10 +12,10 @@ roughly **22 cards** for a 45-minute slot told calmly — the rest is deliberate
 
 | | |
 |---|---|
-| Cards in the pool | **375** |
-| If every card were told | **≈ 668 minutes** |
+| Cards in the pool | **418** |
+| If every card were told | **≈ 741 minutes** |
 | The slot | **45 minutes** |
-| So you are cutting | **about 93%** |
+| So you are cutting | **about 94%** |
 
 **Tier means:** `CORE` the evening breaks without it · `GOOD` include if time · `CUT` recorded so it
 is never re-researched, not planned for delivery.
@@ -30,6 +30,9 @@ the map move · a verbatim Arabic statement with its printed page and shamela li
 |---|---|---|---|---|
 | Setting: the tribal map, and why the ردة took its shape | 29 | 21 CORE · 7 GOOD · 1 CUT | 29 | `arabian-tribes-and-the-ridda-setup.md` |
 | The ردة wars: the campaign, front by front | 43 | 25 CORE · 17 GOOD · 1 CUT | 43 | `ridda-campaign-the-conduct-of-the-wars.md` |
+| Yemen I: al-Aswad al-ʿAnsī, from the Abnāʾ to the dawn adhān | 18 | 11 CORE · 5 GOOD · 2 CUT | 18 | `al-aswad-al-ansi-and-yemen-before-the-ridda.md` |
+| Yemen II: the second ردة of Yemen, and Ḥaḍramawt/Kinda to al-Nujayr | 16 | 11 CORE · 4 GOOD · 1 CUT | 16 | `the-second-yemen-ridda-and-kinda-11-12ah.md` |
+| Kinda: the kingdom before Islam, and the house of al-Ashʿath | 9 | 0 CORE · 8 GOOD · 1 CUT | 9 | `kinda-the-kingdom-before-islam-and-the-house-of-al-ashath.md` |
 | جيش أسامة ؓ, and the Qur'an collected | 17 | 10 CORE · 6 GOOD · 1 CUT | 17 | `abu-bakr-usama-and-the-jam-of-the-quran.md` |
 | The death of أبو بكر ؓ, and the succession | 24 | 13 CORE · 9 GOOD · 2 CUT | 23 | `abu-bakr-death-and-the-succession-of-umar.md` |
 | Iraq, Shām, and يرموك | 20 | 12 CORE · 7 GOOD · 1 CUT | 20 | `iraq-syria-and-yarmuk-12-15ah.md` |
@@ -274,7 +277,7 @@ Allah ﷺ, he would fight them for withholding it. And ʿUmar ؓ, who had raised
 afterwards that when he saw Allah had opened Abū Bakr's ؓ breast to fighting, he knew it was the
 truth.
 **The statement:**
-> أنَّ عمرَ بن الخطاب قال لأبي بكر: علامَ تقاتلُ الناسَ؟ وقد قال رسول الله ﷺ: "أمرت أن أقاتلَ الناسَ حتى يشهدوا أن لا إله إلا الله وأن محمدًا رسولُ الله، فإذا قالوها عصموا مني دماءهم وأموالهم إلا بحقها". فقال أبو بكر: والله لو مَنَعوني عَناقًا، وفي رواية: عِقالًا كانوا يؤدّونه إلى رسول الله ﷺ لأقاتِلَنَّهم على منعها، إنَّ الزكاةَ حقُّ المال، واللهِ لأقاتِلَنَّ منْ فرَّقَ بينَ الصلاةِ والزكاةِ، قال عمر: فما هو إلا أن رأيتُ اللهَ قد شرحَ صدرَ أبي بكر للقتال، فعرفتُ أنه الحقُّ.
+> أنَّ عمرَ بن الخطاب قال لأبي بكر: علامَ تقاتلُ الناسَ؟ وقد قال رسول الله ﷺ: "أمرت أن أقاتلَ الناسَ حتى يشهدوا أن لا إله إلا الله وأن محمدًا رسولُ الله، فإذا قالوها عصموا مني دماءهم وأموالهم إلا بحقها". فقال أبو بكر: والله لو مَنَعوني عَناقًا، وفي رواِية: عِقالًا كانو يؤدّونه إلى رسول الله ﷺ لأقاتِلَنَّهم على منعها، إنَّ الزكاةَ حقُّ المال، واللهِ لأقاتِلَنَّ منْ فرَّقَ بينَ الصلاةِ والزكاةِ، قال عمر: فما هو إلا أن رأيتُ اللهَ قد شرحَ صدرَ أبي بكر للقتال، فعرفتُ أنه الحقُّ.
 > — البدایہ والنہایہ ج۷ ص۱۸ · https://shamela.ws/book/30097/3164
 > *English:* "ʿUmar b. al-Khaṭṭāb said to Abū Bakr: on what basis do you fight the people, when the
 > Messenger of Allah ﷺ has said: 'I have been commanded to fight the people until they bear witness
@@ -841,8 +844,7 @@ night». So every polygon on every map of this course is a modern reconstruction
 zones and arrows. Never a point, never a boundary line, never a coordinate on the slide face.
 **The statement:**
 > بالضم والخاء المعجمة: ماء لطيِّئ بأرض نجد، وقيل لبني أسد، كانت فيه وقعة عظيمة في أيام أبي بكر الصديق مع طليحة الأسدي
-> — البدایہ والنہایہ, **the دار ابن كثير editor's footnote** at ج۷ ص۲۵ (quoting معجم البلدان), not
-> Ibn Kathīr's own text · https://shamela.ws/book/30097/3171
+> — البدایہ والنہایہ, **the دار ابن كثير editor's footnote** at ج۷ ص۲۵ (quoting معجم البلدان), not Ibn Kathīr's own text · https://shamela.ws/book/30097/3171
 > *English:* "Buzākha — with a ḍamma and the pointed khāʾ: a water of Ṭayyiʾ in the land of Najd, and
 > it is said, of Banū Asad. In it was a great engagement in the days of Abū Bakr al-Ṣiddīq, against
 > Ṭulayḥa al-Asadī."
@@ -1217,8 +1219,7 @@ a recall. He was not to come home and demoralise people. He was to keep going: j
 Ḥaḍramawt.
 **The statement:**
 > لَا أَرَيَنَّكَ وَلَا تَرَانِي، لَا تَرْجِعَنَّ فَتُوهِنَ النَّاسَ، امْضِ إِلَى حُذَيْفَةَ وَعَرْفَجَةَ فَقَاتِلْ أَهْلَ عُمَانَ وَمَهْرَةَ، ثُمَّ تَسِيرُ أَنْتَ وَجُنْدُكَ تَسْتَبْرُونَ النَّاسَ، حَتَّى تَلْقَى مُهَاجِرَ بْنَ أَبِي أُمَيَّةَ بِالْيَمَنِ وَحَضْرَمَوْتَ.
-> — الکامل فی التاریخ ج۲ ص۲۱۴ · https://shamela.ws/book/21712/905 → ج۲ ص۲۱۵ ·
-> https://shamela.ws/book/21712/906 (it straddles the page break at «بِالْيَمَنِ | وَحَضْرَمَوْتَ»)
+> — الکامل فی التاریخ ج۲ ص۲۱۴–۲۱۵ · https://shamela.ws/book/21712/905 · https://shamela.ws/book/21712/906 · **straddles the page break**
 > *English:* "Let me not see you and do not you see me. Do not come back and weaken the people. Go on
 > to Ḥudhayfa and ʿArfaja and fight the people of ʿUmān and Mahra; then you and your troops march on,
 > testing the people, until you meet Muhājir b. Abī Umayya in Yemen and Ḥaḍramawt."
@@ -1667,7 +1668,7 @@ death nobody would carry it (الکامل ج۲ ص۲۳۰).
 ### RCT/E-RC34 · النُّجَير — the name he forgot to write
 **Tier:** CORE · **When:** **the last siege of the war** `[SOURCED as sequence]` — الکامل prints it
 immediately **before** «ثم دخلت سنة اثنتي عشرة» (ج۲ ص۲۳۳), i.e. still inside ۱۱ھ by its own
-arrangement; **no page fixes the month, and no page puts it in ۱۲ھ** (§12.2, §X item 2) · **Map:** Ziyād ؓ and
+arrangement; **no page fixes the month** (§12.2, §X item 2); **but سیر files it under ۱۲ھ** (ج الراشدون ص۵۵, ص۶۱–۶۲ — see `the-second-yemen-ridda-and-kinda-11-12ah.md`), so **the books differ on the year** — say "11 or 12 AH" · **Map:** Ziyād ؓ and
 al-Muhājir ؓ converge and break Kinda at **مَحْجَر الزُّرْقان**; the survivors run to **النُّجَير**, a
 strong hill fort. ʿIkrima's ؓ long line — the one that started at اليمامة in E-RC15 — **arrives here
 and closes the last road.** The map's final arrow.
@@ -1885,6 +1886,1066 @@ Ibn Kathīr grades that route himself, on the same page: «هذا حديث غر�
 
 **عبرت:** The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself.
 **Hands-up?** Before the table: *"Medina is one town. How many armies would you send out at once?"*
+
+---
+
+## Yemen I: al-Aswad al-ʿAnsī, from the Abnāʾ to the dawn adhān
+
+*Source note: [`al-aswad-al-ansi-and-yemen-before-the-ridda.md`](../docs/research/al-aswad-al-ansi-and-yemen-before-the-ridda.md) — read it for the pages behind these cards.*
+
+### AAA/E-AW01 · The Persians of Yemen
+**Tier:** GOOD · **When:** shortly before the Prophet's ﷺ birth `[SOURCED]` · **Map:** the whole of
+Yemen shaded Ḥimyar, then Abyssinian, then a single arrow from Persia down the Gulf to **صنعاء**, and
+the word **الأبناء** settling over it.
+**What happened:** Before Islam, Yemen had been a kingdom of Ḥimyar, then was taken by the Abyssinians
+under Abraha — the Abraha of the Elephant. A prince of Ḥimyar, Sayf b. Dhī Yazan, went to Caesar for
+help and was refused; he went to Kisrā. Kisrā sent with him men taken out of his prisons, under a
+commander called Wahriz. They broke the Abyssinians and took Ṣanʿāʾ. Those Persians stayed, married
+among the Arabs, and their children were called simply "the Sons" — the Abnāʾ. Fayrūz and Dādhawayh,
+who end tonight's story, were of them.
+**The statement:**
+> ثم اتفق الحالُ على أنْ بَعَثَ معه ممن بالسجونِ طائفةً تقدمهم رجل منهم يقال له: وهرز، فاستنقذ مُلْك اليمن من الحبشة
+> — البدایہ والنہایہ ج۷ ص۱۲ · https://shamela.ws/book/30097/3158
+> *English:* "Then it was settled that he would send with him a party of those in the prisons, led by
+> one of them called Wahriz — and he recovered the kingdom of Yemen from the Abyssinians."
+
+**عبرت:** A garrison sent to serve a foreign king became, two generations later, the men who held Yemen
+for Islam.
+**Hands-up?** no
+**The definition of «الأبناء»** is the دار ابن كثير editor's footnote at ج۷ ص۴۲, not Ibn Kathīr's text —
+say "the editor explains".
+
+---
+
+### AAA/E-AW02 · «My Lord has killed your lord tonight»
+**Tier:** CORE · **When:** in the Prophet's ﷺ Medinan years; the book gives no year `[SOURCED]` ·
+**Map:** a line from **المدينة** to Persia (Kisrā's letter torn), a line from Persia to **صنعاء** (the
+order), two men riding **صنعاء → المدينة**, and back.
+**What happened:** The Prophet ﷺ wrote to Kisrā. Kisrā saw that the letter began with the sender's name
+before his own, tore it up without reading it, and ordered his governor in Yemen, Bādhām, to send this
+man to him in chains. Bādhām chose two sensible officers and told them: if he is a liar, bring him; if
+not, come back and tell me. They stayed in Medina a whole month. When they pressed for an answer, the
+Prophet ﷺ said: go back and tell your master that my Lord has killed his lord tonight. They wrote down
+the night. Bādhām said: count the night — if it is so, he is a prophet. Then letters came from Persia:
+Kisrā had been killed that very night, by his own sons. And Islam entered the heart of Bādhām, and of
+the Persians of Yemen with him.
+**The statement:**
+> فقال لهما: ارجعا إلى صاحبِكما فأخبراه أن ربِّي قد قتل الليلةَ ربَّه، فأرَّخا ذلك عندَهما ثم رجعا سريعًا إلى اليمن
+> — البدایہ والنہایہ ج۷ ص۱۳ · https://shamela.ws/book/30097/3159
+> *English:* "He said to them: go back to your master and tell him that my Lord has killed his lord
+> tonight. They dated it, and went back quickly to Yemen."
+
+**عبرت:** The first Muslims of Yemen's ruling house came to Islam by checking a date.
+**Hands-up?** Before the answer: *"Two officers come to arrest a man and stay a month. What do you think
+they told their governor?"*
+**Also on the page:** «فدخل الإسلامُ في قلب باذام وذريتِه من أبناء فارسَ ممن باليمن … فلم يعزله عنها حتى
+مات» — the Prophet ﷺ left him over the whole of Yemen until his death.
+
+---
+
+### AAA/E-AW03 · Yemen divided, and a teacher on the road
+**Tier:** GOOD · **When:** the year 10 AH (631–632 CE) `[SOURCED]` for the year; CE `[STANDARD]` ·
+**Map:** Yemen broken into labelled zones — **صنعاء** (Shahr), **نجران** (ʿAmr b. Ḥazm ؓ), **مأرب**
+(Abū Mūsā ؓ), **الجند** (Yaʿlā b. Umayya ؓ), **همدان**, **عك**, **حضرموت** (Ziyād b. Labīd ؓ) — and one
+dotted line looping through all of them: Muʿādh ؓ.
+**What happened:** When Bādhām died, the Prophet ﷺ did not appoint one man over Yemen again. He divided
+it. Bādhām's son Shahr kept Ṣanʿāʾ. ʿAmr b. Ḥazm had Najrān; Khālid b. Saʿīd the country down to Zabīd;
+Abū Mūsā al-Ashʿarī had Maʾrib; Yaʿlā b. Umayya al-Janad; ʿĀmir b. Shahr Hamdān; al-Ṭāhir b. Abī Hāla the
+tribe of ʿAkk; Ziyād b. Labīd Ḥaḍramawt. And Muʿādh b. Jabal was not tied to one district. He was a
+teacher, moving from one governor's country to the next.
+**The statement:**
+> وَكَانَ مُعَاذُ مُعَلِّمًا يَتَنَقَّلُ فِي عَمَالَةِ كُلِّ عَامِلٍ بِالْيَمَنِ وَحَضْرَمَوْتَ.
+> — الکامل فی التاریخ ج۲ ص۱۹۶ · https://shamela.ws/book/21712/887
+> *English:* "And Muʿādh was a teacher, moving through the district of every governor in Yemen and
+> Ḥaḍramawt."
+
+**عبرت:** The state in Yemen was a map of governors — and one man who belonged to all of them.
+**Hands-up?** no
+
+---
+
+### AAA/E-AW04 · ʿAbhala, "the veiled one"
+**Tier:** CORE · **When:** after Ḥajjat al-Wadāʿ, 10 AH (632 CE) `[SOURCED]`; CE `[STANDARD]` ·
+**Map:** **مذحج** country shaded; a small mark in it, **كهف خُبّان**, unplaced beyond "in Yemen".
+**What happened:** His name was ʿAbhala b. Kaʿb, of ʿAns, a clan of the great tribe of Madhḥij — which is
+why he is called al-ʿAnsī. People called him Dhū al-Khimār, the veiled one, because he was never seen
+without a turban and a veil across his face. The books say he was a conjuror who showed people wonders,
+and that whoever heard him speak was taken by his voice. When the Prophet ﷺ came back from the Farewell
+Pilgrimage and was taken ill from the journey — not yet the illness he died of — the news reached this
+man. He claimed prophethood, and Madhḥij followed him. Ibn al-Athīr and al-Dhahabī both give it the same
+title: the first apostasy in Islam, in the Prophet's ﷺ own lifetime.
+**The statement:**
+> وَكَانَ يُلَقَّبُ ذَا الْخِمَارِ؛ لِأَنَّهُ كَانَ مُعْتَمًّا مُتَخَمِّرًا أَبَدًا.
+> — الکامل فی التاریخ ج۲ ص۱۹۶ · https://shamela.ws/book/21712/887
+> *English:* "He was nicknamed Dhū al-Khimār, because he was always turbaned and veiled."
+
+**عبرت:** He moved on the news that the Prophet ﷺ was ill — the first of these claims was timed to it.
+**Hands-up?** no
+**Also usable:** al-Dhahabī, الراشدون ص۲۸ — «وكان شعباذا يريهم الأعاجيب، ويسبي قلوب من يسمع منطقه». Ibn
+Khaldūn (ج۲ ص۴۸۲) calls him «كاهنا مشعوذا» — attribute it to him by name if used.
+
+---
+
+### AAA/E-AW05 · Ten nights to Najrān, twenty-five to Ṣanʿāʾ
+**Tier:** CORE · **When:** the first twenty-five nights of his rising `[SOURCED]` · **Map:** **كهف خُبّان**
+→ **نجران** (write "10 nights") → **شعوب** outside **صنعاء** → **صنعاء** (write "25 nights"). **صنعاء**
+turns red. Then a red wash spreading, feathered, over Yemen.
+**What happened:** He came out with seven hundred fighting men and sent the Prophet's ﷺ governors a
+letter: you who rebel against us, hand back what you have taken of our land, keep what you have
+collected intact, for we have the better right to it. Ten nights after he came out he had Najrān. Then he
+made for Ṣanʿāʾ. Shahr, son of Bādhām, came out to meet him at a place called Shaʿūb, and was killed, and
+his army of the Abnāʾ was broken. On the twenty-fifth night al-Aswad was in Ṣanʿāʾ. A man at al-Janad
+remembered it arriving as news, one piece at a time: he is at Shaʿūb; Shahr has gone out to him; he has
+killed Shahr; he holds Ṣanʿāʾ. And the books say his affair spread like fire.
+**The statement:**
+> وكتب إلى عُمّال النبي ﷺ: أيّها المتمرِّدون علينا، أمسكوا علينا ما أخذتم من أرضنا، ووفِّروا ما جمعتم، فنحن أولى به، وأنتم على ما أنتم عليه
+> — البدایہ والنہایہ ج۷ ص۱۴ · https://shamela.ws/book/30097/3160
+> *English:* "He wrote to the Prophet's ﷺ governors: 'You who rebel against us — hand back what you
+> have taken of our land, and keep intact what you have collected, for we have the better right to it;
+> and stay as you are.'"
+
+**عبرت:** He called the lawful governors the rebels — the first thing a usurper changes is the words.
+**Hands-up?** Before the numbers: *"Seven hundred men. How long, do you think, to take Ṣanʿāʾ?"*
+**Also on the page (الکامل ج۲ ص۱۹۷):** «وَاسْتَطَارَ أَمْرُهُ كَالْحَرِيقِ». **Supersedes E-TB28's first
+half.**
+
+---
+
+### AAA/E-AW06 · The governors scatter
+**Tier:** GOOD · **When:** after Ṣanʿāʾ fell `[SOURCED]` · **Map:** from **صنعاء** and **مأرب**, two
+blue lines joining and running east to **حضرموت** (Muʿādh ؓ and Abū Mūsā ؓ); two blue lines north to
+**المدينة** (ʿAmr b. Ḥazm ؓ, Khālid b. Saʿīd ؓ); the rest pulling into the mountains of **عك**.
+**What happened:** Muʿādh b. Jabal left Ṣanʿāʾ in flight, reached Abū Mūsā at Maʾrib, and the two of
+them went on to Ḥaḍramawt. ʿAmr b. Ḥazm and Khālid b. Saʿīd went back to Medina. The other governors
+fell back on al-Ṭāhir b. Abī Hāla in the mountains of ʿAkk. Ibn al-Athīr says al-Aswad's hand reached
+from the desert of Ḥaḍramawt to al-Ṭāʾif, to al-Aḥsāʾ and to Aden. A great many in Yemen apostatised.
+And the Muslims who stayed dealt with him by keeping their heads down and their faith hidden. At
+Ḥaḍramawt, Muʿādh married into the tribe of al-Sakūn, and they drew close around him.
+**The statement:**
+> وَخَرَجَ مُعَاذٌ هَارِبًا حَتَّى لَحِقَ بِأَبِي مُوسَى وَهُوَ بِمَأْرِبَ، فَلَحِقَا بِحَضْرَمَوْتَ
+> — الکامل فی التاریخ ج۲ ص۱۹۷ · https://shamela.ws/book/21712/888
+> *English:* "Muʿādh went out in flight until he reached Abū Mūsā at Maʾrib, and the two of them went on
+> to Ḥaḍramawt."
+
+**عبرت:** The book writes down, without softening, that great Companions ran — and that running was
+how they lived to come back.
+**Hands-up?** no
+
+---
+
+### AAA/E-AW07 · His three commanders, and the widow of Shahr
+**Tier:** CORE · **When:** during his three or four months `[SOURCED]` · **Map:** inside **صنعاء**,
+three labels under al-Aswad's mark — **مذحج**: ʿAmr b. Maʿdī Karib · **the army**: Qays · **الأبناء**:
+Fayrūz and Dādhawayh.
+**What happened:** He had to govern what he had taken. Over Madhḥij he put ʿAmr b. Maʿdī Karib. Over the
+army, Qays b. ʿAbd Yaghūth — the man also called Qays b. Makshūḥ. Over the Abnāʾ, the Persians of
+Ṣanʿāʾ, two of their own: Fayrūz al-Daylamī and Dādhawayh. And he married the widow of the man he had
+killed, Shahr son of Bādhām. She was Fayrūz's cousin. Ibn Kathīr gives her name, and he says two things
+about her: that she was beautiful — and that she was a believer in Allah and His Messenger, and one of
+the righteous. Then, once he felt secure, al-Aswad began to treat all three of his commanders with
+contempt.
+**The statement:**
+> وتزوَّج بامرأة شهر بن باذام وهي ابنةُ عمَّ فيروز الدَّيلمي، واسمها زاذ، وكانت امرأةً حسناءَ جميلةً، وهي مع ذلك مؤمنةٌ بالله ورسوله محمد ﷺ، ومن الصالحات.
+> — البدایہ والنہایہ ج۷ ص۱۴ · https://shamela.ws/book/30097/3160
+> *English:* "He married the wife of Shahr b. Bādhām — the daughter of Fayrūz al-Daylamī's uncle. Her
+> name was Zādh. She was a beautiful woman — and with that, a believer in Allah and His Messenger
+> Muḥammad ﷺ, and one of the righteous."
+
+**عبرت:** He put the men he had defeated in charge of their own people, and married into the house he
+had destroyed — and kept the enemy inside his own walls.
+**Hands-up?** no
+**Name:** Zādh in البدایہ, Āzād in الکامل ج۲ ص۱۹۸. Say "Ibn Kathīr calls her Zādh".
+
+---
+
+### AAA/E-AW08 · "By open fight, or by stealth"
+**Tier:** CORE · **When:** the Prophet's ﷺ last months, in his lifetime `[SOURCED]` · **Map:** one rider,
+**المدينة → صنعاء** (Wabr b. Yuḥannas). From **صنعاء**, thin lines out to **همدان**, **نجران**, and the
+chiefs of the highlands — held, not yet moving.
+**What happened:** Word of al-Aswad reached Medina, and the Prophet ﷺ wrote. A man named
+Wabr b. Yuḥannas brought the letters to Ṣanʿāʾ — to Fayrūz, to Dādhawayh, and to a third man,
+Jishnas al-Daylamī, who later told the story. The order was to fight al-Aswad, either in the open or by
+stealth, and to write to everyone who still held to religion. Jishnas says they looked at Qays and
+reasoned: Qays is afraid for his life; he will answer the first call. They went to him with the
+Prophet's ﷺ message, and it was, he says, as if they had come down to him out of the sky. Letters went
+to Najrān as well, and the chiefs of the highlands wrote offering help; the men in Ṣanʿāʾ told them to
+wait. And al-Aswad felt it closing.
+**The statement:**
+> فَجَاءَتْنَا كُتُبُ النَّبِيِّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - يَأْمُرُنَا بِقِتَالِهِ، إِمَّا مُصَادَمَةً أَوْ غِيلَةً
+> — الکامل فی التاریخ ج۲ ص۱۹۸ · https://shamela.ws/book/21712/889
+> *English:* "The letters of the Prophet ﷺ came to us, ordering us to fight him — either in open battle
+> or by stealth."
+
+**عبرت:** The claim that began on news of his illness was ended by the letters he sent.
+**Hands-up?** no
+**Framing, by name:** Ibn Khaldūn (ج۲ ص۴۸۴) — «ولم يشغله ما كان فيه من الوجع عن أمر الله والذبّ عن دينه».
+The hard anchor that Abū Bakr ؓ then fought the ridda the same way, «بِالرُّسُلِ», is الکامل ج۲ ص۲۰۱.
+
+---
+
+### AAA/E-AW09 · "What does the angel say?"
+**Tier:** GOOD · **When:** Ṣanʿāʾ, the days before the killing `[SOURCED]` · **Map:** no movement — the
+map holds on **صنعاء**, and the slide carries the statement.
+**What happened:** Al-Aswad summoned Qays. He told him the one who spoke to him — he called it the
+angel; the books call it his shayṭān — had said: you raised Qays up until he went in by every door and
+stood as high as you, and now he leans toward your enemy and reaches for your kingdom. Qays swore he
+would never think such a thing — and Ibn Kathīr adds, flatly, that he lied — swearing by al-Aswad's own
+nickname. Al-Aswad said: the angel spoke the truth, and now it knows you have repented. Then he called in
+the other three: did I not raise you over your people? What is this I hear? They said: pardon us this
+once. They came out, Qays says, barely alive. Later al-Aswad called Qays in again; Qays went in with ten
+men of his tribe around him, and al-Aswad could not kill him in front of them — and let him go. Qays walked out,
+passed his companions without sitting down, and said three words.
+**The statement:**
+> فَرَقَّ لَهُ وَتَرَكَهُ، وَخَرَجَ قَيْسٌ فَمَرَّ بِنَا وَقَالَ: اعْمَلُوا عَمَلَكُمْ. وَلَمْ يَقْعُدْ عِنْدَنَا.
+> — الکامل فی التاریخ ج۲ ص۱۹۸ · https://shamela.ws/book/21712/889
+> *English:* "He softened towards him and let him be. Qays came out, passed by us, and said: 'Do what you
+> have to do.' And he did not sit down with us."
+
+**عبرت:** A man who needs an informer from the unseen to trust his own commanders has already lost them.
+**Hands-up?** no
+⚠ Qays's and Fayrūz's words to al-Aswad in these scenes address him as a prophet — men lying to survive.
+**Keep those lines off the slide face.** Al-Dhahabī reads «فاقتلكم» where Ibn Kathīr reads «فأقيلكم» — keep
+both.
+
+---
+
+### AAA/E-AW10 · "Or kill him"
+**Tier:** CORE · **When:** Ṣanʿāʾ, the days before the killing `[SOURCED]` · **Map:** inside **صنعاء**,
+one mark: al-Aswad's palace. Nothing else moves.
+**What happened:** One of them went in to the widow. In Ibn Kathīr it is Qays; in Ibn al-Athīr and
+al-Dhahabī it is Jishnas. He said: cousin, you know what this man has done to your people. He killed your
+husband. He pressed the killing hard among your family, and he dishonoured the women. Will you stand with
+us against him? She said: to do what? He said: to put him out. She said: or to kill him. He said: or to
+kill him. She said: yes. By Allah, Allah has not made a person more hateful to me. He stands for no right
+of Allah, and he stops at nothing sacred. When you have made up your minds, tell me — and I will tell you
+how it can be done.
+**The statement:**
+> قالت: على أي أمر، قلتُ إخراجه، قالت: أو قتله، قلت: أو قتله، قالتْ: نعم، واللهِ ما خلقَ اللهُ شخصًا هو أبغضُ إليَّ منه
+> — البدایہ والنہایہ ج۷ ص۱۵ · https://shamela.ws/book/30097/3161
+> *English:* "She said: to do what? I said: to put him out. She said: or to kill him. I said: or to kill
+> him. She said: yes — by Allah, Allah has not created a person more hateful to me than he is."
+
+**عبرت:** The men came to her with half a plan; she was the one who finished the sentence.
+**Hands-up?** Before her answer: *"Three men need someone inside the house. Who is the only person who
+can help them?"*
+
+---
+
+### AAA/E-AW11 · A hundred beasts, and a spear
+**Tier:** CORE · **When:** the last day before the killing `[SOURCED]` · **Map:** none — full-bleed
+statement slide.
+**What happened:** Then al-Aswad came out to them. He had a hundred head of cattle and camels brought. He
+drew a line on the ground, had the animals stood behind it, and stood on the other side — and slaughtered
+them, untethered and unhobbled, and not one of them crossed the line; they milled until they died. Qays
+said he never saw a thing more dreadful, nor a day more desolate. Then al-Aswad turned to Fayrūz: is what
+I hear about you true? I had a mind to slaughter you and send you after these beasts — and he showed him
+the spear. Fayrūz talked his way out, and was sent to divide the meat among the people of Ṣanʿāʾ. When he
+hurried back, he found a man informing on him, and heard al-Aswad say: I will kill him tomorrow, and his
+companions.
+**The statement:**
+> فإذا الأسود يقول: أنا قاتلُه غدًا وأصحابه، فاغْدُ عليَّ به
+> — البدایہ والنہایہ ج۷ ص۱۶ · https://shamela.ws/book/30097/3162
+> *English:* "And al-Aswad was saying: I will kill him tomorrow, and his companions — bring him to me in
+> the morning."
+
+**عبرت:** Terror bought him one more day, and it told his enemies exactly how much time they had.
+**Hands-up?** no
+**Also on the page:** Qays's «فما رأيتُ أمرًا كانَ أفظعَ منه، ولا يومًا أوحشَ منه» — a strong second line
+if the slide has room.
+
+---
+
+### AAA/E-AW12 · The one room without a guard
+**Tier:** CORE · **When:** the evening before the killing `[SOURCED]` · **Map:** a floor-plan diagram,
+not a map — a house with guards drawn round every room but one, and that room's back wall on the road.
+**What happened:** They went back to the woman. She said: every room in this house has guards around it
+except this one. Its back wall is on the road. When it is evening, dig through from outside the guard —
+there is nothing between you and him — and I will leave a lamp and a weapon in the room. As her visitor
+came out, al-Aswad met him: what brought you in to my household? — and struck him on the head so hard
+that he fell. She screamed, and said: it is my cousin, come to visit me. He said: be quiet; I give him to
+you. The man ran to the others: we must go, now. They did not know what to do. Then a message came from
+her: do not turn back from what you decided. Fayrūz went in, loosened the lining of that wall from the
+inside so the digging would be quick, and sat with her openly like a guest. Al-Aswad walked in, and
+jealousy took him; she told him Fayrūz was her foster-brother and her cousin, and he threw him out.
+**The statement:**
+> إنه ليس من الدار بيت إلا والحرس محيطون به، غير هذا البيت، فإن ظهره إلى مكان كذا وكذا من الطّريق، فإذا أمسيتُم فانقبوا عليه من دون الحرس
+> — البدایہ والنہایہ ج۷ ص۱۶ · https://shamela.ws/book/30097/3162
+> *English:* "There is no room in the house but the guards surround it — except this room. Its back is on
+> such-and-such a place in the road. When evening comes, dig through to it from outside the guard."
+
+**عبرت:** The house was guarded at every door, and undone through a wall by the one person he never
+thought to guard against.
+**Hands-up?** no
+**Who was struck** — Fayrūz in البدایہ; Jishnas in الکامل and سیر. Say "one of them" aloud.
+
+---
+
+### AAA/E-AW13 · The lamp under the bowl
+**Tier:** CORE · **When:** `[SOURCED, disputed]` Rabīʿ al-Awwal 11 AH, some nights before the Prophet's ﷺ death,
+or one night · **Map:** the same floor-plan; a line through the back wall into the room.
+**What happened:** At night they dug through the wall and went in. There was a lamp in the room, covered
+by a bowl. Fayrūz went first — the strongest of them. Al-Aswad was asleep on a bed of silk, drunk,
+snoring, and the woman was sitting beside him. As Fayrūz reached the door, the sleeping man sat up, and a
+voice came out of him, still snoring: what have I to do with you, Fayrūz? Fayrūz knew that if he turned
+back now, he and the woman were both dead. He threw himself on him — a man, the books say, like a camel —
+took him by the head and broke his neck. The woman caught at his clothes, thinking it was not done. He
+said: I have killed him, and freed you of him. The others came in to finish it. The sound that came out
+of the body brought the guards running: what is this? And the woman said: the prophet is receiving
+revelation. And the guards went away.
+**The statement:**
+> فَقَالَتِ الْمَرْأَةُ: النَّبِيُّ يُوحَى إِلَيْهِ فَخَمَدُوا
+> — الکامل فی التاریخ ج۲ ص۱۹۹ · https://shamela.ws/book/21712/890
+> *English:* "The woman said: the prophet is receiving revelation — and they fell quiet."
+
+**عبرت:** The same claim that had frightened a country sent his own guards away from his door.
+**Hands-up?** no
+⚠ **Who took the head is not agreed** — "the other" (البدایہ), Jishnas (الکامل), unnamed (سیر). **Say:
+Fayrūz killed him; the others were with him.** That much is also in al-Bukhārī's text (البدایہ ج۵ ص۲۲).
+Tell the physical detail once, plainly, and move on.
+
+---
+
+### AAA/E-AW14 · "And that ʿAbhala is a liar"
+**Tier:** CORE · **When:** the dawn after the killing `[SOURCED]` · **Map:** **صنعاء** turns from red to
+blue. Short red flickers leave it towards **نجران** and stay in between — his horsemen, not yet gone.
+**What happened:** They sat through the rest of the night deciding how to tell their own side, and agreed
+on a signal at first light. At dawn one of them climbed the wall of the fortress — Ibn Kathīr says Qays,
+or it is said Wabr; Jishnas says he did it himself — and called the adhān to a crowd of Muslims and
+unbelievers gathering below, with a new sentence in it. And he threw the head down to them. Al-Aswad's
+horsemen broke — but not before they raided the town and snatched children. The people of Ṣanʿāʾ held on
+to whichever of his men were in their houses, and when his riders counted, seventy of them were missing.
+So the two sides exchanged: yours for ours. The governors came back to their districts. The three men
+competed for the command, and settled on Muʿādh b. Jabal to lead the prayer. And they wrote the news to
+the Messenger of Allah ﷺ.
+**The statement:**
+> فنادى قيسٌ ويقال: وبر بن يحنس، الأذان: أشهد أن محمدًا رسول الله، وأن عبهلة كذاب، وألقى إليهم رأسه فانهزم أصحابُه
+> — البدایہ والنہایہ ج۷ ص۱۷ · https://shamela.ws/book/30097/3163
+> *English:* "Qays — and it is said, Wabr b. Yuḥannas — called the adhān: 'I bear witness that Muḥammad
+> is the Messenger of Allah, and that ʿAbhala is a liar' — and threw his head down to them, and his
+> followers broke."
+
+**عبرت:** The rising was ended with the words of the adhān — and, the same morning, the victors were
+already competing for command.
+**Hands-up?** no
+**Next:** E-TB26 (the news from heaven) and E-TB27 (Fayrūz's three days) follow directly. **The seed of
+the second rising is here** — «وتنافسنا الإمارة» (سیر الراشدون ص۳۲).
+
+---
+
+### AAA/E-AW15 · Some nights before — or one night
+**Tier:** GOOD · **When:** Rabīʿ al-Awwal 11 AH (632 CE) `[SOURCED]`; CE `[STANDARD]` · **Map:** the
+Line, not the map — two ticks almost touching: the killing in **صنعاء**, the Prophet's ﷺ death in
+**المدينة**; a third tick further on, end of Rabīʿ al-Awwal, for the news reaching Abū Bakr ؓ.
+**What happened:** When Ibn Kathīr writes the notices for the dead of this year, he sums al-Aswad up in a
+paragraph. He came out of a town called Kahf Khubbān with seven hundred men. Within a month he held
+Ṣanʿāʾ, and all Yemen gathered to him in the shortest time. He had a shayṭān that served him cleverly —
+and it betrayed him when he needed it most. Three or four months later he was killed by true brothers
+and rightful commanders: Dādhawayh the Persian, Fayrūz al-Daylamī and Qays b. Makshūḥ. That was in Rabīʿ
+al-Awwal of the year eleven, some nights before the death of the Messenger of Allah ﷺ — and it is said,
+one night. And Allah knows best. The riders who carried the news reached Medina after the Prophet ﷺ had
+died; Ibn al-Athīr says it was the first good news Abū Bakr received as caliph.
+**The statement:**
+> وذلك في ربيع الأول من سنة إحدى عشرة، قبل وفاة رسول الله ﷺ بليال، وقيل بليلة، فالله أعلم.
+> — البدایہ والنہایہ ج۷ ص۵۹ · https://shamela.ws/book/30097/3205
+> *English:* "That was in Rabīʿ al-Awwal of the year eleven, some nights before the death of the
+> Messenger of Allah ﷺ — and it is said, one night. And Allah knows best."
+
+**عبرت:** The first of the claimants was dead before the Prophet ﷺ was — and the one who would have to
+answer Yemen's letter was already Abū Bakr ؓ.
+**Hands-up?** no
+**Also on the page:** «وكان معه شيطان يحذق له ولكن خانه أحوج ما كان إليه». Ibn Khaldūn's «قبل وفاته بيوم»
+(ج۲ ص۴۸۴) may be mentioned **by name** as his reading, never as the date. **With E-AW05, replaces E-TB28.**
+
+---
+
+### AAA/E-AW16 · One of the three
+**Tier:** CORE · **When:** after news of the Prophet's ﷺ death reached Yemen, 11 AH `[SOURCED]` ·
+**Map:** **صنعاء** — blue, and a single red point appearing inside it. Freeze. This is the bookend
+image for the next segment.
+**What happened:** Ibn Kathīr had called the three killers true brothers and rightful commanders. Then
+the news of the Prophet's ﷺ death reached Yemen, and some of its people sank deeper into the doubt they
+had been in. And one of the three, Qays b. Makshūḥ — the man who had sworn by Dhū al-Khimār's name to
+save his life, and walked out saying "do what you have to do" — began to want Yemen for himself.
+**The statement:**
+> وطمعَ قيس بن مكشوح في الإمرة باليمن، فعمل لذلك، وارتدّ عن الإسلام وتابَعَهُ عوامُّ أهل اليمن
+> — البدایہ والنہایہ ج۷ ص۴۲ · https://shamela.ws/book/30097/3188
+> *English:* "And Qays b. Makshūḥ coveted the command of Yemen, worked for it, apostatised from Islam — and
+> the common people of Yemen followed him."
+
+**عبرت:** The man who helped end one false claim wanted the throne it left empty.
+**Hands-up?** no
+**Hand-off:** continue with `ridda-campaign-the-conduct-of-the-wars.md` §9.2 and card **E-RC31**.
+
+---
+
+### AAA/E-AW17 · Al-Wāqidī's other account
+**Tier:** CUT — recorded so it is never re-researched · **When:** `[SOURCED]` the report places it in Abū Bakr's ؓ
+caliphate, against every other page · **Map:** none.
+**What happened:** Al-Dhahabī, after telling the whole story from Sayf b. ʿUmar, adds one line from
+al-Wāqidī: that Abū Bakr sent Qays b. Makshūḥ to Yemen, and that Qays and Fayrūz killed al-Aswad. That
+would put the killing after the Prophet's ﷺ death, which no other page read here allows. Al-Dhahabī
+records it and moves on without comment.
+**The statement:**
+> وروى الواقدي عن رجاله، قال: بعث أبو بكر قيس بن مكشوح إلى اليمن، فقتل الأسود العنسي، هو وفيروز الديلمي
+> — سیر أعلام النبلاء (سير الخلفاء الراشدين) ص۳۲ · https://shamela.ws/book/10906/1180
+> *English:* "Al-Wāqidī reported from his authorities: Abū Bakr sent Qays b. Makshūḥ to Yemen, and he
+> killed al-Aswad al-ʿAnsī — he and Fayrūz al-Daylamī."
+
+**عبرت:** —
+**Hands-up?** no
+**Not for the room.** Recorded, not adjudicated.
+
+---
+
+### AAA/E-AW18 · Names the books spell differently
+**Tier:** CUT — the standing naming rule for this strand · **When:** n/a · **Map:** the rule itself.
+**What happened:** The same people are spelled differently from book to book. Al-Aswad is ʿAbhala b. Kaʿb
+in Ibn Kathīr and al-Dhahabī, and the printed text of Ibn al-Athīr has ʿAyhala. The widow is Zādh in Ibn
+Kathīr and Āzād in Ibn al-Athīr. The governor is Bādhām in one and Bādhān in the other. Wabr b. Yuḥannas
+is al-Daylamī in one and al-Azdī in the other. On anything spoken, use ʿAbhala, Bādhām and Zādh when
+reading Ibn Kathīr, name the book, and never tell the room that another spelling is wrong.
+**The statement:**
+> وَاسْمُهُ عَيْهَلَةُ بْنُ كَعْبِ بْنِ عَوْفٍ الْعَنْسِيُّ، بِالنُّونِ، وَعَنْسٌ بَطْنٌ مِنْ مَذْحِجٍ
+> — الکامل فی التاریخ ج۲ ص۱۹۶ · https://shamela.ws/book/21712/887
+> *English:* "His name was ʿAyhala b. Kaʿb b. ʿAwf al-ʿAnsī — with a nūn; ʿAns is a clan of Madhḥij."
+
+**عبرت:** —
+**Hands-up?** no
+**Full table:** §7 of this note.
+
+---
+
+## Yemen II: the second ردة of Yemen, and Ḥaḍramawt/Kinda to al-Nujayr
+
+*Source note: [`the-second-yemen-ridda-and-kinda-11-12ah.md`](../docs/research/the-second-yemen-ridda-and-kinda-11-12ah.md) — read it for the pages behind these cards.*
+
+### TSY/E-YK01 · Two letters to the same five men
+**Tier:** CORE · **When:** 11 AH, after the news of the Prophet's ﷺ death reached the Yemen `[SOURCED]` · **Map:** صنعاء in
+blue, with Fayrūz's marker. Five small chiefs' markers in the highlands around it, **left grey**. Two
+letter-lines reach them — one from المدينة, one from inside صنعاء. **Neither line turns them.**
+**What happened:** When the Prophet ﷺ died, Ṣanʿāʾ was held by three men who had killed al-Aswad
+together — Fayrūz, Dādhawayh and Qays b. Makshūḥ. Qays wanted the Yemen for himself. Abū Bakr ؓ
+heard, and his first move was not an army. He wrote to five chiefs of the Yemen by name: hold to your
+religion, stand by the command of Allah, help the Abnāʾ against whoever attacks them, and obey
+Fayrūz. Qays wrote to the same five men: kill the Abnāʾ and drive their families out of the Yemen.
+The five answered neither of them. So Qays wrote secretly to al-Aswad's scattered men, and they came.
+And then he went to Fayrūz and Dādhawayh and asked them for their advice about his affairs — and they
+were reassured.
+**The statement:**
+> فَاسْتَشَارَهُمَا فِي أَمْرِهِ خَدِيعَةً مِنْهُ لِيُلَبِّسَ عَلَيْهِمَا، فَاطْمَأَنَّا إِلَيْهِ
+> — الکامل فی التاریخ ج۲ ص۲۲۸ · https://shamela.ws/book/21712/919
+> *English:* "He consulted the two of them about his affair — a deception on his part, to confuse
+> them — and they felt secure with him."
+
+**عبرت:** The man who comes to ask your advice has not always come for your advice.
+**Hands-up?** no
+**Also on the page:** the letter itself — «يَأْمُرُهُمْ بِالتَّمَسُّكِ بِدِينِهِمْ وَالْقِيَامِ بِأَمْرِ اللَّهِ،
+وَيَأْمُرُهُمْ بِإِعَانَةِ الْأَبْنَاءِ عَلَى مَنْ نَاوَأَهُمْ، وَالسَّمْعِ لِفَيْرُوزَ» (ج۲ ص۲۲۸). **Follow with
+`RCT/E-RC31`** (the dinner, and the two women in the street).
+
+---
+
+### TSY/E-YK02 · Up the mountain of Khawlān
+**Tier:** GOOD · **When:** 11 AH `[SOURCED]` · **Map:** A thin blue line runs out of صنعاء at speed and climbs
+**جبل خَوْلان**. A red pursuit line follows it to the foot of the mountain and **turns back**. صنعاء
+goes red.
+**What happened:** Fayrūz had turned back in the street and Qays's men were after him. He rode out at
+a gallop. On the way Jishnas — whom Qays had also invited — met him and turned round and rode with him.
+They made for the mountain of Khawlān — Khawlān were Fayrūz's mother's people — and they climbed it.
+Qays's horsemen came back without them. Qays rose in Ṣanʿāʾ, and al-Aswad's old horsemen came in to
+him. Men gathered to Fayrūz on the mountain, and he wrote to Abū Bakr ؓ. And in the tribes Abū Bakr ؓ
+had written to, the ordinary men went over to Qays, while their chiefs stood aside.
+**The statement:**
+> فَطَلَبَهُ أَصْحَابُ قَيْسٍ، فَخَرَجَ يَرْكُضُ، وَلَقِيَهُ جِشْنَسُ فَرَجَعَ مَعَهُ، فَتَوَجَّهَا نَحْوَ جَبَلِ خَوْلَانَ، وَهُمْ أَخْوَالُ فَيْرُوزَ، فَصَعِدَا الْجَبَلَ
+> — الکامل فی التاریخ ج۲ ص۲۲۸ · https://shamela.ws/book/21712/919
+> *English:* "Qays's men went after him; he rode out at a gallop. Jishnas met him and turned back with
+> him, and the two made for the mountain of Khawlān — Khawlān were Fayrūz's maternal kin — and they
+> climbed the mountain."
+
+**عبرت:** When a man's own city turned on him, it was his mother's people who took him in.
+**Hands-up?** no
+
+---
+
+### TSY/E-YK03 · "Go back to your own land"
+**Tier:** CORE · **When:** 11 AH `[SOURCED]` · **Map:** From صنعاء, two convoys: one south to **عَدَن** and
+out to sea, one overland north. Two blue lines come down — **بنو عُقَيل** onto the overland convoy,
+**عَكّ** onto the other — and both convoys **turn back**. A clash just short of صنعاء; Qays's red block
+breaks and **drifts** into the ground between صنعاء and **نجران**.
+**What happened:** The Abnāʾ were the descendants of the Persians who had come to the Yemen in the
+time of Sayf b. Dhī Yazan, and had settled there and married among the Arabs. Qays divided them three
+ways. The families of the men who stayed put, he left alone. The families of the men who had gone
+with Fayrūz, he split in two — one party to Aden, to be put on ships, the other sent overland. And he
+said the same thing to all of them. When Fayrūz heard, he gave himself entirely to the war. He sent
+to Banū ʿUqayl and to ʿAkk for help. ʿUqayl rode out, met the escort with the families, freed them and
+killed the escort. ʿAkk freed the other party. Both sent him men. He came down, met Qays short of
+Ṣanʿāʾ, and broke him. Qays and what was left of al-Aswad's men were left wandering between Ṣanʿāʾ
+and Najrān.
+**The statement:**
+> وَقَالَ لَهُمْ جَمِيعِهِمْ: الْحَقُوا بِأَرْضِكُمْ.
+> — الکامل فی التاریخ ج۲ ص۲۲۸ · https://shamela.ws/book/21712/919
+> *English:* "And he said to all of them: Go back to your own land."
+
+**عبرت:** He told families who had married among the Arabs to go back to their own land, and Arab
+tribes rode out and brought them home.
+**Hands-up?** Before telling it: *"Qays has Ṣanʿāʾ and he has the families of his enemies. What does he
+do with them?"*
+**Also on the page:** «فَلَمَّا عَلِمَ فَيْرُوزُ ذَلِكَ جَدَّ فِي حَرْبِهِ وَتَجَرَّدَ لَهَا» — *he threw himself
+into his war and gave himself wholly to it* (ج۲ ص۲۲۸); and the ending, «وَتَذَبْذَبَ أَصْحَابُ الْعَنْسِيِّ
+وَقَيْسٌ مَعَهُمْ فِيمَا بَيْنَ صَنْعَاءَ وَنَجْرَانَ». The Abnāʾ gloss is البدایہ ج۷ ص۴۲ ed. fn.
+
+---
+
+### TSY/E-YK04 · Why al-Muhājir ؓ had not gone
+**Tier:** CORE · **When:** the Tabūk campaign, then 11 AH `[SOURCED]` — no page here gives Tabūk's year · **Map:** No
+movement. **المدينة** only, with a dotted line south to **كِندة** in حضرموت that is **drawn and not
+travelled**.
+**What happened:** Al-Muhājir b. Abī Umayya ؓ had stayed behind when the Prophet ﷺ marched to Tabūk,
+and the Prophet ﷺ came back displeased with him. His sister was Umm Salama ؓ, the Prophet's ﷺ wife.
+One day she was washing the Prophet's ﷺ head, and she said one sentence. She saw him soften. She
+signed to her servant to bring her brother in, and al-Muhājir ؓ gave his excuse, and kept giving
+it, until the Prophet ﷺ was pleased with him — and appointed him governor of Kinda. He had not
+yet set out when the Prophet ﷺ died. He left Ziyād b. Labīd ؓ as his deputy. So Abū Bakr ؓ sent him
+south with a double order: first fight in the Yemen, then go on to the post the Prophet ﷺ had given
+him.
+**The statement:**
+> بَيْنَمَا أُمُّ سَلَمَةَ تَغْسِلُ رَأْسَ النَّبِيِّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - قَالَتْ: كَيْفَ يَنْفَعُنِي عَيْشٌ وَأَنْتَ عَاتِبٌ عَلَى أَخِي؟
+> — الکامل فی التاریخ ج۲ ص۲۲۹ · https://shamela.ws/book/21712/920
+> *English:* "While Umm Salama was washing the Prophet's ﷺ head, she said: How can life be any good to
+> me while you are displeased with my brother?"
+
+**عبرت:** Abū Bakr ؓ did not cancel the Prophet's ﷺ appointment. He sent the man to fight on the way to
+it.
+**Hands-up?** no
+⚠ The passage is in «» in the printed الکامل — check the page image before a slide. **Ibn Khaldūn
+adds that he fell ill** (ابن خلدون ج۲ ص۴۹۱); that is his detail — if used at all, say "Ibn Khaldūn
+adds". Do not put "illness" on the slide.
+
+---
+
+### TSY/E-YK05 · Two armies come down on the Yemen
+**Tier:** GOOD · **When:** 11 AH `[SOURCED]` · **Map:** Two blue lines converge. **ʿIkrima ؓ** from
+**مَهْرة** west along the coast to **أبْيَن**. **Al-Muhājir ؓ** from **مكة** and **الطائف** south to
+**نجران**. At نجران a prisoner marker is made and sent north. Then al-Muhājir's ؓ line runs from
+نجران to **صنعاء**, and صنعاء turns blue.
+**What happened:** Before either army arrived, two men had been holding each other in place.
+ʿAmr b. Maʿdī Karib had been with Khālid b. Saʿīd ؓ, and when ʿAmr went over to al-Aswad, Khālid ؓ
+rode after him, struck him on the shoulder, and took his sword, al-Ṣamṣāma, and his
+horse. Al-Aswad set ʿAmr opposite Farwa b. Musayk ؓ, who had stayed loyal, and neither could move off
+his ground because of the other. Then ʿIkrima ؓ came into Abyan from Mahra with a great many men, and
+al-Muhājir ؓ came to Najrān with men from Mecca and al-Ṭāʾif and Jarīr ؓ with Bajīla. Farwa ؓ joined
+him. And ʿAmr came in by himself and walked into al-Muhājir's ؓ camp without any safe-conduct.
+Al-Muhājir ؓ bound him. He took Qays as well, bound him, and sent both to Abū Bakr ؓ. Then he marched
+on the remnant of al-Aswad's army. They asked for safe-conduct and did not get it, and were killed
+wherever they were found. Al-Muhājir ؓ entered Ṣanʿāʾ and wrote to Abū Bakr ؓ.
+**The statement:**
+> فَأَقْبَلَ عَمْرُو بْنُ مَعْدِي كَرِبَ مُسْتَجِيبًا، حَتَّى دَخَلَ عَلَى الْمُهَاجِرِ مِنْ غَيْرِ أَمَانٍ، فَأَوْثَقَهُ الْمُهَاجِرُ
+> — الکامل فی التاریخ ج۲ ص۲۲۹ · https://shamela.ws/book/21712/920
+> *English:* "ʿAmr b. Maʿdī Karib came in, answering the call, until he walked in on al-Muhājir without
+> any safe-conduct — and al-Muhājir bound him."
+
+**عبرت:** The chiefs went to Medina to be judged; the men who had followed al-Aswad to the end asked
+for terms on the field and were refused, and the book gives no reason for either.
+**Hands-up?** no
+**Also on the page:** «فَامْتَنَعَ كُلُّ وَاحِدٍ مِنْهُمَا مِنَ الْبَرَاحِ لِمَكَانِ صَاحِبِهِ» — *neither could
+leave his ground because of the other*; and «فَاسْتَأْمَنُوا فَلَمْ يُؤَمِّنْهُمْ، وَقَتَلَهُمْ بِكُلِّ سَبِيلٍ»
+(ج۲ ص۲۲۹). ⚠ **Do not supply a reason for the refusal**; the page gives none.
+
+---
+
+### TSY/E-YK06 · "Qays — you killed the servants of Allah"
+**Tier:** CORE · **When:** 11–12 AH `[SOURCED]` · **Map:** Two prisoner markers arrive at **المدينة** —
+and then move **back south** to their own clans.
+**What happened:** Qays b. Makshūḥ and ʿAmr b. Maʿdī Karib were brought to Abū Bakr ؓ in bonds. He
+spoke to Qays first, and he did not soften it. You killed the servants of Allah, he said, and you
+took the apostates as your confidants instead of the believers. Qays denied it. He said he had had no
+hand at all in what happened to Dādhawayh — and Dādhawayh had been killed in secret, at a meal,
+and the killing had been done in secret. Abū Bakr ؓ let the blood go. Then he turned to ʿAmr and
+asked him whether he was not ashamed to be beaten or captured every
+single day; if he had helped this religion, Allah would have raised him up. And ʿAmr answered him in
+a few words. The two men went home to their clans.
+**The statement:**
+> يَا قَيْسُ، قَتَلْتَ عِبَادَ اللَّهِ، وَاتَّخَذْتَ الْمُرْتَدِّينَ وَلِيجَةً مِنْ دُونِ الْمُؤْمِنِينَ!
+> — الکامل فی التاریخ ج۲ ص۲۲۹ · https://shamela.ws/book/21712/920
+> *English:* "Qays — you killed the servants of Allah, and took the apostates as your confidants
+> instead of the believers!"
+
+**عبرت:** A charge that could not be proved was not punished, and the man who made the charge said so
+to his face first.
+**Hands-up?** no
+**ʿAmr's answer, same page:** «**لَا جَرَمَ، لَأُقْبِلَّنَ وَلَا أَعُودُ**» — *"So be it — I will turn to it,
+and I will not go back."* **Pairs with `RCT/E-RC32`**, which carries Ibn Kathīr's summing-up («فقبل
+منهما علانيتهما، ووكل سرائرهما إلى الله»). Use one statement per slide.
+
+---
+
+### TSY/E-YK07 · The promise about the camels
+**Tier:** CORE · **When:** 11 AH `[SOURCED]` · **Map:** **حَضْرَمَوت** and **كِندة** as two neighbouring
+zones with a two-way arrow between them (the ṣadaqa that went each way). The arrow **breaks** in the
+middle.
+**What happened:** In the Prophet's ﷺ lifetime an arrangement had been made: part of Ḥaḍramawt's
+ṣadaqa went to Kinda, and part of Kinda's to Ḥaḍramawt. A clan of Kinda, Banū Walīʿa, had said to
+Ḥaḍramawt: we have no camels to carry it — send it to us loaded. And Ḥaḍramawt had said: we will look
+into it, and if you really have none, we will. Then the Prophet ﷺ died. Banū Walīʿa came and said:
+deliver it, the way you promised the Messenger of Allah ﷺ. And Ḥaḍramawt said: you do have camels —
+carry it yourselves. And Kinda turned to Ziyād b. Labīd ؓ, the governor, and said: you are with them
+against us. Ziyād ؓ did nothing yet. He was waiting for al-Muhājir ؓ.
+**The statement:**
+> قَالَتْ بَنُو وَلَيْعَةَ: أَبْلِغُونَا كَمَا وَعَدْتُمْ رَسُولَ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ -! فَقَالُوا: إِنْ لَكُمْ ظَهْرًا فَاحْتَمِلُوا
+> — الکامل فی التاریخ ج۲ ص۲۳۰ · https://shamela.ws/book/21712/921
+> *English:* "Banū Walīʿa said: Deliver it to us, as you promised the Messenger of Allah ﷺ! They said:
+> You do have mounts — carry it yourselves."
+
+**عبرت:** A small promise made in the Prophet's ﷺ lifetime was tested the day after he died, and the
+province went to war over the answer.
+**Hands-up?** Before telling it: *"Before the war there was a quarrel. What do you think it was
+about?"*
+**Follow with `RCT/E-RC33`** (the she-camel called Shadhra).
+
+---
+
+### TSY/E-YK08 · "The humbled man is the one devoured in his own home"
+**Tier:** CORE · **When:** 11 AH `[SOURCED]` · **Map:** Inside كِندة, two camps face each other — **حضرموت
+and السَّكون** on Ziyād's ؓ side, **بنو معاوية** of Kinda on the other. A short blue night-arrow strikes
+the Kinda camp. Then the Kinda camp **grows**.
+**What happened:** When Ziyād ؓ refused to give the camel back, a warning was spoken over her: do not
+let Shadhra be for you what al-Basūs was. And the owner, al-ʿAddāʾ, called out to his clan. Ḥāritha
+b. Surāqa raised the call too, came up to Ziyād ؓ, and untied her. Ziyād ؓ had young men of Ḥaḍramawt and al-Sakūn
+tie Ḥāritha up, and his companions, and take the camel back. Kinda shouted. Banū Muʿāwiya came out for
+Ḥāritha; Ḥaḍramawt and al-Sakūn came out for Ziyād ؓ; two great camps faced each other. Kinda did not
+attack, because their men were prisoners. Ziyād ؓ told them to put down their weapons; they refused
+and demanded their men; he refused. He hit them by night, and they scattered. Then he let Ḥāritha and
+the others go — and the men he let go went straight back and roused their people against him, until
+the whole clan was calling out that it would pay no ṣadaqa.
+**The statement:**
+> فَنَادَى الْعَدَّاءُ: يَا آلَ عَمْرٍو، أُضَامُ وَأُضْطَهَدُ! إِنَّ الذَّلِيلَ مَنْ أُكِلَ فِي دَارِهِ!
+> — الکامل فی التاریخ ج۲ ص۲۳۰ · https://shamela.ws/book/21712/921
+> *English:* "Al-ʿAddāʾ called out: O family of ʿAmr — am I to be wronged and trampled? The humbled man
+> is the one who is devoured in his own home!"
+
+**عبرت:** Once the quarrel became a matter of honour, being right about the camel no longer decided
+anything.
+**Hands-up?** no
+**Also on the page:** «لَا تَكُونَنَّ شَذْرَةً عَلَيْكُمْ كَالْبَسُوسِ» (ج۲ ص۲۳۰). ⚠ The speaker is unclear
+in the printed text; say "a warning was spoken". Al-Basūs is `[STANDARD] (to verify)` — the she-camel
+at the start of the long pre-Islamic war of Bakr and Taghlib; no page here says so. The release and
+the call to refuse ṣadaqa: «وَنَادَوْا بِمَنْعِ الصَّدَقَةِ» (ج۲ ص۲۳۱).
+
+---
+
+### TSY/E-YK09 · Free men do not change sides
+**Tier:** CORE · **When:** 11 AH `[SOURCED]` · **Map:** Inside كِندة, a cluster of red pasture-markers
+(المَحاجر). **One small marker detaches from the red cluster and moves across to Ziyād's ؓ blue
+camp.**
+**What happened:** The whole of Banū Muʿāwiya agreed to withhold the ṣadaqa, and each of their chiefs
+took up his own reserved pasture as a stronghold. All of them — except one man, Shuraḥbīl b. al-Simṭ,
+and his son. The two of them told their own clan, Banū Muʿāwiya, why they would not come.
+Then they moved out, and camped with Ziyād ؓ, and they gave him advice: strike tonight, before the
+men of al-Sakāsik, al-Sakūn and Ḥaḍramawt who are drifting toward the rebels get there — because if
+you wait, we are afraid people will drift away from us to them.
+**The statement:**
+> إِنَّهُ لَقَبِيحٌ بِالْأَحْرَارِ التَّنَقُّلُ، إِنَّ الْكِرَامَ لَيَلْزَمُونَ الشُّبْهَةَ فَيَتَكَرَّمُونَ أَنْ يَنْتَقِلُوا إِلَى أَوْضَحَ مِنْهَا مَخَافَةَ الْعَارِ، فَكَيْفَ الِانْتِقَالُ مِنَ الْأَمْرِ الْحَسَنِ الْجَمِيلِ وَالْحَقِّ إِلَى الْبَاطِلِ وَالْقَبِيحِ!
+> — الکامل فی التاریخ ج۲ ص۲۳۱ · https://shamela.ws/book/21712/922
+> *English:* "It is an ugly thing in free men to change sides. Men of honour will stay with a doubtful
+> position, and think it beneath them to move even to a clearer one, for fear of the disgrace — so how
+> much worse to move from what is good, fair and true to what is false and ugly!"
+
+**عبرت:** He used his tribe's own code of honour — never change sides — as the reason not to follow
+his tribe.
+**Hands-up?** Before telling it: *"Your whole clan has decided. You think they are wrong. What do you
+say to them?"*
+⚠ **Quote only to «وَالْقَبِيحِ!»** — the next clause reads against the sense. **It was his son, not his
+father** («وَابْنَهُ») — this corrects the campaign note §10.3.
+
+---
+
+### TSY/E-YK10 · Round their fires
+**Tier:** CORE · **When:** 11 AH by الکامل's arrangement; سیر files it under 12 AH `[SOURCED, the books differ]` · **Map:**
+The red pasture-markers of **بنو عمرو بن معاوية**. Five blue arrows close on them at once, from five
+sides. Five markers go out. Then a blue column heads home with captives — and a new red block under
+**al-Ashʿath** cuts across its path and takes them back.
+**What happened:** Ziyād ؓ agreed. They gathered in the dark and ringed the pastures, and they found
+the men sitting round their fires. Banū ʿAmr b. Muʿāwiya were the strongest of Kinda and had the
+numbers. The Muslims fell on them from five directions at once. Four brothers were killed that night
+— Mikhwaṣ, Mishraḥ, Jamad and Abḍaʿa — with their sister, al-ʿAmarrada. These were "the four kings", the
+chiefs of Banū ʿAmr. Many others were killed; whoever could run, ran. Ziyād ؓ turned back with the
+property and the captives. And his road home passed al-Ashʿath b. Qays. Al-Ashʿath rose with his
+people, took the captives back, and began to gather every man he could.
+**The statement:**
+> فَوَجَدُوهُمْ جُلُوسًا حَوْلَ نِيرَانِهِمْ، فَأَكَبُّوا عَلَى بَنِي عَمْرِو بْنِ مُعَاوِيَةَ، وَفِيهِمُ الْعَدَدُ وَالشَّوْكَةُ - مِنْ خَمْسَةِ أَوْجُهٍ
+> — الکامل فی التاریخ ج۲ ص۲۳۱ · https://shamela.ws/book/21712/922
+> *English:* "They found them sitting round their fires, and fell on Banū ʿAmr b. Muʿāwiya — who had
+> the numbers and the strength — from five directions."
+
+**عبرت:** The night attack ended the four kings and brought the fifth man into the war.
+**Hands-up?** no
+**Also on the page:** «وَأَدْرَكَتْهُمْ لَعْنَةُ النَّبِيِّ ﷺ» — *and the Prophet's ﷺ curse overtook them*
+(ج۲ ص۲۳۱). The origin of that curse is the Kinda-delegation note; **do not explain it from the floor.**
+Al-Dhahabī names **four** and no sister (سیر الراشدون ص۶۲). Ibn Khaldūn adds that the captive women
+cried out as they passed (ج۲ ص۴۹۲) — his detail.
+
+---
+
+### TSY/E-YK11 · The fort they had already repaired
+**Tier:** GOOD · **When:** 11 AH by الکامل's arrangement; سیر files it under 12 AH `[SOURCED, the books differ]` · **Map:**
+Al-Muhājir's ؓ line, on the road from صنعاء, **splits**: a fast thin arrow races ahead to Ziyād ؓ; the
+main body follows under ʿIkrima ؓ. Blue meets red at **مَحْجَر الزُّرْقان**; the red retreats into
+**النُّجَير**, a fort symbol. A ring closes round it.
+**What happened:** Ziyād ؓ wrote to al-Muhājir ؓ to hurry. The letter met him on the road. He handed
+the army to ʿIkrima ؓ and rode ahead with the fastest men, joined Ziyād ؓ, and marched on Kinda. They
+met at Maḥjar al-Zurqān, and Kinda broke and ran for the fort of al-Nujayr. And the book adds one
+detail: they had already repaired it and put it in order. The Muslims camped round it. ʿIkrima ؓ
+came up with the main body, and the siege tightened. Raiding parties went out through the country
+after the rest. The garrison came out to fight, lost many men, and went back in.
+**The statement:**
+> فَرَجَعُوا إِلَى حِصْنِهِمْ، وَخَشَعَتْ نُفُوسُهُمْ وَخَافُوا الْقَتْلَ
+> — الکامل فی التاریخ ج۲ ص۲۳۱ · https://shamela.ws/book/21712/922
+> *English:* "They went back into their fort; their spirits sank, and they feared death."
+
+**عبرت:** They had prepared the place to retreat to before they fought, and it became the place they
+could not leave.
+**Hands-up?** no
+**Also on the page:** «فَالْتَجَئُوا إِلَى النُّجَيْرِ، وَقَدْ رَمُّوهُ وَأَصْلَحُوهُ» (ج۲ ص۲۳۱). **Pairs with
+`RCT/E-RC34`'s map line** (ʿIkrima ؓ closing the last road).
+
+---
+
+### TSY/E-YK12 · The knife at the writing
+**Tier:** CORE · **When:** 11 AH by الکامل's arrangement; سیر files it under 12 AH `[SOURCED, the books differ]` · **Map:**
+النُّجَير only. The gate opens. The ring moves inside.
+**What happened:** When the leaders inside began to fear for their own lives, al-Ashʿath came out with
+nine men. They asked Ziyād ؓ for a guarantee for themselves and their families, in return for opening
+the gate. Ziyād ؓ said: write whatever you want, and bring it to me to seal. They wrote
+it. And while al-Ashʿath was writing, a man called Jaḥdam jumped at him with a knife and
+said: you write me in, or I kill you. Al-Ashʿath wrote him in — and forgot himself. The gate was
+opened. Every fighting man inside was killed. When it was over, al-Ashʿath called the men and brought out the
+document, and everyone named in it was spared. Al-Ashʿath's name was not there. Al-Muhājir ؓ had him bound. And
+someone said: hold him back — send him to Abū Bakr ؓ; he knows best what the ruling on this man is.
+**The statement:**
+> وَنَسِيَ الْأَشْعَثُ أَنْ يَكْتُبَ نَفْسَهُ لِأَنَّ جَحْدَمًا وَثَبَ عَلَيْهِ بِسِكِّينٍ، فَقَالَ: تَكْتُبُنِي أَوْ أَقْتُلُكَ؟ فَكَتَبَهُ وَنَسِيَ نَفْسَهُ
+> — الکامل فی التاریخ ج۲ ص۲۳۲ · https://shamela.ws/book/21712/923
+> *English:* "Al-Ashʿath forgot to write himself in, because Jaḥdam leapt at him with a knife and said:
+> Will you write me in, or shall I kill you? So he wrote him in, and forgot himself."
+
+**عبرت:** The decision about al-Ashʿath was not taken in anger at the gate; it was sent to the man
+whose job it was.
+**Hands-up?** no
+**Pairs with `RCT/E-RC34`**, whose statement is al-Muhājir's ؓ «الحمد لله الذي خطأ فاك». The full
+sentence goes on «يَا عَدُوَّ اللَّهِ! قَدْ كُنْتُ أَشْتَهِي أَنْ يُخْزِيَكَ اللَّهُ!» and then «أَخِّرْهُ
+وَسَيِّرْهُ إِلَى أَبِي بَكْرٍ؛ فَهُوَ أَعْلَمُ بِالْحُكْمِ فِيهِ» (ج۲ ص۲۳۲). The page also says the fighters
+were beheaded after capture — «وَضَرَبُوا أَعْنَاقَهُمْ صَبْرًا». Narrate it plainly if asked; do not
+enlarge it.
+
+---
+
+### TSY/E-YK13 · The other telling
+**Tier:** GOOD · **When:** 11 AH by الکامل's arrangement; سیر files it under 12 AH `[SOURCED, the books differ]` · **Map:** No
+movement. A single bound figure leaves النُّجَير northward, walking beside the line of captives.
+**What happened:** Ibn al-Athīr does not leave it at one account. On the same page he writes: and it
+is said. In this telling there was no knife and no forgetting. When the siege became unbearable,
+al-Ashʿath came down on his own to al-Muhājir ؓ and Ziyād ؓ and asked for safety for his own life and
+property until Abū Bakr ؓ could decide about him — and in exchange he would open al-Nujayr and hand
+over everyone inside. They accepted. The kings inside were brought down and killed. Al-Ashʿath was
+bound and sent to Medina with the captives. And the captive women of his own tribe gave him a
+name.
+**The statement:**
+> وَسَمَّاهُ نِسَاءُ قَوْمِهِ عُرْفَ النَّارِ، وَهُوَ اسْمُ الْغَادِرِ عِنْدَهُمْ.
+> — الکامل فی التاریخ ج۲ ص۲۳۲ · https://shamela.ws/book/21712/923
+> *English:* "The women of his people called him *ʿurf al-nār* — which was their name for a traitor."
+
+**عبرت:** The historian put both accounts on one page and did not choose between them, and neither
+do we.
+**Hands-up?** no
+⚠ SPEAKER'S DISCRETION. Al-Ashʿath is later a Companion with صحبة (سیر ج۲ ص۳۸). **Tell both tellings
+or neither; never this one alone.** Al-Dhahabī's report gives the safe-conduct as for **seventy**, not
+ten (سیر ج۲ ص۳۹). Ibn Khaldūn has him approach through ʿIkrima ؓ (ج۲ ص۴۹۴) — his detail.
+
+---
+
+### TSY/E-YK14 · "What do you think I will do with you?"
+**Tier:** CORE · **When:** 11–12 AH `[SOURCED]` · **Map:** المدينة only. The bound figure arrives.
+**What happened:** Al-Ashʿath was brought before Abū Bakr ؓ. Abū Bakr ؓ asked him what he thought would
+be done with him. He said he did not know. Abū Bakr ؓ said: then I will kill you. And al-Ashʿath argued
+the law. I am the man who negotiated that peace for ten, he said — my blood is not lawful. And Abū
+Bakr ؓ answered him on the law: the peace bound only the names in the document, once it was sealed;
+before the seal you were a negotiator, nothing more. And when he feared he would be killed, he
+stopped arguing and asked. Look for some good in me. Free me. Forgive my
+stumble. Treat me as you have treated others like me. And give me back my wife — he had been engaged,
+in the Prophet's ﷺ lifetime, to Abū Bakr's ؓ own sister. Do that, he said, and you will find me the
+best man in my country for the religion of Allah. Abū Bakr ؓ spared him and gave him back his family.
+**The statement:**
+> قَالَ: إِنَّمَا وَجَبَ الصُّلْحُ بَعْدَ خَتْمِ الصَّحِيفَةِ عَلَى مَنْ فِيهَا، وَإِنَّمَا كُنْتَ قَبْلَ ذَلِكَ مُرَاوِضًا.
+> — الکامل فی التاریخ ج۲ ص۲۳۲ · https://shamela.ws/book/21712/923
+> *English:* "He said: The peace became binding, once the document was sealed, only on those named in
+> it; before that you were only negotiating."
+
+**عبرت:** He won his life only after he stopped arguing that he was owed it.
+**Hands-up?** Before telling it: *"He has lost the legal argument. He is standing in front of the
+caliph in chains. What does he say now?"*
+**Also on the page:** «فَإِنْ فَعَلْتَ ذَلِكَ تَجِدُنِي خَيْرَ أَهْلِ بِلَادِي لِدِينِ اللَّهِ. فَحَقَنَ دَمَهُ
+وَرَدَّ عَلَيْهِ أَهْلَهُ» (ج۲ ص۲۳۲). ⚠ **Her name differs**: *Umm Farwa* in الکامل, *Farwa bint Abī Quḥāfa*
+in سیر ج۲ ص۳۹, where he asks for the marriage after the pardon rather than having it restored. Say
+"Abū Bakr's ؓ sister". **Follow with `POT/E-PG40`** (the wedding feast in the camel market).
+
+---
+
+### TSY/E-YK15 · Abū Bakr's ؓ wish about al-Ashʿath
+**Tier:** CUT · **When:** Abū Bakr's ؓ last illness `[SOURCED]` — no year on the page cited · **Map:** n/a
+**What happened:** In his last illness Abū Bakr ؓ is reported to have said that he grieved over
+nothing except three things he had done, three he had not done, and three he wished he had asked the
+Prophet ﷺ about. One of the things he wished was about al-Ashʿath: that on the day the man was brought
+to him a prisoner he had executed him, because it seemed to him that there was no evil that
+al-Ashʿath would not fly towards.
+**The statement:**
+> وودت أني يوم أتيت بالأشعث أسيرا ضربت عنقه، فإنه يخيل إلي أنه لا يكون شر إلا طار إليه
+> — سیر أعلام النبلاء، ج الراشدون ص۱۸ · https://shamela.ws/book/10906/1166
+> *English:* "And I wish that on the day al-Ashʿath was brought to me a captive, I had struck off his
+> head — for it seems to me that there is no evil but he flies to it."
+
+**عبرت:** Recorded, not delivered.
+**Hands-up?** no
+⚠ SPEAKER'S DISCRETION — **do not deliver.** Ungraded on the page; the chain runs through ʿUlwān b.
+Dāwūd, unassessed here (to verify); the same report's other clauses touch the house of Fāṭima ؓ and
+the Saqīfa; and it is a severe judgement on a Companion whose later role is مشاجرات material. §6.3.
+
+---
+
+### TSY/E-YK16 · "We suspected three men"
+**Tier:** CORE · **When:** al-Qādisiyya to Nahāwand; Ibn Kathīr files the saying in his notices for 21 AH `[SOURCED]` · **Map:**
+Pull back to the whole region. Three thin lines leave the south of the peninsula — from **صنعاء**,
+from **حضرموت**, from the country of **مَذْحِج** — and run north to **اليرموك** and **القادسية**, and on
+to **نهاوند**.
+**What happened:** Three of the men of this evening went north. Al-Ashʿath ؓ and ʿAmr b. Maʿdī Karib ؓ
+were in the delegation Saʿd ؓ sent to call Rustam to Islam before al-Qādisiyya. Qays b. Makshūḥ fought
+at the Yarmūk, came east with the reinforcements from Syria, and commanded the left wing at
+al-Qādisiyya. Qays and al-Ashʿath ؓ each lost an eye at the Yarmūk. At Nahāwand, Ibn Kathīr lists ʿAmr
+ؓ, Qays and Ṭulayḥa ؓ side by side among the leading men of the army. And he records what Jābir b.
+ʿAbd Allāh ؓ swore about the army at al-Qādisiyya. He said they had suspected three men of wanting
+this world — and when they looked into those three, they found nothing to match their honesty and
+their indifference to it. The three names are Ṭulayḥa, who had claimed prophethood; ʿAmr, who had
+followed al-Aswad; and Qays, who had turned on the Abnāʾ.
+**The statement:**
+> ولقد اتهمنا ثلاثةَ نفرٍ، فما رأينا كما هجمنا عليهم من أمانتهم وزهدهم: طُلَيْحة بن خوَيْلد الأسدي، وعَمْرو بن معدي كرب، وقيس بن المكشوح.
+> — البدایہ والنہایہ ج۷ ص۲۴۳ · https://shamela.ws/book/30097/3389
+> *English:* "We did suspect three men — and when we came upon them we found nothing to match their
+> trustworthiness and their abstinence: Ṭulayḥa b. Khuwaylid al-Asadī, ʿAmr b. Maʿdī Karib, and Qays
+> b. al-Makshūḥ."
+
+**عبرت:** The army kept watching the men who had once turned, and the watching found nothing; both of
+those facts are in the record.
+**Hands-up?** Before telling it: *"Last week it was Ṭulayḥa. Tonight we met ʿAmr, Qays and al-Ashʿath.
+Where do you think we find them ten years later?"*
+⚠ **The saying comes through Sayf b. ʿUmar** — say "Ibn Kathīr records that Jābir ؓ said". ⚠ SPEAKER'S
+DISCRETION on **Qays: no honorific** — no page here states his Companionship. **Stop at the Yarmūk and
+Nahāwand**; both al-Ashʿath's and Qays's notices go on to Ṣiffīn, which is not this session. **Close
+with `POT/E-PG41`** («إِنَّ هَذَا لَمْ يَرْتَدَّ، وَإِنِّي ارْتَدَدْتُ»). **Hand-off:** al-Ashʿath's later house
+is the third sister note.
+
+---
+
+## Kinda: the kingdom before Islam, and the house of al-Ashʿath
+
+*Source note: [`kinda-the-kingdom-before-islam-and-the-house-of-al-ashath.md`](../docs/research/kinda-the-kingdom-before-islam-and-the-house-of-al-ashath.md) — read it for the pages behind these cards.*
+
+### KTK/E-KD01 · A Yemeni house made kings over the northern tribes
+**Tier:** GOOD · ≈1.5 min · **When:** before Islam, not dated in our sources; `[CONVENTIONAL-ESTIMATE]`
+late 5th century CE — label it on the slide · **Map:** Arabia with Yemen shaded. An arrow from Yemen
+north into Najd, ending at **Baṭn ʿĀqil**, which takes a plain place marker. The tribal names
+Bakr, Asad, Ghaṭafān, Taghlib appear in the north.
+**What happened:** Kinda was a tribe of the south, of Qaḥṭān. The books of the Arabs' past report that
+among the northern tribe of Bakr the reckless men had overpowered the wise, and the strong were eating
+the weak. The wise men wanted a king who would take the weak man's due from the strong — but not one of
+their own, whom half would obey and half defy. So they went to a Tubbaʿ of Yemen, and he gave them a
+man of Kinda: Ḥujr b. ʿAmr, remembered as Ākil al-Murār. He settled at Baṭn ʿĀqil, took back Bakr's
+lands from the Lakhmids of al-Ḥīra, and was buried there. Ibn Khaldūn, following an older genealogist,
+tells it differently: a Ḥimyarite king set Ḥujr over all of Maʿadd.
+**The statement:**
+> فَرَأَوْا أَنْ يُمَلِّكُوا عَلَيْهِمْ مَلِكًا يَأْخُذُ لِلضَّعِيفِ مِنَ الْقَوِيِّ
+> — الکامل فی التاریخ ج۱ ص۴۶۲ · https://shamela.ws/book/21712/458
+> *English:* "They decided to set a king over themselves who would take the weak man's due from the
+> strong."
+
+**عبرت:** A people that could not keep the strong from the weak went looking for a ruler from outside.
+**Hands-up?** *"If your own tribe cannot agree on a chief, where do you look?"*
+
+---
+
+### KTK/E-KD02 · al-Ḥārith b. ʿAmr — al-Ḥīra given, al-Ḥīra taken back
+**Tier:** GOOD · ≈1.5 min · **When:** `[SOURCED]` "in the days of Qubādh", about 130 years before the Hijra;
+any CE year `[CONVENTIONAL-ESTIMATE]` (early 6th century CE) · **Map:** Kinda's marker
+moves from Najd to **al-Ḥīra** on the Euphrates, then retreats to **al-Anbār**, then flees west into the
+**land of Kalb**. A red marker at the lands of **Banū Marīnā** near al-Ḥīra.
+**What happened:** Ḥujr's grandson al-Ḥārith was, in Ibn al-Athīr's words, a king of great power and
+far-reaching name. When the Persian king Qubādh adopted the teaching of Mazdak, his Arab governor at
+al-Ḥīra refused to follow; al-Ḥārith accepted, and was given al-Ḥīra. The next Persian king,
+Anūshirwān, killed Mazdak, restored the old governor and hunted al-Ḥārith. He escaped to the land of
+Kalb. Forty-eight men of his house were caught, among them two of his sons, and were put to death in
+the lands of Banū Marīnā. Ibn al-Athīr, checking one of these stories against the order of the kings,
+says some of it looks like Kinda praising itself — and says so openly.
+**The statement:**
+> وَيُشْبِهُ أَنْ يَكُونَ بَعْضُ الْكِنْدِيِّينَ قَدْ ذَكَرَ هَذَا تَعَصُّبًا، وَاللَّهُ أَعْلَمُ.
+> — الکامل فی التاریخ ج۱ ص۴۶۱ · https://shamela.ws/book/21712/457
+> *English:* "It looks as though some of the Kindīs mentioned this out of partisanship — and Allah
+> knows best."
+
+**عبرت:** What one foreign king gave, the next foreign king took back.
+**Hands-up?** no
+
+---
+
+### KTK/E-KD03 · Ḥujr and Banū Asad — "far from us in lineage"
+**Tier:** GOOD · ≈1.5 min · **When:** before Islam, not dated in our sources; `[CONVENTIONAL-ESTIMATE]`
+first half of the 6th century CE · **Map:** al-Ḥārith's sons spread out as four short arrows from
+al-Ḥīra: to **Asad and Ghaṭafān**, to **Bakr b. Wāʾil**, to **Qays ʿAylān**, to **Taghlib**. The Asad arrow
+ends at **Tihāma** with a red marker.
+**What happened:** The chiefs of the northern tribes came to al-Ḥārith and said: we are in your
+obedience, the killing between us will wipe us out — send your sons to live among us and hold us back
+from each other. He set four sons as kings over the tribes. Ḥujr went to Banū Asad and took a yearly
+levy. When they threw out his collectors he came with an army, seized their leading men and killed
+them with the staff, and drove the rest to Tihāma. He relented and called them back; but a day's
+march from him they turned, reached his tent and killed him. The man who struck him was one whose
+father Ḥujr had killed. Then Banū Asad called to the Qays and Kināna in Ḥujr's own army.
+**The statement:**
+> يَا مَعْشَرَ كِنَانَةَ وَقَيْسٍ أَنْتُمْ إِخْوَانُنَا وَبَنُو عَمِّنَا، وَالرَّجُلُ بَعِيدُ النَّسَبِ مِنَّا وَمِنْكُمْ، وَقَدْ رَأَيْتُمْ سِيرَتَهُ
+> — الکامل فی التاریخ ج۱ ص۴۶۴ · https://shamela.ws/book/21712/460
+> *English:* "Men of Kināna and Qays — you are our brothers and cousins. This man is far from us and
+> from you in lineage, and you have seen how he conducted himself."
+
+**عبرت:** A rule that was asked for to stop the killing ended by killing, and was ended the same way.
+**Hands-up?** no
+
+---
+
+### KTK/E-KD04 · Imruʾ al-Qays — the poet of the fallen house
+**Tier:** CUT · ≈1 min · **When:** before Islam, not dated in our sources; `[CONVENTIONAL-ESTIMATE]`
+6th century CE · **Map:** no movement; the Kinda markers of E-KD02–03 dim.
+**What happened:** Ḥujr, killed by Banū Asad, was the father of Imruʾ al-Qays — the poet whom Ibn
+Kathīr names as the author of the proudest and most famous of the *Muʿallaqāt*, the ode that opens
+"Halt, you two, and let us weep". The poem this story needs is a different one: Ibn al-Athīr quotes
+his lament for the forty-eight men of his house put to death by the king of al-Ḥīra — not fallen in
+battle, he says, but killed in the lands of Banū Marīnā. The most famous Arab poem before Islam was
+written by a prince of Kinda whose kingdom was already gone.
+**The statement:**
+> فَلَوْ فِي يَوْمِ مَعْرَكَةٍ أُصِيبُوا ... وَلَكِنْ فِي دِيَارِ بَنِي مَرِينَا
+> — الکامل فی التاریخ ج۱ ص۴۶۳ · https://shamela.ws/book/21712/459
+> *English:* "Had they fallen on a day of battle — but it was in the lands of Banū Marīnā."
+
+**عبرت:** The house is remembered today for its poet, not for its kings.
+**Hands-up?** *"Who here has heard the ode that begins 'Halt, you two, and let us weep'?"* — only if
+the room is literary; otherwise no.
+
+---
+
+### KTK/E-KD05 · "We are the sons of Ākil al-Murār"
+**Tier:** GOOD · ≈2.5 min · **When:** the year of delegations, `[STANDARD]` 10 AH (to verify) — no
+fetched page gives the year · **Map:** an arrow from **Ḥaḍramawt** north to **Medina**. Medina lights up.
+**What happened:** Kinda came to Medina in a large delegation — eighty riders in one report, seventy in
+another, ten-odd in a third — with al-Ashʿath b. Qays at their head. They walked into the Prophet's ﷺ
+mosque with their hair combed and kohl on their eyes, in Yemeni cloaks edged with silk. He asked:
+have you not accepted Islam? — yes — then what is this silk on your necks? They tore it off. Then
+al-Ashʿath said: we are the sons of Ākil al-Murār, and so are you. The Prophet ﷺ smiled. Traders of
+Quraysh used to claim that lineage abroad for the honour of it, the report explains, because Kinda had
+been kings. He answered: no — we are the sons of al-Naḍr b. Kināna; we do not trace ourselves through
+our mother, nor disown our father. al-Ashʿath turned to his people: any man I hear say it again gets
+eighty lashes.
+**The statement:**
+> لا، نحن بنو النَّضْر بن كنانة، لا نَقْفُو أمَّنا، ولا ننتفي من أبينا
+> — البدایہ والنہایہ ج۵ ص۵۶ · https://shamela.ws/book/30097/2240
+> *English:* "No. We are the sons of al-Naḍr b. Kināna. We do not trace ourselves through our mother,
+> and we do not disown our father."
+
+**عبرت:** They offered him a royal ancestry as a gift, and he declined it with a smile.
+**Hands-up?** *"Someone offers to make you a descendant of kings. What does it cost you to say yes?"*
+
+---
+
+### KTK/E-KD06 · "The four kings" — side by side, no arrow between
+**Tier:** GOOD · ≈1 min · **When:** 11 AH, the ridda of Ḥaḍramawt `[SOURCED]` · **Map:** Ḥaḍramawt, with a
+cluster of small strongholds (*maḥājir*) marked; one labelled for **Banū ʿAmr b. Muʿāwiya**, one for
+**Banū al-Ḥārith b. Muʿāwiya**. Hand over to the ridda map of the sister note.
+**What happened:** A year or so later Kinda broke away. When Ibn al-Athīr describes the chiefs taking to
+their strongholds, he calls four brothers of one Kinda clan, with their sister, "the four kings", and
+when al-Nujayr falls he says the kings inside it were brought down. al-Ashʿath was of a different
+branch of the tribe. The cause Ibn al-Athīr himself gives for the ridda of Kinda is an arrangement for
+carrying zakāt between Kinda and Ḥaḍramawt — not the kingship. The books show us the royal past, the
+royal claim, and the royal title in the ridda; none of them draws the line between them, and neither do
+we.
+**The statement:**
+> وَهُمُ الْمُلُوكُ الْأَرْبَعَةُ رُؤَسَاءُ عَمْرٍو
+> — الکامل فی التاریخ ج۲ ص۲۳۱ · https://shamela.ws/book/21712/922
+> *English:* "These are the four kings, the chiefs of ʿAmr."
+
+**عبرت:** The books keep the old royal title in use in the ridda; they do not say what it meant to the
+men who bore it, and neither do we.
+**Hands-up?** no
+
+---
+
+### KTK/E-KD07 · al-Ashʿath ؓ after the pardon — "and I did"
+**Tier:** GOOD · ≈1.5 min · **When:** 11–40 AH; died 40 AH `[SOURCED]` · **Map:** a single line of
+points for his later life: **al-Qādisiyya** → **al-Yarmūk** → **Ādharbayjān** → **Kūfa**. No battle markers.
+**What happened:** The man brought to Medina in fetters lived nearly thirty more years as a Muslim. Abū
+Bakr ؓ married him to his own sister. He was among the notables sent to call Rustam before
+al-Qādisiyya; he lost an eye at al-Yarmūk; ʿUthmān ؓ made him governor of Ādharbayjān; he was the
+senior commander with ʿAlī ؓ at Ṣiffīn; and he died at Kūfa in 40 AH, and al-Ḥasan ؓ prayed over him.
+At a funeral where he and Jarīr b. ʿAbdallāh ؓ were both present, he
+put Jarīr forward to lead the prayer, and said why.
+**The statement:**
+> فَقَدَّمَ الأَشْعَثُ جَرِيْراً، وَقَالَ: إِنَّ هَذَا لَمْ يَرْتَدَّ، وَإِنِّي ارْتَدَدْتُ
+> — سیر أعلام النبلاء ج۲ ص۴۰ · https://shamela.ws/book/10906/2020
+> *English:* "al-Ashʿath put Jarīr forward, and said: This man did not apostatise — and I did."
+
+**عبرت:** The pardon was complete, and so was his own memory of what he had been pardoned for.
+**Hands-up?** no
+
+---
+
+### KTK/E-KD08 · The grandson in Sijistān — from the governor to the caliph
+**Tier:** GOOD · ⚠ SPEAKER'S DISCRETION · ≈2 min · **When:** `[SOURCED, disputed]` 81 AH (Abū Mikhnaf) or 82 AH
+(al-Wāqidī) · **Map:** a far-eastern inset: **Sijistān** and Rutbīl's country beyond it. A long
+arrow west from Sijistān through **Fārs** towards **al-Baṣra** and **Kūfa**. A break-mark on the arrow at
+Fārs.
+**What happened:** Seventy years after the ridda, al-Ashʿath's grandson ʿAbd al-Raḥmān b. Muḥammad commanded
+al-Ḥajjāj's army against Rutbīl, beyond Sijistān. He took ground, and proposed to hold it through the
+winter. al-Ḥajjāj wrote back with contempt ordering him forward, then again, then a third time. He put
+the letters before the army, and the army refused al-Ḥajjāj and gave its allegiance to him instead — at
+first saying nothing of the caliph ʿAbd al-Malik. Half-way to Iraq they said: renouncing the governor
+is renouncing the caliph, and renounced both. al-Dhahabī records that scholars and righteous men rose
+with him because of al-Ḥajjāj's injustice and his letting the prayer's time die. Ibn Kathīr records
+it as a fitna whose cause was the hatred between the two men. Both are given; neither is chosen.
+**The statement:**
+> فلما توسطوا الطريق قالوا: إن خَلْعَنا للحجاج خلع لابن مروان فخلعوهما
+> — البدایہ والنہایہ ج۹ ص۱۷۹ · https://shamela.ws/book/30097/4302
+> *English:* "When they were half-way along the road they said: our renouncing al-Ḥajjāj is a
+> renouncing of Ibn Marwān — so they renounced them both."
+
+**عبرت:** A refusal of one man's order became, on the road, a refusal of the state.
+**Hands-up?** no
+
+---
+
+### KTK/E-KD09 · Dayr al-Jamājim — the offer refused, and the end
+**Tier:** GOOD · ⚠ SPEAKER'S DISCRETION · ≈2 min · **When:** Dayr al-Jamājim, Shaʿbān 82 AH `[SOURCED]`;
+Ibn al-Ashʿath's death 84 AH `[SOURCED]` (al-Dhahabī, one of several accounts) · **Map:** two camps close
+together near **Kūfa**: **Dayr Qurra** (al-Ḥajjāj, blue from Syria) and **Dayr al-Jamājim** (Ibn al-Ashʿath).
+No distance labelled. After the rout, one thin arrow back east to **Rutbīl's country**.
+**What happened:** Kūfa went over to him, and his host camped at Dayr al-Jamājim — among them, Ibn
+Kathīr says, the Qurʾān-readers of both garrison cities and many righteous men. The two armies
+entrenched and fought daily for a long time. ʿAbd al-Malik's counsellors told him that removing
+al-Ḥajjāj would be easier than shedding the Iraqis' blood, and he sent his brother and his son with
+terms: al-Ḥajjāj removed, Iraqi stipends equal to Syria's, a city for Ibn al-Ashʿath for life.
+Ibn al-Ashʿath stood and urged his men to accept. They refused: we are more in number. The war went
+back to al-Ḥajjāj. After months the host was routed; Ibn al-Ashʿath fled to King Rutbīl, and in 84 AH
+he died — the books give more than one account of how. al-Dhahabī's word for his end is that he was abandoned.
+**The statement:**
+> فقام فيهم خطيبًا وندبهم الى قبول ما عرضوا عليهم من عزل الحجاج عنهم وبيعة عبد الملك بن مروان
+> — البدایہ والنہایہ ج۹ ص۱۸۷ · https://shamela.ws/book/30097/4310
+> *English:* "He stood and addressed them, and urged them to accept what had been offered them — the
+> removal of al-Ḥajjāj and allegiance to ʿAbd al-Malik b. Marwān."
+
+**عبرت:** The terms that would have ended it were on the table, and it was the army, not its commander,
+that refused them.
+**Hands-up?** no
 
 ---
 
@@ -2453,10 +3514,13 @@ death comes with the truth — that is what you were shying away from."**
 > 'and the agony of death comes with the truth: that is what you were shying away from.'"
 **عبرت:** In his last hour he was still correcting a beautiful sentence into a true one.
 **Hands-up?** no
-> The Arabic of the line she recited, if it is wanted — سیر أعلام النبلاء، ج الراشدون ص۱۸ ·
-> https://shamela.ws/book/10906/1166, and الکامل فی التاریخ ج۲ ص۲۶۵ · https://shamela.ws/book/21712/956:
+> The Arabic of the line she recited, if it is wanted:
 >
 > > لعمرك ما يغني الثراء عن الفتى ... إذا حشرجت يوما وضاق بها الصدر
+> > — سیر أعلام النبلاء، ج الراشدون ص۱۸ · https://shamela.ws/book/10906/1166
+> > *English:* "By your life, wealth avails a man nothing on the day he rattles in the throat and
+> > his breast is straitened."
+>
 > ⚠ «راسه» in the Shamela text is a slip for «رأسه».
 
 ### ABD/E-B14 · The shroud
@@ -2489,10 +3553,13 @@ sixty-three — the age at which the Prophet ﷺ had died.
 **عبرت:** Two years and three months of authority, and it ended in a room, at night, with four men
 and a spade.
 **Hands-up?** no
-> For the diagram caption, one sentence fixes all three graves — سیر أعلام النبلاء، ج الراشدون ص۱۹ ·
-> https://shamela.ws/book/10906/1167:
+> For the diagram caption, one sentence fixes all three graves:
 >
 > > رأس أبي بكر عند كتفي رسول الله صلى الله عليه وسلم، ورأس عمر عند حقوي أبي بكر.
+> > — سیر أعلام النبلاء، ج الراشدون ص۱۹ · https://shamela.ws/book/10906/1167
+> > *English:* "أبو بكر ؓ's head is at the shoulders of the Messenger of Allah ﷺ, and عمر ؓ's head is
+> > at أبو بكر ؓ's waist."
+>
 > **Do not claim the burial was "in عائشة ؓ's house" from these pages** — they say *beside the
 > Prophet ﷺ*, and no more.
 
@@ -2659,6 +3726,9 @@ reproduced on a card that could be read aloud by mistake.
 > > جعلت لكم عهدا بعدي، واخترت لكم خيركم في نفسي فكلكم ورم لذلك أنفه رجاء أن يكون الأمر له.
 > and is quoted in full at §9.1.
 
+
+---
+
 ---
 
 ## Iraq, Shām, and يرموك
@@ -2796,9 +3866,10 @@ ordered each to take a different road. And he walked out of Medina on foot besid
 they rode, giving his instructions. Ibn Kathīr رحمہ اللہ says the four roads were not a military
 trick: the caliph was following a verse.
 **The statement:**
-> ﴿يَابَنِيَّ لَا تَدْخُلُوا مِنْ بَابٍ وَاحِدٍ وَادْخُلُوا مِنْ أَبْوَابٍ مُتَفَرِّقَةٍ﴾ [يوسف: ٦٧]
+> ﴿وَقَالَ يَابَنِيَّ لَا تَدْخُلُوا … مِنْ بَابٍ وَاحِدٍ وَادْخُلُوا مِنْ أَبْوَابٍ مُتَفَرِّقَةٍ …﴾ [يوسف: ٦٧]
 > — البدایہ والنہایہ ج۷ ص۸۳–۸۴ · https://shamela.ws/book/30097/3229 (opening words) and
-> https://shamela.ws/book/30097/3230 (the rest of the verse)
+> https://shamela.ws/book/30097/3230 (the rest of the verse); the first ellipsis marks that
+> page turn, the second the rest of the verse
 > *English:* "O my sons, do not enter by one gate; enter by separate gates." — Yūsuf 67, quoted by
 > Ibn Kathīr as the precedent Abū Bakr ؓ was following.
 **عبرت:** A plan is safer when it is not one plan.
@@ -3055,15 +4126,18 @@ al-Dardāʾ ؓ as the judge of the day, and al-Miqdād ؓ to ride round the rank
 and the verses of jihād. Abū ʿUbayda ؓ, on Khālid ؓ's advice, moved himself out of the centre and
 stood behind the whole army — so that any man who broke would see him and turn back out of shame.
 **The statement:**
-> والقاضي يومئذ أبو الدرداء، وقاصّهم الذي يعظُهم ويحثُّهم على القتال أبو سفيان بن حرب، وقارؤهم الذي
+> والقاضي يومئذ أبو الدرداء، وقاصّهم الذي … يعظُهم ويحثُّهم على القتال أبو سفيان بن حرب، وقارؤهم الذي
 > يدور على الناس فيقرأ سورة الأنفال وآياتِ الجهاد المِقْداد بن الأسود
 > — البدایہ والنہایہ ج۷ ص۸۹–۹۰ · the list begins at https://shamela.ws/book/30097/3235 (ص۸۹) and
-> runs on to https://shamela.ws/book/30097/3236 (ص۹۰)
+> runs on to https://shamela.ws/book/30097/3236 (ص۹۰); the ellipsis marks the page
+> turn — nothing is omitted
 > *English:* "And the judge that day was Abū al-Dardāʾ; the one who preached to them and urged them
 > to fight was Abū Sufyān b. Ḥarb; and their reciter, who went round the men reading Sūrat al-Anfāl
 > and the verses of jihād, was al-Miqdād b. al-Aswad."
 **عبرت:** They appointed a judge before the battle, not after it.
 **Hands-up?** Ask: what posts would you fill before a battle? Take answers. Then read the list.
+
+---
 
 ---
 
@@ -3238,12 +4312,18 @@ gave the reason. After he left, رستم turned to his own nobles and asked whet
 speech more dignified. They told him not to be taken in by a dog in rags. His answer was the last
 word in the room.
 **The statement:**
-> فقال: أسيدهم أنت؟ قال: لا، ولكن المسلمون كالجسد الواحد يجير أدناهم على أعلاهم … فقال: ويلكم لا تنظروا إلى الثياب، وانظروا إلى الرأي والكلام والسيرة. إن العربَ يستخفّون بالثياب والمأكل، ويصونون الأحساب
-> — البدایہ والنہایہ ج۷ ص۱۳۴–۱۳۵ · https://shamela.ws/book/30097/3280 **و** https://shamela.ws/book/30097/3281
-> (the second half straddles the break: «وانظروا إلى الرأي … ويصونون الأحساب» is on ص۱۳۵)
+> فقال: أسيدهم أنت؟ قال: لا، ولكن المسلمون كالجسد الواحد يجير أدناهم على أعلاهم … فقالوا: معاذَ الله أن تميل إلى شيء من هذا، وتدعَ دينك إلى هذا الكلب، أما ترى إلى ثيابه، فقال: ويلكم لا تنظروا إلى الثياب،
+> — البدایہ والنہایہ ج۷ ص۱۳۴ · https://shamela.ws/book/30097/3280
 > *English:* "He said: are you their chief? He said: no — but the Muslims are like one body: the
-> lowest of them gives protection binding on the highest of them … [Rustam said:] woe to you, do not
-> look at the clothes. Look at the judgement and the speech and the conduct. The Arabs make light of
+> lowest of them gives protection binding on the highest of them … [his nobles said:] God forbid
+> that you should incline to any of this and leave your religion for this dog — do you not see his
+> clothes? He said: woe to you, do not look at the clothes."
+
+**The sentence finishes as the first line of ج۷ ص۱۳۵:**
+
+> وانظروا إلى الرأي والكلام والسيرة. إن العربَ يستخفّون بالثياب والمأكل، ويصونون الأحساب
+> — البدایہ والنہایہ ج۷ ص۱۳۵ · https://shamela.ws/book/30097/3281
+> *English:* "Look at the judgement and the speech and the conduct. The Arabs make light of
 > clothing and food, and they guard their honour."
 **عبرت:** A community is judged by what its least important member may promise in its name.
 **Hands-up?** no
@@ -3615,6 +4695,8 @@ had been offered a trust.
 
 ---
 
+---
+
 ## بيت المقدس and the العهدة العمرية
 
 *Source note: [`bayt-al-maqdis-and-the-umari-covenant.md`](../docs/research/bayt-al-maqdis-and-the-umari-covenant.md) — read it for the pages behind these cards.*
@@ -3968,6 +5050,9 @@ trust with the ones it does tell.
 "it is widely repeated, but it is not in the books this course is built on, so I am not going to
 tell it to you as history.")*
 
+
+---
+
 ---
 
 ## عمر ؓ builds a state — and the two trials
@@ -4038,7 +5123,7 @@ tell it to you as history.")*
 **Tier:** GOOD · **When:** at the founding of the ديوان `[SOURCED]` · **Map:** no change.
 **What happened:** When the register was ready, علي ؓ and عبد الرحمن بن عوف ؓ told him the sensible thing: begin with yourself. He refused. He said he would begin with the Prophet's ﷺ uncle, and then work outward from the Prophet ﷺ, nearest first. So the first name written into the register of the Muslim state was العباس ؓ. عمر ؓ's own name is somewhere further down. Within each band, the register made no distinction at all — strong and weak, Arab and non-Arab, the same figure.
 **The statement:**
-> قَالَ لَهُ عَلِيٌّ وَعَبْدُ الرَّحْمَنِ بْنُ عَوْفٍ: ابْدَأْ بِنَفْسِكَ. قَالَ: لَا بَلْ أَبْدَأُ بِعَمِّ رَسُولِ اللَّهِ ﷺ، ثُمَّ الْأَقْرَبِ فَالْأَقْرَبِ
+> قَالَ لَهُ عَلِيٌّ وَعَبْدُ الرَّحْمَنِ بْنُ عَوْفٍ: ابْدَأْ بِنَفْسِكَ. قَالَ: لَا بَلْ أَبْدَأُ بِعَمِّ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ -، ثُمَّ الْأَقْرَبِ فَالْأَقْرَبِ
 > — الکامل فی التاریخ ج۲ ص۳۳۱ · https://shamela.ws/book/21712/1022
 > *English:* "ʿAlī and ʿAbd al-Raḥmān ibn ʿAwf said to him: begin with yourself. He said: no — rather I begin with the uncle of the Messenger of God ﷺ, then the nearest and the next nearest."
 **عبرت:** Where a man puts his own name on a list he himself is writing is a fact about him that no speech can contradict.
@@ -4297,6 +5382,8 @@ tell it to you as history.")*
 > *English:* "He was the first to be called Commander of the Believers, and the first to write the dating era … he founded the garrison cities, and raised the armies. He laid down the land tax, compiled the registers, fixed the stipends, appointed the judges, and organised the provinces."
 **عبرت:** Almost nothing on that list is a battle, and the things on it are the things that were still standing a hundred years later.
 **Hands-up?** "How many of the things on this list do you still use?"
+
+---
 
 ---
 
@@ -4779,7 +5866,7 @@ tell it to you as history.")*
 **Tier:** CORE · **When:** أحد, ۳ھ `[STANDARD]` (as E-HS4 — the year is not fixed on the pages read) · **Map:** the field at أحد
 **What happened:** When the fighting stopped they went out to identify the dead. They found Anas b. al-Naḍr, and there were more than eighty wounds on his body — sword, spear and arrow. His own family could not tell who he was. His sister came, and she recognised her brother by his fingertips. His nephew, who was still a boy, later said that the verse of Sūrat al-Aḥzāb was held to have come down about him and men like him.
 **The statement:**
-> ﴿مِنَ الْمُؤْمِنِينَ رِجَالٌ صَدَقُوا مَا عَاهَدُوا اللَّهَ عَلَيْهِ﴾ [الأحزاب: ٢٣]
+> ﴿مِنَ الْمُؤْمِنِينَ رِجَالٌ صَدَقُوا مَا عَاهَدُوا اللَّهَ عَلَيْهِ﴾
 > — verse as quoted at البدایہ والنہایہ ج۴ ص۲۰۳ · https://shamela.ws/book/30097/1692; the reference
 > **«[الأحزاب: ٢٣]» is printed at سیر، جلد السیرہ ۱ ص۴۰۷** (https://shamela.ws/book/10906/544), not on
 > the البدایہ page — cite both, or check a muṣḥaf before printing it
@@ -4868,9 +5955,11 @@ tell it to you as history.")*
 **Tier:** CORE · **When:** after بئر معونة, ۴ھ onwards · **Map:** Medina — the house of أم سليم ؓ
 **What happened:** People noticed that the Prophet ﷺ went into no house in Medina except Umm Sulaym's. They asked him about it. He gave one reason, and it was not a compliment to the house. It was that her brother had been killed alongside him.
 **The statement:**
-> <div dir="rtl">(إِنِّي أَرْحَمُهَا، قُتِلَ أَخُوْهَا مَعِي).</div>
-> — سیر أعلام النبلاء ج۲ ص۳۰۶–۳۰۷ · https://shamela.ws/book/10906/2286
-> *English:* "I have compassion for her — her brother was killed with me."
+> <div dir="rtl">إِنِّي أَرْحَمُهَا، قُتِلَ</div>
+> — سیر أعلام النبلاء ج۲ ص۳۰۶ · https://shamela.ws/book/10906/2286
+> <div dir="rtl">أَخُوْهَا مَعِي</div>
+> — سیر أعلام النبلاء ج۲ ص۳۰۷ · https://shamela.ws/book/10906/2287
+> *English:* (the clause runs over the page break) "I have compassion for her — her brother was killed with me."
 **عبرت:** The debt a leader owes is to the family, and it is paid by turning up.
 **Hands-up?** yes — *"Why do you think he went to that house and no other?"* (Then give the answer from the page.)
 
@@ -4880,9 +5969,11 @@ tell it to you as history.")*
 **Tier:** GOOD · **When:** the ḥadīth: at Medina, in the Prophet's ﷺ lifetime. The expedition: ۲۸ھ `[SOURCED]` — البدایہ ج۷ ص۲۹۰ records ۲۷، ۲۸ and ۳۳ · **Map:** Medina → Cyprus. **This is the first point on the map that is across water.**
 **What happened:** The Prophet ﷺ rested in her house one afternoon and woke up laughing. She asked what had made him laugh. He said people of his umma had been shown to him riding the sea like kings on thrones. She asked him to pray that she be one of them, and he told her she was among the first. Years later, under ʿUthmān, Muʿāwiya took a fleet to Cyprus, and her husband ʿUbāda b. al-Ṣāmit carried her with him. When they came ashore on the way back, a mule threw her, and she died there.
 **The statement:**
-> <div dir="rtl">(عُرِضَ عَلَيَّ نَاسٌ مِنْ أُمَّتِي يَرْكَبُوْنَ ظَهْرَ هَذَا البَحْرِ كَالمُلُوْكِ عَلَى الأَسِرَّةِ)… قَالَ: (أَنْتِ مِنَ الأَوَّلِيْنَ).</div>
-> — سیر أعلام النبلاء ج۲ ص۳۱۶–۳۱۷ · https://shamela.ws/book/10906/2296
-> *English:* "'People of my umma were shown to me riding the back of this sea like kings upon thrones'… He said: 'You are among the first.'"
+> <div dir="rtl">عُرِضَ عَلَيَّ نَاسٌ مِنْ أُمَّتِي يَرْكَبُوْنَ ظَهْرَ هَذَا البَحْرِ كَالمُلُوْكِ</div>
+> — سیر أعلام النبلاء ج۲ ص۳۱۶ · https://shamela.ws/book/10906/2296
+> <div dir="rtl">عَلَى الأَسِرَّةِ) . قُلْتُ: يَا رَسُوْلَ اللهِ! ادْعُ اللهَ أَنْ يَجْعَلَنِي مِنْهُم. قَالَ: (أَنْتِ مِنَ الأَوَّلِيْنَ</div>
+> — سیر أعلام النبلاء ج۲ ص۳۱۷ · https://shamela.ws/book/10906/2297
+> *English:* (the ḥadīth runs over the page break) "'People of my umma were shown to me riding the back of this sea like kings upon thrones.' I said: Messenger of Allah, pray to Allah to make me one of them. He said: 'You are among the first.'"
 **عبرت:** She was told where she would be a caliphate before the ships were built.
 **Hands-up?** yes — *"How long between a promise and its keeping is too long?"*
 *(Delivery caution: stop the البدایہ quotation at «فماتت هناك». The clause about her grave that follows is Ibn Kathīr reporting local practice and will be heard as doctrine in this room.)*
@@ -5051,8 +6142,8 @@ forbearance in the man and had hoped it would bring him to Islam — and it had 
 prayed for him, and spoke kindly to him.
 
 **The statement:**
-> لما سحب عتبة بن ربيعة إلى القليب نظر رسول الله ﷺ في وجه أبي حذيفة ابنه، فإذا هو كئيب متغير. فقال: "لعلك قد دخلك من شأن أبيك شيء"؟. قال: لا والله ما شككت في أبي ولا في مصرعه، ولكني كنت أعرف منه رأيا وحلما، فكنت أرجو أن يسلم، فلما رأيت ما أصابه وما مات عليه أحزنني ذلك. فدعا له النبي ﷺ وقال له خيرا
-> — سیر أعلام النبلاء (السیرة النبویة) ص۳۱۲ · https://shamela.ws/book/10906/449
+> لما سحب عتبة بن ربيعة إلى القليب نظر رسول الله صلى الله عليه وسلم في وجه أبي حذيفة ابنه، فإذا هو كئيب متغير. فقال: "لعلك قد دخلك من شأن أبيك شيء"؟. قال: لا والله ما شككت في أبي ولا في مصرعه، ولكني كنت أعرف منه رأيا وحلما، فكنت أرجو أن يسلم، فلما رأيت ما أصابه وما مات عليه أحزنني ذلك. فدعا له النبي صلى الله عليه وسلم وقال له خيرا
+> — سیر أعلام النبلاء (السیرة النبویة) ص۳۱۲ · https://shamela.ws/book/10906/449 (the page spells the honorific out in full, and is quoted as it stands)
 > *English:* "When ʿUtba b. Rabīʿa was dragged to the well, the Messenger of Allah ﷺ looked into the
 > face of his son Abū Ḥudhayfa, and there he was, downcast and changed. He said: 'Perhaps something
 > has entered you about the matter of your father?' He said: No, by Allah, I have not doubted my
@@ -5122,8 +6213,8 @@ beside Qubāʾ, and they had to pray. Someone had to lead. They put forward a fr
 had more of the Qurʾān than any of them. Among the men praying behind him was ʿUmar b. al-Khaṭṭāb ؓ.
 
 **The statement:**
-> أَنَّ المُهَاجِرِيْنَ نَزَلُوا بِالعُصْبَةِ إِلَى جَنْبِ قُبَاءَ، فَأَمَّهُم سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ، لأَنَّهُ كَانَ [ص١٦٩] أَكْثَرَهُم قُرْآناً، فِيْهِم عُمَرُ، وَأَبُو سَلَمَةَ بنُ عَبْدِ الأَسَدِ
-> — سیر أعلام النبلاء ج۱ ص۱۶۸–۱۶۹ · https://shamela.ws/book/10906/1594 و https://shamela.ws/book/10906/1595
+> أَنَّ المُهَاجِرِيْنَ نَزَلُوا بِالعُصْبَةِ إِلَى جَنْبِ قُبَاءَ، فَأَمَّهُم سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ، لأَنَّهُ كَانَ … أَكْثَرَهُم قُرْآناً، فِيْهِم عُمَرُ، وَأَبُو سَلَمَةَ بنُ عَبْدِ الأَسَدِ
+> — سیر أعلام النبلاء ج۱ ص۱۶۸–۱۶۹ · https://shamela.ws/book/10906/1594 و https://shamela.ws/book/10906/1595 (the ellipsis marks the page turn — nothing is omitted)
 > *English:* "The Muhājirūn camped at al-ʿUṣba beside Qubāʾ, and Sālim, the freedman of Abū
 > Ḥudhayfa, led them in prayer, because he had the most Qurʾān of them — among them ʿUmar and Abū
 > Salama b. ʿAbd al-Asad."
@@ -5866,7 +6957,7 @@ reciters" has misread البدایہ ج۷ ص۵۵.**
 **What happened:** Waḥshī ؓ was asked about the men he had fought at al-Yamāma. He had spent his life among fighting men on both sides. His verdict on Musaylima's army was one sentence, and it was not the sentence anyone would expect from the winning side.
 **The statement:**
 > <div dir="rtl">لَمْ أَرَ قَطُّ أَصْبَرَ عَلَى الْمَوْتِ مِنْ أَصْحَابِ مُسَيْلِمَةَ</div>
-> — سیر أعلام النبلاء، ج الخلفاء الراشدون ص۴۸ · https://shamela.ws/book/10906/1196
+> — سیر أعلام النبلاء، جراشدون ص۴۸ · https://shamela.ws/book/10906/1196
 > *English:* "I have never seen anyone more steadfast in the face of death than Musaylima's men."
 **عبرت:** The books preserved the enemy's courage in the words of the man who fought them.
 **Hands-up?** no
@@ -5885,7 +6976,7 @@ reciters" has misread البدایہ ج۷ ص۵۵.**
 **Tier:** CORE · **When:** رمضان ۸ھ `[STANDARD]` (to verify) · **Map:** Mecca → Yemen / Tihāma → Medina. This is a real journey; draw the arrow.
 **What happened:** Umm Ḥakīm bint al-Ḥārith b. Hishām accepted Islam on the day of the Conquest. Her husband had fled. She went to the Prophet ﷺ herself and asked leave to go after him, and asked safe-conduct for him. He gave her both. She travelled with a servant who tried to force himself on her; she put him off until she reached some people who bound him for her. She caught her husband somewhere in Tihāma, with him already aboard the ship. She brought him back.
 **The statement:**
-> <div dir="rtl">فَاسْتَأْذَنَتْ رَسُولَ اللَّهِ ﷺ فِي طَلَبِ زَوْجِهَا، فَأَذِنَ لَهَا وَآمَنَهُ</div>
+> <div dir="rtl">فاستأذنت رسول الله صلى الله عليه وسلم في طلب زوجها، فأذن لها وآمنه</div>
 > — سیر أعلام النبلاء، ج السیرۃ ۲ ص۱۶۴ · https://shamela.ws/book/10906/823
 > *English:* "She asked the Messenger of Allah ﷺ leave to go after her husband, and he gave her leave and granted him safe-conduct."
 **عبرت:** The safe-conduct that brought ʿIkrima ؓ back was asked for by his wife, in person.
@@ -5948,7 +7039,7 @@ reciters" has misread البدایہ ج۷ ص۵۵.**
 **What happened:** At Buzākha, Ṭulayḥa's men were breaking. He asked one of them, plainly, what was defeating them. The answer he received explains the whole year better than any figure does.
 **The statement:**
 > <div dir="rtl">مَا يَهْزِمُكُمْ؟ فَقَالَ رَجُلٌ: أَنَا أُحَدِّثُكَ، لَيْسَ مِنَّا رَجُلٌ إِلَّا وَهُوَ يُحِبُّ أَنْ يَمُوتَ صَاحِبُهُ قَبْلَهُ، وَإِنَّا نَلْقَى قَوْمًا كُلُّهُمْ يُحِبُّ أَنْ يَمُوتَ قَبْلَ صَاحِبِهِ</div>
-> — سیر أعلام النبلاء، ج الخلفاء الراشدون ص۴۱ · https://shamela.ws/book/10906/1189
+> — سیر أعلام النبلاء، جراشدون ص۴۱ · https://shamela.ws/book/10906/1189
 > *English:* "'What is defeating you?' A man said: I will tell you. There is not one of us but he would rather his companion died before him — and we are meeting a people every one of whom would rather die before his companion."
 **عبرت:** The difference was not in the numbers, and the losing side could see it.
 **Hands-up?** Yes — "Why did the ridda armies lose?" Take two or three answers, then read this.
@@ -5999,7 +7090,7 @@ reciters" has misread البدایہ ج۷ ص۵۵.**
 **What happened:** Abū Sufyān b. Ḥarb ؓ had commanded the Quraysh army at Uḥud and at the Trench. He had lost one eye at Ṭāʾif and lost the second at the Yarmūk. Saʿīd b. al-Musayyib's father was there. He says the noise of the battle dropped away, and there was one voice left carrying over the field. He looked up to see whose it was.
 **The statement:**
 > <div dir="rtl">إِلَّا صَوْتَ رَجُلٍ يَقُولُ: "يَا نَصْرَ اللَّهِ اقْتَرِبْ، يَا نَصْرَ اللَّهِ اقْتَرِبْ"، فَرَفَعْتُ رَأْسِي فَإِذَا هُوَ أَبُو سُفْيَانَ بْنُ حَرْبٍ تَحْتَ رَايَةِ ابْنِهِ يَزِيدَ بْنِ أَبِي سُفْيَانَ</div>
-> — سیر أعلام النبلاء، ج الخلفاء الراشدون ص۱۰۸ · https://shamela.ws/book/10906/1253
+> — سیر أعلام النبلاء، جراشدون ص۱۰۸ · https://shamela.ws/book/10906/1253
 > *English:* "…all but the voice of one man saying: 'Help of Allah, draw near! Help of Allah, draw near!' I raised my head, and it was Abū Sufyān b. Ḥarb, under the banner of his son Yazīd b. Abī Sufyān."
 **عبرت:** He could no longer see the battle he was calling men into.
 **Hands-up?** Yes — "Who commanded Quraysh at Uḥud?" Then this.
@@ -6334,7 +7425,7 @@ And then a sentence that ends the list.
 **The statement:**
 > لا يحل لعمر من مال الله إلا حلتين: حلة للشتاء وحلة للصيف، وما حج به واعتمر، وقوت أهلي كرجل من قريش ليس
 > بأغناهم، ثم أنا رجل من المسلمين
-> — سیر (سير الخلفاء الراشدين) ص۸۰ · https://shamela.ws/book/10906/1225 · also البدایہ ج۷ ص۲۶۴
+> — سیر (سير الخلفاء الراشدين) جراشدون ص۸۰ · https://shamela.ws/book/10906/1225 · also البدایہ ج۷ ص۲۶۴
 > *English:* "Nothing of God's wealth is lawful to ʿUmar except two sets of clothes — one for winter and one for summer — and what he performs Ḥajj and ʿUmra with, and my family's food at the level of a man of Quraysh who is not the richest of them. After that I am one of the Muslims."
 **عبرت:** A limit a ruler writes for himself and states in public is worth more than one imposed on him from outside.
 **Hands-up?** no.
@@ -6559,7 +7650,7 @@ to be released from the order. When عمر ؓ read the reply he wept, and the pe
 if أبو عبيدة ؓ had died. Then عمر ؓ wrote a second letter — move the men to higher ground — and
 أبو عبيدة ؓ obeyed that one at once, and was struck as he put his foot in the stirrup.
 **The statement:**
-> فَحَلِّلْنِي مِنْ عَزِيْمَتك، فَإِنِّي فِي جُنْد ‖ مِنْ أَجْنَادِ المُسْلِمِيْنَ، لاَ أَرْغَبُ بِنَفْسِي
+> فَحَلِّلْنِي مِنْ عَزِيْمَتك، فَإِنِّي فِي جُنْد … مِنْ أَجْنَادِ المُسْلِمِيْنَ، لاَ أَرْغَبُ بِنَفْسِي
 > عَنْهُم. فَلَمَّا قَرَأَ عُمَرُ الكِتَابَ، بَكَى، فَقِيْلَ لَهُ: مَاتَ أَبُو عُبَيْدَةَ؟ قَالَ: لاَ،
 > وَكَأَنْ قَد
 > — سیر أعلام النبلاء ج۱ ص۱۸–۱۹ · https://shamela.ws/book/10906/1444 و 1445
@@ -6734,7 +7825,7 @@ saying but the sentence breaks across the page and **البدایہ's copy has o
 in that wording** — «أمَّا أبو بكر فلم يُرد الدنيا ولم تُرده، وأما عمر فأرادته فلم يردها». Quote سیر.
 **The statement:**
 > أما أبو بكر فلم يرد الدنيا ولم ترده، وأما عمر فأرادته الدنيا ولم يردها، وأما نحن فتمرغنا فيها ظهرا لبطن
-> — سیر (سير الخلفاء الراشدين) ص۸۱ · https://shamela.ws/book/10906/1226 · also البدایہ ج۷ ص۲۶۴–۲۶۵
+> — سیر (سير الخلفاء الراشدين) جراشدون ص۸۱ · https://shamela.ws/book/10906/1226 · also البدایہ ج۷ ص۲۶۴–۲۶۵
 > *English:* "As for Abū Bakr — he did not want the world and it did not want him. As for ʿUmar — the world wanted him and he did not want it. As for us — we rolled about in it, back and front."
 **عبرت:** The clearest description of the change came from a man describing himself in it.
 **Hands-up?** no.
@@ -6780,6 +7871,8 @@ that a future pass does not spend a second on them:
 **The statement:** none in the sources we use.
 **عبرت:** —
 **Hands-up?** no.
+
+---
 
 ---
 
@@ -7413,3 +8506,5 @@ ridda. Putting the two together is our work, and the audience is told so.
 **عبرت:** Saying plainly where a book stops is part of using it honestly.
 **Hands-up?** No — but this sentence, or one like it, belongs on any slide in this series that carries
 his name.
+
+---

@@ -526,3 +526,30 @@ an unlocatable quotation is deleted rather than repaired.** Never write Arabic t
 **Not yet done:** the 115 defects in the 11-23 AH notes. They are inherited by
 `L02_baarah_saal/CONTENT.md` and therefore by `L02_ALL.pptx`, so they must be cleared before session
 2 is delivered — see `docs/STATUS.md`.
+
+## 33 · Pools are by era; evenings are numbered deliveries that draw from them — 2026-09-13
+
+Evening 2 as delivered (`L02_ALL_DY.pptx`) covered only the ⁨ردة⁩ up to ⁨بزاخة⁩ — a fraction of the
+11–23 AH pool — and ran **37 minutes**, short of the 45-minute slot. The folder names `L02_baarah_saal`
+and `L03_pehla_imtihan` promised one era per evening; delivery does not work that way, and the arc
+table in `CLAUDE.md` §3 had silently stopped describing what the room will hear.
+
+**Settled:**
+
+1. **The pools stay where they are and are renamed only in meaning.** `L02_baarah_saal/CONTENT.md` is
+   the **11–23 AH pool**; `L03_pehla_imtihan/CONTENT.md` is the **23–41 AH pool**. No card id, note,
+   citation or tool moves — moving 2,000+ cards would buy tidiness at the risk of every cross-reference.
+2. **An evening is a numbered delivery folder, `SNN_<slug>/`**, which holds a `RUNSHEET.md` (ordered
+   card ids, minutes, tiers — Daniyal cuts here) and, after the cut, the six artifacts of spec v4 §1.
+3. **`docs/catalogue/DELIVERED.md` is the ledger** of which card ids were spoken on which evening. The
+   next evening opens from its last row. Unspoken cards stay available to any later evening.
+4. **Depth, not breadth.** Evening 2 spent one card per event. From evening 3 each episode is told
+   through several cards (backstory, the scene, the dialogue, the aftermath), mined from pages already
+   cached — the sources carry far more narrative than the pools had drawn out.
+5. New research for the ⁨ردة⁩ is appended to the 11–23 AH pool (its note slugs are added to
+   `ORDER_L02` in `tools/build_content.py`), even where a card reaches before 11 AH (backstory) or
+   after 23 AH (a forward pointer, e.g. ابن الأشعث).
+
+**Evening 3 = Yemen, start to end** — al-Aswad al-ʿAnsī in depth, the second Yemen ⁨ردة⁩, and
+Ḥaḍramawt/Kinda to al-Ashʿath at al-Nujayr, with a short Kinda backstory. Told by front rather than
+in strict date order (Kinda runs into 12 AH); the Line shows the flashback explicitly.

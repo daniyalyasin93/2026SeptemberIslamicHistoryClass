@@ -110,6 +110,33 @@ Never caption the ⁨الکامل⁩ wording to ⁨ابن کثیر⁩. See the r
 
 ---
 
+### Evening 3 — Yemen, start to end (2026-09-13)
+
+Three notes: `al-aswad-al-ansi-and-yemen-before-the-ridda` (A) · `the-second-yemen-ridda-and-kinda-11-12ah` (B) ·
+`kinda-the-kingdom-before-islam-and-the-house-of-al-ashath` (C). 17 pages newly fetched; the rest were cached.
+
+| Book | Printed page | Chapter | What it supports | |
+|---|---|---|---|---|
+| البدایہ 30097 | ج۲ ص۴۱۱ | فصل (سبأ) | A: Sayf b. Dhī Yazan recovers Yemen before the Prophet's ﷺ birth | cached |
+| البدایہ 30097 | ج۵ ص۲۲ | قصة ثمامة ووفد بني حنيفة | A: «العنسي الذي قتله فيروز باليمن», editor-restored from al-Bukhārī | cached |
+| البدایہ 30097 | ج۷ ص۱۱–۱۷ | مقتل الأسود العنسي · خروجه | A: Abnāʾ, Bādhām, governors, rising, letters, widow, the night, adhān, Muʿādh | cached |
+| البدایہ 30097 | ج۷ ص۱۹, ص۲۳ | تصدي الصديق / ذي القصة | B: Kinda under al-Ashʿath (Ibn Isḥāq); al-Muhājir's ؓ commission | cached |
+| البدایہ 30097 | ج۷ ص۴۱–۴۳ | ردة أهل عمان ومهرة واليمن | A/B: Qays's motive; the Abnāʾ footnote; the span of the wars | cached |
+| البدایہ 30097 | ج۷ ص۵۹ | من توفي في هذه السنة | A: a month to Ṣanʿāʾ, 3–4 months, «بليال، وقيل بليلة» | cached |
+| البدایہ 30097 | ج۷ ص۶۱ | سنة ۱۲ (footnote) | C: editor quoting al-Qāmūs — the four kings came with al-Ashʿath | cached |
+| البدایہ 30097 | ج۷ ص۱۳۳, ص۱۳۹, ص۲۲۹, ص۲۴۳–۲۴۴ | القادسية / نهاوند / سنة ۲۱ | B/C: al-Ashʿath and ʿAmr to Rustam; the three men (Jābir, via Sayf) | cached |
+| البدایہ 30097 | ج۲ ص۵۰۷ | امرؤ القيس | C: the Muʿallaqa (the ḥadīth here is very weak — not usable) | fetched |
+| البدایہ 30097 | ج۵ ص۵۶, ص۸۹ | وفد كندة | C: «بنو آكل المرار»; «كانوا ملوكا»; the reply; ten-odd riders | fetched |
+| البدایہ 30097 | ج۹ ص۱۷۸–۱۷۹, ص۱۸۶–۱۸۷ | فتنة ابن الأشعث · دير الجماجم | C: disputed date; the break; Shaʿbān 82; ʿAbd al-Malik's offer refused | fetched |
+| الکامل 21712 | ج۱ ص۴۶۱–۴۶۴ | مقتل حجر أبي امرئ القيس | C: Ḥujr Ākil al-Murār; al-Ḥārith and al-Ḥīra; Ḥujr killed by Banū Asad | fetched |
+| الکامل 21712 | ج۲ ص۱۹۶–۲۰۱ | أخبار الأسود العنسي باليمن | A: the whole chapter; Jishnas's first-person account | cached |
+| الکامل 21712 | ج۲ ص۲۲۶–۲۳۳ | ردة اليمن (ثانية) · ردة حضرموت وكندة | B/C: Ṣanʿāʾ deportation; ʿAmr and Qays at Medina; Tabūk and Umm Salama ؓ; «وابنه» (Shuraḥbīl's son); the four kings; al-Nujayr | cached |
+| سیر 10906 | الراشدون ص۱۷–۱۸, ص۲۸–۳۲, ص۵۵, ص۶۱–۶۲ | أبو بكر الصديق · قصة الأسود | A/B: Sayf's version; al-Wāqidī's other account; the regret report; al-Nujayr under 12 AH | cached |
+| سیر 10906 | ج۲ ص۳۷–۴۳ | الأشعث بن قيس | B/C: صحبة; pardon and marriage; "seventy"; «إني ارتددت»; d. 40 AH | cached |
+| سیر 10906 | ج۳ ص۵۲۰–۵۲۱ | قيس بن مكشوح | B: his notice — no ridda mentioned; eye lost at al-Yarmūk | fetched |
+| سیر 10906 | ج۴ ص۱۸۳–۱۸۴ | ابن الأشعث | C: full name; the scholars with him; Rutbīl; d. 84 AH | fetched |
+| ابن خلدون 12320 | ج۲ ص۳۲۷; ج۲ ص۴۸۱–۴۸۴, ص۴۹۱–۴۹۴; ج۳ ص۶۱ | ملوك كندة · خبر العنسي · ردة اليمن · ابن الأشعث | framing only: Ḥujr over Maʿadd; «كاهنا مشعوذا»; al-Muhājir's illness; «جيش الطواويس» (not usable alone) | cached / fetched |
+
 ## Verified findings worth reusing
 
 **The ⁨القاب⁩ are confirmed, not assumed.** ⁨الذہبی⁩ records both:

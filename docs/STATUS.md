@@ -1,6 +1,15 @@
 # STATUS — read this first, every session
 
-> **2026-09-13 · RESUME POINT.** **Session 3 («⁨پہلا امتحان⁩», ۲۳–⁨۴۱ھ⁩) is researched in full** — 23
+> **2026-09-13 (later) · RESUME POINT — read this before the paragraph below.** **Evening 2 was
+> delivered** from `L02_baarah_saal/L02_ALL_DY.pptx` and stopped after **⁨بزاخة⁩** (37 min, ran short).
+> The folders are now **era pools**, and evenings are numbered deliveries (`DECISIONS.md` #33). Where the
+> story has reached lives in `docs/catalogue/DELIVERED.md`. **Evening 3 = Yemen, start to end:**
+> `S03_yemen/RUNSHEET.md` has 47 cards in order (≈93 min, ≈62 CORE) with three stopping points, and
+> **awaits Daniyal's cut**. Three new notes (al-Aswad · second Yemen ⁨ردة⁩ + Kinda · Kinda backstory,
+> 43 cards) are in the 11–23 pool; citations 4,581/0 problems. **Next:** after the cut, build
+> SLIDES → deck → cue → briefing → worksheet into `S03_yemen/`.
+>
+> *(Earlier the same day:)* **Session 3 («⁨پہلا امتحان⁩», ۲۳–⁨۴۱ھ⁩) is researched in full** — 23
 > page-cited notes, **1,459 event cards** in `L03_pehla_imtihan/CONTENT.md`. Read
 > `docs/research/READING_ORDER.md` before the notes; it declares the order to read them in, which is
 > deliberately not the order the evening tells them. Session 1 was delivered; session 2 is built.
@@ -46,7 +55,7 @@ it from the corrected `CONTENT.md` before session 2 is delivered.
 
 | | |
 |---|---|
-| **Sessions delivered** | **none.** Session 1 was scheduled 2 Sep 2026 and was **postponed** |
+| **Sessions delivered** | **1 and 2** — see `docs/catalogue/DELIVERED.md` (evening 2 stopped after ⁨بزاخة⁩) |
 | **Next session date** | ⬜ **NOT SET** — needed for the print deadline and the build plan |
 | **Session 1 status** | being **rebuilt** to the v3 shape (see `docs/specs/2026-09-03-L01-v3-spec.md`) |
 | **Session 2 status** | built to the v2 shape, opens on the ⁨ردة⁩ — **still correct**, unaffected by the v3 rebuild |

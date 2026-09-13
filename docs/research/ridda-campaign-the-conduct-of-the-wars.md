@@ -1513,7 +1513,7 @@ brothers **⁨جَمَد، مِخْوَص، مِشْرَح، أَبْضَعة⁩
 ⁨رُؤَسَاءُ عَمْرٍو الَّذِينَ لَعَنَهُمْ رَسُولُ اللَّهِ ﷺ⁩»** (⁨الکامل ج۲ ص۲۳۱⁩). **⁨الأشعث بن قيس⁩** and **⁨السِّمْط⁩
 ⁨بن الأسود⁩** each took a ⁨محجر⁩.
 
-**The men of ⁨كندة⁩ who refused to go with their own tribe** — **⁨شُرَحبيل بن السِّمْط⁩ and his father**:
+**The men of ⁨كندة⁩ who refused to go with their own tribe** — **⁨شُرَحبيل بن السِّمْط⁩ and his son** (⁨الکامل ج۲ ص۲۳۱⁩: «⁨إلا شرحبيل بن السمط وابنه⁩»; corrected 2026-09-13 — this line earlier said "his father"):
 
 > إِنَّهُ لَقَبِيحٌ بِالْأَحْرَارِ التَّنَقُّلُ … **فَكَيْفَ الِانْتِقَالُ مِنَ الْأَمْرِ الْحَسَنِ الْجَمِيلِ وَالْحَقِّ إِلَى الْبَاطِلِ وَالْقَبِيحِ!**
 > — ⁨الکامل ج۲ ص۲۳۱⁩ · https://shamela.ws/book/21712/922
@@ -2693,7 +2693,7 @@ death nobody would carry it (⁨الکامل ج۲ ص۲۳۰⁩).
 ### E-RC34 · ⁨النُّجَير⁩ — the name he forgot to write
 **Tier:** CORE · **When:** **the last siege of the war** `[SOURCED as sequence]` — ⁨الکامل⁩ prints it
 immediately **before** «⁨ثم دخلت سنة اثنتي عشرة⁩» (⁨ج۲ ص۲۳۳⁩), i.e. still inside ⁨۱۱ھ⁩ by its own
-arrangement; **no page fixes the month, and no page puts it in ⁨۱۲ھ⁩** (§12.2, §X item 2) · **Map:** Ziyād ؓ and
+arrangement; **no page fixes the month** (§12.2, §X item 2); **but ⁨سیر⁩ files it under ⁨۱۲ھ⁩** (ج الراشدون ص۵۵, ص۶۱–۶۲ — see `the-second-yemen-ridda-and-kinda-11-12ah.md`), so **the books differ on the year** — say "11 or 12 AH" · **Map:** Ziyād ؓ and
 al-Muhājir ؓ converge and break Kinda at **⁨مَحْجَر الزُّرْقان⁩**; the survivors run to **⁨النُّجَير⁩**, a
 strong hill fort. ʿIkrima's ؓ long line — the one that started at ⁨اليمامة⁩ in E-RC15 — **arrives here
 and closes the last road.** The map's final arrow.
