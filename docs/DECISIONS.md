@@ -553,3 +553,119 @@ table in `CLAUDE.md` §3 had silently stopped describing what the room will hear
 **Evening 3 = Yemen, start to end** — al-Aswad al-ʿAnsī in depth, the second Yemen ⁨ردة⁩, and
 Ḥaḍramawt/Kinda to al-Ashʿath at al-Nujayr, with a short Kinda backstory. Told by front rather than
 in strict date order (Kinda runs into 12 AH); the Line shows the flashback explicitly.
+
+## 34 · Evening 3 is Parts I–II; built straight from the runsheet — 2026-09-16
+
+**Daniyal's cut, after reading the three notes:** evening 3 is **al-Aswad al-ʿAnsī (Part I) and the
+second Yemen ⁨ردة⁩ to Qays and ʿAmr sent home (Part II)** — ≈ 59 minutes of material, ≈ 42 CORE, for
+34 story minutes. **The Kinda block is rolled forward**, untouched, under its own heading in
+`S03_yemen/RUNSHEET.md`.
+
+**How the evening is built, and why:**
+
+1. **`RUNSHEET.md` is the running order and every artifact reads it.** `tools/build_full_deck.py` gained
+   `runsheet()` (only tables under `## Part` headings count — moving a block under another heading is how
+   a cut is made) and `card_slide()`. The deck, the cue sheet and the briefing all take their card list from
+   it, so a strike in the runsheet reaches all three on the next build. `pack_data.py` refuses to build if
+   the cue beats and the runsheet disagree.
+2. **The Line for an evening this short is drawn in DATE BANDS, not to scale** (`S03_yemen/timeline.json`
+   → `make_timeline.py`). The sources give "10 AH", "after Ḥajjat al-Wadāʿ", "some nights before, or one
+   night" — never a day. Distance inside a band means order only. Two lanes (Medina/Najd above, Yemen
+   below) so the flashback is visible rather than explained.
+3. **Maps are Map Studio scenes written to `s03-*` files by `S03_yemen/make_maps.py`**, never by
+   re-running `tools/make_scenes.py`, which would overwrite the seventeen session-2 scenes Daniyal may
+   have nudged by hand. Kahf Khubbān and Shaʿūb are **not located** in our sources and are said so in
+   words, not placed as dots.
+4. **Two slide-face defects found at the contact sheet and fixed at the root.** A qualified label —
+   `[SOURCED, disputed]` — reached a slide face, because both `build_full_deck.LABEL` and `deck2.FORBIDDEN`
+   matched only the bare `[SOURCED]`; both now match qualified forms. And AW13's statement (words the
+   widow said *to the guards* to save their lives, calling al-Aswad a prophet) is kept off the face; the
+   slide carries one sentence of the card's own narrative instead.
+5. **The ligature ﷿ (U+FDFF, عز وجل) is left exactly as the source has it**, although Traditional Arabic
+   draws it as an empty box: it has no Unicode decomposition, no permitted font on this machine carries it,
+   and spelling it out would be writing Arabic into a quotation. The one slide affected (RC32) is flagged
+   in its speaker notes for Daniyal to decide by hand.
+
+## 35 · A finding that is not on a card does not exist on stage; the speaker notes carry the whole card — 2026-09-16
+
+Daniyal asked where the Prophet's ﷺ arrangement for Yemen had gone — Bādhām, on his Islam, given the
+deputyship of the whole of Yemen and not removed until he died (⁨البدایہ ج۷ ص۱۳⁩). It was in the al-Aswad
+note's body (§1.2), quoted and page-cited, and on **no card** — only as an "Also on the page" line under
+E-AW02. Two defects compounded:
+
+1. **Notes → cards lost material.** An audit of the two Yemen notes found **82 quoted findings in the note
+   bodies that were on no card in either pool** (47 al-Aswad, 35 second ridda). The research agents had
+   carded the scenes they judged central and left the rest in the body.
+2. **Cards → speaker notes lost more.** `build_full_deck.notes_for()` copied only the named fields
+   (What happened, Map, عبرت, Hands-up, source). Everything after Hands-up — "Also on the page",
+   cross-references, ⚠ teaching warnings, second quotations — was silently dropped from every deck built
+   from a pool, evening 2's included. **Fixed at the root:** cards now carry an `extra` field and the notes
+   print it in full, with the statement's full rendering.
+
+**Settled:** every quoted finding in a note body must sit on a card — as its statement, in its "Also on the
+page", or as a card of its own. The two Yemen notes were re-carded to that rule: **4 new cards** (E-AW19 the
+Bādhām arrangement, E-AW20 the al-Bukhārī line, E-YK17 Fayrūz's ؓ war and the families brought back, E-YK18
+"every day routed or taken prisoner") and **29 existing cards enriched**; 7 quotations were left uncarded
+because each is already an existing card's statement. A card whose statement must not be projected carries
+`⚠ NOT FOR THE SLIDE FACE`, which `S03_yemen/build.py` now honours automatically. Two corrections came out
+of the pass: the Khālid b. Saʿīd ؓ – ʿAmr duel is on ⁨الکامل ج۲ ص۲۲۹⁩, not Ibn Khaldūn only; and no page says
+which of Banū ʿUqayl and ʿAkk turned back which convoy, so the map no longer pairs them.
+
+## 36 · The Ḥaḍramawt/Kinda ridda goes back into evening 3 as Part III — 2026-09-16
+
+The first cut (#34) moved the whole of the old Part III out, reading "the Kinda material" as everything in
+it. Daniyal asked why the slides said nothing of Kinda, Ḥaḍramawt and the rebellion over the zakāt, and chose
+to put it back. His reason was that Qays and ʿAmr being sent to Medina does not make sense without it. **The
+page says otherwise about ʿAmr** — ⁨الکامل ج۲ ص۲۲۹⁩ closes his and Qays's story at **Najrān**, before the
+Ḥaḍramawt war («⁨فسار المهاجر من نجران⁩» comes after it) — but the decision stands on a stronger reason: the
+evening tells the room that the Prophet ﷺ appointed al-Muhājir ؓ over **Kinda** (E-YK04), and without Part
+III that thread leads nowhere. ʿAmr, Qays and al-Ashʿath do meet again, in E-YK16, at al-Qādisiyya.
+
+**Settled:** evening 3 = Parts I–III, to STOP C — 45 cards, ≈ 86 min (66 CORE) for 34 story minutes. Only
+the **Kinda kingship backstory** (E-KD01–07) stays rolled forward. STOP A and STOP B closing sets are built
+and hidden. Two Map Studio scenes (`s03-07-hadramawt-and-kinda`, `s03-08-al-ashath-to-medina`) and a STOP C
+closing scene; al-Nujayr and Maḥjar al-Zurqān are named in words, not placed, because no page locates them.
+
+**A parser defect found on the way, fixed at the root.** `build_full_deck.FIELD` read عبرت, Map, When and
+Hands-up only to the end of their first line; cards are hard-wrapped, so every wrapped field was cut
+mid-sentence on slides and in notes ("…and then heard the news that"). The fields now run to the next
+field or blank line. All 1,839 cards re-parse with no empty عبرت line.
+
+## 37 · One slide per event: every card carries Beats — 2026-09-16
+
+Daniyal, looking at evening 3: *"these are still less slides than the events described in content … having a
+separate slide for everything that I need to tell broadly helps in making sure we don't forget stuff."* His
+example was Ziyād b. Labīd's ؓ first engagement after the Shadhra quarrel — a night attack that lived inside
+one card (E-YK08) with six other events, and so had no slide of its own. A slide per card hid most of the story.
+
+**Settled — and it outranks the 45-slide instinct of the earlier decks:**
+
+1. **Every card carries a `**Beats:**` list** in its research note, immediately after **What happened**: one
+   line per event, turn, speech or decision in the card's own text, `n. Headline — one face line`, headline ≤ 8
+   words, face line ≤ 20, English only, no apparatus, disputed reports marked as disputed and never resolved.
+   `**Quote after beat:** N` says where the card's Arabic quotation slide falls in the telling.
+2. **Beats live in the notes, not in the evening folder**, so the trove keeps them: any later evening that draws
+   the card gets the same slides. `tools/build_full_deck.py` parses them (`beats`, `quote_after`, `beat_slide()`).
+3. **The deck is one slide per beat plus the card's quotation slide.** The speaker notes of every beat slide list
+   all the card's beats with the current one marked, so the whole card is one glance away.
+4. **Overlap on one evening is handled in the runsheet, never by deleting beats**: a Note cell `SKIP BEATS 3,4`
+   drops those beats from that evening only.
+5. Deck length is no longer a target. The slot is still 45 minutes; the cut is still made at the lectern and
+   whatever is not reached rolls forward (#20). The beats exist so that what IS told is told whole.
+
+The first evening built this way (S03) was then reviewed end to end by a four-lens multi-agent pass
+(completeness · fidelity/register · slide-face visual QA · continuity), each finding checked by a separate
+skeptic before any fix was applied.
+
+**Outcome of the first beats pass and review (same night).** 45 cards now carry 282 beats; S03 is 361 slides
+(8 hidden). The four-lens review raised 75 findings; the verifiers confirmed 73; 61 were applied (runsheet
+`SKIP BEATS` on 14 rows for events two cards tell twice, plain face dates on 23 cards, a new opening map, beat
+wording that names the book when reports differ, timeline and map corrections). Three corrections of our own
+making came out of it and are recorded here so they are not re-made:
+- **ʿAmr b. Maʿdī Karib is ؓ after his return.** The second-ridda note says so from Ibn Kathīr's «﵁» (⁨البدایہ ج۷
+  ص۲۴۴⁩). The instruction given to the beats agents ("no honorific for ʿAmr") was wrong and had stripped it from
+  E-YK16 at al-Qādisiyya; restored. Qays b. Makshūḥ stays without one — no page states his Companionship.
+- **Arabic on slides is now marked `lang="ar-SA"`** (`series/deck2.py`). Without it PowerPoint placed colons,
+  dashes and "!" on the wrong side of Arabic words (e.g. «له :وهرز»). Every deck picks this up on rebuild.
+- **The opening Line gave away the first [HANDS] answer** ("Ṣanʿāʾ in 25 nights"); its short label is now
+  "Najrān, then Ṣanʿāʾ".

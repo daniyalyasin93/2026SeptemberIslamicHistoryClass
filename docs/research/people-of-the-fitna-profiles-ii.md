@@ -2138,6 +2138,17 @@ box quotes it back at him.
 
 **What happened:** ⁨الأشعث ؓ⁩ had apostatised in the ⁨ردة⁩ with a number of ⁨كندة⁩. He was besieged, and he took safe conduct — for seventy men, and not for himself. He was brought captive to ⁨أبو بكر ؓ⁩, who told him plainly: we are going to kill you, you have no safe conduct. And he said: will you show me favour, and I become Muslim? ⁨أبو بكر ؓ⁩ did, and loosed his bonds, and married his own sister to him. So ⁨الأشعث ؓ⁩ drew his sword, walked into the camel market of Medina, and began hamstringing every camel and every bull he saw, while the people shouted that he had apostatised again. Then he threw the sword down and explained himself.
 
+**Beats:**
+1. He had joined the ridda — Al-Ashʿath had apostatised in the ridda, with a number of Kinda.
+2. Safe conduct, but not for himself — Besieged, he took safe conduct for seventy men, al-Dhahabī says, and not for himself.
+3. Brought captive to Abū Bakr ؓ — We are going to kill you, Abū Bakr ؓ told him plainly; you have no safe conduct.
+4. He asks for favour — Will you show me favour, he asked, and I become Muslim?
+5. Released, and married into the family — Abū Bakr ؓ showed him favour, loosed his bonds, and married his own sister to him.
+6. A sword in the camel market — He drew his sword, walked into the camel market of Medina, and began hamstringing every camel and bull he saw.
+7. Medina thinks he has turned again — The people shouted that he had apostatised again.
+8. He throws the sword down — Then he threw the sword down and explained himself.
+**Quote after beat:** 8
+
 **The statement:**
 > وَاللهِ مَا كَفَرْتُ؛ وَلَكِنَّ هَذَا الرَّجُلَ زَوَّجَنِي أُخْتَهُ؛ وَلَو كُنَّا فِي بِلاَدِنَا لَكَانَتْ لَنَا وَلِيْمَةٌ غَيْرُ هَذِهِ، يَا أَهْلَ المَدِيْنَةِ، انْحَرُوا، وَكُلُوا! وَيَا أَهْلَ الإِبِلِ تَعَالَوْا خُذُوا شَرْوَاهَا!
 > — ⁨سیر أعلام النبلاء ج۲ ص۳۹⁩ · https://shamela.ws/book/10906/2019
@@ -2154,6 +2165,12 @@ box quotes it back at him.
 **Tier:** CORE · **When:** after 12 AH `[SOURCED]` · **Map:** No map.
 
 **What happened:** At a funeral where both men were standing, ⁨الأشعث بن قيس ؓ⁩ stepped back and put ⁨جرير بن عبد الله ؓ⁩ forward to lead the prayer. Somebody asked him why, and he gave the reason in six words. He had been forgiven, married into ⁨الصديق ؓ⁩'s own family, and made a commander; and he still said this about himself in public, years afterwards.
+
+**Beats:**
+1. He steps back at a funeral — At a funeral, al-Ashʿath ؓ stepped back and put Jarīr b. ʿAbd Allāh ؓ forward to lead the prayer.
+2. Somebody asks him why — He gave the reason in six words.
+3. Said in public, years afterwards — Forgiven, married into al-Ṣiddīq's ؓ family, made a commander, and he still said it of himself.
+**Quote after beat:** 2
 
 **The statement:**
 > إِنَّ هَذَا لَمْ يَرْتَدَّ، وَإِنِّي ارْتَدَدْتُ.

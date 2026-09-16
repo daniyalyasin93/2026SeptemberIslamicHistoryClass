@@ -45,8 +45,9 @@ second rising is `docs/research/ridda-campaign-the-conduct-of-the-wars.md` §9.2
 2. **Kisrā ordered his governor Bādhām (Bādhān) to send the Prophet ﷺ to him in chains; the envoys
    stayed a month, and were sent back with «⁨ربي قد قتل الليلة ربه⁩»; the night was verified, and Bādhām
    and the Persians of Yemen accepted Islam.** [SOURCED] ⁨البدایہ ج۷ ص۱۳⁩.
-3. **The Prophet ﷺ left Bādhām over all Yemen until he died, then divided it among named governors,
-   with Muʿādh ؓ as a travelling teacher**, in 10 AH. [SOURCED] ⁨البدایہ ج۷ ص۱۳⁩–۱۴; ⁨الکامل ج۲ ص۱۹۶⁩–۱۹۷.
+3. **The Prophet ﷺ left Bādhām over all Yemen until he died; then Shahr b. Bādhām kept Ṣanʿāʾ and some
+   districts, Companions went out as deputies — first ʿAlī ؓ and Khālid ؓ, then Muʿādh ؓ and Abū Mūsā ؓ —
+   and Yemen was divided among named governors, with Muʿādh ؓ as a travelling teacher**, in 10 AH. [SOURCED] ⁨البدایہ ج۷ ص۱۳⁩–۱۴; ⁨الکامل ج۲ ص۱۹۶⁩–۱۹۷.
 4. **Al-Aswad was ʿAbhala b. Kaʿb of ʿAns, a clan of Madhḥij, called Dhū al-Khimār because he was
    always veiled and turbaned; a showman of wonders; he rose after Ḥajjat al-Wadāʿ, when news came
    that the Prophet ﷺ had been taken ill on the journey.** [SOURCED] ⁨الکامل ج۲ ص۱۹۶⁩–۱۹۷;
@@ -120,7 +121,13 @@ me. **They stayed a month.** Then they pressed for an answer.
 > count that night — if the matter proves as he said, he is a prophet."
 
 Letters then came from Persia that Kisrā had been killed on that very night — by his own sons — and
-his son Shīrawayh wrote to Bādhām to take the oath for him and **not to trouble that man**.
+his son Shīrawayh wrote to Bādhām to take the oath for him and **not to dishonour that man, but to
+honour him**:
+
+> وقام بالمُلك بعده ولده شيرويه وكتب إلى باذام أن خُذْ ليَ البيعة من قبلك، واعمد إلى ذلك الرجل فلا تهنه وأكرمْهُ
+> — ⁨البدایہ والنہایہ ج۷ ص۱۳⁩ · https://shamela.ws/book/30097/3159
+> *English:* "His son Shīrawayh took up the kingship after him, and wrote to Bādhām: take the oath of
+> allegiance for me from those under you; and as for that man — do not dishonour him, and honour him."
 
 > فدخل الإسلامُ في قلب باذام وذريتِه من أبناء فارسَ ممن باليمن، وبعث إلى رسول الله ﷺ بإسلامه، فبعث إليه رسولُ الله ﷺ بنيابة اليمنِ بكمالها، فلم يعزله عنها حتى مات
 > — ⁨البدایہ والنہایہ ج۷ ص۱۳⁩ · https://shamela.ws/book/30097/3159
@@ -133,6 +140,21 @@ his son Shīrawayh wrote to Bādhām to take the oath for him and **not to troub
 read.
 
 ## 1.3 The governors after Bādhān
+
+Ibn Kathīr, continuing on the same page, says what followed Bādhām's death — his son kept the capital,
+and Companions went out as deputies, in two waves:
+
+> فلما مات استنابَ ابنه شهر بن باذام على صنعاءَ وبعض مخاليف، وبعث طائفةً من أصحابه نوّابًا على مخاليف أُخر، فبعث أولًا في سنة عشرٍ عليًّا وخالدًا، ثم أرسل معاذًا وأبا موسى الأشعريَّ وفرّق عِمَالَة اليمن بين جماعةٍ من الصحابة
+> — ⁨البدایہ والنہایہ ج۷ ص۱۳⁩ · https://shamela.ws/book/30097/3159
+> *English:* "When he died, [the Prophet ﷺ] made his son Shahr b. Bādhām deputy over Ṣanʿāʾ and some
+> districts, and sent a party of his Companions as deputies over other districts. He sent first, in the
+> year ten, ʿAlī and Khālid; then he sent Muʿādh and Abū Mūsā al-Ashʿarī, and divided the governorship of
+> Yemen among a group of the Companions."
+
+⚠ **Which ʿAlī and which Khālid, the page does not say** — it gives the two names bare. A Khālid b.
+Saʿīd b. al-ʿĀṣ ؓ is named a few lines further down the same list as one of the governors (table below),
+so do not assume which Khālid is meant, and do not supply a nasab for either man aloud. The page counts
+both among «⁨أصحابه⁩», so both carry ؓ.
 
 > فَلَمَّا مَاتَ بَاذَانُ فَرَّقَ رَسُولُ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - أُمَرَاءَهُ فِي الْيَمَنِ
 > — ⁨الکامل فی التاریخ ج۲ ص۱۹۶⁩ · https://shamela.ws/book/21712/887
@@ -262,7 +284,8 @@ sentence in these pages.)*
 
 The dream of the two gold bracelets is already carded (**E-TB17**, «⁨صاحبَ صَنْعاء، وصاحبَ اليَمامة⁩»,
 ⁨البدایہ ج۵ ص۲۲⁩, al-Bukhārī 4375). What E-TB17 does not carry is the **second** Bukhārī version on the
-same page, from Ibn ʿAbbās, which ends with the narrator ʿUbayd Allāh b. ʿAbd Allāh naming the killer:
+same page, from Ibn ʿAbbās, which ends with the narrator ʿUbayd Allāh b. ʿAbd Allāh naming the killer
+(the editor's reference for this Bukhārī passage is nos. 4378–4379 — his footnote 5 on the same page):
 
 > فقال عبيد الله: أحدهما العنسي الذي قتله فيروز باليمن، والآخر مسيلمة الكذاب.
 > — ⁨البدایہ والنہایہ ج۵ ص۲۲⁩ · https://shamela.ws/book/30097/2206
@@ -736,11 +759,16 @@ comment. **Recorded, not adjudicated, not for the room.** Its last clause — Qa
    Abī Hāla and the widow was **not page-checked** here, so no honorific is given them. Fayrūz is given
    ؓ to stay consistent with E-TB26/TB27; his own tarjama was not located in the ⁨سیر⁩ TOC.
    ⁨سیر⁩ 10906/3128 (Qays b. Makshūḥ) was **not fetched**.
-9. **Ibn Khaldūn-only details not used:** the duel of Khālid b. Saʿīd ؓ and ʿAmr b. Maʿdī Karib and the
-   sword al-Ṣamṣāma (⁨ج۲ ص۴۸۲⁩); Jarīr b. ʿAbd Allāh ؓ sent to Dhū al-Kalāʿ (⁨ج۲ ص۴۸۳⁩). Neither was found on
-   the ⁨البدایہ⁩ / ⁨الکامل⁩ / ⁨سیر⁩ pages read.
+9. **Ibn Khaldūn-only details not used:** Jarīr b. ʿAbd Allāh ؓ sent to Dhū al-Kalāʿ (⁨ج۲ ص۴۸۳⁩) — not
+   found on the ⁨البدایہ⁩ / ⁨الکامل⁩ / ⁨سیر⁩ pages read. *(Corrected 2026-09-16: this item also listed the duel
+   of Khālid b. Saʿīd ؓ and ʿAmr b. Maʿdī Karib and the sword al-Ṣamṣāma as Ibn Khaldūn-only. It is not —
+   ⁨الکامل ج۲ ص۲۲۹⁩ carries it, https://shamela.ws/book/21712/920, and `the-second-yemen-ridda-and-kinda-11-12ah.md`
+   cards it in E-YK05.)*
 10. **Muʿādh's ؓ wife's name, Ramla** — ⁨البدایہ⁩ only, via Sayf.
 11. **al-Dhahabī's «⁨صبيحتئذ⁩»** — which morning is meant.
+12. **Which ʿAlī and which Khālid** were the first Companions sent to Yemen in the year ten (⁨البدایہ ج۷⁩
+    ⁨ص۱۳⁩). The page gives both names bare; no page read identifies them further. No page read gives a
+    date for Shīrawayh's letter either.
 
 ---
 
@@ -750,7 +778,7 @@ comment. **Recorded, not adjudicated, not for the room.** Its last clause — Qa
 |---|---|---|---|
 | ⁨البدایہ⁩ 30097 | 839 | ⁨ج۲ ص۴۱۱⁩ | Sayf b. Dhī Yazan recovers Yemen «⁨قبل مولد رسول الله ﷺ بقليل⁩» |
 | ⁨البدایہ⁩ 30097 | 2206 | ⁨ج۵ ص۲۲⁩ | the two bracelets; ʿUbayd Allāh's gloss «⁨العنسي الذي قتله فيروز باليمن⁩» (editor-restored from al-Bukhārī) |
-| ⁨البدایہ⁩ 30097 | 3157–3163 | ⁨ج۷ ص۱۱⁩–۱۷ | ⁨مقتل الأسود العنسي⁩: Yemen's history, Kisrā's letter, Bādhām, the governors, the rising, the letters, Qays, the widow, the beasts, the night, the adhān, Muʿādh, the report from heaven, duration, the two datings |
+| ⁨البدایہ⁩ 30097 | 3157–3163 | ⁨ج۷ ص۱۱⁩–۱۷ | ⁨مقتل الأسود العنسي⁩: Yemen's history, Kisrā's letter, Bādhām, Shīrawayh's letter, Shahr and the first Companions sent (ʿAlī and Khālid, then Muʿādh and Abū Mūsā), the governors, the rising, the letters, Qays, the widow, the beasts, the night, the adhān, Muʿādh, the report from heaven, duration, the two datings |
 | ⁨البدایہ⁩ 30097 | 3188 | ⁨ج۷ ص۴۲⁩ | Qays b. Makshūḥ covets the command of Yemen — hand-off; editor's footnote defining ⁨الأبناء⁩ |
 | ⁨البدایہ⁩ 30097 | 3205 | ⁨ج۷ ص۵۹⁩ | Ibn Kathīr's death-notice: one month, three or four months, «⁨إخوان صدق وأمراء حق⁩», Rabīʿ I 11, «⁨بليال، وقيل بليلة⁩» |
 | ⁨الکامل⁩ 21712 | 887–891 | ⁨ج۲ ص۱۹۶⁩–۲۰۰ | ⁨ذكر أخبار الأسود العنسي باليمن⁩ — whole chapter |
@@ -767,10 +795,11 @@ never re-researched. Every concrete detail in every card is supported by the pro
 **Map:** lines are written to be drawn from directly; places are feathered zones, never points.
 
 **Run order for L03 (with the existing L02 cards slotted in), est. spoken minutes:**
-E-TB17 cold open (existing) · AW01 1.5 · AW02 3 · AW03 1.5 · AW04 2.5 · AW05 3 · AW06 1.5 · AW07 2 ·
-AW08 2.5 · AW09 2.5 · AW10 2.5 · AW11 2.5 · AW12 3 · AW13 3 · AW14 2.5 · **E-TB26** (existing) ·
-**E-TB27** (existing) · AW15 2 · **E-U9** (existing, promote from CUT) · AW16 1. CORE+GOOD of this note
-≈ 36.5 min. **AW05 + AW15 together replace E-TB28** — they carry everything it carries and more; do not
+E-TB17 cold open (existing) · AW01 1.5 · AW02 3 · **AW19 2** · AW03 1.5 · AW04 2.5 · AW05 3 · AW06 1.5 ·
+AW07 2 · AW08 2.5 · AW09 2.5 · AW10 2.5 · AW11 2.5 · AW12 3 · AW13 3 · AW14 2.5 · **AW20 1** ·
+**E-TB26** (existing) · **E-TB27** (existing) · AW15 2 · **E-U9** (existing, promote from CUT) · AW16 1.
+CORE+GOOD of this note ≈ 39.5 min. (AW19 and AW20 were added on 2026-09-16 from findings the body
+already carried; ids are not in numeric order on the page — they sit where the story needs them.) **AW05 + AW15 together replace E-TB28** — they carry everything it carries and more; do not
 run both.
 
 ---
@@ -782,9 +811,19 @@ the word **⁨الأبناء⁩** settling over it.
 **What happened:** Before Islam, Yemen had been a kingdom of Ḥimyar, then was taken by the Abyssinians
 under Abraha — the Abraha of the Elephant. A prince of Ḥimyar, Sayf b. Dhī Yazan, went to Caesar for
 help and was refused; he went to Kisrā. Kisrā sent with him men taken out of his prisons, under a
-commander called Wahriz. They broke the Abyssinians and took Ṣanʿāʾ. Those Persians stayed, married
-among the Arabs, and their children were called simply "the Sons" — the Abnāʾ. Fayrūz and Dādhawayh,
-who end tonight's story, were of them.
+commander called Wahriz. They broke the Abyssinians and took Ṣanʿāʾ — a little before the birth of the
+Messenger of Allah ﷺ, Ibn Kathīr says elsewhere. Those Persians stayed, married among the Arabs, and
+their children were called simply "the Sons" — the Abnāʾ — a name that stuck, the editor of Ibn
+Kathīr's text explains, because their mothers were of a different people from their fathers. Fayrūz and
+Dādhawayh, whom we meet again in Ṣanʿāʾ, were of them.
+**Beats:**
+1. Ḥimyar, then the Abyssinians — Before Islam Yemen was a kingdom of Ḥimyar; then the Abyssinians took it, under Abraha of the Elephant.
+2. A prince of Ḥimyar seeks help — Sayf b. Dhī Yazan went to Caesar and was refused; then he went to Kisrā.
+3. Kisrā sends men from his prisons — Kisrā sent with him men taken out of his prisons, under a commander called Wahriz.
+4. Ṣanʿāʾ taken from the Abyssinians — They broke the Abyssinians and took Ṣanʿāʾ, a little before the birth of the Messenger of Allah ﷺ.
+5. The Abnāʾ, the Sons — Those Persians stayed and married among the Arabs; their children were called the Abnāʾ, "the Sons".
+6. Two men of the Abnāʾ — Fayrūz ؓ and Dādhawayh, whom we meet again in Ṣanʿāʾ, were of the Abnāʾ.
+**Quote after beat:** 4
 **The statement:**
 > ثم اتفق الحالُ على أنْ بَعَثَ معه ممن بالسجونِ طائفةً تقدمهم رجل منهم يقال له: وهرز، فاستنقذ مُلْك اليمن من الحبشة
 > — ⁨البدایہ والنہایہ ج۷ ص۱۲⁩ · https://shamela.ws/book/30097/3158
@@ -794,6 +833,20 @@ who end tonight's story, were of them.
 **⁨عبرت⁩:** A garrison sent to serve a foreign king became, two generations later, the men who held Yemen
 for Islam.
 **Hands-up?** no
+**Also on the page:**
+
+> ثم استرجعه سيف بن ذي يزن الحميري وكان ذلك قبل مولد رسول الله ﷺ بقليل
+> — ⁨البدایہ والنہایہ ج۲ ص۴۱۱⁩ · https://shamela.ws/book/30097/839
+> *English:* "Then Sayf b. Dhī Yazan al-Ḥimyarī recovered it — and that was a little before the birth
+> of the Messenger of Allah ﷺ."
+
+> الأبناء: قوم من أبناء فارس أرسلهم كسرى مع سيف بن ذي يزن لما جاء يستنجدهم على الحبشة فنصروه وملكوا اليمن وتديّروها وتزوجوا من العرب. فقيل لأولادهم الأبناء وغلب عليهم هذا الاسم لأن أمهاتهم من غير جنس آبائهم.
+> — ⁨البدایہ والنہایہ⁩, **editor's footnote** at ⁨ج۷ ص۴۲⁩ (citing ⁨اللسان⁩) · https://shamela.ws/book/30097/3188
+> *English:* "The Abnāʾ: a people of the sons of Persia whom Kisrā sent with Sayf b. Dhī Yazan when he
+> came seeking their help against the Abyssinians. They helped him, took Yemen, settled in it and
+> married among the Arabs — so their children were called 'the Sons', and the name stuck, because
+> their mothers were not of their fathers' race."
+
 **The definition of «⁨الأبناء⁩»** is the ⁨دار ابن كثير⁩ editor's footnote at ⁨ج۷ ص۴۲⁩, not Ibn Kathīr's text —
 say "the editor explains".
 
@@ -811,6 +864,16 @@ Prophet ﷺ said: go back and tell your master that my Lord has killed his lord 
 the night. Bādhām said: count the night — if it is so, he is a prophet. Then letters came from Persia:
 Kisrā had been killed that very night, by his own sons. And Islam entered the heart of Bādhām, and of
 the Persians of Yemen with him.
+**Beats:**
+1. A letter to Kisrā, torn unread — The Prophet ﷺ wrote to Kisrā; seeing the sender's name before his own, Kisrā tore it unread.
+2. Kisrā's order to Bādhām — Kisrā ordered his governor in Yemen, Bādhām, to send the man to him in chains.
+3. Two officers ride to Medina — Bādhām chose two sensible officers: bring him only if his claim is false; otherwise come back and tell me.
+4. A whole month in Medina — The two officers stayed in Medina a whole month, then pressed for an answer.
+5. "My Lord has killed your lord tonight" — The Prophet ﷺ said: go back and tell your master that my Lord has killed his lord tonight.
+6. Count the night — The officers wrote down the night. Bādhām said: count it; if it is so, he is a prophet.
+7. Kisrā killed that very night — Letters came from Persia: Kisrā had been killed that very night, by his own sons.
+8. Islam enters Bādhām's heart — Islam entered the heart of Bādhām, and of the Persians of Yemen with him.
+**Quote after beat:** 5
 **The statement:**
 > فقال لهما: ارجعا إلى صاحبِكما فأخبراه أن ربِّي قد قتل الليلةَ ربَّه، فأرَّخا ذلك عندَهما ثم رجعا سريعًا إلى اليمن
 > — ⁨البدایہ والنہایہ ج۷ ص۱۳⁩ · https://shamela.ws/book/30097/3159
@@ -820,8 +883,72 @@ the Persians of Yemen with him.
 **⁨عبرت⁩:** The first Muslims of Yemen's ruling house came to Islam by checking a date.
 **Hands-up?** Before the answer: *"Two officers come to arrest a man and stay a month. What do you think
 they told their governor?"*
-**Also on the page:** «⁨فدخل الإسلامُ في قلب باذام وذريتِه من أبناء فارسَ ممن باليمن⁩ … ⁨فلم يعزله عنها حتى⁩
-⁨مات⁩» — the Prophet ﷺ left him over the whole of Yemen until his death.
+**Next:** E-AW19 carries what follows on the same page — Shīrawayh's letter, Bādhām's Islam, and the
+deputyship of the whole of Yemen until his death.
+
+---
+
+### E-AW19 · The whole of Yemen, until he died
+**Tier:** CORE · **When:** the year 10 AH (631–632 CE) `[SOURCED]` for the Companions sent; CE `[STANDARD]`; Bādhām's Islam and death undated on the pages read ·
+**Map:** all of Yemen washed in one colour under **⁨صنعاء⁩** — Bādhām's. Then the wash breaks: **⁨صنعاء⁩**
+alone stays with Shahr, and riders come down from **⁨المدينة⁩** into Yemen — two, then two more.
+Destinations are not given for the first pair; do not draw them to a place.
+**What happened:** In Persia, the son who took Kisrā's throne, Shīrawayh, wrote to Bādhām: take the oath
+of allegiance for me from those under you — and as for that man in Arabia, do not dishonour him; honour
+him. And Islam entered the heart of Bādhām, of his family, and of the Persians of Yemen. He sent word of
+his Islam to the Messenger of Allah ﷺ — and the Messenger of Allah ﷺ sent him back the deputyship of the
+whole of Yemen, and did not remove him from it until he died. When Bādhām died, his son
+Shahr was made deputy over Ṣanʿāʾ and some of its districts, and a party of the Prophet's ﷺ Companions
+went out as deputies over the others: first, in the year ten, ʿAlī ؓ and Khālid ؓ — Ibn Kathīr gives
+them no further names — and after them Muʿādh ؓ and Abū Mūsā al-Ashʿarī ؓ. Ibn al-Athīr has the
+deputyship in one line: when Bādhān and the people of Yemen accepted Islam, the Prophet ﷺ gave him the
+governorship of all Yemen, and he held it until he died.
+**Beats:**
+1. Shīrawayh writes to Bādhām — Shīrawayh, Kisrā's son and successor, wrote: take allegiance for me; do not dishonour that man in Arabia; honour him.
+2. Islam enters Bādhām's heart — Islam entered the heart of Bādhām, of his family, and of the Persians of Yemen.
+3. Deputy over the whole of Yemen — Bādhām sent word of his Islam; the Prophet ﷺ made him deputy over the whole of Yemen.
+4. Never removed, until he died — He was not removed from it until he died. Ibn Kathīr and Ibn al-Athīr both record it.
+5. Bādhām dies; Shahr holds Ṣanʿāʾ — When Bādhām died, his son Shahr was made deputy over Ṣanʿāʾ and some of its districts.
+6. Companions go out as deputies — Over the other districts went Companions: first, in the year ten, ʿAlī ؓ and Khālid ؓ.
+7. Then Muʿādh ؓ and Abū Mūsā ؓ — After them the Prophet ﷺ sent Muʿādh ؓ and Abū Mūsā al-Ashʿarī ؓ.
+**Quote after beat:** 4
+**The statement:**
+> وبعث إلى رسول الله ﷺ بإسلامه، فبعث إليه رسولُ الله ﷺ بنيابة اليمنِ بكمالها، فلم يعزله عنها حتى مات
+> — ⁨البدایہ والنہایہ ج۷ ص۱۳⁩ · https://shamela.ws/book/30097/3159
+> *English:* "He reported his Islam; the Messenger of Allah ﷺ sent him the deputyship of all Yemen, and
+> did not remove him until he died."
+
+**⁨عبرت⁩:** The governor told to send him in chains became his deputy over the whole of Yemen — and was
+never removed.
+**Hands-up?** no
+**Also on the page:**
+
+> وقام بالمُلك بعده ولده شيرويه وكتب إلى باذام أن خُذْ ليَ البيعة من قبلك، واعمد إلى ذلك الرجل فلا تهنه وأكرمْهُ
+> — ⁨البدایہ والنہایہ ج۷ ص۱۳⁩ · https://shamela.ws/book/30097/3159
+> *English:* "His son Shīrawayh took up the kingship after him, and wrote to Bādhām: take the oath of
+> allegiance for me from those under you; and as for that man — do not dishonour him, and honour him."
+
+> فدخل الإسلامُ في قلب باذام وذريتِه من أبناء فارسَ ممن باليمن
+> — ⁨البدایہ والنہایہ ج۷ ص۱۳⁩ · https://shamela.ws/book/30097/3159
+> *English:* "So Islam entered the heart of Bādhām and of his offspring among the sons of Persia who
+> were in Yemen."
+
+> فلما مات استنابَ ابنه شهر بن باذام على صنعاءَ وبعض مخاليف، وبعث طائفةً من أصحابه نوّابًا على مخاليف أُخر، فبعث أولًا في سنة عشرٍ عليًّا وخالدًا، ثم أرسل معاذًا وأبا موسى الأشعريَّ وفرّق عِمَالَة اليمن بين جماعةٍ من الصحابة
+> — ⁨البدایہ والنہایہ ج۷ ص۱۳⁩ · https://shamela.ws/book/30097/3159
+> *English:* "When he died, [the Prophet ﷺ] made his son Shahr b. Bādhām deputy over Ṣanʿāʾ and some
+> districts, and sent a party of his Companions as deputies over other districts. He sent first, in the
+> year ten, ʿAlī and Khālid; then he sent Muʿādh and Abū Mūsā al-Ashʿarī, and divided the governorship of
+> Yemen among a group of the Companions."
+
+> وَكَانَ النَّبِيُّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - قَدْ جَمَعَ لِبَاذَانَ حِينَ أَسْلَمَ وَأَسْلَمَ أَهْلُ الْيَمَنِ - عَمَلَ الْيَمَنِ جَمِيعَهُ … فَلَمْ يَزَلْ عَامِلًا عَلَيْهِ حَتَّى مَاتَ.
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۶⁩ · https://shamela.ws/book/21712/887
+> *English:* "The Prophet ﷺ had gathered for Bādhān — when he accepted Islam and the people of Yemen
+> accepted Islam — the governorship of all Yemen … and he remained its governor until he died."
+
+⚠ **Which ʿAlī and which Khālid, the page does not say.** Khālid b. Saʿīd b. al-ʿĀṣ ؓ is named a few
+lines later in the same list as a governor, so do not assume which Khālid is meant, and do not supply a
+nasab for either aloud (§1.3, §8 item 12). **No year** is given for Bādhām's Islam or his death (§8 item 2).
+The name is Bādhām in Ibn Kathīr and Bādhān in Ibn al-Athīr — say which book you are reading (E-AW18).
 
 ---
 
@@ -834,7 +961,15 @@ dotted line looping through all of them: Muʿādh ؓ.
 it. Bādhām's son Shahr kept Ṣanʿāʾ. ʿAmr b. Ḥazm had Najrān; Khālid b. Saʿīd the country down to Zabīd;
 Abū Mūsā al-Ashʿarī had Maʾrib; Yaʿlā b. Umayya al-Janad; ʿĀmir b. Shahr Hamdān; al-Ṭāhir b. Abī Hāla the
 tribe of ʿAkk; Ziyād b. Labīd Ḥaḍramawt. And Muʿādh b. Jabal was not tied to one district. He was a
-teacher, moving from one governor's country to the next.
+teacher, moving from one governor's country to the next. All of that, Ibn Kathīr says, was in the year
+ten — the end of the life of the Messenger of Allah ﷺ.
+**Beats:**
+1. Yemen divided among governors — When Bādhām died, the Prophet ﷺ did not appoint one man over Yemen again. He divided it.
+2. Four districts and their governors — Shahr kept Ṣanʿāʾ; ʿAmr b. Ḥazm ؓ had Najrān; Khālid b. Saʿīd ؓ down to Zabīd; Abū Mūsā ؓ Maʾrib.
+3. And four more — Yaʿlā b. Umayya ؓ al-Janad; ʿĀmir b. Shahr Hamdān; al-Ṭāhir b. Abī Hāla ʿAkk; Ziyād b. Labīd ؓ Ḥaḍramawt.
+4. Muʿādh ؓ, a teacher on the road — Muʿādh b. Jabal ؓ was tied to no district: a teacher, moving from one governor's country to the next.
+5. All in the year ten — All of this, Ibn Kathīr says, was in the year ten: the end of the Prophet's ﷺ life.
+**Quote after beat:** 4
 **The statement:**
 > وَكَانَ مُعَاذُ مُعَلِّمًا يَتَنَقَّلُ فِي عَمَالَةِ كُلِّ عَامِلٍ بِالْيَمَنِ وَحَضْرَمَوْتَ.
 > — ⁨الکامل فی التاریخ ج۲ ص۱۹۶⁩ · https://shamela.ws/book/21712/887
@@ -843,6 +978,19 @@ teacher, moving from one governor's country to the next.
 
 **⁨عبرت⁩:** The state in Yemen was a map of governors — and one man who belonged to all of them.
 **Hands-up?** no
+**Also on the page:**
+
+> فَلَمَّا مَاتَ بَاذَانُ فَرَّقَ رَسُولُ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - أُمَرَاءَهُ فِي الْيَمَنِ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۶⁩ · https://shamela.ws/book/21712/887
+> *English:* "When Bādhān died, the Messenger of Allah ﷺ divided his governors across Yemen."
+
+> وذلك كله في سنة عشر، آخر حياة رسول الله ﷺ فبينما هم على ذلك إذ نجم
+> — ⁨البدایہ والنہایہ ج۷ ص۱۴⁩ · https://shamela.ws/book/30097/3160
+> *English:* "All of that was in the year ten, the end of the life of the Messenger of Allah ﷺ — and
+> while they were so, there appeared …"
+
+**Full district table** with Ibn Kathīr's variants: §1.3. Comes after E-AW19, which carries Shahr and
+the first Companions sent.
 
 ---
 
@@ -856,6 +1004,14 @@ and that whoever heard him speak was taken by his voice. When the Prophet ﷺ ca
 Pilgrimage and was taken ill from the journey — not yet the illness he died of — the news reached this
 man. He claimed prophethood, and Madhḥij followed him. Ibn al-Athīr and al-Dhahabī both give it the same
 title: the first apostasy in Islam, in the Prophet's ﷺ own lifetime.
+**Beats:**
+1. ʿAbhala b. Kaʿb, of ʿAns — His name was ʿAbhala b. Kaʿb, of ʿAns, a clan of the great tribe of Madhḥij: hence al-ʿAnsī.
+2. Dhū al-Khimār, the veiled one — People called him the veiled one: he was never seen without a turban and a veil across his face.
+3. A conjuror with a captivating voice — The books say he was a conjuror who showed people wonders; whoever heard him speak was taken by his voice.
+4. News of an illness reaches him — The Prophet ﷺ returned from the Farewell Pilgrimage ill from the journey, not his final illness; news reached ʿAbhala.
+5. Madhḥij follows his claim — On that news he claimed prophethood, and the tribe of Madhḥij followed him.
+6. The first apostasy in Islam — Ibn al-Athīr and al-Dhahabī both call it the first apostasy in Islam, in the Prophet's ﷺ own lifetime.
+**Quote after beat:** 2
 **The statement:**
 > وَكَانَ يُلَقَّبُ ذَا الْخِمَارِ؛ لِأَنَّهُ كَانَ مُعْتَمًّا مُتَخَمِّرًا أَبَدًا.
 > — ⁨الکامل فی التاریخ ج۲ ص۱۹۶⁩ · https://shamela.ws/book/21712/887
@@ -863,8 +1019,29 @@ title: the first apostasy in Islam, in the Prophet's ﷺ own lifetime.
 
 **⁨عبرت⁩:** He moved on the news that the Prophet ﷺ was ill — the first of these claims was timed to it.
 **Hands-up?** no
-**Also usable:** al-Dhahabī, ⁨الراشدون ص۲۸⁩ — «⁨وكان شعباذا يريهم الأعاجيب، ويسبي قلوب من يسمع منطقه⁩». Ibn
-Khaldūn (⁨ج۲ ص۴۸۲⁩) calls him «⁨كاهنا مشعوذا⁩» — attribute it to him by name if used.
+**Also on the page:**
+
+> وَكَانَ الْأَسْوَدُ الْعَنْسِيُّ لَمَّا عَادَ رَسُولُ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - مِنْ حَجَّةِ الْوَدَاعِ، وَتَمَرَّضَ مِنَ السَّفَرِ غَيْرَ مَرَضِ مَوْتِهِ بَلَغَهُ ذَلِكَ، فَادَّعَى النُّبُوَّةَ، وَكَانَ مُشَعْبِذًا يُرِيهِمُ الْأَعَاجِيبَ، فَاتَّبَعَتْهُ مَذْحِجٌ، وَكَانَتْ رِدَّةُ الْأَسْوَدِ أَوَّلَ رِدَّةٍ فِي الْإِسْلَامِ عَلَى عَهْدِ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ -
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۷⁩ · https://shamela.ws/book/21712/888
+> *English:* "When the Messenger of Allah ﷺ returned from Ḥajjat al-Wadāʿ and fell ill from the
+> journey — an illness other than the one he died of — news of it reached al-Aswad, and he claimed
+> prophethood. He was a conjuror who showed them wonders, and Madhḥij followed him. The apostasy of
+> al-Aswad was the first apostasy in Islam, in the time of the Messenger of Allah ﷺ."
+
+> أول ردة كانت في الإسلام على عهد رسول الله صلى الله عليه وسلم على يد عبهلة بن كعب، وهو الأسود، في عامة مذحج: خرج بعد حجة الوداع،
+> وكان شعباذا يريهم الأعاجيب، ويسبي قلوب من يسمع منطقه
+> — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۲۸⁩ · https://shamela.ws/book/10906/1176
+> *English:* "The first apostasy in Islam, in the time of the Messenger of Allah ﷺ, was at the hand of
+> ʿAbhala b. Kaʿb — al-Aswad — among the generality of Madhḥij. He came out after Ḥajjat al-Wadāʿ. He
+> was a conjuror who showed them wonders, and he captivated the hearts of whoever heard him speak."
+
+> كان الأسود العنسيّ واسمه عبهلة بن كعب ولقبه ذو الخمار، وكان كاهنا مشعوذا يفعل الأعاجيب ويخلب بحلاوة منطقه
+> — ⁨تاریخ ابن خلدون ج۲ ص۴۸۲⁩ · https://shamela.ws/book/12320/1279
+> *English (Ibn Khaldūn):* "Al-Aswad al-ʿAnsī — his name ʿAbhala b. Kaʿb, his nickname Dhū al-Khimār —
+> was a soothsayer and a conjuror who worked wonders and beguiled with the sweetness of his speech."
+
+Ibn Khaldūn is **framing only** — «⁨كاهنا⁩» (soothsayer) is his word; attribute it to him by name if used.
+Al-Dhahabī's report comes through Sayf b. ʿUmar, from al-Ḍaḥḥāk b. Fayrūz, from his father.
 
 ---
 
@@ -875,10 +1052,21 @@ turns red. Then a red wash spreading, feathered, over Yemen.
 **What happened:** He came out with seven hundred fighting men and sent the Prophet's ﷺ governors a
 letter: you who rebel against us, hand back what you have taken of our land, keep what you have
 collected intact, for we have the better right to it. Ten nights after he came out he had Najrān. Then he
-made for Ṣanʿāʾ. Shahr, son of Bādhām, came out to meet him at a place called Shaʿūb, and was killed, and
+made for Ṣanʿāʾ. The first men to stand against him, Ibn al-Athīr says, were Shahr, Fayrūz and
+Dādhawayh. Shahr, son of Bādhām, came out to meet him at a place called Shaʿūb, and was killed, and
 his army of the Abnāʾ was broken. On the twenty-fifth night al-Aswad was in Ṣanʿāʾ. A man at al-Janad
 remembered it arriving as news, one piece at a time: he is at Shaʿūb; Shahr has gone out to him; he has
 killed Shahr; he holds Ṣanʿāʾ. And the books say his affair spread like fire.
+**Beats:**
+1. He comes out with seven hundred — Al-Aswad came out with seven hundred fighting men.
+2. "You who rebel against us" — He wrote to the Prophet's ﷺ governors, calling them rebels: hand back our land; we have the better right.
+3. Najrān in ten nights — Ten nights after he came out, he had Najrān.
+4. The first to stand against him — Then he made for Ṣanʿāʾ. Ibn al-Athīr names the first to stand against him: Shahr, Fayrūz ؓ and Dādhawayh.
+5. Shahr killed at Shaʿūb — Shahr son of Bādhām met him at Shaʿūb, and was killed; his army of the Abnāʾ was broken.
+6. Ṣanʿāʾ within the month — Al-Aswad held Ṣanʿāʾ on the twenty-fifth night, says Ibn Kathīr; after twenty-odd, says al-Dhahabī.
+7. News at al-Janad, piece by piece — At al-Janad the news came in pieces: he is at Shaʿūb; Shahr went out; Shahr is killed; Ṣanʿāʾ is his.
+8. Spreading like fire — And the books say his affair spread like fire.
+**Quote after beat:** 2
 **The statement:**
 > وكتب إلى عُمّال النبي ﷺ: أيّها المتمرِّدون علينا، أمسكوا علينا ما أخذتم من أرضنا، ووفِّروا ما جمعتم، فنحن أولى به، وأنتم على ما أنتم عليه
 > — ⁨البدایہ والنہایہ ج۷ ص۱۴⁩ · https://shamela.ws/book/30097/3160
@@ -888,8 +1076,27 @@ killed Shahr; he holds Ṣanʿāʾ. And the books say his affair spread like fir
 
 **⁨عبرت⁩:** He called the lawful governors the rebels — the first thing a usurper changes is the words.
 **Hands-up?** Before the numbers: *"Seven hundred men. How long, do you think, to take Ṣanʿāʾ?"*
-**Also on the page (⁨الکامل ج۲ ص۱۹۷⁩):** «⁨وَاسْتَطَارَ أَمْرُهُ كَالْحَرِيقِ⁩». **Supersedes E-TB28's first
-half.**
+**Also on the page:**
+
+> ثم ركب فتوجّه إلى نَجْران فأخذها بعد عشرِ ليالٍ من مخرجه ثم قصد إلى صنعاء، فخرج إليه شَهْر بن باذام فتقاتلا، فغلبه الأسودُ وقتله، وكسر جيشه من الأبناء واحتلّ بلدة صنعاء لخمسٍ وعشرين ليلةً من مخرجه
+> — ⁨البدایہ والنہایہ ج۷ ص۱۴⁩ · https://shamela.ws/book/30097/3160
+> *English:* "Then he rode to Najrān and took it ten nights after he came out; then he made for Ṣanʿāʾ.
+> Shahr b. Bādhām came out against him and they fought; al-Aswad overcame him and killed him, broke his
+> army of the Abnāʾ, and occupied the town of Ṣanʿāʾ twenty-five nights after he came out."
+
+> فبينا نحن ننظر في أمرنا إذ قيل: هذا الأسود بشعوب، وقد خرج إليه شهر بن باذام، ثم أتانا الخبر أنه قتل شهرا وهزم الأبناء، وغلب على صنعاء بعد نيف وعشرين ليلة
+> — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۲۹⁩ · https://shamela.ws/book/10906/1177
+> *English:* "While we were considering our position, it was said: al-Aswad is at Shaʿūb, and Shahr b.
+> Bādhām has gone out against him. Then the news came to us that he had killed Shahr, routed the
+> Abnāʾ, and taken Ṣanʿāʾ after twenty-odd nights."
+
+> وَكَانَ أَوَّلَ مَنِ اعْتَرَضَ الْأَسْوَدَ الْكَاذِبَ - شَهْرُ، وَفَيْرُوزُ، وَدَاذَوَيْهِ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۷⁩ · https://shamela.ws/book/21712/888
+> *English:* "The first to stand against al-Aswad the liar were Shahr, Fayrūz and Dādhawayh."
+
+Ibn al-Athīr, same page: «⁨وَاسْتَطَارَ أَمْرُهُ كَالْحَرِيقِ⁩» — full quotation under E-AW06. The witness at al-Janad
+is ʿUbayd b. Ṣakhr (§2.2); al-Dhahabī's "twenty-odd nights" sits beside Ibn Kathīr's twenty-five —
+keep both. **Supersedes E-TB28's first half.**
 
 ---
 
@@ -900,9 +1107,21 @@ blue lines joining and running east to **⁨حضرموت⁩** (Muʿādh ؓ and A
 **What happened:** Muʿādh b. Jabal left Ṣanʿāʾ in flight, reached Abū Mūsā at Maʾrib, and the two of
 them went on to Ḥaḍramawt. ʿAmr b. Ḥazm and Khālid b. Saʿīd went back to Medina. The other governors
 fell back on al-Ṭāhir b. Abī Hāla in the mountains of ʿAkk. Ibn al-Athīr says al-Aswad's hand reached
-from the desert of Ḥaḍramawt to al-Ṭāʾif, to al-Aḥsāʾ and to Aden. A great many in Yemen apostatised.
-And the Muslims who stayed dealt with him by keeping their heads down and their faith hidden. At
-Ḥaḍramawt, Muʿādh married into the tribe of al-Sakūn, and they drew close around him.
+from the desert of Ḥaḍramawt to al-Ṭāʾif, to al-Aḥsāʾ and to Aden, and Ibn Kathīr says his kingdom
+grew strong and his affair hardened. A great many in Yemen apostatised. And the Muslims who stayed dealt
+with him by keeping their heads down and their faith hidden. Al-Dhahabī adds that al-Aswad never wrote
+to the Messenger of Allah ﷺ at all: there was no one to contest him, and the kingdom of Yemen was clear
+for him. At Ḥaḍramawt, Muʿādh married into the tribe of al-Sakūn, and they drew close around him.
+**Beats:**
+1. Muʿādh ؓ and Abū Mūsā ؓ to Ḥaḍramawt — Muʿādh ؓ left Ṣanʿāʾ in flight, reached Abū Mūsā ؓ at Maʾrib, and the two went on to Ḥaḍramawt.
+2. Two governors return to Medina — ʿAmr b. Ḥazm ؓ and Khālid b. Saʿīd ؓ went back to Medina.
+3. The rest fall back on ʿAkk — The other governors fell back on al-Ṭāhir b. Abī Hāla in the mountains of ʿAkk.
+4. From Ḥaḍramawt to al-Ṭāʾif and Aden — Ibn al-Athīr: his hand reached from the desert of Ḥaḍramawt to al-Ṭāʾif, al-Aḥsāʾ and Aden.
+5. Many in Yemen apostatise — His kingdom grew strong and his affair hardened; a great many in Yemen apostatised.
+6. The Muslims who stayed hide their faith — The Muslims who stayed dealt with him by keeping their heads down and their faith hidden.
+7. He never wrote to the Prophet ﷺ — Al-Dhahabī: al-Aswad never wrote to the Prophet ﷺ; no one contested him, and Yemen was clear for him.
+8. Muʿādh ؓ marries into al-Sakūn — At Ḥaḍramawt, Muʿādh ؓ married into the tribe of al-Sakūn, and they drew close around him.
+**Quote after beat:** 1
 **The statement:**
 > وَخَرَجَ مُعَاذٌ هَارِبًا حَتَّى لَحِقَ بِأَبِي مُوسَى وَهُوَ بِمَأْرِبَ، فَلَحِقَا بِحَضْرَمَوْتَ
 > — ⁨الکامل فی التاریخ ج۲ ص۱۹۷⁩ · https://shamela.ws/book/21712/888
@@ -912,6 +1131,31 @@ And the Muslims who stayed dealt with him by keeping their heads down and their 
 **⁨عبرت⁩:** The book writes down, without softening, that great Companions ran — and that running was
 how they lived to come back.
 **Hands-up?** no
+**Also on the page:**
+
+> وَاسْتَتَبَّ لِلْأَسْوَدِ مُلْكُ الْيَمَنِ، وَلَحِقَ أُمَرَاءُ الْيَمَنِ إِلَى الطَّاهِرِ بْنِ أَبِي هَالَةَ، إِلَّا عَمْرًا وَخَالِدًا؛ فَإِنَّهُمَا رَجَعَا إِلَى الْمَدِينَةِ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۷⁩ · https://shamela.ws/book/21712/888
+> *English:* "The kingdom of Yemen was secured for al-Aswad. The governors of Yemen fell back on
+> al-Ṭāhir b. Abī Hāla — except ʿAmr and Khālid, who went back to Medina."
+
+> وَغَلَبَ الْأَسْوَدُ عَلَى مَا بَيْنَ مَفَازَةِ حَضْرَمَوْتَ إِلَى الطَّائِفِ، إِلَى الْبَحْرَيْنِ وَالْأَحْسَاءِ، إِلَى عَدَنَ، وَاسْتَطَارَ أَمْرُهُ كَالْحَرِيقِ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۷⁩ · https://shamela.ws/book/21712/888
+> *English:* "Al-Aswad prevailed over everything from the desert of Ḥaḍramawt to al-Ṭāʾif, to al-Baḥrayn
+> and al-Aḥsāʾ, to ʿAdan — and his affair spread like a fire."
+
+> واشتدّ ملكه، واستغلظ أمره، وارتدّ خلق من أهل اليمن، وعامله المسلمون الذين هناك بالتقية
+> — ⁨البدایہ والنہایہ ج۷ ص۱۴⁩ · https://shamela.ws/book/30097/3160
+> *English:* "His kingdom grew strong and his affair hardened; a great many of the people of Yemen
+> apostatised, and the Muslims who were there dealt with him by guarded concealment."
+
+> ولم يكاتب الأسود رسول الله صلى الله عليه وسلم؛ لأنه لم يكن معه أحد يشاغبه، وصفا له ملك اليمن.
+> — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۲۸⁩ · https://shamela.ws/book/10906/1176
+> *English:* "Al-Aswad did not write to the Messenger of Allah ﷺ, because there was no one with him to
+> contest him, and the kingdom of Yemen was clear for him."
+
+**Drawing the reach:** «⁨مَا بَيْنَ مَفَازَةِ حَضْرَمَوْتَ إِلَى الطَّائِفِ⁩» is a claim of dominance — a feathered zone, not a
+frontier. *(Musaylima, by contrast, did write — that contrast is our observation, not a sentence on these
+pages; for the room, not for a slide.)*
 
 ---
 
@@ -926,6 +1170,14 @@ killed, Shahr son of Bādhām. She was Fayrūz's cousin. Ibn Kathīr gives her n
 about her: that she was beautiful — and that she was a believer in Allah and His Messenger, and one of
 the righteous. Then, once he felt secure, al-Aswad began to treat all three of his commanders with
 contempt.
+**Beats:**
+1. Madhḥij: ʿAmr b. Maʿdī Karib — He had to govern what he had taken. Over Madhḥij he put ʿAmr b. Maʿdī Karib.
+2. The army: Qays b. Makshūḥ — Over the army, Qays b. ʿAbd Yaghūth: the man also called Qays b. Makshūḥ.
+3. The Abnāʾ: Fayrūz ؓ and Dādhawayh — Over the Abnāʾ, the Persians of Ṣanʿāʾ, two of their own: Fayrūz al-Daylamī ؓ and Dādhawayh.
+4. He marries the widow of Shahr — He married the widow of the man he had killed, Shahr son of Bādhām. She was Fayrūz's ؓ cousin.
+5. Zādh: a believer, one of the righteous — Ibn Kathīr names her Zādh: beautiful, and a believer in Allah and His Messenger ﷺ, one of the righteous.
+6. Contempt for his commanders — Once he felt secure, al-Aswad began to treat all three of his commanders with contempt.
+**Quote after beat:** 5
 **The statement:**
 > وتزوَّج بامرأة شهر بن باذام وهي ابنةُ عمَّ فيروز الدَّيلمي، واسمها زاذ، وكانت امرأةً حسناءَ جميلةً، وهي مع ذلك مؤمنةٌ بالله ورسوله محمد ﷺ، ومن الصالحات.
 > — ⁨البدایہ والنہایہ ج۷ ص۱۴⁩ · https://shamela.ws/book/30097/3160
@@ -936,6 +1188,13 @@ contempt.
 **⁨عبرت⁩:** He put the men he had defeated in charge of their own people, and married into the house he
 had destroyed — and kept the enemy inside his own walls.
 **Hands-up?** no
+**Also on the page:**
+
+> وكان خليفته على مَذْحِج عمرو بن معدي كرب، وأسند أمر الجند إلى قيس بن عبد يغوث، وأسند أمر الأبناء إلى فيروز الدَّيْلمي وداذويه
+> — ⁨البدایہ والنہایہ ج۷ ص۱۴⁩ · https://shamela.ws/book/30097/3160
+> *English:* "His deputy over Madhḥij was ʿAmr b. Maʿdī Karib; he gave command of the army to Qays b.
+> ʿAbd Yaghūth, and command of the Abnāʾ to Fayrūz al-Daylamī and Dādhawayh."
+
 **Name:** Zādh in ⁨البدایہ⁩, Āzād in ⁨الکامل ج۲ ص۱۹۸⁩. Say "Ibn Kathīr calls her Zādh".
 
 ---
@@ -950,8 +1209,20 @@ Jishnas al-Daylamī, who later told the story. The order was to fight al-Aswad, 
 stealth, and to write to everyone who still held to religion. Jishnas says they looked at Qays and
 reasoned: Qays is afraid for his life; he will answer the first call. They went to him with the
 Prophet's ﷺ message, and it was, he says, as if they had come down to him out of the sky. Letters went
-to Najrān as well, and the chiefs of the highlands wrote offering help; the men in Ṣanʿāʾ told them to
-wait. And al-Aswad felt it closing.
+to Najrān as well, and the people of Najrān answered him; the chiefs of the highlands wrote offering
+help, and the men in Ṣanʿāʾ told them to wait. And al-Aswad felt it closing. Ibn al-Athīr notes that
+Abū Bakr ؓ, after him, fought the apostates the same way — with envoys.
+**Beats:**
+1. Medina hears of al-Aswad — Word of al-Aswad reached Medina, and the Prophet ﷺ wrote.
+2. Wabr brings the letters to Ṣanʿāʾ — Wabr b. Yuḥannas brought them to Fayrūz ؓ, to Dādhawayh, and to Jishnas al-Daylamī, who later told the story.
+3. By open fight, or by stealth — The order: fight al-Aswad, in the open or by stealth, and write to all who still held to religion.
+4. Qays will answer the first call — Jishnas says they reasoned: Qays is afraid for his life; he will answer the first call.
+5. As if from the sky; Qays answers — They gave Qays the Prophet's ﷺ message; it was as if they had come down to him from the sky.
+6. Najrān answers too — Letters went to Najrān as well, and the people of Najrān answered.
+7. The highland chiefs are told to wait — The chiefs of the highlands wrote offering help; the men in Ṣanʿāʾ told them to wait.
+8. Al-Aswad senses his ruin — Word of it reached al-Aswad, and he felt it closing: he sensed his ruin.
+9. Abū Bakr ؓ would fight the same way — Ibn al-Athīr: after the Prophet ﷺ, Abū Bakr ؓ fought the apostates the same way, with envoys.
+**Quote after beat:** 3
 **The statement:**
 > فَجَاءَتْنَا كُتُبُ النَّبِيِّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - يَأْمُرُنَا بِقِتَالِهِ، إِمَّا مُصَادَمَةً أَوْ غِيلَةً
 > — ⁨الکامل فی التاریخ ج۲ ص۱۹۸⁩ · https://shamela.ws/book/21712/889
@@ -960,8 +1231,34 @@ wait. And al-Aswad felt it closing.
 
 **⁨عبرت⁩:** The claim that began on news of his illness was ended by the letters he sent.
 **Hands-up?** no
-**Framing, by name:** Ibn Khaldūn (⁨ج۲ ص۴۸۴⁩) — «⁨ولم يشغله ما كان فيه من الوجع عن أمر الله والذبّ عن دينه⁩».
-The hard anchor that Abū Bakr ؓ then fought the ridda the same way, «⁨بِالرُّسُلِ⁩», is ⁨الکامل ج۲ ص۲۰۱⁩.
+**Also on the page:**
+
+> فَقُلْنَا: إِنَّ قَيْسًا يَخَافُ عَلَى دَمِهِ، فَهُوَ لِأَوَّلِ دَعْوَةٍ، فَدَعَوْنَاهُ وَأَبْلَغْنَاهُ عَنِ النَّبِيِّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - فَكَأَنَّمَا نَزَلْنَا عَلَيْهِ مِنَ السَّمَاءِ، فَأَجَابَنَا
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۸⁩ · https://shamela.ws/book/21712/889
+> *English:* "We said: Qays fears for his life, so he will answer the first call. We called him and
+> gave him the message from the Prophet ﷺ — and it was as though we had come down to him from the sky.
+> He answered us."
+
+> وَكَتَبَ أَيْضًا إِلَى أَهْلِ نَجْرَانَ فَأَجَابُوهُ، وَبَلَغَ ذَلِكَ الْأَسْوَدُ، وَأَحَسَّ بِالْهَلَاكِ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۸⁩ · https://shamela.ws/book/21712/889
+> *English:* "He ﷺ also wrote to the people of Najrān, and they answered him. That reached al-Aswad, and
+> he sensed his ruin."
+
+> فَحَارَبَهُمْ أَبُو بَكْرٍ بِمَا كَانَ رَسُولُ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - يُحَارِبُهُمْ؛ بِالرُّسُلِ
+> — ⁨الکامل فی التاریخ ج۲ ص۲۰۱⁩ · https://shamela.ws/book/21712/892
+> *English:* "So Abū Bakr fought them with what the Messenger of Allah ﷺ had fought them with — with
+> envoys."
+
+**Framing, by name — Ibn Khaldūn, never alone:**
+
+> وحاربهم رسول الله صلى الله عليه وسلم بالرسل والكتب إلى عماله ومن ثبت على إسلامه من قومهم أن يجدّوا في جهادهم، فأصيب الأسود قبل وفاته بيوم ولم يشغله ما كان فيه من الوجع عن أمر الله والذبّ عن دينه
+> — ⁨تاریخ ابن خلدون ج۲ ص۴۸۴⁩ · https://shamela.ws/book/12320/1281
+> *English (Ibn Khaldūn):* "The Messenger of Allah ﷺ fought them with envoys and with letters to his
+> governors and to those of their people who held to Islam, to strive against them. Al-Aswad was struck
+> down a day before his death — and the pain he was in did not distract him from the command of Allah
+> and the defence of His religion."
+
+Ibn Khaldūn's «⁨قبل وفاته بيوم⁩» is **his** reading of the timing, never the date (E-AW15).
 
 ---
 
@@ -974,9 +1271,23 @@ stood as high as you, and now he leans toward your enemy and reaches for your ki
 would never think such a thing — and Ibn Kathīr adds, flatly, that he lied — swearing by al-Aswad's own
 nickname. Al-Aswad said: the angel spoke the truth, and now it knows you have repented. Then he called in
 the other three: did I not raise you over your people? What is this I hear? They said: pardon us this
-once. They came out, Qays says, barely alive. Later al-Aswad called Qays in again; Qays went in with ten
-men of his tribe around him, and al-Aswad could not kill him in front of them — and let him go. Qays walked out,
-passed his companions without sitting down, and said three words.
+once. They came out, Qays says, barely alive — al-Aswad still suspicious of them, and they in danger.
+Later al-Aswad called Qays in again; Qays went in with ten men of his tribe around him, and al-Aswad could
+not kill him in front of them. In al-Dhahabī's telling he said: I am ʿAbhala — is it from me that you
+shelter behind men? Did I not tell you the truth, while you told me lies? You want to kill me! Qays
+offered him his life; al-Aswad softened, and let him go. Qays walked out, passed his companions without
+sitting down, and said three words.
+**Beats:**
+1. Al-Aswad summons Qays — Al-Aswad told Qays his shayṭān, as the books call it, had said: Qays now reaches for your kingdom.
+2. Qays swears, and lies — Qays swore he would never think such a thing; Ibn Kathīr adds, flatly, that he lied.
+3. "Now you have repented" — Al-Aswad accepted the oath: Qays, he said, had now repented.
+4. He calls in the other three — Did I not raise you over your people? What is this I hear? They said: pardon us this once.
+5. Out barely alive — They came out, Qays says, barely alive: al-Aswad still suspicious of them, and they in danger.
+6. Qays comes in with ten men — Called in again, Qays came with ten men around him; al-Aswad could not kill him before them.
+7. "I am ʿAbhala" — In al-Dhahabī's telling: is it from me that you shelter behind men? You want to kill me!
+8. Qays offers his life; al-Aswad relents — Qays offered him his life; al-Aswad softened, and let him go.
+9. "Do what you have to do" — Qays walked out, passed his companions without sitting down, and said: do what you have to do.
+**Quote after beat:** 9
 **The statement:**
 > فَرَقَّ لَهُ وَتَرَكَهُ، وَخَرَجَ قَيْسٌ فَمَرَّ بِنَا وَقَالَ: اعْمَلُوا عَمَلَكُمْ. وَلَمْ يَقْعُدْ عِنْدَنَا.
 > — ⁨الکامل فی التاریخ ج۲ ص۱۹۸⁩ · https://shamela.ws/book/21712/889
@@ -988,6 +1299,34 @@ passed his companions without sitting down, and said three words.
 ⚠ Qays's and Fayrūz's words to al-Aswad in these scenes address him as a prophet — men lying to survive.
 **Keep those lines off the slide face.** Al-Dhahabī reads «⁨فاقتلكم⁩» where Ibn Kathīr reads «⁨فأقيلكم⁩» — keep
 both.
+**Also on the page:**
+
+> فدعا قَيْس بن مكشوح، فقال له: يا قَيْسُ ما يقولُ هذا؟ قال: وما يقول؟ قال يقول: عمدت إلى قيس فأكرمته حتى إذا دخل منه كلَّ مدخل، وصار في العزّ مثلَكَ، مال ميلَ عدوّك، وحاول ملكك، وأضمرَ على الغَدْر
+> — ⁨البدایہ والنہایہ ج۷ ص۱۵⁩ · https://shamela.ws/book/30097/3161
+> *English:* "He summoned Qays b. Makshūḥ and said: Qays, what is this one saying? He said: and what does
+> he say? He said: he says — you took up Qays and honoured him, until he had gone in by every door and
+> stood in honour like you; and then he leaned the way your enemy leans, reached for your kingdom, and
+> hid treachery."
+
+> فقال له قيس وحلف له فكذب: وذي الخمار لأنتَ أعظمُ في نفسي وأجلُّ عندي من أن أحدّث بك نفسي
+> — ⁨البدایہ والنہایہ ج۷ ص۱۵⁩ · https://shamela.ws/book/30097/3161
+> *English:* "Qays swore to him — and lied: 'By Dhū al-Khimār, you are too great in my soul and too
+> exalted with me for me to think such a thing of you.'"
+
+> فقال: ألم أشَرِّفكم على قومكم؟ قالوا: بلى، قال: فماذا يبلغني عنكم؟ فقالوا: أقِلْنا مَرَّتنا هذه، فقال: لا يبلغني عنكم فأقيلكم، قال: فخرجنا من عنده ولم نكد، وهو في ارتيابٍ من أمرنا، ونحنُ على خطرٍ
+> — ⁨البدایہ والنہایہ ج۷ ص۱۵⁩ · https://shamela.ws/book/30097/3161
+> *English:* "He said: did I not raise you above your people? They said: yes. He said: then what is this
+> that reaches me about you? They said: pardon us this once. He said: let nothing reach me about you, and
+> I will pardon you. We came out from him and barely did so — he suspicious of us, and we in danger."
+
+> فدخل في عشرة فلم يقدر على قتله معهم، وقال: أنا عبهلة أمني تتحصن بالرجال؟ ألم أخبرك الحق وتخبرني الكذب، تريد قتلي!
+> — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۳۰⁩ · https://shamela.ws/book/10906/1178
+> *English:* "He came in with ten, and he could not kill him with them there. He said: I am ʿAbhala — is
+> it from me you shelter behind men? Did I not tell you the truth while you told me lies? You want to
+> kill me!"
+
+The first two quotations are al-Aswad's "angel" speaking and Qays's lying oath «⁨وذي الخمار⁩» — **notes only**.
+Ibn al-Athīr has the ten as «⁨فِي عَشَرَةٍ مِنْ مَذْحِجٍ وَهَمْدَانَ⁩» (⁨ج۲ ص۱۹۸⁩).
 
 ---
 
@@ -1001,6 +1340,14 @@ us against him? She said: to do what? He said: to put him out. She said: or to k
 kill him. She said: yes. By Allah, Allah has not made a person more hateful to me. He stands for no right
 of Allah, and he stops at nothing sacred. When you have made up your minds, tell me — and I will tell you
 how it can be done.
+**Beats:**
+1. One of them goes in to the widow — Ibn Kathīr says it was Qays; Ibn al-Athīr and al-Dhahabī say Jishnas. The reports differ.
+2. "He killed your husband" — Cousin, he killed your husband, pressed the killing among your family, dishonoured the women. Will you stand with us?
+3. "Or to kill him" — She asked: to do what? To put him out, he said. She said: or to kill him.
+4. She says yes — He said: or to kill him. She said: yes. By Allah, Allah has made no person more hateful to me.
+5. "He stops at nothing sacred" — He stands for no right of Allah, and he stops at nothing sacred.
+6. "I will tell you how" — When you have made up your minds, tell me, and I will tell you how it can be done.
+**Quote after beat:** 4
 **The statement:**
 > قالت: على أي أمر، قلتُ إخراجه، قالت: أو قتله، قلت: أو قتله، قالتْ: نعم، واللهِ ما خلقَ اللهُ شخصًا هو أبغضُ إليَّ منه
 > — ⁨البدایہ والنہایہ ج۷ ص۱۵⁩ · https://shamela.ws/book/30097/3161
@@ -1010,6 +1357,26 @@ how it can be done.
 **⁨عبرت⁩:** The men came to her with half a plan; she was the one who finished the sentence.
 **Hands-up?** Before her answer: *"Three men need someone inside the house. Who is the only person who
 can help them?"*
+**Also on the page:**
+
+> فدخلت على امرأته زاذ، فقلت: يا ابنةَ عمّي قد عرفت بلاءَ هذا الرجل عند قومك، قتلَ زوجَك، وطأطأ في قومك القتلَ، وفضحَ النساءَ، فهل عندك ممالأةٌ عليه؟
+> — ⁨البدایہ والنہایہ ج۷ ص۱۵⁩ · https://shamela.ws/book/30097/3161
+> *English:* "I went in to his wife Zādh and said: cousin, you know what this man has done to your
+> people — he killed your husband, pressed the killing hard among your people, and dishonoured the
+> women. Will you side with us against him?"
+
+> فما يقومُ لله على حقٍّ ولا ينتهي له عن حرمة، فإذا عزمتمْ أخبروني أعلمكم بما في هذا الأمر
+> — ⁨البدایہ والنہایہ ج۷ ص۱۵⁩ · https://shamela.ws/book/30097/3161
+> *English:* "He does not stand for any right of Allah, and he stops at nothing sacred. When you have
+> decided, tell me, and I will tell you how the thing can be done."
+
+> قَالَ: فَدَخَلْتُ عَلَى آزَادَ، وَهِيَ امْرَأَتُهُ الَّتِي تَزَوَّجَهَا بَعْدَ قَتْلِ زَوْجِهَا شَهْرِ بْنِ بَاذَانَ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۸⁩ · https://shamela.ws/book/21712/889
+> *English:* "He said: I went in to Āzād — his wife, whom he had married after the killing of her
+> husband Shahr b. Bādhān."
+
+⚠ **Who went in to her differs:** Qays in ⁨البدایہ⁩ («⁨قال قيس⁩»); the narrator Jishnas in ⁨الکامل⁩ and ⁨سیر⁩
+⁨الراشدون ص۳۰⁩. Both agree on what she said. Say "one of them" aloud, or name the book.
 
 ---
 
@@ -1024,6 +1391,15 @@ I hear about you true? I had a mind to slaughter you and send you after these be
 the spear. Fayrūz talked his way out, and was sent to divide the meat among the people of Ṣanʿāʾ. When he
 hurried back, he found a man informing on him, and heard al-Aswad say: I will kill him tomorrow, and his
 companions.
+**Beats:**
+1. A hundred beasts behind a line — Al-Aswad had a hundred cattle and camels brought, drew a line on the ground, and stood them behind it.
+2. Not one crossed the line — He slaughtered them untethered and unhobbled; not one crossed the line. They milled until they died.
+3. "Nor a day more desolate" — Qays said he never saw a thing more dreadful, nor a day more desolate.
+4. The spear shown to Fayrūz ؓ — Al-Aswad turned to Fayrūz ؓ: I had a mind to slaughter you after these beasts. He showed him the spear.
+5. Sent to divide the meat — Fayrūz ؓ talked his way out, and was sent to divide the meat among the people of Ṣanʿāʾ.
+6. A man informing on him — Hurrying back, Fayrūz ؓ found a man informing on him.
+7. "I will kill him tomorrow" — He heard al-Aswad say: I will kill him tomorrow, and his companions.
+**Quote after beat:** 7
 **The statement:**
 > فإذا الأسود يقول: أنا قاتلُه غدًا وأصحابه، فاغْدُ عليَّ به
 > — ⁨البدایہ والنہایہ ج۷ ص۱۶⁩ · https://shamela.ws/book/30097/3162
@@ -1032,8 +1408,24 @@ companions.
 
 **⁨عبرت⁩:** Terror bought him one more day, and it told his enemies exactly how much time they had.
 **Hands-up?** no
-**Also on the page:** Qays's «⁨فما رأيتُ أمرًا كانَ أفظعَ منه، ولا يومًا أوحشَ منه⁩» — a strong second line
-if the slide has room.
+**Also on the page:**
+
+> إذ خرجَ الأسودُ عليهم وقد جمعَ له مئةً ما بين بقرةٍ وبعيرٍ، فقام وخطَّ خطًا وأقيمت من ورائه، وقام دونها، فنحرها، غير مُحْبَسَةٍ ولا مُعقَّلة، ما يقتحم الخطّ منها شيء، فجالت إلى أن زهقت أرواحها، قال قيس: فما رأيتُ أمرًا كانَ أفظعَ منه، ولا يومًا أوحشَ منه
+> — ⁨البدایہ والنہایہ ج۷ ص۱۶⁩ · https://shamela.ws/book/30097/3162
+> *English:* "Al-Aswad came out on them, having gathered a hundred head, cattle and camels. He stood, drew
+> a line, had them stood behind it, and stood on the near side — and slaughtered them, neither tethered
+> nor hobbled, and not one of them crossed the line; they milled about until their lives went out. Qays
+> said: I never saw a thing more dreadful, nor a day more desolate."
+
+> ثم قال الأسود: أحقٌّ ما بلغني عنكَ يا فيروز؟ لقد هممت أن أنحركَ فالحقكَ بهذه البهيمة، وأبدى له الحربةَ
+> — ⁨البدایہ والنہایہ ج۷ ص۱۶⁩ · https://shamela.ws/book/30097/3162
+> *English:* "Then al-Aswad said: is what reaches me about you true, Fayrūz? I had a mind to slaughter
+> you and send you after these beasts — and he showed him the spear."
+
+Qays's closing line «⁨فما رأيتُ أمرًا كانَ أفظعَ منه، ولا يومًا أوحشَ منه⁩» is a strong second line if the slide
+has room. ⚠ Fayrūz's reply to the spear addresses al-Aswad as a prophet in order to survive — **notes
+only**, never the face. Al-Dhahabī's narrator adds that he gave "a camel to each group and a cow to each
+household" when he divided the meat (⁨الراشدون ص۳۱⁩).
 
 ---
 
@@ -1049,6 +1441,16 @@ you. The man ran to the others: we must go, now. They did not know what to do. T
 her: do not turn back from what you decided. Fayrūz went in, loosened the lining of that wall from the
 inside so the digging would be quick, and sat with her openly like a guest. Al-Aswad walked in, and
 jealousy took him; she told him Fayrūz was her foster-brother and her cousin, and he threw him out.
+**Beats:**
+1. The widow: every room guarded but one — Every room in this house has guards around it except this one. Its back wall is on the road.
+2. A lamp and a weapon left ready — At evening, dig through from outside the guard. I will leave a lamp and a weapon in the room.
+3. "What brought you in to my household?" — Al-Aswad met her visitor coming out and struck him down. Ibn Kathīr: Fayrūz ؓ; Ibn al-Athīr and al-Dhahabī: Jishnas.
+4. "My cousin, come to visit me" — She screamed: it is my cousin, come to visit me. He said: be quiet; I give him to you.
+5. "We must go, now" — The struck man ran to the others: we must go, now. They did not know what to do.
+6. "Do not turn back" — Then a message came from her: do not turn back from what you decided.
+7. Fayrūz ؓ loosens the wall — Fayrūz ؓ went in, loosened the wall's lining from inside to speed the digging, and sat with her openly.
+8. "My foster-brother, and my cousin" — Al-Aswad walked in and jealousy took him. She said Fayrūz ؓ was her foster-brother and cousin; he threw him out.
+**Quote after beat:** 2
 **The statement:**
 > إنه ليس من الدار بيت إلا والحرس محيطون به، غير هذا البيت، فإن ظهره إلى مكان كذا وكذا من الطّريق، فإذا أمسيتُم فانقبوا عليه من دون الحرس
 > — ⁨البدایہ والنہایہ ج۷ ص۱۶⁩ · https://shamela.ws/book/30097/3162
@@ -1059,6 +1461,24 @@ jealousy took him; she told him Fayrūz was her foster-brother and her cousin, a
 thought to guard against.
 **Hands-up?** no
 **Who was struck** — Fayrūz in ⁨البدایہ⁩; Jishnas in ⁨الکامل⁩ and ⁨سیر⁩. Say "one of them" aloud.
+**Also on the page:**
+
+> فقال له: ما أدخلك على أهلي؟ ووجأ رأسه، وكان الأسود شديدًا، فصاحت المرأةُ فأدهشته عنه، ولولا ذلك لقتله، وقالت: ابنُ عميّ جاءني زائرًا، فقال: اسكتي لا أبا لك، قد وهبتُه لكِ
+> — ⁨البدایہ والنہایہ ج۷ ص۱۶⁩ · https://shamela.ws/book/30097/3162
+> *English:* "He said to him: what brought you in to my household? — and struck him on the head; al-Aswad
+> was powerful. The woman screamed and startled him off him — had she not, he would have killed him — and
+> she said: my cousin came to visit me. He said: be quiet, curse you; I give him to you."
+
+> فبعثت المرأةُ إليهم تقولُ لهم: لا تَنْثنوا عما كنتم عازمين عليه
+> — ⁨البدایہ والنہایہ ج۷ ص۱۶⁩ · https://shamela.ws/book/30097/3162
+> *English:* "The woman sent to them, saying: do not turn back from what you had resolved on."
+
+> فَدَخَلَ عَلَيْهَا الْأَسْوَدُ فَأَخَذَتْهُ غَيْرَةٌ، فَأَخْبَرَتْهُ بِرَضَاعٍ وَقَرَابَةٍ مِنْهَا عِنْدَهُ مَحْرَمٌ، فَأَخْرَجَهُ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۹⁩ · https://shamela.ws/book/21712/890
+> *English:* "Al-Aswad came in on her and jealousy seized him; she told him of a suckling-bond and a
+> kinship with her that made him a maḥram — and he put him out."
+
+Ibn Kathīr's wording of her answer: «⁨إنه أخي من الرضاعة، وهو ابن عمي⁩» (⁨ج۷ ص۱۶⁩).
 
 ---
 
@@ -1074,6 +1494,16 @@ took him by the head and broke his neck. The woman caught at his clothes, thinki
 said: I have killed him, and freed you of him. The others came in to finish it. The sound that came out
 of the body brought the guards running: what is this? And the woman said: the prophet is receiving
 revelation. And the guards went away.
+**Beats:**
+1. Through the wall by night — At night they dug through the wall and went in. A lamp was in the room, under a bowl.
+2. Fayrūz ؓ goes first — Fayrūz ؓ went in first, the strongest of them.
+3. Asleep on silk, drunk, snoring — Al-Aswad was asleep on a bed of silk, drunk and snoring; the woman sat beside him.
+4. His shayṭān speaks, as Ibn Kathīr tells it — Fayrūz ؓ reached the door; al-Aswad sat up, still snoring; a voice said: what have I to do with you?
+5. No turning back — Fayrūz ؓ knew that if he turned back now, he and the woman were both dead.
+6. Fayrūz ؓ kills him — Fayrūz ؓ threw himself on him, a man like a camel, and killed him; the others were with him.
+7. "I have killed him, and freed you" — She caught at his clothes, thinking it not done. He said: I have killed him, and freed you of him.
+8. The guards sent away — The others came in to finish it; the noise brought the guards. The woman answered them, and they left.
+**Quote after beat:** 8
 **The statement:**
 > فَقَالَتِ الْمَرْأَةُ: النَّبِيُّ يُوحَى إِلَيْهِ فَخَمَدُوا
 > — ⁨الکامل فی التاریخ ج۲ ص۱۹۹⁩ · https://shamela.ws/book/21712/890
@@ -1081,6 +1511,31 @@ revelation. And the guards went away.
 
 **⁨عبرت⁩:** The same claim that had frightened a country sent his own guards away from his door.
 **Hands-up?** no
+⚠ NOT FOR THE SLIDE FACE: the statement is the widow telling al-Aswad's guards that "the prophet" is
+receiving revelation — words said to save lives. Keep the Arabic and its rendering in the notes.
+**Also on the page:**
+
+> فلما كان الليلُ نقبوا ذلك البيتَ فدخلوا فوجدوا فيه سراجًا تحتَ جفنةٍ فتقدّم إليه فيروز الديلمي والأسود نائمٌ على فراشٍ من حرير، قد غرقَ رأسُه في جسده، وهو سكرانُ يغطُّ، والمرأةُ جالسةٌ عنده، فلما قام فيروزُ على الباب أجلسَه شيطانهُ وتكلَّم على لسانه - وهو مع ذلك يغطُّ - فقال: مالي ومالكَ يا فيروزُ؟
+> — ⁨البدایہ والنہایہ ج۷ ص۱۶⁩ · https://shamela.ws/book/30097/3162
+> *English:* "When night came they dug through into that room and went in, and found a lamp in it under a
+> bowl. Fayrūz al-Daylamī went forward. Al-Aswad was asleep on a bed of silk, his head sunk into his
+> body, drunk and snoring, and the woman sitting beside him. When Fayrūz stood at the door, his shayṭān
+> sat him up and spoke on his tongue — while he still snored — and said: what have I to do with you,
+> Fayrūz?"
+
+> فَخَشِيَ إِنْ رَجَعَ أَنْ يَهْلِكَ وَتَهْلِكَ الْمَرْأَةُ، فَعَاجَلَهُ وَخَالَطَهُ وَهُوَ مِثْلُ الْجَمَلِ، فَأَخَذَ بِرَأْسِهِ فَقَتَلَهُ وَدَقَّ عُنُقَهُ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۹⁩ · https://shamela.ws/book/21712/890
+> *English:* "He feared that if he turned back he would be killed and the woman with him; so he was on him
+> at once and grappled him — and al-Aswad was like a camel — took him by the head, killed him and broke
+> his neck."
+
+> فَأَخَذَتِ الْمَرْأَةُ بِثَوْبِهِ وَهِيَ تَرَى أَنَّهُ لَمْ يَقْتُلْهُ. فَقَالَ: قَدْ قَتَلْتُهُ وَأَرَحْتُكِ مِنْهُ
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۹⁩ · https://shamela.ws/book/21712/890
+> *English:* "The woman caught hold of his garment, thinking he had not killed him. He said: I have killed
+> him, and freed you of him."
+
+Why Fayrūz went first: «⁨كَانَ أَشَدَّنَا⁩» — the strongest of us (⁨الکامل ج۲ ص۱۹۹⁩); «⁨وكان أنجدنا⁩» — the boldest
+of us (⁨سیر الراشدون ص۳۱⁩).
 ⚠ **Who took the head is not agreed** — "the other" (⁨البدایہ⁩), Jishnas (⁨الکامل⁩), unnamed (⁨سیر⁩). **Say:
 Fayrūz killed him; the others were with him.** That much is also in al-Bukhārī's text (⁨البدایہ ج۵ ص۲۲⁩).
 Tell the physical detail once, plainly, and move on.
@@ -1093,12 +1548,27 @@ blue. Short red flickers leave it towards **⁨نجران⁩** and stay in betwe
 **What happened:** They sat through the rest of the night deciding how to tell their own side, and agreed
 on a signal at first light. At dawn one of them climbed the wall of the fortress — Ibn Kathīr says Qays,
 or it is said Wabr; Jishnas says he did it himself — and called the adhān to a crowd of Muslims and
-unbelievers gathering below, with a new sentence in it. And he threw the head down to them. Al-Aswad's
-horsemen broke — but not before they raided the town and snatched children. The people of Ṣanʿāʾ held on
-to whichever of his men were in their houses, and when his riders counted, seventy of them were missing.
-So the two sides exchanged: yours for ours. The governors came back to their districts. The three men
+unbelievers gathering below, with a new sentence in it. And he threw the head down to them. In
+al-Dhahabī's telling, Dādhawayh first called out their agreed signal, and Wabr gave the iqāma for the
+prayer. Al-Aswad's horsemen broke — but not before they raided the town, plundered, and snatched a great
+many children. The people of Ṣanʿāʾ held on to whichever of his men were in their houses, and when his
+riders counted, seventy of them were missing. So the two sides exchanged: yours for ours. His riders were
+left going back and forth between Ṣanʿāʾ and Najrān. The governors came back to their districts. The three men
 competed for the command, and settled on Muʿādh b. Jabal to lead the prayer. And they wrote the news to
 the Messenger of Allah ﷺ.
+**Beats:**
+1. A signal agreed for first light — They sat the rest of the night deciding how to tell their own side, and agreed a signal for dawn.
+2. The adhān from the fortress wall — At dawn the adhān was called from the wall: by Qays or Wabr, says Ibn Kathīr; by himself, says Jishnas.
+3. A new sentence in the adhān — I bear witness that Muḥammad ﷺ is the Messenger of Allah, and that ʿAbhala is a liar.
+4. The head thrown down — He threw al-Aswad's head down to the crowd of Muslims and unbelievers gathered below.
+5. The signal and the iqāma — In al-Dhahabī's telling, Dādhawayh first called out the agreed signal, and Wabr gave the iqāma for the prayer.
+6. His horsemen break, and raid — His horsemen broke, but first raided the town, plundered, and snatched a great many children.
+7. Seventy missing: yours for ours — The people of Ṣanʿāʾ held his men in their houses; seventy were missing. The two sides exchanged: yours for ours.
+8. Riders between Ṣanʿāʾ and Najrān — His riders were left going back and forth between Ṣanʿāʾ and Najrān.
+9. The governors return — The Prophet's ﷺ governors came back to their districts.
+10. The three settle on Muʿādh ؓ — The three men competed for the command, then settled on Muʿādh b. Jabal ؓ to lead the prayer.
+11. News written to the Prophet ﷺ — And they wrote the news to the Messenger of Allah ﷺ.
+**Quote after beat:** 3
 **The statement:**
 > فنادى قيسٌ ويقال: وبر بن يحنس، الأذان: أشهد أن محمدًا رسول الله، وأن عبهلة كذاب، وألقى إليهم رأسه فانهزم أصحابُه
 > — ⁨البدایہ والنہایہ ج۷ ص۱۷⁩ · https://shamela.ws/book/30097/3163
@@ -1109,8 +1579,82 @@ the Messenger of Allah ﷺ.
 **⁨عبرت⁩:** The rising was ended with the words of the adhān — and, the same morning, the victors were
 already competing for command.
 **Hands-up?** no
-**Next:** E-TB26 (the news from heaven) and E-TB27 (Fayrūz's three days) follow directly. **The seed of
-the second rising is here** — «⁨وتنافسنا الإمارة⁩» (⁨سیر الراشدون ص۳۲⁩).
+**Also on the page:**
+
+> ثم ناديت بالأذان، وتوافت خيولهم إلى الحرس، فنادينهم: أشهد أن محمدا رسول الله، وأن عبهلة كذاب، وألقينا إليهم الرأس، وأقام وبر الصلاة
+> — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۳۲⁩ · https://shamela.ws/book/10906/1180
+> *English:* "Then I called the adhān — their horsemen were gathering to the guard — and we called out to
+> them: 'I bear witness that Muḥammad is the Messenger of Allah, and that ʿAbhala is a liar,' and we threw
+> the head down to them; and Wabr called the iqāma for the prayer."
+
+> وَأَحَاطَ بِنَا أَصْحَابُهُ وَحَرَسُهُ، وَشَنُّوا الْغَارَةَ، وَأَخَذُوا صِبْيَانًا كَثِيرَةً وَانْتَهَبُوا. فَنَادَيْنَا أَهْلَ صَنْعَاءَ مَنْ عِنْدَهُ مِنْهُمْ فَأَمْسِكْهُ، فَفَعَلُوا. فَلَمَّا خَرَجَ أَصْحَابُهُ فَقَدُوا سَبْعِينَ رَجُلًا، فَرَاسَلُونَا، وَرَاسَلْنَاهُمْ عَلَى أَنْ يَتْرُكُوا لَنَا مَا فِي أَيْدِيهِمْ، وَنَتْرُكَ مَا فِي أَيْدِينَا، فَفَعَلْنَا
+> — ⁨الکامل فی التاریخ ج۲ ص۱۹۹⁩ · https://shamela.ws/book/21712/890
+> *English:* "His companions and his guard surrounded us and raided, seized a great many children, and
+> plundered. We called to the people of Ṣanʿāʾ: whoever has one of them in his house, hold him — and they
+> did. When his people got out, they found seventy men missing. They sent to us and we sent to them: they
+> would leave us what was in their hands, and we would leave what was in ours. And we did."
+
+> وتنافسنا الإمارة، وتراجع أصحاب رسول الله صلى الله عليه وسلم، فاصطلحنا على معاذ بن جبل، فكان يصلي بنا
+> — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۳۲⁩ · https://shamela.ws/book/10906/1180
+> *English:* "We competed for the command; the Companions of the Messenger of Allah ﷺ came back; and we
+> made peace with one another on Muʿādh b. Jabal, and he led us in prayer."
+
+> وتراجعَ نواب رسول الله ﷺ إلى أعمالهم وتنازعَ أولئك الثلاثةُ في الإمارة، ثم اتَّفقوا على معاذِ بن جَبَلٍ يصلّي بالناس، وكتبوا بالخبر إلى رسولِ الله ﷺ
+> — ⁨البدایہ والنہایہ ج۷ ص۱۷⁩ · https://shamela.ws/book/30097/3163
+> *English:* "The deputies of the Messenger of Allah ﷺ went back to their districts. Those three
+> disputed over the command, then agreed on Muʿādh b. Jabal to lead the people in prayer, and wrote the
+> news to the Messenger of Allah ﷺ."
+
+⚠ **Who called the adhān differs:** Qays, or Wabr (⁨البدایہ⁩); the narrator Jishnas (⁨الکامل⁩; ⁨سیر⁩, where
+Dādhawayh first calls the signal and Wabr gives the iqāma). **The words of the call agree in every book.**
+His riders "going back and forth between Ṣanʿāʾ and Najrān" (⁨الکامل ج۲ ص۱۹۹⁩) are the loose end the second
+Yemen rising picks up.
+**Next:** E-AW20 (how we know it was Fayrūz), then E-TB26 (the news from heaven) and E-TB27 (Fayrūz's
+three days). **The seed of the second rising is here** — «⁨وتنافسنا الإمارة⁩» (⁨سیر الراشدون ص۳۲⁩).
+
+---
+
+### E-AW20 · "Whom Fayrūz killed in Yemen"
+**Tier:** CORE · **When:** 11 AH, the killing it names `[SOURCED]`; the dream itself is undated on the page ·
+**Map:** none — a statement slide. If anything moves, it is a single mark on **⁨صنعاء⁩**.
+**What happened:** How do we know it was Fayrūz? Nearly everything told tonight about that night reaches
+our books through one storyteller, Sayf b. ʿUmar — so when three books agree, that is not three
+witnesses. One fact does not rest on him. Al-Bukhārī records the Prophet's ﷺ dream of two gold
+bracelets, which he took to mean the man of Ṣanʿāʾ and the man of al-Yamāma. In one version of it, told
+from Ibn ʿAbbās, the narrator ʿUbayd Allāh b. ʿAbd Allāh names the two: one was al-ʿAnsī, whom Fayrūz
+killed in Yemen; the other, Musaylima the liar. Ibn Kathīr quotes it from al-Bukhārī. So the long story
+of the tunnel and the lamp is what the chroniclers tell — and the name of the man who ended it is in
+al-Bukhārī.
+**Beats:**
+1. How do we know it was Fayrūz ؓ? — Nearly all of that night reaches us through one storyteller, Sayf b. ʿUmar: three books agreeing are not three witnesses.
+2. One fact that does not rest on Sayf — Al-Bukhārī records the Prophet's ﷺ dream of two gold bracelets: the man of Ṣanʿāʾ and the man of al-Yamāma.
+3. The name, in al-Bukhārī — From Ibn ʿAbbās ؓ, the narrator ʿUbayd Allāh names them: al-ʿAnsī, whom Fayrūz ؓ killed in Yemen, and Musaylima.
+4. What the chroniclers tell, what al-Bukhārī names — The tunnel and the lamp come from the chroniclers; the name of the man who ended it, from al-Bukhārī.
+**Quote after beat:** 3
+**The statement:**
+> فقال عبيد الله: أحدهما العنسي الذي قتله فيروز باليمن، والآخر مسيلمة الكذاب.
+> — ⁨البدایہ والنہایہ ج۵ ص۲۲⁩ · https://shamela.ws/book/30097/2206
+> *English:* "ʿUbayd Allāh said: one of them was al-ʿAnsī, whom Fayrūz killed in Yemen, and the other
+> was Musaylima the liar."
+
+**⁨عبرت⁩:** The chroniclers tell the long story; the one fact it hangs on is in al-Bukhārī.
+**Hands-up?** no
+⚠ **Say "in al-Bukhārī", never "Ibn Kathīr says".** The words from «⁨يخرجان⁩» to «⁨قتله⁩» are missing from the
+edition's two base texts, (⁨أ⁩) and (⁨ط⁩), and were restored by the ⁨دار ابن كثير⁩ editor from al-Bukhārī (his
+footnote 13). His reference for the passage is al-Bukhārī nos. 4378–4379 (footnote 5, same page). The
+dream itself, with «⁨صاحبَ صَنْعاء، وصاحبَ اليَمامة⁩», is **E-TB17** (the cold open) — this card closes the
+loop it opened.
+⚠ **What this establishes, and what it does not.** It establishes that Fayrūz killed al-ʿAnsī. It does
+**not** establish the report that the Prophet ﷺ was told of the killing on the night itself (E-TB26),
+which Ibn Kathīr gives with Sayf b. ʿUmar's chain and no grading on any page read (§5.1, §8 item 6).
+**Also on the page** — how that other report is sourced:
+
+> وقد أطلعَه الله على الخبر من ليلتِه، كما قال سيف بن عمر التميمي
+> — ⁨البدایہ والنہایہ ج۷ ص۱۷⁩ · https://shamela.ws/book/30097/3163
+> *English:* "And Allah had informed him of the news on that very night — as Sayf b. ʿUmar al-Tamīmī
+> reported …"
+
+On the slide for E-TB26 it is "Ibn Kathīr and Ibn al-Athīr record"; it is not "authentic ḥadīth".
 
 ---
 
@@ -1126,6 +1670,14 @@ and rightful commanders: Dādhawayh the Persian, Fayrūz al-Daylamī and Qays b.
 al-Awwal of the year eleven, some nights before the death of the Messenger of Allah ﷺ — and it is said,
 one night. And Allah knows best. The riders who carried the news reached Medina after the Prophet ﷺ had
 died; Ibn al-Athīr says it was the first good news Abū Bakr received as caliph.
+**Beats:**
+1. Ibn Kathīr sums him up — From Kahf Khubbān with seven hundred men; within a month he held Ṣanʿāʾ, and all Yemen gathered to him.
+2. A shayṭān that betrayed him — He had a shayṭān that served him cleverly, and it betrayed him when he needed it most.
+3. Ibn Kathīr: true brothers, rightful commanders — Three or four months on, he was killed by Dādhawayh, Fayrūz al-Daylamī ؓ and Qays b. Makshūḥ.
+4. Some nights before, or one night — Rabīʿ al-Awwal 11 AH: some nights before the Prophet's ﷺ death; and it is said, one night. Allah knows best.
+5. The news reaches Medina — The riders with the news reached Medina after the Prophet ﷺ had died.
+6. Abū Bakr's ؓ first good news — Ibn al-Athīr: it was the first good news Abū Bakr ؓ received as caliph.
+**Quote after beat:** 4
 **The statement:**
 > وذلك في ربيع الأول من سنة إحدى عشرة، قبل وفاة رسول الله ﷺ بليال، وقيل بليلة، فالله أعلم.
 > — ⁨البدایہ والنہایہ ج۷ ص۵۹⁩ · https://shamela.ws/book/30097/3205
@@ -1135,8 +1687,31 @@ died; Ibn al-Athīr says it was the first good news Abū Bakr received as caliph
 **⁨عبرت⁩:** The first of the claimants was dead before the Prophet ﷺ was — and the one who would have to
 answer Yemen's letter was already Abū Bakr ؓ.
 **Hands-up?** no
-**Also on the page:** «⁨وكان معه شيطان يحذق له ولكن خانه أحوج ما كان إليه⁩». Ibn Khaldūn's «⁨قبل وفاته بيوم⁩»
-(⁨ج۲ ص۴۸۴⁩) may be mentioned **by name** as his reading, never as the date. **With E-AW05, replaces E-TB28.**
+**Also on the page:**
+
+> خرج أول مخرجه من بلدة باليمن يقال لها كهف خبان ومعه سبعمئة مقاتل، فما مضى شهر حتى تَملَّك صنعاء ثم استوسقت له اليمن بحذافيرها في أقصر مدة، وكان معه شيطان يحذق له ولكن خانه أحوج ما كان إليه. ثم لم تمض له ثلاثة أشهر أو أربعة أشهر حتى قتله الله على يدي إخوان صدق، وأمراء حق
+> — ⁨البدایہ والنہایہ ج۷ ص۵۹⁩ · https://shamela.ws/book/30097/3205
+> *English:* "He first came out from a town in Yemen called Kahf Khubbān with seven hundred fighting men.
+> A month had not passed before he held Ṣanʿāʾ, and then Yemen gathered to him entire in the shortest
+> time. He had a shayṭān that served him cleverly — but it betrayed him when he needed it most. Then
+> three or four months had not passed before Allah killed him at the hands of true brothers and rightful
+> commanders."
+
+> وَكَانَ قُدُومُ الْبَشِيرِ بِقَتْلِهِ فِي آخِرِ رَبِيعٍ الْأَوَّلِ بَعْدَ مَوْتِ النَّبِيِّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - فَكَانَ أَوَّلَ بِشَارَةٍ أَتَتْ أَبَا بَكْرٍ وَهُوَ بِالْمَدِينَةِ.
+> — ⁨الکامل فی التاریخ ج۲ ص۲۰۰⁩ · https://shamela.ws/book/21712/891
+> *English:* "The bearer of the good news of his killing arrived at the end of Rabīʿ al-Awwal, after the
+> death of the Prophet ﷺ — and it was the first good news to reach Abū Bakr while he was in Medina."
+
+> فقدمت رسلنا، وقد قبض النبي صلى الله عليه وسلم صبيحتئذ فأجابنا أبو بكر رضي الله عنه.
+> — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۳۲⁩ · https://shamela.ws/book/10906/1180
+> *English:* "Our envoys arrived — and the Prophet ﷺ had been taken that morning — and Abū Bakr ؓ answered
+> us."
+
+⚠ Al-Dhahabī's «⁨صبيحتئذ⁩» ("that morning") is ambiguous — the morning the envoys arrived, or the morning
+after the killing. **It is not a third dating** (§5.2, §8 item 11). Ibn Kathīr calls the news the first
+«⁨فتح⁩» of Abū Bakr's ؓ rule (E-U9); Ibn al-Athīr calls it the first «⁨بشارة⁩» — say which book you are
+reading. Ibn Khaldūn's «⁨قبل وفاته بيوم⁩» (⁨ج۲ ص۴۸۴⁩) may be mentioned **by name** as his reading, never as
+the date. **With E-AW05, replaces E-TB28.**
 
 ---
 
@@ -1148,6 +1723,11 @@ image for the next segment.
 the news of the Prophet's ﷺ death reached Yemen, and some of its people sank deeper into the doubt they
 had been in. And one of the three, Qays b. Makshūḥ — the man who had sworn by Dhū al-Khimār's name to
 save his life, and walked out saying "do what you have to do" — began to want Yemen for himself.
+**Beats:**
+1. What Ibn Kathīr called the three — Ibn Kathīr had called the three who killed al-Aswad true brothers and rightful commanders.
+2. Yemen hears of the Prophet's ﷺ death — The news of the Prophet's ﷺ death reached Yemen, and some of its people sank deeper into their doubt.
+3. Qays wants Yemen for himself — One of the three, Qays b. Makshūḥ, began to want the command of Yemen for himself.
+**Quote after beat:** 3
 **The statement:**
 > وطمعَ قيس بن مكشوح في الإمرة باليمن، فعمل لذلك، وارتدّ عن الإسلام وتابَعَهُ عوامُّ أهل اليمن
 > — ⁨البدایہ والنہایہ ج۷ ص۴۲⁩ · https://shamela.ws/book/30097/3188

@@ -64,3 +64,27 @@ here is a schematic, **not a frontier**.
 | `dhu-husa-to-dhu-al-qassa.json` | The night raid, and the road out of Medina | 11 AH — **five steps**, export one PNG per step | 21 |
 
 ⚠ **⁨ذو حُسى⁩ carries no distance, on purpose.** No page gives one; an earlier map labelled it "one day out" and that was caught and corrected. Only ⁨ذو القصّة⁩ is sourced as «⁨على مرحلةٍ⁩».
+
+
+## Evening 3 — Yemen (`S03_yemen/make_maps.py` → `tools/mapstudio/scenes/s03-*.json`)
+
+Generated from the **Map:** lines of the evening-3 cards. Never regenerate them with `tools/make_scenes.py`.
+Sites approximate; Madhḥij, Hamdān and ʿAkk are loose labels; **Kahf Khubbān and Shaʿūb are not located**.
+
+| Scene | Title | Steps | Serves |
+|---|---|---|---|
+| `s03-01-the-persians-of-yemen.json` | The Persians of Yemen | 3 | AW01, AW02 |
+| `s03-02-yemen-in-10ah.json` | Yemen divided | 2 | AW03 |
+| `s03-03-al-aswad-rises.json` | Twenty-five nights | 4 | AW04, AW05 |
+| `s03-03b-the-governors-scatter.json` | The governors scatter | 2 | AW06 |
+| `s03-04-the-night-in-sana.json` | The night in Ṣanʿāʾ | 5 | AW08, AW14, TB26, U9 |
+| `s03-05-qays-and-the-abna.json` | Go back to your own land | 4 | YK01–YK03, RC31 |
+| `s03-06-the-two-armies.json` | Two armies come down on the Yemen | 4 | YK05, YK06, RC32 |
+| `s03-07-hadramawt-and-kinda.json` | Ḥaḍramawt and Kinda | 6 | YK07–YK12, RC33, RC34 — al-Nujayr and Maḥjar al-Zurqān named, not placed |
+| `s03-08-al-ashath-to-medina.json` | To Medina | 1 | YK14, PG40 |
+| `s03-close-stop-c.json` | Where we stand (STOP C) | 1 | closing pair — the south restored, al-Yamāma still to come |
+| `s03-close-stop-a.json` | Where we stand (STOP A) | 2 | AW16 |
+| `s03-close-stop-b.json` | Where we stand (STOP B) | 1 | closing pair |
+
+**The Line for evening 3** is `S03_yemen/timeline.json` → `S03_yemen/make_timeline.py` →
+`S03_yemen/visuals/line_s03_{open,stop_a,stop_b}.png` — date bands, order only, two lanes (`DECISIONS.md` #34).

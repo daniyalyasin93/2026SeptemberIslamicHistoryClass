@@ -106,7 +106,7 @@ _briefs = []                    # collected IMAGE BRIEFs, written beside the dec
 # the SPEAKER NOTES, never on the slide. This is enforced rather than remembered because it is the
 # kind of thing that survives every review and then appears on a projector in front of 200 people.
 FORBIDDEN = [
-    (r"\[SOURCED\]|\[STANDARD\]|\[CONVENTIONAL-ESTIMATE\]", "a certainty label"),
+    (r"\[(?:SOURCED|STANDARD|CONVENTIONAL-ESTIMATE)[^\]]*\]", "a certainty label"),   # qualified forms too
     (r"\bCUT-IF-SHORT\b|\bCUT IF SHORT\b", "a build marker"),
     (r"\bTier\s*:|^\s*(?:CORE|GOOD|CUT)\b[^a-z]", "a tier tag"),   # anchored: "good." in a sentence is not a tier tag
     (r"\bE-[A-Z]{1,4}\d", "a card id"),
@@ -197,6 +197,10 @@ def text(slide, txt, x, y, w, h, size=BODY_PT, color=INK, font=EN, bold=False,
             set_cs(r, AR)
         else:
             set_cs(r, font)
+        if rtl:
+            # Mark the run as Arabic. Without a language PowerPoint lays out neutral characters (colon,
+            # dash, "!", the space by ﷺ) with Latin rules and they land on the wrong side of the word.
+            r._r.get_or_add_rPr().set("lang", "ar-SA")
     return box
 
 

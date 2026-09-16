@@ -198,6 +198,11 @@ Claude/Gemini/AI, and raw URLs are **production apparatus and belong in the spea
 `deck2.audit()` enforces this with a `FORBIDDEN` list and **fails the build** on any match — this is
 the class of defect that survives every review and then appears on a projector.
 
+**One slide per event (`DECISIONS.md` #37).** Every card carries a `**Beats:**` list in its research note — one
+line per event the speaker must tell — and a deck is one slide per beat plus the card's quotation slide. Slide
+count is not a target; nothing told should be missing from a slide. A finding in a note body that is on no card
+does not exist on stage (#35).
+
 **Every deck ships a PDF beside it.** `deck2.save()` writes `<deck>.pdf` automatically, because
 Daniyal checks on a phone and on machines without PowerPoint. `series/preview.py` also exports
 per-slide PNGs and a contact sheet — **look at the contact sheet before calling a deck finished.**

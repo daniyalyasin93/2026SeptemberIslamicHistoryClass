@@ -32,12 +32,15 @@ sys.path.insert(0, os.path.join(ROOT, "series"))
 import deck2 as D                                                   # noqa: E402
 
 CARD = re.compile(r"^### (\S+)\s*·\s*(.*?)\s*$", re.M)
+# Fields run to the next "**Field**" line or a blank line, NOT to the end of the first line: cards are
+# hard-wrapped at ~100 columns, and the one-line patterns cut every wrapped عبرت, Map, When and Hands-up
+# mid-sentence (found 2026-09-16: "…and then heard the news that" on a closing slide).
 FIELD = {
     "tier": re.compile(r"\*\*Tier:\*\*\s*(\w+)"),
-    "when": re.compile(r"\*\*When:\*\*\s*(.*?)\s*(?:·\s*\*\*Map|\n)"),
-    "map": re.compile(r"\*\*Map:\*\*\s*(.*?)\s*$", re.M),
-    "ibrah": re.compile(r"\*\*عبرت:\*\*\s*(.*?)\s*$", re.M),
-    "hands": re.compile(r"\*\*Hands-up\?\*\*\s*(.*?)\s*$", re.M),
+    "when": re.compile(r"\*\*When:\*\*\s*(.*?)\s*(?:·\s*\n?\s*\*\*Map|\n\*\*|\n\s*\n)", re.S),
+    "map": re.compile(r"\*\*Map:\*\*\s*(.*?)(?=\n\*\*|\n\s*\n|\Z)", re.S),
+    "ibrah": re.compile(r"\*\*عبرت:\*\*\s*(.*?)(?=\n\*\*|\n\s*\n|\n---|\Z)", re.S),
+    "hands": re.compile(r"\*\*Hands-up\?\*\*\s*(.*?)(?=\n\*\*|\n\s*\n|\n⚠|\n---|\Z)", re.S),
 }
 def is_na(v):
     """A card field the researcher marked not-applicable.
@@ -51,9 +54,18 @@ def is_na(v):
 _NA = re.compile(r"\s*n\s*/?\s*a\b", re.I)
 
 
-LABEL = re.compile(r"\[(?:SOURCED|STANDARD|CONVENTIONAL-ESTIMATE)\]|\(to verify\)", re.I)
+# Qualified labels too — "[SOURCED, disputed]" reached a slide face on 2026-09-16 because this matched only the bare form.
+LABEL = re.compile(r"\[(?:SOURCED|STANDARD|CONVENTIONAL-ESTIMATE)[^\]]*\]|\(to verify\)", re.I)
 WHAT = re.compile(r"\*\*What happened:\*\*\s*(.*?)(?=\n\*\*|\Z)", re.S)
 STATEMENT = re.compile(r"\*\*The statement:\*\*\s*\n((?:>.*\n?)+)", re.M)
+# BEATS (DECISIONS.md #37): one line per event the speaker must tell, drawn only from the card's own text,
+#   **Beats:**
+#   1. Headline of eight words or fewer — one face line of twenty words or fewer
+#   **Quote after beat:** 3
+# One slide per beat; the card's quotation slide goes after beat n (0 = before the first).
+BEATS = re.compile(r"\*\*Beats:\*\*[ \t]*\n((?:[ \t]*\d+\.[^\n]*\n?)+)")
+BEAT_LINE = re.compile(r"^[ \t]*\d+\.\s*(.+?)\s+—\s+(.+?)\s*$", re.M)
+QUOTE_AFTER = re.compile(r"\*\*Quote after beat:\*\*\s*(\d+)")
 ARABIC_CH = re.compile("[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]")
 LATIN_CH = re.compile("[A-Za-z]")
 
@@ -109,15 +121,57 @@ def cards_of(content_md):
         c = {"id": m.group(1), "title": m.group(2), "section": section}
         for k, rx in FIELD.items():
             mm = rx.search(body)
-            c[k] = mm.group(1).strip() if mm else ""
+            c[k] = re.sub(r"\s+", " ", mm.group(1)).strip() if mm else ""
         mm = WHAT.search(body)
         c["what"] = re.sub(r"\s+", " ", mm.group(1)).strip() if mm else ""
+        # Everything a researcher wrote AFTER the Hands-up line: "Also on the page", cross-references,
+        # ⚠ teaching warnings, second quotations. notes_for() used to drop all of it, so a finding that
+        # lived there never reached a speaker note (found 2026-09-16: Bādhām kept over all Yemen).
+        hm = FIELD["hands"].search(body)
+        tail = body[hm.end():] if hm else ""
+        c["extra"] = re.sub(r"\n-{3,}\s*$", "", tail.strip()).strip()
+        bm = BEATS.search(body)
+        c["beats"] = [(h.strip(), t.strip()) for h, t in BEAT_LINE.findall(bm.group(1))] if bm else []
+        qm = QUOTE_AFTER.search(body)
+        c["quote_after"] = min(int(qm.group(1)), len(c["beats"])) if qm else len(c["beats"])
         sm = STATEMENT.search(body)
         c["arabic"] = c["cite"] = c["english"] = None
         if sm and NO_STATEMENT not in sm.group(1):
             c["arabic"], c["cite"], c["english"] = parse_statement(sm.group(1))
         out.append(c)
     return out
+
+
+POOLS = ("L02_baarah_saal", "L03_pehla_imtihan")
+RUNSHEET_ROW = re.compile(r"^\|\s*\d+\s*\|\s*`([A-Z]+/E-[A-Z]+\d+)`[^|]*\|[^|]*\|[^|]*\|[^|]*\|\s*(.*?)\s*\|\s*$")
+
+
+def pool_cards():
+    """Every card in every era pool, by full id (DECISIONS.md #33)."""
+    out = {}
+    for d in POOLS:
+        for c in cards_of(os.path.join(ROOT, d, "CONTENT.md")):
+            out[c["id"]] = c
+    return out
+
+
+def runsheet(path):
+    """[(part heading, [(card id, runsheet note), ...]), ...] from the tables under '## Part' headings.
+
+    Rows the speaker has moved under any other heading are not part of the evening and are ignored.
+    """
+    parts, cur = [], None
+    for line in open(path, encoding="utf-8"):
+        if line.startswith("## "):
+            cur = (line[3:].strip(), []) if line.startswith("## Part") else None
+            if cur:
+                parts.append(cur)
+            continue
+        m = RUNSHEET_ROW.match(line) if cur else None
+        if m:
+            cur[1].append((m.group(1), m.group(2)))
+    return parts
+
 
 
 MARKS = re.compile("[ً-ٰٟۖ-ۭـ]")
@@ -142,8 +196,12 @@ def notes_for(c):
         bits.append("\nعبرت: " + c["ibrah"])
     if c["hands"] and c["hands"].lower() not in ("no", "no.", "—"):
         bits.append("\nHANDS UP: " + c["hands"])
+    if c["english"]:
+        bits.append("\nSTATEMENT (full rendering): " + c["english"])
     if c["cite"]:
         bits.append("\nSource: " + c["cite"])
+    if c.get("extra"):
+        bits.append("\nALSO IN THE CARD:\n" + c["extra"])
     bits.append("\nFrom: " + c["section"])
     return "\n".join(bits)
 
@@ -195,6 +253,8 @@ TRANSLIT = [
     ("\u0627\u0644\u0634\u0648\u0631\u0649", "the shura"), ("\u0634\u0648\u0631\u0649", "shura"),
     ("\u0627\u0628\u0646 \u062e\u0644\u062f\u0648\u0646", "Ibn Khaldun"),
     ("\u0639\u0628\u0631\u062a", "ibrah"),
+    ("الکامل فی التاریخ", "al-Kamil"),     # Persian kāf/yā spellings, as the notes write them
+    ("الکامل", "al-Kamil"),
     ("الكامل فى التاريخ", "al-Kamil"),
     ("الكامل في التاريخ", "al-Kamil"),
     ("الكامل", "al-Kamil"),
@@ -294,6 +354,87 @@ def short(s, words):
     return " ".join(w[:words]) + ("…" if len(w) > words else "")
 
 
+def kicker_for(c):
+    """The date line over a slide's headline. ONLY the date reaches the slide face: the tier, the
+    certainty label and the card id are production apparatus and belong in the speaker notes
+    (DECISIONS.md #30) — deck2's audit refuses a build that puts any of them in front of the room."""
+    kicker = clean(LABEL.sub("", short(face(c["when"]), 6)), translit=True).replace("ھ", " AH")
+    return re.sub(r"\s{2,}", " ", kicker).strip(" ·,-") or None
+
+
+def beat_slide(prs, c, i, extra_notes=""):
+    """Beat i (1-based) of a card: its headline and one line, as a large statement. Returns the slide or None."""
+    head, line = c["beats"][i - 1]
+    try:
+        s = D.statement_slide(prs, english=clean(line), headline=clean(head), kicker=kicker_for(c))
+    except D.DeckContractError as e:
+        print("  skipped %s beat %d  %s" % (c["id"], i, str(e)[:90]))
+        return None
+    listing = "\n".join("%s %d. %s — %s" % ("▶" if k == i else " ", k, h, t)
+                        for k, (h, t) in enumerate(c["beats"], 1))
+    D.note(s, (extra_notes + "\n\n" if extra_notes else "") +
+           "BEAT %d of %d — %s · %s\n\n%s\n\nThe quotation and the full card are on the card's own slide."
+           % (i, len(c["beats"]), c["id"], c["title"], listing))
+    return s
+
+
+def card_slide(prs, c, extra_notes="", arabic_on_face=True, face_text=None):
+    """One card -> one slide, by the rules in the module docstring. Returns the slide, or None.
+
+    `arabic_on_face=False` keeps the statement in the speaker notes only: for a quotation that must
+    not be projected, such as words a claimant's own people used of him to save their lives.
+    `face_text` puts one plain English sentence on the face instead — use it with arabic_on_face=False
+    when the card's own rendering is the thing that must not be shown.
+    """
+    if not arabic_on_face:
+        c = dict(c, arabic=None)
+    head = headline_for(short(face(c["title"]), 9))
+    # ONLY the date reaches the slide face. The tier, the certainty label and the card id
+    # are production apparatus and belong in the speaker notes (DECISIONS.md #30) — deck2's
+    # audit now refuses a build that puts any of them in front of the room.
+    kicker = clean(LABEL.sub("", short(face(c["when"]), 6)), translit=True).replace("\u06be", " AH")
+    kicker = re.sub(r"\s{2,}", " ", kicker).strip(" \u00b7,-") or None
+
+    try:
+        if face_text:
+            s = D.statement_slide(prs, english=face_text, headline=head, kicker=kicker)
+        elif c["arabic"] and ar_len(c["arabic"]) <= AR_SLIDE_MAX:
+            # The rendering is truncated on the slide and given whole in the notes. A 146-word
+            # translation projected at 30pt is not readable from the back of a hall, and the
+            # deck contract exists precisely to stop that being shipped again.
+            s = D.statement_slide(prs, english=clean(short(face(c["english"]), EN_SLIDE_MAX)),
+                                  arabic=c["arabic"], cite=face(cite_en(c["cite"])),
+                                  headline=head, kicker=kicker)
+        elif c["arabic"]:
+            # Too long to project whole. The slide holds the card; the statement waits in the
+            # notes with an instruction to excerpt it deliberately rather than by accident.
+            s = D.image_slide(prs, None, head, kicker=kicker,
+                              brief="A restrained editorial illustration for: %s. Landscape, "
+                                    "architecture, objects or texture only - no people, no "
+                                    "faces. Muted ochre, teal and bone. 16:9."
+                                    % short(c["what"], 30))
+        elif not is_na(c["map"]):
+            s = D.map_slide(prs, None, head, kicker=kicker,
+                            keys=[(clean(short(face(c["map"]), 4)), clean(short(face(c["what"]), 8)))],
+                            brief="A restrained editorial illustration for: %s. Landscape, "
+                                  "architecture, objects or texture only — no people, no faces. "
+                                  "Muted ochre, teal and bone. 16:9."
+                                  % short(c["what"], 30))
+        else:
+            s = D.image_slide(prs, None, head, kicker=kicker,
+                              brief="A restrained editorial illustration for: %s. Landscape, "
+                                    "architecture, objects or texture only — no people, no "
+                                    "faces. Muted ochre, teal and bone. 16:9."
+                                    % short(c["what"], 30))
+        D.note(s, (extra_notes + "\n\n" if extra_notes else "") + notes_for(c))
+        return s
+    except D.DeckContractError as e:
+        # A card that will not fit the contract is skipped rather than allowed to weaken it;
+        # it is still in CONTENT.md and can be built by hand.
+        print("  skipped %-22s %s" % (c["id"], str(e)[:90]))
+        return None
+
+
 def build(session_dir, out_name="L02_ALL.pptx"):
     content = os.path.join(ROOT, session_dir, "CONTENT.md")
     cards = cards_of(content)
@@ -315,48 +456,8 @@ def build(session_dir, out_name="L02_ALL.pptx"):
             section = c["section"]
             D.section_slide(prs, clean(section, translit=True))
 
-        head = headline_for(short(face(c["title"]), 9))
-        # ONLY the date reaches the slide face. The tier, the certainty label and the card id
-        # are production apparatus and belong in the speaker notes (DECISIONS.md #30) — deck2's
-        # audit now refuses a build that puts any of them in front of the room.
-        kicker = clean(LABEL.sub("", short(face(c["when"]), 6)), translit=True).replace("\u06be", " AH")
-        kicker = re.sub(r"\s{2,}", " ", kicker).strip(" \u00b7,-") or None
-
-        try:
-            if c["arabic"] and ar_len(c["arabic"]) <= AR_SLIDE_MAX:
-                # The rendering is truncated on the slide and given whole in the notes. A 146-word
-                # translation projected at 30pt is not readable from the back of a hall, and the
-                # deck contract exists precisely to stop that being shipped again.
-                s = D.statement_slide(prs, english=clean(short(face(c["english"]), EN_SLIDE_MAX)),
-                                      arabic=c["arabic"], cite=face(cite_en(c["cite"])),
-                                      headline=head, kicker=kicker)
-            elif c["arabic"]:
-                # Too long to project whole. The slide holds the card; the statement waits in the
-                # notes with an instruction to excerpt it deliberately rather than by accident.
-                s = D.image_slide(prs, None, head, kicker=kicker,
-                                  brief="A restrained editorial illustration for: %s. Landscape, "
-                                        "architecture, objects or texture only - no people, no "
-                                        "faces. Muted ochre, teal and bone. 16:9."
-                                        % short(c["what"], 30))
-            elif not is_na(c["map"]):
-                s = D.map_slide(prs, None, head, kicker=kicker,
-                                keys=[(clean(short(face(c["map"]), 4)), clean(short(face(c["what"]), 8)))],
-                                brief="A restrained editorial illustration for: %s. Landscape, "
-                                      "architecture, objects or texture only — no people, no faces. "
-                                      "Muted ochre, teal and bone. 16:9."
-                                      % short(c["what"], 30))
-            else:
-                s = D.image_slide(prs, None, head, kicker=kicker,
-                                  brief="A restrained editorial illustration for: %s. Landscape, "
-                                        "architecture, objects or texture only — no people, no "
-                                        "faces. Muted ochre, teal and bone. 16:9."
-                                        % short(c["what"], 30))
-            D.note(s, notes_for(c))
+        if card_slide(prs, c):
             made += 1
-        except D.DeckContractError as e:
-            # A card that will not fit the contract is skipped rather than allowed to weaken it;
-            # it is still in CONTENT.md and can be built by hand.
-            print("  skipped %-22s %s" % (c["id"], str(e)[:90]))
 
     out = os.path.join(ROOT, session_dir, out_name)
     D.save(prs, out)

@@ -1,6 +1,24 @@
 # STATUS — read this first, every session
 
-> **2026-09-13 (later) · RESUME POINT — read this before the paragraph below.** **Evening 2 was
+> **2026-09-16 (night) · RESUME POINT — read this first.** Evening 3 (`S03_yemen/`) is rebuilt **one slide per
+> event** (`DECISIONS.md` #37): 45 cards carry Beats → **361 slides** (282 beat slides; STOP C at 350–353; STOP A/B
+> closes hidden at 354–361). A four-lens review + verify + fix pass ran overnight (73 confirmed, 61 applied).
+> Citations 4,669/0. **Daniyal to decide in the morning:** (1) slide 245 — the ﷿ ligature box on RC32's Arabic;
+> (2) how ؓ should look on English slide faces (shows as a small detached mark; fix belongs in `series/deck2.py`);
+> (3) two headlines wrap to two lines (slides 147, 248); (4) fill 21 image boxes — 20 Map Studio exports + the
+> floor plan (slide 113). Rebuild order: `make_timeline.py` → `make_maps.py` → `build.py` → `pack_data.py` →
+> `series/preview.py S03_yemen/S03.pptx` → `review_dump.py`.
+>
+> **2026-09-16 · RESUME POINT.** **Evening 3 is BUILT** (`S03_yemen/`, `DECISIONS.md` #34): Daniyal cut
+> it to Parts I–II (al-Aswad + the second Yemen ⁨ردة⁩); Kinda rolls forward. `S03.pptx`/`.pdf` (50 slides),
+> `CUE.pdf` (one page, 13pt), `WORKSHEET.pdf`, `BRIEFING.pdf`, 9 Map Studio scenes (`s03-*`), 3 Line images.
+> **Re-carded the same day (`DECISIONS.md` #35), and Part III — Ḥaḍramawt/Kinda — put back (#36):** 45 cards /
+> 75 slides, to STOP C; speaker notes carry every card in full. Only the Kinda kingship backstory is rolled forward.
+> **Daniyal's to-do before the evening:** export the map scenes into the 12 marked placeholders; the
+> floor-plan diagram (Gemini brief in `IMAGE_BRIEFS.md`); decide the ﷿ box on the RC32 slide. Rebuild order:
+> `make_timeline.py` → `make_maps.py` → `build.py` → `pack_data.py`.
+>
+> **2026-09-13 (later) · earlier resume point.** **Evening 2 was
 > delivered** from `L02_baarah_saal/L02_ALL_DY.pptx` and stopped after **⁨بزاخة⁩** (37 min, ran short).
 > The folders are now **era pools**, and evenings are numbered deliveries (`DECISIONS.md` #33). Where the
 > story has reached lives in `docs/catalogue/DELIVERED.md`. **Evening 3 = Yemen, start to end:**

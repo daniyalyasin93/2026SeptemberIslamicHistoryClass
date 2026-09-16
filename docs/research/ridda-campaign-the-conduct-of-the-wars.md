@@ -2625,6 +2625,17 @@ separately. Dādhawayh came first and was killed. Fayrūz al-Daylamī ؓ was wal
 when he passed two women talking. Then Qays took the families of the Abnāʾ and deported them — one
 party overland, one by ship from Aden — and Fayrūz ؓ sent to ʿUqayl and to ʿAkk for help, and both of
 them rode out and brought the families back.
+**Beats:**
+1. One of the three who killed al-Aswad — Qays b. Makshūḥ had been one of the three men who killed al-Aswad al-ʿAnsī.
+2. He wants Yemen for himself — After the Prophet ﷺ died, Qays wanted Yemen for himself, and turned.
+3. A meal, and two separate invitations — He made a meal and invited the other two men, each on his own.
+4. Dādhawayh comes first — Dādhawayh arrived first, and was killed.
+5. Two women talking in the street — Fayrūz al-Daylamī ؓ, walking to the same house, passed two women; one said he would be killed like Dādhawayh.
+6. He gets out — Hearing it, Fayrūz ؓ got out.
+7. Qays deports the families of the Abnāʾ — One party was sent overland, and one by ship from Aden.
+8. The families brought back — Fayrūz ؓ sent to ʿUqayl and to ʿAkk for help; both rode out and brought the families back.
+9. Two letters to the same five chiefs — Abū Bakr ؓ asked five Yemeni chiefs for support; Qays asked them to kill the Abnāʾ. They answered neither.
+**Quote after beat:** 6
 **The statement:**
 > فَلَمَّا دَنَا مِنْهُ سَمِعَ امْرَأَتَيْنِ تَتَحَدَّثَانِ، فَقَالَتْ إِحْدَاهُمَا: هَذَا مَقْتُولٌ كَمَا قُتِلَ دَاذَوَيْهِ، فَخَرَجَ.
 > — ⁨الکامل ج۲ ص۲۲۸⁩ · https://shamela.ws/book/21712/919
@@ -2647,6 +2658,16 @@ One had killed a Muslim officer and led a revolt; the other had followed a false
 beaten and captured more than once. Abū Bakr ؓ rebuked them both. They made their excuses. And then he
 accepted what they said openly, left what was inside them to Allah, released them, and sent them home
 to their own people.
+**Beats:**
+1. Two prisoners sent to Medina — Qays b. Makshūḥ and ʿAmr b. Maʿdī Karib were taken and sent to Medina as prisoners.
+2. What Qays had done — The books say he had killed a Muslim officer and led a revolt.
+3. What ʿAmr had done — He had followed a false claimant, and been beaten and captured more than once.
+4. Abū Bakr ؓ rebukes them both — He rebuked and reproved the two of them.
+5. His words to ʿAmr — Are you not ashamed, every day routed or taken prisoner? Had you helped this dīn, Allah would have raised you.
+6. They make their excuses — Both men excused themselves to Abū Bakr ؓ.
+7. He judges only what he can see — He accepted what they professed openly, and left what was inside them to Allah.
+8. Released, and sent home — He set them free and sent them back to their own people.
+**Quote after beat:** 8
 **The statement:**
 > فعنَّفَهما وأنّبهما، فاعتذرا إليه فقبل منهما علانيتهما، ووكل سرائرهما إلى الله ﷿، وأطلقَ سراحهما وردّهما إلى قومهما.
 > — ⁨البدایہ والنہایہ ج۷ ص۴۳⁩ · https://shamela.ws/book/30097/3189
@@ -2674,6 +2695,15 @@ to his brother, her name was Shadhra, and he had brought her by mistake. The bro
 first man agreed and asked for her back. Ziyād ؓ refused: she had already passed into the right of
 Allah. Then a third man rode up, told him to release her and take another, and when Ziyād ؓ said he
 had no way to do that, said one sentence — and untied her hobble himself and stood in front of her.
+**Beats:**
+1. The Prophet's ﷺ order — He had ordered part of Ḥaḍramawt's zakāt placed in Kinda, and part of Kinda's in Ḥaḍramawt.
+2. A young she-camel is branded — Collecting the zakāt in Kinda, Ziyād b. Labīd ؓ took a young she-camel from a man and branded her.
+3. She was not his to give — She belonged to his brother, her name was Shadhra, and he had brought her by mistake.
+4. The brothers ask for her back — The brother said so, and the first man agreed and asked for her back.
+5. Ziyād ؓ refuses — She had already passed into the right of Allah, he said.
+6. A third man, Ḥāritha, rides up — Release her and take another, he said. Ziyād ؓ answered that he had no way to do that.
+7. Ḥāritha unties her — He said one sentence, untied her hobble himself, and stood in front of her.
+**Quote after beat:** 7
 **The statement:**
 > فَقَالَ حَارِثَةُ: ذَاكَ إِذَا كُنْتَ يَهُودِيًّا، وَأَطْلَقَ عِقَالَهَا وَبَعَثَهَا وَقَامَ دُونَهَا.
 > — ⁨الکامل فی التاریخ ج۲ ص۲۳۰⁩ · https://shamela.ws/book/21712/921
@@ -2703,6 +2733,17 @@ to open the gate in exchange for a written safe-conduct for himself, his househo
 told to write whatever he wanted and bring it to be sealed. He wrote it. He opened the gate. And when
 it was over and the document was produced, every man named in it was spared — and his own name was
 not in it.
+**Beats:**
+1. Kinda shuts itself into al-Nujayr — Broken in the field, Kinda shut itself into the fort of al-Nujayr.
+2. Every road is closed — The Muslims closed every road, and the siege began to bite.
+3. Al-Ashʿath comes out with nine men — He offered to open the gate in return for a written safe-conduct for himself, his household and them.
+4. He may write his own terms — He was told to write whatever he wanted and bring it to be sealed.
+5. He writes, and opens the gate — He wrote the document, and he opened the gate.
+6. His own name is not there — When the document was produced, every man named in it was spared, and his own name was missing.
+7. Al-Muhājir ؓ speaks to him — Praise be to Allah, who made your mouth err, Ashʿath.
+8. The same page gives a second telling — Al-Kāmil records another version of these events. Both stand; neither is chosen.
+9. Pardoned all the same — Abū Bakr ؓ pardoned him anyway, and restored his wife to him.
+**Quote after beat:** 7
 **The statement:**
 > فَأَجَارَ مَنْ فِي الْكِتَابِ، فَإِذَا الْأَشْعَثُ لَيْسَ مِنْهُمْ، فَقَالَ الْمُهَاجِرُ: الْحَمْدُ لِلَّهِ الَّذِي خَطَّأَ فَاكَ يَا أَشْعَثُ.
 > — ⁨الکامل فی التاریخ ج۲ ص۲۳۲⁩ · https://shamela.ws/book/21712/923

@@ -1,0 +1,392 @@
+{
+  "schema": 1,
+  "title": "Evening 3 — the Line: Yemen, before Islam to 12 AH",
+  "note": "Events sit in DATE BANDS, and in stated order inside a band. Position inside a band is order only, never a scale: the sources give months at best, and often only 'before' and 'after'. Every event names the card(s) it comes from; the certainty label is the card's own. Nothing here is a citation — the page and the Arabic are in the pool. 'short' is the label used when the image is rendered with large text (--text 1.3 or more).",
+  "bands": [
+    {
+      "id": "pre",
+      "label": "Before Islam",
+      "short": "Pre-Islam"
+    },
+    {
+      "id": "med",
+      "label": "The Medinan years",
+      "short": "Medinan years"
+    },
+    {
+      "id": "10",
+      "label": "10 AH",
+      "short": "10 AH"
+    },
+    {
+      "id": "rule",
+      "label": "His 3–4 months",
+      "short": "His 3–4 months"
+    },
+    {
+      "id": "r1",
+      "label": "Rabīʿ I, 11 AH",
+      "short": "Rabīʿ I, 11 AH"
+    },
+    {
+      "id": "11",
+      "label": "11 AH",
+      "short": "11 AH"
+    },
+    {
+      "id": "12",
+      "label": "11–12 AH",
+      "short": "11–12 AH"
+    }
+  ],
+  "lanes": [
+    {
+      "id": "medina",
+      "label": "Medina and Najd"
+    },
+    {
+      "id": "yemen",
+      "label": "Yemen"
+    }
+  ],
+  "events": [
+    {
+      "id": "y01",
+      "lane": "yemen",
+      "band": "pre",
+      "order": 1,
+      "label": "Wahriz and the Persians take Yemen",
+      "short": "Persians take Yemen",
+      "when": "shortly before the Prophet's ﷺ birth",
+      "certainty": "SOURCED",
+      "cards": [
+        "AAA/E-AW01"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "y02",
+      "lane": "yemen",
+      "band": "med",
+      "order": 2,
+      "label": "Bādhām accepts Islam, kept over all Yemen",
+      "short": "Bādhām over all Yemen",
+      "when": "the Medinan years; no year given",
+      "certainty": "SOURCED",
+      "cards": [
+        "AAA/E-AW02",
+        "AAA/E-AW19"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "y03",
+      "lane": "yemen",
+      "band": "10",
+      "order": 3,
+      "label": "Yemen divided among governors",
+      "short": "Yemen divided",
+      "when": "10 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "AAA/E-AW03"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "y04",
+      "lane": "yemen",
+      "band": "10",
+      "order": 4,
+      "label": "al-Aswad rises",
+      "short": "al-Aswad rises",
+      "when": "after Ḥajjat al-Wadāʿ, 10 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "AAA/E-AW04"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "y05",
+      "lane": "yemen",
+      "band": "rule",
+      "order": 5,
+      "label": "Najrān in 10 nights, Ṣanʿāʾ in 25",
+      "short": "Najrān, then Ṣanʿāʾ",
+      "when": "the first 25 nights of his rising",
+      "certainty": "SOURCED",
+      "cards": [
+        "AAA/E-AW05"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "y06",
+      "lane": "yemen",
+      "band": "rule",
+      "order": 6,
+      "label": "The Prophet's ﷺ letters reach Ṣanʿāʾ",
+      "short": "The Prophet's ﷺ letters",
+      "when": "the Prophet's ﷺ last months",
+      "certainty": "SOURCED",
+      "cards": [
+        "AAA/E-AW08"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "y07",
+      "lane": "yemen",
+      "band": "r1",
+      "order": 7,
+      "label": "al-Aswad killed in Ṣanʿāʾ",
+      "short": "al-Aswad killed",
+      "when": "Rabīʿ I 11 AH, some nights — or one night — before the Prophet's ﷺ death",
+      "certainty": "SOURCED, disputed",
+      "cards": [
+        "AAA/E-AW13",
+        "AAA/E-AW15",
+        "ATA/E-TB26",
+        "AAA/E-AW20"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "m01",
+      "lane": "medina",
+      "band": "r1",
+      "order": 8,
+      "label": "The Prophet ﷺ dies",
+      "short": "The Prophet ﷺ dies",
+      "when": "Rabīʿ I 11 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "AAA/E-AW15"
+      ],
+      "group": "context"
+    },
+    {
+      "id": "y08",
+      "lane": "yemen",
+      "band": "r1",
+      "order": 9,
+      "label": "Three days of Muʿādh's ؓ prayer, then the news",
+      "short": "Muʿādh's ؓ three days",
+      "when": "Rabīʿ I 11 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "ATA/E-TB27"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "m02",
+      "lane": "medina",
+      "band": "r1",
+      "order": 10,
+      "label": "Usāma's ؓ army marches",
+      "short": "Usāma's ؓ army marches",
+      "when": "end of Rabīʿ I 11 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "ABU/E-U6",
+        "ABU/E-U9"
+      ],
+      "group": "delivered"
+    },
+    {
+      "id": "m03",
+      "lane": "medina",
+      "band": "r1",
+      "order": 11,
+      "label": "News of al-Aswad reaches Medina",
+      "short": "News reaches Medina",
+      "when": "end of Rabīʿ I 11 AH, after Usāma ؓ marched",
+      "certainty": "SOURCED",
+      "cards": [
+        "ABU/E-U9"
+      ],
+      "group": "part1"
+    },
+    {
+      "id": "m04",
+      "lane": "medina",
+      "band": "11",
+      "order": 13,
+      "label": "Eleven banners at Dhū al-Qaṣṣa",
+      "short": "Eleven banners",
+      "when": "11 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "RCT/E-RC05"
+      ],
+      "group": "delivered"
+    },
+    {
+      "id": "m05",
+      "lane": "medina",
+      "band": "11",
+      "order": 14,
+      "label": "Buzākha",
+      "short": "Buzākha",
+      "when": "11 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "RCT/E-RC09"
+      ],
+      "group": "delivered"
+    },
+    {
+      "id": "y09",
+      "lane": "yemen",
+      "band": "11",
+      "order": 12,
+      "label": "Qays turns; the Abnāʾ driven out",
+      "short": "Qays turns",
+      "when": "11 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "AAA/E-AW16",
+        "TSY/E-YK01",
+        "RCT/E-RC31",
+        "TSY/E-YK03",
+        "TSY/E-YK17"
+      ],
+      "group": "part2"
+    },
+    {
+      "id": "y10",
+      "lane": "yemen",
+      "band": "11",
+      "order": 15,
+      "label": "ʿIkrima ؓ and al-Muhājir ؓ come down",
+      "short": "ʿIkrima ؓ and al-Muhājir ؓ",
+      "when": "11 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "TSY/E-YK05"
+      ],
+      "group": "part2"
+    },
+    {
+      "id": "y11",
+      "lane": "yemen",
+      "band": "12",
+      "order": 16,
+      "label": "Qays and ʿAmr judged at Medina, sent home",
+      "short": "Qays and ʿAmr sent home",
+      "when": "11–12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "TSY/E-YK06",
+        "RCT/E-RC32",
+        "TSY/E-YK18"
+      ],
+      "group": "part2"
+    },
+    {
+      "id": "y13",
+      "lane": "yemen",
+      "band": "12",
+      "order": 17,
+      "label": "Ḥaḍramawt: Kinda breaks over the zakāt",
+      "short": "Kinda breaks",
+      "when": "11 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "TSY/E-YK07",
+        "RCT/E-RC33",
+        "TSY/E-YK08",
+        "TSY/E-YK09"
+      ],
+      "group": "part3"
+    },
+    {
+      "id": "y14",
+      "lane": "yemen",
+      "band": "12",
+      "order": 18,
+      "label": "The four kings killed",
+      "short": "Four kings killed",
+      "when": "11 AH by al-Kāmil's arrangement; Siyar files it under 12 AH",
+      "certainty": "SOURCED, the books differ",
+      "cards": [
+        "TSY/E-YK10"
+      ],
+      "group": "part3"
+    },
+    {
+      "id": "y12",
+      "lane": "yemen",
+      "band": "12",
+      "order": 19,
+      "label": "al-Nujayr: the siege",
+      "short": "al-Nujayr",
+      "when": "11 or 12 AH — the books differ",
+      "certainty": "SOURCED, disputed",
+      "cards": [
+        "TSY/E-YK11",
+        "TSY/E-YK12",
+        "RCT/E-RC34",
+        "TSY/E-YK13"
+      ],
+      "group": "part3"
+    },
+    {
+      "id": "y15",
+      "lane": "yemen",
+      "band": "12",
+      "order": 20,
+      "label": "al-Ashʿath pardoned at Medina",
+      "short": "al-Ashʿath pardoned",
+      "when": "11–12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "TSY/E-YK14",
+        "POT/E-PG40"
+      ],
+      "group": "part3"
+    }
+  ],
+  "renders": [
+    {
+      "name": "line_s03_open",
+      "title": "Where we stopped",
+      "lit": [
+        "delivered"
+      ],
+      "flashback": false
+    },
+    {
+      "name": "line_s03_stop_a",
+      "title": "Tonight: al-Aswad al-ʿAnsī",
+      "lit": [
+        "part1",
+        "context"
+      ],
+      "flashback": true
+    },
+    {
+      "name": "line_s03_stop_b",
+      "title": "Tonight: Yemen, to 12 AH",
+      "lit": [
+        "part1",
+        "part2",
+        "context"
+      ],
+      "flashback": true
+    },
+    {
+      "name": "line_s03_stop_c",
+      "title": "Tonight: the whole south, to 12 AH",
+      "lit": [
+        "part1",
+        "part2",
+        "part3",
+        "context"
+      ],
+      "flashback": true
+    }
+  ]
+}

@@ -1155,6 +1155,12 @@ adopt · **Map:** ⁨صنعاء⁩ lights up while ⁨المدینہ⁩ is still
 ⁨العنسي⁩ — the false prophet who had taken ⁨صنعاء⁩ in the Prophet's ﷺ own last months — had been killed
 inside the city. Ibn Kathīr calls it the first ⁨فتح⁩ of ⁨أبو بكر ؓ⁩'s caliphate, and notes that he won
 it sitting in ⁨المدینہ⁩.
+**Beats:**
+1. The army of Usāma ؓ marches — Abū Bakr ؓ sent it out at the end of Rabīʿ al-Awwal.
+2. Word comes from Yemen — Days later, Medina heard that al-Aswad al-ʿAnsī, who had taken Ṣanʿāʾ, had been killed inside the city.
+3. The first victory of his caliphate — Ibn Kathīr calls it the first victory of Abū Bakr's ؓ caliphate, won while he sat in Medina.
+4. The reports differ on the day — Ibn Kathīr also records the good news reaching Medina on the morning the Prophet ﷺ died.
+**Quote after beat:** 3
 **The statement:**
 > أمضى أبو بكر جيشَ أسامةَ بن زيد في آخر ربيع الأول، وأتى مقتل الأسود في آخر ربيع الأول بعد مخرج أسامة، فكان ذلك أولَ فَتْحٍ فَتَحَ أبو بكر وهو بالمدينة
 > — ⁨البدایہ والنہایہ ج۷ ص۱۲⁩ · https://shamela.ws/book/30097/3158

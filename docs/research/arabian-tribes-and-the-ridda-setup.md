@@ -1246,6 +1246,13 @@ earth, and two bracelets of gold were placed in his hands, and they weighed on h
 to blow on them; he blew, and they went. And he interpreted them as the two liars between whom he
 stood — the one of Ṣanʿāʾ and the one of al-Yamāma. The two men who would break Arabia are named in
 one sentence, by their cities, before either of them had risen.
+**Beats:**
+1. The Prophet ﷺ tells a dream — While he was asleep, he was brought the treasures of the earth.
+2. Two bracelets of gold — Two gold bracelets were placed in his hands, and they weighed heavily on him.
+3. He blows, and they are gone — He was inspired to blow on them; he blew, and they went.
+4. Two liars, named by their cities — He read them as the two liars he stood between: the man of Ṣanʿāʾ and the man of al-Yamāma.
+5. Named before either had risen — The two men who would break Arabia are named together, in one sentence, before either had risen.
+**Quote after beat:** 4
 **The statement:**
 > بينا أنا نائم أتيتُ بخزائن الأرض، فوُضع في كفي سواران من ذهب، فكَبُرا عليّ، فأُوحي إليَّ أن انفُخْهما، فنفختُهما، فذهبا فأوَّلتهما الكَذَّابَيْن اللذين أنا بينهما؛ صاحبَ صَنْعاء، وصاحبَ اليَمامة
 > — ⁨البدایہ والنہایہ ج۵ ص۲۲⁩ · https://shamela.ws/book/30097/2206 — **⁨صحيح البخاري ٤٣٧٥⁩**, via
@@ -1510,6 +1517,13 @@ one line running not from the map at all but straight down onto ⁨المدین�
 city, while the Prophet ﷺ was still alive. And Ibn Kathīr says the news reached the Prophet ﷺ that
 same night, from above, before any rider could have carried it. He told them: al-ʿAnsī was killed
 last night; a blessed man of a blessed household killed him. They asked who. He said: Fayrūz. Fayrūz.
+**Beats:**
+1. The first claimant killed inside Ṣanʿāʾ — Three men of the city killed him there, while the Prophet ﷺ was still alive.
+2. The news comes that same night — Ibn Kathīr reports it reached the Prophet ﷺ that night, from above, before any rider could carry it.
+3. The Prophet ﷺ tells them — Al-ʿAnsī was killed last night; a blessed man of a blessed household killed him.
+4. They ask who — He named Fayrūz ؓ, and said the name twice.
+5. The killing and the news: two dates — The killing came in the Prophet's ﷺ lifetime; word reached Medina later, and the reports differ on when.
+**Quote after beat:** 4
 **The statement:**
 > أتى الخبرُ إلى النبي ﷺ من السماء الليلةَ التي قُتل فيه العنسي ليبشّرنا، فقال: قُتل العنسيُّ البارحةَ، قتله رجلٌ مباركٌ من أهل بيتٍ مباركين، قيل: ومنْ؟ قال: فيروزُ فيروزُ.
 > — ⁨البدایہ والنہایہ ج۷ ص۱۷⁩ · https://shamela.ws/book/30097/3163
@@ -1538,6 +1552,13 @@ went back to what it had been. They sent for Muʿādh b. Jabal ؓ and agreed on 
 prayer in Ṣanʿāʾ. And by Allah, he says, he had led us in prayer for no more than three days when the
 news came to us of the death of the Messenger of Allah ﷺ. Then everything came apart. We found
 ourselves refusing much of what we used to acknowledge. And the earth shook.
+**Beats:**
+1. Fayrūz ؓ tells it himself — We killed al-Aswad, he says, and our affair in Ṣanʿāʾ went back to what it had been.
+2. They agree on Muʿādh ؓ — They sent for Muʿādh b. Jabal ؓ, agreed on him, and he led them in prayer in Ṣanʿāʾ.
+3. Three days of prayer — By Allah, he says, Muʿādh ؓ had led them in prayer for no more than three days.
+4. The news of the death arrives — Then word reached them of the death of the Messenger of Allah ﷺ.
+5. Everything comes apart — Matters came apart, they found themselves rejecting much of what they had known, and the earth shook.
+**Quote after beat:** 5
 **The statement:**
 > قتلنا الأسودَ، وعاد أمرُنا في صنعاء كما كان إلا أنّا أرسلنا إلى معاذ بن جبل فتراضَيْنا عليه، فكان يُصلّي بنا في صنعاء، فوالله ما صلّى بنا إلا ثلاثةَ أيام حتى أتانا الخبرُ بوفاةِ رسولِ الله ﷺ، فانتقضت الأمور، وأنكرنا كثيرًا مما كنا نعرفُ، واضطربتِ الأرض.
 > — ⁨البدایہ والنہایہ ج۷ ص۱۷⁩ · https://shamela.ws/book/30097/3163

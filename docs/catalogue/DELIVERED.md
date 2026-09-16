@@ -70,4 +70,6 @@ delivered slides may carry pre-repair page references; the pool is now the corre
 | | |
 |---|---|
 | Folder | `S03_yemen/` |
-| State | ⬜ running order drafted, awaiting Daniyal's cut |
+| Cut | **Parts I–III**, to STOP C (Daniyal, 2026-09-16 — `DECISIONS.md` #34, #36). Only the Kinda kingship backstory is rolled forward |
+| State | ✅ **built, not yet delivered** — `S03.pptx`/`.pdf` (361 slides, 8 hidden; 45 cards, 282 beat slides — #37), `CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf` (87 pp.), 13 Map Studio scenes, 4 Line images |
+| After delivery | replace this row with the cards actually spoken, as evening 2's is |
