@@ -348,6 +348,11 @@ def build():
             LESSON_CARDS_A, [("Ṣanʿāʾ", "the news of the death arrives")], hidden=True, stop="STOP A")
 
     out = os.path.join(HERE, "S03.pptx")
+    # S03.pptx is Daniyal's hand-finished deck (DECISIONS.md #38). While S03.FINAL exists a rebuild writes
+    # beside it and never over it.
+    if os.path.exists(os.path.join(HERE, "S03.FINAL")):
+        out = os.path.join(HERE, "S03_rebuild.pptx")
+        print("   S03.FINAL present: writing S03_rebuild.pptx, leaving the finished S03.pptx untouched")
     D.save(prs, out)
     D.write_briefs(os.path.join(HERE, "IMAGE_BRIEFS.md"))
     n = sum(len(r) for _, r in parts)

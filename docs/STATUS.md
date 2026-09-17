@@ -1,5 +1,13 @@
 # STATUS — read this first, every session
 
+> **2026-09-17 · RESUME POINT — read this first.** **Evening 3's deck is FINAL** (`DECISIONS.md` #38): Daniyal's
+> hand-finished `S03_yemen/S03.pptx` (356 slides, 13 hidden, maps placed) — 131 MB, kept local, **locked** by
+> `S03_yemen/S03.FINAL` so `build.py` writes `S03_rebuild.pptx` instead. In git: `S03_repo.pptx` (maps at 1920 px,
+> 26.8 MB) and `S03.pdf` (343 pp., from the final deck). The recap set "The story so far" is `S03_recap.pptx`
+> (16 slides, pasted in at slide 238). **Next:** deliver evening 3; then replace its `DELIVERED.md` row with the
+> cards actually spoken, and plan evening 4 from wherever it stopped (Part III and the Kinda kingship backstory
+> are next in line if not reached; then Musaylima, Sajāḥ and al-Yamāma).
+>
 > **2026-09-16 (night) · RESUME POINT — read this first.** Evening 3 (`S03_yemen/`) is rebuilt **one slide per
 > event** (`DECISIONS.md` #37): 45 cards carry Beats → **361 slides** (282 beat slides; STOP C at 350–353; STOP A/B
 > closes hidden at 354–361). A four-lens review + verify + fix pass ran overnight (73 confirmed, 61 applied).

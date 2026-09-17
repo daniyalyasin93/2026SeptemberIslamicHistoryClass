@@ -28,3 +28,7 @@ docs/research/read/
 # review artefacts from S03_yemen/review_dump.py
 S03_yemen/.build/sheets/
 S03_yemen/.build/deck_dump.txt
+
+# the finished evening-3 deck is 131 MB (maps at 4K); the repo carries S03_repo.pptx + S03.pdf (DECISIONS #38)
+S03_yemen/S03.pptx
+S03_yemen/S03_rebuild.pptx

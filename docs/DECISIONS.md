@@ -669,3 +669,19 @@ making came out of it and are recorded here so they are not re-made:
   dashes and "!" on the wrong side of Arabic words (e.g. «له :وهرز»). Every deck picks this up on rebuild.
 - **The opening Line gave away the first [HANDS] answer** ("Ṣanʿāʾ in 25 nights"); its short label is now
   "Najrān, then Ṣanʿāʾ".
+
+## 38 · Evening 3's deck is final and hand-finished; the repo carries a compressed copy — 2026-09-17
+
+Daniyal finished `S03_yemen/S03.pptx` by hand (356 slides, 13 hidden; ten Map Studio maps placed at
+3840×2160) and declared it final. Two consequences:
+
+1. **A rebuild must never overwrite it.** `S03_yemen/S03.FINAL` marks it; while that file exists `build.py`
+   writes `S03_rebuild.pptx` instead. Any later change to the evening is made by hand in the deck, or rebuilt
+   to `S03_rebuild.pptx` and merged by hand.
+2. **The finished deck is 131 MB and GitHub refuses files over 100 MB.** Daniyal chose a compressed copy over
+   Git LFS: `S03_repo.pptx` is the same deck with the ten maps downscaled to 1920×1080 PNG (26.8 MB, verified to
+   open in PowerPoint and to export the same 343 pages), and `S03.pdf` is exported from the final deck. The 131 MB
+   original stays on this machine and is no longer tracked. Same principle as evening 2's video-embedded deck.
+
+Also added the same day: `S03_recap.pptx` (`build_recap.py`) — "The story so far", 16 slides pasted in before
+Part III at slide 238.

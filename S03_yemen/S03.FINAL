@@ -1,0 +1,8 @@
+S03.pptx in this folder is FINAL — Daniyal's hand-edited deck of 2026-09-17 (356 slides, 13 hidden; the ten
+Map Studio maps placed at 3840x2160). DECISIONS.md #38.
+
+While this file exists, S03_yemen/build.py writes S03_rebuild.pptx and never touches S03.pptx.
+
+S03.pptx is 131 MB and stays on this machine (GitHub refuses files over 100 MB). The repository carries:
+  S03_repo.pptx  the same deck with the ten maps downscaled to 1920x1080 PNG (26.8 MB; opens in PowerPoint)
+  S03.pdf        exported from the final S03.pptx (343 pages; hidden slides are not printed)
