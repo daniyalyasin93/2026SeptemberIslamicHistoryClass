@@ -1,5 +1,46 @@
 # STATUS — read this first, every session
 
+> **2026-09-19 (later) · RESUME POINT — read this first.** Evening 4 was **reviewed for content gaps and
+> then restructured into CHRONOLOGICAL order** (`DECISIONS.md` #42): **the two claimants → al-Buṭāḥ →
+> the road to al-Yamāma → the day begins → Ḥaḍramawt/Kinda last**, which is the sequence §12.2 of the
+> campaign note establishes. `S04_kinda_butah_yamama/`: **51 cards in six parts, ≈ 89 min**, four
+> stopping points, **`S04.pptx` = 89 slides** (12 hidden). The recommended cut is **Parts I–III to
+> STOP B** — the armies in position and Mujjāʿa in irons in Khālid's ؓ tent.
+>
+> **⚠ The price of chronological order, and it is stated at the top of the runsheet:** Ḥaḍramawt/Kinda
+> now sits at the end of ~80 minutes and **will not be reached on evening 4** — a third deferral. If
+> Kinda must be spoken next, Part V moves back to the front and #42 is superseded.
+>
+> **The review found twelve gaps; all are closed.** Five men carried cards with no ⁨تراجم⁩ notice
+> anywhere in the delivered series — **al-Ashʿath b. Qays** now has a card of his own (`TSY/E-YK19`,
+> never cut), **Ziyād b. Labīd ؓ** a first beat on `TSY/E-YK07`, and **Thābit b. Qays ؓ**
+> (⁨خطيب الأنصار⁩) and **Abū Qatāda ؓ** (⁨فارس رسول الله ﷺ⁩) their ⁨سیر⁩ notices, from the only two pages
+> fetched for this pass. Two events were on no card and now are: **`RCT/E-RC63`**, the hinge that
+> carries the army out of the mosque at Medina onto the road to al-Yamāma, and **`RCT/E-RC64`**,
+> the Muslims of Banū Ḥanīfa already fighting Musaylima before any army arrived. `RCT/E-RC52` no
+> longer spends al-Yamāma's grief a week early; `TSY/E-YK16` and `KTK/E-KD07` now frame their forward
+> references; `TSY/E-YK08` carries a ⚠ that ⁨البسوس⁩ is **not page-cited here** and must be verified
+> before it is spoken as fact; and `POT/E-PG40`/`PG41` no longer mix Arabic-script names into English
+> prose. The **Umm Tamīm ؓ** finding is recorded and deliberately not spoken (#41), with a prepared
+> answer at `QA_BANK.md` §6.3. Pool **444 cards**; citations **4,703 / 0 problems**.
+>
+> **New standing gate (`CLAUDE.md` §2, `DECISIONS.md` #43):**
+> `python tools/check_introductions.py SNN_<slug>` — walks an evening's runsheet in running order and
+> reports every proper name appearing **for the first time in the series**. The runsheet answers each
+> row in a `## Introductions checked` table; the tool exits non-zero while a row is unanswered, and
+> **"no notice needed" is a valid answer**. Evening 4's table has **69 rows, all answered**. Ask the
+> same question of **events, terms and forward references**, not only people — the evening-4 review
+> caught one of each. **Run it on every evening before the deck is built.**
+>
+> **What evening 4 still needs, and it is Daniyal's machine that can do it:**
+> 1. `S04.pdf` — the build cannot write it in the container (no PowerShell/Chrome). Re-run
+>    `python S04_kinda_butah_yamama/build.py` on Windows and it appears beside the deck.
+> 2. **The Line images** — `visuals/line_s04_open.png` and `line_s04_stop_a/b/c/d.png`. Adapt
+>    `S03_yemen/make_timeline.py` + `timeline.json`; until then those five slides show placeholders.
+> 3. **Thirteen Map Studio scenes** (`s04-00`…`s04-11`) — briefs are in the slide notes and `IMAGE_BRIEFS.md`.
+> 4. **`CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf`** — adapt `S03_yemen/pack_data.py`, **after** the cut
+>    is fixed, so the cue sheet is one page for the evening actually being given.
+
 > **2026-09-17 · RESUME POINT — read this first.** **Evening 3's deck is FINAL** (`DECISIONS.md` #38): Daniyal's
 > hand-finished `S03_yemen/S03.pptx` (356 slides, 13 hidden, maps placed) — 131 MB, kept local, **locked** by
 > `S03_yemen/S03.FINAL` so `build.py` writes `S03_rebuild.pptx` instead. In git: `S03_repo.pptx` (maps at 1920 px,
@@ -81,7 +122,7 @@ it from the corrected `CONTENT.md` before session 2 is delivered.
 
 | | |
 |---|---|
-| **Sessions delivered** | **1 and 2** — see `docs/catalogue/DELIVERED.md` (evening 2 stopped after ⁨بزاخة⁩) |
+| **Sessions delivered** | **1, 2 and 3** — see `docs/catalogue/DELIVERED.md` (evening 2 stopped after ⁨بزاخة⁩; evening 3 did not reach Part III, Ḥaḍramawt/Kinda) |
 | **Next session date** | ⬜ **NOT SET** — needed for the print deadline and the build plan |
 | **Session 1 status** | being **rebuilt** to the v3 shape (see `docs/specs/2026-09-03-L01-v3-spec.md`) |
 | **Session 2 status** | built to the v2 shape, opens on the ⁨ردة⁩ — **still correct**, unaffected by the v3 rebuild |

@@ -1115,6 +1115,13 @@ that Muḥammad ﷺ was truthful. And then he said the rest of it. But a liar of
 dearer to us than a truthful man of Muḍar. He followed him, and he was killed with him at ʿAqrabāʾ.
 Banū Ḥanīfa are of Rabīʿa and Quraysh are of Muḍar, and both trunks are ʿAdnānī. So the fault line
 is not only north against south. It forks again, one level down.
+**Beats:**
+1. A bedouin speaks to Musaylima's face — And tells him what he actually thinks of the claim.
+2. "I bear witness that you are a liar" — And that Muḥammad ﷺ is truthful.
+3. And then the rest of it — But a liar of Rabīʿa is dearer to us than a truthful man of Muḍar.
+4. Both trunks are northern Arabs — Banū Ḥanīfa of Rabīʿa, Quraysh of Muḍar, and both of ʿAdnān.
+5. He followed him anyway — And was killed with him at ʿAqrabāʾ.
+**Quote after beat:** 3
 **The statement:**
 > فقال أشهد أنَّك كذّابٌ وأن محمدًا صادقٌ، ولكن كذّابَ رَبيعة أحبُّ إلينا من صادقِ مُضَر
 > — ⁨البدایہ والنہایہ ج۷ ص۳۷⁩ · https://shamela.ws/book/30097/3183
@@ -1191,6 +1198,14 @@ ours and half is Quraysh's — but Quraysh are a people who transgress. The repl
 and it refuses the premise rather than the arithmetic. The earth belongs to Allah; He gives it in
 inheritance to whom He wills of His servants; and the outcome is for those who fear Him. The book
 dates the exchange to the end of the year 10.
+**Beats:**
+1. A letter comes from al-Yamāma — Addressed from one messenger of Allah to another.
+2. What it actually proposes — Not a revelation: a partition. Half the matter ours, half Quraysh's.
+3. "But Quraysh are a people who transgress" — The complaint is about a tribe, not about a religion.
+4. The reply refuses the premise — Not the arithmetic: the earth belongs to Allah.
+5. "He gives it in inheritance to whom He wills" — And the outcome is for those who fear Him.
+6. The date — The book puts the exchange at the end of the year 10.
+**Quote after beat:** 3
 **The statement:**
 > من مُسَيْلَمة رسولِ اللهِ إلى محمدٍ رسولِ الله، سلامٌ عَلَيْكَ، أما بعدُ، فإني قد أُشْرِكْتُ في الأمْرِ معكَ، فإنّ لنا نِصْفَ الأمْرِ، ولقُرَيشٍ نصف الأمْرِ، ولكن قُريشًا قومٌ يَعْتدون.
 > — ⁨البدایہ والنہایہ ج۵ ص۲۴⁩ · https://shamela.ws/book/30097/2208
@@ -1222,6 +1237,14 @@ he asks for?"*
 own people, and kept saying that if Muḥammad ﷺ would make the succession his, he would follow him.
 The Prophet ﷺ came out to him with Thābit b. Qays b. Shammās ؓ, and there was a piece of a
 palm-branch in his hand. And what he said to him was about that piece.
+**Beats:**
+1. He came to Medina himself — While the Prophet ﷺ was alive, with a large number of his own people.
+2. What he kept saying — Make the succession mine, and I will follow you.
+3. The Prophet ﷺ came out to him — With Thābit b. Qays b. Shammās ؓ beside him.
+4. There was a piece of palm-branch in his hand — And what he said to him was about that piece.
+5. "If you asked me for this, I would not give it to you" — The claim was refused while it was still a request.
+6. Remember the man standing beside him — Thābit b. Qays ؓ dies at al-Yamāma, against this same claimant.
+**Quote after beat:** 5
 **The statement:**
 > لو سألتني هذه القطعة ما أعطيتكها، ولن تعدوَ أمرَ اللهِ فيك، ولئن أدبرتَ ليعقرنَّك اللهُ
 > — ⁨البدایہ والنہایہ ج۵ ص۲۱⁩ · https://shamela.ws/book/30097/2205 — **⁨صحيح البخاري ٤٣٧٣⁩**, via
@@ -1281,6 +1304,14 @@ war on Abū Bakr ؓ. She was of Taghlib, and she was of the Christians of the Ar
 Tamīm, which is only the tribe she gathered on the way. When she passed through the country of Banū
 Tamīm she called them to her cause and most of them answered — Mālik b. Nuwayra ؓ among them, and
 ʿUṭārid b. Ḥājib, and a number of the chiefs of Tamīm. Others of them held back.
+**Beats:**
+1. She comes down from al-Jazīra — With troops of her own people and whoever had joined them.
+2. She had claimed prophethood — And, the book says, they had resolved on making war on Abū Bakr ؓ.
+3. Who she actually was — Of Taghlib, and of the Christians of the Arabs.
+4. Not of Tamīm — Tamīm is only the tribe she gathered on the way.
+5. Most of Tamīm answered her — Including Mālik b. Nuwayra ؓ, ʿUṭārid b. Ḥājib and a number of chiefs.
+6. Others held back — The tribe split, as tribes did all through this war.
+**Quote after beat:** 3
 **The statement:**
 > إذ أقبلت سجاح بنتُ الحارث بن سويد بن عقفان التغلبية من الجزيرة، وهي من نصارى العرب، وقد ادَّعتِ النبوَّة
 > — ⁨البدایہ والنہایہ ج۷ ص۲۸⁩ · https://shamela.ws/book/30097/3174
@@ -1311,6 +1342,14 @@ until the time of Muʿāwiya. The dowry he paid her was the remission of two of 
 dawn prayer and the night prayer. That is what one claim to prophethood was worth to the other. And
 al-Suhaylī, whom Ibn Kathīr quotes, records that she became Muslim in the days of ʿUmar b. al-Khaṭṭāb
 ؓ, and that her Islam was good.
+**Beats:**
+1. The two claimants meet at al-Yamāma — The northern claim and the Yamāma claim, in one place.
+2. He bought her off — She took half the kharāj of his land.
+3. The dowry he paid — The remission of two of the five prayers: the dawn and the night prayer.
+4. What that tells you — That is what one claim to prophethood was worth to the other.
+5. She went home — Back north to al-Jazīra, and stayed among Banū Taghlib until Muʿāwiya's time.
+6. And afterwards — She became Muslim in ʿUmar's ؓ days, and her Islam was good. End the card here.
+**Quote after beat:** 2
 **The statement:**
 > ثم انثنت سَجَاح راجعةً إلى بلادها … فكرَّتْ راجعةً إلى الجزيرة بعدما قبضَتْ من مسيلمة نصفَ خراجِ أرضِهِ، فأقامت في قومها بني تَغْلِب، إلى زمان معاوية
 > — ⁨البدایہ والنہایہ ج۷ ص۳۰⁩ · https://shamela.ws/book/30097/3176

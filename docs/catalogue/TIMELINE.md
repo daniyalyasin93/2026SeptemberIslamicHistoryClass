@@ -12,7 +12,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 **Do not resolve it here.** Narrate what the sources narrate and say they differ.
 
 
-**1423 dated cards.**
+**1476 dated cards.**
 
 | When | Certainty | Card | Event |
 |---|---|---|---|
@@ -29,6 +29,21 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 10 AH, returning from Yemen | `SOURCED` | `TFO/E-FA27` | بريدة ؓ, the complaint, and the answer |
 | 10 جمادى الآخرة 36 AH | `SOURCED` | `TDO/E-DG29` | «حواريَّ الزبير» — and the same Thursday |
 | 10ھ–12ھ | `SOURCED` | `ATA/E-TB14` | Four claimants, and when each of them began |
+| 11 AH | `SOURCED` | `TSY/E-YK02` | Up the mountain of Khawlān |
+| 11 AH | `SOURCED` | `TSY/E-YK03` | "Go back to your own land" |
+| 11 AH | `SOURCED` | `TSY/E-YK17` | Fayrūz's ؓ war — the families brought back |
+| 11 AH | `SOURCED` | `TSY/E-YK05` | Two armies come down on the Yemen |
+| 11 AH | `SOURCED` | `TSY/E-YK07` | The promise about the camels |
+| 11 AH | `SOURCED` | `TSY/E-YK08` | "The humbled man is the one devoured in his own home" |
+| 11 AH | `SOURCED` | `TSY/E-YK09` | Free men do not change sides |
+| 11 AH by الکامل's arrangement; سیر files it under 12 AH [SOURCED, the books differ] | `—` | `TSY/E-YK10` | Round their fires |
+| 11 AH by الکامل's arrangement; سیر files it under 12 AH [SOURCED, the books differ] | `—` | `TSY/E-YK11` | The fort they had already repaired |
+| 11 AH by الکامل's arrangement; سیر files it under 12 AH [SOURCED, the books differ] | `—` | `TSY/E-YK12` | The knife at the writing |
+| 11 AH by الکامل's arrangement; سیر files it under 12 AH [SOURCED, the books differ] | `—` | `TSY/E-YK13` | The other telling |
+| 11 AH, after the news of the Prophet's ﷺ death reached the Yemen | `SOURCED` | `TSY/E-YK01` | Two letters to the same five men |
+| 11 AH, after the night attack | `SOURCED` | `TSY/E-YK19` | al-Ashʿath b. Qays comes into it |
+| 11 AH, the killing it names ; the dream itself is undated on the page | `SOURCED` | `AAA/E-AW20` | "Whom Fayrūz killed in Yemen" |
+| 11 AH, the ridda of Ḥaḍramawt | `SOURCED` | `KTK/E-KD06` | "The four kings" — side by side, no arrow between |
 | 11ھ | `SOURCED` | `ATA/E-TB06` | What the break actually was — Ibn Kathīr's own sorting |
 | 11ھ | `SOURCED` | `ATA/E-TB08` | The Companions proposed going easy, and he refused |
 | 11ھ | `SOURCED` | `ATA/E-TB09` | «لو مَنَعوني عِقالًا» — and what ʿUmar ؓ said afterwards |
@@ -39,7 +54,13 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ | `SOURCED` | `ATA/E-TB25` | The Azd stood on both sides of the map |
 | 11ھ | `SOURCED` | `RCT/E-RC09` | بُزاخة — the man who walked off the field |
 | 11ھ | `SOURCED` | `RCT/E-RC13` | الفُجاءة — the man who asked for weapons |
-| 11ھ | `SOURCED` | `RCT/E-RC14` | البُطاح and Mālik b. Nuwayra ؓ — ⚠ SPEAKER'S DISCRETION |
+| 11ھ | `SOURCED` | `RCT/E-RC44` | The third stop in the orders, and the Anṣār who would not march |
+| 11ھ | `SOURCED` | `RCT/E-RC45` | Mālik b. Nuwayra ؓ, standing apart |
+| 11ھ | `SOURCED` | `RCT/E-RC46` | "Disperse, and enter into this matter" |
+| 11ھ | `SOURCED` | `RCT/E-RC47` | The patrol could not agree on what it had seen |
+| 11ھ | `SOURCED` | `RCT/E-RC49` | ʿUmar ؓ in the mosque |
+| 11ھ | `SOURCED` | `RCT/E-RC50` | "He interpreted, and he was mistaken" |
+| 11ھ | `SOURCED` | `RCT/E-RC63` | Excused in the mosque, and sent straight to al-Yamāma |
 | 11ھ | `SOURCED` | `RCT/E-RC25` | The sixteen riders |
 | 11ھ | `SOURCED` | `RCT/E-RC39` | The men of Badr who were kept out of office |
 | 11ھ | `—` | `RCT/E-RC40` | The three-colour tribe — CUT, recorded so it is never re-researched |
@@ -50,9 +71,10 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ | `SOURCED` | `GSA/E-ST5` | The zakāt refusers, and عمر ؓ saying out loud that he had been wrong |
 | 11ھ | `SOURCED` | `IKO/E-IKN2` | The sheep in the rain — and who really said it |
 | 11ھ (البدایہ files it in the ridda year) | `SOURCED` | `TMW/E-TRN9` | "Do not let me see you until you have proved yourself" |
+| 11ھ [SOURCED, the books disagree] | `—` | `RCT/E-RC48` | One night, and four accounts of it |
 | 11ھ and after | `SOURCED` | `ABU/E-U7` | "Peace be upon you, commander" |
 | 11ھ for the statement; البدایہ carries the events | `SOURCED` | `IKO/E-IKN1` | Whole tribes, parts of tribes, and those who simply held off |
-| 11ھ — the year is | `SOURCED` | `IKO/E-IKN3` | One dissent does not unmake a consensus — and even that is said conditionally |
+| 11ھ — the year is page-cited in saqifah-bani-saida.md (البدایہ ج5 ص343؛ ج7 ص5), not on ابن خلدون's page | `SOURCED` | `IKO/E-IKN3` | One dissent does not unmake a consensus — and even that is said conditionally |
 | 11ھ → 12ھ | `SOURCED` | `ZIA/E-ZY15` | The mother at al-Yamāma |
 | 11ھ, after Usāma's ؓ army had rested | `SOURCED` | `RCT/E-RC05` | Eleven banners at ذو القصّة |
 | 11ھ, after بُزاخة | `SOURCED` | `RCT/E-RC10` | The terms at Medina, and ʿUmar's ؓ objection |
@@ -64,9 +86,11 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ, as the delegations arrive | `SOURCED` | `ATA/E-TB07` | Two refusals, not one |
 | 11ھ, at the ridda appointment | `SOURCED` | `TMW/E-TRN21` | The ḥadīth about the Sword of Allah, and who carries it |
 | 11ھ, at الجُرْف | `SOURCED` | `GSA/E-ST3` | The caliph walks and the eighteen-year-old rides |
-| 11ھ, at المدينة | `—` | `RCT/E-RC38` | ʿUmar ؓ to Quraysh — the framing card |
+| 11ھ, at المدينة | `SOURCED` | `RCT/E-RC38` | ʿUmar ؓ to Quraysh — the framing card |
 | 11ھ, at اليمامة | `SOURCED` | `RCT/E-RC15` | ʿIkrima ؓ goes too early, and the letter that follows him |
+| 11ھ, at اليمامة | `SOURCED` | `RCT/E-RC53` | And then the second commander did the same thing |
 | 11ھ, at اليمامة, and afterwards | `SOURCED` | `ATA/E-TB19` | What her claim was worth to the other claimant |
+| 11ھ, before Khālid ؓ arrived | `SOURCED` | `RCT/E-RC64` | There were Muslims inside al-Yamāma already |
 | 11ھ, before any arrow is drawn | `SOURCED` | `ATA/E-TB01` | Arabia was a map of kin, not a map of provinces |
 | 11ھ, before بُزاخة | `SOURCED` | `ATA/E-TB23` | ʿAdī b. Ḥātim ؓ, and the two names Ṭayyiʾ called Abū Bakr ؓ |
 | 11ھ, before بُزاخة | `SOURCED` | `RCT/E-RC07` | ʿAdī b. Ḥātim ؓ buys three days |
@@ -83,22 +107,35 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ, اليمن | `SOURCED` | `RCT/E-RC31` | صنعاء — the two women in the street |
 | 11ھ; the delegation was in سنة تسع | `SOURCED` | `ATA/E-TB22` | Thaqīf had been Muslim for two years, and did not break |
 | 11ھ–12ھ, اليمامة | `SOURCED` | `ATA/E-TB12` | The man who followed Musaylima knowing he was lying |
+| 11ھ→12ھ | `SOURCED` | `RCT/E-RC54` | Forty thousand, and the ground he chose |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC16` | The tent and the prisoner — عَقْرَباء |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC20` | حديقة الموت — al-Barāʾ ؓ over the wall |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC21` | The death of Musaylima, and what Waḥshī ؓ said afterwards |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC27` | دارين — into the water |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC30` | مَهْرة — the front won with a letter |
 | 11ھ→12ھ | `SOURCED` | `RCT/E-RC32` | Abū Bakr ؓ judges two men who fought against him |
-| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC17` | The line breaks |
+| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC17` | The line breaks, and the two protections |
+| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC57` | الرَّجّال بن عُنْفوة — the man who made the lie believable |
+| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC58` | "People of Sūrat al-Baqara" |
 | 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC18` | Thābit b. Qays ؓ puts on his shroud |
+| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC59` | Sālim ؓ — "A wretched bearer of the Qurʾān I should be" |
+| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC60` | Zayd b. al-Khaṭṭāb ؓ — "I will not speak" |
+| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC61` | Abū Ḥudhayfa ؓ — "adorn the Qurʾān with deeds" |
+| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC62` | Khālid ؓ between the lines, and the offer he made first |
 | 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC19` | «امتازوا» — the order that turned the day |
+| 11ھ→12ھ, at عَقْرَباء [SOURCED, the attribution is disputed] | `—` | `RCT/E-RC56` | "Today is the day of honour" |
+| 11ھ→12ھ, at عَقْرَباء [SOURCED, the books disagree] | `—` | `RCT/E-RC55` | The order of battle, and why there is no diagram of it |
 | 11ھ→12ھ, حضرموت | `SOURCED` | `RCT/E-RC33` | The she-camel called Shadhra |
 | 11ھ→12ھ, عُمان | `SOURCED` | `RCT/E-RC29` | دَبا — the relief that came from inside the theatre |
+| 11–12 AH | `SOURCED` | `TSY/E-YK06` | "Qays — you killed the servants of Allah" |
+| 11–12 AH | `SOURCED` | `TSY/E-YK18` | "Every day routed or taken prisoner" |
+| 11–12 AH | `SOURCED` | `TSY/E-YK14` | "What do you think I will do with you?" |
 | 11–12 AH | `SOURCED` | `POT/E-PG40` | The wedding feast in the camel market |
 | 11–13 AH | `SOURCED` | `POT/E-PH26` | Abū Bakr ؓ carrying him after ʿaṣr |
 | 11–13ھ | `SOURCED` | `GSA/E-ST12` | The blind woman in the night |
+| 11–40 AH; died 40 AH | `SOURCED` | `KTK/E-KD07` | al-Ashʿath ؓ after the pardon — "and I did" |
 | 12 AH [SOURCED — البدایہ ج7 ص64] | `—` | `ISA/E-C2` | The letter to the marzubāns of Persia |
-| 12 AH [SOURCED — البدایہ ج7 ص70; also سیر ج1 ص376, where the chain is | `—` | `ISA/E-C3` | The poison cup at al-Ḥīra |
+| 12 AH [SOURCED — البدایہ ج7 ص70; also سیر ج1 ص376, where the chain is مرسل] | `—` | `ISA/E-C3` | The poison cup at al-Ḥīra |
 | 12ھ | `SOURCED` | `RCT/E-RC22` | The treaty he was tricked into, and kept |
 | 12ھ | `SOURCED` | `RCT/E-RC37` | The Qurʾān was collected because of this |
 | 12ھ (to verify) | `STANDARD` | `TMW/E-TRN4` | The same spear, at al-Yamāma |
@@ -121,20 +158,21 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 13 AH, and six months after | `SOURCED` | `ABD/E-B21` | His father outlives him |
 | 13 AH, at his accession — البدایہ ج7 ص120 dates it «يوم الثلاثاء لثمان بقين من جمادى الآخرة» of that year (https://shamela.ws/book/30097/3266) | `SOURCED` | `UTS/E-U1` | The name of the office |
 | 13 AH, at the Syrian front | `SOURCED` | `ABD/E-B18` | The news reaches اليرموك |
-| 13 AH, on ʿUmar ؓ's accession [SOURCED — البدایہ ج7 ص103، ص236; سیر | `—` | `ISA/E-C15` | The removal, and what the two men said |
-| 13 or 14 AH; the sequence relative to Damascus is disputed [SOURCED | `—` | `ISA/E-C14` | Fiḥl — the mud they laid themselves |
+| 13 AH, on ʿUmar ؓ's accession [SOURCED — البدایہ ج7 ص103، ص236; سیر ج1 ص373، ص378] | `—` | `ISA/E-C15` | The removal, and what the two men said |
+| 13 or 14 AH; the sequence relative to Damascus is disputed [SOURCED — البدایہ ج7 ص112–113; الکامل ج2 ص270] | `—` | `ISA/E-C14` | Fiḥl — the mud they laid themselves |
 | 13ھ | `SOURCED` | `TMW/E-TRN23` | The house of Abū Jahl at Ajnādayn |
 | 13ھ | `SOURCED` | `GSA/E-ST7` | طلحة ؓ objects to the appointment of عمر ؓ, in public |
 | 13ھ | `SOURCED` | `GSA/E-ST9` | «I am one arrow — shoot me where it is hardest» |
 | 13ھ | `SOURCED` | `GSA/E-ST14` | The title that was getting longer |
+| 13ھ onwards, in ʿUmar's ؓ caliphate | `SOURCED` | `RCT/E-RC52` | ʿUmar ؓ and Mutammim |
 | 13ھ or 15ھ for the disagreement itself | `SOURCED` | `TMW/E-TRN22` | Where ʿIkrima ؓ died — and why we cannot say |
 | 13ھ, after اليرموك | `SOURCED` | `GSA/E-ST32` | خالد ؓ divides his sandals with the treasury |
 | 13ھ, before اليرموك | `SOURCED` | `GSA/E-ST10` | «Ten thousand are not beaten by being few» |
 | 13ھ, before دمشق [STANDARD — the chain has an unnamed link; see §4.2] | `—` | `GSA/E-ST34` | By night monks, by day horsemen |
 | 13ھ, the Syrian expedition | `SOURCED` | `GSA/E-ST8` | The charge to يزيد بن أبي سفيان ؓ, walking beside his horse |
 | 13ھ, the day of أبو بكر ؓ's burial | `SOURCED` | `GSA/E-ST13` | عمر ؓ's first words as caliph |
-| 13ھ, the fourth day of the call for volunteers — that is all either | `—` | `QMA/E-Q2` | The command goes to the first man who volunteered |
-| 13ھ, the morning after أبو بكر ؓ was buried — the first days of عمر ؓ's | `—` | `QMA/E-Q1` | Nobody would go to Persia |
+| 13ھ, the fourth day of the call for volunteers — that is all either page gives (البدایہ ج7 ص114; الکامل ج2 ص273) . No month is stated in the sources for this; do not print one | `SOURCED` | `QMA/E-Q2` | The command goes to the first man who volunteered |
+| 13ھ, the morning after أبو بكر ؓ was buried — the first days of عمر ؓ's caliphate . The month is not on either page: البدایہ ج7 ص114 says only «ودُفن ليلةَ الثلاثاء» and الکامل ج2 ص273 «اللَّيْلَةِ الَّتِي مَاتَ فِيهَا أَبُو بَكْرٍ». جمادى الآخرة is (to verify) and must not be printed as sourced | `SOURCED` | `QMA/E-Q1` | Nobody would go to Persia |
 | 13ھ, the sending of the Syrian armies (to verify) | `STANDARD` | `TMW/E-TRN19` | Abū Bakr ؓ walks beside the stirrup |
 | 13–18ھ | `SOURCED` | `GSA/E-ST31` | «I wish I were in his skin» |
 | 13–23ھ | `SOURCED` | `GSA/E-ST15` | عمر ؓ overheard talking to himself behind a wall |
@@ -144,13 +182,13 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 13–23ھ | `SOURCED` | `ATM/E-AL12` | The best judge among us, said عمر ؓ |
 | 13–23ھ [SOURCED — the page says «أخرجه البخاري»] | `—` | `GSA/E-ST18` | «Keep the herds of Ibn ʿAwf and Ibn ʿAffān away from me» |
 | 14ھ (the year is disputed | `SOURCED` | `QMA/E-Q7` | رِبْعي بن عامر ؓ walks his horse across the carpet |
-| 14–15ھ (to verify) | `STANDARD` | `IKO/E-IKX3` | Rustam watching the prayer ranks |
+| 14–15ھ (to verify) — the conventional date of القادسیہ; no date at all appears on ج1 ص190, which is analysis | `STANDARD` | `IKO/E-IKX3` | Rustam watching the prayer ranks |
 | 14–15ھ, before القادسية [STANDARD — VIA سيف/الطبری; see §4.1] | `—` | `GSA/E-ST36` | ربعي بن عامر ؓ walks his horse onto the carpet |
-| 14–23ھ | `STANDARD` | `IKO/E-IKX2` | Four good sentences — one of them usable after all |
+| 14–23ھ (to verify) — an era tag, not a page-cited date; only «وفي هذه السنة وهي أربع عشرة» for بناء الكوفة والبصرة is on the page (ج2 ص549) | `STANDARD` | `IKO/E-IKX2` | Four good sentences — one of them usable after all |
 | 15 AH | `SOURCED` | `UTS/E-U7` | The register argued with in public |
-| 15 AH (after Qinnasrīn), and again in writing in 17 AH [SOURCED | `—` | `ISA/E-C16` | "I did not remove him for any suspicion" |
+| 15 AH (after Qinnasrīn), and again in writing in 17 AH [SOURCED — البدایہ ج7 ص153; الکامل ج2 ص360; سیر ج1 ص378] | `—` | `ISA/E-C16` | "I did not remove him for any suspicion" |
 | 15 AH per الکامل [SOURCED — disputed, see note §3.1] | `—` | `UTS/E-U5` | The register: paid on precedence, not on blood |
-| 15 or 16 AH — البدایہ ج7 ص157–158 and الکامل ج2 ص329 for 15 | `SOURCED` | `BAM/E-Q1` | The condition the city set |
+| 15 or 16 AH — البدایہ ج7 ص157–158 and الکامل ج2 ص329 for 15, البدایہ ج7 ص159–160 and سیر جراشدون ص117 for 16, سیر جراشدون ص88 for 17; the full table is §7 | `SOURCED` | `BAM/E-Q1` | The condition the city set |
 | 15 or 16 or 17 AH [SOURCED — disputed] | `—` | `UTS/E-U24` | Jerusalem asks for him by name |
 | 16 AH per البدایہ; 17 or 18 per الکامل [SOURCED — disputed] | `—` | `UTS/E-U2` | The bond that had no year on it |
 | 16 AH — الکامل carries جلولاء inside its سنة ست عشرة block (ج2 ص337–351); but الليث بن سعد, in سیر جراشدون ص88, puts جلولاء in 19 AH (§6.1). [SOURCED — and disputed] | `—` | `UTS/E-U13` | The spoils of جلولاء, and a man weeping over them |
@@ -235,7 +273,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 21 AH | `SOURCED` | `NTS/E-U9` | Why they called it the victory of victories |
 | 21 AH | `SOURCED` | `NTS/E-U10` | The captives of Nahāwand, and the man who wept over them |
 | 21 AH (البدایہ ج7 ص225; the sources also record 17 and 19) | `SOURCED` | `NTS/E-U1` | Persia decides it has no choice |
-| 21 AH, at Homs [SOURCED — سیر ج1 ص367، ص381، ص383; البدایہ ج7 ص237 | `—` | `ISA/E-C17` | The death on the bed |
+| 21 AH, at Homs [SOURCED — سیر ج1 ص367، ص381، ص383; البدایہ ج7 ص237 (the «ما في جسدي شبر» version)، ص239 (the statement quoted below, and the women weeping)] | `—` | `ISA/E-C17` | The death on the bed |
 | 21ھ — as Ibn ʿAsākir transmits it | `SOURCED` | `TMW/E-TRN16` | The night ride at Nahāwand |
 | 21ھ, حمص [SOURCED — Ibn Ḥajar: «إسناده حسن»] | `—` | `GSA/E-ST33` | خالد ؓ dies in his bed |
 | 21–43 AH | `SOURCED` | `POT/E-PG3` | Egypt taken, Egypt lost, Egypt given back |
@@ -595,7 +633,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 36 AH [SOURCED — الکامل only] | `—` | `S/E-SF4` | Two sons give opposite advice |
 | 36 AH and after | `SOURCED` | `POT/E-PF46` | No dinar and no dirham, and a debt of two million two hundred thousand |
 | 36 AH to the end of معاوية ؓ's caliphate — no year of death is given | `SOURCED` | `POT/E-PG50` | The son of the man of سقيفہ |
-| 36 AH — the month of the battle is not on the fetched | `SOURCED` | `TCW/E-SB1` | Ten thousand dead and almost no Companions present |
+| 36 AH — the month of the battle is not on the fetched pages (to verify) | `SOURCED` | `TCW/E-SB1` | Ten thousand dead and almost no Companions present |
 | 36 AH, after al-Jamal | `SOURCED` | `POT/E-PF18` | Ali gets down from his mount and wipes the dust away |
 | 36 AH, after al-Jamal | `SOURCED` | `POT/E-PF59` | You have won, so be gentle |
 | 36 AH, days after the battle | `SOURCED` | `TCW/E-SB20` | Where is the one who held back? |
@@ -904,6 +942,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | After 40 AH | `SOURCED` | `TMA/E-MG52` | أم سلمة ؓ answers a man who asked her about it |
 | After النهروان, 38 AH (to verify) | `STANDARD` | `TMA/E-MG16` | A rival account is refused, and the refusal names whose account it is |
 | Before 35 AH | `SOURCED` | `TMA/E-MG35` | الإمام مالك رحمہ اللہ: he used to pass that spot and say it |
+| Dayr al-Jamājim, Shaʿbān 82 AH ; Ibn al-Ashʿath's death 84 AH (al-Dhahabī, one of several accounts) | `SOURCED` | `KTK/E-KD09` | Dayr al-Jamājim — the offer refused, and the end |
 | During علي ؓ's caliphate, 35–40 AH | `SOURCED` | `TMA/E-MG42` | Established from him بالتواتر, from the pulpit of الكوفة |
 | During علي ؓ's caliphate, 35–40 AH | `SOURCED` | `TMA/E-MG46` | علي ؓ: he left us no covenant about the command |
 | During علي ؓ's caliphate, 35–40 AH | `SOURCED` | `TMA/E-MG47` | Allah knows whether we were right or whether we were wrong |
@@ -923,6 +962,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | Monday 12 رجب 36 AH | `SOURCED` | `TAF/E-TL18` | The capital moves |
 | Monday evening, 8 nights remaining of جمادى الآخرة 13 AH | `SOURCED` | `ABD/E-B15` | Monday night, and a grave already dug beside another |
 | Nahāwand, 21ھ — Ibn ʿAsākir's transmission, in Ibn Kathīr | `SOURCED` | `TMW/E-TRN17` | How Ṭulayḥa ؓ died, and how al-Dhahabī closes the entry |
+| Rabīʿ al-Awwal 11 AH (632 CE) ; CE | `SOURCED` | `AAA/E-AW15` | Some nights before — or one night |
 | Saturday, the first of Rajab 36 AH | `SOURCED` | `TCW/E-SB39` | Let none of us reproach another |
 | Shaʿbān 3 AH | `SOURCED` | `POT/E-PH23` | Born in Shaʿbān of the third year — and the historian picks between two reports |
 | The period in question closes at 40 AH (to verify) | `STANDARD` | `TMA/E-MG10` | Why the ummah has to know when a period ended |
@@ -935,6 +975,8 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | Wednesday 13 صفر 37 AH | `SOURCED` | `TAA/E-KH11` | What the document actually bound them to |
 | Wednesday 13 صفر 37 AH | `SOURCED` | `TAF/E-TL21` | A Wednesday, and a document |
 | Wednesday, four nights remaining of ذو الحجة 23 AH ; the sources also give three, and seven | `SOURCED` | `NTS/E-U12` | The فجر of Wednesday |
+| [SOURCED, disputed] 81 AH (Abū Mikhnaf) or 82 AH (al-Wāqidī) | `—` | `KTK/E-KD08` | The grandson in Sijistān — from the governor to the caliph |
+| [SOURCED, disputed] Rabīʿ al-Awwal 11 AH, some nights before the Prophet's ﷺ death, or one night | `—` | `AAA/E-AW13` | The lamp under the bowl |
 | a Friday, ذو القعدة 35 AH | `SOURCED` | `TSA/E-SK10` | Stones in the mosque |
 | across 23–41 AH | `SOURCED` | `TAF/E-TL34` | The register, as a slide |
 | across 23–41 AH | `SOURCED` | `TAF/E-TL35` | The gaps we cannot fill, said out loud |
@@ -958,9 +1000,10 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | after 41 AH | `SOURCED` | `TSA/E-SK47` | معاوية ؓ pulls down the wall |
 | after 41 AH | `SOURCED` | `TCO/E-HS59` | «كَانَتْ جَمَاجِمُ العَربِ فِي يَدِي» |
 | after 41 AH | `SOURCED` | `POT/E-PF63` | Al-Shabi marvelled at her fiqh and her learning |
+| after news of the Prophet's ﷺ death reached Yemen, 11 AH | `SOURCED` | `AAA/E-AW16` | One of the three |
 | after the arbitration, 37–38ھ (to verify) | `STANDARD` | `IKO/E-IK33` | The printed edition's own footnote sets a report aside |
 | after the conquest of Makkah, 8 AH | `SOURCED` | `POT/E-PH3` | The hand that wrote for the Prophet ﷺ |
-| after the death of يزيد — conventionally 64 AH | `STANDARD` | `TCW/E-SB12` | The caliphate offered, and one man in the way |
+| after the death of يزيد — conventionally 64 AH (to verify — the page gives only the event, not the year) | `STANDARD` | `TCW/E-SB12` | The caliphate offered, and one man in the way |
 | after the fall of Ṭāʾif, 8–9ھ (to verify — the page gives the sequence, not a year) | `STANDARD` | `TMW/E-TRN3` | "Keep your face away from me" |
 | after the killing of علي ؓ, at الحسن ؓ's settlement ; the year 41 AH | `SOURCED` | `POT/E-PG55` | Safe conduct for five thousand, and none for himself |
 | after the تحكیم, 37–38 AH | `SOURCED` | `TKI/E-KR14` | «A word of truth by which falsehood is intended» |
@@ -978,6 +1021,8 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | after صفر 37 AH | `SOURCED` | `S/E-SF52` | Fifty in one grave |
 | after صفر 37 AH [SOURCED — irreconcilably disputed] | `—` | `S/E-SF51` | Seventy thousand, and nobody agrees |
 | after صفين, 37–40 AH | `SOURCED` | `TKO/E-QA72` | The caliph loses a lawsuit to a Christian |
+| after Ḥajjat al-Wadāʿ, 10 AH (632 CE) ; CE | `SOURCED` | `AAA/E-AW04` | ʿAbhala, "the veiled one" |
+| al-Qādisiyya to Nahāwand; Ibn Kathīr files the saying in his notices for 21 AH | `SOURCED` | `TSY/E-YK16` | "We suspected three men" |
 | among مسلمة الفتح, 8 AH | `SOURCED` | `POT/E-PH60` | al-Walīd b. ʿUqbah ؓ — a Companion with slight companionship |
 | around 30 AH | `SOURCED` | `UTM/E-MS33` | The treasuries |
 | around 30 AH | `SOURCED` | `UTM/E-MS46` | "And each is sunnah" |
@@ -1002,7 +1047,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | before 35 AH | `SOURCED` | `TSA/E-SK45` | "A righteous man will be buried here" |
 | before 36 AH | `SOURCED` | `TCW/E-SB17` | Ḥudhayfa ؓ knew one man the fitna would spare |
 | before 38 AH | `SOURCED` | `EAT/E-EG3` | The governor he wished he had kept |
-| before his death, which the same chapter gives as 51 or 52 AH | `—` | `TCW/E-SB23` | The one thing he feared living to see |
+| before his death, which the same chapter gives as 51 or 52 AH | `SOURCED` | `TCW/E-SB23` | The one thing he feared living to see |
 | before the fighting at صفین, 37ھ (to verify) | `STANDARD` | `IKO/E-IK34` | "I say neither wrongfully nor wrongdoing" |
 | before النهروان, 38 AH | `SOURCED` | `TKI/E-KR5` | The order to march, and what it cost |
 | before رمضان 40 AH | `SOURCED` | `TKO/E-QA4` | This beard will be dyed from this head |
@@ -1030,7 +1075,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | filed in the 38 AH register | `SOURCED` | `TDO/E-DG46` | أسماء بنت عميس ؓ — three houses |
 | from 20 AH, still standing at 35 [SOURCED — الکامل] | `—` | `TAF/E-TL9` | A treaty that outlasted everyone |
 | from 40 AH onward | `SOURCED` | `TKO/E-QA61` | What that one night left behind in every mosque |
-| in the Prophet's ﷺ lifetime, 11ھ (no page read gives the | `SOURCED` | `ABU/E-U1` | The appointment nobody liked |
+| in the Prophet's ﷺ lifetime, 11ھ (no page read gives the month) | `SOURCED` | `ABU/E-U1` | The appointment nobody liked |
 | in the Prophet's ﷺ lifetime; delivered in the 35 AH block | `SOURCED` | `GSA/E-ST8` | The shirt, told three times |
 | in ʿUmar's ؓ caliphate, before 23 AH | `SOURCED` | `POT/E-PH6` | ʿUmar ؓ and the great retinue at the Syrian frontier |
 | in ʿUmar's ؓ caliphate, before 23 AH | `SOURCED` | `POT/E-PH30` | ʿUmar ؓ sets up the dīwān and fixes their stipend |
@@ -1043,17 +1088,18 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | in العباس ؓ's obituary, 32 AH | `SOURCED` | `TDO/E-DG9` | Two caliphs get off their horses |
 | in خباب ؓ's obituary, 37 AH | `SOURCED` | `TDO/E-DG33` | The back he uncovered in front of عمر ؓ |
 | killed at صفين, 37 AH | `SOURCED` | `POT/E-PG26` | المِرقال, the man who pressed forward |
-| marched آخر ربيع الأول 11ھ , away forty days — said | `SOURCED` | `ABU/E-U6` | Forty days, and what the tribes concluded |
-| mid رجب 14 AH per the majority [SOURCED — البدایہ ج7 ص108]; the storming | `—` | `ISA/E-C13` | Damascus, taken two ways at once |
+| marched آخر ربيع الأول 11ھ , away forty days — said seventy — . (That puts the return in جمادى; the month of the return is our arithmetic, , not a dated report on any page read.) | `SOURCED` | `ABU/E-U6` | Forty days, and what the tribes concluded |
+| mid رجب 14 AH per the majority [SOURCED — البدایہ ج7 ص108]; the storming [SOURCED — البدایہ ج7 ص105; الکامل ج2 ص269–270] | `—` | `ISA/E-C13` | Damascus, taken two ways at once |
 | near the end, before 23 AH | `SOURCED` | `UTS/E-U8` | What he meant to change, and did not live to do |
 | not dated on the page; 36 AH (to verify) | `STANDARD` | `TCW/E-SB35` | Men who hid rather than march |
 | not dated on the page; after 36 AH (to verify) | `STANDARD` | `TCW/E-SB11` | Umm al-Muʾminīn ؓ asks why he stayed silent |
-| not dated on the page; before الجمل, 36 AH | `STANDARD` | `TCW/E-SB19` | A sword on the shoulder, stopped in the street |
+| not dated on the page; before الجمل, 36 AH (to verify) | `STANDARD` | `TCW/E-SB19` | A sword on the shoulder, stopped in the street |
 | on the road to مصر, 38–39ھ (to verify) | `STANDARD` | `IKO/E-IK30` | "And this is far-fetched" — the death of الأشتر |
 | rule of عثمان ؓ, year unknown — or 41 AH [SOURCED, disputed] | `—` | `TDO/E-DG25` | The truest line an Arab poet ever said |
 | sent to Egypt in رمضان 37 AH ; the page gives no year for the killing | `SOURCED` | `POT/E-PG24` | Guard me for the sake of أبو بكر |
 | spoken before 11 AH, about 41 AH | `SOURCED` | `POT/E-PH33` | "This son of mine is a chief" |
 | the Hijra, 1 AH | `SOURCED` | `TFO/E-FA8` | Left behind in Mecca to return other people's property |
+| the Tabūk campaign, then 11 AH — no page here gives Tabūk's year | `SOURCED` | `TSY/E-YK04` | Why al-Muhājir ؓ had not gone |
 | the caliphate of عمر ؓ, 13–23 AH | `SOURCED` | `TKO/E-QA17` | Who the killer had been before that night |
 | the caliphate of عمر ؓ, 13–23ھ for the caliphate; the letter itself is undated | `SOURCED` | `THO/E-HS14` | «Do not put al-Barāʾ over an army» |
 | the conquest of تُسْتَر — سیر ج1 ص198 says 20ھ; البدایہ and الکامل narrate it under 17ھ both ways | `SOURCED` | `THO/E-HS17` | The oath at Tustar |
@@ -1065,9 +1111,10 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | the eve of the general engagement, صفر 37 AH | `SOURCED` | `S/E-SF27` | Tomorrow the standards of the Arabs perish |
 | the evening of الجمل, 36 AH | `SOURCED` | `GSA/E-ST35` | You have won, so be gentle |
 | the expedition of تبوك, 9 AH (to verify: the pages name تبوك) | `STANDARD` | `UTM/E-UM8` | A thousand dinars poured into a lap |
-| the four days of القادسية, 14ھ — and the tradition disputes the year: | `—` | `QMA/E-Q11` | The commander who could not sit up |
+| the four days of القادسية, 14ھ — and the tradition disputes the year: 14, 15 or 16 [SOURCED for the dispute] | `—` | `QMA/E-Q11` | The commander who could not sit up |
 | the governorship of زياد, after 45 AH (to verify) | `STANDARD` | `TCW/E-SB22` | The colonnade he would not pray in |
 | the last night, 35 AH | `SOURCED` | `TSA/E-SK26` | نائلة ؓ crosses the rooftops |
+| the last siege of the war [SOURCED as sequence] — الکامل prints it immediately before «ثم دخلت سنة اثنتي عشرة» (ج2 ص233), i.e. still inside 11ھ by its own arrangement; no page fixes the month (§12.2, §X item 2); but سیر files it under 12ھ (ج الراشدون ص55, ص61–62 — see the-second-yemen-ridda-and-kinda-11-12ah.md), so the books differ on the year — say "11 or 12 AH" | `—` | `RCT/E-RC34` | النُّجَير — the name he forgot to write |
 | the months before 11ھ | `SOURCED` | `ATA/E-TB28` | How long the first false prophet ruled |
 | the night before the بيعة, محرم 24 AH | `SOURCED` | `UTM/E-UM19` | The fourth night, and two men woken before dawn |
 | the night of 17 رمضان 40 AH | `SOURCED` | `TKO/E-QA29` | The geese at the door |
@@ -1082,25 +1129,30 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | the notice files his death at 35 AH | `SOURCED` | `TDO/E-DG23` | The arm he carried all day, and pulled off with his foot |
 | the period between the بيعة of علي ؓ and صفین, 36–37ھ (to verify) | `STANDARD` | `IKO/E-IK29` | "In this report there is some weakness" |
 | the point concerns الحجاج بن يوسف, d. 95ھ (to verify) | `STANDARD` | `IKO/E-IKM6` | The schoolteacher's son |
+| the reason is dated to the Prophet's ﷺ lifetime; the withdrawal to 36–40 AH | `SOURCED` | `TCW/E-SB13` | What will you do about لا إله إلا الله |
 | the reign of عثمان ؓ, 23–35ھ (to verify) | `STANDARD` | `IKO/E-IK3` | The veins of the جاهلية begin to stir |
 | the rule of عثمان ؓ, 24–35 AH | `SOURCED` | `TDO/E-DG20` | A chapter heading that admits what nobody knows |
 | the seventh century of the Hijrah, looking back at 30 AH | `SOURCED` | `UTM/E-MS45` | A historian refuses to repeat a story |
 | the twelfth of ذو الحجة, 10 AH | `SOURCED` | `TFO/E-FA32` | «من كنت مولاه فعلي مولاه» |
+| the year 10 AH (631–632 CE) for the Companions sent; CE ; Bādhām's Islam and death undated on the pages read | `SOURCED` | `AAA/E-AW19` | The whole of Yemen, until he died |
+| the year 10 AH (631–632 CE) for the year; CE | `SOURCED` | `AAA/E-AW03` | Yemen divided, and a teacher on the road |
+| the year of delegations, 10 AH (to verify) — no fetched page gives the year | `STANDARD` | `KTK/E-KD05` | "We are the sons of Ākil al-Murār" |
 | the years after 12ھ | `SOURCED` | `ZIA/E-ZY6` | The east wind |
+| the مؤاخاة, on the arrival in المدینہ — the approved sources give it no year → اليمامة 12ھ | `CONVENTIONAL-ESTIMATE` | `ZIA/E-ZY8` | Two brothers by appointment |
 | the ḥadīth: at Medina, in the Prophet's ﷺ lifetime. The expedition: 28ھ — البدایہ ج7 ص290 records 27، 28 and 33 | `SOURCED` | `THO/E-HS13` | Umm Ḥarām and the sea |
 | told inside العباس ؓ's obituary, 32 AH | `SOURCED` | `TDO/E-DG8` | عمر ؓ asks for rain through the uncle of the Prophet ﷺ |
 | told later, about 11ھ | `SOURCED` | `ABU/E-U8` | The oath of أبو ہریرہ ؓ |
 | twenty years to 40 AH, then the caliphate ; died 60 AH (to verify) | `SOURCED` | `POT/E-PH13` | Twenty years a deputy, twenty years a caliph |
-| undated — علی ؓ is speaking about the جمع of 12ھ, but no page read | `—` | `ABU/E-Q4` | علی ؓ on who deserves the credit |
+| undated — علی ؓ is speaking about the جمع of 12ھ, but no page read says when he said it. The chain is graded حسن by الذہبی ; the date is not. | `SOURCED` | `ABU/E-Q4` | علی ؓ on who deserves the credit |
 | written at الجابية; the document says 15 AH | `SOURCED` | `BAM/E-Q7` | The covenant of إيلياء |
-| «أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة» | `—` | `RCT/E-RC36` | What Ibn Kathīr says the whole war was |
+| «أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة» | `SOURCED` | `RCT/E-RC36` | What Ibn Kathīr says the whole war was |
 | آخر ربيع الآخر 36 AH | `SOURCED` | `TBO/E-JM22` | Six of بدر, and no seventh |
 | آخر ربيع الآخر 36 AH | `SOURCED` | `TBO/E-JM23` | A Companion holds the caliph's bridle |
 | آخر ربيع الآخر 36 AH | `SOURCED` | `TBO/E-JM24` | The three counsels of الحسن ؓ |
 | آخر ربيع الأول 11ھ | `SOURCED` | `ABU/E-U5` | The caliph on foot |
-| آخر ربيع الأول 11ھ , with a competing report Ibn Kathīr records and does not | `SOURCED` | `ABU/E-U9` | The first victory he never fought |
+| آخر ربيع الأول 11ھ , with a competing report Ibn Kathīr records and does not adopt | `SOURCED` | `ABU/E-U9` | The first victory he never fought |
 | آخر سنة عشر | `SOURCED` | `ATA/E-TB15` | Musaylima's letter, and the reply |
-| أجنادين, 2 nights remaining of جمادى الأولى 13 AH [SOURCED — الکامل | `—` | `ISA/E-C8` | The spy's report |
+| أجنادين, 2 nights remaining of جمادى الأولى 13 AH [SOURCED — الکامل ج2 ص261; البدایہ ج7 ص89] | `—` | `ISA/E-C8` | The spy's report |
 | أحد, 3 AH | `SOURCED` | `POT/E-PG49` | The blood-money he would not take |
 | أحد, 3ھ | `STANDARD` | `THO/E-HS8` | The water-carriers at Uḥud |
 | أحد, 3ھ (as — the year is not fixed on the pages read) | `STANDARD` | `THO/E-HS5` | Known by his fingertips |
@@ -1150,10 +1202,11 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | النهروان, 38 AH | `SOURCED` | `TKI/E-KR23` | Seven bodies under the palm tree |
 | النهروان, 38 AH | `SOURCED` | `TKI/E-KR24` | The grey mule, and the weeping |
 | النهروان, 38 AH | `SOURCED` | `TKI/E-KR25` | What the man looked like, from a man who looked at him |
+| اليرموك, and the death of أبو بكر ؓ on Monday, 8 nights remaining of جمادى الآخرة 13 AH [SOURCED — البدایہ ج7 ص95، ص102] | `—` | `ISA/E-C12` | The courier in the middle of the battle |
 | اليمامة 12ھ, and afterwards in المدینہ | `SOURCED` | `ZIA/E-ZY4` | The man who killed him |
 | اليمامة 12ھ, and then المدینہ | `SOURCED` | `ZIA/E-ZY11` | The armour in the cooking pot |
-| اليمامة 12ھ, then اليرموك — whose own year is disputed in the sources | `—` | `ZIA/E-ZY16` | The father at al-Yamāma, the son at al-Yarmūk |
-| اليمامة — ابن كثير: begun 11ھ, finished 12ھ; «المشهور» ربيع 12ھ; | `—` | `ABU/E-Q1` | The killing ran hot among the reciters |
+| اليمامة 12ھ, then اليرموك — whose own year is disputed in the sources (13ھ / 15ھ) | `SOURCED` | `ZIA/E-ZY16` | The father at al-Yamāma, the son at al-Yarmūk |
+| اليمامة — ابن كثير: begun 11ھ, finished 12ھ; «المشهور» ربيع 12ھ; ابن الاثیر places it in 11ھ for the dispute | `SOURCED` | `ABU/E-Q1` | The killing ran hot among the reciters |
 | اليمامة, 12ھ | `SOURCED` | `ZIA/E-ZY2` | The banner, and the vow of silence |
 | اليمامة, 12ھ | `SOURCED` | `ZIA/E-ZY3` | The first man out of their line |
 | اليمامة, 12ھ | `SOURCED` | `ZIA/E-ZY12` | The arrow he pulled out |
@@ -1296,8 +1349,8 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | ربيع الآخر 36 AH | `SOURCED` | `TBO/E-JM21` | Who killed you? My pillow |
 | ربيع الأول 11 AH | `SOURCED` | `TFO/E-FA54` | «جاء علي؟» — the last morning |
 | ربيع الأول 11ھ | `SOURCED` | `ABU/E-U4` | The beard, and the man who would not be deposed |
-| ربيع الأول 11ھ (the connected narrative runs through | `SOURCED` | `ABU/E-U3` | "I will not untie a knot" |
-| ربيع الأول 11ھ, at الجُرْف — البدایہ ج7 ص12: «أمضى أبو بكر | `SOURCED` | `RCT/E-RC04` | The rules the first army carried |
+| ربيع الأول 11ھ (the connected narrative runs through سيف بن عمر; the wording at ج7 ص11 comes by a separate route) | `SOURCED` | `ABU/E-U3` | "I will not untie a knot" |
+| ربيع الأول 11ھ, at الجُرْف — البدایہ ج7 ص12: «أمضى أبو بكر جيش أسامة بن زيد في آخر ربيع الأول» (https://shamela.ws/book/30097/3158) | `SOURCED` | `RCT/E-RC04` | The rules the first army carried |
 | ربيع الأول 11ھ, صنعاء | `SOURCED` | `ATA/E-TB27` | Three days of prayer, and then the ground moved |
 | ربيع الأول 16ھ | `SOURCED` | `GSA/E-ST26` | Which Shaʿbān? — the calendar begins with an unpaid debt |
 | ربيع الأول 41 AH | `SOURCED` | `TCO/E-HS66` | Thirty years, exactly |

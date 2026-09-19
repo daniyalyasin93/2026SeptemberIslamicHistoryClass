@@ -11,7 +11,7 @@ needs it, and two sessions end up drawing the same lesson in different words.
 adjudicate. A deck uses at most **six** on its closing screen.
 
 
-**1834 lines across 37 blocks.**
+**1902 lines across 40 blocks.**
 
 
 ## What was complained of, and by whom
@@ -228,33 +228,33 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `GSA/E-ST37` | CORE | «من الفريقين» — from both parties. That is the whole evening in two words. |
 | `GSA/E-ST38` | GOOD | Nobody in this story hated anybody in it. |
 | `GSA/E-ST39` | GOOD | In a fitna the danger is not always in front of you. |
-| `GSA/E-ST40` | CORE | A quarrel that has divided the ummah for fourteen centuries was fought by fewer than |
+| `GSA/E-ST40` | CORE | A quarrel that has divided the ummah for fourteen centuries was fought by fewer than thirty of the men who knew him ﷺ. |
 | `GSA/E-ST41` | CORE | There was always a third answer available, and men of standing gave it. |
 | `GSA/E-ST42` | CORE | He kept his own position and refused to make it a stick to beat anyone with. |
 | `GSA/E-ST43` | GOOD | Standing out of it was not a failure of nerve; it was a hadith being acted on. |
 | `GSA/E-ST44` | CORE | The instruction the room needs is best given by a man who was there. |
-| `GSA/E-ST45` | CORE | The man the room has been taught to think of as the schemer is the one who argued for |
+| `GSA/E-ST45` | CORE | The man the room has been taught to think of as the schemer is the one who argued for fair dealing. |
 | `GSA/E-ST46` | CORE | هجر is at the other end of Arabia; he was measuring his certainty in miles. |
 | `GSA/E-ST47` | CORE | The man who identified the killer was on the other side, and told him what he had done. |
-| `GSA/E-ST48` | CORE | ابن كثير says who was nearer the truth and refuses to say anyone was outside Islam. The |
+| `GSA/E-ST48` | CORE | ابن كثير says who was nearer the truth and refuses to say anyone was outside Islam. The speaker says exactly that much and stops. |
 | `GSA/E-ST49` | CORE | «ودعواهما واحدة» — and their claim is one. That was said in advance. |
 | `GSA/E-ST50` | CORE | He was overruled by the most religious men in his own army. |
-| `GSA/E-ST51` | CORE | «اتهموا الرأي على الدين» — this is the عبرت of the خوارج strand, said by a Companion at |
+| `GSA/E-ST51` | CORE | «اتهموا الرأي على الدين» — this is the عبرت of the خوارج strand, said by a Companion at the time. |
 | `GSA/E-ST52` | CORE | It begins as a slogan nobody can argue with. |
 | `GSA/E-ST53` | CORE | A slogan that cannot be argued with usually cannot be applied either. |
-| `GSA/E-ST54` | GOOD | Argument worked on thousands of them, and the sword was the last thing tried, not the |
+| `GSA/E-ST54` | GOOD | Argument worked on thousands of them, and the sword was the last thing tried, not the first. |
 | `GSA/E-ST55` | CORE | He offered them every way out except the one they wanted. |
 | `GSA/E-ST56` | CORE | Certainty about God had taken men to the point of killing a Companion's son on a road. |
 | `GSA/E-ST57` | CORE | He fought them and would not unmake them. That is the standard for the whole evening. |
 | `GSA/E-ST58` | GOOD | The man the room has been taught to laugh at turned down two provinces in four lines. |
-| `GSA/E-ST59` | CORE | Say what the book says and no more; the famous version of this story is not in the books |
+| `GSA/E-ST59` | CORE | Say what the book says and no more; the famous version of this story is not in the books we use. |
 | `GSA/E-ST60` | CORE | He asked for the exchange, and the ummah got it. |
 | `GSA/E-ST61` | CORE | Two days from death, and he is still holding the line against collective punishment. |
 | `GSA/E-ST62` | CORE | The principal himself will not settle it. Nobody in this room has to either. |
 | `GSA/E-ST63` | CORE | Both errors are made out of feeling, and he ruled out both of them himself. |
 | `GSA/E-ST64` | CORE | He had the army. He gave up the office. That is the closing image of the session. |
 | `GSA/E-ST65` | CORE | The ummah bought its unity back, and it paid for it with the caliphate. |
-| `GSA/E-ST66` | GOOD | The line between خلافت and ملوكيت was drawn by ابن كثير, not by us — and so was the |
+| `GSA/E-ST66` | GOOD | The line between خلافت and ملوكيت was drawn by ابن كثير, not by us — and so was the praise on the far side of it. |
 
 ## الحسن ؓ, the handover, and عام الجماعة
 
@@ -629,19 +629,19 @@ adjudicate. A deck uses at most **six** on its closing screen.
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `TKI/E-KR1` | CORE | The man who had just fought them refused both of the easy names for them, and the sentence he |
-| `TKI/E-KR2` | CORE | Counting the routes before telling the story is not a scholar's fussiness; it is what makes the |
+| `TKI/E-KR1` | CORE | The man who had just fought them refused both of the easy names for them, and the sentence he chose cost him more than either. |
+| `TKI/E-KR2` | CORE | Counting the routes before telling the story is not a scholar's fussiness; it is what makes the story usable a thousand years later. |
 | `TKI/E-KR3` | CORE | The warning was never about men who prayed too little. |
-| `TKI/E-KR4` | CORE | A claim made in advance, in public, about something that can be looked at, is a different kind |
+| `TKI/E-KR4` | CORE | A claim made in advance, in public, about something that can be looked at, is a different kind of claim from one made afterwards. |
 | `TKI/E-KR5` | GOOD | The nearer danger was the one at home. |
-| `TKI/E-KR6` | CORE | A man who must destroy his own line of retreat before the argument starts already knows the |
+| `TKI/E-KR6` | CORE | A man who must destroy his own line of retreat before the argument starts already knows the argument can be lost. |
 | `TKI/E-KR7` | GOOD | The lopsidedness of the day is part of why the men who won it needed the sign so badly. |
 | `TKI/E-KR8` | CORE | He would not accept his own men's report until he had seen it with his own eyes. |
-| `TKI/E-KR9` | CORE | The caliph of the day was asked for his source, in public, by a man who had just fought beside |
+| `TKI/E-KR9` | CORE | The caliph of the day was asked for his source, in public, by a man who had just fought beside him — and answered. |
 | `TKI/E-KR10` | CORE | He drew the line himself, between the two kinds of thing a leader says. |
-| `TKI/E-KR11` | CORE | Saying the best things that people say is named in the report as one of their marks, not as |
-| `TKI/E-KR12` | CORE | Passing through a thing at speed and passing through it are not the same as taking anything |
-| `TKI/E-KR13` | CORE | The same act was to be either the best thing they had done or the worst, and nothing they felt |
+| `TKI/E-KR11` | CORE | Saying the best things that people say is named in the report as one of their marks, not as their defence. |
+| `TKI/E-KR12` | CORE | Passing through a thing at speed and passing through it are not the same as taking anything from it. |
+| `TKI/E-KR13` | CORE | The same act was to be either the best thing they had done or the worst, and nothing they felt about it decided which. |
 | `TKI/E-KR14` | CORE | A slogan can be true in every word and still be doing work that is not true. |
 | `TKI/E-KR15` | GOOD | Truth on the tongue was never counted, by itself, as truth in the man. |
 | `TKI/E-KR16` | CORE | He staked his own truthfulness on a thing that had not yet been found. |
@@ -649,69 +649,137 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `TKI/E-KR18` | CORE | This is what a chain of transmission looks like when you can still see the men in it swearing. |
 | `TKI/E-KR19` | GOOD | He held to the wording he had been given, against three reports from his own searchers. |
 | `TKI/E-KR20` | CORE | Men who have killed other Muslims do not stop being uneasy because they won. |
-| `TKI/E-KR21` | GOOD | Both halves of that sentence are about Muslims, and that is what makes the affair a grief and |
-| `TKI/E-KR22` | CORE | The man the warning was about had been sitting in their mosque, eating at their table, wearing |
-| `TKI/E-KR23` | GOOD | البزار, from whom the book takes this, notes that the narrator is not known to have carried |
-| `TKI/E-KR24` | GOOD | البدایہ prints this beside the account in which he made takbīr instead, and does not decide |
+| `TKI/E-KR21` | GOOD | Both halves of that sentence are about Muslims, and that is what makes the affair a grief and not a victory. |
+| `TKI/E-KR22` | CORE | The man the warning was about had been sitting in their mosque, eating at their table, wearing a coat one of them had given him. |
+| `TKI/E-KR23` | GOOD | البزار, from whom the book takes this, notes that the narrator is not known to have carried anything else from علي ؓ at all — and the book prints that with the story. |
+| `TKI/E-KR24` | GOOD | البدایہ prints this beside the account in which he made takbīr instead, and does not decide between them — which is what an honest book looks like. |
 | `TKI/E-KR25` | GOOD | Five men describe the same arm and no two use the same words, and the description still holds. |
-| `TKI/E-KR26` | GOOD | The man who collected the reports is also the man who tells you which of them he cannot |
+| `TKI/E-KR26` | GOOD | The man who collected the reports is also the man who tells you which of them he cannot swallow. |
 | `TKI/E-KR27` | CORE | Knowing exactly how much a set of reports will bear is a different skill from collecting them. |
-| `TKI/E-KR28` | GOOD | A book that has been argued with in its own margins for seven hundred years is a book that has |
+| `TKI/E-KR28` | GOOD | A book that has been argued with in its own margins for seven hundred years is a book that has been read. |
 | `TKI/E-KR29` | CORE | Give the room the roll rather than a number; the roll is what the book actually has. |
 | `TKI/E-KR30` | CORE | The date of a man's death can be evidence, and here it is the whole of the evidence. |
-| `TKI/E-KR31` | CORE | He could have said nothing and been believed, and he said the one clause that weakened his own |
+| `TKI/E-KR31` | CORE | He could have said nothing and been believed, and he said the one clause that weakened his own report. |
 | `TKI/E-KR32` | CORE | «يدعون إلى كتاب الله وليسوا منه في شيء» — the calling was real; the belonging was not. |
-| `TKI/E-KR33` | CORE | The first man to make this accusation made it to the one person in history it could not be |
+| `TKI/E-KR33` | CORE | The first man to make this accusation made it to the one person in history it could not be true of. |
 | `TKI/E-KR34` | CORE | He would not buy a small silence at the price of what men would say about him afterwards. |
-| `TKI/E-KR35` | GOOD | A man who had refused to take part in any of it still said out loud what he thought had been |
+| `TKI/E-KR35` | GOOD | A man who had refused to take part in any of it still said out loud what he thought had been done. |
 | `TKI/E-KR36` | CORE | Twenty men who had been with the Prophet ﷺ were still alive to say which side this was. |
-| `TKI/E-KR37` | CORE | The complaint about an unfair division came first from men who accepted the answer, and then |
-| `TKI/E-KR38` | CORE | The man who came to teach him piety had been sent by no one, and had studied nothing but his |
-| `TKI/E-KR39` | CORE | ابن كثير says plainly that no one knows a single one of them to be of that man's line — the |
-| `TKI/E-KR40` | GOOD | The only outward mark given is a thing anyone can copy, which is why the reports spend their |
-| `TKI/E-KR41` | CORE | The question was asked in the first century in exactly the words a man would use today, and it |
+| `TKI/E-KR37` | CORE | The complaint about an unfair division came first from men who accepted the answer, and then from one who did not. |
+| `TKI/E-KR38` | CORE | The man who came to teach him piety had been sent by no one, and had studied nothing but his own certainty. |
+| `TKI/E-KR39` | CORE | ابن كثير says plainly that no one knows a single one of them to be of that man's line — the likeness was never a lineage. |
+| `TKI/E-KR40` | GOOD | The only outward mark given is a thing anyone can copy, which is why the reports spend their length on conduct instead. |
+| `TKI/E-KR41` | CORE | The question was asked in the first century in exactly the words a man would use today, and it was answered with a report rather than an argument. |
 | `TKI/E-KR42` | GOOD | The fault named is not shallowness. |
-| `TKI/E-KR43` | CORE | One witness heard the prediction and saw the thing predicted, and lived long enough to be asked |
-| `TKI/E-KR44` | CUT | The apparatus of the printed book is doing the same work the chapter itself does: telling you |
-| `TKI/E-KR45` | CUT | A good story with a broken chain is still a broken chain — which is the lesson, and the reason |
-| `TKI/E-KR46` | CORE | He was asked for more and had no more, and said so — which is why what he did have is still |
-| `TKI/E-KR47` | GOOD | Two accounts of the same gesture differ, and the book keeps both rather than smoothing one |
-| `TKI/E-KR48` | GOOD | Stripped of every detail, what is left of the warning is that reciting is not the same as |
-| `TKI/E-KR49` | GOOD | The report does not describe one battle; it describes something that would have to be met more |
+| `TKI/E-KR43` | CORE | One witness heard the prediction and saw the thing predicted, and lived long enough to be asked about both. |
+| `TKI/E-KR44` | CUT | The apparatus of the printed book is doing the same work the chapter itself does: telling you which report will not carry weight. |
+| `TKI/E-KR45` | CUT | A good story with a broken chain is still a broken chain — which is the lesson, and the reason the card exists. |
+| `TKI/E-KR46` | CORE | He was asked for more and had no more, and said so — which is why what he did have is still worth something. |
+| `TKI/E-KR47` | GOOD | Two accounts of the same gesture differ, and the book keeps both rather than smoothing one away. |
+| `TKI/E-KR48` | GOOD | Stripped of every detail, what is left of the warning is that reciting is not the same as holding. |
+| `TKI/E-KR49` | GOOD | The report does not describe one battle; it describes something that would have to be met more than once. |
 | `TKI/E-KR50` | GOOD | The direction was given before there was anything in it to point at. |
-| `TKI/E-KR51` | GOOD | The edition's footnote calls this isnad weak, and البدایہ prints the report anyway with that |
-| `TKI/E-KR52` | GOOD | A man who hears something surprising goes and finds a second person who was there — which is |
+| `TKI/E-KR51` | GOOD | The edition's footnote calls this isnad weak, and البدایہ prints the report anyway with that mark on it — which is how the material should be handled from a platform too. |
+| `TKI/E-KR52` | GOOD | A man who hears something surprising goes and finds a second person who was there — which is the whole method, in one movement. |
 | `TKI/E-KR53` | CORE | Both halves of the sentence are inside the ummah, and that is the whole weight of it. |
-| `TKI/E-KR54` | CORE | She would not accept a thing she wanted to be true until seventy men had been asked whether |
+| `TKI/E-KR54` | CORE | She would not accept a thing she wanted to be true until seventy men had been asked whether they saw it themselves. |
 | `TKI/E-KR55` | CORE | She settled it herself, in her own words, and nobody after her needs to settle it again. |
-| `TKI/E-KR56` | CORE | The chapter is offered as evidence about the Prophet ﷺ, not as a verdict about the men who |
-| `TKI/E-KR57` | CORE | The fight that was coming was named as a fight over how the Book is read, and the man for it |
+| `TKI/E-KR56` | CORE | The chapter is offered as evidence about the Prophet ﷺ, not as a verdict about the men who fought. |
+| `TKI/E-KR57` | CORE | The fight that was coming was named as a fight over how the Book is read, and the man for it was named too. |
 | `TKI/E-KR58` | GOOD | The most quoted line is not always the best attested one, and the book says which is which. |
-| `TKI/E-KR59` | GOOD | Four different gradings in eleven pages — متواترة, غرابة شديدة, غريب ومنكر, موضوع — from one |
-| `TKI/E-KR60` | GOOD | He had just fought men who were certain they were restoring the religion, and this is what he |
+| `TKI/E-KR59` | GOOD | Four different gradings in eleven pages — متواترة, غرابة شديدة, غريب ومنكر, موضوع — from one author, on one subject. |
+| `TKI/E-KR60` | GOOD | He had just fought men who were certain they were restoring the religion, and this is what he said to the army that was left. |
 | `TKI/E-KR61` | GOOD | After a year of fighting, the two dangers he named were both inside the men listening. |
 | `TKI/E-KR62` | CUT | The argument that had just been fought over came back the next season with the terms reversed. |
 | `TKI/E-KR63` | GOOD | Two years for one battle, on one page, and the author tells you which he prefers and why. |
-| `TKI/E-KR64` | GOOD | The men who had carried Islam through its first years were still alive to see this one, and |
+| `TKI/E-KR64` | GOOD | The men who had carried Islam through its first years were still alive to see this one, and this is what their bodies looked like. |
+
+## The ردة wars: the campaign, front by front
+
+| Card | Tier | عبرت |
+|---|---|---|
+| `RCT/E-RC01` | CORE | The first engagement of the war was a setback, and the book records it without embarrassment. |
+| `RCT/E-RC02` | CORE | The recovery came out of the very night the reverse happened, spent preparing. |
+| `RCT/E-RC03` | GOOD | He asked no man to stand anywhere he had not stood himself. |
+| `RCT/E-RC04` | CORE | The first thing the state did when it had almost no strength was to limit what its own soldiers were allowed to do. |
+| `RCT/E-RC05` | CORE | The whole war was set moving from one camp, in one sitting, by a man who had just been told to go home. |
+| `RCT/E-RC06` | CORE | The test was something the other side could pass, and passing it stopped the war where they stood. |
+| `RCT/E-RC07` | GOOD | A commander in a hurry gave away three days, and a whole tribe came over instead of being fought. |
+| `RCT/E-RC08` | GOOD | Two names are all that a whole army's reconnaissance amounted to, and the book keeps both. |
+| `RCT/E-RC09` | CORE | The claim collapsed the moment somebody asked it for something specific. |
+| `RCT/E-RC10` | CORE | The terms were read out in front of the men they applied to, and one clause of them was struck out in public. |
+| `RCT/E-RC11` | GOOD | What was being demanded was short enough to say in one breath, and a chief who had asked to be excused it a month earlier now said it out loud. |
+| `RCT/E-RC12` | GOOD | A defeat is not finished on the day of the battle; it is finished when the beaten have nowhere left to gather. |
+| `RCT/E-RC13` | GOOD | The one man the state armed on his own word did more damage with those weapons than the tribes it was fighting. |
+| `RCT/E-RC44` | CORE | A commander who could not be argued out of a decision also would not force a single man to share it. |
+| `RCT/E-RC45` | CORE | The men who came in and paid are a line in a book; the one who could not decide is the whole chapter. |
+| `RCT/E-RC46` | CORE | The last thing he is recorded saying to his own tribe was: submit. |
+| `RCT/E-RC47` | CORE | Two men can stand in the same place at the same hour and carry away two different nights. |
+| `RCT/E-RC48` | CORE | Where four books tell one night four ways, the honest thing is to say so and stop. |
+| `RCT/E-RC49` | CORE | The objection was not whispered. It was made in the mosque, to the man's face, by the man who would be caliph next. |
+| `RCT/E-RC50` | CORE | The caliph said out loud that his commander had got it wrong, paid for it, and kept him. Those three are one decision, not three. |
+| `RCT/E-RC51` | CORE | A mistake can be named as a mistake, paid for, and still not end a man — and the precedent for that is from the Prophet's ﷺ own hand. |
+| `RCT/E-RC52` | CORE | The quarrel is not closed by a verdict. It is closed by two bereaved men consoling each other. |
+| `RCT/E-RC63` | CORE | The reckoning ended and the orders began in the same room, on the same day. |
+| `RCT/E-RC64` | CORE | The men who held out against him were of his own tribe, and they were holding out before any help came. |
+| `RCT/E-RC15` | CORE | He was not dismissed for the defeat; he was given more ground to cross. |
+| `RCT/E-RC53` | GOOD | The same mistake twice in one month, and neither man was thrown away for it. |
+| `RCT/E-RC54` | CORE | He put his own people's homes behind his line so that no one could run. It worked, and it cost more lives than any other day of the war. |
+| `RCT/E-RC16` | CORE | He kept one prisoner alive on a stranger's advice, and that decision settled the end of the battle before it started. |
+| `RCT/E-RC55` | GOOD | Where three books arrange the same men three ways, name the men and leave the diagram unbuilt. |
+| `RCT/E-RC56` | CORE | Both sides that day were fighting with their families behind them. That is the whole reason the ground did not give. |
+| `RCT/E-RC17` | CORE | Each of them saved the other's life on the same day, and the book keeps both halves. |
+| `RCT/E-RC57` | CORE | The false prophet needed someone with the Qurʾān to vouch for him, and that man did more damage than he did. |
+| `RCT/E-RC58` | CORE | When the line broke, what re-formed it was what the men had memorised. |
+| `RCT/E-RC18` | CORE | He did not tell them what to do; he told them what they had already been. |
+| `RCT/E-RC59` | CORE | He answered a question about the battle line with a statement about the Qurʾān, and the two were the same answer. |
+| `RCT/E-RC60` | CORE | He put his own silence on the outcome, and did not live to break it. |
+| `RCT/E-RC61` | CORE | Three men that morning answered the same question three ways, and all three answers were about the Qurʾān. |
+| `RCT/E-RC62` | GOOD | He offered terms in the middle of the worst day of the war, and it is recorded that they were refused. |
+| `RCT/E-RC19` | CORE | He did not make them braver; he made it impossible for anyone's failure to be anonymous. |
+| `RCT/E-RC20` | CORE | One man asked to be thrown where nobody could follow him, and the whole army came in behind him through the gate he opened. |
+| `RCT/E-RC21` | CORE | The man who killed their leader is the one the book quotes praising their courage. |
+| `RCT/E-RC22` | CORE | He had been deceived into the agreement and he kept it anyway, because the agreement had already been made. |
+| `RCT/E-RC23` | GOOD | The Companions' grief is recorded as carefully as their victories, and by the same men. |
+| `RCT/E-RC24` | GOOD | The place that held out longest was one village, and its message out was four lines of verse. |
+| `RCT/E-RC25` | CORE | The state had almost no soldiers to send; what it sent instead was a commander and a piece of writing. |
+| `RCT/E-RC26` | GOOD | A month of trenches was decided by one night on which one side could not think. |
+| `RCT/E-RC27` | CORE | He closed the roads behind the enemy before he opened one in front of himself. |
+| `RCT/E-RC28` | GOOD | He survived the war and was killed for a piece of cloth by men who had already surrendered. |
+| `RCT/E-RC29` | CORE | The men who saved that day were from the same country as the men they were fighting. |
+| `RCT/E-RC30` | GOOD | He wrote before he marched, and half the enemy stopped being the enemy. |
+| `RCT/E-RC31` | GOOD | He was saved by a sentence spoken by someone who was not talking to him. |
+| `RCT/E-RC32` | CORE | The state judged what it could see and left what it could not see to the One who sees it. |
+| `RCT/E-RC33` | CORE | A province went to war over one animal, a naming mistake and a public insult, and every part of that is on one page. |
+| `RCT/E-RC34` | CORE | He wrote a safe-conduct for everyone he was bargaining with and left himself off it. |
+| `RCT/E-RC35` | GOOD | The war's last act was the state buying back the people its own victory had taken. |
+| `RCT/E-RC36` | CORE | The armies were sent to hold up people who were already standing, and the whole thing was over in a little more than a year. |
+| `RCT/E-RC37` | CORE | The mushaf the room reads from was gathered because of the men who were killed in the garden. |
+| `RCT/E-RC38` | CORE | He turned the question round: the danger was not what would be done to them, but what would be followed because of them. |
+| `RCT/E-RC39` | GOOD | Two men who agreed about the war disagreed about who should run it, and the book records both without making a quarrel of it. |
+| `RCT/E-RC40` | CUT |  |
+| `RCT/E-RC41` | GOOD | The first objection to the severity came from inside the leadership, and it was said aloud and answered. |
+| `RCT/E-RC42` | CORE | Sometimes the truest counsel is to tell a brave man that the community cannot afford to lose him. |
+| `RCT/E-RC43` | CORE | The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself. |
 
 ## وقعة الجمل
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `TBO/E-JM1` | CORE | When one side stops replying, the argument has already left the room where it could have |
-| `TBO/E-JM2` | CORE | The counsel that is hardest to take is usually the one given by someone with nothing to |
-| `TBO/E-JM3` | GOOD | People who leave a place to avoid trouble often find that the trouble follows the road they |
-| `TBO/E-JM4` | CORE | A parting can be entirely correct at the moment it happens and still be the beginning of |
-| `TBO/E-JM5` | CORE | Standing aside is a position a man can be asked to account for, and some of the best of them |
-| `TBO/E-JM6` | GOOD | Movements are made of conviction, but they travel on somebody's money, and it is worth |
+| `TBO/E-JM1` | CORE | When one side stops replying, the argument has already left the room where it could have been settled. |
+| `TBO/E-JM2` | CORE | The counsel that is hardest to take is usually the one given by someone with nothing to gain from giving it. |
+| `TBO/E-JM3` | GOOD | People who leave a place to avoid trouble often find that the trouble follows the road they took. |
+| `TBO/E-JM4` | CORE | A parting can be entirely correct at the moment it happens and still be the beginning of everything that goes wrong afterwards. |
+| `TBO/E-JM5` | CORE | Standing aside is a position a man can be asked to account for, and some of the best of them took it. |
+| `TBO/E-JM6` | GOOD | Movements are made of conviction, but they travel on somebody's money, and it is worth knowing whose. |
 | `TBO/E-JM7` | CORE | A decision taken in a crowded room, quickly, can decide the shape of a hundred years. |
-| `TBO/E-JM8` | GOOD | The same people can agree on a grievance and disagree entirely about what may be done about |
+| `TBO/E-JM8` | GOOD | The same people can agree on a grievance and disagree entirely about what may be done about it. |
 | `TBO/E-JM9` | GOOD | An honest book tells you the three prices it found rather than choosing one to sound sure. |
 | `TBO/E-JM10` | CORE | The generation that lived it knew what it was losing while it was still losing it. |
-| `TBO/E-JM11` | CORE | A warning can be recognised, believed, and then argued away by the people standing nearest |
+| `TBO/E-JM11` | CORE | A warning can be recognised, believed, and then argued away by the people standing nearest to you. |
 | `TBO/E-JM12` | CORE | Before an army is raised against a question, someone should be sent to ask it. |
-| `TBO/E-JM13` | CORE | Two men can both be telling the truth about the same oath and still be about to fight over |
-| `TBO/E-JM14` | GOOD | Men who had heard the Prophet ﷺ speak recognised the day when it came, and it did not |
+| `TBO/E-JM13` | CORE | Two men can both be telling the truth about the same oath and still be about to fight over it. |
+| `TBO/E-JM14` | GOOD | Men who had heard the Prophet ﷺ speak recognised the day when it came, and it did not comfort them. |
 | `TBO/E-JM15` | GOOD | The same speech, heard by one crowd, can produce two crowds. |
 | `TBO/E-JM16` | CORE | Someone usually says the thing out loud before the disaster, and is not heeded. |
 | `TBO/E-JM17` | CORE | A war can be begun by a man whose name the history books barely keep. |
@@ -721,45 +789,45 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `TBO/E-JM21` | GOOD | The men who begin these things are usually among the first to be finished by them. |
 | `TBO/E-JM22` | CORE | Count who does not come, as carefully as you count who does. |
 | `TBO/E-JM23` | GOOD | A man can defend the honour of the person whose advice he is about to refuse. |
-| `TBO/E-JM24` | CORE | Responsibility and prudence can point in opposite directions, and a man still has to pick |
+| `TBO/E-JM24` | CORE | Responsibility and prudence can point in opposite directions, and a man still has to pick one. |
 | `TBO/E-JM25` | CORE | A man who can state his own terms of engagement in four sentences has thought about them. |
-| `TBO/E-JM26` | CORE | There were men in that generation whose whole answer to the trouble was to refuse to add to |
-| `TBO/E-JM27` | GOOD | Sincere men can read one text two ways, and the disagreement is not proof that one of them |
+| `TBO/E-JM26` | CORE | There were men in that generation whose whole answer to the trouble was to refuse to add to it. |
+| `TBO/E-JM27` | GOOD | Sincere men can read one text two ways, and the disagreement is not proof that one of them is dishonest. |
 | `TBO/E-JM28` | CORE | The man marching against her army is the same man who will not let her be insulted. |
-| `TBO/E-JM29` | CORE | The right question, asked politely, by one man, got further in an afternoon than two armies |
+| `TBO/E-JM29` | CORE | The right question, asked politely, by one man, got further in an afternoon than two armies had got in a month. |
 | `TBO/E-JM30` | CORE | The most important fact about this battle is that it was very nearly not fought. |
 | `TBO/E-JM31` | CORE | There is always a party whose safety depends on the argument never being settled. |
 | `TBO/E-JM32` | GOOD | The same night is a mercy to one man and a countdown to another. |
 | `TBO/E-JM33` | CORE | A war can start because everybody present sincerely believes he is defending himself. |
-| `TBO/E-JM34` | GOOD | A historian who cannot get through his own casualty figures without a prayer is telling you |
-| `TBO/E-JM35` | CORE | The question that should have been asked at the beginning was asked in the last minute, with |
+| `TBO/E-JM34` | GOOD | A historian who cannot get through his own casualty figures without a prayer is telling you what the figures mean. |
+| `TBO/E-JM35` | CORE | The question that should have been asked at the beginning was asked in the last minute, with the lines already drawn. |
 | `TBO/E-JM36` | GOOD | A historian you can trust is one who tells you which of his own pages he is not sure of. |
-| `TBO/E-JM37` | GOOD | Two men fighting on opposite sides, each refusing to kill the other, is what this battle |
+| `TBO/E-JM37` | GOOD | Two men fighting on opposite sides, each refusing to kill the other, is what this battle actually looked like in places. |
 | `TBO/E-JM38` | CORE | Leaving a battle you have helped to bring about does not undo it, and he knew that. |
-| `TBO/E-JM39` | CORE | The men who kill on the edges of a civil war expect thanks from the winners, and do not |
-| `TBO/E-JM40` | CORE | A famous accusation and a proved one are different things, and our books know the |
-| `TBO/E-JM41` | CORE | Holding up the Book in the middle of a fight between Muslims did not stop it, and everyone |
+| `TBO/E-JM39` | CORE | The men who kill on the edges of a civil war expect thanks from the winners, and do not always get them. |
+| `TBO/E-JM40` | CORE | A famous accusation and a proved one are different things, and our books know the difference. |
+| `TBO/E-JM41` | CORE | Holding up the Book in the middle of a fight between Muslims did not stop it, and everyone who was there saw that. |
 | `TBO/E-JM42` | GOOD | Both armies wanted the same men punished, and they were killing each other instead. |
 | `TBO/E-JM43` | CORE | Courage was not in short supply that day; it was simply spent on the wrong thing. |
 | `TBO/E-JM44` | GOOD | He was given the one order in the whole day that told a man not to strike, and he obeyed it. |
-| `TBO/E-JM45` | GOOD | The oldest man on the field went out in front of everyone, and the room should know what |
+| `TBO/E-JM45` | GOOD | The oldest man on the field went out in front of everyone, and the room should know what that generation was made of. |
 | `TBO/E-JM46` | GOOD | Mercy was the rule of that day, and the exceptions to it were counted. |
-| `TBO/E-JM47` | CORE | It ended the way it began — in one moment, decided by one man, and the rest of them only |
+| `TBO/E-JM47` | CORE | It ended the way it began — in one moment, decided by one man, and the rest of them only found out afterwards. |
 | `TBO/E-JM48` | CORE | How a victory is handled in the first hour tells you more than how it was won. |
-| `TBO/E-JM49` | CORE | That is how the two of them spoke to each other on the worst day of both their lives, and |
+| `TBO/E-JM49` | CORE | That is how the two of them spoke to each other on the worst day of both their lives, and anyone who tells the story otherwise is not reading the books. |
 | `TBO/E-JM50` | CORE | He ended the argument by making them finish their own sentence. |
-| `TBO/E-JM51` | CORE | He buried them as Muslims because that is what they were, and the whole guardrail of this |
-| `TBO/E-JM52` | GOOD | Being cursed in public by a woman you have wronged, and saying nothing, is a kind of |
+| `TBO/E-JM51` | CORE | He buried them as Muslims because that is what they were, and the whole guardrail of this evening is in that one sentence. |
+| `TBO/E-JM52` | GOOD | Being cursed in public by a woman you have wronged, and saying nothing, is a kind of discipline the room will recognise. |
 | `TBO/E-JM53` | GOOD | He ruled on the manners of his own victory before he ruled on anything else. |
 | `TBO/E-JM54` | CORE | This is the ending of the battle, and it is the part that never gets told. |
-| `TBO/E-JM55` | CORE | They said this about each other in public, after the battle, and that is the verdict the |
-| `TBO/E-JM56` | CORE | Neither of them thought they had won anything, and they said so on the same afternoon in the |
-| `TBO/E-JM57` | CORE | The overwhelming majority of that generation was not in this fight at all, and that fact by |
-| `TBO/E-JM58` | GOOD | Eight hundred years ago they were already warning each other that this particular story |
+| `TBO/E-JM55` | CORE | They said this about each other in public, after the battle, and that is the verdict the ummah was given by the people who were actually there. |
+| `TBO/E-JM56` | CORE | Neither of them thought they had won anything, and they said so on the same afternoon in the same words. |
+| `TBO/E-JM57` | CORE | The overwhelming majority of that generation was not in this fight at all, and that fact by itself answers most of what gets asked about it. |
+| `TBO/E-JM58` | GOOD | Eight hundred years ago they were already warning each other that this particular story attracts liars. |
 | `TBO/E-JM59` | GOOD | The one thing worth asking a victor for is the thing he is least obliged to give. |
 | `TBO/E-JM60` | CUT | The custom of protecting a man who asks you for it outlived the quarrel that made him ask. |
-| `TBO/E-JM61` | GOOD | The news of what Muslims had done to each other reached the Prophet's ﷺ city the same day |
-| `TBO/E-JM62` | CUT | Two men of the ten, both past sixty, both dead in one afternoon, in a battle neither of them |
+| `TBO/E-JM61` | GOOD | The news of what Muslims had done to each other reached the Prophet's ﷺ city the same day, and it came in that form. |
+| `TBO/E-JM62` | CUT | Two men of the ten, both past sixty, both dead in one afternoon, in a battle neither of them finished. |
 
 ## مصر, the raids, and the fraying of the command
 
@@ -840,10 +908,10 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `S/E-SF6` | GOOD | An army argues about the messenger when it has nothing left to say about the message. |
 | `S/E-SF7` | GOOD | A reputation does the work of an army, which is why men guard it so carefully. |
 | `S/E-SF8` | GOOD | A commander who lets a subordinate explain himself keeps the next honest report. |
-| `S/E-SF9` | GOOD | The books keep the story and the objection to the story on the same page, and that is why |
+| `S/E-SF9` | GOOD | The books keep the story and the objection to the story on the same page, and that is why they can be trusted. |
 | `S/E-SF10` | CORE | The side that arrives first chooses the ground, and the ground decides much of the rest. |
-| `S/E-SF11` | CORE | In every council there is one voice asking what this will look like before God, and the |
-| `S/E-SF12` | GOOD | A report and the doubt about it travel together, and a man who repeats only the first half |
+| `S/E-SF11` | CORE | In every council there is one voice asking what this will look like before God, and the question is usually the last one answered. |
+| `S/E-SF12` | GOOD | A report and the doubt about it travel together, and a man who repeats only the first half has changed the report. |
 | `S/E-SF13` | CORE | It is easy to refuse to do to others what was done to you, until the day you have the power. |
 | `S/E-SF14` | CORE | Men who know exactly what a thing will cost will spend a month avoiding it and then do it anyway. |
 | `S/E-SF15` | GOOD | The argument that ought to end every quarrel is available to everyone and persuades almost nobody. |
@@ -859,40 +927,40 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `S/E-SF25` | GOOD | A civil war is the one kind of war where the enemy may turn out to be your brother. |
 | `S/E-SF26` | CORE | He was fighting the man's army and would not let his son speak ill of the man's father. |
 | `S/E-SF27` | CORE | The outsider watching an army prepare could see what neither army would say out loud. |
-| `S/E-SF28` | CORE | A man on the edge of battle asking first not to be corrupted by winning has understood |
+| `S/E-SF28` | CORE | A man on the edge of battle asking first not to be corrupted by winning has understood something about victory. |
 | `S/E-SF29` | CORE | The bravest man on the field was the one who would not take the sound advice. |
-| `S/E-SF30` | GOOD | The finest thing said about the man that day was said by the commander whose army had just |
+| `S/E-SF30` | GOOD | The finest thing said about the man that day was said by the commander whose army had just killed him. |
 | `S/E-SF31` | CORE | A running army is not short of courage, it is short of a sentence it cannot answer. |
-| `S/E-SF32` | GOOD | Eleven men carried the same piece of cloth forward knowing what had happened to the man in |
+| `S/E-SF32` | GOOD | Eleven men carried the same piece of cloth forward knowing what had happened to the man in front of them. |
 | `S/E-SF33` | GOOD | War does that to the son of a caliph as readily as to anyone else. |
 | `S/E-SF34` | CORE | A man of ninety with a shaking hand can still be the steadiest thing on a battlefield. |
 | `S/E-SF35` | CORE | He was told how he would die and drank the cup laughing. |
 | `S/E-SF36` | CORE | He did not speak of the battle at all; he spoke of who he expected to see that evening. |
-| `S/E-SF37` | CORE | Some men knew exactly what the killing meant and kept fighting anyway, which is the hardest |
+| `S/E-SF37` | CORE | Some men knew exactly what the killing meant and kept fighting anyway, which is the hardest fact of that day. |
 | `S/E-SF38` | CORE | An argument that lets a whole army sleep is worth more to it than an argument that is sound. |
-| `S/E-SF39` | CORE | The same scholar who says which side was nearer the truth is the one who insists both sides |
+| `S/E-SF39` | CORE | The same scholar who says which side was nearer the truth is the one who insists both sides were Muslims. |
 | `S/E-SF40` | GOOD | On the worst day of that war one man stopped to argue a boy out of it instead of killing him. |
 | `S/E-SF41` | GOOD | He did not send an excuse; he sent the evidence and let the man draw the conclusion. |
 | `S/E-SF42` | GOOD | Men on both sides that day believed they were buying the same thing with their lives. |
 | `S/E-SF43` | CORE | The ummah's worst night was not inflicted on it by any enemy from outside. |
 | `S/E-SF44` | GOOD | A dying man's last thought was for the men who would still be standing at dawn. |
-| `S/E-SF45` | CORE | The Book was raised at the exact hour it was most useful to raise it, and that timing is the |
-| `S/E-SF46` | CORE | A true call can be made at a false moment, and telling the difference is the hardest work a |
-| `S/E-SF47` | CORE | It is not open to us to be called to the Book of God and refuse is a sentence with no |
-| `S/E-SF48` | CORE | The men who had killed one caliph over a principle found it easy to threaten the next one |
+| `S/E-SF45` | CORE | The Book was raised at the exact hour it was most useful to raise it, and that timing is the whole of what happened next. |
+| `S/E-SF46` | CORE | A true call can be made at a false moment, and telling the difference is the hardest work a community ever does. |
+| `S/E-SF47` | CORE | It is not open to us to be called to the Book of God and refuse is a sentence with no answer, and that is what made it so effective. |
+| `S/E-SF48` | CORE | The men who had killed one caliph over a principle found it easy to threaten the next one over the same principle. |
 | `S/E-SF49` | CORE | They were more afraid of the sin of a minute's delay than of what the next thirty years would cost. |
 | `S/E-SF50` | CORE | The first thing a man should doubt in a fitna is his own certainty. |
 | `S/E-SF51` | GOOD | A book that tells you where its own numbers stop being reliable is worth more than one that does not. |
 | `S/E-SF52` | GOOD | The men in that grave had all prayed toward the same qibla that morning. |
-| `S/E-SF53` | GOOD | He had said nothing would come of it and then paid for it with an eye, and had the honesty |
+| `S/E-SF53` | GOOD | He had said nothing would come of it and then paid for it with an eye, and had the honesty to say so out loud. |
 | `S/E-SF54` | GOOD | One side's restraint made the other side's restraint necessary, which is how a limit survives a war. |
 | `S/E-SF55` | GOOD | They never stopped being one people, which is exactly why the fighting was so terrible. |
 | `S/E-SF56` | CORE | A title given up on paper for the sake of peace is rarely handed back afterwards. |
-| `S/E-SF57` | CORE | He recognised his own worst hour because he had lived through the same hour once before |
-| `S/E-SF58` | GOOD | The men who most wanted the war to end and the men who most wanted it to continue were in |
-| `S/E-SF59` | GOOD | The man who wanted the office least was the one they insisted on, and he knew exactly what |
-| `S/E-SF60` | CORE | Their claim is one — both armies were calling to the same thing, which is what makes this a |
-| `S/E-SF61` | CORE | The one danger the Prophet ﷺ could not have lifted from this ummah is the one it brings on |
+| `S/E-SF57` | CORE | He recognised his own worst hour because he had lived through the same hour once before, standing beside the Prophet ﷺ. |
+| `S/E-SF58` | GOOD | The men who most wanted the war to end and the men who most wanted it to continue were in the same camp, wearing the same colours. |
+| `S/E-SF59` | GOOD | The man who wanted the office least was the one they insisted on, and he knew exactly what was being handed to him. |
+| `S/E-SF60` | CORE | Their claim is one — both armies were calling to the same thing, which is what makes this a tragedy and not a conquest. |
+| `S/E-SF61` | CORE | The one danger the Prophet ﷺ could not have lifted from this ummah is the one it brings on itself. |
 
 ## ابن خلدون: how he reads the fitna (framing only)
 
@@ -1047,12 +1115,12 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `TAA/E-KH18` | CORE | The first time a thing happens in a community, it fixes the pattern for every time after. |
 | `TAA/E-KH19` | GOOD | A protest becomes a rival state the moment it appoints someone to lead its prayer. |
 | `TAA/E-KH20` | CORE | Men who begin from a true premise can still reach a conclusion that kills. |
-| `TAA/E-KH21` | CORE | A text does not apply itself; someone must always read it, and that is where the responsibility |
-| `TAA/E-KH22` | CORE | The slogan and the answer to it are both in the same sentence: everything depends on who is |
+| `TAA/E-KH21` | CORE | A text does not apply itself; someone must always read it, and that is where the responsibility lies. |
+| `TAA/E-KH22` | CORE | The slogan and the answer to it are both in the same sentence: everything depends on who is speaking for the Book. |
 | `TAA/E-KH23` | GOOD | Do not answer a serious objection with a weak proof; it is the proof that will be remembered. |
 | `TAA/E-KH24` | CORE | An argument patiently held can turn thousands; it will not turn everyone. |
 | `TAA/E-KH25` | CORE | The measure of a government is what it grants to those who denounce it. |
-| `TAA/E-KH26` | GOOD | Two reliable men can carry the same scene with the setting moved, and a careful book will show you |
+| `TAA/E-KH26` | GOOD | Two reliable men can carry the same scene with the setting moved, and a careful book will show you both. |
 | `TAA/E-KH27` | CORE | In a time of division, the man who takes no side may be the one keeping his religion whole. |
 | `TAA/E-KH28` | GOOD | Ask two men the same simple question and you will learn more than from a week of negotiation. |
 | `TAA/E-KH29` | CORE | A man may be outmanoeuvred and still be incorruptible; the two are not the same failure. |
@@ -1061,28 +1129,28 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `TAA/E-KH32` | CORE | Advice is only useful before the step, and that is exactly when it is hardest to hear. |
 | `TAA/E-KH33` | CORE | Two men can keep the same words and mean two different agreements by them. |
 | `TAA/E-KH34` | CORE | When those who were present have already spoken, the one who comes later should quote and not add. |
-| `TAA/E-KH35` | CORE | To say that a man may have erred is not to say that he betrayed; the difference is the whole of |
+| `TAA/E-KH35` | CORE | To say that a man may have erred is not to say that he betrayed; the difference is the whole of this subject. |
 | `TAA/E-KH36` | GOOD | The report that settles an argument too neatly is the one to examine first. |
-| `TAA/E-KH37` | CORE | A ruling agreed under conditions is void when the conditions are broken — but saying so is easier |
-| `TAA/E-KH38` | CORE | A demand that a man declare himself a disbeliever is not a condition for peace; it is a refusal of |
-| `TAA/E-KH39` | GOOD | Sincerity organises as carefully as ambition does, and that is precisely why it is dangerous when |
-| `TAA/E-KH40` | GOOD | What a man is willing to lose tells you how certain he is — and certainty is not the same as being |
+| `TAA/E-KH37` | CORE | A ruling agreed under conditions is void when the conditions are broken — but saying so is easier than being believed. |
+| `TAA/E-KH38` | CORE | A demand that a man declare himself a disbeliever is not a condition for peace; it is a refusal of it. |
+| `TAA/E-KH39` | GOOD | Sincerity organises as carefully as ambition does, and that is precisely why it is dangerous when it is wrong. |
+| `TAA/E-KH40` | GOOD | What a man is willing to lose tells you how certain he is — and certainty is not the same as being right. |
 | `TAA/E-KH41` | CORE | A man was killed for refusing to condemn anyone; that is what the position had become. |
-| `TAA/E-KH42` | CORE | Scruple about a date and no scruple about a life is not piety with a flaw in it; it is a different |
+| `TAA/E-KH42` | CORE | Scruple about a date and no scruple about a life is not piety with a flaw in it; it is a different thing wearing piety's clothes. |
 | `TAA/E-KH43` | GOOD | The refusal to be questioned is the last stage before the refusal to be lived with. |
 | `TAA/E-KH44` | CORE | A danger at your back decides your plans more surely than a danger in front of you. |
-| `TAA/E-KH45` | GOOD | It is not enough to reject a superstition; you must be seen to reject it, or your success will |
+| `TAA/E-KH45` | GOOD | It is not enough to reject a superstition; you must be seen to reject it, or your success will confirm it. |
 | `TAA/E-KH46` | CORE | A demand narrow enough to be met is a mercy; refusing it is a choice. |
 | `TAA/E-KH47` | CORE | A lifetime of service is not a bargaining chip to be surrendered to whoever shouts loudest. |
 | `TAA/E-KH48` | CORE | Give a man an honourable way out and most men will take it; the ones who stay have chosen. |
 | `TAA/E-KH49` | GOOD | Composure under contradiction from your own side is a commander's rarest quality. |
 | `TAA/E-KH50` | CORE | Courage without judgement buys nothing at all; it only decides the hour. |
 | `TAA/E-KH51` | CORE | He would not tell them the reward, in case knowing it made them stop working for it. |
-| `TAA/E-KH52` | CORE | The first people to warn us that reports about this period are inflated are the people who lived |
+| `TAA/E-KH52` | CORE | The first people to warn us that reports about this period are inflated are the people who lived through it. |
 | `TAA/E-KH53` | CORE | You may have to fight a man without being permitted to expel him from the religion. |
 | `TAA/E-KH54` | GOOD | How a victor treats the property of the defeated says what he thought he was fighting for. |
 | `TAA/E-KH55` | CORE | An idea is not killed on a battlefield; only the men holding it that day are. |
-| `TAA/E-KH56` | CORE | A battle won inside your own house is not a victory; it is the cost of not having settled the |
+| `TAA/E-KH56` | CORE | A battle won inside your own house is not a victory; it is the cost of not having settled the argument earlier. |
 | `TAA/E-KH57` | GOOD | The measure of a reading of the Book is not how much of it a man has memorised. |
 | `TAA/E-KH58` | CUT | Read the footnotes: the page you are holding was edited by someone with opinions of his own. |
 
@@ -1090,61 +1158,61 @@ adjudicate. A deck uses at most **six** on its closing screen.
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `UTM/E-MS1` | CORE | A man who admits at the start that he is not yet equal to the office has told the truth about |
-| `UTM/E-MS2` | GOOD | Men of the highest rank read the same law and reached different conclusions, and the office had |
+| `UTM/E-MS1` | CORE | A man who admits at the start that he is not yet equal to the office has told the truth about every office. |
+| `UTM/E-MS2` | GOOD | Men of the highest rank read the same law and reached different conclusions, and the office had to choose one of them; that is what an office is for. |
 | `UTM/E-MS3` | CORE | The years that are remembered as trouble were a small part of the years that were lived. |
-| `UTM/E-MS4` | GOOD | Rank was not something he carried about with him; a child could stand over him and not know what |
+| `UTM/E-MS4` | GOOD | Rank was not something he carried about with him; a child could stand over him and not know what he was looking at. |
 | `UTM/E-MS5` | GOOD | A state says what it believes in the smallest places first. |
-| `UTM/E-MS6` | CORE | The same act done by a hard man and a mild man is not received the same way, and the mild man |
-| `UTM/E-MS7` | CORE | One caliph's caution and the next caliph's boldness were both judgements, not principles, and the |
-| `UTM/E-MS8` | GOOD | A promise made in a house in المدينة was kept on an island the people of that house had never |
+| `UTM/E-MS6` | CORE | The same act done by a hard man and a mild man is not received the same way, and the mild man pays for it. |
+| `UTM/E-MS7` | CORE | One caliph's caution and the next caliph's boldness were both judgements, not principles, and the books record both without deciding between them. |
+| `UTM/E-MS8` | GOOD | A promise made in a house in المدينة was kept on an island the people of that house had never heard of. |
 | `UTM/E-MS9` | CORE | Most of governing is deciding what not to change. |
-| `UTM/E-MS10` | CORE | Something that every Muslim city still does every week entered the world in a single sentence |
-| `UTM/E-MS11` | CORE | In that generation a disagreement with the head of state about two rakʿahs was said to his face |
-| `UTM/E-MS12` | CORE | He did not claim a revelation and he did not claim authority; he called it his own opinion, and |
+| `UTM/E-MS10` | CORE | Something that every Muslim city still does every week entered the world in a single sentence, without an argument attached to it. |
+| `UTM/E-MS11` | CORE | In that generation a disagreement with the head of state about two rakʿahs was said to his face, in public, and recorded by name. |
+| `UTM/E-MS12` | CORE | He did not claim a revelation and he did not claim authority; he called it his own opinion, and let it be argued with. |
 | `UTM/E-MS13` | CORE | He kept his opinion and he kept the congregation, and he did not think he had to choose. |
-| `UTM/E-MS14` | CORE | Weighing the reports and declining to condemn the man are not two different attitudes; in this |
+| `UTM/E-MS14` | CORE | Weighing the reports and declining to condemn the man are not two different attitudes; in this tradition they are the same one. |
 | `UTM/E-MS15` | CORE | One man decided that what he had heard in a camp was a matter for the capital, and he was right. |
 | `UTM/E-MS16` | CORE | The danger was never the two readings; it was men who did not know that both were allowed. |
-| `UTM/E-MS17` | CORE | The most consequential decision of the century was taken in a room full of people who were asked |
-| `UTM/E-MS18` | CORE | He did not create the text; he was handed it by two caliphs before him and a widow of the |
+| `UTM/E-MS17` | CORE | The most consequential decision of the century was taken in a room full of people who were asked first. |
+| `UTM/E-MS18` | CORE | He did not create the text; he was handed it by two caliphs before him and a widow of the Prophet ﷺ, and he gave it back when he was done. |
 | `UTM/E-MS19` | CORE | A rule that settles disputes before they happen is worth more than a ruling after each one. |
-| `UTM/E-MS20` | CORE | Seven copies, sent out from one town, are the reason there is one Qurʾān in the world and not |
-| `UTM/E-MS21` | CORE | The name on a thing tells you who ordered it, not who made it, and the tradition took the trouble |
+| `UTM/E-MS20` | CORE | Seven copies, sent out from one town, are the reason there is one Qurʾān in the world and not seven. |
+| `UTM/E-MS21` | CORE | The name on a thing tells you who ordered it, not who made it, and the tradition took the trouble to say so. |
 | `UTM/E-MS22` | CORE | The books do not hide the hardest part of the act, and neither should anyone telling it. |
 | `UTM/E-MS23` | CORE | The clearest defence of the act came from the man least suspected of wanting to defend him. |
-| `UTM/E-MS24` | CORE | He did not answer the accusation by attacking the accusers; he answered it by saying what he |
-| `UTM/E-MS25` | CORE | A disagreement between two great men ended because one of them wrote a letter and the other read |
-| `UTM/E-MS26` | GOOD | Partisans are usually more extreme than the man they claim to be defending, and he was the first |
+| `UTM/E-MS24` | CORE | He did not answer the accusation by attacking the accusers; he answered it by saying what he himself would have done in that seat. |
+| `UTM/E-MS25` | CORE | A disagreement between two great men ended because one of them wrote a letter and the other read it honestly. |
+| `UTM/E-MS26` | GOOD | Partisans are usually more extreme than the man they claim to be defending, and he was the first to tell them so. |
 | `UTM/E-MS27` | CORE | The man remembered for standardising the Book was first a man who could not leave it alone. |
-| `UTM/E-MS28` | CORE | The one physical thing that had passed unbroken from the Prophet ﷺ through three caliphs was lost |
-| `UTM/E-MS29` | GOOD | Two careful books can preserve one event in two shapes, and saying so is more truthful than |
-| `UTM/E-MS30` | GOOD | A ruler who wants to know the price of things has to ask somebody, and the best place to ask is |
+| `UTM/E-MS28` | CORE | The one physical thing that had passed unbroken from the Prophet ﷺ through three caliphs was lost in an ordinary accident, and no amount of money brought it back. |
+| `UTM/E-MS29` | GOOD | Two careful books can preserve one event in two shapes, and saying so is more truthful than choosing quietly. |
+| `UTM/E-MS30` | GOOD | A ruler who wants to know the price of things has to ask somebody, and the best place to ask is where everyone is already standing. |
 | `UTM/E-MS31` | GOOD | The difference between a gift and a right is that a right has a date on it. |
-| `UTM/E-MS32` | CORE | The years people later called a disaster were, to the man who lived in them, the most comfortable |
+| `UTM/E-MS32` | CORE | The years people later called a disaster were, to the man who lived in them, the most comfortable years anyone in المدينة had known. |
 | `UTM/E-MS33` | GOOD | The problem the conquests set the state was not how to win, but what to do with what had been won. |
-| `UTM/E-MS34` | GOOD | He backed a subordinate who had spent four million without asking, because the spending had done |
+| `UTM/E-MS34` | GOOD | He backed a subordinate who had spent four million without asking, because the spending had done what it was for. |
 | `UTM/E-MS35` | GOOD | He was rich before he was caliph and he went on behaving like the man he had been. |
-| `UTM/E-MS36` | GOOD | A contract that leaves the other man ashamed to walk down the street has not really been |
-| `UTM/E-MS37` | CORE | An annual day on which the governor must stand where anyone may accuse him is worth more than a |
-| `UTM/E-MS38` | GOOD | A restriction and its removal were both acts of care, and only the years afterwards showed what |
-| `UTM/E-MS39` | GOOD | Empires are not held together by armies alone; someone has to work out how a man in المدينة owns |
-| `UTM/E-MS40` | GOOD | A decision that can be reversed when the people it touches object is a different kind of decision |
+| `UTM/E-MS36` | GOOD | A contract that leaves the other man ashamed to walk down the street has not really been concluded. |
+| `UTM/E-MS37` | CORE | An annual day on which the governor must stand where anyone may accuse him is worth more than a hundred instructions sent to him in private. |
+| `UTM/E-MS38` | GOOD | A restriction and its removal were both acts of care, and only the years afterwards showed what each one cost. |
+| `UTM/E-MS39` | GOOD | Empires are not held together by armies alone; someone has to work out how a man in المدينة owns a field in العراق. |
+| `UTM/E-MS40` | GOOD | A decision that can be reversed when the people it touches object is a different kind of decision from one that cannot. |
 | `UTM/E-MS41` | GOOD | The thing that later looked like a plan was, on the page, a series of illnesses and funerals. |
 | `UTM/E-MS42` | CORE | The man with the best excuse to complain refused to let anybody complain on his behalf. |
 | `UTM/E-MS43` | GOOD | A man can be suspected of hypocrisy over the weight of a bag of small change. |
-| `UTM/E-MS44` | GOOD | The man who would not be silenced about wealth was the same man who would not take precedence |
-| `UTM/E-MS45` | CORE | A historian who tells you which reports he will not carry has told you something about all the |
-| `UTM/E-MS46` | CORE | He had the words for a difference between two great men that did not require either of them to |
-| `UTM/E-MS47` | GOOD | Law is not only what is right in the case in front of you; it is also what the next man will |
+| `UTM/E-MS44` | GOOD | The man who would not be silenced about wealth was the same man who would not take precedence over a slave. |
+| `UTM/E-MS45` | CORE | A historian who tells you which reports he will not carry has told you something about all the ones he does. |
+| `UTM/E-MS46` | CORE | He had the words for a difference between two great men that did not require either of them to be in the wrong, and those words are still available. |
+| `UTM/E-MS47` | GOOD | Law is not only what is right in the case in front of you; it is also what the next man will believe he can get away with. |
 | `UTM/E-MS48` | CUT | A ruler's house without a door says more about the state of a city than any report sent from it. |
-| `UTM/E-MS49` | CORE | The greatest service of that reign appears at the head of the list of charges against it, and the |
-| `UTM/E-MS50` | CORE | He answered the charge that he had narrowed the Book by telling them, in the same sentence, that |
+| `UTM/E-MS49` | CORE | The greatest service of that reign appears at the head of the list of charges against it, and the book itself has to stop and explain what the charge even means. |
+| `UTM/E-MS50` | CORE | He answered the charge that he had narrowed the Book by telling them, in the same sentence, that it had not been narrowed. |
 | `UTM/E-MS51` | GOOD | He answered in front of the only people who could contradict him, and asked them to do it. |
-| `UTM/E-MS52` | GOOD | The same act done for oneself and done for the treasury looks identical from the road, and that is |
-| `UTM/E-MS53` | GOOD | Twelve years in the highest office in the world had left him with fewer animals than he walked in |
-| `UTM/E-MS54` | GOOD | The distance between a ruler and the crowd is measured in very small increments, and the first one |
-| `UTM/E-MS55` | GOOD | The line that would one day divide the umma was first drawn over which of two men should command a |
+| `UTM/E-MS52` | GOOD | The same act done for oneself and done for the treasury looks identical from the road, and that is why it was believed. |
+| `UTM/E-MS53` | GOOD | Twelve years in the highest office in the world had left him with fewer animals than he walked in with. |
+| `UTM/E-MS54` | GOOD | The distance between a ruler and the crowd is measured in very small increments, and the first one is always noticed. |
+| `UTM/E-MS55` | GOOD | The line that would one day divide the umma was first drawn over which of two men should command a frontier post. |
 | `UTM/E-MS56` | CORE | The last thing he asked of them in public was the one thing they did not give him. |
 
 ## The اصول: how a fitna is narrated from the platform
@@ -1214,24 +1282,24 @@ adjudicate. A deck uses at most **six** on its closing screen.
 |---|---|---|
 | `TFO/E-FA1` | CORE | Many people repeating a thing is not the same as the thing being true. |
 | `TFO/E-FA2` | CORE | A man's place in a story often begins with where he was born, not with what he chose. |
-| `TFO/E-FA3` | GOOD | The books keep the names of the women too, and a course that skips them is skipping the |
+| `TFO/E-FA3` | GOOD | The books keep the names of the women too, and a course that skips them is skipping the book. |
 | `TFO/E-FA4` | CORE | Most arguments about who was first dissolve the moment you ask: first among whom? |
 | `TFO/E-FA5` | CUT | In this tradition a report is only ever as strong as the weakest man who carried it. |
 | `TFO/E-FA6` | CORE | Praise invented for a great man is not praise; it is a lie told in his name. |
-| `TFO/E-FA7` | CORE | When a man's own words are on record, they are worth more than anything said about him |
+| `TFO/E-FA7` | CORE | When a man's own words are on record, they are worth more than anything said about him afterwards. |
 | `TFO/E-FA8` | CORE | A trust is discharged even to the people who are trying to kill you. |
 | `TFO/E-FA9` | GOOD | A name given in affection can survive being turned into an insult. |
-| `TFO/E-FA10` | CORE | There is a difference between a story worth telling and a report worth relying on, and a |
-| `TFO/E-FA11` | GOOD | Responsibility in that generation went to whoever could carry it, not to whoever had |
+| `TFO/E-FA10` | CORE | There is a difference between a story worth telling and a report worth relying on, and a careful man keeps the difference in view. |
+| `TFO/E-FA11` | GOOD | Responsibility in that generation went to whoever could carry it, not to whoever had waited longest. |
 | `TFO/E-FA12` | CORE | The lines everyone can recite are usually the ones nobody has checked. |
 | `TFO/E-FA13` | CORE | A word of praise from the Messenger ﷺ was worth more to those men than any command. |
 | `TFO/E-FA14` | GOOD | The man chosen for the task was not the man in the best condition for it. |
-| `TFO/E-FA15` | CORE | Sometimes the man on the other side of the wall sees how the day will end before your own |
-| `TFO/E-FA16` | GOOD | The small oddity a neighbour notices can turn out to be the visible end of something very |
-| `TFO/E-FA17` | CORE | Being left behind can be a post, not a slight — but it still has to be explained to the man |
+| `TFO/E-FA15` | CORE | Sometimes the man on the other side of the wall sees how the day will end before your own side does. |
+| `TFO/E-FA16` | GOOD | The small oddity a neighbour notices can turn out to be the visible end of something very old. |
+| `TFO/E-FA17` | CORE | Being left behind can be a post, not a slight — but it still has to be explained to the man left behind. |
 | `TFO/E-FA18` | GOOD | A man who knows what he heard with his own ears does not need to be told what to say. |
-| `TFO/E-FA19` | CORE | Ranking men does not require diminishing any of them, and that generation managed both at |
-| `TFO/E-FA20` | CORE | The man who had nothing was asked to give the one thing he had, and that was accepted as |
+| `TFO/E-FA19` | CORE | Ranking men does not require diminishing any of them, and that generation managed both at once. |
+| `TFO/E-FA20` | CORE | The man who had nothing was asked to give the one thing he had, and that was accepted as enough. |
 | `TFO/E-FA21` | GOOD | An honest answer to an awkward question can honour both people it is about. |
 | `TFO/E-FA22` | GOOD | The most honoured wedding in that city was also one of the plainest. |
 | `TFO/E-FA23` | CORE | The household at the centre of the community was the poorest household in it. |
@@ -1242,18 +1310,18 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `TFO/E-FA28` | GOOD | Public property does not become yours because you are the one guarding it. |
 | `TFO/E-FA29` | GOOD | A complaint made about an absent man is heard by God before it is heard by anyone else. |
 | `TFO/E-FA30` | GOOD | Words spoken about a man in his absence reach further than the man they are about. |
-| `TFO/E-FA31` | CORE | The days that later generations argue about were, to the people standing there, hot and |
-| `TFO/E-FA32` | CORE | One short sentence, said once, on a hot afternoon, has occupied the umma for fourteen |
+| `TFO/E-FA31` | CORE | The days that later generations argue about were, to the people standing there, hot and ordinary. |
+| `TFO/E-FA32` | CORE | One short sentence, said once, on a hot afternoon, has occupied the umma for fourteen centuries. |
 | `TFO/E-FA33` | GOOD | Clearing a man's name in public is sometimes worth stopping a whole caravan for. |
-| `TFO/E-FA34` | CORE | Honour given to one man was received as good news by the others, and that is the temper of |
-| `TFO/E-FA35` | CORE | The right way to settle what was said is to ask the people who were standing there, while |
+| `TFO/E-FA34` | CORE | Honour given to one man was received as good news by the others, and that is the temper of that generation. |
+| `TFO/E-FA35` | CORE | The right way to settle what was said is to ask the people who were standing there, while they are still standing. |
 | `TFO/E-FA36` | GOOD | An honest record keeps the numbers it was given, even when they disagree. |
 | `TFO/E-FA37` | GOOD | The man the word was said about was the first to ask what exactly it meant. |
-| `TFO/E-FA38` | CORE | Words grow on a saying the way moss grows on a stone, and part of a historian's work is |
+| `TFO/E-FA38` | CORE | Words grow on a saying the way moss grows on a stone, and part of a historian's work is knowing which is the stone. |
 | `TFO/E-FA39` | CORE | Where a single narrator adds a clause nobody else heard, the clause is what gets examined. |
-| `TFO/E-FA40` | GOOD | Everyone in that house wanted the honour to fall on their own side, and they said so |
+| `TFO/E-FA40` | GOOD | Everyone in that house wanted the honour to fall on their own side, and they said so honestly. |
 | `TFO/E-FA41` | CORE | A large number of chains can mean a report travelled widely, and nothing more than that. |
-| `TFO/E-FA42` | GOOD | This is a tradition in which a single sentence can be worth two books of argument, and |
+| `TFO/E-FA42` | GOOD | This is a tradition in which a single sentence can be worth two books of argument, and still not be settled. |
 | `TFO/E-FA43` | CORE | The report that survives the sifting is worth more than the ten that did not. |
 | `TFO/E-FA44` | CORE | A great man's own account of himself is usually smaller than the account his admirers give. |
 | `TFO/E-FA45` | GOOD | What everyone knows and nobody can source is exactly what a historian is for. |
@@ -1264,10 +1332,10 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `TFO/E-FA50` | GOOD | Recognising another man's worth is itself a mark of worth. |
 | `TFO/E-FA51` | CORE | A sentence can be famous for a thousand years and still never have been said. |
 | `TFO/E-FA52` | CORE | The true praise, from a man who worked beside him, outlasts the invented praise. |
-| `TFO/E-FA53` | GOOD | The men who did the work of that generation began by saying honestly that they were not |
+| `TFO/E-FA53` | GOOD | The men who did the work of that generation began by saying honestly that they were not ready for it. |
 | `TFO/E-FA54` | CORE | The last conversation of a life is remembered by whoever was nearest the door. |
-| `TFO/E-FA55` | CORE | The text that would settle the argument most conveniently is the one to examine most |
-| `TFO/E-FA56` | CORE | A ruler who can account for every item he owns has already answered most of the questions |
+| `TFO/E-FA55` | CORE | The text that would settle the argument most conveniently is the one to examine most carefully. |
+| `TFO/E-FA56` | CORE | A ruler who can account for every item he owns has already answered most of the questions that will ever be asked of him. |
 
 ## The people: profiles II — الكوفة, and the men of صفين
 
@@ -1343,22 +1411,22 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `UTC/E-UC8` | CORE | An army that depends on one man in a shaded chair has one place it can be struck. |
 | `UTC/E-UC9` | CORE | When two careful historians describe one hour differently, the honest thing is to say so. |
 | `UTC/E-UC10` | CORE | A man's first field is rarely his last, and the ummah remembers both. |
-| `UTC/E-UC11` | GOOD | Wealth of that size arriving in one season changes a community before anyone decides that it |
-| `UTC/E-UC12` | GOOD | Every number in a chronicle is somebody; three is small enough that we still know one of |
-| `UTC/E-UC13` | CORE | A man may aim at a city his great-grandchildren will not live to enter, and still be right to |
+| `UTC/E-UC11` | GOOD | Wealth of that size arriving in one season changes a community before anyone decides that it should. |
+| `UTC/E-UC12` | GOOD | Every number in a chronicle is somebody; three is small enough that we still know one of their names. |
+| `UTC/E-UC13` | CORE | A man may aim at a city his great-grandchildren will not live to enter, and still be right to aim. |
 | `UTC/E-UC14` | GOOD | A distant ruler who taxes his own people for their losses will not keep them long. |
 | `UTC/E-UC15` | GOOD | Courage in that generation was not confined to the men who carried the swords. |
 | `UTC/E-UC16` | GOOD | Most of the map that changed colour in those years changed it across a table. |
-| `UTC/E-UC17` | CORE | Before deciding a great question, a ruler sent for a description from a man who had seen the |
+| `UTC/E-UC17` | CORE | Before deciding a great question, a ruler sent for a description from a man who had seen the thing itself. |
 | `UTC/E-UC18` | CORE | A refusal can be the most careful decision a man in authority ever makes. |
-| `UTC/E-UC19` | CORE | Permission granted with a restraint written into it is a different thing from permission |
+| `UTC/E-UC19` | CORE | Permission granted with a restraint written into it is a different thing from permission granted plainly. |
 | `UTC/E-UC20` | CORE | She asked to be included in something that did not yet exist, and she was. |
 | `UTC/E-UC21` | CORE | The first time is the hard time; after قبرص, the sea was simply another road. |
-| `UTC/E-UC22` | GOOD | Not every arrangement in that century was a conquest; some were a careful balance written |
+| `UTC/E-UC22` | GOOD | Not every arrangement in that century was a conquest; some were a careful balance written down. |
 | `UTC/E-UC23` | CORE | A prayer answered exactly is not always a prayer answered gently. |
-| `UTC/E-UC24` | CORE | The warning in a victory is heard by the man who is looking at the losers and thinking of |
+| `UTC/E-UC24` | CORE | The warning in a victory is heard by the man who is looking at the losers and thinking of himself. |
 | `UTC/E-UC25` | CUT | The terms were restored after the punishment, which tells you the terms were meant. |
-| `UTC/E-UC26` | CORE | In one lifetime the frontier had moved from the edge of المدينة to the shore of another sea |
+| `UTC/E-UC26` | CORE | In one lifetime the frontier had moved from the edge of المدينة to the shore of another sea entirely. |
 | `UTC/E-UC27` | GOOD | The chain of learning was still hand to hand, and it was carried into battle. |
 | `UTC/E-UC28` | GOOD | Holding ground is a longer labour than taking it, and it is never finished. |
 | `UTC/E-UC29` | CORE | Success at the far end of the world brings the answer to your own door. |
@@ -1368,7 +1436,7 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `UTC/E-UC33` | GOOD | A commander who loses an army rarely loses only the army. |
 | `UTC/E-UC34` | CORE | Four years of ease and sixteen of flight — and the throne was the same throne throughout. |
 | `UTC/E-UC35` | CORE | A treasure that cannot be counted is worth nothing to a man who needs four dirhams tonight. |
-| `UTC/E-UC36` | CORE | The last argument of the last Sasanian was that his enemies would treat him better than his |
+| `UTC/E-UC36` | CORE | The last argument of the last Sasanian was that his enemies would treat him better than his own people. |
 | `UTC/E-UC37` | GOOD | A kindness done two generations earlier bought a grave for a man nobody else would bury. |
 | `UTC/E-UC38` | CORE | An empire of four hundred years ended in a mill, and the world took some time to notice. |
 | `UTC/E-UC39` | GOOD | The men who moved that frontier were not old men, and nobody told them they were young. |
@@ -1378,14 +1446,14 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `UTC/E-UC43` | GOOD | A large gratitude looks for a large way to be shown, and can still be told it went too far. |
 | `UTC/E-UC44` | GOOD | The demonstration was the point; taking the gold would have ruined the lesson. |
 | `UTC/E-UC45` | GOOD | The road that ends at a place you know began as a line in a chronicle about somewhere else. |
-| `UTC/E-UC46` | CORE | Every expansion has a boundary somewhere, and the people who set it usually get a name for |
+| `UTC/E-UC46` | CORE | Every expansion has a boundary somewhere, and the people who set it usually get a name for how they did it. |
 | `UTC/E-UC47` | CORE | An arrow that stops and becomes an agreement can outlast every arrow that kept going. |
 | `UTC/E-UC48` | GOOD | An army's reputation is an asset until the day somebody decides to check it. |
 | `UTC/E-UC49` | GOOD | Not every frontier moved outward, and the ones that stopped are part of the same map. |
-| `UTC/E-UC50` | CORE | Some cracks are recorded by the historians at the moment they first appear, long before |
+| `UTC/E-UC50` | CORE | Some cracks are recorded by the historians at the moment they first appear, long before anything falls. |
 | `UTC/E-UC51` | CORE | The danger that frightened the man who had fought at every front was not on any frontier. |
-| `UTC/E-UC52` | CORE | When the men who were there refuse to quarrel about a thing, those of us who were not there |
-| `UTC/E-UC53` | GOOD | In the same years that a Persian empire was ending, a small silver ring was lost in a shallow |
+| `UTC/E-UC52` | CORE | When the men who were there refuse to quarrel about a thing, those of us who were not there have no standing to start. |
+| `UTC/E-UC53` | GOOD | In the same years that a Persian empire was ending, a small silver ring was lost in a shallow well and never recovered. |
 
 ## ذو النورين عثمان ؓ, and how the caliphate began
 
@@ -1411,7 +1479,7 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `UTM/E-UM18` | GOOD | Disagreeing about who should lead, and then following him, is a single act of discipline. |
 | `UTM/E-UM19` | CORE | Both men wanted to know the same thing, and neither was told. |
 | `UTM/E-UM20` | CORE | The office was given on a stated condition, in public, with the condition read aloud first. |
-| `UTM/E-UM21` | GOOD | Where a careful historian records two accounts and chooses neither, a later reader has no business |
+| `UTM/E-UM21` | GOOD | Where a careful historian records two accounts and chooses neither, a later reader has no business choosing for him. |
 | `UTM/E-UM22` | GOOD | A year is remembered by what happened to ordinary people in it. |
 | `UTM/E-UM23` | GOOD | The first duty of the office was the one that would have fallen to him anyway. |
 | `UTM/E-UM24` | CORE | The men who took this office described it as a weight before they described it as anything else. |
@@ -1421,10 +1489,10 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `UTM/E-UM28` | CORE | The first decision of a new authority is usually an inherited one. |
 | `UTM/E-UM29` | GOOD | An empire is held together by what its letters say as much as by where its armies stand. |
 | `UTM/E-UM30` | GOOD | Accountability needs a time and a place before it needs a rule. |
-| `UTM/E-UM31` | CORE | A man who sees a crack from the frontier and rides to the capital about it has done the ummah a |
+| `UTM/E-UM31` | CORE | A man who sees a crack from the frontier and rides to the capital about it has done the ummah a service larger than a battle. |
 | `UTM/E-UM32` | CORE | The copy in your hands tonight has a chain of custody, and three caliphs are on it. |
 | `UTM/E-UM33` | CORE | The people closest to an event were the least willing to make a grievance of it. |
-| `UTM/E-UM34` | GOOD | A disagreement that ends in returning to the community is not a wound; it is how a community stays |
+| `UTM/E-UM34` | GOOD | A disagreement that ends in returning to the community is not a wound; it is how a community stays one. |
 | `UTM/E-UM35` | GOOD | A man may hold his opinion and still refuse to let it split the row behind the imam. |
 | `UTM/E-UM36` | GOOD | The ruler of an empire slept on the floor of a mosque and nobody thought it worth an announcement. |
 | `UTM/E-UM37` | CORE | Generosity that does not give its own name is the kind that gets remembered longest. |
@@ -1432,9 +1500,9 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `UTM/E-UM39` | GOOD | How a man treats the people who cannot refuse him is the whole measure of the man. |
 | `UTM/E-UM40` | GOOD | A contract that leaves the other man ashamed has not really been completed. |
 | `UTM/E-UM41` | GOOD | A word that survives in the language is a fossil of a decision somebody once made. |
-| `UTM/E-UM42` | CORE | Plenty is not by itself a guarantee of peace — which is the whole of what the next session has to |
+| `UTM/E-UM42` | CORE | Plenty is not by itself a guarantee of peace — which is the whole of what the next session has to explain. |
 | `UTM/E-UM43` | CORE | The people who were there thought they had chosen well, and said so. |
-| `UTM/E-UM44` | CORE | When two men are made into opposing parties by later generations, the safest witness is what each |
+| `UTM/E-UM44` | CORE | When two men are made into opposing parties by later generations, the safest witness is what each said about the other. |
 | `UTM/E-UM45` | GOOD | The longest of the three caliphates is the one about which people know the least. |
 | `UTM/E-UM46` | GOOD | A man's seal says what he wants said in the rooms he will never enter. |
 | `UTM/E-UM47` | CUT | A register kept carefully by historians is itself a kind of respect. |
@@ -1506,7 +1574,7 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `ATM/E-AL5` | GOOD | On the worst day, the useful man is the one who does the plain nearest thing. |
 | `ATM/E-AL6` | GOOD | The man chosen for the work is not always the man who looks fit for it that morning. |
 | `ATM/E-AL7` | CUT | A number that grows in the telling is the first thing a careful reader checks. |
-| `ATM/E-AL8` | CORE | Honouring a man and believing everything said about him are two different things, and the second is |
+| `ATM/E-AL8` | CORE | Honouring a man and believing everything said about him are two different things, and the second is not honour. |
 | `ATM/E-AL9` | CORE | Being left behind can be the harder assignment, and it is still an assignment. |
 | `ATM/E-AL10` | GOOD | A man may be sent to do what he has not learned, and be taught by the doing of it. |
 | `ATM/E-AL11` | CORE | The name a man is proudest of is often the one given to him on his worst morning. |
@@ -1515,201 +1583,153 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `ATM/E-AL14` | CORE | The people who honour a man most loudly are sometimes the last to accept what he actually said. |
 | `ATM/E-AL15` | CORE | A community that has torn down its government discovers that nobody wants to be the next one. |
 | `ATM/E-AL16` | CORE | The man who runs from office is usually the one most fit to hold it, and least likely to enjoy it. |
-| `ATM/E-AL17` | CORE | A decision taken with a sword at the door is still a decision, but nobody afterwards agrees what it |
+| `ATM/E-AL17` | CORE | A decision taken with a sword at the door is still a decision, but nobody afterwards agrees what it meant. |
 | `ATM/E-AL18` | CORE | Knowing which of the two you are is a rarer gift than either. |
 | `ATM/E-AL19` | GOOD | Authority that will not be given in public is not worth taking in private. |
-| `ATM/E-AL20` | CORE | A hand is honoured for what it lost and where it lost it; reading a fate into it is the crowd's work |
+| `ATM/E-AL20` | CORE | A hand is honoured for what it lost and where it lost it; reading a fate into it is the crowd's work, not God's. |
 | `ATM/E-AL21` | GOOD | When two dates disagree, the honest report keeps both and says which is which. |
 | `ATM/E-AL22` | GOOD | A ruler is known by what he does with the man who will not agree with him. |
 | `ATM/E-AL23` | GOOD | Where the reports disagree, the safest thing a Muslim can say about a Companion is: I do not know. |
-| `ATM/E-AL24` | CORE | When the record itself says "there is disagreement", a man who announces a verdict has left history |
+| `ATM/E-AL24` | CORE | When the record itself says "there is disagreement", a man who announces a verdict has left history for something else. |
 | `ATM/E-AL25` | CORE | A ruler's first speech tells you what he intends; the crowd's first answer tells you what he will get. |
-| `ATM/E-AL26` | CORE | A man may be given a title in a single morning and spend five years discovering he was not given the |
+| `ATM/E-AL26` | CORE | A man may be given a title in a single morning and spend five years discovering he was not given the thing itself. |
 | `ATM/E-AL27` | GOOD | A man who will deceive you the day after you refuse him was never truly advising you. |
 | `ATM/E-AL28` | CORE | Counsel refused is not counsel wasted; it becomes the record by which the decision is understood. |
 | `ATM/E-AL29` | CORE | A state ends not when its capital falls but when its orders stop being obeyed on the road. |
-| `ATM/E-AL30` | GOOD | When a province begins bargaining with its own governor, the bargaining has already replaced the |
+| `ATM/E-AL30` | GOOD | When a province begins bargaining with its own governor, the bargaining has already replaced the government. |
 | `ATM/E-AL31` | CORE | A grief that is looked at every day does not heal; it hardens into a demand. |
-| `ATM/E-AL32` | GOOD | An empty letter carried in public says more than a full one delivered in private, and that is what it |
+| `ATM/E-AL32` | GOOD | An empty letter carried in public says more than a full one delivered in private, and that is what it was for. |
 | `ATM/E-AL33` | CORE | The capital of Islam left المدينة without anyone deciding that it should, and it never returned. |
 | `ATM/E-AL34` | GOOD | The account a ruler gives of himself is worth exactly as much as the state of his own house. |
 | `ATM/E-AL35` | CORE | A law that binds the man at the top is the only law anyone else can be asked to respect. |
-| `ATM/E-AL36` | GOOD | Government is not only what is decided in the hall; it is what happens to the weakest person in the |
+| `ATM/E-AL36` | GOOD | Government is not only what is decided in the hall; it is what happens to the weakest person in the market that morning. |
 | `ATM/E-AL37` | GOOD | Public money is a trust that is kept by being given out, not by being guarded. |
 | `ATM/E-AL38` | GOOD | A man who knows which day he is living in does not confuse practice with the event. |
 | `ATM/E-AL39` | GOOD | A ruler who cannot be reached will soon be told only what he wishes to hear. |
-| `ATM/E-AL40` | GOOD | Even four men who were in the room describe it differently; that is what it means to know the past |
+| `ATM/E-AL40` | GOOD | Even four men who were in the room describe it differently; that is what it means to know the past through people. |
 | `ATM/E-AL41` | CUT | A name given in one generation is heard in the next; it is worth choosing carefully. |
 | `ATM/E-AL42` | CORE | Justice is measured at the moment when a man has every excuse to abandon it. |
 | `ATM/E-AL43` | GOOD | A man who will not bind those who come after him trusts something larger than his own arrangements. |
 | `ATM/E-AL44` | CORE | The men this Ummah remembers best are often the ones whose graves it cannot find. |
-| `ATM/E-AL45` | CORE | If the man himself would not claim certainty about his own decision, nobody after him is entitled to |
-
-## The ردة wars: the campaign, front by front
-
-| Card | Tier | عبرت |
-|---|---|---|
-| `RCT/E-RC01` | CORE | The first engagement of the war was a setback, and the book records it without |
-| `RCT/E-RC02` | CORE | The recovery came out of the very night the reverse happened, spent preparing. |
-| `RCT/E-RC03` | GOOD | He asked no man to stand anywhere he had not stood himself. |
-| `RCT/E-RC04` | CORE | The first thing the state did when it had almost no strength was to limit what its own |
-| `RCT/E-RC05` | CORE | The whole war was set moving from one camp, in one sitting, by a man who had just been told |
-| `RCT/E-RC06` | CORE | The test was something the other side could pass, and passing it stopped the war where they |
-| `RCT/E-RC07` | GOOD | A commander in a hurry gave away three days, and a whole tribe came over instead of being |
-| `RCT/E-RC08` | GOOD | Two names are all that a whole army's reconnaissance amounted to, and the book keeps both. |
-| `RCT/E-RC09` | CORE | The claim collapsed the moment somebody asked it for something specific. |
-| `RCT/E-RC10` | CORE | The terms were read out in front of the men they applied to, and one clause of them was |
-| `RCT/E-RC11` | GOOD | What was being demanded was short enough to say in one breath, and a chief who had asked to |
-| `RCT/E-RC12` | GOOD | A defeat is not finished on the day of the battle; it is finished when the beaten have |
-| `RCT/E-RC13` | GOOD | The one man the state armed on his own word did more damage with those weapons than the |
-| `RCT/E-RC14` | GOOD | Four books tell this and they do not tell it the same way, and that is the first thing to |
-| `RCT/E-RC15` | CORE | He was not dismissed for the defeat; he was given more ground to cross. |
-| `RCT/E-RC16` | CORE | He kept one prisoner alive on a stranger's advice, and that decision settled the end of the |
-| `RCT/E-RC17` | CORE | Each of them saved the other's life on the same day, and the book keeps both halves. |
-| `RCT/E-RC18` | CORE | He did not tell them what to do; he told them what they had already been. |
-| `RCT/E-RC19` | GOOD | He did not make them braver; he made it impossible for anyone's failure to be anonymous. |
-| `RCT/E-RC20` | CORE | One man asked to be thrown where nobody could follow him, and the whole army came in behind |
-| `RCT/E-RC21` | CORE | The man who killed their leader is the one the book quotes praising their courage. |
-| `RCT/E-RC22` | CORE | He had been deceived into the agreement and he kept it anyway, because the agreement had |
-| `RCT/E-RC23` | GOOD | The Companions' grief is recorded as carefully as their victories, and by the same men. |
-| `RCT/E-RC24` | GOOD | The place that held out longest was one village, and its message out was four lines of |
-| `RCT/E-RC25` | CORE | The state had almost no soldiers to send; what it sent instead was a commander and a piece |
-| `RCT/E-RC26` | GOOD | A month of trenches was decided by one night on which one side could not think. |
-| `RCT/E-RC27` | CORE | He closed the roads behind the enemy before he opened one in front of himself. |
-| `RCT/E-RC28` | GOOD | He survived the war and was killed for a piece of cloth by men who had already surrendered. |
-| `RCT/E-RC29` | CORE | The men who saved that day were from the same country as the men they were fighting. |
-| `RCT/E-RC30` | GOOD | He wrote before he marched, and half the enemy stopped being the enemy. |
-| `RCT/E-RC31` | GOOD | He was saved by a sentence spoken by someone who was not talking to him. |
-| `RCT/E-RC32` | CORE | The state judged what it could see and left what it could not see to the One who sees it. |
-| `RCT/E-RC33` | CORE | A province went to war over one animal, a naming mistake and a public insult, and every |
-| `RCT/E-RC34` | CORE | He wrote a safe-conduct for everyone he was bargaining with and left himself off it. |
-| `RCT/E-RC35` | GOOD | The war's last act was the state buying back the people its own victory had taken. |
-| `RCT/E-RC36` | CORE | The armies were sent to hold up people who were already standing, and the whole thing was |
-| `RCT/E-RC37` | CORE | The mushaf the room reads from was gathered because of the men who were killed in the |
-| `RCT/E-RC38` | CORE | He turned the question round: the danger was not what would be done to them, but what would |
-| `RCT/E-RC39` | GOOD | Two men who agreed about the war disagreed about who should run it, and the book records |
-| `RCT/E-RC40` | CUT |  |
-| `RCT/E-RC41` | GOOD | The first objection to the severity came from inside the leadership, and it was said aloud and answered. |
-| `RCT/E-RC42` | CORE | Sometimes the truest counsel is to tell a brave man that the community cannot afford to lose him. |
-| `RCT/E-RC43` | CORE | The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself. |
+| `ATM/E-AL45` | CORE | If the man himself would not claim certainty about his own decision, nobody after him is entitled to claim it for him. |
 
 ## The people: the Companions who stood back
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `TCW/E-SB1` | CORE | The best-instructed generation in the history of this ummah, faced with a fight between |
-| `TCW/E-SB2` | CORE | The word used of them is not that they were right, but that they came through safe — and |
-| `TCW/E-SB3` | CORE | A man can be told by his own household that his stillness is cowardice and still know what |
-| `TCW/E-SB4` | CORE | He did not say that both sides were wrong. He said that a sword cannot tell them apart |
+| `TCW/E-SB1` | CORE | The best-instructed generation in the history of this ummah, faced with a fight between its own, overwhelmingly chose not to be in it. |
+| `TCW/E-SB2` | CORE | The word used of them is not that they were right, but that they came through safe — and those are two different claims. |
+| `TCW/E-SB3` | CORE | A man can be told by his own household that his stillness is cowardice and still know what he is standing on. |
+| `TCW/E-SB4` | CORE | He did not say that both sides were wrong. He said that a sword cannot tell them apart, and that he would not be the one holding it. |
 | `TCW/E-SB5` | GOOD | The pressure to take a side came from inside the house before it came from anywhere else. |
 | `TCW/E-SB6` | GOOD | A reputation cleared in advance is worth more than a defence made afterwards. |
 | `TCW/E-SB7` | GOOD | Standing out of a fight is not the same as staying away from the problem. |
-| `TCW/E-SB8` | CORE | The men who would not fight for either side are also the men who would not let either side |
-| `TCW/E-SB9` | CORE | He would not take back his own choice and he would not turn it into a charge against |
+| `TCW/E-SB8` | CORE | The men who would not fight for either side are also the men who would not let either side be insulted. |
+| `TCW/E-SB9` | CORE | He would not take back his own choice and he would not turn it into a charge against anybody else. |
 | `TCW/E-SB10` | GOOD | A man who wants nothing is very hard to accuse of wanting something. |
-| `TCW/E-SB11` | GOOD | The question she asked is the one the silent men had to live with: was there a word I |
-| `TCW/E-SB12` | GOOD | He had refused to fight for someone else's right; he was not going to start fighting for |
-| `TCW/E-SB13` | CORE | One sentence from the Prophet ﷺ, taken seriously for thirty years, decided a man's whole |
-| `TCW/E-SB14` | CORE | He did not put the sword down. He carried one that could not kill, so that everybody who |
+| `TCW/E-SB11` | GOOD | The question she asked is the one the silent men had to live with: was there a word I could have said earlier. |
+| `TCW/E-SB12` | GOOD | He had refused to fight for someone else's right; he was not going to start fighting for his own. |
+| `TCW/E-SB13` | CORE | One sentence from the Prophet ﷺ, taken seriously for thirty years, decided a man's whole conduct in the worst year of his life. |
+| `TCW/E-SB14` | CORE | He did not put the sword down. He carried one that could not kill, so that everybody who looked at him understood the position without asking. |
 | `TCW/E-SB15` | CORE | Sitting still was, for him, not the absence of an order. It was the order. |
-| `TCW/E-SB16` | GOOD | Two chains carry one instruction in two shapes, and an honest telling gives both rather |
-| `TCW/E-SB17` | GOOD | The man least afraid of the coming trouble was the one who had been told exactly what to |
-| `TCW/E-SB18` | GOOD | Refusing both sides did not buy him safety. The report names his sitting back as the very |
-| `TCW/E-SB19` | CORE | He did not argue about who was in the right. He said what the two swords do to the two men |
-| `TCW/E-SB20` | CORE | The man who won the battle walked to the house of the man who would not fight in it, and |
+| `TCW/E-SB16` | GOOD | Two chains carry one instruction in two shapes, and an honest telling gives both rather than choosing the better story. |
+| `TCW/E-SB17` | GOOD | The man least afraid of the coming trouble was the one who had been told exactly what to do when it arrived. |
+| `TCW/E-SB18` | GOOD | Refusing both sides did not buy him safety. The report names his sitting back as the very thing that brought the man to his door. |
+| `TCW/E-SB19` | CORE | He did not argue about who was in the right. He said what the two swords do to the two men holding them, and left it there. |
+| `TCW/E-SB20` | CORE | The man who won the battle walked to the house of the man who would not fight in it, and the visit was the answer to the question. |
 | `TCW/E-SB21` | GOOD | Refusing to fight for a man did not mean refusing to advise him. |
-| `TCW/E-SB22` | GOOD | The man who would not draw a sword against a wrong still refused, every single day, to |
-| `TCW/E-SB23` | GOOD | What frightened him was not dying in the fitna but surviving into a silence he could not |
-| `TCW/E-SB24` | CORE | He did not plead illness and he did not plead scruple. He argued that his restraint was a |
-| `TCW/E-SB25` | GOOD | A man can stand out of one fight and stand in the next, and a careful account says so |
-| `TCW/E-SB26` | GOOD | There are rooms in which silence is the only honest thing left, and a man should know when |
-| `TCW/E-SB27` | CORE | What standing out of the fighting cost these men came later, in the telling, and it was |
-| `TCW/E-SB28` | CORE | The way out that was offered was a man nobody had a quarrel with, and by then it was too |
+| `TCW/E-SB22` | GOOD | The man who would not draw a sword against a wrong still refused, every single day, to stand under it. |
+| `TCW/E-SB23` | GOOD | What frightened him was not dying in the fitna but surviving into a silence he could not break. |
+| `TCW/E-SB24` | CORE | He did not plead illness and he did not plead scruple. He argued that his restraint was a service, and asked to be thanked for it. |
+| `TCW/E-SB25` | GOOD | A man can stand out of one fight and stand in the next, and a careful account says so rather than tidying him into one or the other. |
+| `TCW/E-SB26` | GOOD | There are rooms in which silence is the only honest thing left, and a man should know when he is in one. |
+| `TCW/E-SB27` | CORE | What standing out of the fighting cost these men came later, in the telling, and it was their reputations that paid it. |
+| `TCW/E-SB28` | CORE | The way out that was offered was a man nobody had a quarrel with, and by then it was too late for a man nobody had a quarrel with. |
 | `TCW/E-SB29` | GOOD | He handed a man the authority to rule against him and told him to use it. |
-| `TCW/E-SB30` | CORE | The charge against every man who would not take a side is that he was waiting for the best |
-| `TCW/E-SB31` | GOOD | The scholars of this ummah knew everything the critics knew, and this is still where they |
-| `TCW/E-SB32` | GOOD | Nobody was punished for having stayed out. Two of them were offered the province and a |
-| `TCW/E-SB33` | GOOD | Refusing to take a side was not the private scruple of four famous men. In one province it |
-| `TCW/E-SB34` | GOOD | He would rather lose the province than open a second war inside it, and the caliph took |
-| `TCW/E-SB35` | GOOD | There is a difference between a man who says openly that he will not fight and a man who |
-| `TCW/E-SB36` | CORE | This is what a history written with a conscience looks like: the source is copied in full |
-| `TCW/E-SB37` | CORE | The reports about this period were sifted a thousand years ago by men who had every reason |
-| `TCW/E-SB38` | CORE | Words spoken in one bad hour between men who loved each other were collected by later |
-| `TCW/E-SB39` | CORE | The two people with the most to say against each other closed it themselves, in public, and |
-| `TCW/E-SB40` | GOOD | The line was drawn by the man who had just won the battle, and it was drawn against his own |
+| `TCW/E-SB30` | CORE | The charge against every man who would not take a side is that he was waiting for the best offer. Here is the best offer, in writing, and here is the answer. |
+| `TCW/E-SB31` | GOOD | The scholars of this ummah knew everything the critics knew, and this is still where they finished. |
+| `TCW/E-SB32` | GOOD | Nobody was punished for having stayed out. Two of them were offered the province and a third was given the money. |
+| `TCW/E-SB33` | GOOD | Refusing to take a side was not the private scruple of four famous men. In one province it was ten thousand of the leading men at once. |
+| `TCW/E-SB34` | GOOD | He would rather lose the province than open a second war inside it, and the caliph took his resignation and kept his friendship. |
+| `TCW/E-SB35` | GOOD | There is a difference between a man who says openly that he will not fight and a man who hides until the army has left, and the pulpit knew it. |
+| `TCW/E-SB36` | CORE | This is what a history written with a conscience looks like: the source is copied in full and corrected on the same page, in the open. |
+| `TCW/E-SB37` | CORE | The reports about this period were sifted a thousand years ago by men who had every reason to want them true, and they threw away the ones that would not hold. |
+| `TCW/E-SB38` | CORE | Words spoken in one bad hour between men who loved each other were collected by later people and turned into a creed, and that is the whole disease of this chapter. |
+| `TCW/E-SB39` | CORE | The two people with the most to say against each other closed it themselves, in public, and left nothing for anybody else to carry on with. |
+| `TCW/E-SB40` | GOOD | The line was drawn by the man who had just won the battle, and it was drawn against his own supporters. |
 
 ## The dates, the frontier, and the gazetteer
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `TAF/E-TL1` | CORE | Before anything else happens tonight, fix the size of what is being governed. Everything |
-| `TAF/E-TL2` | GOOD | A list read slowly is a map. The room does not need to know every name — it needs to feel |
-| `TAF/E-TL3` | CORE | Everything in this evening happened inside a span shorter than most of the room has held |
+| `TAF/E-TL1` | CORE | Before anything else happens tonight, fix the size of what is being governed. Everything that follows is a question about holding it, not about taking it. |
+| `TAF/E-TL2` | GOOD | A list read slowly is a map. The room does not need to know every name — it needs to feel how long the list is. |
+| `TAF/E-TL3` | CORE | Everything in this evening happened inside a span shorter than most of the room has held its current job. |
 | `TAF/E-TL4` | GOOD | A calendar that names its years remembers differently from one that numbers them. |
-| `TAF/E-TL5` | CORE | The book does not hide its uncertainty and it does not stop at it either. It shows the work |
-| `TAF/E-TL6` | CORE | The largest expansion in the whole story happens in the years the room is least likely to |
+| `TAF/E-TL5` | CORE | The book does not hide its uncertainty and it does not stop at it either. It shows the work and then says which report it trusts. |
+| `TAF/E-TL6` | CORE | The largest expansion in the whole story happens in the years the room is least likely to have heard about. |
 | `TAF/E-TL7` | CORE | One decision reversed opened an entire direction the map had never had. |
-| `TAF/E-TL8` | CORE | The frontier had begun to give in three places before a single Muslim raised a sword |
-| `TAF/E-TL9` | GOOD | One of the borders on this map was fixed by an agreement, not a battle — and it was the one |
-| `TAF/E-TL10` | CORE | An empire of four hundred years ends in a sentence, and the historian will not even tell |
-| `TAF/E-TL11` | CORE | Read the number slowly. The people who fought at بدر were still in the room when this story |
-| `TAF/E-TL12` | CORE | The generation that had seen it was going, year by year, while the argument about who |
-| `TAF/E-TL13` | GOOD | When a source is silent about a year, that is a fact about the source. It is worth saying |
-| `TAF/E-TL14` | CORE | The map stops growing on this page. Everything after it is about the line inside the map |
-| `TAF/E-TL15` | CORE | The same book that gives you three answers to one question gives you one answer to another |
-| `TAF/E-TL16` | CORE | A year in a book can be one line or it can be a hundred pages. This one is a hundred pages |
-| `TAF/E-TL17` | CORE | The honest date is the wider one. «جمادى الآخرة 36» is true; anything narrower is a choice |
-| `TAF/E-TL18` | CORE | The centre of the Muslim world moved off the map the room has been looking at since session |
+| `TAF/E-TL8` | CORE | The frontier had begun to give in three places before a single Muslim raised a sword against another. |
+| `TAF/E-TL9` | GOOD | One of the borders on this map was fixed by an agreement, not a battle — and it was the one that lasted. |
+| `TAF/E-TL10` | CORE | An empire of four hundred years ends in a sentence, and the historian will not even tell you which version of the sentence is true. |
+| `TAF/E-TL11` | CORE | Read the number slowly. The people who fought at بدر were still in the room when this story begins. |
+| `TAF/E-TL12` | CORE | The generation that had seen it was going, year by year, while the argument about who should lead was still ahead. |
+| `TAF/E-TL13` | GOOD | When a source is silent about a year, that is a fact about the source. It is worth saying out loud rather than filling in. |
+| `TAF/E-TL14` | CORE | The map stops growing on this page. Everything after it is about the line inside the map, not the line around it. |
+| `TAF/E-TL15` | CORE | The same book that gives you three answers to one question gives you one answer to another, and tells you which is which. That is what a historian's honesty looks like. |
+| `TAF/E-TL16` | CORE | A year in a book can be one line or it can be a hundred pages. This one is a hundred pages, and that itself tells you what the author thought mattered. |
+| `TAF/E-TL17` | CORE | The honest date is the wider one. «جمادى الآخرة 36» is true; anything narrower is a choice the book did not make. |
+| `TAF/E-TL18` | CORE | The centre of the Muslim world moved off the map the room has been looking at since session one, and it never fully came back. |
 | `TAF/E-TL19` | CORE | The first thing two Muslim armies had to negotiate about was water. |
-| `TAF/E-TL20` | GOOD | Seven days of fighting between Muslims that decided nothing at all. That is the whole |
-| `TAF/E-TL21` | CORE | The books remember the day a document was signed more exactly than they remember the day a |
+| `TAF/E-TL20` | GOOD | Seven days of fighting between Muslims that decided nothing at all. That is the whole argument against it, and the books make it by simply counting. |
+| `TAF/E-TL21` | CORE | The books remember the day a document was signed more exactly than they remember the day a battle was fought. Paper leaves a better trail than a battlefield. |
 | `TAF/E-TL22` | CORE | A split that begins as a camp outside a city and a refusal to come in. |
-| `TAF/E-TL23` | CORE | They chose a place that belonged to neither side and was equally far from both. The |
-| `TAF/E-TL24` | CORE | Two books, three placings, and an author who tells you which way he leans and why. That is |
-| `TAF/E-TL25` | CORE | One province moved in five years, and it moved between Muslims. Nothing was lost to anyone |
-| `TAF/E-TL26` | CORE | Look at the direction of every arrow on this map. For the first time in the story, they all |
-| `TAF/E-TL27` | GOOD | While everything else was turned inward, one column was still going east — and it is the |
-| `TAF/E-TL28` | GOOD | One book has it and one does not. Say which book, and the room learns more about how |
-| `TAF/E-TL29` | CORE | The most contested thirty years in the record close on a date the historian is willing to |
-| `TAF/E-TL30` | CORE | The bracket that opened in session one closes tonight. Thirty years, and the room has now |
-| `TAF/E-TL31` | CORE | The map ends the evening the same size it was at the start of it and a single colour again. |
+| `TAF/E-TL23` | CORE | They chose a place that belonged to neither side and was equally far from both. The geography of the meeting was itself part of the settlement. |
+| `TAF/E-TL24` | CORE | Two books, three placings, and an author who tells you which way he leans and why. That is not a weakness in the record. It is the record working. |
+| `TAF/E-TL25` | CORE | One province moved in five years, and it moved between Muslims. Nothing was lost to anyone outside. |
+| `TAF/E-TL26` | CORE | Look at the direction of every arrow on this map. For the first time in the story, they all point inward. |
+| `TAF/E-TL27` | GOOD | While everything else was turned inward, one column was still going east — and it is the thread that reaches this room, because that road ends in السند. Session 8 picks it up. |
+| `TAF/E-TL28` | GOOD | One book has it and one does not. Say which book, and the room learns more about how history reaches us than any lecture on method could teach them. |
+| `TAF/E-TL29` | CORE | The most contested thirty years in the record close on a date the historian is willing to state flatly. |
+| `TAF/E-TL30` | CORE | The bracket that opened in session one closes tonight. Thirty years, and the room has now walked the whole of them. |
+| `TAF/E-TL31` | CORE | The map ends the evening the same size it was at the start of it and a single colour again. What happened in between was not about the map. |
 | `TAF/E-TL32` | GOOD | Even the name of the year has two years attached to it, and the author prints both. |
 | `TAF/E-TL33` | GOOD | Show all five. A single number here would be the speaker's invention, not the books'. |
-| `TAF/E-TL34` | GOOD | This is not a list of the books' failures. It is the list of the places where they refuse |
-| `TAF/E-TL35` | CUT | «واللہ أعلم» is not a way of avoiding a question. In these books it is an answer, and the |
+| `TAF/E-TL34` | GOOD | This is not a list of the books' failures. It is the list of the places where they refuse to pretend, and that is why they can be trusted about the rest. |
+| `TAF/E-TL35` | CUT | «واللہ أعلم» is not a way of avoiding a question. In these books it is an answer, and the most honest one available. |
 
 ## Setting: the tribal map, and why the ردة took its shape
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `ATA/E-TB01` | CORE | The unit of that country was the line of fathers, and everything that happened next has to |
+| `ATA/E-TB01` | CORE | The unit of that country was the line of fathers, and everything that happened next has to be read on that map. |
 | `ATA/E-TB02` | CORE | Half the tribal map of that country is contained in one answer to one question. |
-| `ATA/E-TB03` | CORE | The people who would one day receive the hijra and the people who would one day rise in |
-| `ATA/E-TB04` | GOOD | Even the boundary of the most famous tribe in Arabia had two answers, and the book keeps |
+| `ATA/E-TB03` | CORE | The people who would one day receive the hijra and the people who would one day rise in Oman came out of the same migration. |
+| `ATA/E-TB04` | GOOD | Even the boundary of the most famous tribe in Arabia had two answers, and the book keeps both of them. |
 | `ATA/E-TB05` | CORE | The first thing the hijra did was to put the two ends of Arabia inside one set of walls. |
-| `ATA/E-TB06` | CORE | The book refuses to call the whole year one thing, and the sorting on the screen is the |
-| `ATA/E-TB07` | CORE | Two men can refuse the same payment for two different reasons, and the book takes care to |
-| `ATA/E-TB08` | CORE | The decision that held the state together was taken against the advice of the men best |
-| `ATA/E-TB09` | CORE | The argument was settled on a point of law about a hobbling-cord, and the man who had |
-| `ATA/E-TB10` | CORE | The honest map has three colours inside one tribe, and the sentence that licenses it is the |
-| `ATA/E-TB11` | CORE | He was not choosing between two prophecies. He was choosing between two lines of descent |
+| `ATA/E-TB06` | CORE | The book refuses to call the whole year one thing, and the sorting on the screen is the author's own, not ours. |
+| `ATA/E-TB07` | CORE | Two men can refuse the same payment for two different reasons, and the book takes care to say which is which. |
+| `ATA/E-TB08` | CORE | The decision that held the state together was taken against the advice of the men best placed to give advice, and the book keeps the advice on the page. |
+| `ATA/E-TB09` | CORE | The argument was settled on a point of law about a hobbling-cord, and the man who had objected said so himself. |
+| `ATA/E-TB10` | CORE | The honest map has three colours inside one tribe, and the sentence that licenses it is the book's own. |
+| `ATA/E-TB11` | CORE | He was not choosing between two prophecies. He was choosing between two lines of descent, and he said so out loud. |
 | `ATA/E-TB12` | CORE | A man can know which of two claims is true and still act on which of two families is his. |
-| `ATA/E-TB13` | CORE | The refusal stated itself in the language of who should rule, and the answer it was given |
+| `ATA/E-TB13` | CORE | The refusal stated itself in the language of who should rule, and the answer it was given was in the language of what is owed. |
 | `ATA/E-TB14` | CORE | Most of what broke in that year had already begun before the year began. |
-| `ATA/E-TB15` | CORE | One document divides the country between two tribes, and the other answers that the country |
+| `ATA/E-TB15` | CORE | One document divides the country between two tribes, and the other answers that the country belongs to neither of them. |
 | `ATA/E-TB16` | GOOD | The claim was refused while it was still only a request, years before it had to be fought. |
-| `ATA/E-TB17` | GOOD | The two claims that broke the peninsula are named together, by their cities, in one |
-| `ATA/E-TB18` | GOOD | The tribe that supplied her following was not the tribe she came from, and the book is |
+| `ATA/E-TB17` | GOOD | The two claims that broke the peninsula are named together, by their cities, in one sentence. |
+| `ATA/E-TB18` | GOOD | The tribe that supplied her following was not the tribe she came from, and the book is careful to say so. |
 | `ATA/E-TB19` | GOOD | A claim that could be settled for half a land-tax was priced by the man who bought it. |
-| `ATA/E-TB20` | CORE | The man's ability was taken and his ambition was not fed, and the book calls that a point |
-| `ATA/E-TB21` | CORE | The most quotable sentence about that year is corrected three times by the same book that |
-| `ATA/E-TB22` | CORE | The newest Muslims in the peninsula held, and what was standing among them was a man the |
-| `ATA/E-TB23` | GOOD | A tribe that is on the list of those who broke is on it because of one of its own men, and |
-| `ATA/E-TB24` | CORE | Both sides in that region were arguing from the same fact, and the difference was one man |
-| `ATA/E-TB25` | CORE | Descent explains the vocabulary people used that year. It does not predict where any of |
-| `ATA/E-TB26` | CORE | The first of the four claims was already finished before the crisis that is named after it |
-| `ATA/E-TB27` | CORE | A man who had just put down a rebellion had three quiet days, and then heard the news that |
-| `ATA/E-TB28` | GOOD | The whole of it took less than a season, and the book still writes "Allah knows best" over |
+| `ATA/E-TB20` | CORE | The man's ability was taken and his ambition was not fed, and the book calls that a point of fiqh. |
+| `ATA/E-TB21` | CORE | The most quotable sentence about that year is corrected three times by the same book that carries it. |
+| `ATA/E-TB22` | CORE | The newest Muslims in the peninsula held, and what was standing among them was a man the Prophet ﷺ had chosen and Abū Bakr ؓ left exactly where he was. |
+| `ATA/E-TB23` | GOOD | A tribe that is on the list of those who broke is on it because of one of its own men, and off it again because of another. |
+| `ATA/E-TB24` | CORE | Both sides in that region were arguing from the same fact, and the difference was one man who asked his questions in the right order. |
+| `ATA/E-TB25` | CORE | Descent explains the vocabulary people used that year. It does not predict where any of them stood. |
+| `ATA/E-TB26` | CORE | The first of the four claims was already finished before the crisis that is named after it began. |
+| `ATA/E-TB27` | CORE | A man who had just put down a rebellion had three quiet days, and then heard the news that undid them. |
+| `ATA/E-TB28` | GOOD | The whole of it took less than a season, and the book still writes "Allah knows best" over the number. |
 | `ATA/E-TB29` | CUT |  |
 
 ## عمر ؓ builds a state — and the two trials
@@ -1780,17 +1800,17 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | Card | Tier | عبرت |
 |---|---|---|
 | `IKO/E-IKM1` | CORE | A number nobody could check is the part of a story that travels least well. |
-| `IKO/E-IKM2` | CORE | The honest historian is not the one whose numbers agree; he is the one who shows you that |
+| `IKO/E-IKM2` | CORE | The honest historian is not the one whose numbers agree; he is the one who shows you that they do not. |
 | `IKO/E-IKM3` | CORE | The report you are least able to test is the one that already agrees with you. |
-| `IKO/E-IKM4` | CORE | A report of an event is neither a ruling nor a creed; it is a record, and it is weighed as |
+| `IKO/E-IKM4` | CORE | A report of an event is neither a ruling nor a creed; it is a record, and it is weighed as one. |
 | `IKO/E-IKM5` | GOOD | Distance in time is not only distance in dates; the words themselves have moved. |
 | `IKO/E-IKM6` | GOOD | The same word does not carry the same weight in two different centuries. |
 | `IKO/E-IKM7` | GOOD | What you can see today is the only measuring stick you have for what you cannot. |
 | `IKO/E-IKM8` | GOOD | History was never outside the scholarship of this umma; it was one of its instruments. |
-| `IKO/E-IKA1` | CORE | Before there were states in Arabia there were kin, and kin were the only protection anybody |
+| `IKO/E-IKA1` | CORE | Before there were states in Arabia there were kin, and kin were the only protection anybody had. |
 | `IKO/E-IKA2` | GOOD | Men hold a line for the people beside them before they hold it for anything else. |
 | `IKO/E-IKA3` | CORE | A truth still needs people willing to stand for it before it moves anything in the world. |
-| `IKO/E-IKA4` | GOOD | In a world organised by kin, the first question about any leader was not what he had done |
+| `IKO/E-IKA4` | GOOD | In a world organised by kin, the first question about any leader was not what he had done but whose he was. |
 | `IKO/E-IKA5` | GOOD | Group strength has a direction of its own, and it does not stop where its holders intended. |
 | `IKO/E-IKA6` | GOOD | A gathering of loyalties either becomes one loyalty or becomes a quarrel. |
 | `IKO/E-IKR1` | CORE | What changed in Arabia was not how many men there were, but which way they were all facing. |
@@ -1801,38 +1821,38 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `IKO/E-IKN1` | GOOD | A map drawn in two colours will always be telling you less than the sources did. |
 | `IKO/E-IKN2` | GOOD | A sentence worth repeating is worth tracing back to the man who first said it. |
 | `IKO/E-IKN3` | GOOD | A careful historian states his condition before he states his conclusion. |
-| `IKO/E-IKX1` | CUT | A judgement quoted without the qualification its author attached to it is no longer his |
+| `IKO/E-IKX1` | CUT | A judgement quoted without the qualification its author attached to it is no longer his judgement. |
 | `IKO/E-IKX2` | CUT | A sentence you cannot yet stand behind is better left out than said and defended. |
-| `IKO/E-IKX3` | CUT | What an enemy noticed about a people is worth knowing — but only once you know who reported |
+| `IKO/E-IKX3` | CUT | What an enemy noticed about a people is worth knowing — but only once you know who reported it. |
 | `IKO/E-IKX4` | CORE | Saying plainly where a book stops is part of using it honestly. |
 
 ## القادسية, the embassy to رستم, and المدائن
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `QMA/E-Q1` | CORE | Fear in a believing community is not a scandal; what is asked of it is that somebody |
+| `QMA/E-Q1` | CORE | Fear in a believing community is not a scandal; what is asked of it is that somebody finally stand up. |
 | `QMA/E-Q2` | CORE | Precedence is earned again every time it is claimed; it does not carry forward on its own. |
 | `QMA/E-Q3` | CORE | Courage that refuses counsel is not courage; it is the same fault wearing better clothes. |
-| `QMA/E-Q4` | CORE | A leader who will not stand under his people's defeat has no right to stand on top of |
+| `QMA/E-Q4` | CORE | A leader who will not stand under his people's defeat has no right to stand on top of their victories. |
 | `QMA/E-Q5` | GOOD | The one man in the room who disagrees is worth the whole room, if he is listened to. |
-| `QMA/E-Q6` | CORE | A relationship to a righteous man is a gift to be grateful for, never a claim to be traded |
+| `QMA/E-Q6` | CORE | A relationship to a righteous man is a gift to be grateful for, never a claim to be traded on. |
 | `QMA/E-Q7` | CORE | A man who is not impressed by a room cannot be bought by it. |
 | `QMA/E-Q8` | CORE | A community is judged by what its least important member may promise in its name. |
-| `QMA/E-Q9` | GOOD | An order that has to keep men beneath it in order to stand is already standing on |
+| `QMA/E-Q9` | GOOD | An order that has to keep men beneath it in order to stand is already standing on something that is giving way. |
 | `QMA/E-Q10` | GOOD | A man who is honest about where he came from can afford to say plainly what changed him. |
 | `QMA/E-Q11` | CORE | Explaining yourself to the people you lead costs less than the rumour you leave standing. |
-| `QMA/E-Q12` | CORE | Endurance is not one heroic hour; it is the fourth day, when nobody is watching and |
-| `QMA/E-Q13` | GOOD | What terrifies an army is usually one thing, and it usually has a weak point somebody has |
+| `QMA/E-Q12` | CORE | Endurance is not one heroic hour; it is the fourth day, when nobody is watching and everybody is finished. |
+| `QMA/E-Q13` | GOOD | What terrifies an army is usually one thing, and it usually has a weak point somebody has to be sent to find. |
 | `QMA/E-Q14` | CORE | Empires do not usually fall to a plan; they fall on the day their weight finally shifts. |
-| `QMA/E-Q15` | GOOD | A man under punishment is still a man who can keep his word — and a community that |
+| `QMA/E-Q15` | GOOD | A man under punishment is still a man who can keep his word — and a community that notices that gets him back. |
 | `QMA/E-Q16` | CORE | Authority that has to be announced to be felt is not yet authority. |
 | `QMA/E-Q17` | CORE | Fear measures the obstacle; faith measures the One who appointed the term. |
-| `QMA/E-Q18` | CORE | The verse was revealed about Pharaoh's people; a man standing in an emperor's hall read it |
+| `QMA/E-Q18` | CORE | The verse was revealed about Pharaoh's people; a man standing in an emperor's hall read it about the emperor — and about himself. |
 | `QMA/E-Q19` | CORE | The honesty of a whole administration is usually a copy of one man's habits. |
-| `QMA/E-Q20` | GOOD | The deeds that hold a community together are mostly the ones nobody was meant to find out |
-| `QMA/E-Q21` | GOOD | The difference between an exhausted army and a beaten one is usually one man who has not |
-| `QMA/E-Q22` | CORE | A conquest that does not think about how the conquerors will live has not finished |
-| `QMA/E-Q23` | CORE | A door between a governor and the people is the first thing that has to be burnt, even |
+| `QMA/E-Q20` | GOOD | The deeds that hold a community together are mostly the ones nobody was meant to find out about. |
+| `QMA/E-Q21` | GOOD | The difference between an exhausted army and a beaten one is usually one man who has not yet agreed to be beaten. |
+| `QMA/E-Q22` | CORE | A conquest that does not think about how the conquerors will live has not finished thinking. |
+| `QMA/E-Q23` | CORE | A door between a governor and the people is the first thing that has to be burnt, even when the governor is innocent. |
 | `QMA/E-Q24` | GOOD | A humiliation only lands where somebody agrees to be humiliated. |
 | `QMA/E-Q25` | GOOD | The ones who decided it are almost always the ones nobody wrote down. |
 
@@ -1875,50 +1895,99 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `ABD/E-B3` | CORE | A man's edge is often the shape of the gap he thinks he is filling. |
 | `ABD/E-B4` | CORE | He asked the men most likely to tell him something he did not want to hear. |
 | `ABD/E-B5` | CORE | A decision worth making is a decision you are willing to be sat upright to defend. |
-| `ABD/E-B6` | CORE | He was not angry that a man had acted without instruction — he thanked him, because the man |
+| `ABD/E-B6` | CORE | He was not angry that a man had acted without instruction — he thanked him, because the man had been thinking about the community and not about himself. |
 | `ABD/E-B7` | CORE | He had a son and a family in that city, and he named the hardest man in it instead. |
-| `ABD/E-B8` | GOOD | He wrote his own limits into the appointment: I chose, I meant well, and I do not know what |
+| `ABD/E-B8` | GOOD | He wrote his own limits into the appointment: I chose, I meant well, and I do not know what happens next. |
 | `ABD/E-B9` | CORE | He kept an account of what was not his, and he closed it before he died. |
 | `ABD/E-B10` | CORE | A standard is only a standard once the next man refuses to lower it. |
 | `ABD/E-B11` | CORE | He treated a lawful salary as a debt. |
-| `ABD/E-B12` | GOOD | He did not build a reserve; he spent it on the people it belonged to, and left the shelf |
+| `ABD/E-B12` | GOOD | He did not build a reserve; he spent it on the people it belonged to, and left the shelf bare. |
 | `ABD/E-B13` | CORE | In his last hour he was still correcting a beautiful sentence into a true one. |
 | `ABD/E-B14` | CORE | The last instruction he gave about himself was an instruction to spend less on himself. |
-| `ABD/E-B15` | CORE | Two years and three months of authority, and it ended in a room, at night, with four men |
-| `ABD/E-B16` | GOOD | The men who were there are the best witnesses to each other, and this is one of them |
+| `ABD/E-B15` | CORE | Two years and three months of authority, and it ended in a room, at night, with four men and a spade. |
+| `ABD/E-B16` | GOOD | The men who were there are the best witnesses to each other, and this is one of them speaking. |
 | `ABD/E-B17` | GOOD | He asked, at the end, for the only thing he had ever actually been working for. |
 | `ABD/E-B18` | GOOD | The work outlived the man, and that is the whole test of whether the work was ever his. |
 | `ABD/E-B19` | GOOD | The second man did not promise to be gentle; he promised to keep them on the road. |
 | `ABD/E-B20` | GOOD | The handover instruction to the most powerful man alive was about the five prayers. |
 | `ABD/E-B21` | GOOD | Nobody in that family took what they could have taken. |
-| `ABD/E-B22` | GOOD | He said out loud, on the first week, the thing office usually takes from a man — and then he |
+| `ABD/E-B22` | GOOD | He said out loud, on the first week, the thing office usually takes from a man — and then he proved it for two years. |
 | `ABD/E-B23` | CUT | (none offered; the card is recorded, not delivered.) |
 | `ABD/E-B24` | CUT | (none offered.) |
+
+## Yemen I: al-Aswad al-ʿAnsī, from the Abnāʾ to the dawn adhān
+
+| Card | Tier | عبرت |
+|---|---|---|
+| `AAA/E-AW01` | GOOD | A garrison sent to serve a foreign king became, two generations later, the men who held Yemen for Islam. |
+| `AAA/E-AW02` | CORE | The first Muslims of Yemen's ruling house came to Islam by checking a date. |
+| `AAA/E-AW19` | CORE | The governor told to send him in chains became his deputy over the whole of Yemen — and was never removed. |
+| `AAA/E-AW03` | GOOD | The state in Yemen was a map of governors — and one man who belonged to all of them. |
+| `AAA/E-AW04` | CORE | He moved on the news that the Prophet ﷺ was ill — the first of these claims was timed to it. |
+| `AAA/E-AW05` | CORE | He called the lawful governors the rebels — the first thing a usurper changes is the words. |
+| `AAA/E-AW06` | GOOD | The book writes down, without softening, that great Companions ran — and that running was how they lived to come back. |
+| `AAA/E-AW07` | CORE | He put the men he had defeated in charge of their own people, and married into the house he had destroyed — and kept the enemy inside his own walls. |
+| `AAA/E-AW08` | CORE | The claim that began on news of his illness was ended by the letters he sent. |
+| `AAA/E-AW09` | GOOD | A man who needs an informer from the unseen to trust his own commanders has already lost them. |
+| `AAA/E-AW10` | CORE | The men came to her with half a plan; she was the one who finished the sentence. |
+| `AAA/E-AW11` | CORE | Terror bought him one more day, and it told his enemies exactly how much time they had. |
+| `AAA/E-AW12` | CORE | The house was guarded at every door, and undone through a wall by the one person he never thought to guard against. |
+| `AAA/E-AW13` | CORE | The same claim that had frightened a country sent his own guards away from his door. |
+| `AAA/E-AW14` | CORE | The rising was ended with the words of the adhān — and, the same morning, the victors were already competing for command. |
+| `AAA/E-AW20` | CORE | The chroniclers tell the long story; the one fact it hangs on is in al-Bukhārī. |
+| `AAA/E-AW15` | GOOD | The first of the claimants was dead before the Prophet ﷺ was — and the one who would have to answer Yemen's letter was already Abū Bakr ؓ. |
+| `AAA/E-AW16` | CORE | The man who helped end one false claim wanted the throne it left empty. |
+| `AAA/E-AW17` | CUT |  |
+| `AAA/E-AW18` | CUT |  |
 
 ## Iraq, Shām, and يرموك
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `ISA/E-C1` | CORE | A state that has just won a civil war and still refuses to conscript the defeated is |
+| `ISA/E-C1` | CORE | A state that has just won a civil war and still refuses to conscript the defeated is telling you what it thinks it is for. |
 | `ISA/E-C2` | CORE | A man who has made peace with his own death is very difficult to bargain with. |
 | `ISA/E-C3` | GOOD | Certainty about the appointed hour is not recklessness; it is what makes a man usable. |
 | `ISA/E-C4` | GOOD | The reprimand a commander needs is rarely about the rule he broke. |
 | `ISA/E-C5` | CORE | The march was survived on preparation and on one man's memory; neither was an accident. |
 | `ISA/E-C6` | GOOD | The night the effort is made and the morning it is judged are never the same morning. |
 | `ISA/E-C7` | CORE | A plan is safer when it is not one plan. |
-| `ISA/E-C8` | CORE | What frightened the enemy was not the cavalry; it was that the law was the same for the |
-| `ISA/E-C9` | CORE | The man who asked for one day got the day; a man who had demanded the whole command might |
+| `ISA/E-C8` | CORE | What frightened the enemy was not the cavalry; it was that the law was the same for the ruler's son. |
+| `ISA/E-C9` | CORE | The man who asked for one day got the day; a man who had demanded the whole command might have got neither. |
 | `ISA/E-C10` | CORE | Counting the enemy is useful; being governed by the count is not. |
 | `ISA/E-C11` | CORE | A whole life can turn on one honest question asked of an opponent instead of about him. |
-| `ISA/E-C12` | CORE | He was told he had been replaced and finished the day's work anyway; that is what obedience |
-| `ISA/E-C13` | CORE | Where they could not tell which had come first, they gave the city the gentler ruling — and |
+| `ISA/E-C12` | CORE | He was told he had been replaced and finished the day's work anyway; that is what obedience looks like before anyone is watching. |
+| `ISA/E-C13` | CORE | Where they could not tell which had come first, they gave the city the gentler ruling — and called it caution. |
 | `ISA/E-C14` | GOOD | The trap a man builds is still there when he is the one running. |
-| `ISA/E-C15` | CORE | Each of them met the other's promotion by quoting the Prophet ﷺ in the other's favour; that |
+| `ISA/E-C15` | CORE | Each of them met the other's promotion by quoting the Prophet ﷺ in the other's favour; that is what settled it, and it is what should settle it for us. |
 | `ISA/E-C16` | CORE | A commander can be removed for being too successful, and both men can be right. |
 | `ISA/E-C17` | GOOD | The deed he hoped in was the one no one had watched. |
 | `ISA/E-C18` | GOOD | They were beaten, and they knew exactly why; knowing it is not the same as changing it. |
 | `ISA/E-C19` | CUT | An army that has to chain its men in place has already told you what it thinks of them. |
 | `ISA/E-C20` | GOOD | They appointed a judge before the battle, not after it. |
+
+## Yemen II: the second ردة of Yemen, and Ḥaḍramawt/Kinda to al-Nujayr
+
+| Card | Tier | عبرت |
+|---|---|---|
+| `TSY/E-YK01` | CORE | The man who comes to ask your advice has not always come for your advice. |
+| `TSY/E-YK02` | GOOD | When a man's own city turned on him, it was his mother's people who took him in. |
+| `TSY/E-YK03` | CORE | The man who had stood beside the Abnāʾ against al-Aswad now told their families that the Yemen was not their land. |
+| `TSY/E-YK17` | CORE | He told families who had married among the Arabs to go back to their own land, and Arab tribes rode out and brought them home. |
+| `TSY/E-YK04` | CORE | Abū Bakr ؓ did not cancel the Prophet's ﷺ appointment. He sent the man to fight on the way to it. |
+| `TSY/E-YK05` | GOOD | The chiefs went to Medina to be judged; the men who had followed al-Aswad to the end asked for terms on the field and were refused, and the book gives no reason for either. |
+| `TSY/E-YK06` | CORE | A charge that could not be proved was not punished, and the man who made the charge said so to his face first. |
+| `TSY/E-YK18` | GOOD | Abū Bakr ؓ set what the revolt had made of him beside what this religion would have made of him — and ʿAmr did not go back. |
+| `TSY/E-YK07` | CORE | A small promise made in the Prophet's ﷺ lifetime was tested the day after he died, and the province went to war over the answer. |
+| `TSY/E-YK08` | CORE | Once the quarrel became a matter of honour, being right about the camel no longer decided anything. ⚠ البسوس needs a gloss, and we do not have one on a page we hold. The warning only works if the room knows what al-Basūs was — a pre-Islamic war between Bakr and Taghlib said to have started over a she-camel and run for decades. That is [STANDARD] and is NOT page-cited in this repo: it carries (to verify) and must be checked before it is spoken as fact. The safe spoken form, which claims nothing we cannot show, is in the beats: a warning was spoken over her that named an old war which had started the same way. If Daniyal wants the story itself, it needs one verification pass first. |
+| `TSY/E-YK09` | CORE | He used his tribe's own code of honour — never change sides — as the reason not to follow his tribe. |
+| `TSY/E-YK10` | CORE | The night attack ended the four kings and brought the fifth man into the war. |
+| `TSY/E-YK19` | CORE | The man who had brought his tribe to the Prophet ﷺ himself is the man who now raises it against Medina — and that is not a contradiction the books explain. |
+| `TSY/E-YK11` | GOOD | They had prepared the place to retreat to before they fought, and it became the place they could not leave. |
+| `TSY/E-YK12` | CORE | The decision about al-Ashʿath was not taken in anger at the gate; it was sent to the man whose job it was. |
+| `TSY/E-YK13` | GOOD | The historian put both accounts on one page and did not choose between them, and neither do we. |
+| `TSY/E-YK14` | CORE | He won his life only after he stopped arguing that he was owed it. |
+| `TSY/E-YK15` | CUT | Recorded, not delivered. |
+| `TSY/E-YK16` | CORE | The army kept watching the men who had once turned, and the watching found nothing; both of those facts are in the record. |
 
 ## The people: the house of أم سليم ؓ
 
@@ -1948,47 +2017,47 @@ adjudicate. A deck uses at most **six** on its closing screen.
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `AHA/E-AS01` | GOOD | The first thing this ummah did when it could not stay was to pool a fare and leave |
+| `AHA/E-AS01` | GOOD | The first thing this ummah did when it could not stay was to pool a fare and leave together. |
 | `AHA/E-AS02` | CORE | A man's descent is recorded honestly, and it is not what he is judged by. |
-| `AHA/E-AS03` | CORE | He was not asked to stop being his father's son. He was asked which side of the field to |
+| `AHA/E-AS03` | CORE | He was not asked to stop being his father's son. He was asked which side of the field to stand on, and he answered that question only. |
 | `AHA/E-AS04` | CORE | He was not told that grief was a fault, and he did not pretend he had none. |
 | `AHA/E-AS05` | GOOD | He treated one sentence spoken in anger as a debt, and he carried it for ten years. |
 | `AHA/E-AS06` | CORE | The books record where he came from in four words and what he became in four titles. |
-| `AHA/E-AS07` | CORE | The first thing the Muhājirūn did on arriving was to put the best reciter in front |
-| `AHA/E-AS08` | CORE | He was praised for what he carried, and the praise is recorded in the words the Prophet ﷺ |
+| `AHA/E-AS07` | CORE | The first thing the Muhājirūn did on arriving was to put the best reciter in front, whoever he was. |
+| `AHA/E-AS08` | CORE | He was praised for what he carried, and the praise is recorded in the words the Prophet ﷺ used. |
 | `AHA/E-AS09` | CORE | Standing in this matter was decided by what a man carried, and by nothing else about him. |
-| `AHA/E-AS10` | GOOD | A ruling changed what he could be called, and it did not change what the household did |
+| `AHA/E-AS10` | GOOD | A ruling changed what he could be called, and it did not change what the household did for him. |
 | `AHA/E-AS11` | CORE | He answered a question about his courage by naming what he carried. |
-| `AHA/E-AS12` | CORE | The last thing he asked of anyone was that what they recited and what they did should |
+| `AHA/E-AS12` | CORE | The last thing he asked of anyone was that what they recited and what they did should match. |
 | `AHA/E-AS13` | GOOD | Every man who took it knew what had happened to the man before him. |
 | `AHA/E-AS14` | GOOD | They fixed the line by taking away their own ability to move back from it. |
-| `AHA/E-AS15` | CORE | The verse that steadied Medina in the year eleven is the verse a man recited on the ground |
-| `AHA/E-AS16` | CORE | The freed slave's last request was to be put back beside the household that had taken him |
+| `AHA/E-AS15` | CORE | The verse that steadied Medina in the year eleven is the verse a man recited on the ground in the year twelve. |
+| `AHA/E-AS16` | CORE | The freed slave's last request was to be put back beside the household that had taken him in. |
 | `AHA/E-AS17` | GOOD | The books that list the dead of that day put the master and the freedman on one line. |
-| `AHA/E-AS18` | CORE | Eleven years later, the man the Commander of the Faithful wished were still in the room |
-| `AHA/E-AS19` | GOOD | She had a legal claim on what he left, and she said she had not freed him in order to |
+| `AHA/E-AS18` | CORE | Eleven years later, the man the Commander of the Faithful wished were still in the room was a freed slave who had died holding a banner. |
+| `AHA/E-AS19` | GOOD | She had a legal claim on what he left, and she said she had not freed him in order to have one. |
 
 ## جيش أسامة ؓ, and the Qur'an collected
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `ABU/E-U1` | CORE | A man is fit for a task because of what he can do, not because of how long he has been |
+| `ABU/E-U1` | CORE | A man is fit for a task because of what he can do, not because of how long he has been alive. |
 | `ABU/E-U2` | CORE | The first day of an authority is what tells you what it thinks it is for. |
-| `ABU/E-U3` | CORE | There is a kind of steadiness that is not stubbornness: it is refusing to treat an |
+| `ABU/E-U3` | CORE | There is a kind of steadiness that is not stubbornness: it is refusing to treat an emergency as permission. |
 | `ABU/E-U4` | CORE | Authority that can be renegotiated the moment its author is gone was never authority. |
 | `ABU/E-U5` | CORE | Rank is a place in an order, not a claim about who is the better man. |
 | `ABU/E-U6` | CORE | What people believe about your strength does as much work as your strength does. |
 | `ABU/E-U7` | GOOD | Honour given for the right reason costs the giver nothing and is remembered for centuries. |
 | `ABU/E-U8` | GOOD | A hinge is a small thing, and the whole door turns on it. |
-| `ABU/E-Q1` | CORE | A generation can carry something priceless and never notice how thin the carrying is until |
-| `ABU/E-Q2` | CORE | The men closest to the Prophet ﷺ were the most afraid of adding to what he ﷺ left — which |
-| `ABU/E-Q3` | CORE | Preservation is not one heroic act; it is somebody doing a careful, unglamorous job |
-| `ABU/E-Q4` | CORE | When a man's rival in nothing and his equal in much says the thing for you, you do not |
-| `ABU/E-Q5` | GOOD | What is entrusted is returned. The whole transmission of this book is a chain of things |
+| `ABU/E-Q1` | CORE | A generation can carry something priceless and never notice how thin the carrying is until some of it is dropped. |
+| `ABU/E-Q2` | CORE | The men closest to the Prophet ﷺ were the most afraid of adding to what he ﷺ left — which is exactly why what they did add can be trusted. |
+| `ABU/E-Q3` | CORE | Preservation is not one heroic act; it is somebody doing a careful, unglamorous job properly. |
+| `ABU/E-Q4` | CORE | When a man's rival in nothing and his equal in much says the thing for you, you do not need to say it yourself. |
+| `ABU/E-Q5` | GOOD | What is entrusted is returned. The whole transmission of this book is a chain of things handed back intact. |
 | `ABU/E-Q6` | GOOD | Being ready is not something you do on the day you are needed. |
 | `ABU/E-Q7` | GOOD | The people who end up carrying something were given small jobs first, and did them. |
 | `ABU/E-U8b` | GOOD | Steadiness is not the absence of fear; it is what a frightened man does next. |
-| `ABU/E-U9` | CUT | Some of what a man is credited with was decided before he sat down, by people he never |
+| `ABU/E-U9` | CUT | Some of what a man is credited with was decided before he sat down, by people he never met. |
 
 ## The people: زيد بن الخطاب ؓ and the dead of اليمامة
 
@@ -1997,16 +2066,16 @@ adjudicate. A deck uses at most **six** on its closing screen.
 | `ZIA/E-ZY1` | CORE | He would not be protected past the point at which his brother was protected. |
 | `ZIA/E-ZY2` | CORE | He put a limit on his own speech and none at all on his own advance. |
 | `ZIA/E-ZY3` | GOOD | The man who had carried the Qurʾān to them was the first thing that had to be stopped. |
-| `ZIA/E-ZY4` | CORE | He did not ask to be forgiven; he told the brother what he thought Allah had done with |
+| `ZIA/E-ZY4` | CORE | He did not ask to be forgiven; he told the brother what he thought Allah had done with both of them. |
 | `ZIA/E-ZY5` | CORE | The measure he used on his own brother was the one he used on himself. |
 | `ZIA/E-ZY6` | CORE | The Companions' grief is recorded as carefully as their victories, and by the same men. |
-| `ZIA/E-ZY7` | GOOD | He was consoled not by being told his grief was smaller, but by being told what his |
-| `ZIA/E-ZY8` | CORE | The tie was made in a year when they owned nothing, and it was still holding on the day |
+| `ZIA/E-ZY7` | GOOD | He was consoled not by being told his grief was smaller, but by being told what his brother's death had been. |
+| `ZIA/E-ZY8` | CORE | The tie was made in a year when they owned nothing, and it was still holding on the day they died. |
 | `ZIA/E-ZY9` | CORE | He did not want to be spared what came next; he wanted to be there for it. |
-| `ZIA/E-ZY10` | CORE | He was told the end of his own life years before it happened, and then he lived as though |
-| `ZIA/E-ZY11` | CORE | The two things he sent back were the same two things: return what was taken, and pay what |
+| `ZIA/E-ZY10` | CORE | He was told the end of his own life years before it happened, and then he lived as though he believed it. |
+| `ZIA/E-ZY11` | CORE | The two things he sent back were the same two things: return what was taken, and pay what is owed. |
 | `ZIA/E-ZY12` | CORE | Nobody carried him out and nobody was asked to. |
-| `ZIA/E-ZY13` | GOOD | A man is not his father, and the books are careful to record that they were not confused |
+| `ZIA/E-ZY13` | GOOD | A man is not his father, and the books are careful to record that they were not confused about it. |
 | `ZIA/E-ZY14` | GOOD | One household sent four men to one field and none of them came back. |
 | `ZIA/E-ZY15` | CORE | He was not asked to say anything; he was asked to hear something, and he would not. |
 | `ZIA/E-ZY16` | GOOD | He read his own end aloud before the battle, and then went into it anyway. |
@@ -2016,21 +2085,35 @@ adjudicate. A deck uses at most **six** on its closing screen.
 
 | Card | Tier | عبرت |
 |---|---|---|
-| `BAM/E-Q1` | CORE | A city that had refused an army's terms would accept one man's word — which tells you what |
-| `BAM/E-Q2` | CORE | Two of the best of them read the same letter and reached opposite conclusions — and |
-| `BAM/E-Q3` | CORE | He was not angry at silk; he was angry at how fast comfort had arrived after hunger — and |
-| `BAM/E-Q4` | CORE | He was not being modest in front of the Romans; he was refusing to let his own men start |
-| `BAM/E-Q5` | CORE | The advice was not malicious — it was practical, and it was about appearances; that is |
-| `BAM/E-Q6` | GOOD | Nothing about this was arranged for the occasion — الذہبی records that he dressed this way |
-| `BAM/E-Q7` | CORE | The four names at the bottom of that page are the reason it is a public act of the state |
-| `BAM/E-Q8` | CORE | The city was his that morning and the advice came from an expert — and it still did not |
-| `BAM/E-Q9` | CORE | He did not order the place cleaned; he cleaned it, and then there was no one left who |
-| `BAM/E-Q10` | GOOD | He chose the two sūrahs the place itself would have chosen — and that is the whole of what |
-| `BAM/E-Q11` | GOOD | The first thing he said on that ground was that no one there had a claim on Allah by |
-| `BAM/E-Q12` | GOOD | Neither of them would be the one honoured, and both of them stopped short — which is what |
-| `BAM/E-Q13` | GOOD | He would not be carried into that city by anything that looked as though it were showing |
-| `BAM/E-Q14` | GOOD | He was standing in the country the reports were about, and he still asked, and still wrote |
-| `BAM/E-Q15` | GOOD | The historian wrote down the disagreement instead of hiding it — which is why we can still |
-| `BAM/E-Q16` | CUT | A course that will not tell you a story it cannot show you in a book is a course you can |
+| `BAM/E-Q1` | CORE | A city that had refused an army's terms would accept one man's word — which tells you what the word of that office was still worth. |
+| `BAM/E-Q2` | CORE | Two of the best of them read the same letter and reached opposite conclusions — and nothing at all was wrong with that; it is what consultation is for. |
+| `BAM/E-Q3` | CORE | He was not angry at silk; he was angry at how fast comfort had arrived after hunger — and when they gave him the reason he had not known, he dropped it. |
+| `BAM/E-Q4` | CORE | He was not being modest in front of the Romans; he was refusing to let his own men start measuring themselves by what the Romans would think. |
+| `BAM/E-Q5` | CORE | The advice was not malicious — it was practical, and it was about appearances; that is exactly why it had to be refused. |
+| `BAM/E-Q6` | GOOD | Nothing about this was arranged for the occasion — الذہبی records that he dressed this way in المدینہ too, with four patches in the back of his shirt. |
+| `BAM/E-Q7` | CORE | The four names at the bottom of that page are the reason it is a public act of the state and not a general's private promise — which is exactly what the city had asked for. |
+| `BAM/E-Q8` | CORE | The city was his that morning and the advice came from an expert — and it still did not outrank the question where did the Prophet ﷺ pray? |
+| `BAM/E-Q9` | CORE | He did not order the place cleaned; he cleaned it, and then there was no one left who could think the work beneath him. |
+| `BAM/E-Q10` | GOOD | He chose the two sūrahs the place itself would have chosen — and that is the whole of what he did to mark the day. |
+| `BAM/E-Q11` | GOOD | The first thing he said on that ground was that no one there had a claim on Allah by descent — which is a strange thing to say at a victory, and the reason he said it. |
+| `BAM/E-Q12` | GOOD | Neither of them would be the one honoured, and both of them stopped short — which is what respect between equals in a matter of faith actually looks like. |
+| `BAM/E-Q13` | GOOD | He would not be carried into that city by anything that looked as though it were showing him off. |
+| `BAM/E-Q14` | GOOD | He was standing in the country the reports were about, and he still asked, and still wrote down the answer with the name of the man who gave it. |
+| `BAM/E-Q15` | GOOD | The historian wrote down the disagreement instead of hiding it — which is why we can still see, 700 years later, exactly what he did and did not know. |
+| `BAM/E-Q16` | CUT | A course that will not tell you a story it cannot show you in a book is a course you can trust with the ones it does tell. |
+
+## Kinda: the kingdom before Islam, and the house of al-Ashʿath
+
+| Card | Tier | عبرت |
+|---|---|---|
+| `KTK/E-KD01` | GOOD | A people that could not keep the strong from the weak went looking for a ruler from outside. |
+| `KTK/E-KD02` | GOOD | What one foreign king gave, the next foreign king took back. |
+| `KTK/E-KD03` | GOOD | A rule that was asked for to stop the killing ended by killing, and was ended the same way. |
+| `KTK/E-KD04` | CUT | The house is remembered today for its poet, not for its kings. |
+| `KTK/E-KD05` | GOOD | They offered him a royal ancestry as a gift, and he declined it with a smile. |
+| `KTK/E-KD06` | GOOD | The books keep the old royal title in use in the ridda; they do not say what it meant to the men who bore it, and neither do we. |
+| `KTK/E-KD07` | GOOD | The pardon was complete, and so was his own memory of what he had been pardoned for. |
+| `KTK/E-KD08` | GOOD | A refusal of one man's order became, on the road, a refusal of the state. |
+| `KTK/E-KD09` | GOOD | The terms that would have ended it were on the table, and it was the army, not its commander, that refused them. |
 
 <!-- GENERATED ABOVE THIS LINE by tools/promote_catalogue.py — edit below, not above -->

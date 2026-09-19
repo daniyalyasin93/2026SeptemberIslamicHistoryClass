@@ -35,12 +35,16 @@ CARD = re.compile(r"^### (\S+)\s*·\s*(.*?)\s*$", re.M)
 # Fields run to the next "**Field**" line or a blank line, NOT to the end of the first line: cards are
 # hard-wrapped at ~100 columns, and the one-line patterns cut every wrapped عبرت, Map, When and Hands-up
 # mid-sentence (found 2026-09-16: "…and then heard the news that" on a closing slide).
+# The card's own field labels. A field runs until the next one of these, so that a Map or عبرت
+# line continuing onto "**اليمامة**. The enemy camp is at ..." is not cut at that bold run.
+NEXT_FIELD = (r"\n?\*\*(?:Tier|When|Map|What happened|The statement|Hands-up\?|Beats|Quote after beat|عبرت):?\*\*")
+
 FIELD = {
     "tier": re.compile(r"\*\*Tier:\*\*\s*(\w+)"),
     "when": re.compile(r"\*\*When:\*\*\s*(.*?)\s*(?:·\s*\n?\s*\*\*Map|\n\*\*|\n\s*\n)", re.S),
-    "map": re.compile(r"\*\*Map:\*\*\s*(.*?)(?=\n\*\*|\n\s*\n|\Z)", re.S),
-    "ibrah": re.compile(r"\*\*عبرت:\*\*\s*(.*?)(?=\n\*\*|\n\s*\n|\n---|\Z)", re.S),
-    "hands": re.compile(r"\*\*Hands-up\?\*\*\s*(.*?)(?=\n\*\*|\n\s*\n|\n⚠|\n---|\Z)", re.S),
+    "map": re.compile(r"\*\*Map:\*\*\s*(.*?)(?=" + NEXT_FIELD + r"|\n\s*\n|\Z)", re.S),
+    "ibrah": re.compile(r"\*\*عبرت:\*\*\s*(.*?)(?=" + NEXT_FIELD + r"|\n\s*\n|\n---|\Z)", re.S),
+    "hands": re.compile(r"\*\*Hands-up\?\*\*\s*(.*?)(?=" + NEXT_FIELD + r"|\n\s*\n|\n⚠|\n---|\Z)", re.S),
 }
 def is_na(v):
     """A card field the researcher marked not-applicable.
@@ -56,7 +60,7 @@ _NA = re.compile(r"\s*n\s*/?\s*a\b", re.I)
 
 # Qualified labels too — "[SOURCED, disputed]" reached a slide face on 2026-09-16 because this matched only the bare form.
 LABEL = re.compile(r"\[(?:SOURCED|STANDARD|CONVENTIONAL-ESTIMATE)[^\]]*\]|\(to verify\)", re.I)
-WHAT = re.compile(r"\*\*What happened:\*\*\s*(.*?)(?=\n\*\*|\Z)", re.S)
+WHAT = re.compile(r"\*\*What happened:\*\*\s*(.*?)(?=" + NEXT_FIELD + r"|\Z)", re.S)
 STATEMENT = re.compile(r"\*\*The statement:\*\*\s*\n((?:>.*\n?)+)", re.M)
 # BEATS (DECISIONS.md #37): one line per event the speaker must tell, drawn only from the card's own text,
 #   **Beats:**
@@ -184,26 +188,61 @@ def ar_len(t):
 
 
 def notes_for(c):
-    """Everything about the card that is not on the slide, so nothing is lost."""
-    bits = ["%s · %s" % (c["id"], c["title"])]
-    if c["tier"] or c["when"]:
-        bits.append("Tier: %s   When: %s" % (c["tier"] or "?", c["when"] or "—"))
-    if c["what"]:
-        bits.append("\n" + c["what"])
-    if c["map"]:
-        bits.append("\nMAP: " + c["map"])
+    """The lectern view of the card: speaking points first, apparatus last.
+
+    DECISIONS.md #39/#40. Until 2026-09-19 this opened with the card id, the tier and the `When`
+    line, and buried the beats — so the first thing the speaker's eye met in the notes pane was
+    production apparatus he can do nothing with mid-sentence. The order is now the order he needs
+    it in: what to SAY, then the quotation, then the one-line عبرت, then the cues, then background
+    he read at home and does not read aloud. Card id, tier and section are gone; traceability
+    lives in the evening's RUNSHEET.md and SLIDES.md.
+    """
+    bits = []
+    if c["beats"]:
+        say = ["SAY —"]
+        for i, (head, line) in enumerate(c["beats"], 1):
+            say.append("%d. %s — %s" % (i, head, line))
+            if c.get("quote_after") == i and c["arabic"]:
+                say.append("   ^ read the Arabic on the face here")
+        bits.append("\n".join(say))
+    elif c["what"]:
+        bits.append("SAY —\n" + c["what"])
+
+    if c["arabic"]:
+        q = ["QUOTE — " + c["arabic"]]
+        if c["english"]:
+            # The note already writes the rendering inside quotation marks; do not double them.
+            en = c["english"].strip()
+            q.append(en if en[:1] in '"\u201c' else '"' + en + '"')
+        if c["cite"]:
+            q.append("— " + c["cite"])
+        bits.append("\n".join(q))
+
     if c["ibrah"]:
-        bits.append("\nعبرت: " + c["ibrah"])
+        bits.append("عبرت — " + c["ibrah"])
     if c["hands"] and c["hands"].lower() not in ("no", "no.", "—"):
-        bits.append("\nHANDS UP: " + c["hands"])
-    if c["english"]:
-        bits.append("\nSTATEMENT (full rendering): " + c["english"])
-    if c["cite"]:
-        bits.append("\nSource: " + c["cite"])
-    if c.get("extra"):
-        bits.append("\nALSO IN THE CARD:\n" + c["extra"])
-    bits.append("\nFrom: " + c["section"])
-    return "\n".join(bits)
+        bits.append("HANDS UP — " + c["hands"])
+    if c["map"]:
+        bits.append("MAP — " + c["map"])
+
+    extra = re.sub(r"(?m)^\s*-{3,}\s*$", "", c.get("extra") or "").strip()
+    if extra:
+        # A ⚠ box is a delivery instruction, not background: it goes above the prose, not below it.
+        warn = [b for b in re.split(r"\n\s*\n", extra) if "⚠" in b]
+        rest = [b for b in re.split(r"\n\s*\n", extra) if "⚠" not in b]
+        if warn:
+            bits.append("\n\n".join(w.strip() for w in warn))
+        extra = "\n\n".join(r.strip() for r in rest).strip()
+
+    tail = []
+    if c["beats"] and c["what"]:
+        tail.append(c["what"])
+    if extra:
+        tail.append(extra)
+    if tail:
+        bits.append("BACKGROUND (read at home, not aloud) —\n" + "\n\n".join(tail))
+
+    return "\n\n".join(bits)
 
 
 HON_KEEP = re.compile("[\u0610-\u0615\u0617-\u061A\uFDFA\uFDFB]")

@@ -1132,15 +1132,16 @@ carry it yourselves. And Kinda turned to Ziyād b. Labīd ؓ, the governor, and 
 against us. The men of Ḥaḍramawt would not carry it; the men of Kinda kept insisting, and went home
 with the matter still undecided. Ziyād ؓ did nothing yet. He was waiting for al-Muhājir ؓ.
 **Beats:**
-1. An arrangement from the Prophet's ﷺ lifetime — Part of Ḥaḍramawt's ṣadaqa went to Kinda, and part of Kinda's went to Ḥaḍramawt.
-2. Banū Walīʿa have no camels — A clan of Kinda told Ḥaḍramawt: we have no camels to carry it; send it to us loaded.
-3. Ḥaḍramawt promises to look into it — If you really have no camels, we will send it loaded.
-4. After the Prophet ﷺ died — Banū Walīʿa came: deliver it, the way you promised the Messenger of Allah ﷺ.
-5. Ḥaḍramawt's answer — You do have camels: carry it yourselves.
-6. Kinda turns on the governor — To Ziyād b. Labīd ؓ they said: you are with them against us.
-7. Home with nothing settled — Ḥaḍramawt would not carry it; Kinda kept insisting, and went home with the matter undecided.
-8. Ziyād ؓ does nothing yet — He was waiting for al-Muhājir ؓ to arrive.
-**Quote after beat:** 5
+1. Who Ziyād b. Labīd ؓ is — Of the Anṣār, of Banū Bayāḍa of the Khazraj; the Prophet's ﷺ own appointee over Ḥaḍramawt, and he held the post through the whole war.
+2. An arrangement from the Prophet's ﷺ lifetime — Part of Ḥaḍramawt's ṣadaqa went to Kinda, and part of Kinda's went to Ḥaḍramawt.
+3. Banū Walīʿa have no camels — A clan of Kinda told Ḥaḍramawt: we have no camels to carry it; send it to us loaded.
+4. Ḥaḍramawt promises to look into it — If you really have no camels, we will send it loaded.
+5. After the Prophet ﷺ died — Banū Walīʿa came: deliver it, the way you promised the Messenger of Allah ﷺ.
+6. Ḥaḍramawt's answer — You do have camels: carry it yourselves.
+7. Kinda turns on the governor — To Ziyād b. Labīd ؓ they said: you are with them against us.
+8. Home with nothing settled — Ḥaḍramawt would not carry it; Kinda kept insisting, and went home with the matter undecided.
+9. Ziyād ؓ does nothing yet — He was waiting for al-Muhājir ؓ to arrive.
+**Quote after beat:** 6
 **The statement:**
 > قَالَتْ بَنُو وَلَيْعَةَ: أَبْلِغُونَا كَمَا وَعَدْتُمْ رَسُولَ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ -! فَقَالُوا: إِنْ لَكُمْ ظَهْرًا فَاحْتَمِلُوا
 > — ⁨الکامل فی التاریخ ج۲ ص۲۳۰⁩ · https://shamela.ws/book/21712/921
@@ -1151,6 +1152,11 @@ with the matter still undecided. Ziyād ؓ did nothing yet. He was waiting for a
 province went to war over the answer.
 **Hands-up?** Before telling it: *"Before the war there was a quarrel. What do you think it was
 about?"*
+**Ziyād b. Labīd ؓ, page-cited, for the one breath:** of the Anṣār, of **⁨بنو بَيَاضة⁩** of the
+⁨خزرج⁩ (⁨البدایہ ج۳ ص۴۶۶⁩ — see `medina-ansar-structure.md`); the Prophet's ﷺ appointee over **⁨حضرموت⁩**
+(⁨البدایہ ج۷ ص۴۱⁩); and **he held that post through the whole ⁨ردة⁩ and ran the campaign there**
+(⁨الکامل ج۲ ص۲۲۹⁩–۲۳۲ — where ⁨ج۲ ص۲۲۹⁩ spells him **⁨زياد بن أبي لبيد الأنصاري⁩** and the following pages
+⁨زياد بن لبيد⁩). The room last heard his name in one clause of `TSY/E-YK04` on evening 3.
 **Also on the page:**
 
 > فَقَالَ بَعْضُ بَنِي وَلَيْعَةَ: مِنْ كِنْدَةَ لِحَضْرَمَوْتَ لَيْسَ لَنَا ظَهْرٌ، فَإِنْ رَأَيْتُمْ أَنْ تَبْعَثُوا إِلَيْنَا بِذَلِكَ عَلَى ظَهْرٍ. قَالُوا: فَإِنَّا نَنْظُرُ، فَإِنْ لَمْ يَكُنْ لَكُمْ ظَهْرٌ فَعَلْنَا.
@@ -1202,6 +1208,12 @@ between the two sides, and for a little while they held off from each other.
 
 **⁨عبرت⁩:** Once the quarrel became a matter of honour, being right about the camel no longer decided
 anything.
+⚠ **⁨البسوس⁩ needs a gloss, and we do not have one on a page we hold.** The warning only works if the
+room knows what al-Basūs was — a pre-Islamic war between Bakr and Taghlib said to have started over a
+she-camel and run for decades. **That is `[STANDARD]` and is NOT page-cited in this repo: it carries
+`(to verify)` and must be checked before it is spoken as fact.** The safe spoken form, which claims
+nothing we cannot show, is in the beats: *a warning was spoken over her that named an old war which
+had started the same way.* If Daniyal wants the story itself, it needs one verification pass first.
 **Hands-up?** no
 **Also on the page:**
 
@@ -1308,6 +1320,42 @@ people, took the captives back, and began to gather every man he could.
 Record both counts side by side; do not choose. The origin of the Prophet's ﷺ curse is the
 Kinda-delegation note; **do not explain it from the floor.** Ibn Khaldūn adds that the captive women
 cried out as they passed (⁨ج۲ ص۴۹۲⁩) — his detail, attributed to him.
+
+---
+
+### E-YK19 · al-Ashʿath b. Qays comes into it
+**Tier:** CORE · **When:** 11 AH, after the night attack `[SOURCED]` · **Map:** The returning column
+with the captives, and a **new marker** on its road home: al-Ashʿath's own people. The column stops.
+**What happened:** Ziyād b. Labīd ؓ turned for home with the property and the captives, and the road
+passed al-Ashʿath b. Qays. Up to that night he had not been in it. He is of Kinda but not of Banū
+ʿAmr — a different branch of the tribe from the four brothers just killed — and the room has a reason
+to know his name already: he is the man who had led Kinda's own delegation into the Prophet's ﷺ
+mosque, at their head, a year or so before. He rose with his people, took the captives back out of
+the column, and began gathering every man he could. From here the war in Ḥaḍramawt is his.
+**Beats:**
+1. The column turns for home — Ziyād ؓ with the property and the captives of the four kings.
+2. And its road passes one man — al-Ashʿath b. Qays, who had not been in the fighting at all.
+3. Who he is — Of Kinda, but not of Banū ʿAmr: a different branch from the four brothers just killed.
+4. The room has met him before — He led Kinda's delegation into the Prophet's ﷺ mosque, at their head.
+5. He rises with his people — And takes the captives back out of the column.
+6. And gathers everyone he can — From here, this war is his.
+**Quote after beat:** 5
+**The statement:**
+> وَعَادَ زِيَادُ بْنُ لَبِيدٍ بِالْأَمْوَالِ وَالسَّبْيِ، وَاجْتَازُوا بِالْأَشْعَثِ، فَثَارَ فِي قَوْمِهِ، فَاسْتَنْقَذَهُمْ وَجَمَعَ الْجُمُوعَ.
+> — ⁨الکامل فی التاریخ ج۲ ص۲۳۱⁩ · https://shamela.ws/book/21712/922
+> *English:* "Ziyād b. Labīd returned with the property and the captives, and they passed by
+> al-Ashʿath; so he rose with his people, recovered them, and gathered the gatherings."
+
+**⁨عبرت⁩:** The man who had brought his tribe to the Prophet ﷺ himself is the man who now raises it
+against Medina — and that is not a contradiction the books explain.
+**Hands-up?** no
+**Who he is, page-cited:** he led the Kinda delegation to Medina (`KTK/E-KD05`, and the Kinda note's
+pages behind it); and Ibn al-Athīr's "four kings" are of **⁨بنو عمرو بن معاوية⁩**, a different branch
+of Kinda from his (`KTK/E-KD06`). **No source ties the old Kinda kingship to this ⁨ردة⁩** — say nothing
+that implies it (`DECISIONS.md`, the Kinda note §"the four kings").
+⚠ **This card exists because `KTK/E-KD05` sits in an optional block.** Without it, al-Ashʿath walks
+onto the stage as a bare name and then carries seven cards. **If the Kinda flashback is cut, this card
+is not cut.**
 
 ---
 
@@ -1571,17 +1619,18 @@ this world — and when they looked into those three, they found nothing to matc
 their indifference to it. The three names are Ṭulayḥa, who had claimed prophethood; ʿAmr ؓ, who had
 followed al-Aswad; and Qays, who had turned on the Abnāʾ.
 **Beats:**
-1. Three men of this evening go north — Qays, ʿAmr ؓ and al-Ashʿath ؓ are met again at the Yarmūk, al-Qādisiyya and Nahāwand.
-2. Sent to call Rustam to Islam — Al-Ashʿath ؓ and ʿAmr b. Maʿdī Karib ؓ were among the men Saʿd ؓ sent before al-Qādisiyya.
-3. Qays commands the left wing — He fought at the Yarmūk, came east with reinforcements from Syria, and commanded the left at al-Qādisiyya.
-4. An eye each at the Yarmūk — Qays and al-Ashʿath ؓ each lost an eye at the Yarmūk.
-5. Side by side at Nahāwand — Ibn Kathīr lists ʿAmr ؓ, Qays and Ṭulayḥa ؓ among the leading men of the army.
-6. What Jābir ؓ swore — Ibn Kathīr records that Jābir ؓ swore: we found no one at al-Qādisiyya wanting this world with the next.
-7. Three men were suspected — They had suspected three men of wanting this world.
-8. They looked into the three — And when they looked, they found nothing to match their honesty and their indifference to this world.
-9. Who the three were — Ṭulayḥa ؓ, who had claimed prophethood; ʿAmr ؓ, who had followed al-Aswad; Qays, who had turned on the Abnāʾ.
-10. Two books on Qays — Ibn Kathīr says Qays left Islam; al-Dhahabī's notice of him, a commander known for courage, does not mention it.
-**Quote after beat:** 8
+1. A look ahead, and say so — The next four names are battles this course reaches in later evenings; note only that these men are in them.
+3. Three men of this evening go north — Qays, ʿAmr ؓ and al-Ashʿath ؓ are met again at the Yarmūk, al-Qādisiyya and Nahāwand.
+3. Sent to call Rustam to Islam — Al-Ashʿath ؓ and ʿAmr b. Maʿdī Karib ؓ were among the men Saʿd ؓ sent before al-Qādisiyya.
+4. Qays commands the left wing — He fought at the Yarmūk, came east with reinforcements from Syria, and commanded the left at al-Qādisiyya.
+5. An eye each at the Yarmūk — Qays and al-Ashʿath ؓ each lost an eye at the Yarmūk.
+6. Side by side at Nahāwand — Ibn Kathīr lists ʿAmr ؓ, Qays and Ṭulayḥa ؓ among the leading men of the army.
+7. What Jābir ؓ swore — Ibn Kathīr records that Jābir ؓ swore: we found no one at al-Qādisiyya wanting this world with the next.
+8. Three men were suspected — They had suspected three men of wanting this world.
+9. They looked into the three — And when they looked, they found nothing to match their honesty and their indifference to this world.
+10. Who the three were — Ṭulayḥa ؓ, who had claimed prophethood; ʿAmr ؓ, who had followed al-Aswad; Qays, who had turned on the Abnāʾ.
+11. Two books on Qays — Ibn Kathīr says Qays left Islam; al-Dhahabī's notice of him, a commander known for courage, does not mention it.
+**Quote after beat:** 9
 **The statement:**
 > ولقد اتهمنا ثلاثةَ نفرٍ، فما رأينا كما هجمنا عليهم من أمانتهم وزهدهم: طُلَيْحة بن خوَيْلد الأسدي، وعَمْرو بن معدي كرب، وقيس بن المكشوح.
 > — ⁨البدایہ والنہایہ ج۷ ص۲۴۳⁩ · https://shamela.ws/book/30097/3389

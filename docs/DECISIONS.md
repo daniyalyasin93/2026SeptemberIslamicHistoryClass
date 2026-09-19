@@ -35,6 +35,12 @@ explicitly and give a reason — do not quietly reverse it.
 | 16 | 2026-09-03 | Prophets timeline: approximate centuries, explicitly labelled as outside the sources | active |
 | 17 | 2026-09-03 | Worksheets printed and handed out; marked in the room only if time permits | active |
 | 18 | 2026-09-03 | **Research is catalogued in `docs/research/` and never re-derived** | active |
+| 37 | 2026-09-16 | One slide per event: every card carries Beats | **point 3 superseded by #39** |
+| 39 | 2026-09-19 | **Back to one slide per card; beats move to the speaker notes** | active |
+| 40 | 2026-09-19 | Speaker notes are speaking points; card id and tier are out of them | active |
+| 41 | 2026-09-19 | The Umm Tamīm ؓ connection is recorded, and is not spoken | active |
+| 42 | 2026-09-19 | **Evening 4 runs in chronological order; Kinda is last** | active |
+| 43 | 2026-09-19 | **Nothing walks on stage un-introduced** — `check_introductions.py` is the gate | active |
 
 ---
 
@@ -633,6 +639,9 @@ field or blank line. All 1,839 cards re-parse with no empty عبرت line.
 
 ## 37 · One slide per event: every card carries Beats — 2026-09-16
 
+> **Point 3 superseded by #39 (2026-09-19).** The deck is no longer one slide per beat; beats moved to the
+> speaker notes after evening 3 was delivered from the 356-slide deck. Points 1, 2, 4 and 5 stand.
+
 Daniyal, looking at evening 3: *"these are still less slides than the events described in content … having a
 separate slide for everything that I need to tell broadly helps in making sure we don't forget stuff."* His
 example was Ziyād b. Labīd's ؓ first engagement after the Shadhra quarrel — a night attack that lived inside
@@ -685,3 +694,155 @@ Daniyal finished `S03_yemen/S03.pptx` by hand (356 slides, 13 hidden; ten Map St
 
 Also added the same day: `S03_recap.pptx` (`build_recap.py`) — "The story so far", 16 slides pasted in before
 Part III at slide 238.
+
+## 39 · Back to one slide per card — the beat-per-slide deck is retired — 2026-09-19
+
+**Supersedes #37 (point 3 only).** Evening 3 was delivered from the 356-slide beats deck and the shape
+failed in the room. Daniyal, the same evening: *"the too many slides with sometimes repeated text bored
+the audience. And I had to skip many of them at times because I had already told the story on the first
+slide of that event."*
+
+Two distinct defects, and they compound:
+
+1. **Repetition.** A card's beats are successive moments of one scene, so consecutive beat slides restate
+   the same situation in slightly different words. The room reads the slide, hears the same thing said, and
+   disengages.
+2. **Forced skipping at the lectern.** A speaker who tells an event well tells it whole, from its first
+   slide. The remaining beat slides for that event are then already spent, and he is visibly clicking past
+   his own deck — which costs more authority than a missing slide ever did.
+
+**Settled:**
+
+1. **The deck is one slide per card** (plus the card's quotation slide and its maps/images), as evenings 1
+   and 2 were built. `tools/build_full_deck.card_slide` is the builder; `beat_slide` is no longer called by
+   an evening's `build.py`.
+2. **Beats stay in the research notes, and they move to the speaker notes.** #37's real purpose — *"having a
+   separate slide for everything I need to tell broadly helps in making sure we don't forget stuff"* — is
+   served by putting the card's full beat list in the **speaker notes of that card's one slide**, and in
+   `BRIEFING.pdf`. The completeness check survives; only its projection is withdrawn. Beats are also what
+   `CUE.pdf` is built from.
+3. **The screen carries the picture; the speaker carries the sequence.** A card's slide is a map, an image,
+   a large statement or a sourced quotation — never the narration of the beat the speaker is on.
+4. **Density target, from evenings 1–3 as actually delivered:** about **one slide per spoken minute**, i.e.
+   **40–55 slides for a 45-minute evening**, 25–30 cards. Evening 2 ran 26 cards / 39 slides in 37 minutes.
+   This is a sanity check, not a quota — #20 (over-build and cut at the lectern) still governs the *pool*,
+   which is over-built as ever; it is the *deck* that is now built at spoken density.
+5. **Evening 3's deck is untouched.** It was delivered; it stays as delivered (#38). This decision governs
+   evening 4 onward.
+
+**What #37 keeps:** points 1, 2, 4 and 5 — every card still carries a `**Beats:**` list in its note, beats
+live in the notes so any later evening inherits them, the runsheet's `SKIP BEATS` still drops an event a
+second card tells, and deck length is still not bought by speeding up.
+
+## 40 · Speaker notes are speaking points, not a card dump — 2026-09-19
+
+Daniyal, choosing evening 4: *"The speaker notes should be structured to tell me speaking points. Maybe we
+can remove the unnecessary info from speaker notes like card id etc."*
+
+Until today `notes_for()` opened every slide's notes with the card id, the tier and the `When` line, then
+the prose, and buried the beats. The first thing the eye met in the notes pane mid-sentence was production
+apparatus that cannot be acted on at a lectern.
+
+**The notes pane is now ordered the way the lectern needs it:**
+
+```
+SAY —            the card's beats, numbered, one line each; the quotation's place marked
+QUOTE —          the Arabic, the English rendering, the citation
+عبرت —           the one line
+HANDS UP —       only if the card carries one
+MAP —            what the map does on this slide
+⚠                a delivery warning, if the card has one — above the prose, never below it
+BACKGROUND —     the card's prose and everything after the Hands-up line. Read at home, not aloud
+```
+
+**Card id, tier and the source section are gone from the notes.** Traceability lives in the evening's
+`RUNSHEET.md` and `SLIDES.md`, which is where it is read from anyway — never at the lectern.
+
+Two parser defects fixed in the same pass, both of which had been silently losing note content:
+
+- **A field no longer ends at any bold run, only at the next known field label.** `**Map:**` and `**عبرت:**`
+  routinely continue onto a line beginning with a bold place name («**اليمامة**. The enemy camp is at …»)
+  and were being cut there. Every MAP note in every deck built before today is truncated at that point.
+- **The English rendering is no longer double-quoted**, and a trailing `---` no longer produces an empty
+  BACKGROUND block.
+
+## 41 · The Umm Tamīm ؓ connection is recorded, and is not spoken — 2026-09-19
+
+Found in the evening-4 content review. Ibn Kathīr names the widow of Mālik b. Nuwayra ؓ whom Khālid ؓ
+married as **⁨أم تميم ابنة المنهال⁩** («⁨واصطفى خالد امرأةَ مالكِ بن نُوَيْرة وهي أم تميم ابنة المنهال⁩»,
+⁨البدایہ ج۷ ص۳۰⁩ · https://shamela.ws/book/30097/3176), and names the woman in Khālid's ؓ own tent at
+⁨عقرباء⁩ — the one Mujjāʿa protects, and who then protects him — as **⁨أم تميم امرأة خالد⁩**
+(⁨ج۷ ص۳۳⁩ · https://shamela.ws/book/30097/3179). Same book, three pages apart, same name.
+
+So on the books' own naming, the woman at the centre of the al-Buṭāḥ dispute is the woman in the tent
+at al-Yamāma, and ʿUmar's ؓ words in `RCT/E-RC49` have already put her in the room.
+
+**Settled: the connection is not made from the platform.** It is not needed for any event, it adds
+nothing the room must have, and drawing the line invites exactly the adjudication `CLAUDE.md` §1.6
+forbids — from a room that will already be holding its breath through Part II. The cards stay as they
+are: `E-RC49` quotes ʿUmar ؓ as the books have him; `E-RC16` and `E-RC17` name Umm Tamīm ؓ as Khālid's ؓ
+wife, which is what their own pages say.
+
+**But it is written down here, and a prepared answer goes in `QA_BANK.md`,** because this is the
+connection an attentive listener makes unaided, and a question slip about it is likely. The answer is
+the same as the rest of the episode: the books record it, they do not comment on it, and we do not
+adjudicate between Companions.
+
+**Daniyal can overturn this.** If he wants it said, it is said the way everything else in Part II is
+said — as what the books record, with no inference drawn.
+
+## 42 · Evening 4 runs in chronological order — 2026-09-19
+
+Daniyal, after the content review: *"And structure the evening in chronological order. We can do the
+kinda ridda at end of session and start with butah if that makes more sense."*
+
+The first cut ran Kinda → al-Buṭāḥ → al-Yamāma, which is **late → early → middle**: al-Nujayr is the
+last siege of the war and al-Buṭāḥ is Khālid's ؓ stop immediately after Buzākha. The review found that
+the flashback seam was unmarked and that three cards referred forward to material told later.
+
+**Settled: the evening runs in the order the sources establish** — campaign note §12.2, `[SOURCED as
+sequence]`: Buzākha → **al-Buṭāḥ** → recalled to Medina → **al-Yamāma** → … → **Ḥaḍramawt/Kinda, last**.
+The claimants (Musaylima, Sajāḥ) are introduced in a short Part I *before* the campaign reaches them,
+so that nothing later refers forward.
+
+**Three defects the reorder fixed by itself:** `E-RC45`'s forward reference to Sajāḥ and Musaylima;
+the unmarked jump back in time; and `E-RC52`'s naming of al-Yamāma as the place Zayd ؓ fell, which is
+now flagged on the card as a spoiler to withhold.
+
+**The cost, stated plainly.** Ḥaḍramawt/Kinda now sits at the end of ~80 minutes and **will not be
+reached on evening 4** — a third deferral. That is the price of chronological order, and it is
+recorded at the top of `S04_kinda_butah_yamama/RUNSHEET.md` so the choice is visible every time the
+cut is made. If Kinda must be spoken next, Part V moves to the front and this decision is superseded.
+
+## 43 · Every figure who carries a card gets his one-breath notice — 2026-09-19
+
+The evening-4 review found five men carrying cards with no ⁨تراجم⁩ notice anywhere in the delivered
+series: **al-Ashʿath b. Qays** (seven cards, introduced only in an optional block), **Ziyād b. Labīd ؓ**
+(five cards, one clause on evening 3), **Thābit b. Qays ؓ** (the only man at al-Yamāma without one),
+**Abū Qatāda ؓ** (whose testimony is the crux of al-Buṭāḥ), and **Mālik b. Nuwayra ؓ**.
+
+This is `DECISIONS.md` #28 applied as a **check**, not a principle: before an evening is built, every
+name that carries a card is tested against `docs/catalogue/DELIVERED.md`, and a name the room has not
+met gets its notice on the card where it becomes load-bearing.
+
+Added for evening 4: `TSY/E-YK19` (al-Ashʿath, a card of its own, **not cut even when the Kinda
+flashback is**); a first beat on `TSY/E-YK07` for Ziyād ؓ; the ⁨سیر⁩ notices for Thābit ؓ
+(⁨خطيب الأنصار⁩ — ج۱ ص۳۰۹) and Abū Qatāda ؓ (⁨فارس رسول الله ﷺ⁩ — ج۲ ص۴۴۹), both fetched for this pass.
+
+### 43.1 · The check is mechanical, and it covers four kinds of thing — added 2026-09-19
+
+`tools/check_introductions.py` makes #43 a gate rather than a memory. It walks an evening's
+`RUNSHEET.md` in running order and reports every proper name appearing **for the first time in the
+series** — in no card listed in `DELIVERED.md`, and in no earlier card of the same evening. The
+runsheet answers every row in a `## Introductions checked` table; the tool exits non-zero while a row
+is unanswered, and **"no notice needed" is a valid answer**. The rule is that somebody looked.
+
+**The question is asked of four kinds of thing, not only people** — because the evening-4 review
+caught one of each: a **person** with no ⁨تراجم⁩ notice (al-Ashʿath b. Qays), an **event** every later
+card assumed but no card told (the army leaving Medina for al-Yamāma), a **term** carrying a line's
+whole force with no gloss and no page (⁨البسوس⁩), and **forward references** to evenings not yet given
+(⁨القادسية⁩, ⁨اليرموك⁩, ⁨عثمان ؓ⁩). The rule and the table are in `CLAUDE.md` §2.
+
+Two limits, both stated in the tool's own docstring: a name introduced only inside an **optional
+block is not introduced** — the notice belongs on a card that is never cut; and **evening 1's card
+ids were never recorded**, so nothing from the orientation evening is in the known set.
