@@ -35,6 +35,9 @@ explicitly and give a reason — do not quietly reverse it.
 | 16 | 2026-09-03 | Prophets timeline: approximate centuries, explicitly labelled as outside the sources | active |
 | 17 | 2026-09-03 | Worksheets printed and handed out; marked in the room only if time permits | active |
 | 18 | 2026-09-03 | **Research is catalogued in `docs/research/` and never re-derived** | active |
+| 37 | 2026-09-16 | One slide per event: every card carries Beats | **point 3 superseded by #39** |
+| 39 | 2026-09-19 | **Back to one slide per card; beats move to the speaker notes** | active |
+| 40 | 2026-09-19 | Speaker notes are speaking points; card id and tier are out of them | active |
 
 ---
 
@@ -633,6 +636,9 @@ field or blank line. All 1,839 cards re-parse with no empty عبرت line.
 
 ## 37 · One slide per event: every card carries Beats — 2026-09-16
 
+> **Point 3 superseded by #39 (2026-09-19).** The deck is no longer one slide per beat; beats moved to the
+> speaker notes after evening 3 was delivered from the 356-slide deck. Points 1, 2, 4 and 5 stand.
+
 Daniyal, looking at evening 3: *"these are still less slides than the events described in content … having a
 separate slide for everything that I need to tell broadly helps in making sure we don't forget stuff."* His
 example was Ziyād b. Labīd's ؓ first engagement after the Shadhra quarrel — a night attack that lived inside
@@ -685,3 +691,74 @@ Daniyal finished `S03_yemen/S03.pptx` by hand (356 slides, 13 hidden; ten Map St
 
 Also added the same day: `S03_recap.pptx` (`build_recap.py`) — "The story so far", 16 slides pasted in before
 Part III at slide 238.
+
+## 39 · Back to one slide per card — the beat-per-slide deck is retired — 2026-09-19
+
+**Supersedes #37 (point 3 only).** Evening 3 was delivered from the 356-slide beats deck and the shape
+failed in the room. Daniyal, the same evening: *"the too many slides with sometimes repeated text bored
+the audience. And I had to skip many of them at times because I had already told the story on the first
+slide of that event."*
+
+Two distinct defects, and they compound:
+
+1. **Repetition.** A card's beats are successive moments of one scene, so consecutive beat slides restate
+   the same situation in slightly different words. The room reads the slide, hears the same thing said, and
+   disengages.
+2. **Forced skipping at the lectern.** A speaker who tells an event well tells it whole, from its first
+   slide. The remaining beat slides for that event are then already spent, and he is visibly clicking past
+   his own deck — which costs more authority than a missing slide ever did.
+
+**Settled:**
+
+1. **The deck is one slide per card** (plus the card's quotation slide and its maps/images), as evenings 1
+   and 2 were built. `tools/build_full_deck.card_slide` is the builder; `beat_slide` is no longer called by
+   an evening's `build.py`.
+2. **Beats stay in the research notes, and they move to the speaker notes.** #37's real purpose — *"having a
+   separate slide for everything I need to tell broadly helps in making sure we don't forget stuff"* — is
+   served by putting the card's full beat list in the **speaker notes of that card's one slide**, and in
+   `BRIEFING.pdf`. The completeness check survives; only its projection is withdrawn. Beats are also what
+   `CUE.pdf` is built from.
+3. **The screen carries the picture; the speaker carries the sequence.** A card's slide is a map, an image,
+   a large statement or a sourced quotation — never the narration of the beat the speaker is on.
+4. **Density target, from evenings 1–3 as actually delivered:** about **one slide per spoken minute**, i.e.
+   **40–55 slides for a 45-minute evening**, 25–30 cards. Evening 2 ran 26 cards / 39 slides in 37 minutes.
+   This is a sanity check, not a quota — #20 (over-build and cut at the lectern) still governs the *pool*,
+   which is over-built as ever; it is the *deck* that is now built at spoken density.
+5. **Evening 3's deck is untouched.** It was delivered; it stays as delivered (#38). This decision governs
+   evening 4 onward.
+
+**What #37 keeps:** points 1, 2, 4 and 5 — every card still carries a `**Beats:**` list in its note, beats
+live in the notes so any later evening inherits them, the runsheet's `SKIP BEATS` still drops an event a
+second card tells, and deck length is still not bought by speeding up.
+
+## 40 · Speaker notes are speaking points, not a card dump — 2026-09-19
+
+Daniyal, choosing evening 4: *"The speaker notes should be structured to tell me speaking points. Maybe we
+can remove the unnecessary info from speaker notes like card id etc."*
+
+Until today `notes_for()` opened every slide's notes with the card id, the tier and the `When` line, then
+the prose, and buried the beats. The first thing the eye met in the notes pane mid-sentence was production
+apparatus that cannot be acted on at a lectern.
+
+**The notes pane is now ordered the way the lectern needs it:**
+
+```
+SAY —            the card's beats, numbered, one line each; the quotation's place marked
+QUOTE —          the Arabic, the English rendering, the citation
+عبرت —           the one line
+HANDS UP —       only if the card carries one
+MAP —            what the map does on this slide
+⚠                a delivery warning, if the card has one — above the prose, never below it
+BACKGROUND —     the card's prose and everything after the Hands-up line. Read at home, not aloud
+```
+
+**Card id, tier and the source section are gone from the notes.** Traceability lives in the evening's
+`RUNSHEET.md` and `SLIDES.md`, which is where it is read from anyway — never at the lectern.
+
+Two parser defects fixed in the same pass, both of which had been silently losing note content:
+
+- **A field no longer ends at any bold run, only at the next known field label.** `**Map:**` and `**عبرت:**`
+  routinely continue onto a line beginning with a bold place name («**اليمامة**. The enemy camp is at …»)
+  and were being cut there. Every MAP note in every deck built before today is truncated at that point.
+- **The English rendering is no longer double-quoted**, and a trailing `---` no longer produces an empty
+  BACKGROUND block.

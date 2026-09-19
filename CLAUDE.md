@@ -198,10 +198,13 @@ Claude/Gemini/AI, and raw URLs are **production apparatus and belong in the spea
 `deck2.audit()` enforces this with a `FORBIDDEN` list and **fails the build** on any match — this is
 the class of defect that survives every review and then appears on a projector.
 
-**One slide per event (`DECISIONS.md` #37).** Every card carries a `**Beats:**` list in its research note — one
-line per event the speaker must tell — and a deck is one slide per beat plus the card's quotation slide. Slide
-count is not a target; nothing told should be missing from a slide. A finding in a note body that is on no card
-does not exist on stage (#35).
+**One slide per CARD (`DECISIONS.md` #39, which retires the beat-per-slide deck of #37).** Every card still
+carries a `**Beats:**` list in its research note — one line per event the speaker must tell — but the beats go
+into the **speaker notes** of that card's single slide, and into `CUE.pdf` and `BRIEFING.pdf`. **They are not
+slides.** Evening 3 was delivered from a 356-slide beats deck and it bored the room and forced the speaker to
+click past events he had already told. Build the deck at spoken density: **≈ one slide per spoken minute,
+40–55 slides, 25–30 cards** for a 45-minute evening. The *pool* is still over-built (#20); the *deck* is not.
+A finding in a note body that is on no card does not exist on stage (#35).
 
 **Every deck ships a PDF beside it.** `deck2.save()` writes `<deck>.pdf` automatically, because
 Daniyal checks on a phone and on machines without PowerPoint. `series/preview.py` also exports
@@ -288,8 +291,9 @@ room objected to after session 1. The eras below are the *order*; the week numbe
 **11–23 AH pool** and `L03_pehla_imtihan/CONTENT.md` the **23–41 AH pool** — whatever their folder
 names say. An evening is a numbered delivery folder `SNN_<slug>/` that picks card ids out of a pool.
 **Where the story has actually reached lives only in `docs/catalogue/DELIVERED.md`** — read its last
-row before planning any evening. Evening 2 stopped after بزاخة (37 min, ran short); evening 3 is
-`S03_yemen/`.
+row before planning any evening. Evening 2 stopped after بزاخة (37 min, ran short); evening 3 (`S03_yemen/`) was delivered and
+stopped at **STOP B**; evening 4 is `S04_kinda_butah_yamama/` — the Kinda ردة, البُطاح, and the road
+to اليمامة.
 
 The **muqaddima** is no longer delivered in a weekly slot (`DECISIONS.md` #27). Its material is
 drawn on **inside the story**, one remark at the moment a listener would ask "how do we know that?"

@@ -648,6 +648,14 @@ their own, whom half would obey and half defy. So they went to a Tubbaʿ of Yeme
 man of Kinda: Ḥujr b. ʿAmr, remembered as Ākil al-Murār. He settled at Baṭn ʿĀqil, took back Bakr's
 lands from the Lakhmids of al-Ḥīra, and was buried there. Ibn Khaldūn, following an older genealogist,
 tells it differently: a Ḥimyarite king set Ḥujr over all of Maʿadd.
+**Beats:**
+1. Kinda was a southern tribe — Of Qaḥṭān, not of the northern Arabs it came to rule.
+2. The north had a problem — Among Bakr the reckless had overpowered the wise; the strong ate the weak.
+3. They wanted a king from outside — Not one of their own, whom half would obey and half defy.
+4. So they went to a Tubbaʿ of Yemen — And he gave them a man of Kinda: Ḥujr b. ʿAmr, Ākil al-Murār.
+5. What he did with it — He settled at Baṭn ʿĀqil and took back Bakr's lands from al-Ḥīra.
+6. Ibn Khaldūn tells it differently — A Ḥimyarite king set Ḥujr over all of Maʿadd. Say both; resolve neither.
+**Quote after beat:** 4
 **The statement:**
 > فَرَأَوْا أَنْ يُمَلِّكُوا عَلَيْهِمْ مَلِكًا يَأْخُذُ لِلضَّعِيفِ مِنَ الْقَوِيِّ
 > — ⁨الکامل فی التاریخ ج۱ ص۴۶۲⁩ · https://shamela.ws/book/21712/458
@@ -671,6 +679,14 @@ Anūshirwān, killed Mazdak, restored the old governor and hunted al-Ḥārith. 
 Kalb. Forty-eight men of his house were caught, among them two of his sons, and were put to death in
 the lands of Banū Marīnā. Ibn al-Athīr, checking one of these stories against the order of the kings,
 says some of it looks like Kinda praising itself — and says so openly.
+**Beats:**
+1. Ḥujr's grandson al-Ḥārith — A king of great power and far-reaching name, in Ibn al-Athīr's words.
+2. A Persian quarrel reaches the Arabs — Qubādh adopted the teaching of Mazdak; his governor at al-Ḥīra refused.
+3. al-Ḥārith accepted, and was given al-Ḥīra — The high point of the house.
+4. The next Persian king undid it — Anūshirwān killed Mazdak, restored the old governor, and hunted al-Ḥārith.
+5. What it cost the house — Forty-eight men of it were caught and put to death, two of them his sons.
+6. The historian's own caution — Ibn al-Athīr says openly that some of this looks like Kinda praising itself.
+**Quote after beat:** 3
 **The statement:**
 > وَيُشْبِهُ أَنْ يَكُونَ بَعْضُ الْكِنْدِيِّينَ قَدْ ذَكَرَ هَذَا تَعَصُّبًا، وَاللَّهُ أَعْلَمُ.
 > — ⁨الکامل فی التاریخ ج۱ ص۴۶۱⁩ · https://shamela.ws/book/21712/457
@@ -694,6 +710,14 @@ levy. When they threw out his collectors he came with an army, seized their lead
 them with the staff, and drove the rest to Tihāma. He relented and called them back; but a day's
 march from him they turned, reached his tent and killed him. The man who struck him was one whose
 father Ḥujr had killed. Then Banū Asad called to the Qays and Kināna in Ḥujr's own army.
+**Beats:**
+1. The northern chiefs come to him — The killing between us will wipe us out; send your sons to hold us apart.
+2. Four sons set as kings — One over each of the tribes.
+3. Ḥujr goes to Banū Asad — And takes a yearly levy from them.
+4. They throw out his collectors — He came with an army, killed their leading men, drove the rest to Tihāma.
+5. He relented and called them back — And a day's march from him, they turned.
+6. They reached his tent and killed him — The man who struck him was one whose father Ḥujr had killed.
+**Quote after beat:** 5
 **The statement:**
 > يَا مَعْشَرَ كِنَانَةَ وَقَيْسٍ أَنْتُمْ إِخْوَانُنَا وَبَنُو عَمِّنَا، وَالرَّجُلُ بَعِيدُ النَّسَبِ مِنَّا وَمِنْكُمْ، وَقَدْ رَأَيْتُمْ سِيرَتَهُ
 > — ⁨الکامل فی التاریخ ج۱ ص۴۶۴⁩ · https://shamela.ws/book/21712/460
@@ -737,6 +761,14 @@ Quraysh used to claim that lineage abroad for the honour of it, the report expla
 been kings. He answered: no — we are the sons of al-Naḍr b. Kināna; we do not trace ourselves through
 our mother, nor disown our father. al-Ashʿath turned to his people: any man I hear say it again gets
 eighty lashes.
+**Beats:**
+1. Kinda comes to Medina — A large delegation, al-Ashʿath b. Qays at its head.
+2. How they came in — Hair combed, kohl on their eyes, Yemeni cloaks edged with silk.
+3. "What is this silk on your necks?" — Asked after they had said they had accepted Islam. They tore it off.
+4. Then the claim of kinship — We are the sons of Ākil al-Murār, and so are you.
+5. The Prophet ﷺ smiled, and refused it — We are the sons of al-Naḍr b. Kināna; we do not trace ourselves through our mother.
+6. And al-Ashʿath closed it himself — Any man I hear say it again gets eighty lashes.
+**Quote after beat:** 5
 **The statement:**
 > لا، نحن بنو النَّضْر بن كنانة، لا نَقْفُو أمَّنا، ولا ننتفي من أبينا
 > — ⁨البدایہ والنہایہ ج۵ ص۵۶⁩ · https://shamela.ws/book/30097/2240
@@ -759,6 +791,14 @@ branch of the tribe. The cause Ibn al-Athīr himself gives for the ridda of Kind
 carrying zakāt between Kinda and Ḥaḍramawt — not the kingship. The books show us the royal past, the
 royal claim, and the royal title in the ridda; none of them draws the line between them, and neither do
 we.
+**Beats:**
+1. A year or so later, Kinda broke away — The same tribe, the same men, the other side of the line.
+2. "The four kings" — Four brothers of one Kinda clan, with their sister, taking to their strongholds.
+3. al-Ashʿath was not one of them — He was of a different branch of the tribe.
+4. What Ibn al-Athīr says the cause was — An arrangement for carrying zakāt between Kinda and Ḥaḍramawt.
+5. Not the kingship — The books show the royal past, the royal claim and the royal title, and draw no line between them.
+6. And neither do we — The question is left open, because the sources leave it open.
+**Quote after beat:** 2
 **The statement:**
 > وَهُمُ الْمُلُوكُ الْأَرْبَعَةُ رُؤَسَاءُ عَمْرٍو
 > — ⁨الکامل فی التاریخ ج۲ ص۲۳۱⁩ · https://shamela.ws/book/21712/922
@@ -779,6 +819,14 @@ al-Qādisiyya; he lost an eye at al-Yarmūk; ʿUthmān ؓ made him governor of �
 senior commander with ʿAlī ؓ at Ṣiffīn; and he died at Kūfa in 40 AH, and al-Ḥasan ؓ prayed over him.
 At a funeral where he and Jarīr b. ʿAbdallāh ؓ were both present, he
 put Jarīr forward to lead the prayer, and said why.
+**Beats:**
+1. The man brought to Medina in fetters — Lived nearly thirty more years as a Muslim.
+2. Abū Bakr ؓ married him to his own sister — The pardon was not a suspended sentence.
+3. Sent to call Rustam before al-Qādisiyya — Among the notables chosen for it.
+4. He lost an eye at al-Yarmūk — And was made governor of Ādharbayjān by ʿUthmān ؓ.
+5. Senior commander at Ṣiffīn — And he died at Kūfa in 40 AH, with al-Ḥasan ؓ praying over him.
+6. What he said at a funeral — He put Jarīr b. ʿAbdallāh ؓ forward to lead, and said why.
+**Quote after beat:** 6
 **The statement:**
 > فَقَدَّمَ الأَشْعَثُ جَرِيْراً، وَقَالَ: إِنَّ هَذَا لَمْ يَرْتَدَّ، وَإِنِّي ارْتَدَدْتُ
 > — ⁨سیر أعلام النبلاء ج۲ ص۴۰⁩ · https://shamela.ws/book/10906/2020

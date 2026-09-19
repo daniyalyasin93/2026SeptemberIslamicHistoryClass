@@ -1,5 +1,38 @@
 # STATUS — read this first, every session
 
+> **2026-09-19 · RESUME POINT — read this first.** **Evening 3 was delivered, and stopped at STOP B**
+> (after `RCT/E-RC32`). 32 cards spoken; the ledger row in `docs/catalogue/DELIVERED.md` is filled in.
+> The Ḥaḍramawt/Kinda ⁨ردة⁩ and the Kinda kingship backstory were **not** told and roll into evening 4.
+>
+> **The beats deck is retired (`DECISIONS.md` #39, superseding #37 point 3), and the speaker notes are
+> rebuilt (#40).** 356 slides bored the room and forced the speaker to click past events he had already
+> told from the first slide of the scene. From evening 4 on: **one slide per card**, beats as the
+> numbered **SAY** list at the top of the speaker notes, card id and tier out of the notes entirely,
+> **≈ one slide per spoken minute**. `tools/build_full_deck.card_slide` is the builder; `beat_slide` is
+> no longer called. Evening 3's delivered deck is untouched (#38).
+>
+> **Evening 4 is built: `S04_kinda_butah_yamama/`.** Daniyal's scope (2026-09-19): **the Kinda ⁨ردة⁩ +
+> al-Buṭāḥ told straight + the start of the al-Yamāma campaign**, over-built as always.
+> `RUNSHEET.md` = **48 cards in six parts, ≈ 84 min** (≈ 74 without the optional Kinda-kingship
+> flashback), with **four stopping points**; the recommended cut is **Parts I, III, IV, V to STOP C**
+> — the armies in position and Mujjāʿa in irons in Khālid's ؓ own tent. `S04.pptx` = **84 slides**
+> (12 hidden: the STOP A, B and D closes), every one of the 48 cards on a slide of its own.
+>
+> **New in the pool, and citation-clean:** al-Buṭāḥ was one card carrying nine events and is now
+> **`RCT/E-RC44`–`E-RC52`** (`E-RC14` is **RETIRED — do not run it**); the al-Yamāma opening gained
+> **`RCT/E-RC53`–`E-RC62`**; and `E-RC15`–`E-RC19`, `E-TB12`/`15`/`16`/`18`/`19` and all six `E-KD`
+> cards gained their `Beats:` lists. Pool: **441 cards**. Citations **4,695 / 0 problems**.
+>
+> **What evening 4 still needs, and it is Daniyal's machine that can do it:**
+> 1. `S04.pdf` — the build could not write it here (no PowerShell/Chrome in the container). Re-run
+>    `python S04_kinda_butah_yamama/build.py` on Windows and it appears beside the deck.
+> 2. **The Line images** — `S04_kinda_butah_yamama/visuals/line_s04_open.png`, `line_s04_stop_a/b/c/d.png`.
+>    Adapt `S03_yemen/make_timeline.py` + `timeline.json`; until then those five slides show placeholders.
+> 3. **Eleven Map Studio scenes** (`s04-00`…`s04-09`) — the briefs are in the slides' speaker notes and
+>    in `IMAGE_BRIEFS.md`.
+> 4. **`CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf`** — adapt `S03_yemen/pack_data.py`. Do this **after**
+>    the cut is fixed, so the cue sheet is one page for the evening actually being given.
+
 > **2026-09-17 · RESUME POINT — read this first.** **Evening 3's deck is FINAL** (`DECISIONS.md` #38): Daniyal's
 > hand-finished `S03_yemen/S03.pptx` (356 slides, 13 hidden, maps placed) — 131 MB, kept local, **locked** by
 > `S03_yemen/S03.FINAL` so `build.py` writes `S03_rebuild.pptx` instead. In git: `S03_repo.pptx` (maps at 1920 px,
@@ -81,7 +114,7 @@ it from the corrected `CONTENT.md` before session 2 is delivered.
 
 | | |
 |---|---|
-| **Sessions delivered** | **1 and 2** — see `docs/catalogue/DELIVERED.md` (evening 2 stopped after ⁨بزاخة⁩) |
+| **Sessions delivered** | **1, 2 and 3** — see `docs/catalogue/DELIVERED.md` (evening 2 stopped after ⁨بزاخة⁩; evening 3 did not reach Part III, Ḥaḍramawt/Kinda) |
 | **Next session date** | ⬜ **NOT SET** — needed for the print deadline and the build plan |
 | **Session 1 status** | being **rebuilt** to the v3 shape (see `docs/specs/2026-09-03-L01-v3-spec.md`) |
 | **Session 2 status** | built to the v2 shape, opens on the ⁨ردة⁩ — **still correct**, unaffected by the v3 rebuild |

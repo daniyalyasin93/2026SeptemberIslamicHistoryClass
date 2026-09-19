@@ -71,5 +71,47 @@ delivered slides may carry pre-repair page references; the pool is now the corre
 |---|---|
 | Folder | `S03_yemen/` |
 | Cut | **Parts I–III**, to STOP C (Daniyal, 2026-09-16 — `DECISIONS.md` #34, #36). Only the Kinda kingship backstory is rolled forward |
-| State | ✅ **final, not yet delivered** — Daniyal's hand-finished `S03.pptx` (356 slides, 13 hidden; local, 131 MB, locked by `S03.FINAL`) · in git as `S03_repo.pptx` + `S03.pdf` (343 pp.) · `S03_recap.pptx` pasted in at slide 238 · `CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf` (87 pp.) — #37, #38 |
-| After delivery | replace this row with the cards actually spoken, as evening 2's is |
+| Deck | ✅ **final, as delivered** — Daniyal's hand-finished `S03.pptx` (356 slides, 13 hidden; local, 131 MB, locked by `S03.FINAL`) · in git as `S03_repo.pptx` + `S03.pdf` (343 pp.) · `S03_recap.pptx` pasted in at slide 238 · `CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf` (87 pp.) — #37, #38 |
+| Delivered | ✅ **yes** (⬜ date to confirm; reported 2026-09-19). **Part III was not reached** — the Ḥaḍramawt/Kinda ⁨ردة⁩ (`TSY/E-YK07`–`YK16`, `RCT/E-RC33`, `RC34`, `POT/E-PG40`, `PG41`) and the Kinda kingship backstory (`KTK/E-KD01`–`KD07`) were **not spoken** and roll into evening 4 |
+| Stopped at | **STOP B** (confirmed by Daniyal, 2026-09-19) — after `RCT/E-RC32`, Abū Bakr ؓ judging Qays and ʿAmr, the two men who had fought against him |
+| What the room said | **The deck was too long and repetitive.** 356 beat slides restated the same scene and forced the speaker to click past events he had already told. The beat-per-slide deck is retired — `DECISIONS.md` #39 |
+
+Cards spoken, in the order delivered (32) — Parts I and II of `S03_yemen/RUNSHEET.md` in full:
+
+| # | Card | |
+|---|---|---|
+| 1 | `ATA/E-TB17` The two bracelets | Part I |
+| 2 | `AAA/E-AW01` The Persians of Yemen | Part I |
+| 3 | `AAA/E-AW02` «My Lord has killed your lord tonight» | Part I |
+| 4 | `AAA/E-AW19` The whole of Yemen, until he died | Part I |
+| 5 | `AAA/E-AW03` Yemen divided, and a teacher on the road | Part I |
+| 6 | `AAA/E-AW04` ʿAbhala, "the veiled one" | Part I |
+| 7 | `AAA/E-AW05` Ten nights to Najrān, twenty-five to Ṣanʿāʾ | Part I |
+| 8 | `AAA/E-AW06` The governors scatter | Part I |
+| 9 | `AAA/E-AW07` His three commanders, and the widow of Shahr | Part I |
+| 10 | `AAA/E-AW08` "By open fight, or by stealth" | Part I |
+| 11 | `AAA/E-AW09` "What does the angel say?" | Part I |
+| 12 | `AAA/E-AW10` "Or kill him" | Part I |
+| 13 | `AAA/E-AW11` A hundred beasts, and a spear | Part I |
+| 14 | `AAA/E-AW12` The one room without a guard | Part I |
+| 15 | `AAA/E-AW13` The lamp under the bowl | Part I |
+| 16 | `AAA/E-AW14` "And that ʿAbhala is a liar" | Part I |
+| 17 | `AAA/E-AW20` "Whom Fayrūz killed in Yemen" | Part I |
+| 18 | `ATA/E-TB26` «قُتل العنسيُّ البارحةَ» | Part I |
+| 19 | `AAA/E-AW15` Some nights before — or one night | Part I |
+| 20 | `ABU/E-U9` The first victory he never fought | Part I |
+| 21 | `ATA/E-TB27` Three days of prayer, and then the ground moved | Part I |
+| 22 | `AAA/E-AW16` One of the three | Part I |
+| 23 | `TSY/E-YK01` Two letters to the same five men | Part II |
+| 24 | `RCT/E-RC31` Ṣanʿāʾ — the two women in the street | Part II |
+| 25 | `TSY/E-YK02` Up the mountain of Khawlān | Part II |
+| 26 | `TSY/E-YK03` "Go back to your own land" | Part II |
+| 27 | `TSY/E-YK17` Fayrūz's ؓ war — the families brought back | Part II |
+| 28 | `TSY/E-YK04` Why al-Muhājir ؓ had not gone | Part II |
+| 29 | `TSY/E-YK05` Two armies come down on the Yemen | Part II |
+| 30 | `TSY/E-YK06` "Qays — you killed the servants of Allah" | Part II |
+| 31 | `TSY/E-YK18` "Every day routed or taken prisoner" | Part II |
+| 32 | `RCT/E-RC32` Abū Bakr ؓ judges two men who fought against him | Part II |
+
+**Closing pair used:** STOP B — the Line at 11–12 AH with Yemen settled; the map with Ṣanʿāʾ blue and
+Ḥaḍramawt still grey. **These two slides open evening 4** (`DECISIONS.md` #23).
