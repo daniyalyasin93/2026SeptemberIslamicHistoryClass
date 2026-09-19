@@ -260,6 +260,44 @@ now the rule for every session). Each figure is named at the moment he becomes l
 his clan, and given the classical تراجم notice **in one breath**: `name + لقب` · `dates` (ھ and
 عیسوی, and a point on the Line) · what he did, one sentence.
 
+### Nothing walks on stage un-introduced — the standing check (`DECISIONS.md` #43)
+
+**Before any evening is built, every name and every event it uses is tested against what the room has
+actually been told.** This is #28 turned into a gate, because #28 on its own kept failing quietly: the
+evening-4 review found five men carrying cards with no ⁨تراجم⁩ notice anywhere in the delivered series —
+including one who carried seven cards of the evening and whose only introduction sat inside the block
+the runsheet said to cut first. **No other check in this repo can see that defect.** The citations are
+perfect, the cards are well formed, and the room still meets a stranger.
+
+```bash
+python tools/check_introductions.py SNN_<slug>      # exits non-zero while a row is unanswered
+```
+
+It walks `RUNSHEET.md` in running order and reports every proper name appearing for the first time in
+the series — in no card listed in `docs/catalogue/DELIVERED.md`, and in no earlier card of this
+evening. **The runsheet answers every row** in a `## Introductions checked` table, and
+**"no notice needed" is a valid answer** — the rule is that somebody looked, not that every name gets
+a paragraph.
+
+**The check is not only about people.** Run the same question over four kinds of thing:
+
+| Kind | The failure it catches | Evening-4 example |
+|---|---|---|
+| **People** | a name carries cards with no ⁨تراجم⁩ notice | al-Ashʿath b. Qays — now `TSY/E-YK19`, a card of its own, never cut |
+| **Events** | a card depends on something that is on no card, so it was never told | the army leaves the mosque at Medina and arrives outside al-Yamāma with nothing in between — now `RCT/E-RC63` |
+| **Terms** | a line's whole force rests on something unglossed | «do not let Shadhra be for you what ⁨البسوس⁩ was» — and ⁨البسوس⁩ is on no page we hold |
+| **Forward references** | the evening names a battle or a person from an evening not yet given | ⁨القادسية⁩, ⁨اليرموك⁩, ⁨نهاوند⁩, ⁨عثمان ؓ⁩ — each now framed by a first beat that says so aloud |
+
+**A figure is introduced where he becomes load-bearing, in one breath** (#28): `name + لقب` · dates in
+ھ and عیسوی, and a point on the Line · what he did, one sentence. Use the لقب the tradition gave —
+⁨خطيب الأنصار⁩, ⁨فارس رسول الله ﷺ⁩ — never an invented one (§1.2). **The لقب goes on the card as English
+prose with the Arabic in its own blockquote**, never inline in an English sentence (#25).
+
+**Two traps the tool cannot see.** A name introduced only inside an optional block is not introduced —
+the notice belongs on a card that is never cut. And evening 1's card ids were never recorded in
+`DELIVERED.md`, so nothing from the orientation evening is in the known set; answer those rows with
+"met in evening 1".
+
 **The retention ritual survives and moves to paper.** The worksheet prints those three lines for
 each of the evening's principal figures and leaves **«ایک واقعہ»** blank for the listener to write
 during the 90-second worksheet beat. The act of writing is the mechanism; a seven-minute block on

@@ -24,6 +24,14 @@
 > prose. The **Umm Tamīm ؓ** finding is recorded and deliberately not spoken (#41), with a prepared
 > answer at `QA_BANK.md` §6.3. Pool **444 cards**; citations **4,703 / 0 problems**.
 >
+> **New standing gate (`CLAUDE.md` §2, `DECISIONS.md` #43):**
+> `python tools/check_introductions.py SNN_<slug>` — walks an evening's runsheet in running order and
+> reports every proper name appearing **for the first time in the series**. The runsheet answers each
+> row in a `## Introductions checked` table; the tool exits non-zero while a row is unanswered, and
+> **"no notice needed" is a valid answer**. Evening 4's table has **69 rows, all answered**. Ask the
+> same question of **events, terms and forward references**, not only people — the evening-4 review
+> caught one of each. **Run it on every evening before the deck is built.**
+>
 > **What evening 4 still needs, and it is Daniyal's machine that can do it:**
 > 1. `S04.pdf` — the build cannot write it in the container (no PowerShell/Chrome). Re-run
 >    `python S04_kinda_butah_yamama/build.py` on Windows and it appears beside the deck.

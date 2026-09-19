@@ -40,7 +40,7 @@ explicitly and give a reason — do not quietly reverse it.
 | 40 | 2026-09-19 | Speaker notes are speaking points; card id and tier are out of them | active |
 | 41 | 2026-09-19 | The Umm Tamīm ؓ connection is recorded, and is not spoken | active |
 | 42 | 2026-09-19 | **Evening 4 runs in chronological order; Kinda is last** | active |
-| 43 | 2026-09-19 | Every figure who carries a card gets his one-breath notice | active |
+| 43 | 2026-09-19 | **Nothing walks on stage un-introduced** — `check_introductions.py` is the gate | active |
 
 ---
 
@@ -828,3 +828,21 @@ met gets its notice on the card where it becomes load-bearing.
 Added for evening 4: `TSY/E-YK19` (al-Ashʿath, a card of its own, **not cut even when the Kinda
 flashback is**); a first beat on `TSY/E-YK07` for Ziyād ؓ; the ⁨سیر⁩ notices for Thābit ؓ
 (⁨خطيب الأنصار⁩ — ج۱ ص۳۰۹) and Abū Qatāda ؓ (⁨فارس رسول الله ﷺ⁩ — ج۲ ص۴۴۹), both fetched for this pass.
+
+### 43.1 · The check is mechanical, and it covers four kinds of thing — added 2026-09-19
+
+`tools/check_introductions.py` makes #43 a gate rather than a memory. It walks an evening's
+`RUNSHEET.md` in running order and reports every proper name appearing **for the first time in the
+series** — in no card listed in `DELIVERED.md`, and in no earlier card of the same evening. The
+runsheet answers every row in a `## Introductions checked` table; the tool exits non-zero while a row
+is unanswered, and **"no notice needed" is a valid answer**. The rule is that somebody looked.
+
+**The question is asked of four kinds of thing, not only people** — because the evening-4 review
+caught one of each: a **person** with no ⁨تراجم⁩ notice (al-Ashʿath b. Qays), an **event** every later
+card assumed but no card told (the army leaving Medina for al-Yamāma), a **term** carrying a line's
+whole force with no gloss and no page (⁨البسوس⁩), and **forward references** to evenings not yet given
+(⁨القادسية⁩, ⁨اليرموك⁩, ⁨عثمان ؓ⁩). The rule and the table are in `CLAUDE.md` §2.
+
+Two limits, both stated in the tool's own docstring: a name introduced only inside an **optional
+block is not introduced** — the notice belongs on a card that is never cut; and **evening 1's card
+ids were never recorded**, so nothing from the orientation evening is in the known set.
