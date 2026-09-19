@@ -12,7 +12,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 **Do not resolve it here.** Narrate what the sources narrate and say they differ.
 
 
-**1473 dated cards.**
+**1476 dated cards.**
 
 | When | Certainty | Card | Event |
 |---|---|---|---|
@@ -41,6 +41,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11 AH by الکامل's arrangement; سیر files it under 12 AH [SOURCED, the books differ] | `—` | `TSY/E-YK12` | The knife at the writing |
 | 11 AH by الکامل's arrangement; سیر files it under 12 AH [SOURCED, the books differ] | `—` | `TSY/E-YK13` | The other telling |
 | 11 AH, after the news of the Prophet's ﷺ death reached the Yemen | `SOURCED` | `TSY/E-YK01` | Two letters to the same five men |
+| 11 AH, after the night attack | `SOURCED` | `TSY/E-YK19` | al-Ashʿath b. Qays comes into it |
 | 11 AH, the killing it names ; the dream itself is undated on the page | `SOURCED` | `AAA/E-AW20` | "Whom Fayrūz killed in Yemen" |
 | 11 AH, the ridda of Ḥaḍramawt | `SOURCED` | `KTK/E-KD06` | "The four kings" — side by side, no arrow between |
 | 11ھ | `SOURCED` | `ATA/E-TB06` | What the break actually was — Ibn Kathīr's own sorting |
@@ -59,6 +60,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ | `SOURCED` | `RCT/E-RC47` | The patrol could not agree on what it had seen |
 | 11ھ | `SOURCED` | `RCT/E-RC49` | ʿUmar ؓ in the mosque |
 | 11ھ | `SOURCED` | `RCT/E-RC50` | "He interpreted, and he was mistaken" |
+| 11ھ | `SOURCED` | `RCT/E-RC63` | Excused in the mosque, and sent straight to al-Yamāma |
 | 11ھ | `SOURCED` | `RCT/E-RC25` | The sixteen riders |
 | 11ھ | `SOURCED` | `RCT/E-RC39` | The men of Badr who were kept out of office |
 | 11ھ | `—` | `RCT/E-RC40` | The three-colour tribe — CUT, recorded so it is never re-researched |
@@ -88,6 +90,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ, at اليمامة | `SOURCED` | `RCT/E-RC15` | ʿIkrima ؓ goes too early, and the letter that follows him |
 | 11ھ, at اليمامة | `SOURCED` | `RCT/E-RC53` | And then the second commander did the same thing |
 | 11ھ, at اليمامة, and afterwards | `SOURCED` | `ATA/E-TB19` | What her claim was worth to the other claimant |
+| 11ھ, before Khālid ؓ arrived | `SOURCED` | `RCT/E-RC64` | There were Muslims inside al-Yamāma already |
 | 11ھ, before any arrow is drawn | `SOURCED` | `ATA/E-TB01` | Arabia was a map of kin, not a map of provinces |
 | 11ھ, before بُزاخة | `SOURCED` | `ATA/E-TB23` | ʿAdī b. Ḥātim ؓ, and the two names Ṭayyiʾ called Abū Bakr ؓ |
 | 11ھ, before بُزاخة | `SOURCED` | `RCT/E-RC07` | ʿAdī b. Ḥātim ؓ buys three days |

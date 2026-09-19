@@ -1,6 +1,6 @@
 # The First Test — the event pool
 
-**Session 3 · 23-40 AH · 644-661 CE · a 45-minute slot.**
+**Session 3 · 23-41 AH · a 45-minute slot.**
 
 > **THIS FILE IS NOT THE LECTURE. IT IS THE POOL YOU CUT DOWN TO ONE.**
 > `DECISIONS.md` #20. Delete the rows you do not want. What survives is the evening. Overflow is
@@ -21904,7 +21904,7 @@ supporters.
 ### POT/E-PG40 · The wedding feast in the camel market
 **Tier:** CORE · **When:** 11–12 AH `[SOURCED]` · **Map:** Medina.
 
-**What happened:** الأشعث ؓ had apostatised in the ردة with a number of كندة. He was besieged, and he took safe conduct — for seventy men, and not for himself. He was brought captive to أبو بكر ؓ, who told him plainly: we are going to kill you, you have no safe conduct. And he said: will you show me favour, and I become Muslim? أبو بكر ؓ did, and loosed his bonds, and married his own sister to him. So الأشعث ؓ drew his sword, walked into the camel market of Medina, and began hamstringing every camel and every bull he saw, while the people shouted that he had apostatised again. Then he threw the sword down and explained himself.
+**What happened:** al-Ashʿath ؓ had apostatised in the ridda with a number of Kinda. He was besieged, and he took safe conduct — for seventy men, and not for himself. He was brought captive to Abū Bakr ؓ, who told him plainly: we are going to kill you, you have no safe conduct. And he said: will you show me favour, and I become Muslim? Abū Bakr ؓ did, and loosed his bonds, and married his own sister to him. So al-Ashʿath ؓ drew his sword, walked into the camel market of Medina, and began hamstringing every camel and every bull he saw, while the people shouted that he had apostatised again. Then he threw the sword down and explained himself.
 
 **Beats:**
 1. He had joined the ridda — Al-Ashʿath had apostatised in the ridda, with a number of Kinda.
@@ -21931,7 +21931,7 @@ supporters.
 ### POT/E-PG41 · This man did not apostatise, and I did
 **Tier:** CORE · **When:** after 12 AH `[SOURCED]` · **Map:** No map.
 
-**What happened:** At a funeral where both men were standing, الأشعث بن قيس ؓ stepped back and put جرير بن عبد الله ؓ forward to lead the prayer. Somebody asked him why, and he gave the reason in six words. He had been forgiven, married into الصديق ؓ's own family, and made a commander; and he still said this about himself in public, years afterwards.
+**What happened:** At a funeral where both men were standing, al-Ashʿath b. Qays ؓ stepped back and put Jarīr b. ʿAbd Allāh ؓ forward to lead the prayer. Somebody asked him why, and he gave the reason in six words. He had been forgiven, married into the Ṣiddīq ؓ's own family, and made a commander; and he still said this about himself in public, years afterwards.
 
 **Beats:**
 1. He steps back at a funeral — At a funeral, al-Ashʿath ؓ stepped back and put Jarīr b. ʿAbd Allāh ؓ forward to lead the prayer.

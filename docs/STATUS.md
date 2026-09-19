@@ -1,37 +1,37 @@
 # STATUS — read this first, every session
 
-> **2026-09-19 · RESUME POINT — read this first.** **Evening 3 was delivered, and stopped at STOP B**
-> (after `RCT/E-RC32`). 32 cards spoken; the ledger row in `docs/catalogue/DELIVERED.md` is filled in.
-> The Ḥaḍramawt/Kinda ⁨ردة⁩ and the Kinda kingship backstory were **not** told and roll into evening 4.
+> **2026-09-19 (later) · RESUME POINT — read this first.** Evening 4 was **reviewed for content gaps and
+> then restructured into CHRONOLOGICAL order** (`DECISIONS.md` #42): **the two claimants → al-Buṭāḥ →
+> the road to al-Yamāma → the day begins → Ḥaḍramawt/Kinda last**, which is the sequence §12.2 of the
+> campaign note establishes. `S04_kinda_butah_yamama/`: **51 cards in six parts, ≈ 89 min**, four
+> stopping points, **`S04.pptx` = 89 slides** (12 hidden). The recommended cut is **Parts I–III to
+> STOP B** — the armies in position and Mujjāʿa in irons in Khālid's ؓ tent.
 >
-> **The beats deck is retired (`DECISIONS.md` #39, superseding #37 point 3), and the speaker notes are
-> rebuilt (#40).** 356 slides bored the room and forced the speaker to click past events he had already
-> told from the first slide of the scene. From evening 4 on: **one slide per card**, beats as the
-> numbered **SAY** list at the top of the speaker notes, card id and tier out of the notes entirely,
-> **≈ one slide per spoken minute**. `tools/build_full_deck.card_slide` is the builder; `beat_slide` is
-> no longer called. Evening 3's delivered deck is untouched (#38).
+> **⚠ The price of chronological order, and it is stated at the top of the runsheet:** Ḥaḍramawt/Kinda
+> now sits at the end of ~80 minutes and **will not be reached on evening 4** — a third deferral. If
+> Kinda must be spoken next, Part V moves back to the front and #42 is superseded.
 >
-> **Evening 4 is built: `S04_kinda_butah_yamama/`.** Daniyal's scope (2026-09-19): **the Kinda ⁨ردة⁩ +
-> al-Buṭāḥ told straight + the start of the al-Yamāma campaign**, over-built as always.
-> `RUNSHEET.md` = **48 cards in six parts, ≈ 84 min** (≈ 74 without the optional Kinda-kingship
-> flashback), with **four stopping points**; the recommended cut is **Parts I, III, IV, V to STOP C**
-> — the armies in position and Mujjāʿa in irons in Khālid's ؓ own tent. `S04.pptx` = **84 slides**
-> (12 hidden: the STOP A, B and D closes), every one of the 48 cards on a slide of its own.
->
-> **New in the pool, and citation-clean:** al-Buṭāḥ was one card carrying nine events and is now
-> **`RCT/E-RC44`–`E-RC52`** (`E-RC14` is **RETIRED — do not run it**); the al-Yamāma opening gained
-> **`RCT/E-RC53`–`E-RC62`**; and `E-RC15`–`E-RC19`, `E-TB12`/`15`/`16`/`18`/`19` and all six `E-KD`
-> cards gained their `Beats:` lists. Pool: **441 cards**. Citations **4,695 / 0 problems**.
+> **The review found twelve gaps; all are closed.** Five men carried cards with no ⁨تراجم⁩ notice
+> anywhere in the delivered series — **al-Ashʿath b. Qays** now has a card of his own (`TSY/E-YK19`,
+> never cut), **Ziyād b. Labīd ؓ** a first beat on `TSY/E-YK07`, and **Thābit b. Qays ؓ**
+> (⁨خطيب الأنصار⁩) and **Abū Qatāda ؓ** (⁨فارس رسول الله ﷺ⁩) their ⁨سیر⁩ notices, from the only two pages
+> fetched for this pass. Two events were on no card and now are: **`RCT/E-RC63`**, the hinge that
+> carries the army out of the mosque at Medina onto the road to al-Yamāma, and **`RCT/E-RC64`**,
+> the Muslims of Banū Ḥanīfa already fighting Musaylima before any army arrived. `RCT/E-RC52` no
+> longer spends al-Yamāma's grief a week early; `TSY/E-YK16` and `KTK/E-KD07` now frame their forward
+> references; `TSY/E-YK08` carries a ⚠ that ⁨البسوس⁩ is **not page-cited here** and must be verified
+> before it is spoken as fact; and `POT/E-PG40`/`PG41` no longer mix Arabic-script names into English
+> prose. The **Umm Tamīm ؓ** finding is recorded and deliberately not spoken (#41), with a prepared
+> answer at `QA_BANK.md` §6.3. Pool **444 cards**; citations **4,703 / 0 problems**.
 >
 > **What evening 4 still needs, and it is Daniyal's machine that can do it:**
-> 1. `S04.pdf` — the build could not write it here (no PowerShell/Chrome in the container). Re-run
+> 1. `S04.pdf` — the build cannot write it in the container (no PowerShell/Chrome). Re-run
 >    `python S04_kinda_butah_yamama/build.py` on Windows and it appears beside the deck.
-> 2. **The Line images** — `S04_kinda_butah_yamama/visuals/line_s04_open.png`, `line_s04_stop_a/b/c/d.png`.
->    Adapt `S03_yemen/make_timeline.py` + `timeline.json`; until then those five slides show placeholders.
-> 3. **Eleven Map Studio scenes** (`s04-00`…`s04-09`) — the briefs are in the slides' speaker notes and
->    in `IMAGE_BRIEFS.md`.
-> 4. **`CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf`** — adapt `S03_yemen/pack_data.py`. Do this **after**
->    the cut is fixed, so the cue sheet is one page for the evening actually being given.
+> 2. **The Line images** — `visuals/line_s04_open.png` and `line_s04_stop_a/b/c/d.png`. Adapt
+>    `S03_yemen/make_timeline.py` + `timeline.json`; until then those five slides show placeholders.
+> 3. **Thirteen Map Studio scenes** (`s04-00`…`s04-11`) — briefs are in the slide notes and `IMAGE_BRIEFS.md`.
+> 4. **`CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf`** — adapt `S03_yemen/pack_data.py`, **after** the cut
+>    is fixed, so the cue sheet is one page for the evening actually being given.
 
 > **2026-09-17 · RESUME POINT — read this first.** **Evening 3's deck is FINAL** (`DECISIONS.md` #38): Daniyal's
 > hand-finished `S03_yemen/S03.pptx` (356 slides, 13 hidden, maps placed) — 131 MB, kept local, **locked** by

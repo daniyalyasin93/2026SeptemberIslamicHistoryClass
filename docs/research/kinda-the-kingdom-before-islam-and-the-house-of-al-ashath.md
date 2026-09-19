@@ -820,13 +820,14 @@ senior commander with ʿAlī ؓ at Ṣiffīn; and he died at Kūfa in 40 AH, and
 At a funeral where he and Jarīr b. ʿAbdallāh ؓ were both present, he
 put Jarīr forward to lead the prayer, and said why.
 **Beats:**
-1. The man brought to Medina in fetters — Lived nearly thirty more years as a Muslim.
-2. Abū Bakr ؓ married him to his own sister — The pardon was not a suspended sentence.
-3. Sent to call Rustam before al-Qādisiyya — Among the notables chosen for it.
-4. He lost an eye at al-Yarmūk — And was made governor of Ādharbayjān by ʿUthmān ؓ.
-5. Senior commander at Ṣiffīn — And he died at Kūfa in 40 AH, with al-Ḥasan ؓ praying over him.
-6. What he said at a funeral — He put Jarīr b. ʿAbdallāh ؓ forward to lead, and said why.
-**Quote after beat:** 6
+1. A look ahead, and say so — Most of what follows is in evenings this course has not reached; note only that he is in them.
+2. The man brought to Medina in fetters — Lived nearly thirty more years as a Muslim.
+3. Abū Bakr ؓ married him to his own sister — The pardon was not a suspended sentence.
+4. Sent to call Rustam before al-Qādisiyya — Among the notables chosen for it.
+5. He lost an eye at al-Yarmūk — And was made governor of Ādharbayjān by ʿUthmān ؓ.
+6. Senior commander at Ṣiffīn — And he died at Kūfa in 40 AH, with al-Ḥasan ؓ praying over him.
+7. What he said at a funeral — He put Jarīr b. ʿAbdallāh ؓ forward to lead, and said why.
+**Quote after beat:** 7
 **The statement:**
 > فَقَدَّمَ الأَشْعَثُ جَرِيْراً، وَقَالَ: إِنَّ هَذَا لَمْ يَرْتَدَّ، وَإِنِّي ارْتَدَدْتُ
 > — ⁨سیر أعلام النبلاء ج۲ ص۴۰⁩ · https://shamela.ws/book/10906/2020

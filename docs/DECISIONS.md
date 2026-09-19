@@ -38,6 +38,9 @@ explicitly and give a reason — do not quietly reverse it.
 | 37 | 2026-09-16 | One slide per event: every card carries Beats | **point 3 superseded by #39** |
 | 39 | 2026-09-19 | **Back to one slide per card; beats move to the speaker notes** | active |
 | 40 | 2026-09-19 | Speaker notes are speaking points; card id and tier are out of them | active |
+| 41 | 2026-09-19 | The Umm Tamīm ؓ connection is recorded, and is not spoken | active |
+| 42 | 2026-09-19 | **Evening 4 runs in chronological order; Kinda is last** | active |
+| 43 | 2026-09-19 | Every figure who carries a card gets his one-breath notice | active |
 
 ---
 
@@ -762,3 +765,66 @@ Two parser defects fixed in the same pass, both of which had been silently losin
   and were being cut there. Every MAP note in every deck built before today is truncated at that point.
 - **The English rendering is no longer double-quoted**, and a trailing `---` no longer produces an empty
   BACKGROUND block.
+
+## 41 · The Umm Tamīm ؓ connection is recorded, and is not spoken — 2026-09-19
+
+Found in the evening-4 content review. Ibn Kathīr names the widow of Mālik b. Nuwayra ؓ whom Khālid ؓ
+married as **⁨أم تميم ابنة المنهال⁩** («⁨واصطفى خالد امرأةَ مالكِ بن نُوَيْرة وهي أم تميم ابنة المنهال⁩»,
+⁨البدایہ ج۷ ص۳۰⁩ · https://shamela.ws/book/30097/3176), and names the woman in Khālid's ؓ own tent at
+⁨عقرباء⁩ — the one Mujjāʿa protects, and who then protects him — as **⁨أم تميم امرأة خالد⁩**
+(⁨ج۷ ص۳۳⁩ · https://shamela.ws/book/30097/3179). Same book, three pages apart, same name.
+
+So on the books' own naming, the woman at the centre of the al-Buṭāḥ dispute is the woman in the tent
+at al-Yamāma, and ʿUmar's ؓ words in `RCT/E-RC49` have already put her in the room.
+
+**Settled: the connection is not made from the platform.** It is not needed for any event, it adds
+nothing the room must have, and drawing the line invites exactly the adjudication `CLAUDE.md` §1.6
+forbids — from a room that will already be holding its breath through Part II. The cards stay as they
+are: `E-RC49` quotes ʿUmar ؓ as the books have him; `E-RC16` and `E-RC17` name Umm Tamīm ؓ as Khālid's ؓ
+wife, which is what their own pages say.
+
+**But it is written down here, and a prepared answer goes in `QA_BANK.md`,** because this is the
+connection an attentive listener makes unaided, and a question slip about it is likely. The answer is
+the same as the rest of the episode: the books record it, they do not comment on it, and we do not
+adjudicate between Companions.
+
+**Daniyal can overturn this.** If he wants it said, it is said the way everything else in Part II is
+said — as what the books record, with no inference drawn.
+
+## 42 · Evening 4 runs in chronological order — 2026-09-19
+
+Daniyal, after the content review: *"And structure the evening in chronological order. We can do the
+kinda ridda at end of session and start with butah if that makes more sense."*
+
+The first cut ran Kinda → al-Buṭāḥ → al-Yamāma, which is **late → early → middle**: al-Nujayr is the
+last siege of the war and al-Buṭāḥ is Khālid's ؓ stop immediately after Buzākha. The review found that
+the flashback seam was unmarked and that three cards referred forward to material told later.
+
+**Settled: the evening runs in the order the sources establish** — campaign note §12.2, `[SOURCED as
+sequence]`: Buzākha → **al-Buṭāḥ** → recalled to Medina → **al-Yamāma** → … → **Ḥaḍramawt/Kinda, last**.
+The claimants (Musaylima, Sajāḥ) are introduced in a short Part I *before* the campaign reaches them,
+so that nothing later refers forward.
+
+**Three defects the reorder fixed by itself:** `E-RC45`'s forward reference to Sajāḥ and Musaylima;
+the unmarked jump back in time; and `E-RC52`'s naming of al-Yamāma as the place Zayd ؓ fell, which is
+now flagged on the card as a spoiler to withhold.
+
+**The cost, stated plainly.** Ḥaḍramawt/Kinda now sits at the end of ~80 minutes and **will not be
+reached on evening 4** — a third deferral. That is the price of chronological order, and it is
+recorded at the top of `S04_kinda_butah_yamama/RUNSHEET.md` so the choice is visible every time the
+cut is made. If Kinda must be spoken next, Part V moves to the front and this decision is superseded.
+
+## 43 · Every figure who carries a card gets his one-breath notice — 2026-09-19
+
+The evening-4 review found five men carrying cards with no ⁨تراجم⁩ notice anywhere in the delivered
+series: **al-Ashʿath b. Qays** (seven cards, introduced only in an optional block), **Ziyād b. Labīd ؓ**
+(five cards, one clause on evening 3), **Thābit b. Qays ؓ** (the only man at al-Yamāma without one),
+**Abū Qatāda ؓ** (whose testimony is the crux of al-Buṭāḥ), and **Mālik b. Nuwayra ؓ**.
+
+This is `DECISIONS.md` #28 applied as a **check**, not a principle: before an evening is built, every
+name that carries a card is tested against `docs/catalogue/DELIVERED.md`, and a name the room has not
+met gets its notice on the card where it becomes load-bearing.
+
+Added for evening 4: `TSY/E-YK19` (al-Ashʿath, a card of its own, **not cut even when the Kinda
+flashback is**); a first beat on `TSY/E-YK07` for Ziyād ؓ; the ⁨سیر⁩ notices for Thābit ؓ
+(⁨خطيب الأنصار⁩ — ج۱ ص۳۰۹) and Abū Qatāda ؓ (⁨فارس رسول الله ﷺ⁩ — ج۲ ص۴۴۹), both fetched for this pass.

@@ -332,6 +332,25 @@ command was kept — and the precedent for that handling is prophetic.**
 - Do not use ⁨الکامل ج۲ ص۲۱۴⁩'s note that two of ⁨خالد ؓ⁩'s nephews fell «⁨في هذه الوقعة⁩» — the antecedent
   of "this engagement" is not unambiguous on the page.
 
+### 6.3 ⚠ "The woman in Khālid's ؓ tent at al-Yamāma — is that the same woman?"
+
+**Yes, on Ibn Kathīr's own naming, and expect this slip** (`DECISIONS.md` #41). He names the widow of
+⁨مالك بن نويرة ؓ⁩ whom ⁨خالد ؓ⁩ married as **⁨أم تميم ابنة المنهال⁩** (⁨البدایہ ج۷ ص۳۰⁩ ·
+https://shamela.ws/book/30097/3176), and names the woman in ⁨خالد ؓ⁩'s tent at ⁨عقرباء⁩ — whom ⁨مجاعة⁩
+protects, and who then protects him — as **⁨أم تميم امرأة خالد⁩** (⁨ج۷ ص۳۳⁩ ·
+https://shamela.ws/book/30097/3179). Same book, three pages apart, same name.
+
+**It is deliberately not said from the platform** (#41): it is needed for no event, and drawing the
+line invites exactly the adjudication `CLAUDE.md` §1.6 forbids. If a slip asks:
+
+> *You have read it correctly — Ibn Kathīr gives the same name in both places, and I did not join
+> them up on the screen. I did not because it changes nothing about either scene and it invites a
+> judgement the books themselves do not make. What the books do say about al-Buṭāḥ is what I gave
+> you: Abū Bakr ؓ said «⁨تأول فأخطأ⁩», paid the blood-money, and kept him in command.*
+
+**⛔ Do not** build an inference on it in either direction — neither that it aggravates the episode
+nor that it softens it. Neither reading is on a page.
+
 ### 6.2 ⛔ "I have heard that Mālik's ؓ head was used as a stone under a cooking pot"
 
 **It is on the page** — ⁨البدایہ ج۷ ص۳۱⁩, and ⁨سیر ص۴۴⁩: that ⁨مالك ؓ⁩'s head was used as one of three

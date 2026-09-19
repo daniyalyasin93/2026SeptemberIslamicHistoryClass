@@ -154,3 +154,14 @@ evening's opening block instead of standing apart from it.
 
 Short, authentic, in ⁨ابن کثیر⁩, and it carries the whole point of the evening without any comment
 from the speaker.
+
+## 2026-09-19 — evening 4 content review (`DECISIONS.md` #43)
+
+| Book | Index | Printed | Why |
+|---|---|---|---|
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1735 | ⁨ج۱ ص۳۰۹⁩ | ⁨ثابت بن قيس بن شماس ؓ⁩ — his ⁨تراجم⁩ notice, «⁨خَطِيْبُ الأَنْصَارِ⁩ … ⁨وَلَمْ يَشْهَدْ بَدْراً، شَهِدَ أُحُداً، وَبَيْعَةَ الرُّضْوَانِ⁩». `RCT/E-RC18` |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2429 | ⁨ج۲ ص۴۴۹⁩ | ⁨أبو قتادة الأنصاري ؓ⁩ — «⁨فَارِسُ رَسُوْلِ اللهِ ﷺ⁩ ⁨شَهِدَ أُحُداً وَالحُدَيْبِيَةَ⁩». `RCT/E-RC47` |
+
+Both were fetched because the review found the men carrying cards with no notice anywhere in the
+delivered series. No other page was fetched for evening 4 — every new card is drawn from pages already
+in the cache.
