@@ -95,6 +95,11 @@ h2 { font: 700 9.5pt 'Segoe UI'; letter-spacing: .14em; text-transform: uppercas
 .beat .what { flex: 1; }
 .beat .name { font-weight: 700; }
 .beat .cues { color: %(muted)s; font-size: %(small)spt; }
+/* Overflow beats — the part spoken only if the clock is kind. They are cued as densely as they can be
+   read, so that carrying them does not shrink the type of the evening that is actually planned. */
+.beat.over { margin-bottom: 1px; }
+.beat.over .cues { display: inline; margin-left: 5px; }
+.beat.over .name { font-weight: 600; }
 .beat.hands { background: #FBF3E0; border-left: 2.5pt solid %(gold)s; padding: 2px 5px;
               margin-left: -5px; }
 .beat.act { background: #E6F0EE; border-left: 2.5pt solid %(teal)s; padding: 2px 5px;
@@ -119,7 +124,7 @@ def cue(out, d):
     """One page. Headings, names, dates, cues. If it spills, the build fails."""
     beats = []
     for b in d["run"]:
-        kind = b.get("kind", "")
+        kind = (b.get("kind", "") + (" over" if b.get("over") else "")).strip()
         cues = b.get("cues") or []
         beats.append(
             '<div class="beat %s"><div class="clock">%s</div><div class="what">'

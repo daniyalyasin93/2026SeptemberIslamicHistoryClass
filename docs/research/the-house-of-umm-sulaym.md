@@ -1275,6 +1275,13 @@ first and fetching second saved roughly forty blind page fetches here. **It is w
 ### E-HS14 · «Do not put al-Barāʾ over an army»
 **Tier:** GOOD · **When:** the caliphate of ⁨عمر ؓ⁩, ۱۳–⁨۲۳ھ⁩ `[SOURCED]` for the caliphate; the letter itself is undated · **Map:** n/a
 **What happened:** Anas b. Mālik's elder brother al-Barāʾ was the kind of fighter other men lined up behind. It is reported that ʿUmar wrote to his army commanders about him, and the instruction was not to give him a command. The reason given was not that he was unreliable. It was the opposite.
+**Beats:**
+1. The man who went over the wall lived — al-Barāʾ b. Mālik ؓ, and this is what was said of him afterwards.
+2. His house — Brother of Anas b. Mālik ؓ, who served the Prophet ﷺ ten years.
+3. What is reported of ʿUmar ؓ — That he wrote to his army commanders about him.
+4. The instruction — Do not put al-Barāʾ in command of an army.
+5. The reason — Not that he was unreliable: that he presses forward, and takes the men with him.
+**Quote after beat:** 4
 **The statement:**
 > <div dir="rtl">⁨لاَ تَسْتَعْمِلُوا البَرَاءَ عَلَى جَيْشٍ، فَإِنَّهُ مَهْلَكَةٌ مِنَ المَهَالِكِ يَقْدَمُ بِهِم⁩.</div>
 > — ⁨سیر أعلام النبلاء ج۱ ص۱۹۶⁩ · https://shamela.ws/book/10906/1622
@@ -1288,6 +1295,12 @@ first and fetching second saved roughly forty blind page fetches here. **It is w
 ### E-HS15 · «Do you see me dying in my bed?»
 **Tier:** GOOD · **When:** at Medina or Basra, undated · **Map:** n/a
 **What happened:** Anas came in on his brother and found him singing over his bow. He asked him how long that was going to go on. His brother answered with a question of his own, and then with a number: ninety-nine men killed in single combat, not counting what he had shared in with everyone else. In a second telling Anas puts the question the other way and asks him why he sings poetry when Allah has given him the Qurʾān instead.
+**Beats:**
+1. His brother comes in on him — Anas ؓ finds him singing over his bow, and asks how long that will go on.
+2. The answer is a question — Do you see me dying in my bed?
+3. And then a number — The reports give ninety-odd killed in single combat, besides what he shared in with others.
+4. He did not die in his bed — He was killed at Tustar, years later, in the assault he had prayed for.
+**Quote after beat:** 2
 **The statement:**
 > <div dir="rtl">⁨أَترَانِي أَمُوْتُ عَلَى فِرَاشِي؟ وَاللهِ لَقَدْ قَتَلْتُ بِضْعاً وَتِسْعِيْنَ⁩.</div>
 > — ⁨سیر أعلام النبلاء ج۱ ص۱۹۸⁩ · https://shamela.ws/book/10906/1624

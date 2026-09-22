@@ -1317,6 +1317,13 @@ told the men to bite down on their back teeth, strike into the enemy and go forw
 that he would not speak again — not one more word — until either Allah routed them, or he met Allah
 and put his case to Him himself. He went forward with the banner and did not stop going forward. He
 was killed. The banner fell, and Sālim, the freedman of Abū Ḥudhayfa ؓ, picked it up.
+**Beats:**
+1. The line is going backwards — At ʿAqrabāʾ the Muslim line gives ground, and Zayd ؓ is carrying a banner.
+2. What he tells the men — Bite down on your back teeth, strike into your enemy, and go forward.
+3. The vow — He will not speak again until Allah routs them, or he meets Allah and puts his own case to Him.
+4. He kept both halves of it — He went forward with the banner, did not stop going forward, and was killed.
+5. The banner does not stay on the ground — Sālim ؓ, the freedman of Abū Ḥudhayfa ؓ, picks it up.
+**Quote after beat:** 3
 **The statement:**
 > وقال زيد بن الخطاب: أيها الناس عَضُّوا على أضراسكم، واضربوا في عدوِّكم وامضوا قدمًا، وقال: والله لا أتكلَّمُ حتى يهزمهم اللهُ أو ألقىَ اللهَ فأكلِّمه بحجَّتي، فقُتل شهيدًا ﵁.
 > — ⁨البدایہ والنہایہ ج۷ ص۳۴⁩ · https://shamela.ws/book/30097/3180
@@ -1662,6 +1669,13 @@ What none of them gives is a number. Ibn Kathīr's own summary of the Muslim dea
 fifty — and he says in the same breath that he is counting bearers of the Qurʾān, Companions and
 others together in that one figure. So we know why the Qurʾān was collected. We do not know how many
 reciters died. We only know that it was enough.
+**Beats:**
+1. The question the room is already asking — How many men who carried the Qurʾān died that day?
+2. What the books do say — The killing ran hot among the reciters on the day of al-Yamāma.
+3. What none of them gives — A number for the reciters.
+4. Ibn Kathīr's own total — Four hundred and fifty Muslim dead, counting reciters, Companions and others together.
+5. So we say it plainly — We know why the Qurʾān was collected. We do not know how many were lost. Only that it was enough.
+**Quote after beat:** 2
 **The statement:**
 > وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة كما ثبت به الحديث في صحيح البخاري.
 > — ⁨البدایہ والنہایہ ج۷ ص۷۹⁩ · https://shamela.ws/book/30097/3225 — **⁨صحيح البخاري ٤٩٨٦⁩**

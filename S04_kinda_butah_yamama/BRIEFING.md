@@ -2,11 +2,11 @@
 
 Read this twice at home. Never at the lectern — the lectern carries CUE.pdf.
 
-**The evening.** Parts I–IV of `RUNSHEET.md`, 36 cards, ending at STOP C (Daniyal's cut, 2026-09-22). It opens on evening 3's STOP B closing pair, unchanged — the Line at 11–12 AH with Yemen settled, and the map with Ṣanʿāʾ blue and Ḥaḍramawt still grey — and turns back north to Khālid ؓ, last seen at Buzākha. Ḥaḍramawt stays grey tonight. Part I introduces the two claimants still standing, Musaylima and Sajāḥ, so that nothing later has to refer forward. Part II is al-Buṭāḥ and the reckoning at Medina. Part III is the road to al-Yamāma, and ends with a prisoner in irons in Khālid's ؓ own tent. Part IV is the day at ʿAqrabāʾ, up to the order to separate out: the line has re-formed, every clan under its own banner, and the day is not yet decided. That is where the evening is planned to end, and its two closing slides open evening 5.
+**The evening.** Parts I–IV of `RUNSHEET.md`, 43 cards, ending at STOP C (Daniyal's cut, 2026-09-22). It opens on evening 3's STOP B closing pair, unchanged — the Line at 11–12 AH with Yemen settled, and the map with Ṣanʿāʾ blue and Ḥaḍramawt still grey — and turns back north to Khālid ؓ, last seen at Buzākha. Ḥaḍramawt stays grey tonight. Part I introduces the two claimants still standing, Musaylima and Sajāḥ, so that nothing later has to refer forward. Part II is al-Buṭāḥ and the reckoning at Medina. Part III is the road to al-Yamāma, and ends with a prisoner in irons in Khālid's ؓ own tent. Part IV is the day at ʿAqrabāʾ, up to the order to separate out: the line has re-formed, every clan under its own banner, and the day is not yet decided. That is where the evening is planned to end, and its two closing slides open evening 5.
 
 **And behind that close, Part V** (#47): the rest of the day — the garden, the end of Musaylima, the terms at the forts, Zayd ؓ, and the order at Medina that gathered the Qurʾān. It is spoken only if there is time. The STOP C closing set stays in the deck where it is, so stopping needs no jump; going on is one typed slide number, and the cue sheet prints it.
 
-**Size and pace.** About 67.5 minutes as budgeted, for 34 story minutes. Evening 3 spoke 32 cards in the slot, so this is sized to the room's real pace, not the budget. The clock on the cue sheet is the budget scaled to that pace. If the clock runs ahead of the cards, drop GOOD cards in this order: #5, #4, #18, #21, #30, and #2 last — #26 closes the loop #2 opens. **Part II is all or nothing** — #7 to #15, or none of it.
+**Size and pace.** About 78 minutes as budgeted, for 34 story minutes. Evening 3 spoke 32 cards in the slot, so this is sized to the room's real pace, not the budget. The clock on the cue sheet is the budget scaled to that pace. If the clock runs ahead of the cards, drop GOOD cards in this order: #5, #4, #18, #21, #30, and #2 last — #26 closes the loop #2 opens. **Part II is all or nothing** — #7 to #15, or none of it.
 
 **The bridges.** Five slides are not cards: they close the seams where the story jumps in time, place or thread. Each shows three steps; say the line, then click on.
 
@@ -15,9 +15,12 @@ Read this twice at home. Never at the lectern — the lectern carries CUE.pdf.
 - Before #16 — *Back to the mosque, 11 AH*: That consolation came years later, in ʿUmar's ؓ own caliphate. Now back to 11 AH, and to the mosque at Medina where we left Khālid ؓ being answered for — and then sent straight out again.
 - Before #17 — *Meanwhile, at al-Yamāma*: Khālid ؓ was not the first to be sent against Musaylima. Back at Dhū al-Qaṣṣa one of the eleven banners had gone to ʿIkrima ؓ, with Shuraḥbīl ؓ sent after him — and both reached al-Yamāma before Khālid ؓ did. Here is what happened to them.
 - Before #32 — *Past the close: the day is decided*: We have just closed, and we are going on. Where we left it: the line had re-formed, every clan under its own banner, and the day was not decided. Now it is decided — and what comes out of it is the reason you can hold a muṣḥaf tonight.
+- Before #36 — *The men who did not come back*: We met these three at the line: Sālim ؓ with the banner of the Muhājirūn, and on the wings Zayd b. al-Khaṭṭāb ؓ and Abū Ḥudhayfa ؓ. All three were killed on that field. Now we go back to the banner itself — because what the books put next to the order given at Medina is what happened to the man holding it.
 - Before #21 — *Where we are*: After the worksheet — and for anyone who has just come in. Khālid ؓ was called to Medina over al-Buṭāḥ and kept in command. The two commanders sent ahead of him were both beaten. Forty thousand men of Banū Ḥanīfa wait at ʿAqrabāʾ, with their farms behind them — and there is a prisoner in Khālid's ؓ own tent. Morning comes.
 
-**The early closes.** STOP A falls after #15 (ʿUmar ؓ and Mutammim); STOP B after #20 (the prisoner in the tent). Their closing sets are hidden at the end of the deck: in the slide show, type **69** and Enter for STOP A, **73** and Enter for STOP B. If the clock is past 0:36 at #20, close at STOP B. On the room's pace STOP B is also where the worksheet falls: take the 90 silent seconds there, then open Part IV. If instead the clock is kind, type **56** at the STOP C close and go on into Part V, which ends at STOP D.
+**The early closes.** STOP A falls after #15 (ʿUmar ؓ and Mutammim); STOP B after #20 (the prisoner in the tent). Their closing sets are hidden at the end of the deck: in the slide show, type **78** and Enter for STOP A, **82** and Enter for STOP B. If the clock is past 0:36 at #20, close at STOP B. On the room's pace STOP B is also where the worksheet falls: take the 90 silent seconds there, then open Part IV. If instead the clock is kind, type **56** at the STOP C close and go on into Part V and then Part VI, which ends at STOP D. If time runs out inside Part VI, do not hurry it: type **73** and take the muṣḥaf card and the close.
+
+**Part VI — the dead of al-Yamāma (#36–#43).** This is the part that makes the ending land. The books give one reason for the ⁨جمع القرآن⁩ — that the killing ran hot among the reciters — and until the room has met one reciter that is a sentence, not a loss. Part IV has already put the three of them at the line (#28–#30). This part is what became of them: Sālim ؓ was one of four the Prophet ﷺ named to take the Qurʾān from (#36); both his hands went, and he recited the āya Abū Bakr ؓ had read to Medina the year before (#37); *lay me down between them* (#38); how the two were found (#39). Then the man who went over the wall and lived (#40–#41), the number nobody can give (#42), and the order at Medina (#43). Cut #40 and #41 first.
 
 **Part II — how it is told.** al-Buṭāḥ and the reckoning at Medina (#7–#15) sits next to the disputes among the Companions. It is told straight, and it is told as a disagreement between books, never as a verdict. The guardrail installed in session 1 is what makes it tellable: a report of history is neither a ruling nor a creed, and we do not judge between Companions. The only verdicts on the page are Abū Bakr's ؓ, that Khālid ؓ interpreted and was mistaken (#13), and Ibn Kathīr's own sentence (#14) — neither is the speaker's. Close the part on consolation, not on blame (#15). **No questions from the floor.** Slips go into the box; the prepared answers are in `docs/catalogue/QA_BANK.md` §6.1, §6.2 and §6.9, the last being the entry on the woman in Khālid's ؓ tent at al-Yamāma (`DECISIONS.md` #41): the books give the same name in both places, and the connection is not made from the platform.
 
@@ -1665,7 +1668,256 @@ to be driven to me and I was not given it."*
 
 ---
 
-### 36. The Qurʾān was collected because of this
+## Part VI — The dead of al-Yamāma
+
+### 36. Take the Qurʾān from four
+
+**Runsheet:** The ⁨تراجم⁩ notice for **both** new men, one breath each: Sālim ؓ, and Abū Ḥudhayfa b. ʿUtba ؓ. ⚠ **The four names do not go on the slide** — ⁨ابن کثیر⁩ quotes only the opening clause, and the four are ⁨صحیح مسلم⁩ ٢٤٦٤ in the editor's note (`QA_BANK.md` §5.3)
+
+**Tier:** CORE · **When:** the Prophet's ﷺ lifetime `[SOURCED]` · **Map:** n/a.
+
+**What happened:** Ibn Kathīr ⁨رحمہ اللہ⁩, writing Sālim's ؓ death notice, gives the reason the ummah
+remembered him. He was one of four men the Prophet ﷺ named when he told the Companions from whom to
+take the Qurʾān. One of the four was a freed slave of the house of Abū Ḥudhayfa ؓ.
+
+**Beats:**
+
+1. Who has just picked up the banner — Sālim ؓ, the freed slave of Abū Ḥudhayfa ؓ, of the household that kept him.
+2. Abū Ḥudhayfa ؓ, in one breath — Of Quraysh, son of ʿUtba b. Rabīʿa, a man of Badr, Muslim before the house of al-Arqam.
+3. Why the ummah remembers Sālim ؓ — The Prophet ﷺ named four men to take the Qurʾān from, and he was one of them.
+4. What that means on this field — The man now holding the banner is one of the four.
+
+**Quote after beat:** 3
+
+**The statement:**
+> وهو أحد الأربعة الذين قال فيهم رسول الله ﷺ: "استقرئوا القرآنَ من أربعةٍ" فذكر منهم سالمًا مولى أبي حذيفة
+> — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
+> *English:* "And he is one of the four of whom the Messenger of Allah ﷺ said: 'Take the Qurʾān from
+> four' — and he mentioned Sālim, the freedman of Abū Ḥudhayfa, among them."
+
+**⁨عبرت⁩:** Standing in this matter was decided by what a man carried, and by nothing else about him.
+
+**Hands-up?** no
+
+⚠ **Slide rule:** Ibn Kathīr's own text quotes only the opening clause. If the four names go on
+screen they must be captioned to ⁨صحیح مسلم ٢٤٦٤⁩ as given in the editor's note on ⁨البدایہ ج۷ ص۵۰⁩ —
+
+**never to ⁨ابن کثیر⁩.** See §5.3.
+
+---
+
+### 37. The hand, and the verse
+
+**Runsheet:** The right hand, then the left, then the chest. **Make the link aloud:** the āya he recited is the one Abū Bakr ؓ read out to Medina the day the Prophet ﷺ died — one year before this field
+
+**Tier:** CORE · **When:** ⁨۱۲ھ⁩, at ⁨اليمامة⁩ `[SOURCED]` · **Map:** n/a — hold on the ⁨عَقْرَباء⁩ marker.
+
+**What happened:** Sālim ؓ was holding the banner when his right hand was severed. He took the
+banner in his left. That hand was cut too. So he clasped the banner to his chest, and he recited.
+The verse he recited was the one Abū Bakr ؓ had recited to the people of Medina the day the Prophet ﷺ
+died, the year before: *Muḥammad is no more than a Messenger; messengers have passed away before
+him.* Then he recited the verse that follows it: *and how many a prophet fought, and with him many
+devoted men.*
+
+**Beats:**
+
+1. The right hand — He is holding the banner when his right hand is severed.
+2. The left hand — He takes the banner in his left, and that hand is cut too.
+3. He holds it with what is left — He clasps the banner to his chest, and he recites.
+4. The āya — The same āya Abū Bakr ؓ read out to Medina the day the Prophet ﷺ died, the year before.
+5. And the āya after it — And how many a prophet fought, and with him many devoted men.
+
+**Quote after beat:** 3
+
+**The statement:**
+> انقطعت يدُه اليمنى فأخذها بيساره، فقُطعت فاحتضنها وهو يقول: ﴿وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ﴾ [آل عمران: ١٤٤] ﴿وَكَأَيِّنْ مِنْ نَبِيٍّ قَاتَلَ مَعَهُ رِبِّيُّونَ كَثِيرٌ﴾ [آل عمران: ١٤٦]
+> — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
+> *English:* "His right hand was severed, so he took the banner in his left; that was cut off, so he
+> clasped it to his chest, saying: ﴾Muḥammad is no more than a Messenger; messengers have passed
+> away before him﴿ ﴾And how many a prophet fought, and with him many devoted men﴿."
+
+**⁨عبرت⁩:** The verse that steadied Medina in the year eleven is the verse a man recited on the ground
+in the year twelve.
+
+**Hands-up?** Before it: "Does anyone remember the āya Abū Bakr ؓ read out the day the Prophet ﷺ
+died?" — then let the slide answer.
+
+---
+
+### 38. "Lay me down between them"
+
+**Runsheet:** ⚠ The second man is «⁨فلان⁩» in the source — **do not name him**. ⚠ **No approved source says they were buried in one grave** (§10.3 of the note)
+
+**Tier:** CORE · **When:** ⁨۱۲ھ⁩, at ⁨اليمامة⁩ `[SOURCED]` · **Map:** n/a.
+
+**What happened:** Struck down, Sālim ؓ asked the men near him a question. What had become of Abū
+Ḥudhayfa? They told him he had been killed. He asked about one other man. They told him he was dead
+too. Then he asked them for one thing, and it was the last thing he asked for.
+
+**Beats:**
+
+1. Struck down — He asks the men near him one question: what has become of Abū Ḥudhayfa ؓ?
+2. The answer — He has been killed.
+3. He asks about one more man — The source says only "so-and-so", and we do not name him either.
+4. The last thing he asked for — Then lay me down between the two of them.
+
+**Quote after beat:** 4
+
+**The statement:**
+> فلما صرع قال لأصحابه: ما فعل أبو حُذَيْفة؟ قالوا: قُتل، قال: فما فعلَ فلان؟ قالوا: قُتل، قال: فأضجعوني بينهما
+> — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
+> *English:* "When he was struck down he said to his companions: What has become of Abū Ḥudhayfa?
+> They said: He has been killed. He said: And what has become of so-and-so? They said: He has been
+> killed. He said: Then lay me down between the two of them."
+
+**⁨عبرت⁩:** The freed slave's last request was to be put back beside the household that had taken him
+in.
+
+**Hands-up?** no
+
+⚠ The second man is **«⁨فلان⁩»** in the source. **Do not name him.** And no approved source says they
+were buried in one grave — see §10.3.
+
+---
+
+### 39. How they were found
+
+**Runsheet:** ⚠ ⁨الذہبی⁩ gives this with «⁨وقيل⁩». Carry it across in the delivery: *"it is said that…"*, **never** *"they were found"*
+
+**Tier:** GOOD · **When:** ⁨۱۲ھ⁩, after ⁨اليمامة⁩ `[SOURCED]` — reported by ⁨الذہبی⁩ as «⁨وقيل⁩» ·
+
+**Map:** n/a.
+
+**What happened:** In his notice on Sālim ؓ, al-Dhahabī ⁨رحمہ اللہ⁩ gives a report he introduces with
+the word *it is said* — which is his way of passing something on without vouching for it. And
+elsewhere, in the roll of the day's martyrs (⁨سیر ج۱ ص۲۹۸⁩), he lists the two of them first, and in
+that order: Abū Ḥudhayfa b. ʿUtba al-ʿAbshamī, and his freedman Sālim, one of the reciters.
+
+**Beats:**
+
+1. How al-Dhahabī ⁨رحمہ اللہ⁩ gives it — With the words "it is said", which is how a scholar passes something on without vouching for it.
+2. What is said — The two were found together, the head of one at the feet of the other.
+3. Say it his way — "It is said that…", never "they were found".
+4. Where he does vouch — In his roll of that day's martyrs he lists the two of them first, and in that order.
+
+**Quote after beat:** 2
+
+**The statement:**
+> وَقِيْلَ: إِنَّ سَالِماً وُجِدَ هُوَ وَمَوْلاَهُ أَبُو حُذَيْفَةَ، رَأْسُ أَحَدِهِمَا عِنْدَ رِجْلَي الآخَرِ صَرِيْعَيْنِ -رَضِيَ اللهُ عَنْهُمَا-
+> — ⁨سیر أعلام النبلاء ج۱ ص۱۶۹⁩ · https://shamela.ws/book/10906/1595
+> *English:* "And it is said: Sālim was found, he and his patron Abū Ḥudhayfa, the head of one of
+> them at the feet of the other, both struck down ؓ."
+
+**⁨عبرت⁩:** The books that list the dead of that day put the master and the freedman on one line.
+
+**Hands-up?** no
+
+⚠ Carry «⁨وقيل⁩» across into the delivery: *"it is said that…"*, not *"they were found"*.
+
+---
+
+### 40. «Do not put al-Barāʾ over an army»
+
+**Runsheet:** Answers what the room has been holding since #32 — **the man who went over the wall lived**. ⚠ The page opens with «⁨قيل⁩»: say *"it is reported that ʿUmar ؓ wrote"*. Hands-up is switched **off** here: the room has just buried two men
+
+**Tier:** GOOD · **When:** the caliphate of ⁨عمر ؓ⁩, ۱۳–⁨۲۳ھ⁩ `[SOURCED]` for the caliphate; the letter itself is undated · **Map:** n/a
+
+**What happened:** Anas b. Mālik's elder brother al-Barāʾ was the kind of fighter other men lined up behind. It is reported that ʿUmar wrote to his army commanders about him, and the instruction was not to give him a command. The reason given was not that he was unreliable. It was the opposite.
+
+**Beats:**
+
+1. The man who went over the wall lived — al-Barāʾ b. Mālik ؓ, and this is what was said of him afterwards.
+2. His house — Brother of Anas b. Mālik ؓ, who served the Prophet ﷺ ten years.
+3. What is reported of ʿUmar ؓ — That he wrote to his army commanders about him.
+4. The instruction — Do not put al-Barāʾ in command of an army.
+5. The reason — Not that he was unreliable: that he presses forward, and takes the men with him.
+
+**Quote after beat:** 4
+
+**The statement:**
+> <div dir="rtl">⁨لاَ تَسْتَعْمِلُوا البَرَاءَ عَلَى جَيْشٍ، فَإِنَّهُ مَهْلَكَةٌ مِنَ المَهَالِكِ يَقْدَمُ بِهِم⁩.</div>
+> — ⁨سیر أعلام النبلاء ج۱ ص۱۹۶⁩ · https://shamela.ws/book/10906/1622
+> *English:* "Do not put al-Barāʾ in command of an army, for he is a destruction among destructions — he presses forward with them."
+
+**⁨عبرت⁩:** Courage is not the same qualification as command, and a state has to know the difference.
+
+**Hands-up?** yes — *"Would you put the bravest man in the room in charge of the room?"*
+*(Delivery note: the page opens with «⁨قِيْلَ⁩». Say "it is reported that ʿUmar ؓ wrote", not "ʿUmar ؓ wrote".)*
+
+---
+
+### 41. «Do you see me dying in my bed?»
+
+**Runsheet:** **Cut first.** ⚠ The counts move — ninety-nine, ninety-odd, a hundred. Say *"the reports give ninety-odd"* and move on. Beat 4 is where he did die: ⁨تُسْتَر⁩, years later
+
+**Tier:** GOOD · **When:** at Medina or Basra, undated · **Map:** n/a
+
+**What happened:** Anas came in on his brother and found him singing over his bow. He asked him how long that was going to go on. His brother answered with a question of his own, and then with a number: ninety-nine men killed in single combat, not counting what he had shared in with everyone else. In a second telling Anas puts the question the other way and asks him why he sings poetry when Allah has given him the Qurʾān instead.
+
+**Beats:**
+
+1. His brother comes in on him — Anas ؓ finds him singing over his bow, and asks how long that will go on.
+2. The answer is a question — Do you see me dying in my bed?
+3. And then a number — The reports give ninety-odd killed in single combat, besides what he shared in with others.
+4. He did not die in his bed — He was killed at Tustar, years later, in the assault he had prayed for.
+
+**Quote after beat:** 2
+
+**The statement:**
+> <div dir="rtl">⁨أَترَانِي أَمُوْتُ عَلَى فِرَاشِي؟ وَاللهِ لَقَدْ قَتَلْتُ بِضْعاً وَتِسْعِيْنَ⁩.</div>
+> — ⁨سیر أعلام النبلاء ج۱ ص۱۹۸⁩ · https://shamela.ws/book/10906/1624
+> *English:* "Do you see me dying in my bed? By Allah, I have killed ninety-odd."
+
+**⁨عبرت⁩:** Two brothers in one house, and each thought the other needed correcting.
+
+**Hands-up?** no
+*(Delivery note: the counts move — ninety-nine in one chain, ninety-odd in another, a hundred in a third. Say "the reports give ninety-odd" and move on.)*
+
+---
+
+### 42. The number nobody can give
+
+**Runsheet:** **The card that stops a wrong number being said aloud.** **[HANDS] 5:** *"How many men who had the whole Qurʾān by heart died that day? What would you guess?"* — then the honest answer: the books do not give one
+
+**Tier:** CORE · **When:** ⁨۱۲ھ⁩, after the battle `[SOURCED]` · **Map:** n/a — this is the last slide
+of the al-Yamāma act.
+
+**What happened:** After al-Yamāma, Abū Bakr ؓ ordered the Qurʾān collected, and the reason the books
+give is that the killing had run hot among the reciters. That is the phrase all three of them use.
+What none of them gives is a number. Ibn Kathīr's own summary of the Muslim dead is four hundred and
+fifty — and he says in the same breath that he is counting bearers of the Qurʾān, Companions and
+others together in that one figure. So we know why the Qurʾān was collected. We do not know how many
+reciters died. We only know that it was enough.
+
+**Beats:**
+
+1. The question the room is already asking — How many men who carried the Qurʾān died that day?
+2. What the books do say — The killing ran hot among the reciters on the day of al-Yamāma.
+3. What none of them gives — A number for the reciters.
+4. Ibn Kathīr's own total — Four hundred and fifty Muslim dead, counting reciters, Companions and others together.
+5. So we say it plainly — We know why the Qurʾān was collected. We do not know how many were lost. Only that it was enough.
+
+**Quote after beat:** 2
+
+**The statement:**
+> وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة كما ثبت به الحديث في صحيح البخاري.
+> — ⁨البدایہ والنہایہ ج۷ ص۷۹⁩ · https://shamela.ws/book/30097/3225 — **⁨صحيح البخاري ٤٩٨٦⁩**
+> *English:* "…and that was after the killing had run hot among the reciters on the day of
+> al-Yamāma, as the ḥadīth in Ṣaḥīḥ al-Bukhārī establishes."
+
+**⁨عبرت⁩:** They did not wait to find out how much had been lost before they secured what was left.
+
+**Hands-up?** Before telling it: *"How many men who had the whole Qurʾān by heart died that day? What
+would you guess?"* — then give the honest answer: the books do not say.
+⚠ **This is the card that stops a wrong number being said. The figures the safe list does give run
+from 58 to more than 1,080 (§Y), and none of them is a count of reciters.** ⚠ **Anyone who says "450
+reciters" has misread ⁨البدایہ ج۷ ص۵۵⁩.**
+
+---
+
+---
+
+### 43. The Qurʾān was collected because of this
 
 **Runsheet:** **The true ending.** End here and go straight to the closing bookend — say nothing after it
 

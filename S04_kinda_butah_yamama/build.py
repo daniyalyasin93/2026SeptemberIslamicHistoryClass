@@ -108,6 +108,8 @@ FACE_TITLE = {
     "RCT/E-RC64": "There were Muslims inside already",
     # Part V
     "RCT/E-RC20": "Ḥadīqat al-Mawt — over the wall",
+    # Part VI — al-Dhahabī رحمہ اللہ gives this one with «وقيل»; the hedge belongs on the face itself
+    "AHA/E-AS17": "It is said they were found together",
     "RCT/E-RC21": "The death of Musaylima",
     "RCT/E-RC23": "Zayd b. al-Khaṭṭāb ؓ and his brother",       # no comma after ؓ: a combining mark
     "TSY/E-YK19": "al-Ashath b. Qays comes into it",
@@ -159,6 +161,14 @@ FACE_WHEN = {
     "RCT/E-RC22": "12 AH, the forts of al-Yamāma",
     "RCT/E-RC23": "12 AH, Rabīʿ I",
     "RCT/E-RC37": "12 AH, Medina",
+    # Part VI
+    "AHA/E-AS09": "In the Prophet's ﷺ lifetime",
+    "AHA/E-AS15": "12 AH, at al-Yamāma",
+    "AHA/E-AS16": "12 AH, at al-Yamāma",
+    "AHA/E-AS17": "12 AH, after al-Yamāma",
+    "THO/E-HS14": "ʿUmar's ؓ caliphate, 13–23 AH",
+    "THO/E-HS15": "Undated",
+    "ZIA/E-ZY17": "12 AH, after the battle",
     "TSY/E-YK19": "11 AH, Hadramawt",
 }
 
@@ -263,10 +273,26 @@ FACE_QUOTE = {
     "RCT/E-RC22": ("وَوَصَلَ كِتَابُ أَبِي بَكْرٍ إِلَى خَالِدٍ أَنْ يَقْتُلَ كُلَّ مُحْتَلِمٍ … فَوَفَى لَهُمْ وَلَمْ يَغْدِرْ.",
                    "And Abū Bakr's letter reached Khālid, ordering him to kill every man who had reached "
                    "puberty … so he kept faith with them and did not betray them."),
-    # "because of this" is the card: the reciters, not only the gathering
-    "RCT/E-RC37": ("أمرَ الصديق زيدَ بن ثابتٍ أن يجمعَ القرآن … وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة",
-                   "…al-Ṣiddīq ordered Zayd b. Thābit to gather the Qurʾān … and that was after killing had "
-                   "grown severe among the reciters on the day of al-Yamāma."),
+    # the order itself. The reciters clause is ZY17's face, one slide earlier (#43).
+    "RCT/E-RC37": ("أمرَ الصديق زيدَ بن ثابتٍ أن يجمعَ القرآن من اللِّخاف والعُسُب وصدور الرجال",
+                   "…al-Ṣiddīq ordered Zayd b. Thābit to gather the Qurʾān from the flat stones and the "
+                   "palm-stalks and the breasts of men."),
+    # ——— Part VI. ZY2 is not here: it is RC60's own event, told at #28.
+    # ⚠ the four names stay off the face: ابن کثیر quotes only the opening clause (QA_BANK §5.3)
+    "AHA/E-AS09": ("قال فيهم رسول الله ﷺ: \"استقرئوا القرآنَ من أربعةٍ\" فذكر منهم سالمًا مولى أبي حذيفة",
+                   "…of whom the Messenger of Allah ﷺ said: 'Take the Qurʾān from four' — and he "
+                   "mentioned Sālim, the freedman of Abū Ḥudhayfa."),
+    # both cut at the same place, and the āya is never cut in the middle
+    "AHA/E-AS15": ("… فاحتضنها وهو يقول: ﴿وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ﴾",
+                   "…so he clasped it to his chest, saying: ﴾Muḥammad is no more than a Messenger; "
+                   "messengers have passed away before him﴿."),
+    # ⚠ «فلان» stays «so-and-so»: the second man is not named on the page, so he is not named here
+    "AHA/E-AS16": ("ما فعل أبو حُذَيْفة؟ قالوا: قُتل … قال: فأضجعوني بينهما",
+                   "What has become of Abū Ḥudhayfa? They said: He has been killed … He said: Then lay "
+                   "me down between the two of them."),
+    "AHA/E-AS17": ("وَقِيْلَ: إِنَّ سَالِماً وُجِدَ هُوَ وَمَوْلاَهُ أَبُو حُذَيْفَةَ، رَأْسُ أَحَدِهِمَا عِنْدَ رِجْلَي الآخَرِ صَرِيْعَيْنِ",
+                   "And it is said: Sālim was found, he and his patron Abū Ḥudhayfa, the head of one of "
+                   "them at the feet of the other."),
     "RCT/E-RC19": ("امْتَازُوا أَيُّهَا النَّاسُ لِنَعْلَمَ بَلَاءَ كُلِّ حَيٍّ … قَالَ بَعْضُهُمْ لِبَعْضٍ: الْيَوْمَ يُسْتَحَى مِنَ الْفِرَارِ.",
                    "Separate out, people, so we may know what each clan is worth … they said to one another: "
                    "Today, running is shameful."),
@@ -335,6 +361,15 @@ BRIDGE_BEFORE = {
         "We have just closed, and we are going on. Where we left it: the line had re-formed, every clan "
         "under its own banner, and the day was not decided. Now it is decided — and what comes out of it "
         "is the reason you can hold a muṣḥaf tonight."),
+    # RC59-RC61 (the three at the line, Part IV), RC23 — back to them, and to what came of it
+    "AHA/E-AS09": ("The men who did not come back", "11–12 AH, ʿAqrabāʾ", [
+        ("At the line", "Sālim ؓ carried the Muhājirūn's banner; Zayd ؓ and Abū Ḥudhayfa ؓ held the wings"),
+        ("All three", "Killed on that field, on the same day"),
+        ("Still to tell", "What happened at that banner, and the order it led to at Medina")],
+        "We met these three at the line: Sālim ؓ with the banner of the Muhājirūn, and on the wings "
+        "Zayd b. al-Khaṭṭāb ؓ and Abū Ḥudhayfa ؓ. All three were killed on that field. Now we go back "
+        "to the banner itself — because what the books put next to the order given at Medina is what "
+        "happened to the man holding it."),
     "RCT/E-RC55": ("Where we are", "The night before ʿAqrabāʾ", [
         ("Medina", "Khālid ؓ answered for al-Buṭāḥ, and was kept in command"),
         ("The road", "ʿIkrima ؓ and Shuraḥbīl ؓ beaten ahead of him; forty thousand at ʿAqrabāʾ"),
@@ -346,7 +381,7 @@ BRIDGE_BEFORE = {
 }
 
 # A spare hands-up that asks the room to vote between two Companions' positions has no place in Part II.
-NO_HANDS = {"RCT/E-RC50"}
+NO_HANDS = {"RCT/E-RC50", "THO/E-HS14"}
 
 # The planned end is not the end of the deck: its closing set goes in after this card, and Part V follows.
 CLOSE_C_AFTER = "RCT/E-RC19"
@@ -419,8 +454,10 @@ LESSON_A = ["ATA/E-TB15", "RCT/E-RC47", "RCT/E-RC50", "RCT/E-RC52"]      # STOP 
 # not RC16's line at STOP B: "settled the end of the battle" answers the question the close is asking
 LESSON_B = ["ATA/E-TB15", "RCT/E-RC47", "RCT/E-RC50", "RCT/E-RC15"]      # STOP B — the armies in position
 LESSON_C = ["ATA/E-TB15", "RCT/E-RC50", "RCT/E-RC58", "RCT/E-RC19"]      # STOP C — THE PLANNED END
-# STOP D — the full ending: the evening's own shape, closing on the muṣḥaf
-LESSON_D = ["RCT/E-RC50", "RCT/E-RC58", "RCT/E-RC20", "RCT/E-RC37"]
+# STOP D — the full ending: the evening's own shape, closing on the muṣḥaf. RC58 (what re-formed the
+# line was what the men had memorised) and RC37 (the muṣḥaf was gathered because of them) are the two
+# halves of the same sentence, and AS15 is the man it happened to.
+LESSON_D = ["RCT/E-RC58", "RCT/E-RC20", "AHA/E-AS15", "RCT/E-RC37"]
 
 
 def map_image(scene, steps):

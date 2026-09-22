@@ -1,16 +1,18 @@
 # STATUS — read this first, every session
 
 > **2026-09-22 · RESUME POINT — read this first. Evening 4 is BUILT and ready to deliver.**
-> `S04_kinda_butah_yamama/`, Daniyal's cut **Parts I–IV to STOP C** (`DECISIONS.md` #44): 31 cards.
+> `S04_kinda_butah_yamama/`, Daniyal's cut **Parts I–IV to STOP C** (`DECISIONS.md` #44): 31 cards —
+> **with Parts V and VI built behind that close as overflow** (#47, #48): 12 more cards, ~22 more minutes,
+> ending on the collection of the Qurʾān. Stopping at STOP C needs no jump; going on is one typed number.
 >
 > | Artifact | State |
 > |---|---|
-> | `S04.pptx` + `S04.pdf` | **63 slides** (55 visible). Bookend IN = evening 3's STOP B pair. **5 bridge slides** at the story's seams (#45). STOP C, the planned end, at **52–55**; STOP A hidden at **56**, STOP B at **60** — type the number and Enter. The PDF includes the hidden slides, so its page n is slide n |
-> | Maps | 10 scenes `tools/mapstudio/scenes/s04-*`, **rendered by `make_maps.py`** through `tools/render_scene.py` (headless) and placed as JPEGs. Renders are git-ignored; re-run to regenerate |
+> | `S04.pptx` + `S04.pdf` | **85 slides** (77 visible), 43 cards. Bookend IN = evening 3's STOP B pair. **7 bridge slides** at the story's seams (#45). **STOP C, the planned end, at 52–55**; Part V at **56–63**, Part VI at **64–73**; **STOP D at 74–77**. STOP A hidden at **78**, STOP B at **82** — type the number and Enter. The PDF includes the hidden slides, so its page n is slide n |
+> | Maps | 11 scenes `tools/mapstudio/scenes/s04-*`, **rendered by `make_maps.py`** through `tools/render_scene.py` (headless) and placed as JPEGs. Renders are git-ignored; re-run to regenerate |
 > | The Line | `timeline.json` → `make_timeline.py` → `visuals/line_s04_stop_a/b/c.png`. The opening Line is evening 3's own image, byte for byte |
-> | `CUE.pdf` | one page, 11.5pt, 19 beats, jump numbers read from the deck |
+> | `CUE.pdf` | one page, 11.0pt, 24 beats, jump numbers read from the deck. The overflow beats print dense (`.beat.over`) so carrying them does not shrink the planned evening's type |
 > | `WORKSHEET.pdf` | 2 pages; nothing on it the room has not heard by STOP B |
-> | `BRIEFING.pdf` | 54 pages: the evening, the bridges, the early closes, Part II's guardrail, the never-do list, then all 31 cards |
+> | `BRIEFING.pdf` | 71 pages: the evening, the bridges, the early closes, Part VI, Part II's guardrail, the never-do list, then all 43 cards |
 >
 > **Rebuild order:** `make_timeline.py` → `make_maps.py` → `build.py` → `pack_data.py` (all in
 > `S04_kinda_butah_yamama/`). Gates, all clean: `tools/check_citations.py` (4,705 / 0),

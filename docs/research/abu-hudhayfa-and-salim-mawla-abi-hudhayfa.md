@@ -1137,6 +1137,12 @@ used.
 remembered him. He was one of four men the Prophet ﷺ named when he told the Companions from whom to
 take the Qurʾān. One of the four was a freed slave of the house of Abū Ḥudhayfa ؓ.
 
+**Beats:**
+1. Who has just picked up the banner — Sālim ؓ, the freed slave of Abū Ḥudhayfa ؓ, of the household that kept him.
+2. Abū Ḥudhayfa ؓ, in one breath — Of Quraysh, son of ʿUtba b. Rabīʿa, a man of Badr, Muslim before the house of al-Arqam.
+3. Why the ummah remembers Sālim ؓ — The Prophet ﷺ named four men to take the Qurʾān from, and he was one of them.
+4. What that means on this field — The man now holding the banner is one of the four.
+**Quote after beat:** 3
 **The statement:**
 > وهو أحد الأربعة الذين قال فيهم رسول الله ﷺ: "استقرئوا القرآنَ من أربعةٍ" فذكر منهم سالمًا مولى أبي حذيفة
 > — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
@@ -1281,6 +1287,13 @@ died, the year before: *Muḥammad is no more than a Messenger; messengers have 
 him.* Then he recited the verse that follows it: *and how many a prophet fought, and with him many
 devoted men.*
 
+**Beats:**
+1. The right hand — He is holding the banner when his right hand is severed.
+2. The left hand — He takes the banner in his left, and that hand is cut too.
+3. He holds it with what is left — He clasps the banner to his chest, and he recites.
+4. The āya — The same āya Abū Bakr ؓ read out to Medina the day the Prophet ﷺ died, the year before.
+5. And the āya after it — And how many a prophet fought, and with him many devoted men.
+**Quote after beat:** 3
 **The statement:**
 > انقطعت يدُه اليمنى فأخذها بيساره، فقُطعت فاحتضنها وهو يقول: ﴿وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ﴾ [آل عمران: ١٤٤] ﴿وَكَأَيِّنْ مِنْ نَبِيٍّ قَاتَلَ مَعَهُ رِبِّيُّونَ كَثِيرٌ﴾ [آل عمران: ١٤٦]
 > — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
@@ -1303,6 +1316,12 @@ died?" — then let the slide answer.
 Ḥudhayfa? They told him he had been killed. He asked about one other man. They told him he was dead
 too. Then he asked them for one thing, and it was the last thing he asked for.
 
+**Beats:**
+1. Struck down — He asks the men near him one question: what has become of Abū Ḥudhayfa ؓ?
+2. The answer — He has been killed.
+3. He asks about one more man — The source says only "so-and-so", and we do not name him either.
+4. The last thing he asked for — Then lay me down between the two of them.
+**Quote after beat:** 4
 **The statement:**
 > فلما صرع قال لأصحابه: ما فعل أبو حُذَيْفة؟ قالوا: قُتل، قال: فما فعلَ فلان؟ قالوا: قُتل، قال: فأضجعوني بينهما
 > — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
@@ -1329,6 +1348,12 @@ the word *it is said* — which is his way of passing something on without vouch
 elsewhere, in the roll of the day's martyrs (⁨سیر ج۱ ص۲۹۸⁩), he lists the two of them first, and in
 that order: Abū Ḥudhayfa b. ʿUtba al-ʿAbshamī, and his freedman Sālim, one of the reciters.
 
+**Beats:**
+1. How al-Dhahabī ⁨رحمہ اللہ⁩ gives it — With the words "it is said", which is how a scholar passes something on without vouching for it.
+2. What is said — The two were found together, the head of one at the feet of the other.
+3. Say it his way — "It is said that…", never "they were found".
+4. Where he does vouch — In his roll of that day's martyrs he lists the two of them first, and in that order.
+**Quote after beat:** 2
 **The statement:**
 > وَقِيْلَ: إِنَّ سَالِماً وُجِدَ هُوَ وَمَوْلاَهُ أَبُو حُذَيْفَةَ، رَأْسُ أَحَدِهِمَا عِنْدَ رِجْلَي الآخَرِ صَرِيْعَيْنِ -رَضِيَ اللهُ عَنْهُمَا-
 > — ⁨سیر أعلام النبلاء ج۱ ص۱۶۹⁩ · https://shamela.ws/book/10906/1595

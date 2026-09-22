@@ -984,3 +984,43 @@ cannot run dry.
 list — they predate #37 — so the lectern would have fallen back to prose. Beats were written for all five
 from each card's own text, in the pool and in the research note, and `check_citations` is still silent.
 
+
+---
+
+## 48. Part VI — the dead of al-Yamāma sit behind Part V, and the muṣḥaf is the last word
+
+**2026-09-22, Daniyal: "is this a good point to have slides covering the various families that we
+researched? Zayd b. al-Khaṭṭāb? Umm Sulaym — Anas — al-Barāʾ b. Mālik?"** Yes — here, and only here.
+
+**Why here.** The books give one reason for the ⁨جمع القرآن⁩: «⁨استَحَرّ القتلُ في القُرّاء⁩» — the killing
+ran hot among the reciters. Part V already ended on the order to Zayd b. Thābit ؓ, so the room was being
+given the *reason* as a sentence and the *order* as an event, with nobody in between. Part VI puts one
+reciter in between. It is eight cards, all page-cited, none needing a map:
+
+| # | Card | What it adds |
+|---|---|---|
+| 36 | `AHA/E-AS09` | Sālim ؓ is one of four the Prophet ﷺ named to take the Qurʾān from |
+| 37 | `AHA/E-AS15` | Both hands gone, and the āya Abū Bakr ؓ had read to Medina the year before |
+| 38 | `AHA/E-AS16` | «⁨فأضجعوني بينهما⁩» — lay me down between them |
+| 39 | `AHA/E-AS17` | ⁨الذہبی⁩'s «⁨وقيل⁩»: how the two were found. The hedge is carried across |
+| 40–41 | `THO/E-HS14`, `HS15` | The man who went over the wall lived — and ʿUmar ؓ would not give him an army |
+| 42 | `ZIA/E-ZY17` | **The number nobody can give.** The card exists to stop a wrong figure being said |
+| 43 | `RCT/E-RC37` | The order at Medina. The last word of the evening |
+
+**What was NOT taken, and why.** `ZIA/E-ZY2` (Zayd ؓ at the banner and his vow of silence) was in the
+first cut of this part and was removed: it is `RCT/E-RC60`'s own event, already told at #28, and the room
+would have heard the same vow twice in one evening. `ZY5`/`ZY6` (ʿUmar's ؓ «⁨سبقني إلى الحُسَنيين⁩» and the
+east wind) stay out for the same reason — `RC23` carries both already. `AHA/E-AS05` and `AS10` are
+⚠ SPEAKER'S DISCRETION and are in no deck. **The other ~48 household cards (`THO`, `AHA`, `ZIA`) remain a
+pool for the evening that carries the dead** — they are not spent here.
+
+**The escape hatch.** Part VI can be abandoned at any point without hurrying it: `CUE.pdf` prints the
+slide number of `RC37` beside the beat that opens the part. One typed number takes the muṣḥaf card and
+the STOP D close. This is the same mechanism as the early closes (#44, #47), used forwards.
+
+**Beats and honorifics.** The eight cards predate #37 and had no `**Beats:**` list; beats were written
+for each from its own text, in the pool **and** in the three research notes. Nothing was composed: every
+beat line is the card's content, and no ⁨لقب⁩ was invented (§1.2).
+
+**Introductions (#43).** The gate answered four new rows: ʿUtba b. Rabīʿa (part of Abū Ḥudhayfa's ؓ name —
+and **Badr is not told from the platform**), al-Arqam, al-ʿAbshamī (not spoken), and Tustar.

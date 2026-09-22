@@ -7,7 +7,7 @@ they become the deck → cue → briefing → worksheet. What is not spoken roll
 | | |
 |---|---|
 | Opens from | evening 3 as delivered — **STOP B**, after `RCT/E-RC32` (`docs/catalogue/DELIVERED.md`). Its two closing slides open this evening **verbatim** (#23) |
-| **The cut** | **Daniyal, 2026-09-22: Parts I–IV, ending at STOP C** (`DECISIONS.md` #44), **with Part V built behind it as overflow so the evening cannot run dry** (#47). Ḥaḍramawt/Kinda rolls to evening 5, under *Rolled forward* at the end of this file |
+| **The cut** | **Daniyal, 2026-09-22: Parts I–IV, ending at STOP C** (`DECISIONS.md` #44), **with Parts V and VI built behind it as overflow so the evening cannot run dry** (#47). Ḥaḍramawt/Kinda rolls to evening 5, under *Rolled forward* at the end of this file |
 | **Order** | **CHRONOLOGICAL** (`DECISIONS.md` #42). The sequence is the one §12.2 of the campaign note establishes: Buzākha → **al-Buṭāḥ** → recalled to Medina → **al-Yamāma** → … → **Ḥaḍramawt/Kinda, which is LAST** |
 | Deck shape | **one slide per card** (#39) — beats are the **speaker notes**, not slides |
 | Material | **36 cards · ≈ 67.5 min** as budgeted · **≈ 56 min CORE** — for **34 story minutes**. Parts I–IV (31 cards) are the planned evening; **Part V (5 cards, 10 min) sits after the STOP C close** and is spoken only if there is time |
@@ -165,8 +165,9 @@ carries the numbers.
 **OVERFLOW — spoken only if there is time.** (The heading above carries no such marker because it
 becomes a slide the room sees; #30.) **Built so the evening cannot run dry** (`DECISIONS.md` #20, #47).
 It is the rest of the day at
-ʿAqrabāʾ, in order, and it ends on the one sentence that makes the whole evening matter. **Cut from the
-front, never from the back:** if only ten minutes are left, #32 and #36 alone are a complete ending.
+ʿAqrabāʾ, in order, and it runs straight into Part VI, which ends on the one sentence that makes the
+whole evening matter. **Cut from the front, never from the back:** if only ten minutes are left, #32
+and #43 alone are a complete ending.
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
@@ -174,11 +175,36 @@ front, never from the back:** if only ten minutes are left, #32 and #36 alone ar
 | 33 | `RCT/E-RC21` The death of Musaylima, and what Waḥshī ؓ said | CORE | 2 | 62 | ⚠ **"a second man came up"** — the books name different men. ⚠ **Do not use the ⁨سیر⁩ line about "the best of the people of the earth and the worst"**: it is a ranking claim the room will argue with |
 | 34 | `RCT/E-RC22` The treaty he was tricked into, and kept | CORE | 2 | 64 | Mujjāʿa's third appearance, and the end of his arc. **Say it beside evening 2's reprisals (`RCT/E-RC11`)**: the same commander, one campaign, both pages |
 | 35 | `RCT/E-RC23` Zayd b. al-Khaṭṭāb ؓ, and his brother | GOOD | 1.5 | 65.5 | **This is where #28's silence is answered.** ʿUmar's ؓ grief, and his son's reply |
-| 36 | `RCT/E-RC37` The Qurʾān was collected because of this | CORE | 2 | 67.5 | **The true ending.** End here and go straight to the closing bookend — say nothing after it |
 
-Part V: **10 min** · **8.5 min** CORE.
+Part V: **8 min** · **6.5 min** CORE.
 
-**⏸ STOP D — after #36. The full ending.** Closing pair — **these two slides open evening 5 if the
+## Part VI — The dead of al-Yamāma
+
+**OVERFLOW, second half.** Part V decides the day; this part is who paid for it, and why the room can
+hold a muṣḥaf. It is the answer to the question the books themselves give for the ⁨جمع القرآن⁩:
+«⁨استَحَرّ القتلُ في القُرّاء⁩» — *the killing ran hot among the reciters.* Until the room has met one
+reciter, that sentence is a fact; after #36–#39 it is a person. **Part IV already put these men at the
+line** (#28–#30: Sālim ؓ with the banner, Zayd ؓ and Abū Ḥudhayfa ؓ on the wings). This part is what
+happened to them, and what came of it.
+
+**Every card here is already page-cited; none needs a map.** If the clock runs out inside this part,
+**do not hurry it — jump to #43 and close** (`CUE.pdf` prints the number). **Cut #40 and #41 first:**
+they are the coda, not the spine.
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| 36 | `AHA/E-AS09` Take the Qurʾān from four | CORE | 1.5 | 67 | The ⁨تراجم⁩ notice for **both** new men, one breath each: Sālim ؓ, and Abū Ḥudhayfa b. ʿUtba ؓ. ⚠ **The four names do not go on the slide** — ⁨ابن کثیر⁩ quotes only the opening clause, and the four are ⁨صحیح مسلم⁩ ٢٤٦٤ in the editor's note (`QA_BANK.md` §5.3) |
+| 37 | `AHA/E-AS15` The hand, and the verse | CORE | 2 | 69 | The right hand, then the left, then the chest. **Make the link aloud:** the āya he recited is the one Abū Bakr ؓ read out to Medina the day the Prophet ﷺ died — one year before this field |
+| 38 | `AHA/E-AS16` "Lay me down between them" | CORE | 1.5 | 70.5 | ⚠ The second man is «⁨فلان⁩» in the source — **do not name him**. ⚠ **No approved source says they were buried in one grave** (§10.3 of the note) |
+| 39 | `AHA/E-AS17` How they were found | GOOD | 1 | 71.5 | ⚠ ⁨الذہبی⁩ gives this with «⁨وقيل⁩». Carry it across in the delivery: *"it is said that…"*, **never** *"they were found"* |
+| 40 | `THO/E-HS14` «Do not put al-Barāʾ over an army» | GOOD | 1.5 | 73 | Answers what the room has been holding since #32 — **the man who went over the wall lived**. ⚠ The page opens with «⁨قيل⁩»: say *"it is reported that ʿUmar ؓ wrote"*. Hands-up is switched **off** here: the room has just buried two men |
+| 41 | `THO/E-HS15` «Do you see me dying in my bed?» | GOOD | 1 | 74 | **Cut first.** ⚠ The counts move — ninety-nine, ninety-odd, a hundred. Say *"the reports give ninety-odd"* and move on. Beat 4 is where he did die: ⁨تُسْتَر⁩, years later |
+| 42 | `ZIA/E-ZY17` The number nobody can give | CORE | 2 | 76 | **The card that stops a wrong number being said aloud.** **[HANDS] 5:** *"How many men who had the whole Qurʾān by heart died that day? What would you guess?"* — then the honest answer: the books do not give one |
+| 43 | `RCT/E-RC37` The Qurʾān was collected because of this | CORE | 2 | 78 | **The true ending.** End here and go straight to the closing bookend — say nothing after it |
+
+Part VI: **12.5 min** · **9 min** CORE (#40 and #41 cut).
+
+**⏸ STOP D — after #43. The full ending.** Closing pair — **these two slides open evening 5 if the
 evening reaches here** (#23):
 - **The Line:** 11→12 AH, the day at ʿAqrabāʾ decided and the Qurʾān marked on 12 AH.
 - **The map:** al-Yamāma blue at last; **Ḥaḍramawt still grey**, and it is the last front left.
@@ -358,6 +384,10 @@ are kept: they are already answered for evening 5's runsheet.
 | Abyssinia | `RCT/E-RC15` | inside Shuraḥbīl's ؓ notice, `RC15` beat 2 — the first hijra, which the room knows |
 | Khazraj | `RCT/E-RC18` | inside Thābit's ؓ notice — one of Medina's two Anṣār tribes, met on evening 1 |
 | Anas | `RCT/E-RC18` | Anas b. Mālik ؓ, the Prophet's ﷺ servant — one clause at `RC18` beat 2. *The tool cannot see a plain name at the start of a beat; answered by hand* |
+| ʿUtba | `AHA/E-AS09` | part of Abū Ḥudhayfa's ؓ name — his father, ʿUtba b. Rabīʿa of Quraysh, ⁨سیر⁩ ⁨ج۱ ص۱۶۴⁩ «⁨شيخ الجاهلية⁩». Beat 2 gives it in four words and moves on. ⚠ **Do not tell Badr from the platform** — `AHA/E-AS03` is speaker's discretion, and it is not needed here |
+| al-Arqam | `AHA/E-AS09` | the house in Mecca where the first Muslims met — the card's own phrase for *how early he was*. If the room looks blank: *"before they were even meeting in secret in Mecca"*, then on |
+| al-ʿAbshamī | `AHA/E-AS17` | **not spoken** — it is in the card's prose, part of the name as ⁨الذہبی⁩ writes it in his roll of the day's martyrs. Say "Abū Ḥudhayfa b. ʿUtba ؓ" and stop |
+| Tustar | `THO/E-HS15` | a city in ⁨خوزستان⁩, east of Basra, taken years after tonight in ʿUmar's ؓ caliphate. Beat 4 says only *"at Tustar, years later"* — the siege itself is `THO/E-HS17`, held for a later evening |
 | Death | `RCT/E-RC20` | not a person — «⁨حديقة الموت⁩», the name the books give the walled garden (⁨البدایہ ج۷ ص۳۴⁩). Beat 2 glosses it on the card: *the books call it the Garden of Death* |
 | al-Barāʾ | `RCT/E-RC20` | **his notice is `RC20` beat 3**, in one breath: al-Barāʾ b. Mālik ؓ, the brother of Anas ؓ, the Prophet's ﷺ servant. ⚠ **he lived** — say so |
 | Waḥshī | `RCT/E-RC21` | `RC21` beat 2 carries his notice in one breath: the man who had killed Ḥamza ؓ at Uḥud, before he was a Muslim |

@@ -8072,6 +8072,13 @@ tell it to you as history.")*
 ### THO/E-HS14 · «Do not put al-Barāʾ over an army»
 **Tier:** GOOD · **When:** the caliphate of عمر ؓ, ۱۳–۲۳ھ `[SOURCED]` for the caliphate; the letter itself is undated · **Map:** n/a
 **What happened:** Anas b. Mālik's elder brother al-Barāʾ was the kind of fighter other men lined up behind. It is reported that ʿUmar wrote to his army commanders about him, and the instruction was not to give him a command. The reason given was not that he was unreliable. It was the opposite.
+**Beats:**
+1. The man who went over the wall lived — al-Barāʾ b. Mālik ؓ, and this is what was said of him afterwards.
+2. His house — Brother of Anas b. Mālik ؓ, who served the Prophet ﷺ ten years.
+3. What is reported of ʿUmar ؓ — That he wrote to his army commanders about him.
+4. The instruction — Do not put al-Barāʾ in command of an army.
+5. The reason — Not that he was unreliable: that he presses forward, and takes the men with him.
+**Quote after beat:** 4
 **The statement:**
 > <div dir="rtl">لاَ تَسْتَعْمِلُوا البَرَاءَ عَلَى جَيْشٍ، فَإِنَّهُ مَهْلَكَةٌ مِنَ المَهَالِكِ يَقْدَمُ بِهِم.</div>
 > — سیر أعلام النبلاء ج۱ ص۱۹۶ · https://shamela.ws/book/10906/1622
@@ -8085,6 +8092,12 @@ tell it to you as history.")*
 ### THO/E-HS15 · «Do you see me dying in my bed?»
 **Tier:** GOOD · **When:** at Medina or Basra, undated · **Map:** n/a
 **What happened:** Anas came in on his brother and found him singing over his bow. He asked him how long that was going to go on. His brother answered with a question of his own, and then with a number: ninety-nine men killed in single combat, not counting what he had shared in with everyone else. In a second telling Anas puts the question the other way and asks him why he sings poetry when Allah has given him the Qurʾān instead.
+**Beats:**
+1. His brother comes in on him — Anas ؓ finds him singing over his bow, and asks how long that will go on.
+2. The answer is a question — Do you see me dying in my bed?
+3. And then a number — The reports give ninety-odd killed in single combat, besides what he shared in with others.
+4. He did not die in his bed — He was killed at Tustar, years later, in the assault he had prayed for.
+**Quote after beat:** 2
 **The statement:**
 > <div dir="rtl">أَترَانِي أَمُوْتُ عَلَى فِرَاشِي؟ وَاللهِ لَقَدْ قَتَلْتُ بِضْعاً وَتِسْعِيْنَ.</div>
 > — سیر أعلام النبلاء ج۱ ص۱۹۸ · https://shamela.ws/book/10906/1624
@@ -8343,6 +8356,12 @@ used.
 remembered him. He was one of four men the Prophet ﷺ named when he told the Companions from whom to
 take the Qurʾān. One of the four was a freed slave of the house of Abū Ḥudhayfa ؓ.
 
+**Beats:**
+1. Who has just picked up the banner — Sālim ؓ, the freed slave of Abū Ḥudhayfa ؓ, of the household that kept him.
+2. Abū Ḥudhayfa ؓ, in one breath — Of Quraysh, son of ʿUtba b. Rabīʿa, a man of Badr, Muslim before the house of al-Arqam.
+3. Why the ummah remembers Sālim ؓ — The Prophet ﷺ named four men to take the Qurʾān from, and he was one of them.
+4. What that means on this field — The man now holding the banner is one of the four.
+**Quote after beat:** 3
 **The statement:**
 > وهو أحد الأربعة الذين قال فيهم رسول الله ﷺ: "استقرئوا القرآنَ من أربعةٍ" فذكر منهم سالمًا مولى أبي حذيفة
 > — البدایہ والنہایہ ج۷ ص۵۰ · https://shamela.ws/book/30097/3196
@@ -8487,6 +8506,13 @@ died, the year before: *Muḥammad is no more than a Messenger; messengers have 
 him.* Then he recited the verse that follows it: *and how many a prophet fought, and with him many
 devoted men.*
 
+**Beats:**
+1. The right hand — He is holding the banner when his right hand is severed.
+2. The left hand — He takes the banner in his left, and that hand is cut too.
+3. He holds it with what is left — He clasps the banner to his chest, and he recites.
+4. The āya — The same āya Abū Bakr ؓ read out to Medina the day the Prophet ﷺ died, the year before.
+5. And the āya after it — And how many a prophet fought, and with him many devoted men.
+**Quote after beat:** 3
 **The statement:**
 > انقطعت يدُه اليمنى فأخذها بيساره، فقُطعت فاحتضنها وهو يقول: ﴿وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ﴾ [آل عمران: ١٤٤] ﴿وَكَأَيِّنْ مِنْ نَبِيٍّ قَاتَلَ مَعَهُ رِبِّيُّونَ كَثِيرٌ﴾ [آل عمران: ١٤٦]
 > — البدایہ والنہایہ ج۷ ص۵۰ · https://shamela.ws/book/30097/3196
@@ -8509,6 +8535,12 @@ died?" — then let the slide answer.
 Ḥudhayfa? They told him he had been killed. He asked about one other man. They told him he was dead
 too. Then he asked them for one thing, and it was the last thing he asked for.
 
+**Beats:**
+1. Struck down — He asks the men near him one question: what has become of Abū Ḥudhayfa ؓ?
+2. The answer — He has been killed.
+3. He asks about one more man — The source says only "so-and-so", and we do not name him either.
+4. The last thing he asked for — Then lay me down between the two of them.
+**Quote after beat:** 4
 **The statement:**
 > فلما صرع قال لأصحابه: ما فعل أبو حُذَيْفة؟ قالوا: قُتل، قال: فما فعلَ فلان؟ قالوا: قُتل، قال: فأضجعوني بينهما
 > — البدایہ والنہایہ ج۷ ص۵۰ · https://shamela.ws/book/30097/3196
@@ -8535,6 +8567,12 @@ the word *it is said* — which is his way of passing something on without vouch
 elsewhere, in the roll of the day's martyrs (سیر ج۱ ص۲۹۸), he lists the two of them first, and in
 that order: Abū Ḥudhayfa b. ʿUtba al-ʿAbshamī, and his freedman Sālim, one of the reciters.
 
+**Beats:**
+1. How al-Dhahabī رحمہ اللہ gives it — With the words "it is said", which is how a scholar passes something on without vouching for it.
+2. What is said — The two were found together, the head of one at the feet of the other.
+3. Say it his way — "It is said that…", never "they were found".
+4. Where he does vouch — In his roll of that day's martyrs he lists the two of them first, and in that order.
+**Quote after beat:** 2
 **The statement:**
 > وَقِيْلَ: إِنَّ سَالِماً وُجِدَ هُوَ وَمَوْلاَهُ أَبُو حُذَيْفَةَ، رَأْسُ أَحَدِهِمَا عِنْدَ رِجْلَي الآخَرِ صَرِيْعَيْنِ -رَضِيَ اللهُ عَنْهُمَا-
 > — سیر أعلام النبلاء ج۱ ص۱۶۹ · https://shamela.ws/book/10906/1595
@@ -8635,6 +8673,13 @@ told the men to bite down on their back teeth, strike into the enemy and go forw
 that he would not speak again — not one more word — until either Allah routed them, or he met Allah
 and put his case to Him himself. He went forward with the banner and did not stop going forward. He
 was killed. The banner fell, and Sālim, the freedman of Abū Ḥudhayfa ؓ, picked it up.
+**Beats:**
+1. The line is going backwards — At ʿAqrabāʾ the Muslim line gives ground, and Zayd ؓ is carrying a banner.
+2. What he tells the men — Bite down on your back teeth, strike into your enemy, and go forward.
+3. The vow — He will not speak again until Allah routs them, or he meets Allah and puts his own case to Him.
+4. He kept both halves of it — He went forward with the banner, did not stop going forward, and was killed.
+5. The banner does not stay on the ground — Sālim ؓ, the freedman of Abū Ḥudhayfa ؓ, picks it up.
+**Quote after beat:** 3
 **The statement:**
 > وقال زيد بن الخطاب: أيها الناس عَضُّوا على أضراسكم، واضربوا في عدوِّكم وامضوا قدمًا، وقال: والله لا أتكلَّمُ حتى يهزمهم اللهُ أو ألقىَ اللهَ فأكلِّمه بحجَّتي، فقُتل شهيدًا ﵁.
 > — البدایہ والنہایہ ج۷ ص۳۴ · https://shamela.ws/book/30097/3180
@@ -8980,6 +9025,13 @@ What none of them gives is a number. Ibn Kathīr's own summary of the Muslim dea
 fifty — and he says in the same breath that he is counting bearers of the Qurʾān, Companions and
 others together in that one figure. So we know why the Qurʾān was collected. We do not know how many
 reciters died. We only know that it was enough.
+**Beats:**
+1. The question the room is already asking — How many men who carried the Qurʾān died that day?
+2. What the books do say — The killing ran hot among the reciters on the day of al-Yamāma.
+3. What none of them gives — A number for the reciters.
+4. Ibn Kathīr's own total — Four hundred and fifty Muslim dead, counting reciters, Companions and others together.
+5. So we say it plainly — We know why the Qurʾān was collected. We do not know how many were lost. Only that it was enough.
+**Quote after beat:** 2
 **The statement:**
 > وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة كما ثبت به الحديث في صحيح البخاري.
 > — البدایہ والنہایہ ج۷ ص۷۹ · https://shamela.ws/book/30097/3225 — **صحيح البخاري ٤٩٨٦**
