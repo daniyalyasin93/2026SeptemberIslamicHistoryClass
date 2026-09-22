@@ -372,7 +372,7 @@ is not only north against south. It forks again, one level down.
 2. "I bear witness that you are a liar" — And that Muḥammad ﷺ is truthful.
 3. And then the rest of it — But a liar of Rabīʿa is dearer to us than a truthful man of Muḍar.
 4. Both trunks are northern Arabs — Banū Ḥanīfa of Rabīʿa, Quraysh of Muḍar, and both of ʿAdnān.
-5. He followed him anyway — And was killed with him at ʿAqrabāʾ.
+5. He followed him anyway — Knowing, by his own words, that he was following a liar.
 **Quote after beat:** 3
 **The statement:**
 > فقال أشهد أنَّك كذّابٌ وأن محمدًا صادقٌ، ولكن كذّابَ رَبيعة أحبُّ إلينا من صادقِ مُضَر
@@ -451,7 +451,7 @@ and it refuses the premise rather than the arithmetic. The earth belongs to Alla
 inheritance to whom He wills of His servants; and the outcome is for those who fear Him. The book
 dates the exchange to the end of the year 10.
 **Beats:**
-1. A letter comes from al-Yamāma — Addressed from one messenger of Allah to another.
+1. A letter comes from al-Yamāma — He writes as if to an equal: from Musaylima, 'messenger of Allah', to Muḥammad ﷺ.
 2. What it actually proposes — Not a revelation: a partition. Half the matter ours, half Quraysh's.
 3. "But Quraysh are a people who transgress" — The complaint is about a tribe, not about a religion.
 4. The reply refuses the premise — Not the arithmetic: the earth belongs to Allah.
@@ -495,7 +495,7 @@ palm-branch in his hand. And what he said to him was about that piece.
 3. The Prophet ﷺ came out to him — With Thābit b. Qays b. Shammās ؓ beside him.
 4. There was a piece of palm-branch in his hand — And what he said to him was about that piece.
 5. "If you asked me for this, I would not give it to you" — The claim was refused while it was still a request.
-6. Remember the man standing beside him — Thābit b. Qays ؓ dies at al-Yamāma, against this same claimant.
+6. Remember the man standing beside him — Thābit b. Qays ؓ. The room will meet him again.
 **Quote after beat:** 5
 **The statement:**
 > لو سألتني هذه القطعة ما أعطيتكها، ولن تعدوَ أمرَ اللهِ فيك، ولئن أدبرتَ ليعقرنَّك اللهُ
@@ -590,16 +590,16 @@ opened from this card.
 **اليمامة**, turns, and goes back north to **الجزيرة**.
 **What happened:** The two claimants met at al-Yamāma, and he bought her off. She took half the
 kharāj of his land and turned back to her own country, and she stayed among her people, Banū Taghlib,
-until the time of Muʿāwiya. The dowry he paid her was the remission of two of the five prayers — the
+until the time of Muʿāwiya ؓ. The dowry he paid her was the remission of two of the five prayers — the
 dawn prayer and the night prayer. That is what one claim to prophethood was worth to the other. And
 al-Suhaylī, whom Ibn Kathīr quotes, records that she became Muslim in the days of ʿUmar b. al-Khaṭṭāb
 ؓ, and that her Islam was good.
 **Beats:**
 1. The two claimants meet at al-Yamāma — The northern claim and the Yamāma claim, in one place.
 2. He bought her off — She took half the kharāj of his land.
-3. The dowry he paid — The remission of two of the five prayers: the dawn and the night prayer.
+3. The price he paid — The remission of two of the five prayers: the dawn and the night prayer.
 4. What that tells you — That is what one claim to prophethood was worth to the other.
-5. She went home — Back north to al-Jazīra, and stayed among Banū Taghlib until Muʿāwiya's time.
+5. She went home — Back north to al-Jazīra, and stayed among Banū Taghlib for many years.
 6. And afterwards — She became Muslim in ʿUmar's ؓ days, and her Islam was good. End the card here.
 **Quote after beat:** 2
 **The statement:**
@@ -1320,7 +1320,7 @@ concluded. They had been called to this matter, he said, and they had been slow 
 prospered. He had looked into it, and he could see the affair coming to the people of Medina without
 contrivance. So: do not set yourselves against a people for whom things are being made. Disperse, and
 enter into this matter. **He told his own tribe to submit — and then he was killed.** That is on the
-page in al-Kāmil, and it is the single fact that makes the episode painful. State it, and build nothing
+page in al-Kāmil, and it is the single fact that makes the matter painful. State it, and build nothing
 on it.
 **Beats:**
 1. He gathers Banū Yarbūʿ — Before the patrols came, he told his own tribe what he had concluded.
@@ -1398,7 +1398,7 @@ told him they had not. Four accounts, and we do not choose between them.
 **Beats:**
 1. Here the books stop agreeing — What happened that night is told four different ways.
 2. The cold night, and the crier — Two words called through the camp which, on their face, mean warm your prisoners.
-3. Taken for an order to kill — The men killed them; Ḍirār b. al-Azwar killed Mālik ؓ.
+3. Taken for an order to kill — The men killed them, Mālik ؓ among them.
 4. Ibn al-Athīr's explanation — In the dialect of Kināna that phrase means killing; only warmth was meant.
 5. The second version — Khālid ؓ summoned him, reproached him over Sajāḥ and the zakāt, and it ended in an order to strike.
 6. The Siyar's two — Including al-Zuhrī's: the men had laid down their arms, and the patrol split over whether quarter had been given.
@@ -1512,7 +1512,7 @@ The blood-money is at البدایہ ج۷ ص۳۲ — «وودى مالك بن ن
 ### RCT/E-RC51 · Ibn Kathīr's own verdict, and the precedent he sets beside it
 **Tier:** CORE · **When:** the historian's own comment `[SOURCED]` · **Map:** No map. This is the
 evening's one large-statement slide.
-**What happened:** Ibn Kathīr writes his own sentence over the whole episode, and it is the safest
+**What happened:** Ibn Kathīr writes his own sentence over the whole matter, and it is the safest
 sentence available on it: Abū Bakr ؓ continued with Khālid ؓ in command, **even though he had exercised
 his judgement in the killing of Mālik b. Nuwayra and was mistaken in killing him.** And then he puts a
 precedent beside it, from the Prophet's ﷺ own lifetime: when Khālid ؓ was sent to Banū Jadhīma and
@@ -1521,7 +1521,7 @@ accepted Islam*, the Prophet ﷺ paid their blood-money down to the dog's bowl, 
 said *"O Allah, I dissociate myself from what Khālid has done"* — **and, with that, did not remove him
 from command either.**
 **Beats:**
-1. The historian writes his own verdict — And it is the safest sentence available on the whole episode.
+1. The historian writes his own verdict — And it is the safest sentence available on the whole matter.
 2. "He exercised judgement, and he was mistaken" — Ibn Kathīr says the error plainly, and keeps the man in command.
 3. He sets a precedent beside it — Banū Jadhīma, in the Prophet's ﷺ own lifetime.
 4. The prisoners who said the wrong word — They said ṣabaʾnā, not knowing how to say we have accepted Islam.
@@ -1684,21 +1684,23 @@ here.
 **Tier:** CORE · **When:** ۱۱ھ, at اليمامة `[SOURCED]` · **Map:** ʿIkrima's ؓ arrow reaches **اليمامة**
 and **recoils**. Shuraḥbīl's ؓ arrow halts short of it on the road. Then a **new, very long line**
 starts from that point and runs east to عمان, then west along the southern edge — مَهْرة, أبْيَن,
-حضرموت. **That line is one man and it takes the rest of the evening to finish.**
-**What happened:** ʿIkrima ؓ had the banner for Musaylima, and Shuraḥbīl ؓ was sent behind him. ʿIkrima
-attacked before Shuraḥbīl came up — Ibn al-Athīr says he wanted to carry off the fame of it alone.
+حضرموت. **That line is one man, and it ends only in Ḥaḍramawt.**
+**What happened:** ʿIkrima ؓ had the banner for Musaylima, and Shuraḥbīl ؓ was sent behind him. ʿIkrima ؓ
+attacked before Shuraḥbīl ؓ came up — Ibn al-Athīr says he wanted to carry off the fame of it alone.
 He was beaten. He wrote to Medina and reported it, and waited for his recall. What came back was not
 a recall. He was not to come home and demoralise people. He was to keep going: join Ḥudhayfa and
 ʿArfaja, fight in Oman and Mahra, and keep marching after that until he met al-Muhājir ؓ in Yemen and
 Ḥaḍramawt.
 **Beats:**
-1. Two commanders sent ahead — ʿIkrima ؓ had the banner for Musaylima; Shuraḥbīl ؓ was sent behind him.
-2. He attacked before the second came up — To carry off the fame of it alone.
-3. And was beaten — The first Muslim force to reach al-Yamāma was thrown back.
-4. He reported it and waited for recall — What came back was not a recall.
-5. "Do not come back and weaken the people" — Go on to Oman, then Mahra, then keep marching.
-6. The longest march of the war — One man's line crosses the whole southern edge of the map.
-**Quote after beat:** 5
+1. Who ʿIkrima ؓ was — ʿIkrima b. Abī Jahl ؓ of Banū Makhzūm, "the noble, the chief, the martyr": he led his clan after his father fell at Badr, then accepted Islam; he died a martyr in Syria, 13 or 15 AH (634 or 636 CE).
+2. And Shuraḥbīl b. Ḥasana ؓ — Ḥasana was his mother, and the name stuck; an early Muslim who emigrated to Abyssinia, later a commander in Syria, dead in the plague of 18 AH (639 CE).
+3. Two commanders sent ahead — ʿIkrima ؓ had the banner for Musaylima; Shuraḥbīl ؓ was sent behind him.
+4. He attacked before the second came up — To carry off the fame of it alone.
+5. And was beaten — The first Muslim force to reach al-Yamāma was thrown back.
+6. He reported it and waited for recall — What came back was not a recall.
+7. "Do not come back and weaken the people" — Go on to Oman, then Mahra, then keep marching.
+8. The longest march of the war — One man's line crosses the whole southern edge of the map.
+**Quote after beat:** 7
 **The statement:**
 > لَا أَرَيَنَّكَ وَلَا تَرَانِي، لَا تَرْجِعَنَّ فَتُوهِنَ النَّاسَ، امْضِ إِلَى حُذَيْفَةَ وَعَرْفَجَةَ فَقَاتِلْ أَهْلَ عُمَانَ وَمَهْرَةَ، ثُمَّ تَسِيرُ أَنْتَ وَجُنْدُكَ تَسْتَبْرُونَ النَّاسَ، حَتَّى تَلْقَى مُهَاجِرَ بْنَ أَبِي أُمَيَّةَ بِالْيَمَنِ وَحَضْرَمَوْتَ.
 > — الکامل فی التاریخ ج۲ ص۲۱۴–۲۱۵ · https://shamela.ws/book/21712/905 · https://shamela.ws/book/21712/906 · **straddles the page break**
@@ -1709,6 +1711,23 @@ a recall. He was not to come home and demoralise people. He was to keep going: j
 **عبرت:** He was not dismissed for the defeat; he was given more ground to cross.
 **Hands-up?** Before telling it: *"A commander loses a battle by moving too soon. What should the
 letter from the capital say?"*
+**The two notices, for the one breath** (`DECISIONS.md` #28, #43 — added 2026-09-22 after the evening-4
+review found both men carrying cards with no تراجم notice):
+
+> الشَّرِيْفُ، الرَّئِيْسُ، الشَّهِيْدُ، أَبُو عُثْمَانَ القُرَشِيُّ، المَخْزُوْمِيُّ، المَكِّيُّ. لَمَّا قُتِلَ أَبُوْهُ، تَحَوَّلَتْ رِئَاسَةُ بَنِي مَخْزُوْمٍ إِلَى عِكْرِمَةَ، ثُمَّ إِنَّهُ أَسْلَمَ، وَحَسُنَ إِسْلاَمُهُ بِالمَرَّةِ
+> — سیر أعلام النبلاء ج۱ ص۳۲۳ · https://shamela.ws/book/10906/1749
+> *English:* "The noble, the chief, the martyr, Abū ʿUthmān al-Qurashī al-Makhzūmī al-Makkī. When his
+> father was killed, the leadership of Banū Makhzūm passed to ʿIkrima; then he accepted Islam, and his
+> Islam was excellent — completely."
+
+> وحَسَنَةُ أمه، نسب إليها وغلب عليه ذلك. أسلم قديمًا وهاجر إلى الحبشة وجهزه الصّدّيق إلى الشام، فكان أميرًا على ربع الجيش
+> — البدایہ والنہایہ ج۷ ص۲۰۸ · https://shamela.ws/book/30097/3354
+> *English:* "Ḥasana was his mother; he was named after her, and the name stuck. He accepted Islam early,
+> emigrated to Abyssinia, and the Ṣiddīq equipped him for Syria, where he commanded a quarter of the army."
+
+The same page ends his notice: «وطعن هو وأبو عبيدة وأبو مالك الأشعري في يوم واحد سنة ثماني عشرة» — he, Abū
+ʿUbayda ؓ and Abū Mālik al-Ashʿarī ؓ were struck by the plague on one day, in 18 AH. ʿIkrima's ؓ death is
+13 or 15 AH, the books differing on Ajnādayn or al-Yarmūk (`the-men-who-had-fought-against-it.md` §3.5).
 
 ---
 
@@ -1724,10 +1743,10 @@ army ever arrived — which is the military shape of al-Yamāma and the reason i
 fighting of the war. And then, at ʿAqrabāʾ, the man who had just been beaten and reproached was given
 the vanguard.
 **Beats:**
-1. His orders were to wait — Stay until Khālid ؓ comes up, and afterwards go and help ʿAmr ؓ against Quḍāʿa.
+1. His orders were to wait — Stay until Khālid ؓ comes up, and afterwards go and help ʿAmr b. al-ʿĀṣ ؓ against Quḍāʿa.
 2. He did not wait — He got ahead of Khālid ؓ in engaging Musaylima.
 3. Beaten, and reproached — Khālid ؓ blamed him for it, as Medina had blamed ʿIkrima ؓ.
-4. Both advance forces beaten separately — That is why the main battle was so hard.
+4. Both advance forces beaten separately — That is why the day ahead would be so hard.
 5. And then he was given the vanguard — At ʿAqrabāʾ, the man who had just failed led the front of the army.
 **Quote after beat:** 3
 **The statement:**
@@ -1759,7 +1778,7 @@ own household. It is the reason the battle was fought to the finish.
 3. ʿAqrabāʾ, on the edge of al-Yamāma — The town itself is Ḥajr; put it on the map.
 4. The farmland behind his back — The property and the families were left behind his own line.
 5. What that decision means — No man in his line could retreat except through his own household.
-6. Why the battle went to the finish — Neither army had anywhere to go.
+6. Why neither line could give ground — Neither army had anywhere to go.
 **Quote after beat:** 4
 **The statement:**
 > فلما سمع مسيلمةُ بقدوم خالدٍ عسكر بمكانٍ يقال له: (عقربا) في طرف اليمامة والريفُ وراءَ ظهورهم
@@ -1767,8 +1786,10 @@ own household. It is the reason the battle was fought to the finish.
 > *English:* "When Musaylima heard of Khālid's coming, he encamped at a place called ʿAqrabāʾ, at the
 > edge of al-Yamāma, with the cultivated country behind their backs."
 
-**عبرت:** He put his own people's homes behind his line so that no one could run. It worked, and it
-cost more lives than any other day of the war.
+**عبرت:** He put his own people's homes behind his line so that no one could run.
+**Held for the end of the battle:** the note's own second sentence — *"It worked, and it cost more lives
+than any other day of the war"* — gives away a day the room has not yet seen decided. Say it with the
+dead of al-Yamāma, not here (evening-4 review, 2026-09-22).
 **Hands-up?** Before beat 5: *"Why would a commander put his own villages behind his army?"*
 **Also on the page:** «لأنهم نحو أربعين ألفًا من المقاتلةِ» (البدایہ ج۷ ص۳۲ ·
 https://shamela.ws/book/30097/3178); الکامل ج۲ ص۲۱۵ gives the same count, and الکامل ج۲ ص۲۱۶ has
@@ -1777,7 +1798,7 @@ https://shamela.ws/book/30097/3178); الکامل ج۲ ص۲۱۵ gives the same c
 ---
 
 ### RCT/E-RC16 · The tent and the prisoner — عَقْرَباء
-**Tier:** CORE · **When:** ۱۱ھ→۱۲ھ `[SOURCED]` · **Map:** Khālid's ؓ arrow runs from البُطاح east to
+**Tier:** CORE · **When:** ۱۱ھ→۱۲ھ `[SOURCED]` · **Map:** Khālid's ؓ arrow, out of Medina again (the hinge card), runs east to
 **اليمامة**, and halts on a ridge overlooking it. One marker for Khālid's ؓ own tent, behind the line.
 **What happened:** The night before the battle Khālid's ؓ vanguard picked up a mounted party coming
 home — the books say between forty and sixty riders — under Mujjāʿa b. Murāra, a chief of Banū Ḥanīfa,
@@ -1814,7 +1835,7 @@ sixty riders" and do not fix a number.**
 block forms up on the ridge: vanguard forward, two wings, the Muhājirūn's banner and the Anṣār's
 banner, and the tribes each under their own. **No labelled diagram of who held which banner.**
 **What happened:** Khālid ؓ put Shuraḥbīl b. Ḥasana ؓ at the head of the army and Zayd b. al-Khaṭṭāb ؓ
-and Abū Ḥudhayfa ؓ on the two wings. The Muhājirūn's banner went to Sālim, the freedman of Abū
+and Abū Ḥudhayfa ؓ on the two wings. The Muhājirūn's banner went to Sālim ؓ, the freedman of Abū
 Ḥudhayfa ؓ, and the Anṣār's to Thābit b. Qays b. Shammās ؓ, and the tribes were each under their own
 banners. That is Ibn Kathīr. Ibn al-Athīr has Sālim ؓ carrying it after the man who had it before him
 was killed, and puts Abū Ḥudhayfa ؓ and Zayd ؓ over the Muhājirūn; al-Dhahabī has Zayd ؓ carrying the
@@ -2017,7 +2038,7 @@ the connection itself.
 **Tier:** CORE · **When:** ۱۱ھ→۱۲ھ, at عَقْرَباء `[SOURCED]` · **Map:** No movement. The Muhājirūn's
 banner, held.
 **What happened:** The Muhājirūn asked the man holding their banner whether he was afraid the line
-would be broken from his side. Sālim, the freedman of Abū Ḥudhayfa ؓ, answered in six words: a
+would be broken from his side. Sālim ؓ, the freedman of Abū Ḥudhayfa ؓ, answered in six words: a
 wretched bearer of the Qurʾān I should be, then. This is the man the Prophet ﷺ went out at night to
 listen to, and the man who had led the Muhājirūn in prayer at Qubāʾ before the Prophet ﷺ arrived,
 because he carried more of the Qurʾān than any of them. He was killed on that field.
@@ -2144,7 +2165,7 @@ would be shameful.
 3. Why — So we may know what each clan is worth, and where we are being broken.
 4. They separated — Muhājirūn, Anṣār, and every tribe under its own.
 5. And then they said it to each other — Today, running is shameful.
-6. The honest coda — It never settled who fought hardest; only who died.
+6. The honest coda — The books do not settle which clan fought hardest.
 **Quote after beat:** 5
 **The statement:**
 > امْتَازُوا أَيُّهَا النَّاسُ لِنَعْلَمَ بَلَاءَ كُلِّ حَيٍّ، وَلِنَعْلَمَ مِنْ أَيْنَ نُؤْتَى … فَلَمَّا امْتَازُوا قَالَ بَعْضُهُمْ لِبَعْضٍ: الْيَوْمَ يُسْتَحَى مِنَ الْفِرَارِ.
@@ -2172,6 +2193,15 @@ and shut the gate behind them. There were thousands of them inside and the wall 
 b. Mālik ؓ — the brother of Anas ؓ, the Prophet's ﷺ servant — told the Muslims to throw him over it.
 They refused. He made them do it. They lifted him on a shield raised on spear-shafts until he topped
 the wall, and he went down among them alone, and fought his way to the gate, and opened it.
+**Beats:**
+1. The line breaks the other way — Banū Ḥanīfa fall back, and one of their commanders calls them into a walled garden.
+2. The gate is shut behind them — Thousands inside, the wall solid; the books call it the Garden of Death.
+3. Who al-Barāʾ ؓ was — al-Barāʾ b. Mālik ؓ, the brother of Anas ؓ, the Prophet's ﷺ servant.
+4. "Throw me over onto them" — The men refuse. He swears by Allah that they will do it.
+5. Over the wall on a shield — Lifted on spear-shafts until he topped it, and he went down among them alone.
+6. He opens the gate from the inside — He fought his way to it, and the army came in behind him.
+7. What it cost him — Some eighty-odd wounds, and Khālid ؓ stayed a month treating them. He lived.
+**Quote after beat:** 4
 **The statement:**
 > يَا مَعْشَرَ الْمُسْلِمِينَ، أَلْقُونِي عَلَيْهِمْ فِي الْحَدِيقَةِ. فَقَالُوا: لَا نَفْعَلُ، فَقَالَ: وَاللَّهِ لَتَطْرَحُنَّنِي عَلَيْهِمْ بِهَا! … وَقَاتَلَ عَلَى الْبَابِ وَفَتَحَهُ لِلْمُسْلِمِينَ.
 > — الکامل فی التاریخ ج۲ ص۲۱۸ · https://shamela.ws/book/21712/909
@@ -2198,6 +2228,14 @@ who had killed Ḥamza ؓ at Uḥud, before he was a Muslim — threw his javeli
 and out the other side; a second man struck him with a sword and he fell. A woman cried out from the
 fort above. And afterwards, when Waḥshī ؓ was asked about the battle, what he said was not about
 himself.
+**Beats:**
+1. They reach him in a gap in the wall — The fighting comes to where Musaylima stood.
+2. Waḥshī b. Ḥarb ؓ — The man who had killed Ḥamza ؓ at Uḥud, before he was a Muslim.
+3. The javelin, and a second man — It went through him and out the other side; a second man came up and struck, and he fell.
+4. A woman cried out from the fort above — At the moment he went down.
+5. Khālid ؓ is shown a body — Is this him? "No, by Allah — this one is better than him."
+6. What Waḥshī ؓ said afterwards — Not about himself: he never saw men more steadfast in death than Musaylima's companions.
+**Quote after beat:** 6
 **The statement:**
 > وَعَنْ وَحْشِيٍّ، قَالَ: لَمْ أَرَ قَطُّ أَصْبَرَ عَلَى الْمَوْتِ مِنْ أَصْحَابِ مُسَيْلِمَةَ، ثُمَّ ذَكَرَ أَنَّهُ شَارَكَ فِي قَتْلِ مُسَيْلِمَةَ.
 > — سیر أعلام النبلاء (سير الخلفاء الراشدين) ص۴۸ · https://shamela.ws/book/10906/1196
@@ -2225,6 +2263,16 @@ terms. What he had actually done was dress the women and the old men in armour a
 walls. Khālid ؓ looked at the battlements, saw them full of heads, and settled. Then the forts were
 opened and there was nobody inside but women, children and old men. And then a letter arrived from
 Medina ordering him to kill every grown man among them.
+**Beats:**
+1. The forts are still holding — The fighting is over, the forts are not, and the army is exhausted.
+2. The prisoner is now the negotiator — Mujjāʿa goes in to consult his own people.
+3. What he actually did — He put the women and the old men up on the walls in armour.
+4. Khālid ؓ looks at the battlements — He sees them full of heads, and settles on terms.
+5. The forts open — Inside there are women, children and old men, and nobody else.
+6. "You tricked me" — "They are my people, and I could not do other than I did."
+7. Then the caliph's letter arrives — Kill every grown man among them. The terms had already been given.
+8. He kept faith and did not betray them — The agreement had been made, so it stood.
+**Quote after beat:** 7
 **The statement:**
 > وَوَصَلَ كِتَابُ أَبِي بَكْرٍ إِلَى خَالِدٍ أَنْ يَقْتُلَ كُلَّ مُحْتَلِمٍ، وَكَانَ قَدْ صَالَحَهُمْ، فَوَفَى لَهُمْ وَلَمْ يَغْدِرْ.
 > — الکامل فی التاریخ ج۲ ص۲۱۹ · https://shamela.ws/book/21712/910
@@ -2249,6 +2297,14 @@ one page, and a treaty honoured against a caliph's written order on another. Say
 offered him his own mail coat and he refused it — he said he wanted from martyrdom what his brother
 wanted. At al-Yamāma he carried a banner and would not speak until it was over, and he was killed.
 When the army came home, ʿUmar ؓ turned on his own son ʿAbdullāh ؓ for coming back alive.
+**Beats:**
+1. The elder brother — Older than ʿUmar ؓ, and a Muslim before him.
+2. At Badr, the mail coat — ʿUmar ؓ offered him his own; he refused it, wanting from martyrdom what his brother wanted.
+3. At al-Yamāma — He carried a banner, would not speak until it was over, and was killed.
+4. The army comes home — ʿUmar ؓ turns on his own son ʿAbdullāh ؓ for coming back alive.
+5. The son's answer — He asked Allah for martyrdom and was given it; I strove for it and was not.
+6. "He became Muslim before me, and was martyred before me" — And: the east wind never blows but I find in it the scent of Zayd.
+**Quote after beat:** 6
 **The statement:**
 > وَكَانَ يَقُوْلُ: أَسْلَمَ قَبْلِي، وَاسْتُشْهِدَ قَبْلِي … وَكَانَ يَقُوْلُ: مَا هَبَّتِ الصَّبَا إِلاَّ وَأَنَا أَجِدُ رِيْحَ زَيْدٍ.
 > — سیر أعلام النبلاء ج۱ ص۲۹۸ · https://shamela.ws/book/10906/1724
@@ -2624,6 +2680,14 @@ Put a single mark on ۱۲ھ.
 gathered — from the flat stones and the palm-stalks and the memories of men — so that it would not go
 with them. Two of the four books say it in the same place, and both of them point at al-Bukhārī for
 it.
+**Beats:**
+1. Count this day's dead differently — So many of the reciters were killed at al-Yamāma.
+2. Abū Bakr ؓ gives an order — Zayd b. Thābit ؓ is to gather the Qurʾān.
+3. Out of what it was gathered — The flat stones, the palm-stalks, and the memories of men.
+4. Why then — So that it would not go with the men who carried it.
+5. Both books say it in the same place — al-Bidāya and al-Kāmil, and both point at al-Bukhārī.
+6. The muṣḥaf in this room — It was gathered because of the men who were killed in that garden.
+**Quote after beat:** 4
 **The statement:**
 > فيها أمرَ الصديق زيدَ بن ثابتٍ أن يجمعَ القرآن من اللِّخاف والعُسُب وصدور الرجال، وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة كما ثبت به الحديث في صحيح البخاري.
 > — البدایہ والنہایہ ج۷ ص۷۹ · https://shamela.ws/book/30097/3225 — **صحيح البخاري ٤٩٨٦**

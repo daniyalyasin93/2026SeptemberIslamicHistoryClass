@@ -49,11 +49,21 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 
 DELIVERED = os.path.join(ROOT, "docs", "catalogue", "DELIVERED.md")
 CARD_ID = re.compile(r"`([A-Z]+/E-[A-Z]+\d+)`")
+# only a row of a "Cards spoken" table is a card that was spoken: "| 12 | `RCT/E-RC32` … |". An id
+# mentioned in prose — evening 3's "Part III was not reached (`TSY/E-YK07`…)" — was NOT spoken, and
+# counting it hid al-Ashʿath, the very case #43 was written for (evening-4 review, 2026-09-22).
+SPOKEN_ROW = re.compile(r"^\|\s*\d+\s*\|\s*`([A-Z]+/E-[A-Z]+\d+)`", re.M)
 
 # One name token. Transliterated Arabic in this repo carries ā ī ū ḥ ṣ ḍ ṭ ẓ ʿ ʾ and friends; an
 # English capital carries none, which is what tells the two apart.
-TOKEN = re.compile(r"(?:al-)?[ʿʾA-Z][A-Za-zāīūēōḥṣḍṭẓġḳḫṯḏšʿʾʼ’\u0304\u0323-]*(?:'s|’s)?")
-DIACRITIC = re.compile(r"[āīūēōḥṣḍṭẓġḳḫṯḏšʿʾ]")
+# the capital may itself carry the diacritic — Ḥudhayfa, Ḥajr, Ḍirār, Ṣanʿāʾ: until 2026-09-22 those
+# never matched, and evening 4's gate reported "all answered" without having seen them
+TOKEN = re.compile(r"(?:al-)?[ʿʾA-ZĀĪŪĒŌḤṢḌṬẒĠḲḪṮḎŠ][A-Za-zāīūēōḥṣḍṭẓġḳḫṯḏšĀĪŪḤṢḌṬẒʿʾʼ’\u0304\u0323-]*"
+                   r"(?:'s|’s)?")
+DIACRITIC = re.compile(r"[āīūēōḥṣḍṭẓġḳḫṯḏšĀĪŪĒŌḤṢḌṬẒĠḲḪṮḎŠʿʾ]")
+# what may sit between a name and its patronymic: spaces, an honorific, "b." / "bint" / "ibn"
+NAME_GAP = re.compile(r"[\s.,'’\-\u0610-\u061a\ufdfa]*(?:(?:b|bt|bin|bint|ibn)\.?[\s.,'’\-\u0610-\u061a]*)*")
+GAP_MARKER = re.compile(r"\b(?:b|bt|bin|bint|ibn)\b")
 MARKER = {"abu", "abi", "umm", "ibn", "banu", "b", "bin", "bint", "dhu", "al", "bani", "abd"}
 # a segment start: a capital here proves nothing, because every sentence and every beat headline
 # begins with one
@@ -67,7 +77,7 @@ Slide Card Beats Quote Source Map Tier Hands Note Notes Yes No One Two Three Fou
 Eight Nine Ten Every Each All Most Many Some Few First Second Third Last Next Same Other Another
 Day Night Year Years Month Months Week Morning Evening Tonight Today
 He Him His She Her They Them Their We Us Our You Your It Its I Me My Who Whom Whose
-That This These Those There And But So Then When While Where What If As At By For From In Into To Of
+The A An That This These Those There And But So Then When While Where What If As At By For From In Into To Of
 Commander Believers Grant Enough Lift Separate Disperse Today Yesterday Before After Most Both
 Siyar Kamil Kāmil Bidāya Bidaya Nihāya Bukhārī Bukhari Muslim Ṭabarī Tabari Shamela""".split())
 STOPF = None       # filled below, folded once
@@ -100,34 +110,43 @@ def name_tokens(text):
     beat headline counts for nothing — which is what kept "Disperse" and "Including" out.
     """
     starts = {m.end() for m in SEG.finditer(text)}
-    out, prev_name, prev_marker = [], None, False
+    out, prev_real, chain, prev_end = [], None, False, 0
     for m in TOKEN.finditer(text):
         tok = m.group(0)
-        if len(tok.rstrip("'’s")) < 3:
-            prev_name, prev_marker = None, fold(tok) in MARKER
-            continue
-        marked = prev_name is not None and prev_marker
-        looks = bool(DIACRITIC.search(tok)) or tok.startswith(("al-", "ʿ", "ʾ"))
         k = fold(tok)
-        if len(k) < 3:                       # a fragment, not a name: "ʾnā", "al-ʿ"
-            prev_name, prev_marker = None, k in MARKER
+        gap = text[prev_end:m.start()]
+        prev_end = m.end()
+        # a patronymic chain holds only across "b.", an honorific or a kunya marker — "Mālik ؓ of
+        # Banū Yarbūʿ" is two names, "ʿIkrima b. Abī Jahl" is one man
+        # (the full stop of "b." is an abbreviation, not the end of a sentence)
+        if not NAME_GAP.fullmatch(gap) or (m.start() in starts and not GAP_MARKER.search(gap)):
+            prev_real, chain = None, False
+        elif GAP_MARKER.search(gap):
+            chain = True
+        if k in MARKER:                      # Abū, Umm, Banū, Dhū, ʿAbd: the NAME is what follows
+            chain = True
+            continue
+        if len(tok.rstrip("'’s")) < 3 or len(k) < 3:     # a fragment, not a name: "ʾnā", "al-ʿ"
+            prev_real, chain = None, False
             continue
         if k in STOPF:
-            prev_name, prev_marker = None, k in MARKER
+            prev_real, chain = None, False
             continue
+        looks = bool(DIACRITIC.search(tok)) or tok.startswith(("al-", "ʿ", "ʾ"))
         # a bare English capital proves nothing at the start of a sentence or a beat headline
-        if not looks and not marked and m.start() in starts:
-            prev_name, prev_marker = None, k in MARKER
+        if not looks and not chain and m.start() in starts:
+            prev_real, chain = None, False
             continue
-        # a patronymic is part of the name before it, not a new stranger: "ʿIkrima b. Abī Jahl" is
-        # one man, and reporting "Jahl" separately is noise
-        if marked and prev_name is not None:
-            out.append((re.sub(r"(?:'s|’s)$", "", tok), None, prev_name))
+        # a patronymic is part of the name before it, not a new stranger: "ʿIkrima b. Abī Jahl" is one
+        # man. But "Abū Ḥudhayfa" and "Banū Jadhīma" follow a marker and NO name — they are names, and
+        # until 2026-09-22 the known word "Abū" was taken as their parent and they were never reported.
+        if chain and prev_real is not None:
+            out.append((re.sub(r"(?:'s|’s)$", "", tok), None, prev_real))
         else:
             a = max(0, m.start() - 34); b = min(len(text), m.end() + 34)
             out.append((re.sub(r"(?:'s|’s)$", "", tok),
                         "…" + text[a:b].replace("\n", " ") + "…", None))
-        prev_name, prev_marker = k, k in MARKER
+        prev_real, chain = k, False
     return out
 
 
@@ -141,7 +160,7 @@ def card_text(c):
 def delivered_ids():
     if not os.path.exists(DELIVERED):
         return []
-    return CARD_ID.findall(open(DELIVERED, encoding="utf-8").read())
+    return SPOKEN_ROW.findall(open(DELIVERED, encoding="utf-8").read())
 
 
 def acknowledged(runsheet_path):

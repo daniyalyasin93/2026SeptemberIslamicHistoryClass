@@ -41,6 +41,10 @@ explicitly and give a reason — do not quietly reverse it.
 | 41 | 2026-09-19 | The Umm Tamīm ؓ connection is recorded, and is not spoken | active |
 | 42 | 2026-09-19 | **Evening 4 runs in chronological order; Kinda is last** | active |
 | 43 | 2026-09-19 | **Nothing walks on stage un-introduced** — `check_introductions.py` is the gate | active |
+| 44 | 2026-09-22 | **Evening 4 is cut to Parts I–IV, ending at STOP C**; Kinda rolls to evening 5 | active |
+| 45 | 2026-09-22 | **Bridge slides at the seams** — a deck is read as a story, not card by card | active |
+| 46 | 2026-09-22 | Evening 4 review: authored face excerpts, no spoilers in the notes, maps rendered by the build | active |
+| 47 | 2026-09-22 | **Evening 4 carries an overflow Part V behind the planned close** | active |
 
 ---
 
@@ -846,3 +850,137 @@ whole force with no gloss and no page (⁨البسوس⁩), and **forward refere
 Two limits, both stated in the tool's own docstring: a name introduced only inside an **optional
 block is not introduced** — the notice belongs on a card that is never cut; and **evening 1's card
 ids were never recorded**, so nothing from the orientation evening is in the known set.
+
+## 44 · Evening 4 is cut to Parts I–IV, ending at STOP C — 2026-09-22
+
+Daniyal, asked for the cut the runsheet had been waiting on: **Parts I–IV, ending at STOP C** — the two
+claimants, al-Buṭāḥ and the reckoning at Medina, the road to al-Yamāma, and the day at ʿAqrabāʾ up to
+«⁨امتازوا⁩». 31 cards. The runsheet had recommended stopping at STOP B (Parts I–III, 20 cards) with Part IV
+as overflow; he took the longer evening.
+
+**Why that is the right size, not an over-reach.** The runsheet's budget is ≈ 1.7 min a card, which puts
+Parts I–IV at ≈ 57.5 minutes against 34 story minutes. But that budget is not the room's pace: **evening 3
+spoke 32 cards in the slot** (`DELIVERED.md`). Thirty-one cards is an evening at the pace the room has
+actually shown.
+
+**What the cut settles.**
+- **The deck ends visibly at STOP C** (slides 47–50: the Line, the map, «Tonight», next week), and those
+  two closing slides open evening 5 (#23). **STOP A and STOP B are built and hidden** at the end of the deck;
+  `CUE.pdf` prints their slide numbers, so an early close is a typed number, not a hunt. **STOP D is gone**
+  with Part V.
+- **Parts V and VI leave the deck.** They stay in `S04_kinda_butah_yamama/RUNSHEET.md`, whole, under
+  *Rolled forward to evening 5* as `###` headings, so `build.py` and `check_introductions.py` do not read them
+  and evening 5 can lift the tables unchanged.
+- **Ḥaḍramawt/Kinda is deferred a third time** — evening 3's Part III, evening 4's Part V, now evening 5.
+  #42 stands: chronological order, Kinda last. The bookend-IN line no longer promises "at the end of the
+  evening we come back south"; it says Ḥaḍramawt stays grey tonight.
+- **The worksheet beat moves to STOP B** — on the room's pace that is where 0:26 falls — and its three
+  people are Mālik b. Nuwayra ؓ, Mujjāʿa b. Murāra and Thābit b. Qays ؓ (al-Ashʿath left with Kinda).
+- **The closing «Tonight» slide draws across the evening** — `ATA/E-TB15`, `RCT/E-RC50`, `RC58`, `RC19` —
+  and no closing set uses `RC54`'s line, whose "It worked" gives away a day the room has not seen decided.
+
+**If the evening runs short,** drop GOOD cards in the order the runsheet gives (#2, #5, #4, #18, #21, #30);
+if that is not enough, close at STOP B and Part IV opens evening 5. Part II is still all or nothing.
+
+## 45 · Bridge slides at the seams — 2026-09-22
+
+Daniyal, reviewing `S04.pptx` "from story telling perspective": *"there is fast shift between slides,
+without filling in the missing details in between which would be narrative or story discontinuity, we
+might need to add a few slides to fill this in. for example when khalid started towards butah, a brief
+summary would have to be given that he was at buzakha and was told to go to butah."*
+
+One slide per card (#39) made every card clean and left the joins between them unspoken. The room hears
+a sequence of scenes; the speaker knows how one leads to the next, and the slides did not show it.
+
+**Settled: every deck is read as a story before it is finished**, and wherever consecutive slides jump
+in time, place or thread, a **bridge slide** goes in. A bridge is not a card. It is three steps — where
+we were, what happened, where we are going — drawn only from the cards (and, where a card does not carry
+it, from a page already in the cache), with the sentence to say in its notes. Evening 4 has five, built
+by `S04_kinda_butah_yamama/build.py` (`BRIDGE_BEFORE`) and listed in its runsheet:
+
+| Before | Bridge | The seam |
+|---|---|---|
+| #1 | *Tonight: back to the north* | evening 3 ended in the Yemen; tonight opens on a letter from al-Yamāma, a year earlier |
+| #7 | *After Buzākha* | the orders tied at Dhū al-Qaṣṣa — «⁨وأمره بطُلَيْحة … فإذا فرغَ سار إلى مالك بن نُوَيْرَةَ بالبطاح إن أقام له⁩» (⁨البدایہ ج۷ ص۲۲⁩) — Daniyal's own example |
+| #16 | *Back to the mosque, 11 AH* | #15 closes years later, in ʿUmar's ؓ caliphate |
+| #17 | *Meanwhile, at al-Yamāma* | the two commanders who were on that road before Khālid ؓ |
+| #21 | *Where we are* | the re-entry after the worksheet, for anyone who has just come in |
+
+**The usual seams**, to look for on every evening: a flashback or a flash-forward; a second front told
+after the first; the first card of each Part; and the re-entry after the worksheet pause. The cue sheet
+marks each bridge with «»» and the briefing lists their spoken lines.
+
+## 46 · Evening 4 review: what it changed — 2026-09-22
+
+A six-lens review of the finished evening (five lenses completed; `max-four-agents`: fan-out is now
+capped at four) found 73 defects; each was checked against the files before it was fixed. The ones that
+change how evenings are built, not just this one:
+
+- **The slide face is an authored excerpt, not a blind cut.** The builder cut every English rendering at
+  24 words, so the room read *"…he had meant nothing but…"* under a complete Arabic line, and Part II's
+  faces were one-sided — slide 20 showed Abū Qatāda's ؓ testimony and cut the other half of the patrol.
+  Where a quotation does not fit, `build.py` now carries a `FACE_QUOTE`: the Arabic and the English cut at
+  the same clause, every cut marked «…», and **the build refuses any segment that is not the card's own
+  words** (`check_face_quotes`). The notes keep the whole quotation. Evening 4 has 20. The shared
+  `statement_slide` now measures type properly and never lets English run onto the citation.
+- **#11 is four accounts side by side, not one.** Its face had projected Ibn al-Athīr's gloss alone — the
+  account that clears Khālid ؓ — at the centre of a part that is never a verdict. It is now a 2 × 2 grid
+  of the four, from the campaign note's §5.7(d) table.
+- **No spoilers in the speaker's own lines.** Beats had Thābit ؓ die at #2, Musaylima die at #3, and
+  RC54's عبرت say *"It worked"* at #19. Pool cards `TB16`, `TB12`, `RC53`, `RC54` and `RC19` are reworded;
+  the early-close Lines no longer draw tonight's untold events; the worksheet (in the room's hands at STOP
+  B) no longer prints two Part IV events.
+- **Two words that take sides are gone.** *"A later caliph"* for Muʿāwiya ؓ called him caliph, which
+  §17.4 of the QA bank does not; the face now ends before his name and the beat says "for many years".
+  The watchword «⁨يا محمداه⁩» at #30 is off the face and the cue — a live proof-text in this country —
+  and has a prepared answer (`QA_BANK.md` §6.11, **for Tanzeem-e-Islami to review**). *"Dowry"* at #5 is
+  "the price he paid" (§6.10).
+- **ʿIkrima ؓ and Shuraḥbīl b. Ḥasana ؓ get their one-breath notices** on `RCT/E-RC15` (never cut),
+  page-cited: ⁨سیر ج۱ ص۳۲۳⁩ and ⁨البدایہ ج۷ ص۲۰۸⁩.
+- **The introductions gate could not see** names beginning Ḥ, Ḍ, Ṣ, Ṭ, Ẓ, nor any name after Abū, Banū or
+  Umm (it took the known word as a parent), and it counted evening 3's *unspoken* Kinda cards as
+  delivered. All three fixed in `tools/check_introductions.py`; the fourteen names it then found are
+  answered in the runsheet.
+- **Maps are rendered by the pipeline** (`tools/render_scene.py`, headless Map Studio) and placed as
+  JPEGs; the title box is off (its type was 5–9pt on the slide); a missing render makes the build exit
+  non-zero. `S04.pdf` now includes the hidden slides, so the cue sheet's "type 56" is page 56.
+
+**Left open, for Daniyal:** Umm Tamīm carries ؓ on `RC17`, the cue sheet and #41, and none on `RC16`; no
+page we hold settles her Companionship either way.
+
+## 47 · The planned close stays in place, and the story goes on behind it — 2026-09-22
+
+Daniyal, after reading the built deck: *"i think i will run out of material with the current s04. I think
+we should build more slides, continue the story, we should still keep the slides that give summary end of
+current version, so that if i can i stop there, but there should slides afterwards to that if i need to i
+can continue."*
+
+#44 cut the evening to Parts I–IV and 31 cards, and #20 has always said to build ~70 minutes for the
+45-minute slot. Thirty-one cards at the room's real pace is not 70 minutes, and an evening that runs out
+of material is worse than one that runs over: the speaker fills, and filling is where a stage-frightened
+speaker gets into trouble.
+
+**Settled: the deck holds both endings, in this order.**
+
+| Slides | |
+|---|---|
+| … 51 | Parts I–IV, ending at «⁨امتازوا⁩» |
+| **52–55** | **the STOP C close, in its place** — the Line, the map, the four ⁨عبرت⁩ lines, next week |
+| 56–64 | **Part V**, the overflow: the garden · the death of Musaylima · the terms at the forts · Zayd ؓ and his brother · the Qurʾān gathered |
+| **65–68** | **the STOP D close** — the same four slides for the fuller ending |
+| 69–76 | STOP A and STOP B, hidden, for an early close |
+
+**Stopping needs no jump; going on is one typed number.** The close sits where the evening is planned to
+end, so if the clock has run out he simply closes. If it has not, `CUE.pdf` prints the number of Part V's
+first slide (56 today) beside the STOP C row, and a bridge slide re-anchors the room on the other side.
+
+**What it costs, and why it is still right.** Whatever Part V reaches is spoken, so evening 5 starts from
+wherever this stops (`DELIVERED.md`, #33) — and evening 5 still has Ḥaḍramawt/Kinda, which is last (#42).
+Part V ends on the collection of the Qurʾān, which is the strongest ending the ⁨ردة⁩ arc has; if it is
+spoken tonight it is not available to evening 5, and that is an acceptable trade for an evening that
+cannot run dry.
+
+**Also settled here:** the five Part V cards (`RC20`, `RC21`, `RC22`, `RC23`, `RC37`) had no `**Beats:**`
+list — they predate #37 — so the lectern would have fallen back to prose. Beats were written for all five
+from each card's own text, in the pool and in the research note, and `check_citations` is still silent.
+

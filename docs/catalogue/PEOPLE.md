@@ -153,3 +153,20 @@ bare fact underneath — that the Companions pressed him and he turned back — 
 ⁨الکامل ج۲ ص۲۰۳⁩–۲۰۴ with no isnād problem.
 
 ---
+
+---
+
+## Notices given on a card before their entry is written — to promote into §E and §F
+
+Added 2026-09-22 by the evening-4 review (`DECISIONS.md` #43, #46): both men carried cards with no
+⁨تراجم⁩ notice anywhere in the delivered series. The notice is spoken from `RCT/E-RC15` beats 1–2; the
+quotations are on that card, and `tools/check_citations.py` checks them against the cached pages.
+
+| | ⁨عكرمة بن أبي جهل ؓ⁩ | ⁨شرحبيل بن حسنة ؓ⁩ |
+|---|---|---|
+| **⁨نام و نسب⁩** | ⁨عكرمة بن أبي جهل عمرو بن هشام المخزومي⁩, of **⁨بنو مخزوم⁩** — ⁨سیر ج۱ ص۳۲۳⁩ `[SOURCED]` | ⁨شرحبيل بن عبد الله بن المطاع بن قطن الكندي، حليف بني زهرة⁩ — «⁨وحَسَنَةُ أمه، نسب إليها وغلب عليه ذلك⁩» — ⁨البدایہ ج۷ ص۲۰۸⁩ `[SOURCED]` |
+| **⁨لقب⁩** | the tradition's own descriptor: «⁨الشَّرِيْفُ، الرَّئِيْسُ، الشَّهِيْدُ⁩» — ⁨سیر ج۱ ص۳۲۳⁩ | none printed. Plain descriptor from the page: «⁨أحد أمراء الأرباع، وهو أمير فلسطين⁩» |
+| **⁨سنین⁩** | died a martyr in Syria, **13 or 15 AH** (634 or 636 CE) — the books differ, Ajnādayn or al-Yarmūk (`the-men-who-had-fought-against-it.md` §3.5) | died in the plague, **18 AH** (639 CE), on the same day as Abū ʿUbayda ؓ — «⁨وطعن هو وأبو عبيدة وأبو مالك الأشعري في يوم واحد سنة ثماني عشرة⁩», ⁨البدایہ ج۷ ص۲۰۸⁩ `[SOURCED]` |
+| **⁨کیا کیا⁩** | led Banū Makhzūm after his father fell at Badr; accepted Islam; carried Abū Bakr's ؓ banner against Musaylima, was beaten, and was sent on by Oman and Mahra to the Yemen | an early Muslim who emigrated to Abyssinia; sent behind ʿIkrima ؓ against Musaylima, beaten in his turn, then given Khālid's ؓ vanguard at ʿAqrabāʾ; later commanded a quarter of the army in Syria |
+| **⁨ایک واقعہ⁩** | "Let me not see you and do not you see me" — the letter that sent him on instead of home (`RCT/E-RC15`, ⁨الکامل ج۲ ص۲۱۴⁩–۲۱۵) | the vanguard at ʿAqrabāʾ, days after his own defeat (`RCT/E-RC53`, ⁨البدایہ ج۷ ص۳۳⁩) |
+

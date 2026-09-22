@@ -29,6 +29,9 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "series"))
+# every evening's build imports this module; a cp1252 console would crash on the first ʿ or ؓ it prints
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(errors="replace")
 import deck2 as D                                                   # noqa: E402
 
 CARD = re.compile(r"^### (\S+)\s*·\s*(.*?)\s*$", re.M)
@@ -44,7 +47,10 @@ FIELD = {
     "when": re.compile(r"\*\*When:\*\*\s*(.*?)\s*(?:·\s*\n?\s*\*\*Map|\n\*\*|\n\s*\n)", re.S),
     "map": re.compile(r"\*\*Map:\*\*\s*(.*?)(?=" + NEXT_FIELD + r"|\n\s*\n|\Z)", re.S),
     "ibrah": re.compile(r"\*\*عبرت:\*\*\s*(.*?)(?=" + NEXT_FIELD + r"|\n\s*\n|\n---|\Z)", re.S),
-    "hands": re.compile(r"\*\*Hands-up\?\*\*\s*(.*?)(?=" + NEXT_FIELD + r"|\n\s*\n|\n⚠|\n---|\Z)", re.S),
+    # the field also ends at the next bold heading ("no **Also on the page:** …"): until 2026-09-22 it
+    # swallowed that block, and 20 of evening 4's 31 slides carried a false "HANDS UP — no …" cue
+    "hands": re.compile(r"\*\*Hands-up\?\*\*\s*(.*?)(?=" + NEXT_FIELD
+                        + r"|\n\s*\n|\n⚠|\n---|\n\*\*|\s\*\*[A-Z][^*\n]{1,60}\*\*|\Z)", re.S),
 }
 def is_na(v):
     """A card field the researcher marked not-applicable.
@@ -59,7 +65,8 @@ _NA = re.compile(r"\s*n\s*/?\s*a\b", re.I)
 
 
 # Qualified labels too — "[SOURCED, disputed]" reached a slide face on 2026-09-16 because this matched only the bare form.
-LABEL = re.compile(r"\[(?:SOURCED|STANDARD|CONVENTIONAL-ESTIMATE)[^\]]*\]|\(to verify\)", re.I)
+# "(to verify)" also comes with a reason attached — "*(to verify: the pages give the battle, not the year)*"
+LABEL = re.compile(r"\[(?:SOURCED|STANDARD|CONVENTIONAL-ESTIMATE)[^\]]*\]|\*?\(to verify[^)]*\)\*?", re.I)
 WHAT = re.compile(r"\*\*What happened:\*\*\s*(.*?)(?=" + NEXT_FIELD + r"|\Z)", re.S)
 STATEMENT = re.compile(r"\*\*The statement:\*\*\s*\n((?:>.*\n?)+)", re.M)
 # BEATS (DECISIONS.md #37): one line per event the speaker must tell, drawn only from the card's own text,
@@ -95,6 +102,10 @@ def parse_statement(block):
         is_cite = line.startswith(("\u2014", "\u2013", "--")) or "shamela.ws" in line
         is_ar = ar > la and not is_cite
 
+        if is_cite and cite is not None and not english and cite.count("(") > cite.count(")"):
+            # "ص۲۳۲ (the ransom terms run on to" / "> ج۲ ص۲۳۳ · https://…)" — one citation, two lines
+            cite = cite + " " + re.sub(r"\s*\u00b7?\s*https?://\S+", "", line).strip()
+            continue
         if is_cite:
             if cite is None:
                 # the URL is unreadable projected; the printed page is what a listener can look up
@@ -105,6 +116,11 @@ def parse_statement(block):
         elif is_ar:
             if phase == "ar":
                 arabic.append(line)
+            elif phase == "en" and not english and re.search(r"(?:\bvia|\bfrom|,)\s*$", cite):
+                # the citation broke off mid-phrase and wrapped: "— صحيح البخاري ٤٣٧٣, via" /
+                # "> ابن عباس ؓ". Read as the next quotation, this line cost ATA/E-TB16 and E-TB17
+                # their English rendering.
+                cite = cite + " " + line
             else:
                 break                  # Arabic again after the rendering: the next quotation
         else:
@@ -179,7 +195,7 @@ def runsheet(path):
 
 
 MARKS = re.compile("[ً-ٰٟۖ-ۭـ]")
-AR_SLIDE_MAX = 190          # characters of unvowelled Arabic that fit legibly at 44pt+
+AR_SLIDE_MAX = 180          # unvowelled Arabic that fits at 44pt: three lines of 60, and a line of English
 EN_SLIDE_MAX = 24           # words of rendering that fit above the citation without touching it
 
 
@@ -220,9 +236,13 @@ def notes_for(c):
 
     if c["ibrah"]:
         bits.append("عبرت — " + c["ibrah"])
-    if c["hands"] and c["hands"].lower() not in ("no", "no.", "—"):
+    no = re.match(r"^no\b[\s.,;:\u2014\u2013-]*(.*)$", c["hands"] or "", re.I | re.S)
+    if no:
+        if no.group(1).strip("* "):
+            bits.append("\u26a0 " + no.group(1).replace("**", "").strip("* "))
+    elif c["hands"] and c["hands"] != "\u2014":
         bits.append("HANDS UP — " + c["hands"])
-    if c["map"]:
+    if c["map"] and not is_na(c["map"]):
         bits.append("MAP — " + c["map"])
 
     extra = re.sub(r"(?m)^\s*-{3,}\s*$", "", c.get("extra") or "").strip()
@@ -310,8 +330,8 @@ TRANSLIT = [
 ]
 
 
-CITE_VOL = re.compile(r"ج\s*(\d+)")
-CITE_PG = re.compile(r"ص\s*(\d+)")
+CITE_VOL = re.compile(r"جـ?\s*(\d+)")
+CITE_PG = re.compile(r"ص\s*(\d+(?:\s*[\u2013-]\s*\d+)?)")
 
 
 def cite_en(t):
@@ -323,11 +343,25 @@ def cite_en(t):
     disappears rather than being fought.
     """
     t = clean(t)
-    vol, pg = CITE_VOL.search(t), CITE_PG.search(t)
+    # What follows a " · " is the researcher's remark ("straddles the page break"), and a
+    # ", via …" clause is the chain of narrators. Both belong in the notes, not in front of the room.
+    t = re.split(r"\s+\u00b7\s+", t)[0]
+    t = re.sub(r",?\s+(?:via|from)\b.*$", "", t)
+    t = re.sub(r"\s*\([^()]*[A-Za-z][^()]*\)", "", t)          # "(opening words)", "(the page turn …)"
+    t = re.sub(r"\s*\([^()]*$", "", t)                           # a remark the URL strip left unclosed
+    # The volume and page belong to the book they cite — the first segment — so a second authority
+    # ("— Sahih al-Bukhari 2845") follows the page instead of splitting the book from it.
+    head, _, rest = t.partition(" \u2014 ")
+    vol, pg = CITE_VOL.search(head), CITE_PG.search(head)
+    pages = pg and re.sub(r"\s*[\u2013-]\s*", "\u2013", pg.group(1))
     tail = ", ".join(x for x in (("vol. " + vol.group(1)) if vol else None,
-                                 ("p. " + pg.group(1)) if pg else None) if x)
-    name = clean(CITE_PG.sub("", CITE_VOL.sub("", t)), translit=True).strip(" ,-")
-    return ", ".join(x for x in (name, tail) if x)
+                                 (("pp. " if "\u2013" in pages else "p. ") + pages) if pg else None)
+                     if x)
+    name = clean(CITE_PG.sub("", CITE_VOL.sub("", head)), translit=True)
+    name = re.sub(r"\s*\(\s*\)", "", name).strip(" ,-")          # a volume title with no romanisation
+    out = ", ".join(x for x in (name, tail) if x)
+    rest = clean(rest, translit=True).strip(" ,-") if rest else ""
+    return out + (" \u2014 " + rest if rest else "")
 
 
 TIER_LEAD = re.compile(r"^\s*(?:CORE|GOOD|CUT)\b\s*[\u2014\u2013:.\-]*\s*", re.I)
@@ -397,7 +431,8 @@ def kicker_for(c):
     """The date line over a slide's headline. ONLY the date reaches the slide face: the tier, the
     certainty label and the card id are production apparatus and belong in the speaker notes
     (DECISIONS.md #30) — deck2's audit refuses a build that puts any of them in front of the room."""
-    kicker = clean(LABEL.sub("", short(face(c["when"]), 6)), translit=True).replace("ھ", " AH")
+    # strip the labels BEFORE the six-word cut: cut first, "*(to verify: the pages…*" lost its closing paren
+    kicker = clean(short(LABEL.sub("", face(c["when"])), 6), translit=True).replace("ھ", " AH")
     return re.sub(r"\s{2,}", " ", kicker).strip(" ·,-") or None
 
 
@@ -417,21 +452,28 @@ def beat_slide(prs, c, i, extra_notes=""):
     return s
 
 
-def card_slide(prs, c, extra_notes="", arabic_on_face=True, face_text=None):
+def card_slide(prs, c, extra_notes="", arabic_on_face=True, face_text=None, face_quote=None,
+               tail_notes=""):
     """One card -> one slide, by the rules in the module docstring. Returns the slide, or None.
 
     `arabic_on_face=False` keeps the statement in the speaker notes only: for a quotation that must
     not be projected, such as words a claimant's own people used of him to save their lives.
     `face_text` puts one plain English sentence on the face instead — use it with arabic_on_face=False
     when the card's own rendering is the thing that must not be shown.
+    `face_quote` is an (arabic, english) excerpt authored for the face — both halves cut to the same
+    clause, the evening's build checks they are the card's own words. The notes keep the whole quotation.
     """
+    notes_c = c
+    if face_quote:
+        c = dict(c, arabic=face_quote[0], english=face_quote[1])
     if not arabic_on_face:
         c = dict(c, arabic=None)
     head = headline_for(short(face(c["title"]), 9))
     # ONLY the date reaches the slide face. The tier, the certainty label and the card id
     # are production apparatus and belong in the speaker notes (DECISIONS.md #30) — deck2's
     # audit now refuses a build that puts any of them in front of the room.
-    kicker = clean(LABEL.sub("", short(face(c["when"]), 6)), translit=True).replace("\u06be", " AH")
+    # strip the labels BEFORE the six-word cut: cut first, "*(to verify: the pages\u2026*" lost its closing paren
+    kicker = clean(short(LABEL.sub("", face(c["when"])), 6), translit=True).replace("\u06be", " AH")
     kicker = re.sub(r"\s{2,}", " ", kicker).strip(" \u00b7,-") or None
 
     try:
@@ -441,7 +483,9 @@ def card_slide(prs, c, extra_notes="", arabic_on_face=True, face_text=None):
             # The rendering is truncated on the slide and given whole in the notes. A 146-word
             # translation projected at 30pt is not readable from the back of a hall, and the
             # deck contract exists precisely to stop that being shipped again.
-            s = D.statement_slide(prs, english=clean(short(face(c["english"]), EN_SLIDE_MAX)),
+            # the whole rendering: statement_slide measures it and cuts at a clause only if it must.
+            # A blind 24-word cut here threw away words that fitted ("…he had meant nothing but…").
+            s = D.statement_slide(prs, english=clean(face(c["english"])),
                                   arabic=c["arabic"], cite=face(cite_en(c["cite"])),
                                   headline=head, kicker=kicker)
         elif c["arabic"]:
@@ -465,7 +509,8 @@ def card_slide(prs, c, extra_notes="", arabic_on_face=True, face_text=None):
                                     "architecture, objects or texture only — no people, no "
                                     "faces. Muted ochre, teal and bone. 16:9."
                                     % short(c["what"], 30))
-        D.note(s, (extra_notes + "\n\n" if extra_notes else "") + notes_for(c))
+        D.note(s, (extra_notes + "\n\n" if extra_notes else "") + notes_for(notes_c)
+               + ("\n\n" + tail_notes if tail_notes else ""))
         return s
     except D.DeckContractError as e:
         # A card that will not fit the contract is skipped rather than allowed to weaken it;

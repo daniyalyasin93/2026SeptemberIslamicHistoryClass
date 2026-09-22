@@ -115,3 +115,19 @@ Cards spoken, in the order delivered (32) — Parts I and II of `S03_yemen/RUNSH
 
 **Closing pair used:** STOP B — the Line at 11–12 AH with Yemen settled; the map with Ṣanʿāʾ blue and
 Ḥaḍramawt still grey. **These two slides open evening 4** (`DECISIONS.md` #23).
+
+## Evening 4 — al-Buṭāḥ and al-Yamāma
+
+| | |
+|---|---|
+| Folder | `S04_kinda_butah_yamama/` |
+| Cut | **Parts I–IV, to STOP C** (Daniyal, 2026-09-22 — `DECISIONS.md` #44), **with an overflow Part V behind that close** (#47): the garden, the death of Musaylima, the terms at the forts, Zayd ؓ, and the collection of the Qurʾān. Ḥaḍramawt/Kinda still rolls to evening 5 |
+| Endings | STOP C at slides 52–55 (planned) · STOP D at 65–68 (if Part V was spoken) · STOP A 69 and STOP B 73, hidden. **Record which one was used** |
+| Deck | `S04.pptx` + `S04.pdf` — built, one slide per card; `CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf` beside it |
+| Delivered | ⬜ **not yet** |
+
+**After the evening, replace this block** with the cards actually spoken, in the order spoken, and where it
+stopped. Until then this section names **no card ids on purpose**: `tools/check_introductions.py` treats
+every id in this file as already spoken, so listing tonight's plan here would hide evening 5's first
+appearances.
+

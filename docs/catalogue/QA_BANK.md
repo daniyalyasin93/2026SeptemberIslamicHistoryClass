@@ -332,25 +332,6 @@ command was kept — and the precedent for that handling is prophetic.**
 - Do not use ⁨الکامل ج۲ ص۲۱۴⁩'s note that two of ⁨خالد ؓ⁩'s nephews fell «⁨في هذه الوقعة⁩» — the antecedent
   of "this engagement" is not unambiguous on the page.
 
-### 6.3 ⚠ "The woman in Khālid's ؓ tent at al-Yamāma — is that the same woman?"
-
-**Yes, on Ibn Kathīr's own naming, and expect this slip** (`DECISIONS.md` #41). He names the widow of
-⁨مالك بن نويرة ؓ⁩ whom ⁨خالد ؓ⁩ married as **⁨أم تميم ابنة المنهال⁩** (⁨البدایہ ج۷ ص۳۰⁩ ·
-https://shamela.ws/book/30097/3176), and names the woman in ⁨خالد ؓ⁩'s tent at ⁨عقرباء⁩ — whom ⁨مجاعة⁩
-protects, and who then protects him — as **⁨أم تميم امرأة خالد⁩** (⁨ج۷ ص۳۳⁩ ·
-https://shamela.ws/book/30097/3179). Same book, three pages apart, same name.
-
-**It is deliberately not said from the platform** (#41): it is needed for no event, and drawing the
-line invites exactly the adjudication `CLAUDE.md` §1.6 forbids. If a slip asks:
-
-> *You have read it correctly — Ibn Kathīr gives the same name in both places, and I did not join
-> them up on the screen. I did not because it changes nothing about either scene and it invites a
-> judgement the books themselves do not make. What the books do say about al-Buṭāḥ is what I gave
-> you: Abū Bakr ؓ said «⁨تأول فأخطأ⁩», paid the blood-money, and kept him in command.*
-
-**⛔ Do not** build an inference on it in either direction — neither that it aggravates the episode
-nor that it softens it. Neither reading is on a page.
-
 ### 6.2 ⛔ "I have heard that Mālik's ؓ head was used as a stone under a cooking pot"
 
 **It is on the page** — ⁨البدایہ ج۷ ص۳۱⁩, and ⁨سیر ص۴۴⁩: that ⁨مالك ؓ⁩'s head was used as one of three
@@ -494,6 +475,55 @@ books.*
 
 ---
 
+### 6.9 ⚠ "The woman in Khālid's ؓ tent at al-Yamāma — is that the same woman?"
+
+**Yes, on Ibn Kathīr's own naming, and expect this slip** (`DECISIONS.md` #41). He names the widow of
+⁨مالك بن نويرة ؓ⁩ whom ⁨خالد ؓ⁩ married as **⁨أم تميم ابنة المنهال⁩** (⁨البدایہ ج۷ ص۳۰⁩ ·
+https://shamela.ws/book/30097/3176), and names the woman in ⁨خالد ؓ⁩'s tent at ⁨عقرباء⁩ — whom ⁨مجاعة⁩
+protects, and who then protects him — as **⁨أم تميم امرأة خالد⁩** (⁨ج۷ ص۳۳⁩ ·
+https://shamela.ws/book/30097/3179). Same book, three pages apart, same name.
+
+**It is deliberately not said from the platform** (#41): it is needed for no event, and drawing the
+line invites exactly the adjudication `CLAUDE.md` §1.6 forbids. If a slip asks:
+
+> *You have read it correctly — Ibn Kathīr gives the same name in both places, and I did not join
+> them up on the screen. I did not because it changes nothing about either scene and it invites a
+> judgement the books themselves do not make. What the books do say about al-Buṭāḥ is what I gave
+> you: Abū Bakr ؓ said «⁨تأول فأخطأ⁩», paid the blood-money, and kept him in command.*
+
+**⛔ Do not** build an inference on it in either direction — neither that it aggravates the episode
+nor that it softens it. Neither reading is on a page.
+
+### 6.10 ⛔ "Sajāḥ and Musaylima — did they marry? What happened when they met?"
+
+**Added 2026-09-22 (evening-4 review).** Evening 4 says one thing about the meeting (`ATA/E-TB19`): he
+bought her off with half the kharāj of his land, and the price he paid was the remission of two of the
+five prayers. **The narrative of the meeting itself, ⁨البدایہ ج۷ ص۲۹⁩–۳۰, is explicitly obscene** and is
+never read, paraphrased or alluded to (runsheet, *Not for any evening*). The slip is the obvious next
+question, so the answer is fixed in advance:
+
+> *It is in the book, and it is not something I will tell from a platform. The one fact I gave you is the
+> price he paid for her claim — two of the five prayers — and the end of her story, which is better: she
+> became Muslim in ʿUmar's ؓ days, and her Islam was good (⁨البدایہ ج۵ ص۲۴⁩, quoting al-Suhaylī).*
+
+**⛔ Do not** confirm or deny any detail of the meeting, and do not name the page aloud.
+
+### 6.11 ⚠ "At al-Yamāma the Muslims called «⁨يا محمداه⁩». Is it permitted to call on the Prophet ﷺ like that?"
+
+**Added 2026-09-22 (evening-4 review) — ⚠ for Tanzeem-e-Islami to review before the evening** (`CLAUDE.md`
+§1.5). Ibn Kathīr records that on the day of ⁨عقرباء⁩ Khālid ؓ «⁨نادى بشعار المسلمين - وكان شعارهم
+يومئذ: يا محمداه -⁩» (⁨البدایہ ج۷ ص۳۴⁩ · https://shamela.ws/book/30097/3180; card `RCT/E-RC62`). In this
+country the phrase is a proof-text in a live doctrinal dispute, and §8.3 already treats a different
+«⁨يا محمداه⁩» report as ⛔. **So evening 4 keeps it off the slide face and off the cue sheet**; it stays in
+the speaker notes, and whether it is said at all is the speaker's choice. If a slip asks:
+
+> *It was the army's watchword — a ⁨شعار⁩, the cry by which men knew their own side in the dust of a
+> battle — and Ibn Kathīr records it as a fact of that day. What it means for calling upon the Prophet ﷺ
+> is a question of ʿaqīda, and this course narrates history; it does not rule on that. It is a question
+> for the ʿulamāʾ, and I would take it to them.*
+
+**⛔ Do not** argue either side, and do not cite the report as evidence for or against anything.
+
 ## 7 · Session 2 — the households, and the difference between a kinship and a guess
 
 `docs/research/the-house-of-umm-sulaym.md` §X is the source for this whole section. Its standing
@@ -624,6 +654,29 @@ only so the speaker is not ambushed by it. **It is CUT.**
 **The answer:** *Ibn Hishām mentions it as something that reached him, with no chain at all. Ibn Kathīr
 records it without endorsing it. We do not build anything on a report of that grade about a
 Companion ؓ.* Then stop.
+
+---
+
+### 7.10 ⚠ "Waḥshī ؓ killed ⁨حمزة ؓ⁩. Why do you say ؓ after his name?"
+
+**Added 2026-09-22, because evening 4's Part V names him exactly that way** (`RCT/E-RC21`): *the man who
+had killed Ḥamza ؓ at Uḥud, before he was a Muslim.* The room will ask, and the answer is entirely on the
+page — it is the sequence, told in order, and nothing else:
+
+- He killed Ḥamza ؓ at Uḥud **as a non-Muslim**, for his freedom (⁨البدایہ ج۴ ص۱۸۴⁩ — he tells it himself).
+- He came to the Prophet ﷺ afterwards **and accepted Islam**. The Prophet ﷺ asked him to describe how he
+  had killed Ḥamza ؓ, and then said: «⁨ويحك! غيّب عني وجهك فلا أرينّك⁩» — *woe to you, keep your face away
+  from me; let me not see you.* He kept out of the Prophet's ﷺ sight from then on (⁨البدایہ ج۴ ص۱۸۵⁩).
+- At al-Yamāma, **the same man with the same spear** killed the false prophet — and he refused to claim
+  it: «⁨فَربُّك أعلمُ أيُّنا قَتَله⁩» (⁨البدایہ ج۷ ص۵۱⁩; and §5.3 here).
+
+> *He was not a Muslim when he killed Ḥamza ؓ; he became one afterwards, and the Prophet ﷺ accepted his
+> Islam and told him to keep his face out of his sight — both things are on the same page. The honorific
+> is for the Companion he became. Years later, the same spear that killed Ḥamza ؓ killed Musaylima, and
+> when men wanted to credit him with it he would not take the credit.*
+
+**⛔ Do not** weigh his Islam, rank him against anyone, or use the "best of men … worst of men" saying —
+it is a ranking claim, and it is not needed for any of this.
 
 ---
 

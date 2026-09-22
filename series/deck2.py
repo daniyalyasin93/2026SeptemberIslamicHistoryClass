@@ -400,7 +400,7 @@ def _placeholder(s, x, y, w, h, brief, wanted):
              scaffold=True, name=SCAFFOLD + "path")
 
 
-def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=None):
+def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=None, map_frac=0.60):
     """A map on the left, a short key down the right.
 
     The theatre of these campaigns — Egypt to Persia, Anatolia to Yemen — is very nearly square,
@@ -415,11 +415,14 @@ def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=No
         raise DeckContractError("%d key lines beside a map; five is the cap. More than that and "
                                 "nobody reads the map." % len(keys))
 
-    map_w = Emu(int(CONTENT_W * (0.60 if keys else 1.0)))
+    # map_frac: a 16:9 render in a 60% column is width-bound and leaves half the slide empty beneath
+    # it; evening 4's rendered maps pass 0.70
+    map_w = Emu(int(CONTENT_W * (map_frac if keys else 1.0)))
     map_h = CONTENT_H - (Inches(0.62) if caption else Inches(0))
 
     path = image if image and os.path.isabs(image) else os.path.join(VIS, image or "")
-    if image and os.path.exists(path):
+    placed = bool(image and os.path.exists(path))
+    if placed:
         path = _trim(path)
         pic = s.shapes.add_picture(path, MARGIN, CONTENT_Y, height=map_h)
         if pic.width > map_w:
@@ -439,7 +442,10 @@ def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=No
             label, sub = (k if isinstance(k, (tuple, list)) else (k, None))
             y = CONTENT_Y + Inches(0.12) + Emu(int(i * step))
             rect(s, kx, y + Inches(0.06), Inches(0.06), Inches(0.34), fill=GOLD)
-            text(s, label, kx + Inches(0.22), y, kw - Inches(0.22), Inches(0.5),
+            # 28pt Georgia bold runs about 0.21in a character: at map_frac 0.70 the column holds
+            # fourteen, and "al-Buṭāḥ → Medina" wrapped onto its own sub-line (evening 4, slide 20)
+            lines = max(1, -(-int(len(label) * 0.21 * 914400) // int(kw - Inches(0.22))))
+            text(s, label, kx + Inches(0.22), y, kw - Inches(0.22), Inches(0.5) * lines,
                  size=BODY_PT, color=DARK, font=EN, bold=True)
             if sub:
                 # eight, not twenty: at the 24pt floor a longer line wraps, and a wrapped key
@@ -447,19 +453,45 @@ def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=No
                 if _count_words(sub) > 8:
                     raise DeckContractError("map key line is %d words, cap is 8: %r"
                                             % (_count_words(sub), sub))
-                text(s, sub, kx + Inches(0.22), y + Inches(0.46), kw - Inches(0.22),
-                     step - Inches(0.46),
+                drop = Inches(0.46) * lines
+                text(s, sub, kx + Inches(0.22), y + drop, kw - Inches(0.22),
+                     max(step - drop, Inches(0.5)),
                      size=MIN_PT, color=MUTED, font=SANS, line=1.2)
 
     if caption:
         text(s, caption, MARGIN, H - Inches(0.70), CONTENT_W, Inches(0.5),
              size=MIN_PT, color=MUTED, font=SANS, align=PP_ALIGN.CENTER)
 
-    if brief:
+    if brief and not placed:        # a brief for a map already placed told Daniyal to redo it
         _briefs.append((len(prs.slides._sldIdLst), headline, brief))
         note(s, "IMAGE BRIEF (paste into Gemini):\n\n%s\n\nFlat pure white #FFFFFF background, "
                 "no border, no text in the image." % brief)
     return s
+
+
+_ABBREV = {"b", "bt", "ibn", "vol", "p", "pp", "cf", "ed", "st"}
+
+
+def _clause_cut(cut):
+    """End a cut rendering on a sentence where one is near, else on a clause — never inside a name.
+
+    Evening 4's first pass took the last ". " of any kind, so "Khālid b. al-Walīd" came out as
+    "Khālid b…", and a colon that opens speech beat the full stop before it ("Mutammim said…").
+    """
+    floor = len(cut) * 0.55
+    ends = []
+    for m in re.finditer(r"[.?!](?=\s)", cut):
+        word = re.search(r"(\S*)$", cut[:m.start()]).group(1).strip("\"'(\u201c").lower()
+        if word in _ABBREV or len(word) <= 1:
+            continue
+        ends.append(m.end())
+    stop = max([e for e in ends if e > floor], default=-1)
+    if stop < 0:
+        stop = max((cut.rfind(s) for s in ("; ", " \u2014 ")), default=-1)
+        stop = stop if stop > floor else -1
+    if stop > 0:
+        cut = cut[:stop]
+    return cut.rstrip(",;:\u2014\u2013. ")
 
 
 def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=None,
@@ -482,19 +514,40 @@ def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=
 
     # Measure the block, then centre it. Left top-anchored, a two-line quotation sat high with a
     # third of the slide dead beneath it — which reads as an unfinished slide, not a restrained one.
+    # Line heights are the type's own (points x line spacing): the old estimate put a 44pt Naskh
+    # line at 0.80in when it sets at 0.92in, so every three-line quotation pushed its English down
+    # onto the citation — ten slides of evening 4's first build.
     ar_pt = size or (54 if arabic and _ar_len(arabic) < 62 else 44)
     ar_h = Inches(0.0)
     if arabic:
         if ar_pt < STATEMENT_MIN_PT:
             raise DeckContractError("a statement is %dpt or larger; got %d"
                                     % (STATEMENT_MIN_PT, ar_pt))
-        per_line = 40 if ar_pt >= 54 else 52
+        per_line = 40 if ar_pt >= 54 else 60        # unvowelled characters; 44pt sets 60-64 a line
         ar_lines = max(1, -(-_ar_len(arabic) // per_line))
-        ar_h = Inches(0.30 + (0.98 if ar_pt >= 54 else 0.80) * ar_lines)
+        ar_h = Inches(0.30 + ar_pt * 1.5 / 72.0 * ar_lines)
 
     en_pt = (size or 34) if not arabic else 30
-    en_lines = max(1, -(-len(str(english)) // (58 if en_pt >= 34 else 66)))
-    en_h = Inches(0.16 + (0.62 if en_pt >= 34 else 0.55) * en_lines)
+    en_cpl = 48 if en_pt >= 34 else 54                 # characters per line across CONTENT_W (measured)
+    en_line = en_pt * 1.30 / 72.0                      # inches
+    en_lines = max(1, -(-len(str(english)) // en_cpl))
+    if arabic and cite:
+        # The rendering is already an excerpt (the whole of it is in the notes). If it cannot fit
+        # between the Arabic and the citation, cut it at a word — never let it run onto the source.
+        # The citation sits at H - 0.78in, below the content box; what is above it is the room.
+        room = (H - Inches(0.78) - Inches(0.10) - (CONTENT_Y + Inches(0.25))) / 914400.0
+        # never fewer than one line: a slide with its English cut to one line is still a slide, and
+        # refusing it would drop the card from the deck altogether
+        fit = max(1, int((room - ar_h / 914400.0 - 0.48 - 0.16) / en_line))
+        if en_lines > fit:
+            words, kept = str(english).rstrip(".…").split(), []
+            while words and len(" ".join(kept + [words[0]])) + 1 <= fit * en_cpl - 4:
+                kept.append(words.pop(0))
+            cut = " ".join(kept)
+            english = _clause_cut(cut) + "…" + ('"' if cut.lstrip()[:1] == '"' else "")
+            en_lines = fit
+        avail = max(avail, Emu(int(room * 914400)))
+    en_h = Inches(0.16 + en_line * en_lines)
 
     total = ar_h + en_h + (Inches(0.48) if arabic else Inches(0))
     y = y + Emu(max(0, int((avail - total) / 2)))

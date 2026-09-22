@@ -1,5 +1,34 @@
 # STATUS — read this first, every session
 
+> **2026-09-22 · RESUME POINT — read this first. Evening 4 is BUILT and ready to deliver.**
+> `S04_kinda_butah_yamama/`, Daniyal's cut **Parts I–IV to STOP C** (`DECISIONS.md` #44): 31 cards.
+>
+> | Artifact | State |
+> |---|---|
+> | `S04.pptx` + `S04.pdf` | **63 slides** (55 visible). Bookend IN = evening 3's STOP B pair. **5 bridge slides** at the story's seams (#45). STOP C, the planned end, at **52–55**; STOP A hidden at **56**, STOP B at **60** — type the number and Enter. The PDF includes the hidden slides, so its page n is slide n |
+> | Maps | 10 scenes `tools/mapstudio/scenes/s04-*`, **rendered by `make_maps.py`** through `tools/render_scene.py` (headless) and placed as JPEGs. Renders are git-ignored; re-run to regenerate |
+> | The Line | `timeline.json` → `make_timeline.py` → `visuals/line_s04_stop_a/b/c.png`. The opening Line is evening 3's own image, byte for byte |
+> | `CUE.pdf` | one page, 11.5pt, 19 beats, jump numbers read from the deck |
+> | `WORKSHEET.pdf` | 2 pages; nothing on it the room has not heard by STOP B |
+> | `BRIEFING.pdf` | 54 pages: the evening, the bridges, the early closes, Part II's guardrail, the never-do list, then all 31 cards |
+>
+> **Rebuild order:** `make_timeline.py` → `make_maps.py` → `build.py` → `pack_data.py` (all in
+> `S04_kinda_butah_yamama/`). Gates, all clean: `tools/check_citations.py` (4,705 / 0),
+> `tools/check_introductions.py S04_kinda_butah_yamama` (0 unanswered), `check_face_quotes` inside the build.
+>
+> **What the review changed** (#46): authored face excerpts instead of a blind 24-word cut; #11 as the four
+> accounts side by side; spoilers out of the speaker's lines; «⁨يا محمداه⁩» off the face (**`QA_BANK.md`
+> §6.11 — Tanzeem-e-Islami to review**); no "a later caliph"; notices for ʿIkrima ؓ and Shuraḥbīl ؓ;
+> the introductions gate now sees Ḥ/Ḍ/Ṣ-initial names and names after Abū/Banū/Umm.
+>
+> **Daniyal's, before the evening:** (1) look through `S04.pdf` once; (2) decide Umm Tamīm's honorific
+> (ؓ on `RC17` and the cue, none on `RC16` — no page settles it); (3) the ؓ-as-detached-mark look on English
+> faces is still his call from evening 3; (4) `L02_baarah_saal/L02_ALL_DY.pptx` is modified to **128 MB** in
+> the working tree — over GitHub's 100 MB limit: keep it out of any commit. **After the evening:** replace
+> the evening-4 block in `DELIVERED.md` with the cards actually spoken — **and say which ending was used**,
+> since Part V may or may not have been reached. Evening 5 opens on the closing pair of whichever stop was
+> used, and carries Ḥaḍramawt/Kinda, which is still last (#42).
+
 > **2026-09-19 (later) · RESUME POINT — read this first.** Evening 4 was **reviewed for content gaps and
 > then restructured into CHRONOLOGICAL order** (`DECISIONS.md` #42): **the two claimants → al-Buṭāḥ →
 > the road to al-Yamāma → the day begins → Ḥaḍramawt/Kinda last**, which is the sequence §12.2 of the
@@ -22,7 +51,7 @@
 > references; `TSY/E-YK08` carries a ⚠ that ⁨البسوس⁩ is **not page-cited here** and must be verified
 > before it is spoken as fact; and `POT/E-PG40`/`PG41` no longer mix Arabic-script names into English
 > prose. The **Umm Tamīm ؓ** finding is recorded and deliberately not spoken (#41), with a prepared
-> answer at `QA_BANK.md` §6.3. Pool **444 cards**; citations **4,703 / 0 problems**.
+> answer at `QA_BANK.md` §6.9 (renumbered 2026-09-22 — it had been filed as a second §6.3). Pool **444 cards**; citations **4,703 / 0 problems**.
 >
 > **New standing gate (`CLAUDE.md` §2, `DECISIONS.md` #43):**
 > `python tools/check_introductions.py SNN_<slug>` — walks an evening's runsheet in running order and
@@ -32,7 +61,7 @@
 > same question of **events, terms and forward references**, not only people — the evening-4 review
 > caught one of each. **Run it on every evening before the deck is built.**
 >
-> **What evening 4 still needs, and it is Daniyal's machine that can do it:**
+> **What evening 4 still needed — ALL DONE 2026-09-22, see the resume point above:**
 > 1. `S04.pdf` — the build cannot write it in the container (no PowerShell/Chrome). Re-run
 >    `python S04_kinda_butah_yamama/build.py` on Windows and it appears beside the deck.
 > 2. **The Line images** — `visuals/line_s04_open.png` and `line_s04_stop_a/b/c/d.png`. Adapt

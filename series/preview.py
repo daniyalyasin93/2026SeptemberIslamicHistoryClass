@@ -33,6 +33,11 @@ def to_pdf(pptx, out=None):
     ps = ("$ErrorActionPreference='Stop';"
           "$app = New-Object -ComObject PowerPoint.Application;"
           "$p = $app.Presentations.Open('%s', $true, $false, $false);"
+          # Hidden slides are unhidden IN MEMORY (the file is open read-only and is never saved) before
+          # the PDF is written: SaveCopyAs leaves them out, so the early-close sets a cue sheet sends the
+          # speaker to ("type 56") were missing from the PDF he checks on his phone, and every page after
+          # them was numbered wrong. The PDF's page n is now the deck's slide n.
+          "foreach ($s in $p.Slides) { $s.SlideShowTransition.Hidden = 0 };"
           "$p.SaveCopyAs('%s', %d);"
           "$p.Close(); $app.Quit();"
           "[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app) | Out-Null"

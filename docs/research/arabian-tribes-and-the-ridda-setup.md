@@ -1120,7 +1120,7 @@ is not only north against south. It forks again, one level down.
 2. "I bear witness that you are a liar" — And that Muḥammad ﷺ is truthful.
 3. And then the rest of it — But a liar of Rabīʿa is dearer to us than a truthful man of Muḍar.
 4. Both trunks are northern Arabs — Banū Ḥanīfa of Rabīʿa, Quraysh of Muḍar, and both of ʿAdnān.
-5. He followed him anyway — And was killed with him at ʿAqrabāʾ.
+5. He followed him anyway — Knowing, by his own words, that he was following a liar.
 **Quote after beat:** 3
 **The statement:**
 > فقال أشهد أنَّك كذّابٌ وأن محمدًا صادقٌ، ولكن كذّابَ رَبيعة أحبُّ إلينا من صادقِ مُضَر
@@ -1199,7 +1199,7 @@ and it refuses the premise rather than the arithmetic. The earth belongs to Alla
 inheritance to whom He wills of His servants; and the outcome is for those who fear Him. The book
 dates the exchange to the end of the year 10.
 **Beats:**
-1. A letter comes from al-Yamāma — Addressed from one messenger of Allah to another.
+1. A letter comes from al-Yamāma — He writes as if to an equal: from Musaylima, 'messenger of Allah', to Muḥammad ﷺ.
 2. What it actually proposes — Not a revelation: a partition. Half the matter ours, half Quraysh's.
 3. "But Quraysh are a people who transgress" — The complaint is about a tribe, not about a religion.
 4. The reply refuses the premise — Not the arithmetic: the earth belongs to Allah.
@@ -1243,7 +1243,7 @@ palm-branch in his hand. And what he said to him was about that piece.
 3. The Prophet ﷺ came out to him — With Thābit b. Qays b. Shammās ؓ beside him.
 4. There was a piece of palm-branch in his hand — And what he said to him was about that piece.
 5. "If you asked me for this, I would not give it to you" — The claim was refused while it was still a request.
-6. Remember the man standing beside him — Thābit b. Qays ؓ dies at al-Yamāma, against this same claimant.
+6. Remember the man standing beside him — Thābit b. Qays ؓ. The room will meet him again.
 **Quote after beat:** 5
 **The statement:**
 > لو سألتني هذه القطعة ما أعطيتكها، ولن تعدوَ أمرَ اللهِ فيك، ولئن أدبرتَ ليعقرنَّك اللهُ
@@ -1338,16 +1338,16 @@ opened from this card.
 **⁨اليمامة⁩**, turns, and goes back north to **⁨الجزيرة⁩**.
 **What happened:** The two claimants met at al-Yamāma, and he bought her off. She took half the
 kharāj of his land and turned back to her own country, and she stayed among her people, Banū Taghlib,
-until the time of Muʿāwiya. The dowry he paid her was the remission of two of the five prayers — the
+until the time of Muʿāwiya ؓ. The dowry he paid her was the remission of two of the five prayers — the
 dawn prayer and the night prayer. That is what one claim to prophethood was worth to the other. And
 al-Suhaylī, whom Ibn Kathīr quotes, records that she became Muslim in the days of ʿUmar b. al-Khaṭṭāb
 ؓ, and that her Islam was good.
 **Beats:**
 1. The two claimants meet at al-Yamāma — The northern claim and the Yamāma claim, in one place.
 2. He bought her off — She took half the kharāj of his land.
-3. The dowry he paid — The remission of two of the five prayers: the dawn and the night prayer.
+3. The price he paid — The remission of two of the five prayers: the dawn and the night prayer.
 4. What that tells you — That is what one claim to prophethood was worth to the other.
-5. She went home — Back north to al-Jazīra, and stayed among Banū Taghlib until Muʿāwiya's time.
+5. She went home — Back north to al-Jazīra, and stayed among Banū Taghlib for many years.
 6. And afterwards — She became Muslim in ʿUmar's ؓ days, and her Islam was good. End the card here.
 **Quote after beat:** 2
 **The statement:**

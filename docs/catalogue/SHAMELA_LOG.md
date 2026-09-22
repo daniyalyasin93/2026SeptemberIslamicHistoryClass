@@ -165,3 +165,12 @@ from the speaker.
 Both were fetched because the review found the men carrying cards with no notice anywhere in the
 delivered series. No other page was fetched for evening 4 — every new card is drawn from pages already
 in the cache.
+
+### Evening-4 review fixes — 2026-09-22 (all three pages were already cached; nothing was fetched)
+
+| Book | Index | Printed | Why |
+|---|---|---|---|
+| ⁨البدایہ والنہایہ⁩ 30097 | 3354 | ⁨ج۷ ص۲۰۸⁩ | ⁨شرحبيل بن حسنة ؓ⁩ — his notice, «⁨وحَسَنَةُ أمه، نسب إليها وغلب عليه ذلك. أسلم قديمًا وهاجر إلى الحبشة⁩ …». `RCT/E-RC15` beat 2 |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1749 | ⁨ج۱ ص۳۲۳⁩ | ⁨عكرمة بن أبي جهل ؓ⁩ — «⁨الشَّرِيْفُ، الرَّئِيْسُ، الشَّهِيْدُ⁩». `RCT/E-RC15` beat 1 |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3168 | ⁨ج۷ ص۲۲⁩ | Khālid's ؓ orders: «⁨وأمره بطُلَيْحة بن خُوَيْلد، فإذا فرغَ سار إلى مالك بن نُوَيْرَةَ بالبطاح إن أقام له⁩». The *After Buzākha* bridge slide |
+

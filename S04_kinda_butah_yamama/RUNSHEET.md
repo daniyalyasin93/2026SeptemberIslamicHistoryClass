@@ -1,32 +1,44 @@
-# Evening 4 — al-Buṭāḥ, al-Yamāma, and the last front · RUNSHEET
+# Evening 4 — al-Buṭāḥ and al-Yamāma · RUNSHEET
 
-**This is the cut sheet.** Strike rows; whatever survives becomes the deck → cue → briefing → worksheet.
-What is not spoken rolls into evening 5 (`DECISIONS.md` #20, #33).
+**This is the cut sheet, and the cut is made.** Only the tables under `## Part` headings are the evening;
+they become the deck → cue → briefing → worksheet. What is not spoken rolls into evening 5
+(`DECISIONS.md` #20, #33).
 
 | | |
 |---|---|
 | Opens from | evening 3 as delivered — **STOP B**, after `RCT/E-RC32` (`docs/catalogue/DELIVERED.md`). Its two closing slides open this evening **verbatim** (#23) |
-| Scope | Daniyal's cut, 2026-09-19: **al-Buṭāḥ told straight + the start of the al-Yamāma campaign + the Kinda ⁨ردة⁩**, over-built |
+| **The cut** | **Daniyal, 2026-09-22: Parts I–IV, ending at STOP C** (`DECISIONS.md` #44), **with Part V built behind it as overflow so the evening cannot run dry** (#47). Ḥaḍramawt/Kinda rolls to evening 5, under *Rolled forward* at the end of this file |
 | **Order** | **CHRONOLOGICAL** (`DECISIONS.md` #42). The sequence is the one §12.2 of the campaign note establishes: Buzākha → **al-Buṭāḥ** → recalled to Medina → **al-Yamāma** → … → **Ḥaḍramawt/Kinda, which is LAST** |
 | Deck shape | **one slide per card** (#39) — beats are the **speaker notes**, not slides |
-| Material | **≈ 89 min** in all · **≈ 80 min** without the optional flashback · **≈ 66 min CORE** — for **34 story minutes** |
-| Pace | evening 2 ran 26 cards in ≈ 35 min. These cards are richer: budget **≈ 1.7 min each** |
+| Material | **36 cards · ≈ 67.5 min** as budgeted · **≈ 56 min CORE** — for **34 story minutes**. Parts I–IV (31 cards) are the planned evening; **Part V (5 cards, 10 min) sits after the STOP C close** and is spoken only if there is time |
+| Pace | the budget is ≈ 1.7 min a card; the room's actual pace is faster — **evening 3 spoke 32 cards in the slot**. Thirty-one is an evening, not a pool |
 | New research | none. Every card is page-cited and `check_citations`-clean |
 
-> ### ⚠ Read this before cutting — the cost of chronological order
-> Ḥaḍramawt/Kinda is **chronologically last** and therefore sits at the end of ~80 minutes of material.
-> **On this evening's arithmetic it will not be reached**, and it rolls forward for a third time. That is
-> the price of telling the war in the order it happened, and it is a real price — Kinda has now been
-> deferred from evening 3 twice.
-> **If Kinda must be spoken next, say so and Part V moves to the front**, out of chronological order, as
-> it was before 2026-09-19. Otherwise the honest plan is: evening 4 ends inside al-Yamāma, evening 5
-> finishes al-Yamāma and the Qurʾān, and **Kinda closes the ⁨ردة⁩ where it belongs — last.**
+> ### The cost of the cut, stated once
+> Ḥaḍramawt/Kinda is **chronologically last**, and it is not in this evening. It was built for evening 3's
+> Part III, carried to evening 4's Part V, and now rolls to evening 5 — **its third deferral**. That is the
+> price of telling the war in the order it happened (#42), and it is paid knowingly. Evening 5 finishes
+> al-Yamāma, and **Kinda closes the ⁨ردة⁩ where it belongs — last.**
 
 **What is new in the pool for this evening.** al-Buṭāḥ was one card carrying nine events and is now
 **`E-RC44`–`E-RC52`** (`E-RC14` is **RETIRED**). The al-Yamāma opening gained **`E-RC53`–`E-RC64`**,
 including the two cards that close the gaps this order exposed: **`E-RC63`**, the hinge from the mosque
 at Medina to the march on al-Yamāma, and **`E-RC64`**, the Muslims of Banū Ḥanīfa who were already
 fighting Musaylima. **`E-YK19`** introduces al-Ashʿath b. Qays, who used to arrive unannounced.
+
+### Bridges — the seams between cards (Daniyal, 2026-09-22; `DECISIONS.md` #45)
+
+Six slides that are not cards. Each is three steps — where we were, what happened, where we go — and the
+sentence to say is in its notes. They are built in `build.py` (`BRIDGE_BEFORE`), every line from the cards.
+
+| Before | Bridge | The seam it closes |
+|---|---|---|
+| #1 | *Tonight: back to the north* | evening 3 ended in the Yemen, 11–12 AH; tonight opens on a letter from al-Yamāma at the end of 10 AH |
+| #7 | *After Buzākha* | the orders tied at Dhū al-Qaṣṣa — Ṭulayḥa first, then Mālik ؓ at al-Buṭāḥ (⁨البدایہ ج۷ ص۲۲⁩) — and Buzākha done |
+| #16 | *Back to the mosque, 11 AH* | #15 closes years later, in ʿUmar's ؓ caliphate; #16 is back in the mosque at Medina |
+| #17 | *Meanwhile, at al-Yamāma* | #16 sends Khālid ؓ out; #17 tells what had already happened to the two commanders sent before him |
+| #21 | *Where we are* | the re-entry after the worksheet, for anyone who has just come in |
+| #32 | *Past the close: the day is decided* | re-entry after the STOP C summary slides, when the evening goes on into Part V |
 
 ---
 
@@ -35,24 +47,24 @@ fighting Musaylima. **`E-YK19`** introduces al-Ashʿath b. Qays, who used to arr
 - Evening 3's **STOP B** closing pair, unchanged: **the Line** at 11–12 AH with Yemen settled, and **the
   map** with Ṣanʿāʾ blue and Ḥaḍramawt still grey.
 - One sentence to turn: *while all of that was happening in the south, the northern war had never
-  stopped. Tonight we go back to Khālid ؓ, who we last saw at Buzākha — and at the end of the evening
-  we come back south, to the one province still grey on your map.*
+  stopped. Tonight we go back to Khālid ؓ, who we last saw at Buzākha. The one province still grey on
+  your map, Ḥaḍramawt, stays grey tonight — we come back to it when the northern war has caught up.*
 - **The map does a loop tonight, and that loop is the truth of the campaign:** eleven armies were moving
   at once (`RCT/E-RC05`, evening 2), not one after another.
 
 ---
 
-## Part I — The two claimants still standing (10–11 AH)
+## Part I — The two claimants still standing (10–12 AH)
 
 Before the campaign reaches them. Told first so that nothing later has to refer forward.
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
 | 1 | `ATA/E-TB15` Musaylima's letter, and the reply | CORE | 2 | 2 | The note's own judgement: **the best pair in the strand**. **[HANDS] 1:** *"A man writes to the Prophet ﷺ proposing terms. What do you think he asks for?"* — ask at beat 1 |
-| 2 | `ATA/E-TB16` Musaylima at Medina, and the piece of palm-branch | GOOD | 1.5 | 3.5 | ⁨صحيح البخاري ٤٣٧٣⁩. **Thābit b. Qays ؓ is standing beside the Prophet ﷺ here** — name him, and say nothing more. He comes back at #34 |
+| 2 | `ATA/E-TB16` Musaylima at Medina, and the piece of palm-branch | GOOD | 1.5 | 3.5 | ⁨صحيح البخاري ٤٣٧٣⁩. **Thābit b. Qays ؓ is standing beside the Prophet ﷺ here** — name him, and say nothing more. He comes back at #26 |
 | 3 | `ATA/E-TB12` The man who followed Musaylima knowing he was lying | CORE | 1.5 | 5 | Rabīʿa and Muḍar. The most efficient sentence in the strand |
-| 4 | `ATA/E-TB18` Sajāḥ — who she actually was | GOOD | 2 | 7 | ⚠ she is **Taghlibī**, not Tamīmī. She deals with **Mālik b. Nuwayra ؓ** here — that is what #10 picks up |
-| 5 | `ATA/E-TB19` What her claim was worth to the other claimant | GOOD | 2 | 9 | ⚠ **the narrative at ⁨ج۷ ص۲۹⁩–۳۰ is obscene and must not be read, paraphrased or alluded to.** End on her Islam in ʿUmar's ؓ days |
+| 4 | `ATA/E-TB18` Sajāḥ — who she actually was | GOOD | 2 | 7 | ⚠ she is **Taghlibī**, not Tamīmī. She deals with **Mālik b. Nuwayra ؓ** here — that is what #8 picks up |
+| 5 | `ATA/E-TB19` What her claim was worth to the other claimant | GOOD | 2 | 9 | ⚠ **the narrative at ⁨ج۷ ص۲۹⁩–۳۰ is obscene and must not be read, paraphrased or alluded to.** Say "the price he paid", not "dowry". End on her Islam in ʿUmar's ؓ days. Prepared answer: `QA_BANK.md` §6.10 |
 | 6 | `RCT/E-RC64` There were Muslims inside al-Yamāma already | CORE | 2 | 11 | Thumāma ؓ, of Banū Ḥanīfa itself. Answers the question the room is about to ask · **[HANDS] spare** |
 
 Part I: **11 min** · **5.5 min** CORE.
@@ -71,14 +83,14 @@ ruling nor a creed — is what makes it tellable. Re-read `CLAUDE.md` §1.6 befo
 | 7 | `RCT/E-RC44` The third stop in the orders, and the Anṣār who would not march | CORE | 2 | 13 | Opens the part. **Khālid ؓ comes here straight from Buzākha**, where evening 2 stopped |
 | 8 | `RCT/E-RC45` Mālik b. Nuwayra ؓ, standing apart | CORE | 2 | 15 | The ⁨تراجم⁩ notice in one breath (#28). **Honorific ؓ throughout.** Sajāḥ is already known from #4 |
 | 9 | `RCT/E-RC46` "Disperse, and enter into this matter" | CORE | 2 | 17 | His own last recorded counsel. **State it; build nothing on it** |
-| 10 | `RCT/E-RC47` The patrol could not agree on what it had seen | CORE | 2 | 19 | **Give Abū Qatāda's ؓ notice in one breath before the testimony** — ⁨فارس رسول الله ﷺ⁩. **[HANDS] 2** at beat 2 |
+| 10 | `RCT/E-RC47` The patrol could not agree on what it had seen | CORE | 2 | 19 | **Give Abū Qatāda's ؓ notice in one breath before the testimony** — ⁨فارس رسول الله ﷺ⁩. **[HANDS] 2 — ask it before you click to this slide:** its face shows both testimonies |
 | 11 | `RCT/E-RC48` One night, and four accounts of it | CORE ⚠ | 2.5 | 21.5 | **The centre of the part.** Lay the accounts side by side and stop. **Do not use the cooking-pot detail** |
 | 12 | `RCT/E-RC49` ʿUmar ؓ in the mosque | CORE | 2 | 23.5 | The map runs backwards to Medina for the first time in the campaign |
-| 13 | `RCT/E-RC50` "He interpreted, and he was mistaken" | CORE | 2 | 25.5 | Spare [HANDS]: *"He has heard the objection. What does he do with the commander?"* |
-| 14 | `RCT/E-RC51` Ibn Kathīr's own verdict, and the precedent he sets beside it | CORE | 2 | 27.5 | **The safest sentence available on the whole episode.** Banū Jadhīma, in the Prophet's ﷺ own hand |
-| 15 | `RCT/E-RC52` ʿUmar ؓ and Mutammim | CORE | 1.5 | 29 | Closes on consolation, not blame. ⚠ **do not say where Zayd ؓ fell** — that is #36's, and next week's |
+| 13 | `RCT/E-RC50` "He interpreted, and he was mistaken" | CORE | 2 | 25.5 | **No hands-up here** (review, 2026-09-22): the card's spare one asks the room to choose between ʿUmar's ؓ position and Abū Bakr's ؓ, in the part that is never a verdict. `build.py` drops it (`NO_HANDS`) |
+| 14 | `RCT/E-RC51` Ibn Kathīr's own verdict, and the precedent he sets beside it | CORE | 2 | 27.5 | **The safest sentence available on the whole matter.** Banū Jadhīma, in the Prophet's ﷺ own hand |
+| 15 | `RCT/E-RC52` ʿUmar ؓ and Mutammim | CORE | 1.5 | 29 | Closes on consolation, not blame. ⚠ **do not say where Zayd ؓ fell** — that is #28's to tell, later tonight |
 
-Part II: **16 min**, all CORE. **This part is not cut piecemeal.** Either #7 to #15, or none of it.
+Part II: **18 min**, all CORE. **This part is not cut piecemeal.** Either #7 to #15, or none of it.
 
 **⏸ STOP A — after #15.** Closing pair:
 - **The Line:** 11 AH, with al-Buṭāḥ marked between Buzākha and al-Yamāma.
@@ -86,20 +98,22 @@ Part II: **16 min**, all CORE. **This part is not cut piecemeal.** Either #7 to 
 
 ---
 
-## Part III — The road to al-Yamāma (11 AH)
+## Part III — The road to al-Yamāma (11–12 AH)
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
 | 16 | `RCT/E-RC63` Excused in the mosque, and sent straight to al-Yamāma | CORE | 2 | 31 | **The hinge.** Without it the room is left standing in the mosque and the next card opens on an army |
-| 17 | `RCT/E-RC15` ʿIkrima ؓ goes too early, and the letter that follows him | CORE | 2 | 33 | **Callback:** the room already met him at the far end of this road, arriving in Yemen on evening 3 |
+| 17 | `RCT/E-RC15` ʿIkrima ؓ goes too early, and the letter that follows him | CORE | 2 | 33 | **Callback:** the room already met him at the far end of this road, arriving in Yemen on evening 3. **Beats 1–2 are the one-breath notices for ʿIkrima ؓ and Shuraḥbīl ؓ** (added 2026-09-22, #43). Ask the card's hands-up **before you click to the map**, which shows the answer |
 | 18 | `RCT/E-RC53` And then the second commander did the same thing | GOOD | 1.5 | 34.5 | Beaten, reproached — and then given the vanguard |
 | 19 | `RCT/E-RC54` Forty thousand, and the ground he chose | CORE | 2 | 36.5 | **[HANDS] 3:** *"Why would a commander put his own villages behind his army?"* — ask at beat 4 |
 | 20 | `RCT/E-RC16` The tent and the prisoner | CORE | 2 | 38.5 | **Say "forty to sixty riders" and do not fix a number.** This decision settles evening 5 |
 
 Part III: **9.5 min** · **8 min** CORE.
 
-**⏸ STOP B — after #20, and this is the best ending available.** The armies are in position, the
-prisoner is in the commander's tent, and nothing has happened yet. Closing pair:
+**⏸ STOP B — after #20. The fallback end:** if the clock is past 0:36 here, close here. The armies
+are in position, the prisoner is in the commander's tent, and nothing has happened yet. On the room's
+pace this is also where the **worksheet beat** falls — take the 90 seconds here, then start Part IV.
+Closing pair (hidden at the end of the deck — jump to it):
 - **The Line:** 11→12 AH, al-Yamāma lit and undecided.
 - **The map:** the two blocks at ʿAqrabāʾ, the farmland behind the red one.
 - **Next week:** *"There is a man in irons in Khālid's ؓ own tent. Next week he saves a life, and then a
@@ -118,20 +132,68 @@ prisoner is in the commander's tent, and nothing has happened yet. Closing pair:
 | 25 | `RCT/E-RC58` "People of Sūrat al-Baqara" | CORE | 1.5 | 47 | What re-formed the line was what the men had memorised |
 | 26 | `RCT/E-RC18` Thābit b. Qays ؓ puts on his shroud | CORE | 2 | 49 | ⁨صحيح البخاري ٢٨٤٥⁩. **Give his notice first** — ⁨خطيب الأنصار⁩ — and the room closes the loop from #2 itself |
 | 27 | `RCT/E-RC59` Sālim ؓ — "A wretched bearer of the Qurʾān I should be" | CORE | 2 | 51 | One sentence of the ⁨سیر⁩ notice, not the whole of it |
-| 28 | `RCT/E-RC60` Zayd b. al-Khaṭṭāb ؓ — "I will not speak" | CORE | 1.5 | 52.5 | ʿUmar's ؓ elder brother. **This is where #15's loop closes.** His grief is `RCT/E-RC23`, evening 5 |
+| 28 | `RCT/E-RC60` Zayd b. al-Khaṭṭāb ؓ — "I will not speak" | CORE | 1.5 | 52.5 | ʿUmar's ؓ elder brother. **This is where #15's loop closes.** ʿUmar's ؓ grief for him is told on evening 5, with the dead of al-Yamāma |
 | 29 | `RCT/E-RC61` Abū Ḥudhayfa ؓ — "adorn the Qurʾān with deeds" | CORE | 1.5 | 54 | Three men, three answers, all three about the Qurʾān |
-| 30 | `RCT/E-RC62` Khālid ؓ between the lines, and the offer he made first | GOOD | 1.5 | 55.5 | The watchword that day: «⁨يا محمداه⁩» |
-| 31 | `RCT/E-RC19` «⁨امتازوا⁩» — the order that turned the day | CORE | 2 | 57.5 | Spare [HANDS]: *"The line is breaking and you do not know where. What do you change?"* |
+| 30 | `RCT/E-RC62` Khālid ؓ between the lines, and the offer he made first | GOOD | 1.5 | 55.5 | ⚠ **The watchword «⁨يا محمداه⁩» is off the face and off the cue** (review, 2026-09-22): in this country it is a proof-text in a live dispute. It stays in the notes; say it only as the army's battle-cry, recorded as history, or not at all. Prepared answer: `QA_BANK.md` §6.11 |
+| 31 | `RCT/E-RC19` «⁨امتازوا⁩» — the order that turned the day | CORE | 2 | 57.5 | Spare [HANDS]: *"The line is breaking and you do not know where. What do you change?"* — **ask it before you click to the map**, which shows the answer. The face title is *Every clan under its own banner*: the day is not yet decided at STOP C |
 
 Part IV: **19 min** · **16 min** CORE.
 
-**⏸ STOP C — after #31.** Closing pair:
+**⏸ STOP C — after #31. THE PLANNED END** (Daniyal's cut, 2026-09-22). The line has re-formed, every
+clan under its own banner, and the day is not yet decided. **Its closing set is in the deck at this
+point**, so stopping here needs no jump — just close.
+
+> **If there is time, do not close: Part V follows.** The four STOP C slides are still in the way, so
+> `CUE.pdf` prints the number of Part V's first slide — type it and press Enter, and the story goes on
+> into the garden. Whatever Part V reaches is recorded in `DELIVERED.md` afterwards, and evening 5 starts
+> from there (#33).
+
+Closing pair — **these two slides open evening 5 if the evening ends here** (#23):
 - **The Line:** 11→12 AH, al-Yamāma lit, the day not yet decided.
 - **The map:** the blue block re-formed into separate labelled sections.
+- **Next week:** *"The line has been re-formed and the day is not yet decided. Where does an army go
+  when it cannot retreat?"*
+
+If the evening runs short of STOP C, close at **STOP A** (after #15) or **STOP B** (after #20): their
+closing sets are hidden at the end of the deck. Type the slide number and press Enter; `CUE.pdf`
+carries the numbers.
 
 ---
 
-## Part V — Ḥaḍramawt and Kinda: the last front (11–12 AH)
+## Part V — The day decided
+
+**OVERFLOW — spoken only if there is time.** (The heading above carries no such marker because it
+becomes a slide the room sees; #30.) **Built so the evening cannot run dry** (`DECISIONS.md` #20, #47).
+It is the rest of the day at
+ʿAqrabāʾ, in order, and it ends on the one sentence that makes the whole evening matter. **Cut from the
+front, never from the back:** if only ten minutes are left, #32 and #36 alone are a complete ending.
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| 32 | `RCT/E-RC20` ⁨حديقة الموت⁩ — al-Barāʾ ؓ over the wall | CORE | 2.5 | 60 | The climax. **[HANDS] 4:** *"The gate is shut, the wall is solid, and there are thousands inside. What do you do?"* — ask it **before** the map slide, which shows the answer. Beat 3 is al-Barāʾ's ؓ notice, in one breath. **Gloss the name once** — the books call it «⁨حديقة الموت⁩», the Garden of Death (⁨البدایہ ج۷ ص۳۴⁩). ⚠ **He lived** — ⁨سیر⁩ says eighty-odd wounds and a month under Khālid's ؓ care; do not say he died there |
+| 33 | `RCT/E-RC21` The death of Musaylima, and what Waḥshī ؓ said | CORE | 2 | 62 | ⚠ **"a second man came up"** — the books name different men. ⚠ **Do not use the ⁨سیر⁩ line about "the best of the people of the earth and the worst"**: it is a ranking claim the room will argue with |
+| 34 | `RCT/E-RC22` The treaty he was tricked into, and kept | CORE | 2 | 64 | Mujjāʿa's third appearance, and the end of his arc. **Say it beside evening 2's reprisals (`RCT/E-RC11`)**: the same commander, one campaign, both pages |
+| 35 | `RCT/E-RC23` Zayd b. al-Khaṭṭāb ؓ, and his brother | GOOD | 1.5 | 65.5 | **This is where #28's silence is answered.** ʿUmar's ؓ grief, and his son's reply |
+| 36 | `RCT/E-RC37` The Qurʾān was collected because of this | CORE | 2 | 67.5 | **The true ending.** End here and go straight to the closing bookend — say nothing after it |
+
+Part V: **10 min** · **8.5 min** CORE.
+
+**⏸ STOP D — after #36. The full ending.** Closing pair — **these two slides open evening 5 if the
+evening reaches here** (#23):
+- **The Line:** 11→12 AH, the day at ʿAqrabāʾ decided and the Qurʾān marked on 12 AH.
+- **The map:** al-Yamāma blue at last; **Ḥaḍramawt still grey**, and it is the last front left.
+- **Next week:** *"One province on your map is still grey. The last front of the ⁨ردة⁩ is Ḥaḍramawt — and
+  it begins with a quarrel over one she-camel."*
+
+---
+
+## Rolled forward to evening 5 — NOT in this deck
+
+**Out of evening 4 by Daniyal's cut (2026-09-22, `DECISIONS.md` #44).** The tables are kept exactly as
+they were built so evening 5's runsheet can lift them whole. They sit under `###` headings, so neither
+`build.py` nor `tools/check_introductions.py` reads them as part of this evening.
+
+### Part V — Ḥaḍramawt and Kinda: the last front (11–12 AH)
 
 **Chronologically last** — al-Kāmil's chapter order, ʿIkrima's ؓ arrival there only after Oman, Mahra and
 Yemen, and al-Nujayr sitting immediately before «⁨ثم دخلت سنة اثنتي عشرة⁩» (campaign note §12.2,
@@ -164,7 +226,7 @@ Part V: **23.5 min** · **20.5 min** CORE.
 
 ---
 
-## Part VI — Flashback: Kinda had been kings (OPTIONAL — cut this whole part first)
+### Part VI — Flashback: Kinda had been kings (OPTIONAL — cut this whole part first)
 
 **GOOD throughout.** It answers "four kings of what?" and nothing else. **If it is cut, nothing breaks**
 — `TSY/E-YK19` carries al-Ashʿath's introduction on its own.
@@ -186,12 +248,10 @@ Part VI: **9.5 min**, all GOOD. **Cut first.**
 
 | Card | Why |
 |---|---|
-| `RCT/E-RC20` ⁨حديقة الموت⁩ — al-Barāʾ ؓ over the wall | The climax. It opens evening 5 |
-| `RCT/E-RC21` The death of Musaylima, and what Waḥshī ؓ said | Evening 5 |
-| `RCT/E-RC22` The treaty he was tricked into, and kept | Evening 5 — Mujjāʿa's third appearance |
-| `RCT/E-RC23` Zayd b. al-Khaṭṭāb ؓ, and his brother | Evening 5, with the dead of al-Yamāma |
-| `RCT/E-RC28` Thumāma ؓ and the embroidered cloak | Evening 5 — one sentence of it at #6, no more |
-| `RCT/E-RC37` The Qurʾān was collected because of this | Evening 5. **The ending of the whole ⁨ردة⁩ arc; do not spend it early** |
+| `RCT/E-RC28` Thumāma ؓ and the embroidered cloak | Evening 5 — it belongs with Bahrayn and Dārīn, which this evening never reaches. One sentence of him at #6, no more |
+| `RCT/E-RC36` What Ibn Kathīr says the whole war was | The frame for the END of the ⁨ردة⁩ arc — after Ḥaḍramawt, not before it |
+| `THO/E-HS16` Over the wall at ⁨حديقة الموت⁩ | The people-strand telling of #32. ⚠ **Do not tell the scene twice** — take at most its aftermath (the eighty-odd wounds) into #32's last beat |
+| `THO/E-HS14`, `HS15` al-Barāʾ ؓ — "do not put him over an army" | His own strand, for the evening that carries the dead |
 | `THO/…`, `AHS/…`, `ZKY/…` the people strands | Evening 5, with the dead |
 
 ## Not for any evening
@@ -210,6 +270,8 @@ Part VI: **9.5 min**, all GOOD. **Cut first.**
 (`CLAUDE.md` §2, `DECISIONS.md` #43). Every name that appears in this evening for the first time in
 the series is listed. **"No notice needed" is a valid answer** — the rule is that somebody looked.
 Re-run the tool after any change to the runsheet; it exits non-zero while a row is unanswered.
+Rows for cards now under *Rolled forward to evening 5* (`TSY/…`, `KTK/…`, `RC33`, `RC34`, `PG40`, `PG41`)
+are kept: they are already answered for evening 5's runsheet.
 
 | Name | First card | How it is handled |
 |---|---|---|
@@ -222,12 +284,12 @@ Re-run the tool after any change to the runsheet; it exits non-zero while a row 
 | Taghlib | `ATA/E-TB18` | Sajāḥ's tribe, given in `TB18` — 'of Taghlib, and of the Christians of the Arabs' |
 | Tamīm | `ATA/E-TB18` | the tribe of the al-Buṭāḥ country; on the map, and `TB18` places her among them |
 | ʿUṭārid | `ATA/E-TB18` | named in passing among the chiefs who answered Sajāḥ — no notice needed |
-| Muʿāwiya | `ATA/E-TB19` | ⚠ same — a date-marker only («until the time of Muʿāwiya»). Say 'a later caliph' unless session 3 has been given |
+| Muʿāwiya | `ATA/E-TB19` | ⚠ a date-marker only («إلى زمان معاوية»). **The face quotation now ends before it, and beat 5 says "for many years"** (review, 2026-09-22). Do not say "a later caliph": it calls him caliph, which takes a side on ⁨خلافت⁩ and ⁨ملوکیت⁩ evenings before it is handled (`QA_BANK.md` §17.4). If he must be named, he is Muʿāwiya ؓ |
 | al-Suhaylī | `ATA/E-TB19` | an authority Ibn Kathīr quotes, not a person in the story |
 | al-Khaṭṭāb | `ATA/E-TB19` | part of ʿUmar b. al-Khaṭṭāb's ؓ name, whom the room has known since evening 1 |
 | Thumāma | `RCT/E-RC64` | `RCT/E-RC64` gives him in one breath — of Banū Ḥanīfa itself. Full story is `RC28`, evening 5 |
 | Uthāl | `RCT/E-RC64` | part of Thumāma b. Uthāl's ؓ name, introduced on that same card |
-| Shuraḥbīl | `RCT/E-RC64` | `RCT/E-RC53` — his own card. Named once in `RC64` first; that is the set-up |
+| Shuraḥbīl | `RCT/E-RC64` | named once in `RC64` as the set-up; **his notice is `RCT/E-RC15` beat 2** (added 2026-09-22 — `RC53` is GOOD and can be cut, so the notice cannot live there): Ḥasana was his mother; an early Muslim, emigrated to Abyssinia; later a commander in Syria; died in the plague, 18 AH (⁨البدایہ ج۷ ص۲۰۸⁩) |
 | al-Buṭāḥ | `RCT/E-RC44` | named with its map at `RC44`, the card that takes the army there |
 | al-Anṣārī | `RCT/E-RC47` | `RCT/E-RC47` — Abū Qatāda ؓ, ⁨فارس رسول الله ﷺ⁩, in one breath before his testimony |
 | Ribʿī | `RCT/E-RC47` | part of Abū Qatāda's ؓ own name, given with the notice at `RC47` |
@@ -282,18 +344,41 @@ Re-run the tool after any change to the runsheet; it exits non-zero while a row 
 | al-Naḍr | `KTK/E-KD05` | al-Naḍr b. Kināna, in the Prophet's ﷺ own answer at `KD05` — quoted, not introduced |
 | ʿUthmān | `KTK/E-KD07` | ⚠ **the room has not met him** — he is session 3's subject. `KD07` names him in a forward-reference list; beat 1 frames it |
 | Kūfa | `KTK/E-KD07` | named in `KD07`'s forward-reference list, framed by its beat 1 |
+| al-Ḥanafī | `RCT/E-RC64` | Thumāma's ؓ nisba — "of Banū Ḥanīfa itself", said in the same breath. No separate notice |
+| Ḥajr | `RCT/E-RC64` | the town of al-Yamāma: named on the map before `RC64`, and again on the `RC54` map |
+| Anṣār | `RCT/E-RC44` | met on evening 1 (Medina's clans) and throughout evenings 2–3 — no notice needed |
+| Ṣiddīq | `RCT/E-RC44` | Abū Bakr's ؓ لقب, given on evening 1. Say "Abū Bakr ؓ, al-Ṣiddīq" the first time tonight |
+| Yarbūʿ | `RCT/E-RC45` | Mālik's ؓ clan, "Banū Yarbūʿ of Tamīm" — inside his one-breath notice at `RC45` |
+| Qatāda | `RCT/E-RC47` | Abū Qatāda ؓ — his notice is `RC47` beat 3, ⁨فارس رسول الله ﷺ⁩ (the `al-Anṣārī` row above) |
+| al-Ḥudaybiya | `RCT/E-RC47` | inside Abū Qatāda's ؓ notice ("at Uḥud and al-Ḥudaybiya") — the room knows it from the sīra |
+| Ḍirār | `RCT/E-RC48` | **no longer spoken**: `RC48` beat 3 was changed 2026-09-22 to "Mālik ؓ among them", so no honorific question arises. Background only |
+| Jadhīma | `RCT/E-RC51` | Banū Jadhīma — the precedent in the Prophet's ﷺ lifetime; `RC51` beats 3–6 tell it whole |
+| Ḥudhayfa | `RCT/E-RC15` | ⚠ **a commander in Oman named in Abū Bakr's ؓ letter — NOT Abū Ḥudhayfa ؓ of #29.** Kept off the face; if the letter is read aloud, say "the commanders in Oman". Abū Ḥudhayfa ؓ himself first appears at `RC55` (#21) and has his clause at `RC61`: his own father fell at Badr, on the other side |
+| Makhzūm | `RCT/E-RC15` | ʿIkrima's ؓ clan — inside his notice, `RC15` beat 1 (⁨سیر ج۱ ص۳۲۳⁩) |
+| Abyssinia | `RCT/E-RC15` | inside Shuraḥbīl's ؓ notice, `RC15` beat 2 — the first hijra, which the room knows |
+| Khazraj | `RCT/E-RC18` | inside Thābit's ؓ notice — one of Medina's two Anṣār tribes, met on evening 1 |
+| Anas | `RCT/E-RC18` | Anas b. Mālik ؓ, the Prophet's ﷺ servant — one clause at `RC18` beat 2. *The tool cannot see a plain name at the start of a beat; answered by hand* |
+| Death | `RCT/E-RC20` | not a person — «⁨حديقة الموت⁩», the name the books give the walled garden (⁨البدایہ ج۷ ص۳۴⁩). Beat 2 glosses it on the card: *the books call it the Garden of Death* |
+| al-Barāʾ | `RCT/E-RC20` | **his notice is `RC20` beat 3**, in one breath: al-Barāʾ b. Mālik ؓ, the brother of Anas ؓ, the Prophet's ﷺ servant. ⚠ **he lived** — say so |
+| Waḥshī | `RCT/E-RC21` | `RC21` beat 2 carries his notice in one breath: the man who had killed Ḥamza ؓ at Uḥud, before he was a Muslim |
+| Ḥamza | `RCT/E-RC21` | the Prophet's ﷺ uncle, killed at Uḥud — known from the sīra, and `RC21` beat 2 gives the one clause it needs |
+| ʿAbdullāh | `RCT/E-RC23` | ʿAbdullāh b. ʿUmar ؓ — named in `RC23` beat 4 as ʿUmar's ؓ own son, which is all the beat needs |
+| Zayd b. Thābit ؓ | `RCT/E-RC37` | ⚠ **not Zayd b. al-Khaṭṭāb ؓ of #35** — a different man, and the two are four cards apart. `RC37` beat 2 names him in full; always say the full name. *The tool folds both to "Zayd"; answered by hand* |
 
 ## Worksheet beat (0:26)
 
-A blank map of Najd, the east and the south:
-- Mark **البُطاح · اليمامة (عَقْرَباء) · حَضْرَمَوت (النُّجَير)**.
-- Timeline boxes: **al-Buṭāḥ (11 AH) · ʿAqrabāʾ (11→12 AH) · the Kinda quarrel over the ⁨زکاۃ⁩ ·
-  al-Nujayr (11 or 12 AH)**.
-- «⁨ایک واقعہ⁩» lines for **Mālik b. Nuwayra ؓ · Mujjāʿa b. Murāra · al-Ashʿath b. Qays ؓ**.
+On the room's pace this falls at **STOP B**, after #20 — the prisoner in the tent, before the day begins.
+A blank map of Najd and the east:
+- Mark **البُطاح · اليمامة (عَقْرَباء)** — Medina is already printed on the blank map.
+- Timeline boxes: **the letter from al-Yamāma (end of 10 AH) · al-Buṭāḥ (11 AH) · Khālid ؓ at Medina
+  (11 AH) · ʿAqrabāʾ (11→12 AH)**.
+- «⁨ایک واقعہ⁩» lines for **Mālik b. Nuwayra ؓ · Mujjāʿa b. Murāra · Thābit b. Qays ؓ**.
 
-## The cut to make
+## The cut, as made
 
-**Parts I, II and III, to STOP B** is the recommended evening: **≈ 36 min of material for 34 story
-minutes**, ending on the prisoner in the tent. Part IV is built so the evening cannot run dry; Parts V
-and VI are the pool for what follows. **Part II is all or nothing.** At the lectern, drop GOOD cards
-first: #2, #4, #5, #18.
+**Daniyal, 2026-09-22: Parts I–IV, ending at STOP C** (`DECISIONS.md` #44) — 31 cards, ≈ 57.5 min as
+budgeted, for 34 story minutes — **and Part V behind the close, for the evening that runs long** (#47). Evening 3 spoke 32 cards in the slot, so the evening is sized to the
+room's real pace, not to the budget. **Part II is all or nothing.** If the clock runs ahead of the cards,
+drop GOOD cards first, in this order: #5, #4, #18, #21, #30, and #2 last — #26 closes the loop #2 opens
+(Thābit ؓ beside the Prophet ﷺ), and the worksheet's Thābit line starts there. If that is not enough, close
+at STOP B and let Part IV open evening 5.

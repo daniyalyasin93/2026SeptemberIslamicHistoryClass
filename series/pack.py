@@ -82,10 +82,15 @@ body { font-family: 'Segoe UI', Calibri, sans-serif; font-size: %(base)spt; colo
 .cols { display: flex; gap: 9px; }
 .col { flex: 1; }
 .col.run { flex: 1.45; }
+/* A long evening (an overflow part behind the planned close) has more beats than one column holds at a
+   readable size. Splitting the run into two columns keeps every beat AND keeps the type up: the
+   alternative was 10pt, which on a lectern under stage light is not a cue sheet. */
+.col.run.two { flex: 2.6; }
+.col.run.two .beats { column-count: 2; column-gap: 13px; }
 h2 { font: 700 9.5pt 'Segoe UI'; letter-spacing: .14em; text-transform: uppercase;
      color: %(gold)s; margin: 0 0 4px; border-bottom: .75pt solid #D8D2C4; padding-bottom: 2px; }
 
-.beat { display: flex; gap: 7px; margin-bottom: 3.5px; break-inside: avoid; }
+.beat { display: flex; gap: 7px; margin-bottom: 2.6px; break-inside: avoid; }
 .beat .clock { font: 700 11pt Consolas, monospace; color: %(teal)s; min-width: 34px; }
 .beat .what { flex: 1; }
 .beat .name { font-weight: 700; }
@@ -106,7 +111,7 @@ ol.lessons li { margin-bottom: 4.5px; break-inside: avoid; }
 .foot { position: fixed; bottom: 0; left: 0; right: 0; display: flex; gap: 10px;
         border-top: 2.5pt solid %(maroon)s; padding-top: 4px; font: 700 12pt 'Segoe UI'; }
 .foot div { flex: 1; text-align: center; color: %(maroon)s; }
-.pad { height: 30px; }
+.pad { height: 18px; }   /* clearance for the fixed footer, no more */
 """
 
 
@@ -136,9 +141,9 @@ def cue(out, d):
   <span class="r">%(runtime)s</span>
 </div>
 <div class="cols">
-  <div class="col run"><h2>Run</h2>%(beats)s</div>
+  <div class="col run%(wide)s"><h2>Run</h2><div class="beats">%(beats)s</div></div>
   <div class="col"><h2>Names &amp; dates</h2>%(who)s</div>
-  <div class="col"><h2>Ibrah &mdash; say each one, then move on</h2><ol class="lessons">%(lessons)s</ol></div>
+  <div class="col"><h2>Ibrah &mdash; one at a time</h2><ol class="lessons">%(lessons)s</ol></div>
 </div>
 <div class="pad"></div>
 <div class="foot">
@@ -148,6 +153,7 @@ def cue(out, d):
 """
     fields = {"title": d["title"], "session": d["session"], "dates": d["dates"],
               "runtime": d.get("runtime", ""), "beats": "".join(beats), "who": who,
+              "wide": " two" if len(d["run"]) > 18 else "",
               "lessons": lessons}
     colours = {"ink": INK, "teal": TEAL, "gold": GOLD, "cream": CREAM,
                "muted": MUTED, "maroon": MAROON}
