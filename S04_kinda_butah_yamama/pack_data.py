@@ -256,8 +256,8 @@ BEATS = [
      "cues": ["⚠ no answer from ʿUmar ؓ · card's sentence only · “in this war” · ZY15 severe · "
               "ZY18 = 1 of 4 names · Yarmuk not yet"]},
     {"t": "V", "name": "» VIII · one who lived · ninety-odd · <b>[HANDS]</b> how many reciters? · "
-     "THE QURʾĀN " + F["gathered"] + " → STOP D",
-     "cards": ["THO/E-HS14", "THO/E-HS15", "ZIA/E-ZY17", "RCT/E-RC37"],
+     "«how do you do a thing he ﷺ did not do?» · THE QURʾĀN " + F["gathered"] + " → STOP D",
+     "cards": ["THO/E-HS14", "THO/E-HS15", "ZIA/E-ZY17", "RCT/E-RC65", "RCT/E-RC37"],
      "cues": ["NO number exists · end on the Qurʾān, say nothing after it"]},
     # Parts IX-XI — the houses, PAST the close: evening 5's opening, or the fifteen minutes afterwards.
     # One line, not three: the cue card is one page (CLAUDE.md 1.7), and these are not tonight's evening.

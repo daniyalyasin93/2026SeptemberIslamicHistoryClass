@@ -212,4 +212,7 @@ All cached from the household research notes; this is the register entry for put
 | ⁨سیر أعلام النبلاء⁩ 10906 | 2407 | ⁨ج۲ ص۴۲۷⁩ | ⁨زيد بن ثابت ؓ⁩ — «⁨الخَزْرَجِيُّ، النَّجَّارِيُّ، الأَنْصَارِيُّ، كَاتِبُ الوَحْيِ⁩». His ⁨تراجم⁩ notice, now `RCT/E-RC37` beat 3 |
 | ⁨سیر أعلام النبلاء⁩ 10906 | 2007 | ⁨ج۲ ص۲۷⁩ | ⁨أبو طلحة ؓ⁩ — «⁨وَأَحَدُ أَعْيَانِ البَدْرِيِّيْنَ، وَأَحَدُ النُّقَبَاءِ الاثْنَيْ عَشَرَ لَيْلَةَ العَقَبَةِ⁩», and his own name ⁨زيد بن سهل⁩. His notice, now `THO/E-HS1` beat 1 |
 | ⁨الکامل فی التاریخ⁩ 21712 | 906 | ⁨ج۲ ص۲۱۵⁩ | ⁨الرجال بن عنفوة⁩ — «⁨وَبَعَثَهُ مُعَلِّمًا لِأَهْلِ الْيَمَامَةِ⁩». **The pronoun is unattached: the sender is NOT named.** Read to correct `RCT/E-RC57` |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2411 | ⁨ج۲ ص۴۳۱⁩ | the ⁨جمع⁩ dialogue in ⁨زيد بن ثابت ؓ⁩'s own words — «⁨كَيْفَ تَفْعَلُوْنَ شَيْئاً لَمْ يَفْعَلْهُ رَسُوْلُ اللهِ⁩ …» / «⁨هُوَ -وَاللهِ- خَيْرٌ⁩». The new card `RCT/E-RC65` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3181 | ⁨ج۷ ص۳۵⁩ | Ibn Kathīr's own figures for the day — «⁨وقتل من المسلمين ستمئة، وقيل: خمسمئة، فالله أعلم⁩», with Banū Ḥanīfa «⁨قريبًا من عشرة آلاف، وقيل: أحد وعشرون ألفًا⁩». `ZIA/E-ZY17` beats 4–5, **given as approximate because the book gives them that way** |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3180, 3206 | ⁨ج۷ ص۳۴⁩, ⁨ج۷ ص۶۰⁩ | read for the ⁨محكم بن الطفيل⁩ question: he advised Banū Ḥanīfa into the garden, and «⁨أدرك عبد الرحمن بن أبي بكر محكمَ بن الطفيل فرماه بسهمٍ في عنقه وهو يخطب فقتله⁩». **Not yet carded — Daniyal's decision** |
 

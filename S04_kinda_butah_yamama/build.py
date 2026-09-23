@@ -118,6 +118,8 @@ FACE_TITLE = {
     "AHA/E-AS10": "The adoption undone",
     "AHA/E-AS08": "He took his cloak and went out to listen",
     "THO/E-HS12": "Why he came to that house",
+    # the card title is the whole question; the face takes the half that carries it
+    "RCT/E-RC65": "«A thing the Prophet ﷺ did not do»",
     "RCT/E-RC21": "The death of Musaylima",
     "RCT/E-RC23": "Zayd b. al-Khaṭṭāb ؓ and his brother",       # no comma after ؓ: a combining mark
     "TSY/E-YK19": "al-Ashath b. Qays comes into it",
@@ -190,6 +192,7 @@ FACE_WHEN = {
     "ZIA/E-ZY15": "11–12 AH",
     "ZIA/E-ZY16": "12 AH, and al-Yarmūk after it",
     "ZIA/E-ZY18": "12 AH, at al-Yamāma",
+    "RCT/E-RC65": "12 AH, Medina",
     # Parts IX–XI — backstory, so every date line says plainly how far back we have gone
     "THO/E-HS1": "Before the Hijra, at Medina",
     "THO/E-HS2": "1 AH, soon after the Hijra",
@@ -321,6 +324,11 @@ FACE_QUOTE = {
     "RCT/E-RC22": ("وَوَصَلَ كِتَابُ أَبِي بَكْرٍ إِلَى خَالِدٍ أَنْ يَقْتُلَ كُلَّ مُحْتَلِمٍ … فَوَفَى لَهُمْ وَلَمْ يَغْدِرْ.",
                    "And Abū Bakr's letter reached Khālid, ordering him to kill every man who had reached "
                    "puberty … so he kept faith with them and did not betray them."),
+    # the dialogue: the order, the objection, the three words. The honorific is spelled out because
+    # that is how the سیر page prints it, and the quotation is verbatim or it is not a quotation.
+    "RCT/E-RC65": ("فَتَتَبَّعِ القُرْآنَ، فَاجْمَعْهُ. فَقُلْتُ: كَيْفَ تَفْعَلُوْنَ شَيْئاً لَمْ يَفْعَلْهُ رَسُوْلُ اللهِ … قَالَ: هُوَ -وَاللهِ- خَيْرٌ.",
+                   "…so follow the Qurʾān up and gather it. I said: How do you do a thing the Messenger "
+                   "of Allah ﷺ did not do? … He said: By Allah, it is good."),
     # the order itself. The reciters clause is ZY17's face, one slide earlier (#43).
     "RCT/E-RC37": ("أمرَ الصديق زيدَ بن ثابتٍ أن يجمعَ القرآن من اللِّخاف والعُسُب وصدور الرجال",
                    "…al-Ṣiddīq ordered Zayd b. Thābit to gather the Qurʾān from the flat stones and the "

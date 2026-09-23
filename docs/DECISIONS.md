@@ -1137,3 +1137,31 @@ here was re-verified by hand against the cached page before anything was written
 above are corrections to cards that had already passed every other gate — the citation checker cannot
 see a sender the source does not name.
 
+---
+
+## 52. The dialogue over the ⁨جمع⁩, and Ibn Kathīr's numbers as he gives them
+
+**2026-09-23, Daniyal: "add the Abū Bakr and Zayd dialogue, and also add the figure of Ibn Kathīr,
+cite as approximate value."** Both from #51's audit; both verified against the cached pages first.
+
+**The dialogue is its own card, `RCT/E-RC65`, at #56 — the run-up to the ending, not the ending.**
+⁨سیر ج۲ ص۴۳۱⁩, in Zayd's ؓ own words: why he was chosen («⁨إِنَّكَ رَجُلٌ شَابٌّ عَاقِلٌ لاَ نَتَّهِمُكَ⁩ …
+⁨قَدْ كُنْتَ تَكْتُبَ الوَحْيَ⁩»), the order, **his objection** («⁨كَيْفَ تَفْعَلُوْنَ شَيْئاً لَمْ يَفْعَلْهُ
+رَسُوْلُ اللهِ⁩»), and the three-word answer («⁨هُوَ -وَاللهِ- خَيْرٌ⁩»). #57 still ends the evening.
+
+⚠ **ʿUmar ؓ is named inside Zayd's ؓ own sentence on that page. That is the page's wording, not a claim
+about who proposed it — the "ʿUmar ؓ proposed it" account is not on this page and is not told here.**
+
+**The honorific is spelled out in the quotation** because ⁨سیر⁩ prints it that way and a quotation is
+verbatim or it is not a quotation; `check_citations` caught the ﷺ substitution immediately.
+
+**The figures go on `ZIA/E-ZY17` as the book gives them** (⁨البدایہ ج۷ ص۳۵⁩): «⁨وقتل من المسلمين ستمئة،
+وقيل: خمسمئة، **فالله أعلم**⁩», and the 450 of ⁨ج۷ ص۵۵⁩ twenty pages later. The card now says in its own
+beats that **Ibn Kathīr's figures are approximate and that he says so**. That is stronger than the card
+was before, not weaker: it was presenting one of his three numbers as *the* number.
+
+**A collision worth recording.** The new card was first written as `RCT/E-RC38` — an id **already in
+use** by a different card (⁨عمر ؓ⁩ to Quraysh, the framing card). The pool silently kept the later one
+and `check_face_quotes` failed with what looked like a quotation error. **Before adding a card, list
+the ids in use.** Renamed to `RCT/E-RC65`.
+

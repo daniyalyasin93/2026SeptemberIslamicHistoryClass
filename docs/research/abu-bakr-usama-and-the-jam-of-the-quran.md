@@ -1210,3 +1210,41 @@ and the run could not match.
 Both now carry « … » at the turn and both citation lines say in words that the mark is the page
 turn and that nothing is omitted. The second was already described in the note's own prose —
 «⁨والجمع⁩ is the last word of ⁨ص۳۵⁩» — which the page confirms.
+
+---
+
+## Card written from §5.2 (2026-09-23, `DECISIONS.md` #52)
+
+### E-RC65 · «How do you do a thing the Prophet ﷺ did not do?»
+**Tier:** CORE · **When:** ⁨۱۲ھ⁩, ⁨المدینہ⁩ `[SOURCED]` · **Map:** n/a — the Line, on ⁨۱۲ھ⁩.
+**What happened:** Abū Bakr ؓ sent for Zayd b. Thābit ؓ and told him plainly why it was him: a young
+man, of sound judgement, not suspected — and he had written the revelation for the Prophet ﷺ. Then he
+told him to follow the Qurʾān up and gather it. Zayd ؓ did not say yes. He asked how they could do a
+thing the Messenger of Allah ﷺ had not done. Abū Bakr ؓ answered him in three words: by Allah, it is
+good. And he kept coming back to him — these are Zayd's ؓ own words — until Allah opened his breast to
+what He had opened the breast of Abū Bakr ؓ and ʿUmar ؓ to. Then he went and gathered it: from the
+parchments, the shoulder-blades, the palm-stalks, and the breasts of men.
+**Beats:**
+1. Why him — A young man, of sound judgement, not suspected; and he had written the revelation for the Prophet ﷺ.
+2. The order — Follow the Qurʾān up, and gather it.
+3. He did not say yes — How do you do a thing the Messenger of Allah ﷺ did not do?
+4. The answer, in three words — By Allah, it is good.
+5. What changed it — Abū Bakr ؓ kept coming back to him, until Allah opened his breast to what He had opened theirs to.
+6. What he gathered it from — The parchments, the shoulder-blades, the palm-stalks, and the breasts of men.
+**Quote after beat:** 4
+**The statement:**
+> إِنَّكَ رَجُلٌ شَابٌّ عَاقِلٌ لاَ نَتَّهِمُكَ، قَدْ كُنْتَ تَكْتُبَ الوَحْيَ لِرَسُوْلِ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ- فَتَتَبَّعِ القُرْآنَ، فَاجْمَعْهُ. فَقُلْتُ: كَيْفَ تَفْعَلُوْنَ شَيْئاً لَمْ يَفْعَلْهُ رَسُوْلُ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ-. قَالَ: هُوَ -وَاللهِ- خَيْرٌ.
+> — ⁨سیر أعلام النبلاء ج۲ ص۴۳۱⁩ · https://shamela.ws/book/10906/2411
+> *English:* "You are a young man, of sound judgement, and we do not suspect you; you used to write
+> the revelation for the Messenger of Allah ﷺ — so follow the Qurʾān up and gather it. I said: How do
+> you do a thing the Messenger of Allah ﷺ did not do? He said: By Allah, it is good."
+
+**⁨عبرت⁩:** The man who did it first had to be argued into it, and he is the one who told us so.
+**Hands-up?** no
+⚠ **ʿUmar ؓ is named inside Zayd's ؓ own sentence** («⁨شَرَحَ اللهُ صَدْرِي لِلَّذِي شَرَحَ لَهُ صَدْرَ أَبِي⁩
+⁨بَكْرٍ وَعُمَرَ⁩»). That is the page's wording, **not** a claim about who proposed it. **Do not build the
+"ʿUmar ؓ proposed it" account on this card — it is not on this page.**
+⚠ This page adds ⁨الرقاع⁩ and ⁨الأكتاف⁩ to the materials `RCT/E-RC37` lists. Say all four, or say the
+two the next card says; do not say "only".
+
+---

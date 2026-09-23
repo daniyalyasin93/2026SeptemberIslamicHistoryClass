@@ -1736,8 +1736,9 @@ reciters died. We only know that it was enough.
 1. The question the room is already asking — How many men who carried the Qurʾān died that day?
 2. What the books do say — The killing ran hot among the reciters on the day of al-Yamāma.
 3. What none of them gives — A number for the reciters.
-4. Ibn Kathīr's own total — Four hundred and fifty Muslim dead, counting reciters, Companions and others together.
-5. So we say it plainly — We know why the Qurʾān was collected. We do not know how many were lost. Only that it was enough.
+4. Ibn Kathīr's figures are approximate, and he says so — Six hundred Muslim dead, or five hundred: «and Allah knows best».
+5. And twenty pages later — Four hundred and fifty, counting reciters, Companions and others together.
+6. So we say it plainly — We know why the Qurʾān was collected. We do not know how many were lost. Only that it was enough.
 **Quote after beat:** 2
 **The statement:**
 > وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة كما ثبت به الحديث في صحيح البخاري.
