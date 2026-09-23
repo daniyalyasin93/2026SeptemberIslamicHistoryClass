@@ -3146,6 +3146,46 @@ in narrative — «⁨وقد ميز خالد المهاجرين من الأنص�
 
 ---
 
+### E-RC66 · The man who called them into the garden
+**Tier:** CORE · **When:** ⁨۱۱ھ⁩→⁨۱۲ھ⁩, at ⁨عَقْرَباء⁩ `[SOURCED]` · **Map:** ⁨عَقْرَباء⁩ — hold on the garden.
+**What happened:** The line broke and Banū Ḥanīfa were driven back onto their own farms. They asked
+Musaylima where the help he had promised them was, and he told them to fight for their honour. Then
+one of their own commanders called them in: al-Muḥakkam b. al-Ṭufayl, whom the books call Muḥakkam
+al-Yamāma, and whom Ibn Kathīr ⁨رحمہ اللہ⁩ calls Musaylima's wazīr and counsellor. They went into the
+walled garden and barred the gate behind them. And while he was still standing there exhorting them,
+ʿAbd al-Raḥmān b. Abī Bakr ؓ — the caliph's own son, on that field — shot him through the throat and
+killed him.
+**Beats:**
+1. The line breaks — Banū Ḥanīfa are driven back onto their own farms.
+2. They ask Musaylima where the help he promised is — He tells them to fight for their honour.
+3. One of their commanders calls them in — Banū Ḥanīfa, the garden, the garden!
+4. They go in and bar the gate behind them — Thousands of them, behind a solid wall.
+5. Who he was — The books call him Muḥakkam al-Yamāma; Ibn Kathīr ⁨رحمہ اللہ⁩, Musaylima's wazīr and counsellor.
+6. Still exhorting them when it comes — ʿAbd al-Raḥmān b. Abī Bakr ؓ, the caliph's own son on that field, shoots him through the throat.
+**Quote after beat:** 3
+**The statement:**
+> وَنَادَى الْمُحَكَّمُ: يَا بَنِي حَنِيفَةَ، الْحَدِيقَةَ الْحَدِيقَةَ! فَدَخَلُوهَا وَأَغْلَقُوا عَلَيْهِمْ بَابَهَا.
+> — ⁨الکامل فی التاریخ ج۲ ص۲۱۷⁩ · https://shamela.ws/book/21712/908
+> *English:* "And al-Muḥakkam called out: Banū Ḥanīfa — the garden, the garden! So they went into it
+> and barred its gate behind them."
+
+**Also on the page — who killed him:**
+> وأدرك عبد الرحمن بن أبي بكر محكمَ بن الطفيل فرماه بسهمٍ في عنقه وهو يخطب فقتله
+> — ⁨البدایہ والنہایہ ج۷ ص۳۴⁩ · https://shamela.ws/book/30097/3180
+> *English:* "And ʿAbd al-Raḥmān b. Abī Bakr caught up with Muḥakkam b. al-Ṭufayl and shot him with an
+> arrow in his throat while he was exhorting them, and killed him."
+
+**⁨عبرت⁩:** The advice that shut the gate was the last advice he gave.
+**Hands-up?** no
+⚠ **The ⁨البدایہ⁩ page carries imprecations («⁨لعنه الله⁩») against Musaylima and al-Muḥakkam. They are
+not in our quotation and they are not said aloud** — the evening narrates, it does not curse.
+⚠ **ʿAbd al-Raḥmān b. Abī Bakr ؓ is introduced here as Abū Bakr's ؓ son on that field, and nothing
+more. Do not open his own earlier story from the platform.**
+⚠ Two more approved pages carry the killing and may be named if challenged: ⁨البدایہ ج۷ ص۶۰⁩ (where Ibn
+Kathīr calls him Musaylima's wazīr) and ⁨سیر الراشدون ص۴۹⁩, which gives it **from ⁨ابن إسحاق⁩**.
+
+---
+
 ### E-RC20 · ⁨حديقة الموت⁩ — al-Barāʾ ؓ over the wall
 **Tier:** CORE · **When:** ⁨۱۱ھ⁩→⁨۱۲ھ⁩ `[SOURCED]` · **Map:** The red block collapses back from ⁨عَقْرَباء⁩
 into a small walled enclosure. The gate is drawn shut. Then it opens **from the inside**.

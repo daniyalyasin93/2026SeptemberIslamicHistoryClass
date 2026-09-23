@@ -110,6 +110,7 @@ FACE_TITLE = {
     "RCT/E-RC20": "Ḥadīqat al-Mawt — over the wall",
     # Parts VI–VIII — al-Dhahabī رحمہ اللہ gives AS17 with «وقيل»; the hedge belongs on the face itself
     "AHA/E-AS17": "It is said they were found together",
+    "RCT/E-RC66": "«The garden, the garden!»",
     "AHA/E-AS13": "The banner changed hands",
     "AHA/E-AS14": "Two men who dug a pit",
     "ZIA/E-ZY4": "The man who killed Zayd ؓ",
@@ -167,6 +168,7 @@ FACE_WHEN = {
     "RCT/E-RC63": "11 AH, Medina",
     "RCT/E-RC64": "11 AH, before Khālid ؓ arrived",
     "RCT/E-RC20": "11–12 AH, ʿAqrabāʾ",
+    "RCT/E-RC66": "11–12 AH, ʿAqrabāʾ",
     "RCT/E-RC21": "11–12 AH, ʿAqrabāʾ",
     "RCT/E-RC22": "12 AH, the forts of al-Yamāma",
     "RCT/E-RC23": "12 AH, Rabīʿ I",
@@ -244,7 +246,7 @@ MAP_BEFORE = {
                    [("ʿAqrabāʾ", "the enemy camp"), ("The farmland", "behind their own line")]),
     "RCT/E-RC19": ("The line re-formed", "s04-07-aqraba.json", "4–5",
                    [("Clan by clan", "Muhājirūn, Anṣār, the tribes")]),
-    "RCT/E-RC20": ("Into the garden", "s04-07-aqraba.json", "6",
+    "RCT/E-RC66": ("Into the garden", "s04-07-aqraba.json", "6",
                    [("The garden", "the gate shut behind them")]),
     "RCT/E-RC21": ("The gate opens", "s04-07-aqraba.json", "7",
                    [("al-Barāʾ ؓ", "over the wall, and the gate"), ("al-Yamāma", "taken")]),
@@ -496,11 +498,11 @@ BRIDGE_BEFORE = {
         "banners had gone to ʿIkrima ؓ, with Shuraḥbīl ؓ sent after him — and both reached al-Yamāma "
         "before Khālid ؓ did. Here is what happened to them."),
     # RC49-RC50, RC15/RC53, RC54, RC16 — the re-entry after the worksheet, for anyone who has just come in
-    # RC19 (where the close leaves the room), RC20 — the re-entry when the evening goes past STOP C
-    "RCT/E-RC20": ("Past the close: the day is decided", "11–12 AH, ʿAqrabāʾ", [
+    # RC19 (where the close leaves the room), RC66 — the re-entry when the evening goes past STOP C
+    "RCT/E-RC66": ("Past the close: the day is decided", "11–12 AH, ʿAqrabāʾ", [
         ("Where we stopped", "The line re-formed, every clan under its own banner, and the day undecided"),
         ("What happens next", "Banū Ḥanīfa give way — and fall back into a walled garden"),
-        ("What this last part is", "The garden, the end of Musaylima, the terms at the forts, and one order at Medina")],
+        ("What this last part is", "Who called them into the garden, the end of Musaylima, the terms, and one order at Medina")],
         "We have just closed, and we are going on. Where we left it: the line had re-formed, every clan "
         "under its own banner, and the day was not decided. Now it is decided — and what comes out of it "
         "is the reason you can hold a muṣḥaf tonight."),

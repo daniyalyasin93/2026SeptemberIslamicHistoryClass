@@ -237,8 +237,8 @@ BEATS = [
      "cards": ["RCT/E-RC62", "RCT/E-RC19"]},
     {"t": hm(CLOSE), "name": "Line · MAP · Tonight · Next week", "cards": []},
     # Part V — the overflow, behind the STOP C close (#47). Spoken only if there is time.
-    {"t": "V", "name": "» V · the garden · Musaylima killed · the forts · Zayd ؓ and ʿUmar ؓ",
-     "cards": ["RCT/E-RC20", "RCT/E-RC21", "RCT/E-RC22", "RCT/E-RC23"], "kind": "hands",
+    {"t": "V", "name": "» V · «the garden, the garden!» · Musaylima killed · the forts · Zayd ؓ and ʿUmar ؓ",
+     "cards": ["RCT/E-RC66", "RCT/E-RC20", "RCT/E-RC21", "RCT/E-RC22", "RCT/E-RC23"], "kind": "hands",
      "cues": ["⚠ al-Barāʾ ؓ LIVED (80-odd wounds) · “a second man came up” · no ranking line · terms kept"]},
     # Parts VI-VIII are NOT cued beat by beat: 30 beats will not fit on one page, and the cue card is one
     # page or it is not a cue card (CLAUDE.md 1.7). Each part gets ONE digest line naming its cards in
@@ -412,9 +412,11 @@ def verify_coverage(run):
         raise SystemExit("The cue sheet holds 16-32 beats. It has %d." % len(run))
     # the numbered [HANDS] of Parts I–IV, and Part V's own (RC20's, marked [HANDS] 4 in the runsheet)
     kinds = [c for b in run if b.get("kind") == "hands" for c in b["cards"][:1]]
-    if kinds != ["ATA/E-TB15", "RCT/E-RC47", "RCT/E-RC54", "RCT/E-RC20"]:
-        raise SystemExit("The [HANDS] beats are TB15, RC47, RC54 and RC20 (RUNSHEET). The overflow's own "
-                         "two — ZY4 and ZY17 — are marked inside the part digests. Cued: %s" % kinds)
+    # the overflow's first beat opens on RC66 (the garden card, #32) and carries RC20's [HANDS] 4 inside it
+    if kinds != ["ATA/E-TB15", "RCT/E-RC47", "RCT/E-RC54", "RCT/E-RC66"]:
+        raise SystemExit("The [HANDS] beats are TB15, RC47, RC54 and the overflow beat that opens on "
+                         "RC66 and holds RC20's hands-up (RUNSHEET). ZY4 and ZY17 are marked inside the "
+                         "part digests. Cued: %s" % kinds)
     for mark in ("the man who killed Zayd", "how many reciters"):
         if not any("[HANDS]</b> " + mark[:12] in b["name"] for b in run):
             raise SystemExit("The overflow hands-up %r lost its [HANDS] mark on the cue sheet." % mark)

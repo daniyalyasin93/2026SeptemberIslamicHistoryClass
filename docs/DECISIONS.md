@@ -1202,3 +1202,33 @@ more of the men who carried the Qurʾān did not come back"*. That is a reciter 
 exists precisely to stop one being said: 450 is Ibn Kathīr's figure for **reciters, Companions and
 others together**. Rewritten without a number.
 
+---
+
+## 54. The garden card — who called them in, and whose son killed him
+
+**2026-09-23, Daniyal: "add the garden card."** The climax of the evening — Banū Ḥanīfa falling back
+into ⁨حديقة الموت⁩ and the gate closing — was being told with **a nameless man** shutting it, and with
+**the caliph's own son on that field** and the room never hearing it. Four approved pages carry it, and
+the finding had been sitting in `ridda-campaign-the-conduct-of-the-wars.md` §6.6 on no card (#35).
+
+`RCT/E-RC66`, now **#32**, immediately before the garden card it sets up:
+
+| What | Page |
+|---|---|
+| The call: «⁨يَا بَنِي حَنِيفَةَ، الْحَدِيقَةَ الْحَدِيقَةَ! فَدَخَلُوهَا وَأَغْلَقُوا عَلَيْهِمْ بَابَهَا⁩» | ⁨الکامل ج۲ ص۲۱۷⁩ |
+| The killing: «⁨وأدرك عبد الرحمن بن أبي بكر محكمَ بن الطفيل فرماه بسهمٍ في عنقه وهو يخطب فقتله⁩» | ⁨البدایہ ج۷ ص۳۴⁩ |
+| Ibn Kathīr again, calling him Musaylima's ⁨وزير⁩ and counsellor | ⁨البدایہ ج۷ ص۶۰⁩ |
+| The same killing **from ابن إسحاق** | ⁨سیر الراشدون ص۴۹⁩ |
+
+**The face takes الکامل's wording deliberately.** The ⁨البدایہ⁩ page carries «⁨لعنه الله⁩» against both
+men; **the evening narrates, it does not curse**, so that page supplies the killing clause only and the
+imprecations are in neither the quotation nor the delivery.
+
+**ʿAbd al-Raḥmān b. Abī Bakr ؓ is introduced here as Abū Bakr's ؓ son on that field, and nothing more.**
+His own earlier story is not opened from the platform — it is not needed for this card, and it is not
+on it. The runsheet's introductions table says so.
+
+**Knock-ons:** the re-entry bridge past STOP C and the "into the garden" map slide both moved from
+`RC20` to `RC66`, which now opens Part V; the overflow's hands-up beat opens on `RC66` and carries
+`RC20`'s [HANDS] 4 inside it; STOP D is now after **#35**, STOP E after **#58**.
+

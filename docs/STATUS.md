@@ -10,12 +10,12 @@
 >
 > | Artifact | State |
 > |---|---|
-> | `S04.pptx` + `S04.pdf` | **138 slides** (130 visible), 83 cards. Bookend IN = evening 3's STOP B pair. **11 bridge slides** (#45). **FIVE stops** (#53): **A after #15** (hidden, type **131**), **B after #20** (hidden, type **135**), **C after #31 — the planned end — at 52–55**, **D after #34 (al-Yamāma taken) at 63–66**, and **E after #57 — the full ending — at 96–99**. Parts: V **56–62**, VI **68–77**, VII **78–88**, VIII **89–95**; the households IX–XI at **100–130**. **Out of time anywhere in V–XI: type 95** (the muṣḥaf card) and close at E. The PDF includes the hidden slides, so its page n is slide n |
+> | `S04.pptx` + `S04.pdf` | **139 slides** (131 visible), 84 cards. Bookend IN = evening 3's STOP B pair. **11 bridge slides** (#45). **FIVE stops** (#53): **A after #15** (hidden, type **132**), **B after #20** (hidden, type **136**), **C after #31 — the planned end — at 52–55**, **D after #35 (al-Yamāma taken) at 64–67**, and **E after #58 — the full ending — at 97–100**. Parts: V **56–63**, VI **69–78**, VII **79–89**, VIII **90–96**; the households IX–XI at **101–131**. **Out of time anywhere in V–XI: type 96** (the muṣḥaf card) and close at E. The PDF includes the hidden slides, so its page n is slide n |
 > | Maps | 11 scenes `tools/mapstudio/scenes/s04-*`, **rendered by `make_maps.py`** through `tools/render_scene.py` (headless) and placed as JPEGs. Renders are git-ignored; re-run to regenerate |
 > | The Line | `timeline.json` → `make_timeline.py` → `visuals/line_s04_stop_a/b/c.png`. The opening Line is evening 3's own image, byte for byte |
 > | `CUE.pdf` | one page, 11.0pt. The planned evening is cued beat by beat; **the overflow is a full-width band** under the columns — one digest line per part, with its ⚠ digest (`series/pack.py`, `.over`). Jump numbers are read from the deck |
 > | `WORKSHEET.pdf` | 2 pages; nothing on it the room has not heard by STOP B |
-> | `BRIEFING.pdf` | 116 pages: the evening, the bridges, the early closes, Parts VI–VIII, Part II's guardrail, the never-do list, then all 81 cards |
+> | `BRIEFING.pdf` | 122 pages: the evening, the bridges, the early closes, Parts VI–VIII, Part II's guardrail, the never-do list, then all 81 cards |
 >
 > **Rebuild order:** `make_timeline.py` → `make_maps.py` → `build.py` → `pack_data.py` (all in
 > `S04_kinda_butah_yamama/`). Gates, all clean: `tools/check_citations.py` (4,705 / 0),
