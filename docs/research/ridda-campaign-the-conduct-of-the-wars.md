@@ -1007,8 +1007,7 @@ versions end on the same disproportion between the man and the ruin.**
 
 ## 6.7 ⁨الرَّجّال بن عُنْفوة⁩ — the fitna larger than the false prophet
 
-He had **emigrated to the Prophet ﷺ, recited the Qurʾān, been given fiqh, and been sent by
-⁨أبو بكر ؓ⁩ to ⁨اليمامة⁩ to hold the people to Islam** — and instead testified that the Prophet ﷺ had made
+He had **emigrated to the Prophet ﷺ, recited the Qurʾān, been given fiqh, and been sent as a teacher to ⁨اليمامة⁩** — ⚠ **who sent him is NOT established: ⁨الکامل ج۲ ص۲۱۵⁩ is the only approved page carrying the clause, and its pronoun is unattached. Do not name ⁨أبو بكر ؓ⁩, and do not name the Prophet ﷺ** (`zayd-ibn-al-khattab-and-the-dead-of-yamama.md` §2.6, which caught this same error in its own first draft) — and instead testified that the Prophet ﷺ had made
 ⁨مسيلمة⁩ a partner in prophethood.
 
 > فَكَانَ أَعْظَمَ فِتْنَةً عَلَى بَنِي حَنِيفَةَ مِنْ مُسَيْلِمَةَ، شَهِدَ أَنَّ مُحَمَّدًا - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - يَقُولُ: إِنَّ مُسَيْلِمَةَ قَدْ أُشْرِكَ مَعَهُ، **فَصَدَّقُوهُ وَاسْتَجَابُوا لَهُ**
@@ -2895,15 +2894,14 @@ day, and the books keep both halves.
 **Tier:** CORE · **When:** ⁨۱۱ھ⁩→⁨۱۲ھ⁩, at ⁨عَقْرَباء⁩ `[SOURCED]` · **Map:** No movement. Hold on the broken
 line.
 **What happened:** In that same rout, Zayd b. al-Khaṭṭāb ؓ killed a man named al-Rajjāl b. ʿUnfuwa. He
-was not a man of Banū Ḥanīfa's making. He had come to the Prophet ﷺ, he had recited the Qurʾān, and
-Abū Bakr ؓ had sent him to al-Yamāma precisely to hold the people to Islam. Instead he testified that
+was not a man of Banū Ḥanīfa's making. He had come to the Prophet ﷺ, he had recited the Qurʾān, and he had been sent as a teacher to al-Yamāma, to hold the people to Islam. ⚠ No approved page names who sent him. Instead he testified that
 the Prophet ﷺ had said Musaylima was made a partner with him in the matter — and because it was he who
 said it, they believed him. Ibn al-Athīr's verdict: he was a greater fitna upon Banū Ḥanīfa than
 Musaylima was. Ibn Kathīr says the same in his own words.
 **Beats:**
 1. Killed in the rout — Zayd b. al-Khaṭṭāb ؓ killed a man named al-Rajjāl b. ʿUnfuwa.
 2. Who he was — He had come to the Prophet ﷺ and had recited the Qurʾān.
-3. What he was sent to do — Abū Bakr ؓ sent him to al-Yamāma to hold the people to Islam.
+3. What he was sent to do — He had been sent as a teacher to al-Yamāma, to hold the people to Islam.
 4. What he did instead — He testified that the Prophet ﷺ had made Musaylima a partner in the matter.
 5. And they believed him — Because of who was saying it, not because of what was said.
 6. The historians' verdict — He was a greater fitna upon Banū Ḥanīfa than Musaylima himself.
@@ -2955,9 +2953,7 @@ clear, Khālid!"* (⁨البدایہ ج۷ ص۳۳⁩ · https://shamela.ws/book/3
 ### E-RC18 · Thābit b. Qays ؓ puts on his shroud
 **Tier:** CORE · **When:** ⁨۱۱ھ⁩→⁨۱۲ھ⁩, at ⁨عَقْرَباء⁩ `[SOURCED]` · **Map:** No movement. Hold the map still
 on ⁨عَقْرَباء⁩ for this card.
-**What happened:** Thābit b. Qays b. Shammās ؓ was the orator of the Anṣār — of the
-Khazraj, brother by his mother to ʿAbdallāh b. Rawāḥa ؓ; not at Badr, and at Uḥud and at Bayʿat
-al-Riḍwān. He carried the Anṣār's banner that day. Anas ؓ came to him while the line was going
+**What happened:** Thābit b. Qays b. Shammās ؓ was the orator of the Anṣār — of the Khazraj; not at Badr, and at Uḥud and at Bayʿat al-Riḍwān. (⁨سیر ج۱ ص۳۰۹⁩ gives two reports about his mother; on the second of them — «⁨وقيل⁩» — ʿAbdallāh b. Rawāḥa ؓ is his brother by her. Say it with the «⁨وقيل⁩» attached, or not at all.) He carried the Anṣār's banner that day. Anas ؓ came to him while the line was going
 backwards and found him rubbing himself with burial perfume. He had put on two white garments — the ones he was buried in. Anas ؓ said: do you
 not see what is happening? He said: in a moment, nephew. Then he came forward past the men who were
 falling back, told them to get out of his way, and said the thing everyone in that generation would
@@ -3648,10 +3644,11 @@ it.
 **Beats:**
 1. Count this day's dead differently — So many of the reciters were killed at al-Yamāma.
 2. Abū Bakr ؓ gives an order — Zayd b. Thābit ؓ is to gather the Qurʾān.
-3. Out of what it was gathered — The flat stones, the palm-stalks, and the memories of men.
-4. Why then — So that it would not go with the men who carried it.
-5. Both books say it in the same place — al-Bidāya and al-Kāmil, and both point at al-Bukhārī.
-6. The muṣḥaf in this room — It was gathered because of the men who were killed in that garden.
+3. Who he is — Of the Khazraj, of Banū al-Najjār, and the Prophet's ﷺ own scribe of the revelation.
+4. Out of what it was gathered — The flat stones, the palm-stalks, and the memories of men.
+5. Why then — So that it would not go with the men who carried it.
+6. Both books say it in the same place — al-Bidāya and al-Kāmil, and both point at al-Bukhārī.
+7. The muṣḥaf in this room — It was gathered because of the men who were killed in that garden.
 **Quote after beat:** 4
 **The statement:**
 > فيها أمرَ الصديق زيدَ بن ثابتٍ أن يجمعَ القرآن من اللِّخاف والعُسُب وصدور الرجال، وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة كما ثبت به الحديث في صحيح البخاري.

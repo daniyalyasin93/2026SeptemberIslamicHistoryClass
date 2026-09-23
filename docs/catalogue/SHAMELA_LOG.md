@@ -202,3 +202,14 @@ All cached from the household research notes; this is the register entry for put
 | ⁨البدایہ والنہایہ⁩ 30097 | 3198 | ⁨ج۷ ص۵۲⁩ | ⁨الطفيل بن عمرو الدوسي ؓ⁩ and his son (`ZIA/E-ZY16`). ⚠ only what he interpreted, never the dream's own words |
 | ⁨البدایہ والنہایہ⁩ 30097 | 1402 | ⁨ج۳ ص۴۲۸⁩ | ⁨حبيب بن زيد ؓ⁩ in Musaylima's hands — «⁨لا أسمع⁩» (`ZIA/E-ZY15`). ⚠ SPEAKER'S DISCRETION |
 
+## 2026-09-23 — what the missing-detail audit put on cards (`DECISIONS.md` #51)
+
+| Book | Index | Printed | Why |
+|---|---|---|---|
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2262 | ⁨ج۲ ص۲۸۲⁩ | «⁨وَابْنُهَا الآخَرُ عَبْدُ اللهِ بنُ زَيْدٍ المَازِنِيُّ … وَهُوَ الَّذِي قَتَلَ مُسَيْلِمَةَ الكَذَّابَ بِسَيْفِهِ⁩» — the new card `ZIA/E-ZY18`. ⚠ ONE of four names (`QA_BANK.md` §5.3) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2258 | ⁨ج۲ ص۲۷۸⁩ | ⁨أم عمارة رضي الله عنها⁩'s own record — «⁨وَجَاهَدَتْ، وَفَعَلَتِ الأَفَاعِيْلَ⁩ … ⁨وَقُطِعَتْ يَدُهَا فِي الجِهَادِ⁩». `ZIA/E-ZY15` beat 5 |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2261 | ⁨ج۲ ص۲۸۱⁩ | twelve wounds at ⁨أحد⁩; the hand and eleven more at ⁨اليمامة⁩; ⁨أبو بكر ؓ⁩ visiting her. ⚠ ⁨البدایہ ج۳ ص۴۲۸⁩ gives twelve **from اليمامة** — give one book's figure with its caption, or say "covered in wounds" |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2407 | ⁨ج۲ ص۴۲۷⁩ | ⁨زيد بن ثابت ؓ⁩ — «⁨الخَزْرَجِيُّ، النَّجَّارِيُّ، الأَنْصَارِيُّ، كَاتِبُ الوَحْيِ⁩». His ⁨تراجم⁩ notice, now `RCT/E-RC37` beat 3 |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2007 | ⁨ج۲ ص۲۷⁩ | ⁨أبو طلحة ؓ⁩ — «⁨وَأَحَدُ أَعْيَانِ البَدْرِيِّيْنَ، وَأَحَدُ النُّقَبَاءِ الاثْنَيْ عَشَرَ لَيْلَةَ العَقَبَةِ⁩», and his own name ⁨زيد بن سهل⁩. His notice, now `THO/E-HS1` beat 1 |
+| ⁨الکامل فی التاریخ⁩ 21712 | 906 | ⁨ج۲ ص۲۱۵⁩ | ⁨الرجال بن عنفوة⁩ — «⁨وَبَعَثَهُ مُعَلِّمًا لِأَهْلِ الْيَمَامَةِ⁩». **The pronoun is unattached: the sender is NOT named.** Read to correct `RCT/E-RC57` |
+

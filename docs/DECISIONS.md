@@ -1107,3 +1107,33 @@ it run backwards. It is now an explicit whitelist of Parts I–IV.
 **The cue sheet holds.** One page at **11pt**: the planned evening is still cued beat by beat, and the
 whole overflow — 50 cards — is five digest lines in the band, the houses being one of them.
 
+---
+
+## 51. The missing-detail audit — four notes read against the 82 cards
+
+**2026-09-23, Daniyal: "is there any missing detail? I think Umm ʿUmāra might have missing detail" —
+and then "do this check with other stuff in S04."** He was right about her, and the sweep that followed
+found more. Four notes were read against the evening's card list under #35 ("a finding in a note body
+that is on no card does not exist on stage").
+
+**Fixed in this pass:**
+
+| What | Where it was wrong |
+|---|---|
+| **Her other son** | ⁨الذہبی⁩, **in Umm ʿUmāra's ؓ own notice**, says ʿAbd Allāh b. Zayd ؓ — Ḥabīb's ؓ brother — killed Musaylima with his sword (⁨سیر ج۲ ص۲۸۲⁩). The evening told her son's death and Musaylima's death and never joined them. Now `ZIA/E-ZY18`, **framed as one of four names** (`QA_BANK.md` §5.3), with `RC21`'s row cross-referring |
+| **Her own record** | «⁨وَجَاهَدَتْ، وَفَعَلَتِ الأَفَاعِيْلَ⁩», twelve wounds at ⁨أحد⁩ (⁨ج۲ ص۲۸۱⁩) — she was on the card only as a list of battles. Now `ZY15` beat 5, with the ⚠ that the two books differ on the ⁨اليمامة⁩ count |
+| **`RC57` named a sender the sources do not** | The card said **"Abū Bakr ؓ had sent him"** of ⁨الرجال بن عنفوة⁩. ⁨الکامل ج۲ ص۲۱۵⁩ is the only approved page with the clause and **its pronoun is unattached**. The Zayd note §2.6 had already caught and corrected this in its own draft; the ridda note §6.7 had not, and the card followed the ridda note. **Both are now corrected.** §1.1: wrong is worse than absent |
+| **`RC18` stated a kinship the page qualifies** | Thābit ؓ as brother by his mother to ʿAbdallāh b. Rawāḥa ؓ sits on the **second** of two reports, «⁨وقيل⁩» (⁨سیر ج۱ ص۳۰۹⁩). Now carried with the «⁨وقيل⁩» attached |
+| **The final card named a man with no notice** | `RC37` said "Zayd b. Thābit ؓ is to gather the Qurʾān" and never said who he was — on the last slide of the evening. Now beat 3: of the Khazraj, of Banū al-Najjār, **the Prophet's ﷺ own scribe of the revelation** (⁨سیر ج۲ ص۴۲۷⁩) |
+| **Abū Ṭalḥa ؓ carried six cards with no notice** | Now `HS1` beat 1: a man of Badr, one of the twelve ⁨نقباء⁩ of ⁨العقبة⁩ (⁨سیر ج۲ ص۲۷⁩). ⚠ **his own name is Zayd b. Sahl — the evening has three Zayds**, and the introductions table now says so |
+
+**What the audit also surfaced and did NOT go in** (reported to Daniyal, his call): ⁨محكم بن الطفيل⁩
+calling Banū Ḥanīfa into the garden and being killed by **⁨عبد الرحمن بن أبي بكر ؓ⁩** (three books);
+Abū Bakr ؓ and Zayd's ؓ own dialogue over the ⁨جمع⁩ (⁨سیر ج۲ ص۴۳۱⁩); the ⁨اليمامة⁩ terms in words; Ibn
+Kathīr's two Muslim totals for the same day; Banū Ḥanīfa's own dead; and why the Line runs 11→12 AH.
+
+**Method note.** Four agents read one or two notes each against the card list; **every finding acted on
+here was re-verified by hand against the cached page before anything was written.** Two of the six fixes
+above are corrections to cards that had already passed every other gate — the citation checker cannot
+see a sender the source does not name.
+

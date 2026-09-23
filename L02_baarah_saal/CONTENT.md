@@ -1930,15 +1930,14 @@ day, and the books keep both halves.
 **Tier:** CORE · **When:** ۱۱ھ→۱۲ھ, at عَقْرَباء `[SOURCED]` · **Map:** No movement. Hold on the broken
 line.
 **What happened:** In that same rout, Zayd b. al-Khaṭṭāb ؓ killed a man named al-Rajjāl b. ʿUnfuwa. He
-was not a man of Banū Ḥanīfa's making. He had come to the Prophet ﷺ, he had recited the Qurʾān, and
-Abū Bakr ؓ had sent him to al-Yamāma precisely to hold the people to Islam. Instead he testified that
+was not a man of Banū Ḥanīfa's making. He had come to the Prophet ﷺ, he had recited the Qurʾān, and he had been sent as a teacher to al-Yamāma, to hold the people to Islam. ⚠ No approved page names who sent him. Instead he testified that
 the Prophet ﷺ had said Musaylima was made a partner with him in the matter — and because it was he who
 said it, they believed him. Ibn al-Athīr's verdict: he was a greater fitna upon Banū Ḥanīfa than
 Musaylima was. Ibn Kathīr says the same in his own words.
 **Beats:**
 1. Killed in the rout — Zayd b. al-Khaṭṭāb ؓ killed a man named al-Rajjāl b. ʿUnfuwa.
 2. Who he was — He had come to the Prophet ﷺ and had recited the Qurʾān.
-3. What he was sent to do — Abū Bakr ؓ sent him to al-Yamāma to hold the people to Islam.
+3. What he was sent to do — He had been sent as a teacher to al-Yamāma, to hold the people to Islam.
 4. What he did instead — He testified that the Prophet ﷺ had made Musaylima a partner in the matter.
 5. And they believed him — Because of who was saying it, not because of what was said.
 6. The historians' verdict — He was a greater fitna upon Banū Ḥanīfa than Musaylima himself.
@@ -1990,9 +1989,7 @@ clear, Khālid!"* (البدایہ ج۷ ص۳۳ · https://shamela.ws/book/30097/3
 ### RCT/E-RC18 · Thābit b. Qays ؓ puts on his shroud
 **Tier:** CORE · **When:** ۱۱ھ→۱۲ھ, at عَقْرَباء `[SOURCED]` · **Map:** No movement. Hold the map still
 on عَقْرَباء for this card.
-**What happened:** Thābit b. Qays b. Shammās ؓ was the orator of the Anṣār — of the
-Khazraj, brother by his mother to ʿAbdallāh b. Rawāḥa ؓ; not at Badr, and at Uḥud and at Bayʿat
-al-Riḍwān. He carried the Anṣār's banner that day. Anas ؓ came to him while the line was going
+**What happened:** Thābit b. Qays b. Shammās ؓ was the orator of the Anṣār — of the Khazraj; not at Badr, and at Uḥud and at Bayʿat al-Riḍwān. (⁨سیر ج۱ ص۳۰۹⁩ gives two reports about his mother; on the second of them — «⁨وقيل⁩» — ʿAbdallāh b. Rawāḥa ؓ is his brother by her. Say it with the «⁨وقيل⁩» attached, or not at all.) He carried the Anṣār's banner that day. Anas ؓ came to him while the line was going
 backwards and found him rubbing himself with burial perfume. He had put on two white garments — the ones he was buried in. Anas ؓ said: do you
 not see what is happening? He said: in a moment, nephew. Then he came forward past the men who were
 falling back, told them to get out of his way, and said the thing everyone in that generation would
@@ -2683,10 +2680,11 @@ it.
 **Beats:**
 1. Count this day's dead differently — So many of the reciters were killed at al-Yamāma.
 2. Abū Bakr ؓ gives an order — Zayd b. Thābit ؓ is to gather the Qurʾān.
-3. Out of what it was gathered — The flat stones, the palm-stalks, and the memories of men.
-4. Why then — So that it would not go with the men who carried it.
-5. Both books say it in the same place — al-Bidāya and al-Kāmil, and both point at al-Bukhārī.
-6. The muṣḥaf in this room — It was gathered because of the men who were killed in that garden.
+3. Who he is — Of the Khazraj, of Banū al-Najjār, and the Prophet's ﷺ own scribe of the revelation.
+4. Out of what it was gathered — The flat stones, the palm-stalks, and the memories of men.
+5. Why then — So that it would not go with the men who carried it.
+6. Both books say it in the same place — al-Bidāya and al-Kāmil, and both point at al-Bukhārī.
+7. The muṣḥaf in this room — It was gathered because of the men who were killed in that garden.
 **Quote after beat:** 4
 **The statement:**
 > فيها أمرَ الصديق زيدَ بن ثابتٍ أن يجمعَ القرآن من اللِّخاف والعُسُب وصدور الرجال، وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة كما ثبت به الحديث في صحيح البخاري.
@@ -7906,11 +7904,12 @@ tell it to you as history.")*
 **Tier:** CORE · **When:** before the Hijra, at Medina `[STANDARD]` (the sources fix no year) · **Map:** Medina — بنو النجار quarter
 **What happened:** Abū Ṭalḥa came to ask for Umm Sulaym in marriage. He was still a pagan; she had already believed. She told him she would not refuse a man like him, but that he was a disbeliever. Then she named her price. If he accepted Islam, that would be her dower, and she would ask for nothing else. He accepted Islam, and he married her.
 **Beats:**
-1. He comes to ask for her in marriage — Abū Ṭalḥa ؓ, still a pagan; she had already believed.
-2. What she answered — She would not refuse a man like him, but he was a disbeliever.
-3. Her price — If he accepted Islam, that would be her dower, and she would ask for nothing else.
-4. What happened — He accepted Islam, and he married her.
-**Quote after beat:** 3
+1. Who he is — Abū Ṭalḥa ؓ of the Anṣār; his own name is Zayd b. Sahl. ⁨الذہبی⁩: a man of Badr, and one of the twelve naqībs of the night of al-ʿAqaba.
+2. He comes to ask for her in marriage — Still a pagan; she had already believed.
+3. What she answered — She would not refuse a man like him, but he was a disbeliever.
+4. Her price — If he accepted Islam, that would be her dower, and she would ask for nothing else.
+5. What happened — He accepted Islam, and he married her.
+**Quote after beat:** 4
 **The statement:**
 > <div dir="rtl">أَمَا إِنِّي فِيْكَ لَرَاغِبَةٌ، وَمَا مِثْلُكَ يُرَدُّ، وَلَكِنَّكَ كَافِرٌ، فَإِنْ تُسْلِمْ فَذَلِكَ مَهْرِي، لاَ أَسْأَلُكَ غَيْرَهُ.</div>
 > — سیر أعلام النبلاء ج۲ ص۲۹ · https://shamela.ws/book/10906/2009
@@ -9210,8 +9209,9 @@ was caliph, was seen coming to her to ask after her.
 2. He said yes — Then he was asked to testify the same of Musaylima, and said: I do not hear.
 3. He was cut apart, limb by limb — And he never gave more than that one answer, until he died.
 4. His mother — Umm ʿUmāra Nusayba bint Kaʿb رضي الله عنها: al-ʿAqaba, Uḥud, al-Ḥudaybiya, Ḥunayn.
-5. She went out with the army — Her hand was cut off at al-Yamāma, and she came back covered in wounds.
-6. Abū Bakr ؓ, while he was caliph — Was seen coming to her to ask after her.
+5. What al-Dhahabī رحمہ اللہ records of her — She fought, and she did great things; twelve wounds at Uḥud.
+6. She went out with the army — Her hand was cut off at al-Yamāma, and she came back covered in wounds.
+7. Abū Bakr ؓ, while he was caliph — Was seen coming to her to ask after her.
 **Quote after beat:** 3
 **The statement:**
 > فيقول: أتشهدُ أني رسولُ اللَّه؟ فيقول: لا أسمع، فجعل يقطِّعُه عضوًا عضوًا حتى مات في يديه، لا يزيدُه على ذلك.
@@ -9298,6 +9298,38 @@ reciters" has misread البدایہ ج۷ ص۵۵.**
 ## The people: the men who had fought against it
 
 *Source note: [`the-men-who-had-fought-against-it.md`](../docs/research/the-men-who-had-fought-against-it.md) — read it for the pages behind these cards.*
+
+### ZIA/E-ZY18 · Her other son, and one of the four names
+**Tier:** CORE · **When:** اليمامة ۱۲ھ `[SOURCED]` · **Map:** n/a — hold on عَقْرَباء.
+**What happened:** Umm ʿUmāra ؓ had another son besides Ḥabīb ؓ. He is ʿAbd Allāh b. Zayd ؓ, and the
+ummah knows him for something entirely separate: he is the Companion who described the Prophet's ﷺ
+wuḍūʾ. In her own notice, al-Dhahabī رحمہ اللہ adds one more sentence about him — that he is the man
+who killed Musaylima with his sword. That is **one of four names** the approved books give for
+Musaylima's killer, and they do not choose between them.
+**Beats:**
+1. She had another son — ʿAbd Allāh b. Zayd ؓ, the brother of Ḥabīb ؓ.
+2. What the ummah knows him for — He is the Companion who described the Prophet's ﷺ wuḍūʾ.
+3. What al-Dhahabī رحمہ اللہ adds, in her notice — That he is the one who killed Musaylima with his sword.
+4. One of four names — The books give four, and they do not choose between them.
+5. And the man best placed to know refused the claim — Your Lord knows better which of us killed him.
+**Quote after beat:** 3
+**The statement:**
+> وَابْنُهَا الآخَرُ عَبْدُ اللهِ بنُ زَيْدٍ المَازِنِيُّ الَّذِي حَكَى وُضُوْءَ رَسُوْلِ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ- … وَهُوَ الَّذِي قَتَلَ مُسَيْلِمَةَ الكَذَّابَ بِسَيْفِهِ.
+> — سیر أعلام النبلاء ج۲ ص۲۸۲ · https://shamela.ws/book/10906/2262
+> *English:* "Her other son, ʿAbd Allāh b. Zayd al-Māzinī — the one who described the Messenger of
+> Allah's ﷺ wuḍūʾ — … and he is the one who killed Musaylima the liar with his sword."
+
+**عبرت:** The same notice records what that house lost and what one account says it did, and the books
+still decline to say whose hand it was.
+**Hands-up?** no
+⚠ **NEVER state a single killer (`QA_BANK.md` §5.3).** The four: ⁨الواقدي⁩ names ⁨عبد الله بن زيد ؓ⁩ ·
+⁨ابن کثیر⁩ prefers ⁨وحشي ؓ⁩ striking first and ⁨أبو دجانة ؓ⁩ finishing · ⁨سيف⁩ names ⁨عدي بن سهل⁩ ·
+and ⁨وحشي ؓ⁩ himself: «⁨فَربُّك أعلمُ أيُّنا قَتَله⁩». Say the sentence as ⁨الذہبی⁩ writes it, **and say in
+the same breath that three other names are given**.
+⚠ **The same page says he was killed on the day of ⁨الحرة⁩. Do not say it and do not open it** — it is
+63 AH and it is not this course's ground yet.
+
+---
 
 ### TMW/E-TRN1 · The order of battle at Uḥud
 **Tier:** CORE · **When:** شوال ۳ھ `[SOURCED]` · **Map:** n/a — this is a picture, not a place. Put the two wings on a diagram.

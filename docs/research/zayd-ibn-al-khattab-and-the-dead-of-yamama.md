@@ -1670,8 +1670,9 @@ was caliph, was seen coming to her to ask after her.
 2. He said yes — Then he was asked to testify the same of Musaylima, and said: I do not hear.
 3. He was cut apart, limb by limb — And he never gave more than that one answer, until he died.
 4. His mother — Umm ʿUmāra Nusayba bint Kaʿb ⁨رضي الله عنها⁩: al-ʿAqaba, Uḥud, al-Ḥudaybiya, Ḥunayn.
-5. She went out with the army — Her hand was cut off at al-Yamāma, and she came back covered in wounds.
-6. Abū Bakr ؓ, while he was caliph — Was seen coming to her to ask after her.
+5. What al-Dhahabī ⁨رحمہ اللہ⁩ records of her — She fought, and she did great things; twelve wounds at Uḥud.
+6. She went out with the army — Her hand was cut off at al-Yamāma, and she came back covered in wounds.
+7. Abū Bakr ؓ, while he was caliph — Was seen coming to her to ask after her.
 **Quote after beat:** 3
 **The statement:**
 > فيقول: أتشهدُ أني رسولُ اللَّه؟ فيقول: لا أسمع، فجعل يقطِّعُه عضوًا عضوًا حتى مات في يديه، لا يزيدُه على ذلك.
@@ -1750,6 +1751,38 @@ would you guess?"* — then give the honest answer: the books do not say.
 ⚠ **This is the card that stops a wrong number being said. The figures the safe list does give run
 from 58 to more than 1,080 (§Y), and none of them is a count of reciters.** ⚠ **Anyone who says "450
 reciters" has misread ⁨البدایہ ج۷ ص۵۵⁩.**
+
+---
+
+### E-ZY18 · Her other son, and one of the four names
+**Tier:** CORE · **When:** ⁨اليمامة ۱۲ھ⁩ `[SOURCED]` · **Map:** n/a — hold on ⁨عَقْرَباء⁩.
+**What happened:** Umm ʿUmāra ؓ had another son besides Ḥabīb ؓ. He is ʿAbd Allāh b. Zayd ؓ, and the
+ummah knows him for something entirely separate: he is the Companion who described the Prophet's ﷺ
+wuḍūʾ. In her own notice, al-Dhahabī ⁨رحمہ اللہ⁩ adds one more sentence about him — that he is the man
+who killed Musaylima with his sword. That is **one of four names** the approved books give for
+Musaylima's killer, and they do not choose between them.
+**Beats:**
+1. She had another son — ʿAbd Allāh b. Zayd ؓ, the brother of Ḥabīb ؓ.
+2. What the ummah knows him for — He is the Companion who described the Prophet's ﷺ wuḍūʾ.
+3. What al-Dhahabī ⁨رحمہ اللہ⁩ adds, in her notice — That he is the one who killed Musaylima with his sword.
+4. One of four names — The books give four, and they do not choose between them.
+5. And the man best placed to know refused the claim — Your Lord knows better which of us killed him.
+**Quote after beat:** 3
+**The statement:**
+> وَابْنُهَا الآخَرُ عَبْدُ اللهِ بنُ زَيْدٍ المَازِنِيُّ الَّذِي حَكَى وُضُوْءَ رَسُوْلِ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ- … وَهُوَ الَّذِي قَتَلَ مُسَيْلِمَةَ الكَذَّابَ بِسَيْفِهِ.
+> — ⁨سیر أعلام النبلاء ج۲ ص۲۸۲⁩ · https://shamela.ws/book/10906/2262
+> *English:* "Her other son, ʿAbd Allāh b. Zayd al-Māzinī — the one who described the Messenger of
+> Allah's ﷺ wuḍūʾ — … and he is the one who killed Musaylima the liar with his sword."
+
+**⁨عبرت⁩:** The same notice records what that house lost and what one account says it did, and the books
+still decline to say whose hand it was.
+**Hands-up?** no
+⚠ **NEVER state a single killer (`QA_BANK.md` §5.3).** The four: ⁨الواقدي⁩ names ⁨عبد الله بن زيد ؓ⁩ ·
+⁨ابن کثیر⁩ prefers ⁨وحشي ؓ⁩ striking first and ⁨أبو دجانة ؓ⁩ finishing · ⁨سيف⁩ names ⁨عدي بن سهل⁩ ·
+and ⁨وحشي ؓ⁩ himself: «⁨فَربُّك أعلمُ أيُّنا قَتَله⁩». Say the sentence as ⁨الذہبی⁩ writes it, **and say in
+the same breath that three other names are given**.
+⚠ **The same page says he was killed on the day of ⁨الحرة⁩. Do not say it and do not open it** — it is
+63 AH and it is not this course's ground yet.
 
 ---
 

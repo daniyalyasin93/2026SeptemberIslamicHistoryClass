@@ -1109,11 +1109,12 @@ first and fetching second saved roughly forty blind page fetches here. **It is w
 **Tier:** CORE · **When:** before the Hijra, at Medina `[STANDARD]` (the sources fix no year) · **Map:** Medina — ⁨بنو النجار⁩ quarter
 **What happened:** Abū Ṭalḥa came to ask for Umm Sulaym in marriage. He was still a pagan; she had already believed. She told him she would not refuse a man like him, but that he was a disbeliever. Then she named her price. If he accepted Islam, that would be her dower, and she would ask for nothing else. He accepted Islam, and he married her.
 **Beats:**
-1. He comes to ask for her in marriage — Abū Ṭalḥa ؓ, still a pagan; she had already believed.
-2. What she answered — She would not refuse a man like him, but he was a disbeliever.
-3. Her price — If he accepted Islam, that would be her dower, and she would ask for nothing else.
-4. What happened — He accepted Islam, and he married her.
-**Quote after beat:** 3
+1. Who he is — Abū Ṭalḥa ؓ of the Anṣār; his own name is Zayd b. Sahl. ⁨الذہبی⁩: a man of Badr, and one of the twelve naqībs of the night of al-ʿAqaba.
+2. He comes to ask for her in marriage — Still a pagan; she had already believed.
+3. What she answered — She would not refuse a man like him, but he was a disbeliever.
+4. Her price — If he accepted Islam, that would be her dower, and she would ask for nothing else.
+5. What happened — He accepted Islam, and he married her.
+**Quote after beat:** 4
 **The statement:**
 > <div dir="rtl">⁨أَمَا إِنِّي فِيْكَ لَرَاغِبَةٌ، وَمَا مِثْلُكَ يُرَدُّ، وَلَكِنَّكَ كَافِرٌ، فَإِنْ تُسْلِمْ فَذَلِكَ مَهْرِي، لاَ أَسْأَلُكَ غَيْرَهُ⁩.</div>
 > — ⁨سیر أعلام النبلاء ج۲ ص۲۹⁩ · https://shamela.ws/book/10906/2009

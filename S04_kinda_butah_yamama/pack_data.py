@@ -243,26 +243,25 @@ BEATS = [
     # Parts VI-VIII are NOT cued beat by beat: 30 beats will not fit on one page, and the cue card is one
     # page or it is not a cue card (CLAUDE.md 1.7). Each part gets ONE digest line naming its cards in
     # order, with the part's ⚠ digest under it. The full beats live in the deck's own notes and BRIEFING.
-    {"t": "V", "name": "» VI · banner → Sālim ؓ · one of four · the pit · the hand + āya · «between them» · "
-     "found together · 23 AH: «had Sālim ؓ been alive» · the estate",
+    {"t": "V", "name": "» VI · banner → Sālim ؓ · one of four · the pit · hands + āya · «between them» · "
+     "found together · 23 AH · the estate",
      "cards": ["AHA/E-AS13", "AHA/E-AS09", "AHA/E-AS14", "AHA/E-AS15", "AHA/E-AS16", "AHA/E-AS17",
                "AHA/E-AS18", "AHA/E-AS19"],
      "cues": ["⚠ no arrangement · four names off · pit = Thābit ؓ · 2nd man unnamed · no one grave · "
               "her name unread"]},
     {"t": "V", "name": "» VII · the pairs · Maʿn ؓ · <b>[HANDS]</b> the man who killed Zayd ؓ · the "
-     "arrow · the chief's son · three generations · the mother · father and son",
+     "arrow · the chief's son · three generations · the mother · her other son · father and son",
      "cards": ["ZIA/E-ZY8", "ZIA/E-ZY9", "ZIA/E-ZY4", "ZIA/E-ZY12", "ZIA/E-ZY13", "ZIA/E-ZY14",
-               "ZIA/E-ZY15", "ZIA/E-ZY16"],
-     "cues": ["⚠ no answer from ʿUmar ؓ · the card's sentence only · “in this war” · ZY15 severe, your "
-              "call · Yarmuk not yet"]},
+               "ZIA/E-ZY15", "ZIA/E-ZY18", "ZIA/E-ZY16"],
+     "cues": ["⚠ no answer from ʿUmar ؓ · card's sentence only · “in this war” · ZY15 severe · "
+              "ZY18 = 1 of 4 names · Yarmuk not yet"]},
     {"t": "V", "name": "» VIII · one who lived · ninety-odd · <b>[HANDS]</b> how many reciters? · "
      "THE QURʾĀN " + F["gathered"] + " → STOP D",
      "cards": ["THO/E-HS14", "THO/E-HS15", "ZIA/E-ZY17", "RCT/E-RC37"],
      "cues": ["NO number exists · end on the Qurʾān, say nothing after it"]},
     # Parts IX-XI — the houses, PAST the close: evening 5's opening, or the fifteen minutes afterwards.
     # One line, not three: the cue card is one page (CLAUDE.md 1.7), and these are not tonight's evening.
-    {"t": "V", "name": "» IX–XI, the houses · Umm Sulaym's ؓ house (16) · Abū Ḥudhayfa ؓ and Sālim ؓ "
-     "(9) · Thābit b. Qays ؓ (1)",
+    {"t": "V", "name": "» IX–XI, the houses · Umm Sulaym's ؓ (16) · Abū Ḥudhayfa ؓ + Sālim ؓ (9) · Thābit ؓ (1)",
      "cards": ["THO/E-HS1", "THO/E-HS2", "THO/E-HS3", "THO/E-HS4", "THO/E-HS5", "THO/E-HS6",
                "THO/E-HS8", "THO/E-HS11", "THO/E-HS12", "THO/E-HS9", "THO/E-HS10", "THO/E-HS7",
                "THO/E-HS13", "THO/E-HS17", "THO/E-HS18", "THO/E-HS19",

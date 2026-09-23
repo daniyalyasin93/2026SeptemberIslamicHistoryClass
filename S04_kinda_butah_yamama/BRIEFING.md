@@ -2,11 +2,11 @@
 
 Read this twice at home. Never at the lectern — the lectern carries CUE.pdf.
 
-**The evening.** Parts I–IV of `RUNSHEET.md`, 81 cards, ending at STOP C (Daniyal's cut, 2026-09-22). It opens on evening 3's STOP B closing pair, unchanged — the Line at 11–12 AH with Yemen settled, and the map with Ṣanʿāʾ blue and Ḥaḍramawt still grey — and turns back north to Khālid ؓ, last seen at Buzākha. Ḥaḍramawt stays grey tonight. Part I introduces the two claimants still standing, Musaylima and Sajāḥ, so that nothing later has to refer forward. Part II is al-Buṭāḥ and the reckoning at Medina. Part III is the road to al-Yamāma, and ends with a prisoner in irons in Khālid's ؓ own tent. Part IV is the day at ʿAqrabāʾ, up to the order to separate out: the line has re-formed, every clan under its own banner, and the day is not yet decided. That is where the evening is planned to end, and its two closing slides open evening 5.
+**The evening.** Parts I–IV of `RUNSHEET.md`, 82 cards, ending at STOP C (Daniyal's cut, 2026-09-22). It opens on evening 3's STOP B closing pair, unchanged — the Line at 11–12 AH with Yemen settled, and the map with Ṣanʿāʾ blue and Ḥaḍramawt still grey — and turns back north to Khālid ؓ, last seen at Buzākha. Ḥaḍramawt stays grey tonight. Part I introduces the two claimants still standing, Musaylima and Sajāḥ, so that nothing later has to refer forward. Part II is al-Buṭāḥ and the reckoning at Medina. Part III is the road to al-Yamāma, and ends with a prisoner in irons in Khālid's ؓ own tent. Part IV is the day at ʿAqrabāʾ, up to the order to separate out: the line has re-formed, every clan under its own banner, and the day is not yet decided. That is where the evening is planned to end, and its two closing slides open evening 5.
 
 **And behind that close, Part V** (#47): the rest of the day — the garden, the end of Musaylima, the terms at the forts, Zayd ؓ, and the order at Medina that gathered the Qurʾān. It is spoken only if there is time. The STOP C closing set stays in the deck where it is, so stopping needs no jump; going on is one typed slide number, and the cue sheet prints it.
 
-**Size and pace.** About 134.5 minutes as budgeted, for 34 story minutes. Evening 3 spoke 32 cards in the slot, so this is sized to the room's real pace, not the budget. The clock on the cue sheet is the budget scaled to that pace. If the clock runs ahead of the cards, drop GOOD cards in this order: #5, #4, #18, #21, #30, and #2 last — #26 closes the loop #2 opens. **Part II is all or nothing** — #7 to #15, or none of it.
+**Size and pace.** About 136 minutes as budgeted, for 34 story minutes. Evening 3 spoke 32 cards in the slot, so this is sized to the room's real pace, not the budget. The clock on the cue sheet is the budget scaled to that pace. If the clock runs ahead of the cards, drop GOOD cards in this order: #5, #4, #18, #21, #30, and #2 last — #26 closes the loop #2 opens. **Part II is all or nothing** — #7 to #15, or none of it.
 
 **The bridges.** Five slides are not cards: they close the seams where the story jumps in time, place or thread. Each shows three steps; say the line, then click on.
 
@@ -17,12 +17,12 @@ Read this twice at home. Never at the lectern — the lectern carries CUE.pdf.
 - Before #32 — *Past the close: the day is decided*: We have just closed, and we are going on. Where we left it: the line had re-formed, every clan under its own banner, and the day was not decided. Now it is decided — and what comes out of it is the reason you can hold a muṣḥaf tonight.
 - Before #37 — *The men who did not come back*: We met these three at the line: Sālim ؓ with the banner of the Muhājirūn, and on the wings Zayd b. al-Khaṭṭāb ؓ and Abū Ḥudhayfa ؓ. All three were killed on that field. Now we go back to the banner itself — because what the books put next to the order given at Medina is what happened to the man holding it.
 - Before #44 — *The same field, the men beside them*: That is the banner. But the banner is not the whole line. The books go through that field name by name, and what they record is not a casualty list — it is households. Here are some of them.
-- Before #56 — *Where these men came from*: We have finished; the Line does not move again tonight. What follows is older than everything we have told — it is the houses those men came out of, and we go back to before the Hijra to start it.
-- Before #72 — *The second house*: That was one house. Here is the other one — and it begins in Mecca, with a man whose father was one of the great men of Quraysh, and with a slave who came from Persia.
-- Before #52 — *And one man who lived*: One more, and he is the one who lived. The man who asked to be thrown over the wall of the garden came out of it with eighty-odd wounds, and Khālid ؓ stayed a month treating him. Here is what was said about him afterwards.
+- Before #57 — *Where these men came from*: We have finished; the Line does not move again tonight. What follows is older than everything we have told — it is the houses those men came out of, and we go back to before the Hijra to start it.
+- Before #73 — *The second house*: That was one house. Here is the other one — and it begins in Mecca, with a man whose father was one of the great men of Quraysh, and with a slave who came from Persia.
+- Before #53 — *And one man who lived*: One more, and he is the one who lived. The man who asked to be thrown over the wall of the garden came out of it with eighty-odd wounds, and Khālid ؓ stayed a month treating him. Here is what was said about him afterwards.
 - Before #21 — *Where we are*: After the worksheet — and for anyone who has just come in. Khālid ؓ was called to Medina over al-Buṭāḥ and kept in command. The two commanders sent ahead of him were both beaten. Forty thousand men of Banū Ḥanīfa wait at ʿAqrabāʾ, with their farms behind them — and there is a prisoner in Khālid's ؓ own tent. Morning comes.
 
-**The early closes.** STOP A falls after #15 (ʿUmar ؓ and Mutammim); STOP B after #20 (the prisoner in the tent). Their closing sets are hidden at the end of the deck: in the slide show, type **125** and Enter for STOP A, **129** and Enter for STOP B. If the clock is past 0:36 at #20, close at STOP B. On the room's pace STOP B is also where the worksheet falls: take the 90 silent seconds there, then open Part IV. If instead the clock is kind, type **56** at the STOP C close and go on into Parts V–VIII, which end at STOP D. **You are not expected to reach the end of them.** If time runs out anywhere in there, do not hurry: type **89**, take the muṣḥaf card and the close, and whatever was not reached opens evening 5.
+**The early closes.** STOP A falls after #15 (ʿUmar ؓ and Mutammim); STOP B after #20 (the prisoner in the tent). Their closing sets are hidden at the end of the deck: in the slide show, type **126** and Enter for STOP A, **130** and Enter for STOP B. If the clock is past 0:36 at #20, close at STOP B. On the room's pace STOP B is also where the worksheet falls: take the 90 silent seconds there, then open Part IV. If instead the clock is kind, type **56** at the STOP C close and go on into Parts V–VIII, which end at STOP D. **You are not expected to reach the end of them.** If time runs out anywhere in there, do not hurry: type **90**, take the muṣḥaf card and the close, and whatever was not reached opens evening 5.
 
 **Parts VI–VIII — the dead of al-Yamāma (#36–#55).** This is what makes the ending land, and it is built to be stopped in the middle. The books give one reason for the ⁨جمع القرآن⁩ — that the killing ran hot among the reciters — and until the room has met a reciter that is a sentence, not a loss. Part IV has already put three of these men at the line (#28–#30).
 
@@ -1169,8 +1169,7 @@ day, and the books keep both halves.
 line.
 
 **What happened:** In that same rout, Zayd b. al-Khaṭṭāb ؓ killed a man named al-Rajjāl b. ʿUnfuwa. He
-was not a man of Banū Ḥanīfa's making. He had come to the Prophet ﷺ, he had recited the Qurʾān, and
-Abū Bakr ؓ had sent him to al-Yamāma precisely to hold the people to Islam. Instead he testified that
+was not a man of Banū Ḥanīfa's making. He had come to the Prophet ﷺ, he had recited the Qurʾān, and he had been sent as a teacher to al-Yamāma, to hold the people to Islam. ⚠ No approved page names who sent him. Instead he testified that
 the Prophet ﷺ had said Musaylima was made a partner with him in the matter — and because it was he who
 said it, they believed him. Ibn al-Athīr's verdict: he was a greater fitna upon Banū Ḥanīfa than
 Musaylima was. Ibn Kathīr says the same in his own words.
@@ -1179,7 +1178,7 @@ Musaylima was. Ibn Kathīr says the same in his own words.
 
 1. Killed in the rout — Zayd b. al-Khaṭṭāb ؓ killed a man named al-Rajjāl b. ʿUnfuwa.
 2. Who he was — He had come to the Prophet ﷺ and had recited the Qurʾān.
-3. What he was sent to do — Abū Bakr ؓ sent him to al-Yamāma to hold the people to Islam.
+3. What he was sent to do — He had been sent as a teacher to al-Yamāma, to hold the people to Islam.
 4. What he did instead — He testified that the Prophet ﷺ had made Musaylima a partner in the matter.
 5. And they believed him — Because of who was saying it, not because of what was said.
 6. The historians' verdict — He was a greater fitna upon Banū Ḥanīfa than Musaylima himself.
@@ -1249,9 +1248,7 @@ clear, Khālid!"* (⁨البدایہ ج۷ ص۳۳⁩ · https://shamela.ws/book/3
 **Tier:** CORE · **When:** ⁨۱۱ھ⁩→⁨۱۲ھ⁩, at ⁨عَقْرَباء⁩ `[SOURCED]` · **Map:** No movement. Hold the map still
 on ⁨عَقْرَباء⁩ for this card.
 
-**What happened:** Thābit b. Qays b. Shammās ؓ was the orator of the Anṣār — of the
-Khazraj, brother by his mother to ʿAbdallāh b. Rawāḥa ؓ; not at Badr, and at Uḥud and at Bayʿat
-al-Riḍwān. He carried the Anṣār's banner that day. Anas ؓ came to him while the line was going
+**What happened:** Thābit b. Qays b. Shammās ؓ was the orator of the Anṣār — of the Khazraj; not at Badr, and at Uḥud and at Bayʿat al-Riḍwān. (⁨سیر ج۱ ص۳۰۹⁩ gives two reports about his mother; on the second of them — «⁨وقيل⁩» — ʿAbdallāh b. Rawāḥa ؓ is his brother by her. Say it with the «⁨وقيل⁩» attached, or not at all.) He carried the Anṣār's banner that day. Anas ؓ came to him while the line was going
 backwards and found him rubbing himself with burial perfume. He had put on two white garments — the ones he was buried in. Anas ؓ said: do you
 not see what is happening? He said: in a moment, nephew. Then he came forward past the men who were
 falling back, told them to get out of his way, and said the thing everyone in that generation would
@@ -1550,7 +1547,7 @@ month over him treating them.* **He survived.** ⚠ Ibn Khaldūn appears to list
 
 ### 33. The death of Musaylima, and what Waḥshī ؓ said afterwards
 
-**Runsheet:** ⚠ **"a second man came up"** — the books name different men. ⚠ **Do not use the ⁨سیر⁩ line about "the best of the people of the earth and the worst"**: it is a ranking claim the room will argue with
+**Runsheet:** ⚠ **"a second man came up"** — the books name different men. **If Part VII is reached, #51 names one of them as Umm ʿUmāra's ؓ own son** — do not pre-empt it here, and do not adjudicate there. ⚠ **Do not use the ⁨سیر⁩ line about "the best of the people of the earth and the worst"**: it is a ranking claim the room will argue with
 
 **Tier:** CORE · **When:** ⁨۱۱ھ⁩→⁨۱۲ھ⁩ `[SOURCED]` · **Map:** The enclosure fills blue. ⁨اليمامة⁩ turns from
 red to blue.
@@ -2219,7 +2216,7 @@ the page gives his age. Do not call him old.**
 
 ### 50. The mother at al-Yamāma
 
-**Runsheet:** ⚠ **SPEAKER'S DISCRETION — this is the most severe card in the evening.** It is what was done to Ḥabīb b. Zayd ؓ, and what his mother Umm ʿUmāra ؓ did after it. Tell it plainly and without dwelling; do not elaborate beyond the page. If the room is heavy, skip it
+**Runsheet:** ⚠ **SPEAKER'S DISCRETION — this is the most severe card in the evening.** It is what was done to Ḥabīb b. Zayd ؓ, and what his mother Umm ʿUmāra ؓ did after it. Tell it plainly and without dwelling; do not elaborate beyond the page. If the room is heavy, skip it. ⚠ **The two books differ on the wounds** — ⁨سیر ج۲ ص۲۸۱⁩: the hand plus eleven; ⁨البدایہ ج۳ ص۴۲۸⁩: twelve. Say "covered in wounds", or give one book's figure with its caption
 
 **Tier:** CORE · **When:** ⁨۱۱ھ⁩ → ⁨۱۲ھ⁩ `[SOURCED]` · **Map:** A single line from ⁨المدینہ⁩ to ⁨عَقْرَباء⁩.
 
@@ -2238,8 +2235,9 @@ was caliph, was seen coming to her to ask after her.
 2. He said yes — Then he was asked to testify the same of Musaylima, and said: I do not hear.
 3. He was cut apart, limb by limb — And he never gave more than that one answer, until he died.
 4. His mother — Umm ʿUmāra Nusayba bint Kaʿb ⁨رضي الله عنها⁩: al-ʿAqaba, Uḥud, al-Ḥudaybiya, Ḥunayn.
-5. She went out with the army — Her hand was cut off at al-Yamāma, and she came back covered in wounds.
-6. Abū Bakr ؓ, while he was caliph — Was seen coming to her to ask after her.
+5. What al-Dhahabī ⁨رحمہ اللہ⁩ records of her — She fought, and she did great things; twelve wounds at Uḥud.
+6. She went out with the army — Her hand was cut off at al-Yamāma, and she came back covered in wounds.
+7. Abū Bakr ؓ, while he was caliph — Was seen coming to her to ask after her.
 
 **Quote after beat:** 3
 
@@ -2260,7 +2258,48 @@ says twelve wounds; **give one figure with its caption, or say only "covered in 
 
 ---
 
-### 51. The father at al-Yamāma, the son at al-Yarmūk
+### 51. Her other son, and one of the four names
+
+**Runsheet:** **This is the card Daniyal's own question found** (2026-09-23): the note's §9.3 was on no card, so it did not exist on stage (#35). ⁨الذہبی⁩, **in her notice**, says her other son ʿAbd Allāh b. Zayd ؓ is the man who killed Musaylima with his sword. ⚠ **It is ONE OF FOUR names** (`QA_BANK.md` §5.3) — say it as he writes it, **and say in the same breath that three other names are given**. ⚠ **Do not open ⁨الحرة⁩**, which the same page mentions
+
+**Tier:** CORE · **When:** ⁨اليمامة ۱۲ھ⁩ `[SOURCED]` · **Map:** n/a — hold on ⁨عَقْرَباء⁩.
+
+**What happened:** Umm ʿUmāra ؓ had another son besides Ḥabīb ؓ. He is ʿAbd Allāh b. Zayd ؓ, and the
+ummah knows him for something entirely separate: he is the Companion who described the Prophet's ﷺ
+wuḍūʾ. In her own notice, al-Dhahabī ⁨رحمہ اللہ⁩ adds one more sentence about him — that he is the man
+who killed Musaylima with his sword. That is **one of four names** the approved books give for
+Musaylima's killer, and they do not choose between them.
+
+**Beats:**
+
+1. She had another son — ʿAbd Allāh b. Zayd ؓ, the brother of Ḥabīb ؓ.
+2. What the ummah knows him for — He is the Companion who described the Prophet's ﷺ wuḍūʾ.
+3. What al-Dhahabī ⁨رحمہ اللہ⁩ adds, in her notice — That he is the one who killed Musaylima with his sword.
+4. One of four names — The books give four, and they do not choose between them.
+5. And the man best placed to know refused the claim — Your Lord knows better which of us killed him.
+
+**Quote after beat:** 3
+
+**The statement:**
+> وَابْنُهَا الآخَرُ عَبْدُ اللهِ بنُ زَيْدٍ المَازِنِيُّ الَّذِي حَكَى وُضُوْءَ رَسُوْلِ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ- … وَهُوَ الَّذِي قَتَلَ مُسَيْلِمَةَ الكَذَّابَ بِسَيْفِهِ.
+> — ⁨سیر أعلام النبلاء ج۲ ص۲۸۲⁩ · https://shamela.ws/book/10906/2262
+> *English:* "Her other son, ʿAbd Allāh b. Zayd al-Māzinī — the one who described the Messenger of
+> Allah's ﷺ wuḍūʾ — … and he is the one who killed Musaylima the liar with his sword."
+
+**⁨عبرت⁩:** The same notice records what that house lost and what one account says it did, and the books
+still decline to say whose hand it was.
+
+**Hands-up?** no
+⚠ **NEVER state a single killer (`QA_BANK.md` §5.3).** The four: ⁨الواقدي⁩ names ⁨عبد الله بن زيد ؓ⁩ ·
+⁨ابن کثیر⁩ prefers ⁨وحشي ؓ⁩ striking first and ⁨أبو دجانة ؓ⁩ finishing · ⁨سيف⁩ names ⁨عدي بن سهل⁩ ·
+and ⁨وحشي ؓ⁩ himself: «⁨فَربُّك أعلمُ أيُّنا قَتَله⁩». Say the sentence as ⁨الذہبی⁩ writes it, **and say in
+the same breath that three other names are given**.
+⚠ **The same page says he was killed on the day of ⁨الحرة⁩. Do not say it and do not open it** — it is
+63 AH and it is not this course's ground yet.
+
+---
+
+### 52. The father at al-Yamāma, the son at al-Yarmūk
 
 **Runsheet:** ⚠ **Frame ⁨اليرموك⁩ aloud as a battle we have not reached** (#43, forward reference). ⚠ **Do not read the Arabic of the dream and do not render its second image** — say only what the card says he interpreted
 
@@ -2304,7 +2343,7 @@ son at ⁨اليرموك⁩: ⁨سیر الراشدون ص۱۱۳⁩ · https://s
 
 ## Part VIII — What was left
 
-### 52. «Do not put al-Barāʾ over an army»
+### 53. «Do not put al-Barāʾ over an army»
 
 **Runsheet:** Answers what the room has been holding since #32 — **the man who went over the wall lived**. ⚠ The page opens with «⁨قيل⁩»: say *"it is reported that ʿUmar ؓ wrote"*. Hands-up is switched **off**: the room has just buried a field
 
@@ -2334,7 +2373,7 @@ son at ⁨اليرموك⁩: ⁨سیر الراشدون ص۱۱۳⁩ · https://s
 
 ---
 
-### 53. «Do you see me dying in my bed?»
+### 54. «Do you see me dying in my bed?»
 
 **Runsheet:** **Cut first.** ⚠ The counts move — ninety-nine, ninety-odd, a hundred. Say *"the reports give ninety-odd"* and move on. Beat 4 is where he did die: ⁨تُسْتَر⁩, years later
 
@@ -2363,7 +2402,7 @@ son at ⁨اليرموك⁩: ⁨سیر الراشدون ص۱۱۳⁩ · https://s
 
 ---
 
-### 54. The number nobody can give
+### 55. The number nobody can give
 
 **Runsheet:** **The card that stops a wrong number being said aloud.** **[HANDS] 6:** *"How many men who had the whole Qurʾān by heart died that day? What would you guess?"* — then the honest answer: the books do not give one
 
@@ -2405,7 +2444,7 @@ reciters" has misread ⁨البدایہ ج۷ ص۵۵⁩.**
 
 ---
 
-### 55. The Qurʾān was collected because of this
+### 56. The Qurʾān was collected because of this
 
 **Runsheet:** **The true ending.** End here and go straight to the closing bookend — say nothing after it
 
@@ -2421,10 +2460,11 @@ it.
 
 1. Count this day's dead differently — So many of the reciters were killed at al-Yamāma.
 2. Abū Bakr ؓ gives an order — Zayd b. Thābit ؓ is to gather the Qurʾān.
-3. Out of what it was gathered — The flat stones, the palm-stalks, and the memories of men.
-4. Why then — So that it would not go with the men who carried it.
-5. Both books say it in the same place — al-Bidāya and al-Kāmil, and both point at al-Bukhārī.
-6. The muṣḥaf in this room — It was gathered because of the men who were killed in that garden.
+3. Who he is — Of the Khazraj, of Banū al-Najjār, and the Prophet's ﷺ own scribe of the revelation.
+4. Out of what it was gathered — The flat stones, the palm-stalks, and the memories of men.
+5. Why then — So that it would not go with the men who carried it.
+6. Both books say it in the same place — al-Bidāya and al-Kāmil, and both point at al-Bukhārī.
+7. The muṣḥaf in this room — It was gathered because of the men who were killed in that garden.
 
 **Quote after beat:** 4
 
@@ -2447,7 +2487,7 @@ garden.
 
 ## Part IX — The house of Umm Sulaym ؓ
 
-### 56. The dower that was Islam
+### 57. The dower that was Islam
 
 **Runsheet:** The house begins here. ⁨ثابت⁩'s closing line is worth saying aloud: *"we never heard of a nobler dower"*
 
@@ -2457,12 +2497,13 @@ garden.
 
 **Beats:**
 
-1. He comes to ask for her in marriage — Abū Ṭalḥa ؓ, still a pagan; she had already believed.
-2. What she answered — She would not refuse a man like him, but he was a disbeliever.
-3. Her price — If he accepted Islam, that would be her dower, and she would ask for nothing else.
-4. What happened — He accepted Islam, and he married her.
+1. Who he is — Abū Ṭalḥa ؓ of the Anṣār; his own name is Zayd b. Sahl. ⁨الذہبی⁩: a man of Badr, and one of the twelve naqībs of the night of al-ʿAqaba.
+2. He comes to ask for her in marriage — Still a pagan; she had already believed.
+3. What she answered — She would not refuse a man like him, but he was a disbeliever.
+4. Her price — If he accepted Islam, that would be her dower, and she would ask for nothing else.
+5. What happened — He accepted Islam, and he married her.
 
-**Quote after beat:** 3
+**Quote after beat:** 4
 
 **The statement:**
 > <div dir="rtl">⁨أَمَا إِنِّي فِيْكَ لَرَاغِبَةٌ، وَمَا مِثْلُكَ يُرَدُّ، وَلَكِنَّكَ كَافِرٌ، فَإِنْ تُسْلِمْ فَذَلِكَ مَهْرِي، لاَ أَسْأَلُكَ غَيْرَهُ⁩.</div>
@@ -2475,7 +2516,7 @@ garden.
 
 ---
 
-### 57. The gift she had left
+### 58. The gift she had left
 
 **Runsheet:** Anas ؓ is ten, and he stays ten years. This is **the same Anas ؓ** whose brother went over the wall at #32 — say so
 
@@ -2503,7 +2544,7 @@ garden.
 
 ---
 
-### 58. Ten years, and not one rebuke
+### 59. Ten years, and not one rebuke
 
 **Runsheet:** Under oath: never once told off, and «⁨أف⁩» never said to him
 
@@ -2530,7 +2571,7 @@ garden.
 
 ---
 
-### 59. «I find the scent of Paradise»
+### 60. «I find the scent of Paradise»
 
 **Runsheet:** Uḥud, 3 AH. Anas b. al-Naḍr ؓ — **the uncle Anas b. Mālik ؓ is named after**. Say the year aloud: we have gone back nine years
 
@@ -2559,7 +2600,7 @@ garden.
 
 ---
 
-### 60. Known by his fingertips
+### 61. Known by his fingertips
 
 **Runsheet:** Eighty-odd wounds; his sister knew him by his fingertips
 
@@ -2589,7 +2630,7 @@ garden.
 
 ---
 
-### 61. «What will you do with life after him?»
+### 62. «What will you do with life after him?»
 
 **Runsheet:** ⚠ **This one comes through Ibn Isḥāq, not the ⁨صحیح⁩ chain of #59–#60.** Say "it is reported", and do not put it on the same footing
 
@@ -2618,7 +2659,7 @@ garden.
 
 ---
 
-### 62. The water-carriers at Uḥud
+### 63. The water-carriers at Uḥud
 
 **Runsheet:** Two memories of a boy: his stepfather's *my throat before your throat*, and the two women with the waterskins — one of them ʿĀʾisha ؓ, the other his mother
 
@@ -2646,7 +2687,7 @@ garden.
 
 ---
 
-### 63. «I have won»
+### 64. «I have won»
 
 **Runsheet:** Biʾr Maʿūna, 4 AH. Her brother Ḥarām ؓ, speared from behind while speaking under safe conduct
 
@@ -2674,7 +2715,7 @@ garden.
 
 ---
 
-### 64. The reason the Prophet ﷺ came to that house
+### 65. The reason the Prophet ﷺ came to that house
 
 **Runsheet:** The answer is not a compliment to the house — it is that her brother was killed alongside him. **[HANDS] optional:** *"why that house and no other?"*
 
@@ -2703,7 +2744,7 @@ garden.
 
 ---
 
-### 65. «It was a loan»
+### 66. «It was a loan»
 
 **Runsheet:** ⚠ **The page does not name the child. Do not name him.** Tell it slowly; it is the strongest card in the part
 
@@ -2734,7 +2775,7 @@ garden.
 
 ---
 
-### 66. Bayruḥāʾ
+### 67. Bayruḥāʾ
 
 **Runsheet:** He gave away the piece he loved most, and was told to put it among his near kin
 
@@ -2762,7 +2803,7 @@ garden.
 
 ---
 
-### 67. The dagger at Ḥunayn
+### 68. The dagger at Ḥunayn
 
 **Runsheet:** 8 AH. ⚠ **Stop where the card stops** — ⁨البدایہ ج۴ ص۵۸۹⁩ continues the exchange, and that continuation is not on this card
 
@@ -2791,7 +2832,7 @@ garden.
 
 ---
 
-### 68. Umm Ḥarām and the sea
+### 69. Umm Ḥarām and the sea
 
 **Runsheet:** ⚠ **Do not develop the fleet** — it is 28 AH and belongs to a later evening. ⚠ **Do not name its commander** (`QA_BANK.md` §17.4): say "a fleet went to Cyprus"
 
@@ -2823,7 +2864,7 @@ garden.
 
 ---
 
-### 69. The oath at Tustar
+### 70. The oath at Tustar
 
 **Runsheet:** 17–20 AH; the sources differ on the year, so say "years later". ⚠ «⁨واستشهدني⁩» is where the sources stop — **add nothing**
 
@@ -2853,7 +2894,7 @@ garden.
 
 ---
 
-### 70. The dawn prayer at Tustar
+### 71. The dawn prayer at Tustar
 
 **Runsheet:** Anas ؓ was there: the prayer he would not have traded for red camels — and he is the brother of the man killed at that wall
 
@@ -2881,7 +2922,7 @@ garden.
 
 ---
 
-### 71. «Equip me»
+### 72. «Equip me»
 
 **Runsheet:** ⚠ ⁨سیر⁩ itself says the better-known report has him dying at Medina. **Give both, or give neither**
 
@@ -2915,7 +2956,7 @@ garden.
 
 ## Part X — Abū Ḥudhayfa ؓ and Sālim ؓ, before the field
 
-### 72. The son of the elder of the Jāhiliyya
+### 73. The son of the elder of the Jāhiliyya
 
 **Runsheet:** ⁨الذہبی⁩ says all three things in one sentence and softens none of them
 
@@ -2948,7 +2989,7 @@ ever made?" — then leave the hands up for one beat and move on. Do not develop
 
 ---
 
-### 73. The ship they hired for half a dinar
+### 74. The ship they hired for half a dinar
 
 **Runsheet:** Abyssinia. ⚠ The party's composition is ⁨ابن کثیر⁩ reporting ⁨الواقدی⁩ — say "it is reported"
 
@@ -2986,7 +3027,7 @@ together.
 
 ---
 
-### 74. From Iṣṭakhr to the banner of the Muhājirūn
+### 75. From Iṣṭakhr to the banner of the Muhājirūn
 
 **Runsheet:** **[HANDS] optional:** *"where do you think the man who led the Muhājirūn in prayer came from?"* — then the answer
 
@@ -3019,7 +3060,7 @@ about where he came from.
 
 ---
 
-### 75. The imām at Qubāʾ
+### 76. The imām at Qubāʾ
 
 **Runsheet:** A freed slave leads, because he carried the most Qurʾān — and ʿUmar ؓ is praying behind him
 
@@ -3053,7 +3094,7 @@ whoever he was.
 
 ---
 
-### 76. Badr — the father and the brother
+### 77. Badr — the father and the brother
 
 **Runsheet:** ⚠ **Narrate, do not dwell.** The father and the brother on one side, the son on the other. No comment is added; the next card is the comment
 
@@ -3087,7 +3128,7 @@ stand on, and he answered that question only.
 
 ---
 
-### 77. The face the Prophet ﷺ noticed at the well
+### 78. The face the Prophet ﷺ noticed at the well
 
 **Runsheet:** The answer is not a denial of grief. This card is why #76 is tellable at all
 
@@ -3126,7 +3167,7 @@ prayed for him, and spoke kindly to him.
 
 ---
 
-### 78. The sentence he was afraid of for ten years — ⚠ SPEAKER'S DISCRETION
+### 79. The sentence he was afraid of for ten years — ⚠ SPEAKER'S DISCRETION
 
 **Runsheet:** ⚠ **SPEAKER'S DISCRETION.** It is about al-ʿAbbās ؓ at Badr. If it is told, it ends where the books end it: *and he was killed a martyr at al-Yamāma*
 
@@ -3166,7 +3207,7 @@ a slide, or volunteered.** Tell only Abū Ḥudhayfa's ؓ own words about himsel
 
 ---
 
-### 79. The adoption undone, and the household that kept him anyway — ⚠ SPEAKER'S DISCRETION
+### 80. The adoption undone, and the household that kept him anyway — ⚠ SPEAKER'S DISCRETION
 
 **Runsheet:** ⚠ **SPEAKER'S DISCRETION.** Stay on what the card says: the law changed, and the household kept him by every other means. **Do not open the fiqh**
 
@@ -3205,7 +3246,7 @@ majority of the scholars taking it that way; the ruling is a matter for the ⁨�
 
 ---
 
-### 80. The night the Prophet ﷺ took his cloak and went out to listen
+### 81. The night the Prophet ﷺ took his cloak and went out to listen
 
 **Runsheet:** ⁨الذہبی⁩ marks the chain good — say so, it is a "how do we know?" beat. **End the part here**: it is the best last line in it
 
@@ -3241,7 +3282,7 @@ used.
 
 ## Part XI — Thābit b. Qays ؓ, before al-Yamāma
 
-### 81. «Are you not content to live praised?»
+### 82. «Are you not content to live praised?»
 
 **Runsheet:** The man whose shroud the room saw at #26. The three things he was told — live praised, killed a martyr, enter the Garden — and **the room has already watched the second happen**
 

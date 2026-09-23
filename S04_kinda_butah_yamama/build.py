@@ -189,6 +189,7 @@ FACE_WHEN = {
     "ZIA/E-ZY14": "12 AH, at al-Yamāma",
     "ZIA/E-ZY15": "11–12 AH",
     "ZIA/E-ZY16": "12 AH, and al-Yarmūk after it",
+    "ZIA/E-ZY18": "12 AH, at al-Yamāma",
     # Parts IX–XI — backstory, so every date line says plainly how far back we have gone
     "THO/E-HS1": "Before the Hijra, at Medina",
     "THO/E-HS2": "1 AH, soon after the Hijra",
@@ -419,6 +420,10 @@ FACE_QUOTE = {
     "AHA/E-AS10": ("وقد تَبنّاهُ أبو حُذَيْفة وزوَّجَهُ بابنةِ أخيه … فلما أنزل الله ﴿ادْعُوهُمْ لِآبَائِهِمْ﴾",
                    "Abū Ḥudhayfa had adopted him and married him to his brother's daughter … Then Allah "
                    "sent down: ﴾Call them by their fathers﴿."),
+    # ⚠ ONE of four names (QA_BANK §5.3): the face says so in its own headline, and the notes repeat it
+    "ZIA/E-ZY18": ("وَابْنُهَا الآخَرُ عَبْدُ اللهِ بنُ زَيْدٍ المَازِنِيُّ … وَهُوَ الَّذِي قَتَلَ مُسَيْلِمَةَ الكَذَّابَ بِسَيْفِهِ.",
+                   "Her other son, ʿAbd Allāh b. Zayd al-Māzinī … and he is the one who killed "
+                   "Musaylima the liar with his sword."),
     # ⚠ only what he interpreted, never the dream's own words
     "ZIA/E-ZY16": ("بأنه سيقتل ويدفن، وأن ابنه يحرص على الشهادةِ فلا ينالُها عامَه ذلك",
                    "…that he would be killed and buried, and that his son would press for martyrdom and "
