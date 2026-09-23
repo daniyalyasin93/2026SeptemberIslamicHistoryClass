@@ -364,7 +364,7 @@
       "band": "12",
       "col": 8,
       "order": 19,
-      "group": "part5",
+      "group": "part6",
       "label": "The Qurʾān gathered",
       "short": "The Qurʾān gathered",
       "when": "۱۲ھ",
@@ -372,7 +372,7 @@
       "cards": [
         "RCT/E-RC37"
       ],
-      "note": "RC37: after the reciters were killed at al-Yamāma, Abū Bakr ؓ ordered it gathered. Medina's lane, because that is where it was done."
+      "note": "RC37: after the reciters were killed at al-Yamāma, Abū Bakr ؓ ordered it gathered. Medina's lane, because that is where it was done. Its own group (part6) since 2026-09-23: STOP D lights the battle, STOP E adds this."
     }
   ],
   "links": [
@@ -430,13 +430,25 @@
     },
     {
       "name": "line_s04_stop_d",
-      "title": "Tonight: the day at ʿAqrabāʾ decided",
+      "title": "Tonight: al-Yamāma taken",
       "lit": [
         "part1",
         "part2",
         "part3",
         "part4",
         "part5"
+      ]
+    },
+    {
+      "name": "line_s04_stop_e",
+      "title": "Tonight: the day decided, and the Qurʾān",
+      "lit": [
+        "part1",
+        "part2",
+        "part3",
+        "part4",
+        "part5",
+        "part6"
       ]
     }
   ]

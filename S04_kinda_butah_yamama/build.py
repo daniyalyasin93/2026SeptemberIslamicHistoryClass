@@ -568,9 +568,12 @@ NO_HANDS = {"RCT/E-RC50", "THO/E-HS14", "ZIA/E-ZY8"}
 # The planned end is not the end of the deck: its closing set goes in after this card, and Part V follows.
 CLOSE_C_AFTER = "RCT/E-RC19"
 
-# The muṣḥaf is the last word of the STORY, but not the last slide: the households (Parts IX–XI) sit
-# behind the STOP D close, for evening 5 or for the fifteen minutes the speaker stays anyway (#50).
-CLOSE_D_AFTER = "RCT/E-RC37"
+# Two closes sit inside the overflow (#53). STOP D is after the terms at the forts: al-Yamāma is taken,
+# the map changes colour, and that is a legitimate end to an evening. STOP E is the full ending after the
+# muṣḥaf — and the households (Parts IX–XI) sit behind IT, for evening 5 or for the fifteen minutes the
+# speaker stays anyway (#50).
+CLOSE_D_AFTER = "RCT/E-RC22"
+CLOSE_E_AFTER = "RCT/E-RC37"
 
 
 def grid_slide(prs, headline, rows, kicker=None, caption=None):
@@ -640,10 +643,13 @@ LESSON_A = ["ATA/E-TB15", "RCT/E-RC47", "RCT/E-RC50", "RCT/E-RC52"]      # STOP 
 # not RC16's line at STOP B: "settled the end of the battle" answers the question the close is asking
 LESSON_B = ["ATA/E-TB15", "RCT/E-RC47", "RCT/E-RC50", "RCT/E-RC15"]      # STOP B — the armies in position
 LESSON_C = ["ATA/E-TB15", "RCT/E-RC50", "RCT/E-RC58", "RCT/E-RC19"]      # STOP C — THE PLANNED END
-# STOP D — the full ending: the evening's own shape, closing on the muṣḥaf. RC58 (what re-formed the
-# line was what the men had memorised) and RC37 (the muṣḥaf was gathered because of them) are the two
-# halves of the same sentence, and AS15 is the man it happened to.
-LESSON_D = ["RCT/E-RC58", "RCT/E-RC20", "AHA/E-AS15", "RCT/E-RC37"]
+# STOP D — al-Yamāma taken. The dead have not been told yet, so no line from Parts VI–VIII is used
+# here: RC50 (the caliph's three-in-one decision), RC58 (what re-formed the line), RC20 (the wall) and
+# RC22 (the terms kept against the letter) are the evening as it stands at #34.
+LESSON_D = ["RCT/E-RC50", "RCT/E-RC58", "RCT/E-RC20", "RCT/E-RC22"]
+# STOP E — the full ending: RC58 and RC37 are the two halves of one sentence, and AS15 is the man it
+# happened to.
+LESSON_E = ["RCT/E-RC58", "RCT/E-RC20", "AHA/E-AS15", "RCT/E-RC37"]
 
 
 def map_image(scene, steps):
@@ -785,13 +791,23 @@ def build():
             if not pool[cid]["beats"]:
                 no_beats += 1
             if cid == CLOSE_D_AFTER:
+                # the map has moved — al-Yamāma is blue — so this close earns its own Line and its own
+                # question. It does not mention the dead: the room has not been told about them yet.
                 closes.append(closing(prs, pool, "line_s04_stop_d.png", "s04-close-stop-d.json",
+                                      "The last claimant is dead and the north is closed. But the men "
+                                      "who carried the Qurʾān did not all come back — and next week "
+                                      "begins with what that cost.",
+                                      LESSON_D, [("al-Yamāma", "taken"),
+                                                 ("Ḥaḍramawt", "the last front")],
+                                      stop="STOP D"))
+            if cid == CLOSE_E_AFTER:
+                closes.append(closing(prs, pool, "line_s04_stop_e.png", "s04-close-stop-d.json",
                                       "One province on your map is still grey. The last front of the "
                                       "war is Ḥaḍramawt — and it begins with a quarrel over one "
                                       "she-camel.",
-                                      LESSON_D, [("al-Yamāma", "taken at last"),
+                                      LESSON_E, [("al-Yamāma", "taken at last"),
                                                  ("Ḥaḍramawt", "the last front")],
-                                      stop="STOP D"))
+                                      stop="STOP E"))
             if cid == CLOSE_C_AFTER:
                 # STOP C in its place: the planned end, with Part V behind it (#47)
                 closes.append(closing(prs, pool, "line_s04_stop_c.png", "s04-close-stop-c.json",
@@ -818,10 +834,10 @@ def build():
     if not D.write_briefs(briefs) and os.path.exists(briefs):
         os.remove(briefs)                      # nothing left to draw: a stale to-do list is worse than none
     n = sum(len(r) for _, r in parts)
-    if len(closes) != 2:
-        raise SystemExit("Both closes must be emitted in place: %s (STOP C) and %s (STOP D) have to be "
-                         "in a Part of RUNSHEET.md. Emitted: %d." % (CLOSE_C_AFTER, CLOSE_D_AFTER,
-                                                                    len(closes)))
+    if len(closes) != 3:
+        raise SystemExit("Three closes are emitted in place: %s (C), %s (D) and %s (E) must each be in "
+                         "a Part of RUNSHEET.md. Emitted: %d."
+                         % (CLOSE_C_AFTER, CLOSE_D_AFTER, CLOSE_E_AFTER, len(closes)))
     hidden = sum(1 for s in prs.slides if s._element.get("show") == "0")
     print("   %d of %d runsheet cards became slides · %d bridges · %d slides in all (%d hidden: the STOP A "
           "and B closes)" % (made, n, bridges, len(prs.slides), hidden))

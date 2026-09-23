@@ -174,6 +174,22 @@ and #57 alone are a complete ending.
 | 32 | `RCT/E-RC20` ⁨حديقة الموت⁩ — al-Barāʾ ؓ over the wall | CORE | 2.5 | 60 | The climax. **[HANDS] 4:** *"The gate is shut, the wall is solid, and there are thousands inside. What do you do?"* — ask it **before** the map slide, which shows the answer. Beat 3 is al-Barāʾ's ؓ notice, in one breath. **Gloss the name once** — the books call it «⁨حديقة الموت⁩», the Garden of Death (⁨البدایہ ج۷ ص۳۴⁩). ⚠ **He lived** — ⁨سیر⁩ says eighty-odd wounds and a month under Khālid's ؓ care; do not say he died there |
 | 33 | `RCT/E-RC21` The death of Musaylima, and what Waḥshī ؓ said | CORE | 2 | 62 | ⚠ **"a second man came up"** — the books name different men. **If Part VII is reached, #51 names one of them as Umm ʿUmāra's ؓ own son** — do not pre-empt it here, and do not adjudicate there. ⚠ **Do not use the ⁨سیر⁩ line about "the best of the people of the earth and the worst"**: it is a ranking claim the room will argue with |
 | 34 | `RCT/E-RC22` The treaty he was tricked into, and kept | CORE | 2 | 64 | Mujjāʿa's third appearance, and the end of his arc. **Say it beside evening 2's reprisals (`RCT/E-RC11`)**: the same commander, one campaign, both pages |
+**⏸ STOP D — after #34. AL-YAMĀMA TAKEN, and a real ending** (`DECISIONS.md` #53). Added 2026-09-23
+on Daniyal's own suggestion: the overflow is ~85 minutes long and had no close of its own between
+#31 and #57. This is the one place inside it where **the map changes colour**, so it is the one place
+that earns a closing pair:
+- **The Line:** 11→12 AH with the garden and the death of Musaylima lit — **and the Qurʾān NOT yet
+  marked**, because the room has not been told it.
+- **The map:** al-Yamāma **blue**; Ḥaḍramawt still grey.
+- **Next week:** *"The last claimant is dead and the north is closed. But the men who carried the Qurʾān
+  did not all come back — and next week begins with what that cost."*
+- ⚠ **The four ⁨عبرت⁩ lines here are the evening as it stands at #34** (`RC50`, `RC58`, `RC20`, `RC22`).
+  **No line from Parts VI–VIII appears**: the dead have not been told.
+
+**Everywhere else in Parts V–VIII there is no close, and that is deliberate** — nothing on the map or
+the Line moves between the men. If the clock runs out in there, **type the muṣḥaf card's number**
+(`CUE.pdf` prints it): the room gets #57 and STOP E, and the ending is never skipped.
+
 | 35 | `RCT/E-RC23` Zayd b. al-Khaṭṭāb ؓ, and his brother | GOOD | 1.5 | 65.5 | **This is where #28's silence is answered.** ʿUmar's ؓ grief, and his son's reply |
 
 Part V: **8 min** · **6.5 min** CORE.
@@ -243,7 +259,7 @@ room here. **#57 is the last word of the evening in every version.**
 
 Part VIII: **6.5 min** · **4 min** CORE.
 
-**⏸ STOP D — after #57. The full ending.** Closing pair — **these two slides open evening 5 if the
+**⏸ STOP E — after #57. The full ending.** Closing pair — **these two slides open evening 5 if the
 evening reaches here** (#23):
 - **The Line:** 11→12 AH, the day at ʿAqrabāʾ decided and the Qurʾān marked on 12 AH.
 - **The map:** al-Yamāma blue at last; **Ḥaḍramawt still grey**, and it is the last front left.
@@ -265,7 +281,7 @@ which the speaker stays for anyway (`CLAUDE.md` §1.5): *"we have finished; if y
 the house those men came from."* (3) A room that is plainly still hungry at STOP D.
 
 **Nothing on the Line or on the map moves in these parts**, because none of it is new territory. So
-there is **no STOP E**: to finish from anywhere in here, **type the STOP D close's number again** and
+there is **no STOP E**: to finish from anywhere in here, **type the STOP E close's number again** and
 give the two bookend slides. `CUE.pdf` prints it.
 
 **Tell a house, not a card.** If only ten minutes are wanted, take `HS1`–`HS3` and stop: that is a whole

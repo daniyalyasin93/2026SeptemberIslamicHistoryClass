@@ -80,7 +80,7 @@ F = {k: ar(v[1]) for k, v in FRAG.items()}
 # =========================================================================== what the runsheet and deck say
 
 RUNSHEET_ROW = re.compile(r"^\|\s*(\d+)\s*\|\s*`([A-Z]+/E-[A-Z]+\d+)`[^|]*\|[^|]*\|\s*([\d.]+)\s*\|\s*([\d.]+)\s*\|")
-STOP_LINE = re.compile(r"STOP ([A-D]) — after #(\d+)")
+STOP_LINE = re.compile(r"STOP ([A-E]) — after #(\d+)")
 
 
 def evening_ids():
@@ -122,7 +122,7 @@ def runsheet_stops():
         para = live[m.start():live.find("\n\n", m.start())]
         past = re.search(r"past (\d:\d\d)", para)
         out[m.group(1)] = (int(m.group(2)), by_n[int(m.group(2))], past.group(1) if past else None)
-    for k in "ABCD":
+    for k in "ABCDE":
         if k not in out:
             raise SystemExit("RUNSHEET.md has no 'STOP %s — after #n' line." % k)
     return out
@@ -136,7 +136,7 @@ def deck_slides():
     for i, s in enumerate(prs.slides, 1):
         notes = s.notes_slide.notes_text_frame.text.strip() if s.has_notes_slide else ""
         hidden = s._element.get("show") == "0"
-        m = re.match(r"BOOKEND OUT STOP ([A-D])\b", notes)
+        m = re.match(r"BOOKEND OUT STOP ([A-E])\b", notes)
         if m:
             jumps[m.group(1)] = (i, hidden)
         if "The true ending" in notes and not hidden:
@@ -144,20 +144,20 @@ def deck_slides():
         if notes.startswith("TONIGHT'S") and not hidden:
             text = " ".join(sh.text_frame.text for sh in s.shapes if sh.has_text_frame)
             # the notes carry the spoken lines, not card ids (#40); the ids are build.py's own list
-            ids = S04.LESSON_C if len(tonight) == 0 else S04.LESSON_D
+            ids = (S04.LESSON_C, S04.LESSON_D, S04.LESSON_E)[len(tonight)]
             tonight.append((i, list(ids), text))
     for k in "AB":
         if k not in jumps:
             raise SystemExit("S04.pptx has no slide whose notes begin 'BOOKEND OUT STOP %s'." % k)
         if not jumps[k][1]:
             raise SystemExit("S04.pptx slide %d (STOP %s) is not hidden — an early close must be a jump." % (jumps[k][0], k))
-    for k in "CD":
+    for k in "CDE":
         if k not in jumps or jumps[k][1]:
             raise SystemExit("S04.pptx must carry a VISIBLE STOP %s close (the planned end, and the end "
                              "of the overflow)." % k)
-    if len(tonight) != 2:
-        raise SystemExit("S04.pptx should carry two visible «Tonight» slides — STOP C and STOP D; "
-                         "found %d." % len(tonight))
+    if len(tonight) != 3:
+        raise SystemExit("S04.pptx should carry three visible «Tonight» slides — STOP C, STOP D and "
+                         "STOP E; found %d." % len(tonight))
     # where Part V starts: the slide after STOP C's four, which the cue sends the speaker to
     jumps["V"] = jumps["C"][0] + 4
     if "Q" not in jumps:
@@ -256,7 +256,7 @@ BEATS = [
      "cues": ["⚠ no answer from ʿUmar ؓ · card's sentence only · “in this war” · ZY15 severe · "
               "ZY18 = 1 of 4 names · Yarmuk not yet"]},
     {"t": "V", "name": "» VIII · one who lived · ninety-odd · <b>[HANDS]</b> how many reciters? · "
-     "«how do you do a thing he ﷺ did not do?» · THE QURʾĀN " + F["gathered"] + " → STOP D",
+     "«how do you do a thing he ﷺ did not do?» · THE QURʾĀN " + F["gathered"] + " → STOP E",
      "cards": ["THO/E-HS14", "THO/E-HS15", "ZIA/E-ZY17", "RCT/E-RC65", "RCT/E-RC37"],
      "cues": ["NO number exists · end on the Qurʾān, say nothing after it"]},
     # Parts IX-XI — the houses, PAST the close: evening 5's opening, or the fifteen minutes afterwards.
@@ -306,13 +306,19 @@ def build_run():
         if b["cards"] and b["cards"][-1] == stops["C"][1]:
             b["cues"].append("%s in place · <b>going on? type %d</b> ↵"
                              % (STOP % "C", jumps["V"]))
+    # STOP D sits IN PLACE after the terms at the forts: no number to type, but the speaker has to know
+    # it is there, because the beat that holds it covers four cards
+    for b in run:
+        if stops["D"][1] in b["cards"]:
+            b["cues"].append("%s is IN PLACE after the forts — a real ending if the clock is gone"
+                             % (STOP % "D"))
     # Part VI can be abandoned at any point for the ending: one typed number, the same mechanism
     for b in run:
         if b["cards"][:1] == ["AHA/E-AS13"]:
             b["cues"].append("out of time anywhere below? <b>THE QURʾĀN: type %d</b> ↵" % jumps["Q"])
         if b["cards"][:1] == ["THO/E-HS1"]:
-            b["cues"].append("these are PAST the close · to finish: <b>STOP D again, type %d</b> ↵"
-                             % jumps["D"])
+            b["cues"].append("these are PAST the close · to finish: <b>STOP E again, type %d</b> ↵"
+                             % jumps["E"])
     # the worksheet beat must sit directly after the STOP B beat
     wi = next(i for i, b in enumerate(run) if b.get("kind") == "act")
     if not run[wi - 1]["cards"] or run[wi - 1]["cards"][-1] != ws_after:
@@ -498,7 +504,7 @@ def briefing(stops, jumps):
         "Enter for STOP A, **%d** and Enter for STOP B. If the clock is past %s at #%d, close at STOP B. On the "
         "room's pace STOP B is also where the worksheet falls: take the 90 silent seconds there, then open "
         "Part IV. If instead the clock is kind, type **%d** at the STOP C close and go on into Parts V–VIII, "
-        "which end at STOP D. **You are not expected to reach the end of them.** If time runs out anywhere "
+        "which end at STOP E. **You are not expected to reach the end of them.** If time runs out anywhere "
         "in there, do not hurry: type **%d**, take the muṣḥaf card and the close, and whatever was not "
         "reached opens evening 5."
         % (a[0], b[0], jumps["A"], jumps["B"], b[2] or "0:36", b[0], jumps["V"], jumps["Q"]), "",

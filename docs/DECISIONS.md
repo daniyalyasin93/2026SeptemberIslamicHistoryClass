@@ -1165,3 +1165,40 @@ use** by a different card (⁨عمر ؓ⁩ to Quraysh, the framing card). The po
 and `check_face_quotes` failed with what looked like a quotation error. **Before adding a card, list
 the ids in use.** Renamed to `RCT/E-RC65`.
 
+---
+
+## 53. One more close, where the map actually moves — STOP D at #34
+
+**2026-09-23, Daniyal: "we can put in summary slides/maps after checkpoints within this deck, so that
+if time runs out we have stopping locations at multiple points."** Right in principle — it is #23
+("build the closing pair for **every** stopping point"), and the overflow had grown to ~85 minutes with
+no close of its own between #31 and #57.
+
+**But a close is not a checkpoint. It is an ending**, and it has to pass two tests: it answers "what did
+tonight mean?" and sets next week's question, **and its Line and its map have actually moved.** Applied
+to the overflow, that leaves exactly one place:
+
+| Candidate | Verdict |
+|---|---|
+| **After #34 — the terms at the forts** | **YES.** al-Yamāma is taken: the map goes blue, the Line gains the garden and the death of Musaylima. A real ending |
+| After #43, #51 (ends of Parts VI, VII) | No. The story moves through *people*, not territory — the map and the Line are identical to #34's. A close there would show the same two pictures again |
+| Parts IX–XI (the households) | No. Backstory: nothing on the Line moves at all. They reuse the final close (#50) |
+
+**So: STOP D after #34, and the old STOP D becomes STOP E.** Five stops now — A (#15, hidden),
+B (#20, hidden), C (#31, in place), **D (#34, in place)**, E (#57, in place) — plus the hatch, which is
+what covers everywhere else: **one typed number takes the room to the muṣḥaf and STOP E from any point
+in Parts V–XI, so the ending is never skipped.**
+
+**The Line had to be split to do it.** `m05` (the Qurʾān gathered) was in `part5` with the garden and
+the death of Musaylima; it now has its own group `part6`, so **STOP D lights the battle without lighting
+the ending** and STOP E adds it. Both closes share one map scene, because between #34 and #57 the map
+genuinely does not move.
+
+**STOP D's four ⁨عبرت⁩ lines are the evening as it stands at #34** — `RC50`, `RC58`, `RC20`, `RC22` —
+and **no line from Parts VI–VIII appears there**, because the room has not been told about the dead.
+
+⚠ **Caught while building it:** the first draft of STOP D's next-week question said *"four hundred and
+more of the men who carried the Qurʾān did not come back"*. That is a reciter count, and `ZIA/E-ZY17`
+exists precisely to stop one being said: 450 is Ibn Kathīr's figure for **reciters, Companions and
+others together**. Rewritten without a number.
+
