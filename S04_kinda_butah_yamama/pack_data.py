@@ -9,7 +9,7 @@ Nothing on the cue sheet that can be read from somewhere else is typed here. The
   * verify_arabic()   — every Arabic fragment on the cue sheet occurs, harakat aside, in the statement of the
                         card named beside it. Fragments are lifted from the pool, never typed from memory.
   * verify_coverage() — the beats name every card of Parts I–VIII, in runsheet order, and nothing
-    else; 16–32 beats (the overflow behind the STOP C close is eleven of them).
+    else; 16–34 beats (the overflow behind the STOP C close is fourteen of them).
   * the CLOCK is computed from the runsheet's own Min column, scaled into the two story windows of the fixed
     shape (CLAUDE.md §2) and split at STOP B, where the worksheet falls on the room's pace.
   * the EARLY-CLOSE JUMPS are read from S04.pptx — the hidden slides whose notes open "BOOKEND OUT STOP A/B" —
@@ -88,9 +88,12 @@ def evening_ids():
 
 
 def planned_ids():
-    """Parts I–IV: the evening the clock is written for. Parts V and VI sit behind the STOP C close —
-    and "Part V" is the prefix of both, so one test excludes them both."""
-    return [cid for part, rows in PARTS if not part.startswith("Part V") for cid, _ in rows]
+    """Parts I–IV: the evening the clock is written for. Everything from Part V on sits behind the
+    STOP C close and is outside the clock — named explicitly, because a prefix test on "Part V" also
+    swallowed Parts IX–XI and put the houses back on the clock."""
+    PLANNED = ("Part I", "Part II", "Part III", "Part IV")
+    return [cid for part, rows in PARTS if part.split(" —")[0].strip() in PLANNED
+            for cid, _ in rows]
 
 
 def runsheet_rows():
@@ -234,16 +237,14 @@ BEATS = [
      "cards": ["RCT/E-RC62", "RCT/E-RC19"]},
     {"t": hm(CLOSE), "name": "Line · MAP · Tonight · Next week", "cards": []},
     # Part V — the overflow, behind the STOP C close (#47). Spoken only if there is time.
-    {"t": "V", "name": "» the day decided · the garden · " + F["throw"], "cards": ["RCT/E-RC20"],
-     "kind": "hands", "cues": ["⚠ al-Barāʾ ؓ LIVED — 80-odd wounds, a month under Khālid ؓ"]},
-    {"t": "V", "name": "Musaylima killed · the forts · Zayd ؓ and ʿUmar ؓ",
-     "cards": ["RCT/E-RC21", "RCT/E-RC22", "RCT/E-RC23"],
-     "cues": ["⚠ “a second man came up” · no ranking line · the terms were kept"]},
+    {"t": "V", "name": "» V · the garden · Musaylima killed · the forts · Zayd ؓ and ʿUmar ؓ",
+     "cards": ["RCT/E-RC20", "RCT/E-RC21", "RCT/E-RC22", "RCT/E-RC23"], "kind": "hands",
+     "cues": ["⚠ al-Barāʾ ؓ LIVED (80-odd wounds) · “a second man came up” · no ranking line · terms kept"]},
     # Parts VI-VIII are NOT cued beat by beat: 30 beats will not fit on one page, and the cue card is one
     # page or it is not a cue card (CLAUDE.md 1.7). Each part gets ONE digest line naming its cards in
     # order, with the part's ⚠ digest under it. The full beats live in the deck's own notes and BRIEFING.
-    {"t": "V", "name": "» VI · banner → Sālim ؓ " + F["banner"] + " · one of four · the pit · the hand "
-     "+ āya · «between them» · found together · 23 AH: «had Sālim ؓ been alive» · the estate",
+    {"t": "V", "name": "» VI · banner → Sālim ؓ · one of four · the pit · the hand + āya · «between them» · "
+     "found together · 23 AH: «had Sālim ؓ been alive» · the estate",
      "cards": ["AHA/E-AS13", "AHA/E-AS09", "AHA/E-AS14", "AHA/E-AS15", "AHA/E-AS16", "AHA/E-AS17",
                "AHA/E-AS18", "AHA/E-AS19"],
      "cues": ["⚠ no arrangement · four names off · pit = Thābit ؓ · 2nd man unnamed · no one grave · "
@@ -258,6 +259,17 @@ BEATS = [
      "THE QURʾĀN " + F["gathered"] + " → STOP D",
      "cards": ["THO/E-HS14", "THO/E-HS15", "ZIA/E-ZY17", "RCT/E-RC37"],
      "cues": ["NO number exists · end on the Qurʾān, say nothing after it"]},
+    # Parts IX-XI — the houses, PAST the close: evening 5's opening, or the fifteen minutes afterwards.
+    # One line, not three: the cue card is one page (CLAUDE.md 1.7), and these are not tonight's evening.
+    {"t": "V", "name": "» IX–XI, the houses · Umm Sulaym's ؓ house (16) · Abū Ḥudhayfa ؓ and Sālim ؓ "
+     "(9) · Thābit b. Qays ؓ (1)",
+     "cards": ["THO/E-HS1", "THO/E-HS2", "THO/E-HS3", "THO/E-HS4", "THO/E-HS5", "THO/E-HS6",
+               "THO/E-HS8", "THO/E-HS11", "THO/E-HS12", "THO/E-HS9", "THO/E-HS10", "THO/E-HS7",
+               "THO/E-HS13", "THO/E-HS17", "THO/E-HS18", "THO/E-HS19",
+               "AHA/E-AS02", "AHA/E-AS01", "AHA/E-AS06", "AHA/E-AS07", "AHA/E-AS03", "AHA/E-AS04",
+               "AHA/E-AS05", "AHA/E-AS10", "AHA/E-AS08", "ZIA/E-ZY10"],
+     "cues": ["⚠ HS6 = Ibn Ishaq · do NOT name the child · no fleet and no commander · AS05/AS10 are "
+              "YOUR call · narrate Badr, do not dwell"]},
 ]
 
 
@@ -299,6 +311,9 @@ def build_run():
     for b in run:
         if b["cards"][:1] == ["AHA/E-AS13"]:
             b["cues"].append("out of time anywhere below? <b>THE QURʾĀN: type %d</b> ↵" % jumps["Q"])
+        if b["cards"][:1] == ["THO/E-HS1"]:
+            b["cues"].append("these are PAST the close · to finish: <b>STOP D again, type %d</b> ↵"
+                             % jumps["D"])
     # the worksheet beat must sit directly after the STOP B beat
     wi = next(i for i, b in enumerate(run) if b.get("kind") == "act")
     if not run[wi - 1]["cards"] or run[wi - 1]["cards"][-1] != ws_after:
@@ -388,7 +403,7 @@ def verify_coverage(run):
     if have != want:
         raise SystemExit("Cue beats and RUNSHEET Parts I–IV differ.\n  not cued: %s\n  cued, not in the evening: %s"
                          "\n  (or the order differs)" % (sorted(set(want) - set(have)), sorted(set(have) - set(want))))
-    if not 16 <= len(run) <= 32:
+    if not 16 <= len(run) <= 34:
         raise SystemExit("The cue sheet holds 16-32 beats. It has %d." % len(run))
     # the numbered [HANDS] of Parts I–IV, and Part V's own (RC20's, marked [HANDS] 4 in the runsheet)
     kinds = [c for b in run if b.get("kind") == "hands" for c in b["cards"][:1]]

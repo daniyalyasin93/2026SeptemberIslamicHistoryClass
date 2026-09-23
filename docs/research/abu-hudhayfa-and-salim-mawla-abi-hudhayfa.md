@@ -958,6 +958,13 @@ and four women went down to the sea, some walking and some riding. They hired a 
 dinar. On it were ʿUthmān ؓ and his wife Ruqayya ؓ, the Prophet's ﷺ daughter — and Abū Ḥudhayfa b.
 ʿUtba ؓ and his wife Sahla ؓ, the daughter of Suhayl b. ʿAmr ؓ.
 
+**Beats:**
+1. The persecution in Mecca got past bearing — A small party left for Abyssinia.
+2. Why there — The Prophet ﷺ had said there was a king there under whom no one was wronged.
+3. Who went — Eleven men and four women, down to the sea.
+4. The ship — Hired for half a dinar.
+5. Who was on it — ʿUthmān ؓ and Ruqayya ؓ; and Abū Ḥudhayfa ؓ with his wife Sahla ؓ.
+**Quote after beat:** 4
 **The statement:**
 > فاستأجروا سفينةً بنصف دينار إلى الحبشة، وهم عثمان بن عفان، وامرأته رُقَيَّة بنت رسول الله ﷺ، وأبو حُذيفة بن عتبة، وامرأته سهلة بنت سُهيل
 > — ⁨البدایہ والنہایہ ج۳ ص۲۸۱⁩ · https://shamela.ws/book/30097/1255
@@ -980,6 +987,12 @@ before Islam. Al-Dhahabī ⁨رحمہ اللہ⁩, opening his notice, does not 
 sentence he calls him a martyr, calls his father the elder of the Jāhiliyya, and calls him a man of
 Badr. He had accepted Islam before the Companions were even meeting in the house of al-Arqam.
 
+**Beats:**
+1. Whose son he was — ʿUtba b. Rabīʿa, one of the great men of Quraysh before Islam.
+2. How al-Dhahabī ⁨رحمہ اللہ⁩ opens his notice — He does not soften the position at all.
+3. Three things in one sentence — A martyr; the son of the elder of the Jāhiliyya; a man of Badr.
+4. How early he was — A Muslim before the Companions were even meeting in the house of al-Arqam.
+**Quote after beat:** 3
 **The statement:**
 > السَّيِّدُ الكَبِيْرُ، الشَّهِيْدُ، أَبُو حُذَيْفَةَ ابْنُ شَيْخِ الجَاهِلِيَّةِ: عُتْبَةَ بنِ رَبِيْعَةَ … القُرَشِيُّ، العَبْشَمِيُّ، البَدْرِيُّ
 > — ⁨سیر أعلام النبلاء ج۱ ص۱۶۴⁩ · https://shamela.ws/book/10906/1590
@@ -1001,6 +1014,13 @@ Prophet ﷺ sent ʿUbayda b. al-Ḥārith ؓ, Ḥamza ؓ and ʿAlī ؓ. Against 
 brother Shayba, and ʿUtba's son al-Walīd. All three of the Meccans were killed. ʿUtba was the father
 of Abū Ḥudhayfa ؓ, and al-Walīd was his brother — and Abū Ḥudhayfa ؓ was standing with the Muslims.
 
+**Beats:**
+1. Badr opens with single combat — Quraysh call for their equals to come out.
+2. Whom the Prophet ﷺ sent — ʿUbayda b. al-Ḥārith ؓ, Ḥamza ؓ and ʿAlī ؓ.
+3. Who came out against them — ʿUtba b. Rabīʿa, his brother Shayba, and ʿUtba's son al-Walīd.
+4. All three of the Meccans were killed — And Abū Ḥudhayfa ؓ was standing with the Muslims.
+5. What that is — His father and his brother on one side, and himself on the other.
+**Quote after beat:** 4
 **The statement:**
 > فبارز عبيدة، وكان أسنّ القوم، عتبة، وبارز حمزة شيبة، وبارز عليٌّ الوليد بن عتبة
 > — ⁨البدایہ والنہایہ ج۴ ص۶۰⁩ · https://shamela.ws/book/30097/1549
@@ -1024,6 +1044,13 @@ grief. He said he had never doubted his father's fate, but that he had known a j
 forbearance in the man and had hoped it would bring him to Islam — and it had not. The Prophet ﷺ
 prayed for him, and spoke kindly to him.
 
+**Beats:**
+1. After the battle — The dead of Quraysh are put into the well.
+2. The Prophet ﷺ looks at the son's face — And sees that it has gone pale.
+3. What he asked him — Has something entered you about your father?
+4. The answer — I never doubted his fate; I had known a judgement and a forbearance in him, and hoped it would bring him to Islam.
+5. And then — The Prophet ﷺ prayed for him, and spoke kindly to him.
+**Quote after beat:** 4
 **The statement:**
 > لما سحب عتبة بن ربيعة إلى القليب نظر رسول الله صلى الله عليه وسلم في وجه أبي حذيفة ابنه، فإذا هو كئيب متغير. فقال: "لعلك قد دخلك من شأن أبيك شيء"؟. قال: لا والله ما شككت في أبي ولا في مصرعه، ولكني كنت أعرف منه رأيا وحلما، فكنت أرجو أن يسلم، فلما رأيت ما أصابه وما مات عليه أحزنني ذلك. فدعا له النبي صلى الله عليه وسلم وقال له خيرا
 > — ⁨سیر أعلام النبلاء⁩ (⁨السیرة النبویة⁩) ⁨ص۳۱۲⁩ · https://shamela.ws/book/10906/449 (the page spells the honorific out in full, and is quoted as it stands)
@@ -1051,6 +1078,14 @@ afterwards that he would not stop fearing that word unless martyrdom wiped it aw
 books record the sentence, and all three end it in the same place: and he was killed a martyr at
 al-Yamāma.
 
+**Beats:**
+1. Before the fighting at Badr — The Prophet ﷺ names men brought out against their will, not to be killed.
+2. Among them, his own uncle — al-ʿAbbās ؓ.
+3. What Abū Ḥudhayfa ؓ said out loud — Are we to kill our fathers and sons and brothers, and leave al-ʿAbbās?
+4. Word of it reached the Prophet ﷺ — And he never forgave himself for it.
+5. What he said afterwards — He would not stop fearing that word unless martyrdom wiped it away.
+6. Where three books end the sentence — And he was killed a martyr at al-Yamāma.
+**Quote after beat:** 5
 **The statement:**
 > ما أنا بآمنٍ من تلك الكلمة التي قُلتُ يومئذٍ، ولا أزالُ منها خائفًا إلّا أن تُكفّرها عنّي الشهادةُ، فقُتل يوم اليمامة شهيدًا
 > — ⁨البدایہ والنہایہ ج۴ ص۷۷⁩ · https://shamela.ws/book/30097/1566
@@ -1075,6 +1110,12 @@ to **⁨المدینہ⁩** — the only line on the map that comes *into* Arabi
 Al-Dhahabī ⁨رحمہ اللہ⁩ opens his notice on him with four descriptions in a row, and not one of them is
 about where he came from.
 
+**Beats:**
+1. He was a slave — His origin was Iṣṭakhr, in Persia.
+2. The household freed him — And Abū Ḥudhayfa ؓ took him as his own.
+3. How al-Dhahabī ⁨رحمہ اللہ⁩ opens his notice — Four descriptions in a row.
+4. And not one of them is about where he came from.
+**Quote after beat:** 3
 **The statement:**
 > مِنَ السَّابِقِيْنَ الأَوَّلِيْنَ، البَدْرِيِّيْنَ، المُقَرَّبِيْنَ، العَالِمِيْنَ … أَصْلُهُ مِنْ إِصْطَخْرَ
 > — ⁨سیر أعلام النبلاء ج۱ ص۱۶۷⁩ · https://shamela.ws/book/10906/1593
@@ -1095,6 +1136,12 @@ just outside Medina — the first pin on the Medina inset.
 beside Qubāʾ, and they had to pray. Someone had to lead. They put forward a freed slave, because he
 had more of the Qurʾān than any of them. Among the men praying behind him was ʿUmar b. al-Khaṭṭāb ؓ.
 
+**Beats:**
+1. The Muhājirūn reach Medina before the Prophet ﷺ does — They camp at al-ʿUṣba, beside Qubāʾ.
+2. Someone has to lead the prayer — They put forward a freed slave.
+3. Why him — Because he carried more of the Qurʾān than any of them.
+4. Who prayed behind him — ʿUmar b. al-Khaṭṭāb ؓ among them.
+**Quote after beat:** 3
 **The statement:**
 > أَنَّ المُهَاجِرِيْنَ نَزَلُوا بِالعُصْبَةِ إِلَى جَنْبِ قُبَاءَ، فَأَمَّهُم سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ، لأَنَّهُ كَانَ … أَكْثَرَهُم قُرْآناً، فِيْهِم عُمَرُ، وَأَبُو سَلَمَةَ بنُ عَبْدِ الأَسَدِ
 > — ⁨سیر أعلام النبلاء ج۱ ص۱۶۸⁩–۱۶۹ · https://shamela.ws/book/10906/1594 ⁨و⁩ https://shamela.ws/book/10906/1595 (the ellipsis marks the page turn — nothing is omitted)
@@ -1117,6 +1164,13 @@ said there was a voice reciting in the mosque, finer than any she had heard. He 
 went out to listen. It was Sālim ؓ, the freedman of Abū Ḥudhayfa. Al-Dhahabī ⁨رحمہ اللہ⁩ records the
 chain of this one and marks it good.
 
+**Beats:**
+1. ʿĀʾisha ؓ comes in late — The Prophet ﷺ asks what kept her.
+2. What she said — A voice reciting in the mosque, finer than any she had heard.
+3. What he did — He took his cloak and went out to listen.
+4. Who it was — Sālim ؓ, the freedman of Abū Ḥudhayfa ؓ.
+5. The chain — al-Dhahabī ⁨رحمہ اللہ⁩ records it and marks it good.
+**Quote after beat:** 3
 **The statement:**
 > فَأَخَذَ رِدَاءهُ، وَخَرَجَ يَسْمَعُهُ، فَإِذَا هُوَ سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ. فَقَالَ: (الحَمْدُ لِلِّهِ الَّذِي جَعَلَ فِي أُمَّتِي مِثْلَكَ)
 > — ⁨سیر أعلام النبلاء ج۱ ص۱۶۸⁩ · https://shamela.ws/book/10906/1594
@@ -1168,6 +1222,12 @@ Then the verse came down: *call them by their fathers*. Adoption was no longer a
 Sālim ؓ was no longer a son of the house in law. The household did not put him out. It kept him by
 every other means it had.
 
+**Beats:**
+1. He had adopted him — And married him to his own niece Fāṭima, daughter of the brother killed at Badr.
+2. Then the āya came down — Call them by their fathers.
+3. What changed in law — Adoption was no longer a legal fact, and he was no longer a son of the house.
+4. What the household did — It did not put him out; it kept him by every other means it had.
+**Quote after beat:** 2
 **The statement:**
 > وقد تَبنّاهُ أبو حُذَيْفة وزوَّجَهُ بابنةِ أخيه فاطمة بنت الوليد بن عُتْبة، فلما أنزل الله ﴿ادْعُوهُمْ لِآبَائِهِمْ﴾
 > — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196

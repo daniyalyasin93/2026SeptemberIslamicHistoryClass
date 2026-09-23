@@ -1063,3 +1063,47 @@ band under the columns** — *"If the clock is kind — behind the close"* — o
 that part's ⚠ digest. The planned evening keeps its own beats and its type at **11pt**; the same words
 in a narrow column had forced 10pt.
 
+---
+
+## 50. The households go in as well — Parts IX–XI, behind the close
+
+**2026-09-23, Daniyal: "wouldn't it be better to give complete backstory for the families and
+individuals, instead of dropping some cards? My suggestion might be wrong, so think about it."**
+
+**The advice given, recorded because it was not taken.** The evening already gives backstory thirteen
+times, one breath each, at the moment a man becomes load-bearing (#28) — `RC59` has Qubāʾ and the night
+the Prophet ﷺ went out to listen; `RC61` has the father who fell at Badr on the other side. What the
+remaining cards add is not *who these men were* but **other events**: Uḥud (3), Biʾr Maʿūna (4), Ḥunayn
+(8), Abyssinia, Tustar (17–20). Telling those inside an 11–12 AH evening teaches the room that the Line
+is decoration — and the Line is the one thing this course has that a good sīra evening does not. The
+recommendation was a take-home sheet plus a households evening of their own.
+
+**Daniyal chose to import them, and that is the call that stands.** The room is his. What the build does
+is limit the cost:
+
+- **They sit BEHIND the STOP D close**, as Parts IX–XI (#56–#81). The evening's own story still ends on
+  the muṣḥaf at #55, and the close is emitted in place there (`CLOSE_D_AFTER`) exactly as STOP C is
+  (#47). So the Line never moves backwards *inside* the evening's arc.
+- **Three honest uses, in order of likelihood:** evening 5's opening; the fifteen minutes the speaker
+  stays after the close anyway (`CLAUDE.md` §1.5); or a room that is still hungry at STOP D.
+- **There is no STOP E.** Nothing on the Line or the map moves during backstory, so to finish from
+  anywhere in Parts IX–XI the speaker types the STOP D close's number again. `CUE.pdf` prints it.
+- **Tell a house, not a card.** `HS1`–`HS3` alone is a whole house in three cards. Never open a house
+  and leave it at one.
+
+**26 cards, not 36.** Nine were already rejected as duplicates (#49), and `ZY2` with them.
+
+**What the faces needed.** `AS05` and `AS10` carry "⚠ SPEAKER'S DISCRETION" **in their research
+titles**, which would have put production apparatus on a projector (#30) — both are overridden in
+`FACE_TITLE`. `HS5`, `HS12` and `HS13` quote across a **page break**, so the card parser returns no
+English at all for them; each face is authored in `FACE_QUOTE` from the card's two blockquotes, and the
+two that span pages now carry the span on the face through a new `FACE_CITE` (⁨ج۲ ص۳۰۶–۳۰۷⁩,
+⁨ج۲ ص۳۱۶–۳۱۷⁩) instead of citing only the first page.
+
+**A real bug this exposed.** `planned_ids()` excluded the overflow with `not part.startswith("Part V")`
+— which also swallowed **Parts IX, X and XI**, putting the houses back on the 45-minute clock and making
+it run backwards. It is now an explicit whitelist of Parts I–IV.
+
+**The cue sheet holds.** One page at **11pt**: the planned evening is still cued beat by beat, and the
+whole overflow — 50 cards — is five digest lines in the band, the houses being one of them.
+

@@ -113,6 +113,11 @@ FACE_TITLE = {
     "AHA/E-AS13": "The banner changed hands",
     "AHA/E-AS14": "Two men who dug a pit",
     "ZIA/E-ZY4": "The man who killed Zayd ؓ",
+    # Parts IX–XI. AS05 and AS10 carry "⚠ SPEAKER'S DISCRETION" in the research title — off the face.
+    "AHA/E-AS05": "The sentence he feared for ten years",
+    "AHA/E-AS10": "The adoption undone",
+    "AHA/E-AS08": "He took his cloak and went out to listen",
+    "THO/E-HS12": "Why he came to that house",
     "RCT/E-RC21": "The death of Musaylima",
     "RCT/E-RC23": "Zayd b. al-Khaṭṭāb ؓ and his brother",       # no comma after ؓ: a combining mark
     "TSY/E-YK19": "al-Ashath b. Qays comes into it",
@@ -184,6 +189,33 @@ FACE_WHEN = {
     "ZIA/E-ZY14": "12 AH, at al-Yamāma",
     "ZIA/E-ZY15": "11–12 AH",
     "ZIA/E-ZY16": "12 AH, and al-Yarmūk after it",
+    # Parts IX–XI — backstory, so every date line says plainly how far back we have gone
+    "THO/E-HS1": "Before the Hijra, at Medina",
+    "THO/E-HS2": "1 AH, soon after the Hijra",
+    "THO/E-HS3": "1–11 AH",
+    "THO/E-HS4": "Uḥud, 3 AH",
+    "THO/E-HS5": "Uḥud, 3 AH",
+    "THO/E-HS6": "Uḥud, 3 AH",
+    "THO/E-HS7": "Ḥunayn, 8 AH",
+    "THO/E-HS8": "Uḥud, 3 AH",
+    "THO/E-HS9": "At Medina",
+    "THO/E-HS10": "At Medina",
+    "THO/E-HS11": "Biʾr Maʿūna, 4 AH",
+    "THO/E-HS12": "After Biʾr Maʿūna, 4 AH",
+    "THO/E-HS13": "In the Prophet's ﷺ lifetime",
+    "THO/E-HS17": "Tustar, 17–20 AH",
+    "THO/E-HS18": "Tustar, the same morning",
+    "THO/E-HS19": "The caliphate of ʿUthmān ؓ",
+    "AHA/E-AS01": "Mecca, before the Hijra",
+    "AHA/E-AS02": "Mecca, before the house of al-Arqam",
+    "AHA/E-AS03": "Badr, 2 AH",
+    "AHA/E-AS04": "Badr, 2 AH",
+    "AHA/E-AS05": "Badr, 2 AH",
+    "AHA/E-AS06": "Before the Hijra",
+    "AHA/E-AS07": "Before the Prophet ﷺ reached Medina",
+    "AHA/E-AS08": "At Medina",
+    "AHA/E-AS10": "At Medina",
+    "ZIA/E-ZY10": "Medina, after al-Ḥujurāt",
     "TSY/E-YK19": "11 AH, Hadramawt",
 }
 
@@ -340,6 +372,53 @@ FACE_QUOTE = {
     # ⚠ what was done to him is told in the beats, not projected: the face carries the question and the answer
     "ZIA/E-ZY15": ("أتشهدُ أني رسولُ اللَّه؟ فيقول: لا أسمع",
                    "Do you testify that I am the Messenger of Allah? And he would say: I do not hear."),
+    # ——— Parts IX–XI ———
+    "THO/E-HS1": ("وَلَكِنَّكَ كَافِرٌ، فَإِنْ تُسْلِمْ فَذَلِكَ مَهْرِي، لاَ أَسْأَلُكَ غَيْرَهُ.",
+                  "…but you are a disbeliever. If you accept Islam, that is my dower — I ask you for "
+                  "nothing else."),
+    "THO/E-HS3": ("خدمته صلى الله عليه وسلم عشر سنين، فوالله ما قال لي: أف قط",
+                  "I served him ﷺ ten years, and by Allah he never said 'uff' to me once."),
+    # the verse as the page quotes it; the reference itself is checked against a muṣḥaf, not printed here
+    "THO/E-HS5": ("﴿مِنَ الْمُؤْمِنِينَ رِجَالٌ صَدَقُوا مَا عَاهَدُوا اللَّهَ عَلَيْهِ﴾",
+                  "Among the believers are men true to what they pledged to Allah."),
+    "THO/E-HS8": ("لاَ تُشْرِفْ، لاَ يُصِيْبُكَ سَهْمٌ، نَحْرِي دُوْنَ نَحْرِكَ.",
+                  "…do not look out, lest an arrow strike you. My throat before your throat."),
+    "THO/E-HS10": ("إِنَّ أَحَبَّ أَمْوَالِي إِلَيَّ بَيْرُحَاءُ، وَإِنَّهَا صَدَقَةٌ للهِ … فَقَالَ: (بَخٍ! ذَلِكَ مَالٌ رَابِحٌ",
+                   "The dearest of my property to me is Bayruḥāʾ, and it is a ṣadaqa for Allah … He "
+                   "said: 'Bakhkh! That is profitable property."),
+    # the ellipsis is the page break, not an omission — the clause runs over ج۲ ص۳۰۶–۳۰۷
+    "THO/E-HS12": ("إِنِّي أَرْحَمُهَا، قُتِلَ … أَخُوْهَا مَعِي",
+                   "I have compassion for her — her brother was killed with me."),
+    "THO/E-HS13": ("عُرِضَ عَلَيَّ نَاسٌ مِنْ أُمَّتِي يَرْكَبُوْنَ ظَهْرَ هَذَا البَحْرِ كَالمُلُوْكِ … عَلَى الأَسِرَّةِ",
+                   "People of my umma were shown to me riding the back of this sea like kings … upon "
+                   "thrones."),
+    "THO/E-HS17": ("اللَّهُمَّ اهْزِمْهُمْ لَنَا وَاسْتَشْهِدْنِي.",
+                   "…O Allah, defeat them for us, and take me as a martyr."),
+    "THO/E-HS18": ("فما صلوا الصبح إلا بعد طلوع الشمس فما أحب أن لي بتلك الصلاة حمرَ النعم.",
+                   "did not pray Ṣubḥ until after sunrise — and I would not wish red camels in exchange "
+                   "for that prayer."),
+    "AHA/E-AS01": ("فاستأجروا سفينةً بنصف دينار إلى الحبشة … وأبو حُذيفة بن عتبة، وامرأته سهلة بنت سُهيل",
+                   "So they hired a ship for half a dinar to Abyssinia … and Abū Ḥudhayfa b. ʿUtba and "
+                   "his wife Sahla bt. Suhayl"),
+    "AHA/E-AS02": ("السَّيِّدُ الكَبِيْرُ، الشَّهِيْدُ، أَبُو حُذَيْفَةَ ابْنُ شَيْخِ الجَاهِلِيَّةِ: عُتْبَةَ بنِ رَبِيْعَةَ … البَدْرِيُّ",
+                   "The great chief, the martyr, Abū Ḥudhayfa — son of the elder of the Jāhiliyya, "
+                   "ʿUtba b. Rabīʿa — … the man of Badr."),
+    "AHA/E-AS04": ("لعلك قد دخلك من شأن أبيك شيء … ما شككت في أبي ولا في مصرعه",
+                   "Perhaps something has entered you about the matter of your father? … I have not "
+                   "doubted my father nor where he fell."),
+    "AHA/E-AS05": ("ولا أزالُ منها خائفًا إلّا أن تُكفّرها عنّي الشهادةُ، فقُتل يوم اليمامة شهيدًا",
+                   "…I shall not stop fearing it unless martyrdom wipes it away from me. And he was "
+                   "killed a martyr on the day of al-Yamāma."),
+    "AHA/E-AS07": ("فَأَمَّهُم سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ، لأَنَّهُ كَانَ … أَكْثَرَهُم قُرْآناً، فِيْهِم عُمَرُ",
+                   "Sālim, the freedman of Abū Ḥudhayfa, led them in prayer, because he had the most "
+                   "Qurʾān of them — among them ʿUmar."),
+    "AHA/E-AS08": ("فَإِذَا هُوَ سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ … (الحَمْدُ لِلِّهِ الَّذِي جَعَلَ فِي أُمَّتِي مِثْلَكَ)",
+                   "…and it was Sālim, the freedman of Abū Ḥudhayfa … 'Praise be to Allah, who has put "
+                   "the like of you in my ummah.'"),
+    # ⚠ the niece's name stays off the face; the beats carry it
+    "AHA/E-AS10": ("وقد تَبنّاهُ أبو حُذَيْفة وزوَّجَهُ بابنةِ أخيه … فلما أنزل الله ﴿ادْعُوهُمْ لِآبَائِهِمْ﴾",
+                   "Abū Ḥudhayfa had adopted him and married him to his brother's daughter … Then Allah "
+                   "sent down: ﴾Call them by their fathers﴿."),
     # ⚠ only what he interpreted, never the dream's own words
     "ZIA/E-ZY16": ("بأنه سيقتل ويدفن، وأن ابنه يحرص على الشهادةِ فلا ينالُها عامَه ذلك",
                    "…that he would be killed and buried, and that his son would press for martyrdom and "
@@ -429,6 +508,21 @@ BRIDGE_BEFORE = {
         "That is the banner. But the banner is not the whole line. The books go through that field name "
         "by name, and what they record is not a casualty list — it is households. Here are some of "
         "them."),
+    # RC37 and the close, then HS1 — the evening has finished; this is the house those men came from
+    "THO/E-HS1": ("Where these men came from", "Before the Hijra, at Medina", [
+        ("We have closed", "The evening's story ended at Medina, with the order to gather the Qurʾān"),
+        ("What follows is older", "Mecca, Uḥud, Biʾr Maʿūna, Ḥunayn — years before tonight"),
+        ("Why", "The men who held the line at ʿAqrabāʾ came out of these houses")],
+        "We have finished; the Line does not move again tonight. What follows is older than everything "
+        "we have told — it is the houses those men came out of, and we go back to before the Hijra to "
+        "start it."),
+    # HS19 (the end of that house), AS02 — the second house
+    "AHA/E-AS02": ("The second house", "Mecca, before the house of al-Arqam", [
+        ("That was one house", "Umm Sulaym's ؓ — Anas ؓ, al-Barāʾ ؓ, and Abū Ṭalḥa ؓ"),
+        ("This is another", "A chief's son of Quraysh, and a freed slave of Persia"),
+        ("Where they end", "Both of them on the field you have already seen")],
+        "That was one house. Here is the other one — and it begins in Mecca, with a man whose father "
+        "was one of the great men of Quraysh, and with a slave who came from Persia."),
     # ZY16 (the last of the field), HS14 — the man who went over the wall, and lived
     "THO/E-HS14": ("And one man who lived", "After the battle", [
         ("The garden", "The man who asked to be thrown over the wall was al-Barāʾ b. Mālik ؓ"),
@@ -447,11 +541,23 @@ BRIDGE_BEFORE = {
         "prisoner in Khālid's ؓ own tent. Morning comes."),
 }
 
+# Two cards quote across a page break, so the card's first citation covers only the first clause.
+# The face carries the span; the notes and the research note carry both pages separately.
+FACE_CITE = {
+    "THO/E-HS12": "سیر أعلام النبلاء ج۲ ص۳۰۶–۳۰۷",
+    "THO/E-HS13": "سیر أعلام النبلاء ج۲ ص۳۱۶–۳۱۷",
+}
+
+
 # A spare hands-up that asks the room to vote between two Companions' positions has no place in Part II.
 NO_HANDS = {"RCT/E-RC50", "THO/E-HS14", "ZIA/E-ZY8"}
 
 # The planned end is not the end of the deck: its closing set goes in after this card, and Part V follows.
 CLOSE_C_AFTER = "RCT/E-RC19"
+
+# The muṣḥaf is the last word of the STORY, but not the last slide: the households (Parts IX–XI) sit
+# behind the STOP D close, for evening 5 or for the fifteen minutes the speaker stays anyway (#50).
+CLOSE_D_AFTER = "RCT/E-RC37"
 
 
 def grid_slide(prs, headline, rows, kicker=None, caption=None):
@@ -632,6 +738,8 @@ def build():
                 c["when"] = FACE_WHEN[cid]
             if cid in NO_HANDS:
                 c["hands"] = "no"
+            if cid in FACE_CITE:
+                c["cite"] = FACE_CITE[cid]
             if cid in BRIDGE_BEFORE:
                 head, kick, rows_, say = BRIDGE_BEFORE[cid]
                 s = D.diagram_slide(prs, head, rows_, kicker=kick)
@@ -663,6 +771,14 @@ def build():
                 made += 1
             if not pool[cid]["beats"]:
                 no_beats += 1
+            if cid == CLOSE_D_AFTER:
+                closes.append(closing(prs, pool, "line_s04_stop_d.png", "s04-close-stop-d.json",
+                                      "One province on your map is still grey. The last front of the "
+                                      "war is Ḥaḍramawt — and it begins with a quarrel over one "
+                                      "she-camel.",
+                                      LESSON_D, [("al-Yamāma", "taken at last"),
+                                                 ("Ḥaḍramawt", "the last front")],
+                                      stop="STOP D"))
             if cid == CLOSE_C_AFTER:
                 # STOP C in its place: the planned end, with Part V behind it (#47)
                 closes.append(closing(prs, pool, "line_s04_stop_c.png", "s04-close-stop-c.json",
@@ -672,12 +788,7 @@ def build():
                                                  ("Ḥajr", "the town behind them")],
                                       stop="STOP C"))
 
-    # STOP D — the end of Part V, if the evening gets there. A and B are hidden, for an earlier stop.
-    closing(prs, pool, "line_s04_stop_d.png", "s04-close-stop-d.json",
-            "One province on your map is still grey. The last front of the war is Ḥaḍramawt — and it "
-            "begins with a quarrel over one she-camel.",
-            LESSON_D, [("al-Yamāma", "taken at last"), ("Ḥaḍramawt", "the last front")],
-            stop="STOP D")
+    # A and B are hidden, for an earlier stop. STOP D was emitted in its place, after the muṣḥaf.
     closing(prs, pool, "line_s04_stop_a.png", "s04-close-stop-a.json",
             "Khālid ؓ keeps his command, and the last claimant is waiting in al-Yamāma with forty "
             "thousand men. What happens when the army reaches him?",
@@ -694,9 +805,10 @@ def build():
     if not D.write_briefs(briefs) and os.path.exists(briefs):
         os.remove(briefs)                      # nothing left to draw: a stale to-do list is worse than none
     n = sum(len(r) for _, r in parts)
-    if not closes:
-        raise SystemExit("%s is in no Part of RUNSHEET.md, so the STOP C close was never emitted."
-                         % CLOSE_C_AFTER)
+    if len(closes) != 2:
+        raise SystemExit("Both closes must be emitted in place: %s (STOP C) and %s (STOP D) have to be "
+                         "in a Part of RUNSHEET.md. Emitted: %d." % (CLOSE_C_AFTER, CLOSE_D_AFTER,
+                                                                    len(closes)))
     hidden = sum(1 for s in prs.slides if s._element.get("show") == "0")
     print("   %d of %d runsheet cards became slides · %d bridges · %d slides in all (%d hidden: the STOP A "
           "and B closes)" % (made, n, bridges, len(prs.slides), hidden))

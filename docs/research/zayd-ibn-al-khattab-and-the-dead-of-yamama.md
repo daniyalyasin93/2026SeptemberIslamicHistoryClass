@@ -1518,6 +1518,13 @@ concluded that he was of the people of the Fire, and he shut himself in his hous
 coming. The Prophet ﷺ noticed he was missing and sent for the reason. When he heard it, he said Thābit
 was of the people of the Garden. And in another report he told him what would happen to him: that he
 would live praised, be killed a martyr, and enter the Garden.
+**Beats:**
+1. Who he was — Thābit b. Qays ؓ, the orator of the Anṣār, with a very loud voice.
+2. The āya forbidding raised voices above the Prophet's ﷺ — He concluded he was of the people of the Fire.
+3. He shut himself in his house — And stopped coming.
+4. The Prophet ﷺ noticed he was missing and sent to ask — And said: he is of the people of the Garden.
+5. In another report — He is told he will live praised, be killed a martyr, and enter the Garden.
+**Quote after beat:** 4
 **The statement:**
 > فَقَالَ: (يَا ثَابِتُ! أَمَا تَرْضَى أَنْ تَعِيْشَ حَمِيْداً، وَتُقْتَلَ شَهِيْداً، وَتَدْخُلَ الجَنَّةَ)
 > — ⁨سیر أعلام النبلاء ج۱ ص۳۱۰⁩ · https://shamela.ws/book/10906/1736

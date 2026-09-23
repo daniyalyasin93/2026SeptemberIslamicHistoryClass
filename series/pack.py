@@ -101,7 +101,8 @@ h2 { font: 700 9.5pt 'Segoe UI'; letter-spacing: .14em; text-transform: uppercas
 .over { margin-top: 5px; border-top: 1.5pt solid %(gold)s; padding-top: 3px; line-height: 1.16; }
 .over b.h { color: %(gold)s; font: 700 9.5pt 'Segoe UI'; letter-spacing: .14em;
             text-transform: uppercase; }
-.over .o { margin-top: 1.5px; }
+.over .list { column-count: 2; column-gap: 12px; }
+.over .o { margin-top: 1.5px; break-inside: avoid; }
 .over .o .name { font-weight: 700; }
 .over .o .cues { color: %(muted)s; font-size: %(tiny)spt; }
 .beat.hands { background: #FBF3E0; border-left: 2.5pt solid %(gold)s; padding: 2px 5px;
@@ -141,8 +142,8 @@ def cue(out, d):
         % (b["name"], ('<span class="cues"> &nbsp;%s</span>' % " &middot; ".join(b["cues"]))
            if b.get("cues") else "")
         for b in d["run"] if b.get("over"))
-    over = ('<div class="over"><b class="h">If the clock is kind &mdash; behind the close</b>%s</div>'
-            % over) if over else ""
+    over = ('<div class="over"><b class="h">If the clock is kind &mdash; behind the close</b>'
+            '<div class="list">%s</div></div>' % over) if over else ""
 
     who = "".join('<div class="who"><b>%s</b><span>%s</span></div>' % (n, s)
                   for n, s in d.get("names", []))

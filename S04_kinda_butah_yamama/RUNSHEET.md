@@ -250,6 +250,74 @@ evening reaches here** (#23):
 
 ---
 
+## The houses, past the close — how Parts IX–XI are used
+
+**These are BACKSTORY, and they sit after the STOP D close on purpose.** Everything in Parts I–VIII is
+11–12 AH; everything here is Mecca, Uḥud, Biʾr Maʿūna, Ḥunayn, Qubāʾ and Tustar. Told inside the ridda
+they would break the Line, which is the one thing this course has that a sīra evening does not — so
+they are told **after the evening has closed**, or not at all tonight.
+
+**Three legitimate uses, in order of likelihood.** (1) **Evening 5's opening**, where they cost nothing
+— that is what usually happens (`DECISIONS.md` #20, #33). (2) **The fifteen minutes after the close**,
+which the speaker stays for anyway (`CLAUDE.md` §1.5): *"we have finished; if you want to stay, here is
+the house those men came from."* (3) A room that is plainly still hungry at STOP D.
+
+**Nothing on the Line or on the map moves in these parts**, because none of it is new territory. So
+there is **no STOP E**: to finish from anywhere in here, **type the STOP D close's number again** and
+give the two bookend slides. `CUE.pdf` prints it.
+
+**Tell a house, not a card.** If only ten minutes are wanted, take `HS1`–`HS3` and stop: that is a whole
+house in three cards. Never open a house and leave it at one card.
+
+## Part IX — The house of Umm Sulaym ؓ
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| 56 | `THO/E-HS1` The dower that was Islam | CORE | 1.5 | 97.5 | The house begins here. ⁨ثابت⁩'s closing line is worth saying aloud: *"we never heard of a nobler dower"* |
+| 57 | `THO/E-HS2` The gift she had left | GOOD | 1 | 98.5 | Anas ؓ is ten, and he stays ten years. This is **the same Anas ؓ** whose brother went over the wall at #32 — say so |
+| 58 | `THO/E-HS3` Ten years, and not one rebuke | CORE | 1 | 99.5 | Under oath: never once told off, and «⁨أف⁩» never said to him |
+| 59 | `THO/E-HS4` «I find the scent of Paradise» | CORE | 2 | 101.5 | Uḥud, 3 AH. Anas b. al-Naḍr ؓ — **the uncle Anas b. Mālik ؓ is named after**. Say the year aloud: we have gone back nine years |
+| 60 | `THO/E-HS5` Known by his fingertips | CORE | 1.5 | 103 | Eighty-odd wounds; his sister knew him by his fingertips |
+| 61 | `THO/E-HS6` «What will you do with life after him?» | GOOD | 1 | 104 | ⚠ **This one comes through Ibn Isḥāq, not the ⁨صحیح⁩ chain of #59–#60.** Say "it is reported", and do not put it on the same footing |
+| 62 | `THO/E-HS8` The water-carriers at Uḥud | GOOD | 1.5 | 105.5 | Two memories of a boy: his stepfather's *my throat before your throat*, and the two women with the waterskins — one of them ʿĀʾisha ؓ, the other his mother |
+| 63 | `THO/E-HS11` «I have won» | CORE | 1.5 | 107 | Biʾr Maʿūna, 4 AH. Her brother Ḥarām ؓ, speared from behind while speaking under safe conduct |
+| 64 | `THO/E-HS12` The reason the Prophet ﷺ came to that house | CORE | 1 | 108 | The answer is not a compliment to the house — it is that her brother was killed alongside him. **[HANDS] optional:** *"why that house and no other?"* |
+| 65 | `THO/E-HS9` «It was a loan» | CORE | 2 | 110 | ⚠ **The page does not name the child. Do not name him.** Tell it slowly; it is the strongest card in the part |
+| 66 | `THO/E-HS10` Bayruḥāʾ | GOOD | 1.5 | 111.5 | He gave away the piece he loved most, and was told to put it among his near kin |
+| 67 | `THO/E-HS7` The dagger at Ḥunayn | CORE | 1.5 | 113 | 8 AH. ⚠ **Stop where the card stops** — ⁨البدایہ ج۴ ص۵۸۹⁩ continues the exchange, and that continuation is not on this card |
+| 68 | `THO/E-HS13` Umm Ḥarām and the sea | GOOD | 1.5 | 114.5 | ⚠ **Do not develop the fleet** — it is 28 AH and belongs to a later evening. ⚠ **Do not name its commander** (`QA_BANK.md` §17.4): say "a fleet went to Cyprus" |
+| 69 | `THO/E-HS17` The oath at Tustar | CORE | 1.5 | 116 | 17–20 AH; the sources differ on the year, so say "years later". ⚠ «⁨واستشهدني⁩» is where the sources stop — **add nothing** |
+| 70 | `THO/E-HS18` The dawn prayer at Tustar | GOOD | 1 | 117 | Anas ؓ was there: the prayer he would not have traded for red camels — and he is the brother of the man killed at that wall |
+| 71 | `THO/E-HS19` «Equip me» | GOOD | 1.5 | 118.5 | ⚠ ⁨سیر⁩ itself says the better-known report has him dying at Medina. **Give both, or give neither** |
+
+Part IX: **22.5 min** · **13.5 min** CORE.
+
+## Part X — Abū Ḥudhayfa ؓ and Sālim ؓ, before the field
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| 72 | `AHA/E-AS02` The son of the elder of the Jāhiliyya | CORE | 1.5 | 120 | ⁨الذہبی⁩ says all three things in one sentence and softens none of them |
+| 73 | `AHA/E-AS01` The ship they hired for half a dinar | GOOD | 1.5 | 121.5 | Abyssinia. ⚠ The party's composition is ⁨ابن کثیر⁩ reporting ⁨الواقدی⁩ — say "it is reported" |
+| 74 | `AHA/E-AS06` From Iṣṭakhr to the banner of the Muhājirūn | CORE | 1.5 | 123 | **[HANDS] optional:** *"where do you think the man who led the Muhājirūn in prayer came from?"* — then the answer |
+| 75 | `AHA/E-AS07` The imām at Qubāʾ | CORE | 1.5 | 124.5 | A freed slave leads, because he carried the most Qurʾān — and ʿUmar ؓ is praying behind him |
+| 76 | `AHA/E-AS03` Badr — the father and the brother | CORE | 2 | 126.5 | ⚠ **Narrate, do not dwell.** The father and the brother on one side, the son on the other. No comment is added; the next card is the comment |
+| 77 | `AHA/E-AS04` The face the Prophet ﷺ noticed at the well | CORE | 2 | 128.5 | The answer is not a denial of grief. This card is why #76 is tellable at all |
+| 78 | `AHA/E-AS05` The sentence he was afraid of for ten years | GOOD | 1.5 | 130 | ⚠ **SPEAKER'S DISCRETION.** It is about al-ʿAbbās ؓ at Badr. If it is told, it ends where the books end it: *and he was killed a martyr at al-Yamāma* |
+| 79 | `AHA/E-AS10` The adoption undone | GOOD | 1.5 | 131.5 | ⚠ **SPEAKER'S DISCRETION.** Stay on what the card says: the law changed, and the household kept him by every other means. **Do not open the fiqh** |
+| 80 | `AHA/E-AS08` The night the Prophet ﷺ went out to listen | CORE | 1.5 | 133 | ⁨الذہبی⁩ marks the chain good — say so, it is a "how do we know?" beat. **End the part here**: it is the best last line in it |
+
+Part X: **14.5 min** · **10 min** CORE.
+
+## Part XI — Thābit b. Qays ؓ, before al-Yamāma
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| 81 | `ZIA/E-ZY10` «Are you not content to live praised?» | CORE | 1.5 | 134.5 | The man whose shroud the room saw at #26. The three things he was told — live praised, killed a martyr, enter the Garden — and **the room has already watched the second happen** |
+
+Part XI: **1.5 min**.
+
+---
+
 ## Rolled forward to evening 5 — NOT in this deck
 
 **Out of evening 4 by Daniyal's cut (2026-09-22, `DECISIONS.md` #44).** The tables are kept exactly as
@@ -421,6 +489,30 @@ are kept: they are already answered for evening 5's runsheet.
 | Abyssinia | `RCT/E-RC15` | inside Shuraḥbīl's ؓ notice, `RC15` beat 2 — the first hijra, which the room knows |
 | Khazraj | `RCT/E-RC18` | inside Thābit's ؓ notice — one of Medina's two Anṣār tribes, met on evening 1 |
 | Anas | `RCT/E-RC18` | Anas b. Mālik ؓ, the Prophet's ﷺ servant — one clause at `RC18` beat 2. *The tool cannot see a plain name at the start of a beat; answered by hand* |
+| Ṭalḥa | `THO/E-HS1` | part of **Abū Ṭalḥa's ؓ** name — **the card is his introduction**: the man who came to ask for her, and took Islam as the dower. ⚠ **Not the same man as Ṭalḥa b. ʿUbaydullāh ؓ**, who appears at #61 — say "Abū Ṭalḥa ؓ" in full, every time |
+| Paradise | `THO/E-HS4` | not a name — his own words, «I find the scent of Paradise» |
+| al-Aḥzāb | `THO/E-HS5` | a sūra, not a person. Say "the āya of Sūrat al-Aḥzāb". ⚠ **Do not print or say a verse number** — the card's own note says check a muṣḥaf first |
+| Najd | `THO/E-HS11` | the region the room has had on its map all evening — Buzākha and al-Buṭāḥ are in it. No notice |
+| Ḥarām | `THO/E-HS11` | **the card introduces him**: Ḥarām ؓ, Umm Sulaym's ؓ own brother, who carried the letter forward at Biʾr Maʿūna. `HS12` is why he matters |
+| Bayruḥāʾ | `THO/E-HS10` | not a person — the garden at Medina he loved most, glossed on the card in its first line |
+| Cyprus | `THO/E-HS13` | the island the fleet reached. ⚠ **Do not develop the expedition**: it is 28 AH and belongs to a later evening, and its commander is not named (`QA_BANK.md` §17.4) |
+| ʿUbāda | `THO/E-HS13` | ʿUbāda b. al-Ṣāmit ؓ, named once as her husband, who carried her with him. No notice needed |
+| Fajr | `THO/E-HS18` | the prayer, not a name — and the room prays it |
+| Ṣubḥ | `THO/E-HS18` | the same prayer, as the page words it. No gloss needed |
+| al-Hurmuzān | `THO/E-HS18` | named once, as "the captured lord of the city" — which is all the card says. ⚠ **Do not open his story**: it runs to 23 AH and belongs to a later evening |
+| Equip | `THO/E-HS19` | not a name — the card's title is his own word to his sons, «Equip me» |
+| Jāhiliyya | `AHA/E-AS02` | not a person — the age before Islam, in ⁨الذہبی⁩'s own phrase «⁨شيخ الجاهلية⁩». The room has the word |
+| Ruqayya | `AHA/E-AS01` | Ruqayya ؓ, the Prophet's ﷺ daughter and ʿUthmān's ؓ wife — the card names her in the same breath as the ship |
+| Sahla | `AHA/E-AS01` | Sahla bint Suhayl ؓ, Abū Ḥudhayfa's ؓ wife, on the same line of the same page |
+| Suhayl | `AHA/E-AS01` | part of Sahla's ؓ name — her father, Suhayl b. ʿAmr ؓ. ⚠ **Do not open his story** (Ḥudaybiya, and his speech at Mecca): it is `suhayl-ibn-amr.md`, for another evening |
+| Iṣṭakhr | `AHA/E-AS06` | not a person — a place in Persia, and the card glosses it in its first line: *"his origin was Iṣṭakhr, in Persia"* |
+| al-ʿUṣba | `AHA/E-AS07` | not a person — the spot beside Qubāʾ where the Muhājirūn camped, named on the page |
+| ʿUbayda | `AHA/E-AS03` | ʿUbayda b. al-Ḥārith ؓ, one of the three the Prophet ﷺ sent out at Badr. Named once, in a list; no notice needed |
+| Shayba | `AHA/E-AS03` | ʿUtba's brother, one of the three Meccans who came out. Named once, in the same list |
+| Meccans | `AHA/E-AS03` | not a name — the three who came out against them |
+| DISCRETION | `AHA/E-AS05` | **not a name — production apparatus.** The research title ends "⚠ SPEAKER'S DISCRETION"; `build.py` overrides the face with *"The sentence he feared for ten years"*, so it never reaches the room (#30). Same for `AS10` |
+| Fāṭima | `AHA/E-AS10` | Fāṭima bint al-Walīd ؓ, Abū Ḥudhayfa's ؓ niece — daughter of the brother killed at Badr. ⚠ **Her name is off the slide face**: say "his brother's daughter" |
+| Are | `ZIA/E-ZY10` | not a name — the card's title is the Prophet's ﷺ own question to him |
 | al-Barr | `AHA/E-AS18` | part of **Ibn ʿAbd al-Barr's رحمہ اللہ** name — an authority quoted, not a person in the story — the scholar who explains what ʿUmar's ؓ sentence means. Beat 4 names him; no notice needed |
 | ʾiba | `AHA/E-AS19` | not a name — **⁨سائبة⁩**, the term for freeing a slave outright, with no claim kept on what he leaves. The card's own words are the gloss: *"she had freed him outright, and never freed him expecting a return"* |
 | Maʿn | `ZIA/E-ZY8` | **his notice is `ZY8` beat 2 and `ZY9`**, in one breath: Maʿn b. ʿAdī ؓ, of Banū al-ʿAjlān, allies of the Anṣār — Zayd's ؓ brother by the Prophet's ﷺ pairing, killed on the same field |
