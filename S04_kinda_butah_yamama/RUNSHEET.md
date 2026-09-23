@@ -167,7 +167,7 @@ becomes a slide the room sees; #30.) **Built so the evening cannot run dry** (`D
 It is the rest of the day at
 ʿAqrabāʾ, in order, and it runs straight into Part VI, which ends on the one sentence that makes the
 whole evening matter. **Cut from the front, never from the back:** if only ten minutes are left, #32
-and #43 alone are a complete ending.
+and #55 alone are a complete ending.
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
@@ -180,31 +180,68 @@ Part V: **8 min** · **6.5 min** CORE.
 
 ## Part VI — The dead of al-Yamāma
 
-**OVERFLOW, second half.** Part V decides the day; this part is who paid for it, and why the room can
-hold a muṣḥaf. It is the answer to the question the books themselves give for the ⁨جمع القرآن⁩:
-«⁨استَحَرّ القتلُ في القُرّاء⁩» — *the killing ran hot among the reciters.* Until the room has met one
-reciter, that sentence is a fact; after #36–#39 it is a person. **Part IV already put these men at the
-line** (#28–#30: Sālim ؓ with the banner, Zayd ؓ and Abū Ḥudhayfa ؓ on the wings). This part is what
-happened to them, and what came of it.
+**OVERFLOW, second half.** Part V decides the day; from here on the evening is who paid for it, and why
+the room can hold a muṣḥaf. The books give one reason for the ⁨جمع القرآن⁩ — «⁨استَحَرّ القتلُ في القُرّاء⁩»,
+*the killing ran hot among the reciters* — and until the room has met a reciter that is a sentence, not
+a loss. Part IV already put these men at the line (#28–#30: Sālim ؓ with the banner, Zayd ؓ and Abū
+Ḥudhayfa ؓ on the wings); Parts VI–VIII are what became of them and of the men beside them.
 
-**Every card here is already page-cited; none needs a map.** If the clock runs out inside this part,
-**do not hurry it — jump to #43 and close** (`CUE.pdf` prints the number). **Cut #40 and #41 first:**
-they are the coda, not the spine.
+**None of these cards needs a map, and every one is page-cited.** **The evening may stop anywhere in
+here:** `CUE.pdf` prints the slide number of **#55** beside the beat that opens Part VI — one typed
+number takes the muṣḥaf card and the STOP D close from wherever the clock runs out. **Whatever is not
+reached rolls into evening 5** (`DECISIONS.md` #20, #33): it is not compressed and it is not dropped.
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 36 | `AHA/E-AS09` Take the Qurʾān from four | CORE | 1.5 | 67 | The ⁨تراجم⁩ notice for **both** new men, one breath each: Sālim ؓ, and Abū Ḥudhayfa b. ʿUtba ؓ. ⚠ **The four names do not go on the slide** — ⁨ابن کثیر⁩ quotes only the opening clause, and the four are ⁨صحیح مسلم⁩ ٢٤٦٤ in the editor's note (`QA_BANK.md` §5.3) |
-| 37 | `AHA/E-AS15` The hand, and the verse | CORE | 2 | 69 | The right hand, then the left, then the chest. **Make the link aloud:** the āya he recited is the one Abū Bakr ؓ read out to Medina the day the Prophet ﷺ died — one year before this field |
-| 38 | `AHA/E-AS16` "Lay me down between them" | CORE | 1.5 | 70.5 | ⚠ The second man is «⁨فلان⁩» in the source — **do not name him**. ⚠ **No approved source says they were buried in one grave** (§10.3 of the note) |
-| 39 | `AHA/E-AS17` How they were found | GOOD | 1 | 71.5 | ⚠ ⁨الذہبی⁩ gives this with «⁨وقيل⁩». Carry it across in the delivery: *"it is said that…"*, **never** *"they were found"* |
-| 40 | `THO/E-HS14` «Do not put al-Barāʾ over an army» | GOOD | 1.5 | 73 | Answers what the room has been holding since #32 — **the man who went over the wall lived**. ⚠ The page opens with «⁨قيل⁩»: say *"it is reported that ʿUmar ؓ wrote"*. Hands-up is switched **off** here: the room has just buried two men |
-| 41 | `THO/E-HS15` «Do you see me dying in my bed?» | GOOD | 1 | 74 | **Cut first.** ⚠ The counts move — ninety-nine, ninety-odd, a hundred. Say *"the reports give ninety-odd"* and move on. Beat 4 is where he did die: ⁨تُسْتَر⁩, years later |
-| 42 | `ZIA/E-ZY17` The number nobody can give | CORE | 2 | 76 | **The card that stops a wrong number being said aloud.** **[HANDS] 5:** *"How many men who had the whole Qurʾān by heart died that day? What would you guess?"* — then the honest answer: the books do not give one |
-| 43 | `RCT/E-RC37` The Qurʾān was collected because of this | CORE | 2 | 78 | **The true ending.** End here and go straight to the closing bookend — say nothing after it |
+| 36 | `AHA/E-AS13` The banner nobody would leave on the ground | GOOD | 1.5 | 67 | The hand-off itself, in ⁨الذہبی⁩'s own sentence: Zayd ؓ falls, Sālim ؓ picks the banner up. ⚠ **Three books give three different banner arrangements — say only that it changed hands because the man holding it was killed. Never a diagram** |
+| 37 | `AHA/E-AS09` Take the Qurʾān from four | CORE | 1.5 | 68.5 | The ⁨تراجم⁩ notice for **both** men, one breath each: Sālim ؓ, and Abū Ḥudhayfa b. ʿUtba ؓ. ⚠ **The four names do not go on the slide** — ⁨ابن کثیر⁩ quotes only the opening clause, and the four are ⁨صحیح مسلم⁩ ٢٤٦٤ in the editor's note (`QA_BANK.md` §5.3) |
+| 38 | `AHA/E-AS14` Two men who dug a pit | GOOD | 1.5 | 70 | Thābit b. Qays ؓ and Sālim ؓ, after the line had been driven back three times. ⚠ **The ⁨بخاری⁩-anchored wording of those words belongs to Thābit ؓ** (`RCT/E-RC18`, §7.4(a)) — attribute it that way |
+| 39 | `AHA/E-AS15` The hand, and the verse | CORE | 2 | 72 | The right hand, then the left, then the chest. **Make the link aloud:** the āya he recited is the one Abū Bakr ؓ read out to Medina the day the Prophet ﷺ died — one year before this field |
+| 40 | `AHA/E-AS16` "Lay me down between them" | CORE | 1.5 | 73.5 | ⚠ The second man is «⁨فلان⁩» in the source — **do not name him**. ⚠ **No approved source says they were buried in one grave** (§10.3 of the note) |
+| 41 | `AHA/E-AS17` How they were found | GOOD | 1 | 74.5 | ⚠ ⁨الذہبی⁩ gives this with «⁨وقيل⁩». Carry it across in the delivery: *"it is said that…"*, **never** *"they were found"* |
+| 42 | `AHA/E-AS18` "Had Sālim been alive" | CORE | 1.5 | 76 | The payoff of the whole thread, eleven years on: ⁨عمر ؓ⁩ dying, and the ⁨شوریٰ⁩. ⚠ Say **"it is related that…"** — Ibn Kathīr's own passive. ⚠ **Do not merge** the ⁨سیر⁩ ⁨ج۱ ص۱۷۰⁩ version naming Abū ʿUbayda ؓ as well: ⁨الذہبی⁩ weakens its chain on the page |
+| 43 | `AHA/E-AS19` The inheritance that was sent back | GOOD | 1 | 77 | ⚠ **Do not read the name of the woman who freed him** — the printed page gives it two ways on one page (§4.2). ⚠ ⁨سیر⁩ ⁨ج۱ ص۱۶۹⁩ tells the estate differently: **tell one version, captioned to ⁨البدایہ ج۷ ص۵۰⁩** |
 
-Part VI: **12.5 min** · **9 min** CORE (#40 and #41 cut).
+Part VI: **11.5 min** · **6.5 min** CORE.
 
-**⏸ STOP D — after #43. The full ending.** Closing pair — **these two slides open evening 5 if the
+---
+
+## Part VII — Who else was on that field
+
+**OVERFLOW.** The same field, the men beside them. **Cut singly, from the bottom:** every card here is
+self-contained except `ZY8`+`ZY9`, which are a pair — **tell them together or not at all** (the note
+says so on the card).
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| 44 | `ZIA/E-ZY8` Two brothers by appointment | CORE | 1.5 | 78.5 | The ⁨مؤاخاة⁩ pairing of Zayd ؓ with Maʿn b. ʿAdī ؓ — and the second pair, Abū Ḥudhayfa ؓ with ʿAbbād b. Bishr ؓ. ⚠ The ⁨مؤاخاة⁩'s own year is `[CONVENTIONAL-ESTIMATE]`: say "when the Muhājirūn arrived", never a year |
+| 45 | `ZIA/E-ZY9` «So that I may confirm him dead» | CORE | 1.5 | 80 | Maʿn ؓ on the day the Prophet ﷺ died — **and he is one of the two men who met Abū Bakr ؓ and ʿUmar ؓ on the road to the Saqīfa**, which evening 1 told. ⚠ Chain honesty (§4.2): ⁨البدایہ ج۷ ص۵۴⁩ connected through Ibn ʿUmar ؓ, the ⁨سیر⁩ editor notes the preserved form is ⁨مرسل⁩ from ⁨عروہ⁩ — say so if challenged |
+| 46 | `ZIA/E-ZY4` The man who killed him | CORE | 2 | 82 | **[HANDS] 5:** *"The man who killed your brother is standing in front of you, and he is now a Muslim. What is there to say?"* ⚠ **The sources record no answer from ʿUmar ؓ — do not supply one.** ⚠ Give Ibn Kathīr's own handling of the competing report: it is this part's "how do we know?" beat |
+| 47 | `ZIA/E-ZY12` The arrow he pulled out | CORE | 1 | 83 | Abū ʿAqīl ؓ, a chief of the Anṣār and a man of Badr. ⚠⚠ **The long famous version — the night wound, the dead arm, the severed arm, "who won?" — is in NO approved source (§X.2). Tell only the sentence on the card** |
+| 48 | `ZIA/E-ZY13` The son of the head of the hypocrites | GOOD | 1.5 | 84.5 | ⚠ **Where he died is disputed** (⁨سیر⁩/⁨البدایہ⁩: اليمامة; ⁨سیر الراشدون⁩ ص۶۱: ⁨جواثى⁩) — **say "in this war"**. ⚠ Do not print a verse number without checking a ⁨مصحف⁩ |
+| 49 | `ZIA/E-ZY14` Three generations, one morning | GOOD | 1.5 | 86 | ⚠ The fourth man is a son in one source and a grandson in another — **say "three men of his own household with him"** and do not count them out |
+| 50 | `ZIA/E-ZY15` The mother at al-Yamāma | CORE | 2 | 88 | ⚠ **SPEAKER'S DISCRETION — this is the most severe card in the evening.** It is what was done to Ḥabīb b. Zayd ؓ, and what his mother Umm ʿUmāra ؓ did after it. Tell it plainly and without dwelling; do not elaborate beyond the page. If the room is heavy, skip it |
+| 51 | `ZIA/E-ZY16` The father at al-Yamāma, the son at al-Yarmūk | GOOD | 1.5 | 89.5 | ⚠ **Frame ⁨اليرموك⁩ aloud as a battle we have not reached** (#43, forward reference). ⚠ **Do not read the Arabic of the dream and do not render its second image** — say only what the card says he interpreted |
+
+Part VII: **12.5 min** · **8 min** CORE.
+
+---
+
+## Part VIII — What was left
+
+**The close, and it is always reachable:** from anywhere in Parts VI–VII, one typed number brings the
+room here. **#55 is the last word of the evening in every version.**
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| 52 | `THO/E-HS14` «Do not put al-Barāʾ over an army» | GOOD | 1.5 | 91 | Answers what the room has been holding since #32 — **the man who went over the wall lived**. ⚠ The page opens with «⁨قيل⁩»: say *"it is reported that ʿUmar ؓ wrote"*. Hands-up is switched **off**: the room has just buried a field |
+| 53 | `THO/E-HS15` «Do you see me dying in my bed?» | GOOD | 1 | 92 | **Cut first.** ⚠ The counts move — ninety-nine, ninety-odd, a hundred. Say *"the reports give ninety-odd"* and move on. Beat 4 is where he did die: ⁨تُسْتَر⁩, years later |
+| 54 | `ZIA/E-ZY17` The number nobody can give | CORE | 2 | 94 | **The card that stops a wrong number being said aloud.** **[HANDS] 6:** *"How many men who had the whole Qurʾān by heart died that day? What would you guess?"* — then the honest answer: the books do not give one |
+| 55 | `RCT/E-RC37` The Qurʾān was collected because of this | CORE | 2 | 96 | **The true ending.** End here and go straight to the closing bookend — say nothing after it |
+
+Part VIII: **6.5 min** · **4 min** CORE.
+
+**⏸ STOP D — after #55. The full ending.** Closing pair — **these two slides open evening 5 if the
 evening reaches here** (#23):
 - **The Line:** 11→12 AH, the day at ʿAqrabāʾ decided and the Qurʾān marked on 12 AH.
 - **The map:** al-Yamāma blue at last; **Ḥaḍramawt still grey**, and it is the last front left.
@@ -384,6 +421,28 @@ are kept: they are already answered for evening 5's runsheet.
 | Abyssinia | `RCT/E-RC15` | inside Shuraḥbīl's ؓ notice, `RC15` beat 2 — the first hijra, which the room knows |
 | Khazraj | `RCT/E-RC18` | inside Thābit's ؓ notice — one of Medina's two Anṣār tribes, met on evening 1 |
 | Anas | `RCT/E-RC18` | Anas b. Mālik ؓ, the Prophet's ﷺ servant — one clause at `RC18` beat 2. *The tool cannot see a plain name at the start of a beat; answered by hand* |
+| al-Barr | `AHA/E-AS18` | part of **Ibn ʿAbd al-Barr's رحمہ اللہ** name — an authority quoted, not a person in the story — the scholar who explains what ʿUmar's ؓ sentence means. Beat 4 names him; no notice needed |
+| ʾiba | `AHA/E-AS19` | not a name — **⁨سائبة⁩**, the term for freeing a slave outright, with no claim kept on what he leaves. The card's own words are the gloss: *"she had freed him outright, and never freed him expecting a return"* |
+| Maʿn | `ZIA/E-ZY8` | **his notice is `ZY8` beat 2 and `ZY9`**, in one breath: Maʿn b. ʿAdī ؓ, of Banū al-ʿAjlān, allies of the Anṣār — Zayd's ؓ brother by the Prophet's ﷺ pairing, killed on the same field |
+| al-ʿAjlān | `ZIA/E-ZY8` | his clan, given on the card in the same breath — allies of the Anṣār. No further notice |
+| ʿAbbād | `ZIA/E-ZY8` | ʿAbbād b. Bishr ؓ, named once as the **second** pair with Abū Ḥudhayfa ؓ. No notice needed; if asked, he is of the Anṣār and was killed on that field too |
+| Saqīfa | `ZIA/E-ZY9` | **met in evening 1** — the whole orientation evening turned on it. One clause if the room looks blank: *"the night the Anṣār gathered and Abū Bakr ؓ was given the bayʿa"* |
+| Maryam | `ZIA/E-ZY4` | part of **Abū Maryam al-Ḥanafī's** name — **the card is his introduction**, beats 1–3: the man who killed Zayd ؓ, fighting that day on the other side, who afterwards became a Muslim — and whom ʿUmar ؓ later made a judge |
+| Faithful | `ZIA/E-ZY4` | part of «Commander of the Faithful» — a title, not a name, and it is the **source's own wording** in the man's address to ʿUmar ؓ. Say it as the page says it |
+| ʿAqīl | `ZIA/E-ZY12` | part of **Abū ʿAqīl's ؓ** name — **his notice is beat 1**: one of the chiefs of the Anṣār and a man of Badr. That is all the card gives, and it is enough |
+| Ubayy | `ZIA/E-ZY13` | part of ʿAbdullāh b. ʿAbdullāh b. Ubayy's ؓ name; his father is glossed on the card as the man the Qurʾān calls the head of the hypocrites. ⚠ **Do not open the father's story** — not the ⁨إفك⁩, not ⁨أحد⁩. The card is about the son |
+| Ḥazn | `ZIA/E-ZY14` | **his notice is beat 1**: Ḥazn al-Makhzūmī ؓ, a man of Mecca of Banū Makhzūm |
+| al-Makhzūmī | `ZIA/E-ZY14` | his clan — Banū Makhzūm of Mecca, on the card |
+| al-Musayyab | `ZIA/E-ZY14` | part of **Saʿīd b. al-Musayyab's رحمہ اللہ** name — named **only to place the household**: the grandson, one of the great jurists of the next generation. ⚠ Do not develop him — he belongs to an evening this course has not reached |
+| Sahl | `ZIA/E-ZY14` | not a person — the name the Prophet ﷺ offered him. The card glosses both: ⁨حَزْن⁩ is rough ground, ⁨سَهْل⁩ is smooth |
+| Ḥabīb | `ZIA/E-ZY15` | **the card is his introduction**: Ḥabīb b. Zayd ؓ, the man Musaylima held. He has not been named anywhere in the series before tonight — give him his one breath before what is done to him |
+| ʿUmāra | `ZIA/E-ZY15` | part of **Umm ʿUmāra's رضي الله عنها** name — **her notice is beat 4**, in one breath: Umm ʿUmāra Nusayba bint Kaʿb رضي الله عنها — al-ʿAqaba, Uḥud, al-Ḥudaybiya, Ḥunayn — and Ḥabīb's ؓ mother |
+| Nusayba | `ZIA/E-ZY15` | the same woman: Umm ʿUmāra is her ⁨کنیت⁩, Nusayba bint Kaʿb her name. Say one of them, not both twice |
+| al-ʿAqaba | `ZIA/E-ZY15` | one item in the list that places her, not a topic. If the room looks blank: *"the pledge the Anṣār gave before the hijra"*, then on |
+| Ḥunayn | `ZIA/E-ZY15` | as above — one item in the same list. **Do not stop to tell Ḥunayn**; the list exists to show where she had already been |
+| al-Ṭufayl | `ZIA/E-ZY16` | **his notice is beat 1**: al-Ṭufayl b. ʿAmr al-Dawsī ؓ, who took Islam back to his own tribe and brought ninety households of them to Medina |
+| al-Dawsī | `ZIA/E-ZY16` | the nisba of the same man — of Daws |
+| Daws | `ZIA/E-ZY16` | his tribe, of the south. It appears nowhere else in this evening; the card's own clause is its whole introduction |
 | ʿUtba | `AHA/E-AS09` | part of Abū Ḥudhayfa's ؓ name — his father, ʿUtba b. Rabīʿa of Quraysh, ⁨سیر⁩ ⁨ج۱ ص۱۶۴⁩ «⁨شيخ الجاهلية⁩». Beat 2 gives it in four words and moves on. ⚠ **Do not tell Badr from the platform** — `AHA/E-AS03` is speaker's discretion, and it is not needed here |
 | al-Arqam | `AHA/E-AS09` | the house in Mecca where the first Muslims met — the card's own phrase for *how early he was*. If the room looks blank: *"before they were even meeting in secret in Mecca"*, then on |
 | al-ʿAbshamī | `AHA/E-AS17` | **not spoken** — it is in the card's prose, part of the name as ⁨الذہبی⁩ writes it in his roll of the day's martyrs. Say "Abū Ḥudhayfa b. ʿUtba ؓ" and stop |

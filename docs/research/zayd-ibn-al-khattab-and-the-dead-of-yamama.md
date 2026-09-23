@@ -1367,6 +1367,14 @@ the other side. Afterwards he became a Muslim. And at some point after that he s
 ʿUmar ؓ later appointed him a judge. Ibn Kathīr records a second report naming a different killer,
 and records that Ibn ʿAbd al-Barr preferred it, and then says the second report does not disprove
 the first.
+**Beats:**
+1. Who killed Zayd ؓ — A man called Abū Maryam al-Ḥanafī, fighting that day on the other side.
+2. Afterwards — He became a Muslim.
+3. He stands in front of ʿUmar ؓ — The dead man's younger brother, now Commander of the Faithful.
+4. What he said — Allah honoured Zayd ؓ at my hand, and did not disgrace me at his.
+5. What the sources do not give — Any answer from ʿUmar ؓ. We do not supply one. He later made him a judge.
+6. A competing report, handled on the page — Ibn Kathīr names another killer, says Ibn ʿAbd al-Barr preferred it, then says it does not disprove the first.
+**Quote after beat:** 4
 **The statement:**
 > ثم قتلَ زيدًا رجل يقال له: أبو مريم الحنفي، وقد أسلم بعد ذلك وقال لعمر: يا أميرَ المؤمنين إن الله أكرم زيدًا بيدي ولم يُهنِّي على يده.
 > — ⁨البدایہ والنہایہ ج۷ ص۴۹⁩ · https://shamela.ws/book/30097/3195
@@ -1451,6 +1459,12 @@ them with a man of the Anṣār and made the two of them brothers. Zayd b. al-Kh
 was paired with Maʿn b. ʿAdī ؓ of Banū al-ʿAjlān, an ally of the Anṣār. Years later, both of them were on the
 field at al-Yamāma. Both of them were killed there, on the same day. And they were not the only such
 pair: Abū Ḥudhayfa ؓ and ʿAbbād b. Bishr ؓ had been paired the same way, and they died there too.
+**Beats:**
+1. The Muhājirūn arrive with nothing — The Prophet ﷺ pairs each of them with a man of the Anṣār, as brothers.
+2. Zayd's ؓ brother by appointment — Maʿn b. ʿAdī ؓ, of Banū al-ʿAjlān, an ally of the Anṣār.
+3. Years later, one field — Both were at al-Yamāma, and both were killed there.
+4. And not the only such pair — Abū Ḥudhayfa ؓ and ʿAbbād b. Bishr ؓ were paired the same way, and died there too.
+**Quote after beat:** 3
 **The statement:**
 > وقد آخى رسول الله ﷺ بينه وبين معن بن عديّ الأنصاري وقد قُتلا جميعًا باليمامة.
 > — ⁨البدایہ والنہایہ ج۷ ص۴۹⁩ · https://shamela.ws/book/30097/3195
@@ -1475,6 +1489,13 @@ could confirm the Prophet ﷺ dead the same way he had confirmed him alive. His 
 He was one of the two men who met Abū Bakr ؓ and ʿUmar ؓ on the road to the Saqīfa. And in the
 following year he was killed at al-Yamāma, in the war fought to hold what he had said he would
 confirm.
+**Beats:**
+1. The day the Prophet ﷺ died — Medina wept, and men said they wished they had died before him.
+2. One man said the opposite — Maʿn b. ʿAdī ؓ, Zayd's ؓ brother by appointment.
+3. What he said — I do not wish I had died first: let me confirm him dead as I confirmed him alive.
+4. Where else he stood — He was one of the two men who met Abū Bakr ؓ and ʿUmar ؓ on the road to the Saqīfa.
+5. The year after — He was killed at al-Yamāma, in the war fought to hold what he said he would confirm.
+**Quote after beat:** 3
 **The statement:**
 > فَقَالَ مَعْنٌ: لَكِنِّي -وَاللهِ- مَا أُحِبُّ أَنِّي مُتُّ قَبْلَهُ حَتَّى أُصَدِّقَهُ مَيْتاً، كَمَا صَدَّقْتُهُ حَيّاً.
 > — ⁨سیر أعلام النبلاء ج۱ ص۳۲۱⁩ · https://shamela.ws/book/10906/1747
@@ -1546,6 +1567,12 @@ Khālid ؓ and the caliph, is ⁨سیر ج۱ ص۳۱۳⁩ and ⁨البدایہ �
 arrow hit him. He pulled it out himself. Then he bound himself up, took his sword, and went back to
 fighting. He fought until he was killed. When they came to him afterwards, they found many wounds on
 him.
+**Beats:**
+1. Who he was — Abū ʿAqīl ؓ, one of the chiefs of the Anṣār and a man of Badr.
+2. The arrow — It struck him at al-Yamāma, and he pulled it out himself.
+3. What he did next — Bound himself up, took his sword, and went back into the fighting.
+4. Afterwards — He fought until he was killed, and many wounds were found on him.
+**Quote after beat:** 4
 **The statement:**
 > أصابه سهم يوم اليمامة فنزعه، وتحزم وأخذ السيف وقاتل حتى قتل، فوجد به جراحات كثيرة.
 > — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۶۰⁩ · https://shamela.ws/book/10906/1208
@@ -1567,6 +1594,13 @@ head of the hypocrites. He was a Muslim, he was at Badr and at everything after 
 call him one of the best of the Companions. He was the hardest of all people on his own father. When
 that father died, the Prophet ﷺ gave his own shirt for the burial and prayed over him — as an honour
 to the son. And a few years after that, the son was killed at al-Yamāma.
+**Beats:**
+1. Whose son he was — ʿAbdullāh b. ʿAbdullāh b. Ubayy ؓ: his father is the man the Qurʾān calls the head of the hypocrites.
+2. What he himself was — A Muslim at Badr and at everything after it; the books call him one of the best of them.
+3. Hardest of all people on his own father — And the books record that plainly.
+4. At that father's burial — The Prophet ﷺ gave his own shirt and prayed over him, as an honour to the son.
+5. A few years later — The son was killed in this war.
+**Quote after beat:** 3
 **The statement:**
 > وكان أبوه رأسَ المنافقين، وكان أشدَّ الناس على أبيه، ولو أذن له رسول الله فيه لضربَ عُنُقه.
 > — ⁨البدایہ والنہایہ ج۷ ص۵۳⁩ · https://shamela.ws/book/30097/3199
@@ -1589,6 +1623,12 @@ Saʿīd b. al-Musayyab ⁨رحمہ اللہ⁩, one of the great jurists of the 
 wanted to change his name — Ḥazn means rough ground — to Sahl, which means smooth. He refused: he
 would not change a name his parents had given him. And the report ends: *so the roughness never left
 us.* At al-Yamāma, Ḥazn ؓ was killed. So were two of his sons. So was a grandson.
+**Beats:**
+1. Who he was — Ḥazn al-Makhzūmī ؓ of Mecca, grandfather of Saʿīd b. al-Musayyab ⁨رحمہ اللہ⁩.
+2. The name — The Prophet ﷺ wanted to change it; he would not change a name his parents had given him.
+3. How the report ends — So the roughness never left us.
+4. At al-Yamāma — He was killed, and three men of his own household with him.
+**Quote after beat:** 3
 **The statement:**
 > أراد رسولُ الله ﷺ أن يسميه سَهْلًا فامتنعَ وقال: لا أغيّرُ اسمًا سمانيه أبواي، فلم تزل الحزونة فينا. استُشهد يومَ اليمامة. وقتل معه أيضًا ابناه عبد الرحمن ووهب، وابن ابنه حكيمُ بن وَهْبِ بن حزن.
 > — ⁨البدایہ والنہایہ ج۷ ص۴۹⁩ · https://shamela.ws/book/30097/3195 — the naming report: **⁨صحيح البخاري ٦١٩٠⁩**
@@ -1618,6 +1658,14 @@ died in his hands. Ḥabīb's ؓ mother was Umm ʿUmāra Nusayba bint Kaʿb ⁨�
 al-ʿAqaba, at Uḥud, at al-Ḥudaybiya and at Ḥunayn. When the army marched to al-Yamāma, she went with
 it. Her hand was cut off there. She came back to Medina covered in wounds, and Abū Bakr ؓ, while he
 was caliph, was seen coming to her to ask after her.
+**Beats:**
+1. A man in Musaylima's hands — Ḥabīb b. Zayd ؓ, asked whether he testified that Muḥammad ﷺ is the Messenger of Allah.
+2. He said yes — Then he was asked to testify the same of Musaylima, and said: I do not hear.
+3. He was cut apart, limb by limb — And he never gave more than that one answer, until he died.
+4. His mother — Umm ʿUmāra Nusayba bint Kaʿb ⁨رضي الله عنها⁩: al-ʿAqaba, Uḥud, al-Ḥudaybiya, Ḥunayn.
+5. She went out with the army — Her hand was cut off at al-Yamāma, and she came back covered in wounds.
+6. Abū Bakr ؓ, while he was caliph — Was seen coming to her to ask after her.
+**Quote after beat:** 3
 **The statement:**
 > فيقول: أتشهدُ أني رسولُ اللَّه؟ فيقول: لا أسمع، فجعل يقطِّعُه عضوًا عضوًا حتى مات في يديه، لا يزيدُه على ذلك.
 > — ⁨البدایہ والنہایہ ج۳ ص۴۲۸⁩ · https://shamela.ws/book/30097/1402
@@ -1643,6 +1691,13 @@ brought ninety households of Daws to Medina. He went out to al-Yamāma with his 
 battle he had a dream, and he read it aloud himself: that he would be killed and buried, and that his
 son would press hard for martyrdom and would not get it that year. Both halves came true. The father
 was killed at al-Yamāma. The son was killed a few years later, at al-Yarmūk.
+**Beats:**
+1. Who he was — al-Ṭufayl b. ʿAmr al-Dawsī ؓ, who took Islam back to Daws and brought ninety households to Medina.
+2. He went out with his son — ʿAmr, to al-Yamāma.
+3. A dream before the battle, which he read aloud himself — He would be killed and buried; his son would press for martyrdom and not get it that year.
+4. Both halves came true — The father was killed at al-Yamāma.
+5. The son — Killed a few years later at al-Yarmūk, a battle this course has not reached yet.
+**Quote after beat:** 4
 **The statement:**
 > فأولها بأنه سيقتل ويدفن، وأن ابنه يحرص على الشهادةِ فلا ينالُها عامَه ذلك. وقد وقع الأمر كما أوّلها، ثم قُتل ابنُه شهيدًا يوم اليرموك.
 > — ⁨البدایہ والنہایہ ج۷ ص۵۲⁩ · https://shamela.ws/book/30097/3198

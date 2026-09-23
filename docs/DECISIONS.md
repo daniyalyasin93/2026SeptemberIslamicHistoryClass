@@ -1024,3 +1024,42 @@ beat line is the card's content, and no ⁨لقب⁩ was invented (§1.2).
 
 **Introductions (#43).** The gate answered four new rows: ʿUtba b. Rabīʿa (part of Abū Ḥudhayfa's ؓ name —
 and **Badr is not told from the platform**), al-Arqam, al-ʿAbshamī (not spoken), and Tustar.
+
+---
+
+## 49. The whole al-Yamāma household pool goes in tonight; what is not reached opens evening 5
+
+**2026-09-23, Daniyal: "why not we add all household cards here during Yamāma before moving ahead? If
+it spills we will keep covering in next session?"** That is the house rule (#20, #33), so yes — with one
+line drawn, and the line is **the field**, not the household.
+
+**What went in (12 cards, Parts VI–VIII, #36–#55).** Everything the approved books put *on that field*
+or in its immediate aftermath: the banner falling from Zayd ؓ to Sālim ؓ (`AS13`), the four reciters
+(`AS09`), the pit (`AS14`), the two hands and the āya (`AS15`), «⁨فأضجعوني بينهما⁩» (`AS16`), how they
+were found (`AS17`), ʿUmar ؓ eleven years later (`AS18`), the estate sent back (`AS19`), the ⁨مؤاخاة⁩
+pairs who died together (`ZY8`, `ZY9`), the man who killed Zayd ؓ and became a Muslim (`ZY4`), Abū
+ʿAqīl ؓ (`ZY12`), the son of the head of the hypocrites (`ZY13`), four men of one Meccan household
+(`ZY14`), Ḥabīb b. Zayd ؓ and his mother (`ZY15`), and al-Ṭufayl ؓ and his son (`ZY16`).
+
+**What stayed out, and why.** About 36 household cards are **not** at al-Yamāma: Uḥud, Ḥunayn, Biʾr
+Maʿūna, the dower, Bayruḥāʾ, Qubāʾ, Abyssinia, Tustar. Importing them would move the evening off its own
+point on the Line and force forward and backward references the room cannot carry (#43). They stay a
+pool for **the evening that carries the households**, which is where they belong.
+
+**Nine cards were rejected as duplicates** of what this evening already tells — this is the check that
+matters when a pool is raided late: `AS11` = `RC59` · `AS12` = `RC61` · `ZY2` = `RC60` (the same vow,
+word for word) · `HS16` = `RC20` · `ZY3` = `RC57` · `ZY11` ≈ `RC18` · `ZY5`/`ZY6` are inside `RC23` ·
+`ZY7` = `RC52` · `ZY1` is `RC23` beat 2.
+
+**Shape.** Part VI is the banner; Part VII is the men beside them; Part VIII is what was left —
+al-Barāʾ ؓ, the number nobody can give, and the order at Medina. **#55 is the last word in every version
+of the evening**, and it is always one typed number away: `CUE.pdf` prints `RC37`'s slide number beside
+the beat that opens Part VI. Nothing in here is compressed to fit; whatever is not reached opens evening
+5, which still owes the room Ḥaḍramawt and Kinda (#42).
+
+**What it cost the cue sheet.** Thirty beats do not fit on one page, and a two-page cue card is not a cue
+card (§1.7). The overflow no longer sits in the Run column: `series/pack.py` renders it as a **full-width
+band under the columns** — *"If the clock is kind — behind the close"* — one digest line per part with
+that part's ⚠ digest. The planned evening keeps its own beats and its type at **11pt**; the same words
+in a narrow column had forced 10pt.
+

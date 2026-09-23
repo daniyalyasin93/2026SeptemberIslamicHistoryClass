@@ -1237,6 +1237,12 @@ into the enemy until he was killed. The banner fell. Sālim ؓ picked it up. Al-
 records it in one sentence in Zayd's ؓ own notice, and Ibn Kathīr ⁨رحمہ اللہ⁩ records it twice, in two
 separate death notices on consecutive pages (⁨ج۷ ص۴۹⁩ and ⁨ج۷ ص۵۰⁩).
 
+**Beats:**
+1. Zayd ؓ carries it forward — The Muslims' banner was with him, and he kept pressing forward into the enemy.
+2. Until he was killed — He fought on with it until he was killed, and the banner fell.
+3. Sālim ؓ takes it up — The freedman of Abū Ḥudhayfa ؓ picks it off the ground.
+4. How we know — al-Dhahabī ⁨رحمہ اللہ⁩ records it once; Ibn Kathīr ⁨رحمہ اللہ⁩ twice, on consecutive pages.
+**Quote after beat:** 3
 **The statement:**
 > وَكَانَتْ رَايَةُ المُسْلِمِيْنَ مَعَهُ يَوْمَ اليَمَامَةِ، فَلَمْ يَزَلْ يَقْدَمُ بِهَا فِي نَحْرِ العَدُوِّ، ثُمَّ قَاتَلَ حَتَّى قُتِلَ، فَوَقَعَتْ الرَّايَةُ، فَأَخَذَهَا سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ
 > — ⁨سیر أعلام النبلاء ج۱ ص۲۹۸⁩ · https://shamela.ws/book/10906/1724
@@ -1261,6 +1267,12 @@ line stopped moving.
 said the same thing to each other: this is not how we used to fight alongside the Messenger of Allah
 ﷺ. So they dug a pit, stood in it, and fought from there. Neither came out.
 
+**Beats:**
+1. Driven back three times — Banū Ḥanīfa had pushed the Muslim line backwards three times.
+2. What the two of them said — This is not how we used to fight alongside the Messenger of Allah ﷺ.
+3. What they did about it — They dug a pit for themselves, went down into it, and fought from there.
+4. Neither came out — Both were killed where they stood.
+**Quote after beat:** 2
 **The statement:**
 > فقال ثابتٌ وسالمٌ مولى أبي حذيفة: ما هكذا كنَّا نقاتلُ مع رسول الله ﷺ، فجعلا لأنفسهما حفرة فدخلا فيها فقاتلا حتى قُتلا
 > — ⁨البدایہ والنہایہ ج۷ ص۴۸⁩ · https://shamela.ws/book/30097/3194
@@ -1378,6 +1390,13 @@ six instead. And it is related that he said that had Sālim ؓ been alive, he wo
 council at all. Ibn ʿAbd al-Barr ⁨رحمہ اللہ⁩ explains what that means: he would have gone by Sālim's ؓ
 judgement about whom to appoint.
 
+**Beats:**
+1. Eleven years later — ʿUmar ؓ is dying of the assassin's wound, and the succession will not wait.
+2. What he did — He refused to name one man, and made it a council of six instead.
+3. What is related of him — Had Sālim ؓ been alive, I would not have made it a council.
+4. What that means — Ibn ʿAbd al-Barr ⁨رحمہ اللہ⁩: he would have gone by Sālim's ؓ judgement on whom to appoint.
+5. Say it as Ibn Kathīr ⁨رحمہ اللہ⁩ writes it — "It is related that…", and nothing stronger.
+**Quote after beat:** 3
 **The statement:**
 > وروي عن عمر أنه قال لما احتُضِر: لو كانَ سالمٌ حيًّا لما جعلتها شُورى
 > — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
@@ -1403,6 +1422,12 @@ went to the woman who had freed him, so ʿUmar ؓ sent it to her. She sent it ba
 that she had freed him outright — sāʾiba — and had never freed him expecting a return. ʿUmar ؓ put
 the estate into the treasury instead.
 
+**Beats:**
+1. He left property and no heir of his own — Under the law of walāʾ it goes to the woman who had freed him.
+2. ʿUmar ؓ sends it to her — And she sends it back.
+3. Her reason — She had freed him outright, and had never freed him expecting a return.
+4. Where it went instead — ʿUmar ؓ put the estate into the treasury.
+**Quote after beat:** 3
 **The statement:**
 > وقد بعثَ عمرُ بميراثه إلى مولاته التي أعْتَقَتْه "بثينة" فردَّتْه وقالتْ: إنّما أعْتَقَتْهُ سائبةٌ، فجعله عمر في بيت المال
 > — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196

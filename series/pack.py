@@ -95,11 +95,15 @@ h2 { font: 700 9.5pt 'Segoe UI'; letter-spacing: .14em; text-transform: uppercas
 .beat .what { flex: 1; }
 .beat .name { font-weight: 700; }
 .beat .cues { color: %(muted)s; font-size: %(small)spt; }
-/* Overflow beats — the part spoken only if the clock is kind. They are cued as densely as they can be
-   read, so that carrying them does not shrink the type of the evening that is actually planned. */
-.beat.over { margin-bottom: 1px; }
-.beat.over .cues { display: inline; margin-left: 5px; }
-.beat.over .name { font-weight: 600; }
+/* The overflow — the parts spoken only if the clock is kind. They do NOT sit in the run column: in a
+   narrow column their beats pushed the planned evening down to 10pt. They get one full-width band under
+   the columns, where the same words cost a third of the height. */
+.over { margin-top: 5px; border-top: 1.5pt solid %(gold)s; padding-top: 3px; line-height: 1.16; }
+.over b.h { color: %(gold)s; font: 700 9.5pt 'Segoe UI'; letter-spacing: .14em;
+            text-transform: uppercase; }
+.over .o { margin-top: 1.5px; }
+.over .o .name { font-weight: 700; }
+.over .o .cues { color: %(muted)s; font-size: %(tiny)spt; }
 .beat.hands { background: #FBF3E0; border-left: 2.5pt solid %(gold)s; padding: 2px 5px;
               margin-left: -5px; }
 .beat.act { background: #E6F0EE; border-left: 2.5pt solid %(teal)s; padding: 2px 5px;
@@ -123,7 +127,7 @@ ol.lessons li { margin-bottom: 4.5px; break-inside: avoid; }
 def cue(out, d):
     """One page. Headings, names, dates, cues. If it spills, the build fails."""
     beats = []
-    for b in d["run"]:
+    for b in [x for x in d["run"] if not x.get("over")]:
         kind = (b.get("kind", "") + (" over" if b.get("over") else "")).strip()
         cues = b.get("cues") or []
         beats.append(
@@ -131,6 +135,14 @@ def cue(out, d):
             '<span class="name">%s</span>%s</div></div>'
             % (kind, b.get("t", ""), b["name"],
                ('<div class="cues">' + " &middot; ".join(cues) + "</div>") if cues else ""))
+
+    over = "".join(
+        '<div class="o"><span class="name">%s</span>%s</div>'
+        % (b["name"], ('<span class="cues"> &nbsp;%s</span>' % " &middot; ".join(b["cues"]))
+           if b.get("cues") else "")
+        for b in d["run"] if b.get("over"))
+    over = ('<div class="over"><b class="h">If the clock is kind &mdash; behind the close</b>%s</div>'
+            % over) if over else ""
 
     who = "".join('<div class="who"><b>%s</b><span>%s</span></div>' % (n, s)
                   for n, s in d.get("names", []))
@@ -150,6 +162,7 @@ def cue(out, d):
   <div class="col"><h2>Names &amp; dates</h2>%(who)s</div>
   <div class="col"><h2>Ibrah &mdash; one at a time</h2><ol class="lessons">%(lessons)s</ol></div>
 </div>
+%(over)s
 <div class="pad"></div>
 <div class="foot">
   <div>VOICE &mdash; LOUDER</div><div>PAUSE BETWEEN IDEAS</div>
@@ -158,7 +171,8 @@ def cue(out, d):
 """
     fields = {"title": d["title"], "session": d["session"], "dates": d["dates"],
               "runtime": d.get("runtime", ""), "beats": "".join(beats), "who": who,
-              "wide": " two" if len(d["run"]) > 18 else "",
+              "over": over,
+              "wide": " two" if sum(1 for b in d["run"] if not b.get("over")) > 18 else "",
               "lessons": lessons}
     colours = {"ink": INK, "teal": TEAL, "gold": GOLD, "cream": CREAM,
                "muted": MUTED, "maroon": MAROON}
@@ -169,7 +183,8 @@ def cue(out, d):
     # chosen size is printed: if it lands at the floor, the session has too many cues, not too
     # small a page, and the fix is to cut cues.
     for base in (14.0, 13.5, 13.0, 12.5, 12.0, 11.5, 11.0, 10.5, 10.0):
-        html = shell % dict(fields, css=CUE_CSS % dict(colours, base=base, small=base - 1.2))
+        html = shell % dict(fields, css=CUE_CSS % dict(colours, base=base, small=base - 1.2,
+                                                       tiny=base - 2.1))
         path = _render(html, out)
         if render_note.page_count(path) == 1:
             print("%-34s 1 page   %4.1fpt  %7.1f KB"

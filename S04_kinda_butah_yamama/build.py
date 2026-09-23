@@ -108,8 +108,11 @@ FACE_TITLE = {
     "RCT/E-RC64": "There were Muslims inside already",
     # Part V
     "RCT/E-RC20": "Ḥadīqat al-Mawt — over the wall",
-    # Part VI — al-Dhahabī رحمہ اللہ gives this one with «وقيل»; the hedge belongs on the face itself
+    # Parts VI–VIII — al-Dhahabī رحمہ اللہ gives AS17 with «وقيل»; the hedge belongs on the face itself
     "AHA/E-AS17": "It is said they were found together",
+    "AHA/E-AS13": "The banner changed hands",
+    "AHA/E-AS14": "Two men who dug a pit",
+    "ZIA/E-ZY4": "The man who killed Zayd ؓ",
     "RCT/E-RC21": "The death of Musaylima",
     "RCT/E-RC23": "Zayd b. al-Khaṭṭāb ؓ and his brother",       # no comma after ؓ: a combining mark
     "TSY/E-YK19": "al-Ashath b. Qays comes into it",
@@ -169,6 +172,18 @@ FACE_WHEN = {
     "THO/E-HS14": "ʿUmar's ؓ caliphate, 13–23 AH",
     "THO/E-HS15": "Undated",
     "ZIA/E-ZY17": "12 AH, after the battle",
+    "AHA/E-AS13": "12 AH, at al-Yamāma",
+    "AHA/E-AS14": "12 AH, at al-Yamāma",
+    "AHA/E-AS18": "23 AH, Medina",
+    "AHA/E-AS19": "After 12 AH",
+    "ZIA/E-ZY8": "Medina, and 12 AH",
+    "ZIA/E-ZY9": "11 AH Medina → 12 AH al-Yamāma",
+    "ZIA/E-ZY4": "12 AH, and after it at Medina",
+    "ZIA/E-ZY12": "12 AH, at al-Yamāma",
+    "ZIA/E-ZY13": "12 AH, at al-Yamāma",
+    "ZIA/E-ZY14": "12 AH, at al-Yamāma",
+    "ZIA/E-ZY15": "11–12 AH",
+    "ZIA/E-ZY16": "12 AH, and al-Yarmūk after it",
     "TSY/E-YK19": "11 AH, Hadramawt",
 }
 
@@ -293,6 +308,42 @@ FACE_QUOTE = {
     "AHA/E-AS17": ("وَقِيْلَ: إِنَّ سَالِماً وُجِدَ هُوَ وَمَوْلاَهُ أَبُو حُذَيْفَةَ، رَأْسُ أَحَدِهِمَا عِنْدَ رِجْلَي الآخَرِ صَرِيْعَيْنِ",
                    "And it is said: Sālim was found, he and his patron Abū Ḥudhayfa, the head of one of "
                    "them at the feet of the other."),
+    # the hand-off, which is the whole card; the first clause is beat 1
+    "AHA/E-AS13": ("… ثُمَّ قَاتَلَ حَتَّى قُتِلَ، فَوَقَعَتْ الرَّايَةُ، فَأَخَذَهَا سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ",
+                   "…and then fought until he was killed. The banner fell — and Sālim, the freedman of "
+                   "Abū Ḥudhayfa, took it up."),
+    "AHA/E-AS14": ("ما هكذا كنَّا نقاتلُ مع رسول الله ﷺ … فقاتلا حتى قُتلا",
+                   "This is not how we used to fight alongside the Messenger of Allah ﷺ … and fought "
+                   "until they were killed."),
+    "AHA/E-AS18": ("قال لما احتُضِر: لو كانَ سالمٌ حيًّا لما جعلتها شُورى",
+                   "…when death was upon him: Had Sālim been alive I would not have made it a shūrā."),
+    # ⚠ the cut is where the name is: the printed page gives it two ways, so it is not read aloud (§4.2)
+    "AHA/E-AS19": ("وقد بعثَ عمرُ بميراثه إلى مولاته التي أعْتَقَتْه … فردَّتْه وقالتْ: إنّما أعْتَقَتْهُ سائبةٌ",
+                   "ʿUmar sent his inheritance to the woman who had freed him … and she sent it back and "
+                   "said: I freed him only as sāʾiba."),
+    "ZIA/E-ZY9": ("مَا أُحِبُّ أَنِّي مُتُّ قَبْلَهُ حَتَّى أُصَدِّقَهُ مَيْتاً، كَمَا صَدَّقْتُهُ حَيّاً",
+                  "…do not wish that I had died before him — so that I may confirm him dead as I "
+                  "confirmed him alive."),
+    "ZIA/E-ZY4": ("وقال لعمر: يا أميرَ المؤمنين إن الله أكرم زيدًا بيدي ولم يُهنِّي على يده.",
+                  "…said to ʿUmar: Commander of the Faithful — Allah honoured Zayd at my hand, and did "
+                  "not disgrace me at his."),
+    "ZIA/E-ZY12": ("فنزعه، وتحزم وأخذ السيف وقاتل حتى قتل، فوجد به جراحات كثيرة.",
+                   "…he pulled it out, bound himself up, took his sword and fought until he was killed — "
+                   "and many wounds were found on him."),
+    # ⚠ the face stops before «لضرب عنقه»: the card's point is the record, not the sentence
+    "ZIA/E-ZY13": ("وكان أبوه رأسَ المنافقين، وكان أشدَّ الناس على أبيه",
+                   "His father was the head of the hypocrites, and he was the hardest of all people on "
+                   "his father."),
+    "ZIA/E-ZY14": ("لا أغيّرُ اسمًا سمانيه أبواي، فلم تزل الحزونة فينا … استُشهد يومَ اليمامة",
+                   "I will not change a name my parents gave me. So the roughness never left us … He was "
+                   "martyred on the day of al-Yamāma."),
+    # ⚠ what was done to him is told in the beats, not projected: the face carries the question and the answer
+    "ZIA/E-ZY15": ("أتشهدُ أني رسولُ اللَّه؟ فيقول: لا أسمع",
+                   "Do you testify that I am the Messenger of Allah? And he would say: I do not hear."),
+    # ⚠ only what he interpreted, never the dream's own words
+    "ZIA/E-ZY16": ("بأنه سيقتل ويدفن، وأن ابنه يحرص على الشهادةِ فلا ينالُها عامَه ذلك",
+                   "…that he would be killed and buried, and that his son would press for martyrdom and "
+                   "not attain it that year."),
     "RCT/E-RC19": ("امْتَازُوا أَيُّهَا النَّاسُ لِنَعْلَمَ بَلَاءَ كُلِّ حَيٍّ … قَالَ بَعْضُهُمْ لِبَعْضٍ: الْيَوْمَ يُسْتَحَى مِنَ الْفِرَارِ.",
                    "Separate out, people, so we may know what each clan is worth … they said to one another: "
                    "Today, running is shameful."),
@@ -370,6 +421,22 @@ BRIDGE_BEFORE = {
         "Zayd b. al-Khaṭṭāb ؓ and Abū Ḥudhayfa ؓ. All three were killed on that field. Now we go back "
         "to the banner itself — because what the books put next to the order given at Medina is what "
         "happened to the man holding it."),
+    # AS13-AS19 (the banner thread), ZY8 — the same field, the men beside them
+    "ZIA/E-ZY8": ("The same field, the men beside them", "12 AH, ʿAqrabāʾ", [
+        ("So far", "The banner: Zayd ؓ, then Sālim ؓ, then the pit, then the two found together"),
+        ("Now", "The rest of that line — the pairs, the chiefs, the households"),
+        ("Why it is told", "The books name them one by one, and so do we")],
+        "That is the banner. But the banner is not the whole line. The books go through that field name "
+        "by name, and what they record is not a casualty list — it is households. Here are some of "
+        "them."),
+    # ZY16 (the last of the field), HS14 — the man who went over the wall, and lived
+    "THO/E-HS14": ("And one man who lived", "After the battle", [
+        ("The garden", "The man who asked to be thrown over the wall was al-Barāʾ b. Mālik ؓ"),
+        ("He lived", "Eighty-odd wounds, and Khālid ؓ stayed a month treating them"),
+        ("What is left", "What was said about him afterwards — and then the count")],
+        "One more, and he is the one who lived. The man who asked to be thrown over the wall of the "
+        "garden came out of it with eighty-odd wounds, and Khālid ؓ stayed a month treating him. Here "
+        "is what was said about him afterwards."),
     "RCT/E-RC55": ("Where we are", "The night before ʿAqrabāʾ", [
         ("Medina", "Khālid ؓ answered for al-Buṭāḥ, and was kept in command"),
         ("The road", "ʿIkrima ؓ and Shuraḥbīl ؓ beaten ahead of him; forty thousand at ʿAqrabāʾ"),
@@ -381,7 +448,7 @@ BRIDGE_BEFORE = {
 }
 
 # A spare hands-up that asks the room to vote between two Companions' positions has no place in Part II.
-NO_HANDS = {"RCT/E-RC50", "THO/E-HS14"}
+NO_HANDS = {"RCT/E-RC50", "THO/E-HS14", "ZIA/E-ZY8"}
 
 # The planned end is not the end of the deck: its closing set goes in after this card, and Part V follows.
 CLOSE_C_AFTER = "RCT/E-RC19"

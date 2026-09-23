@@ -170,3 +170,37 @@ quotations are on that card, and `tools/check_citations.py` checks them against 
 | **⁨کیا کیا⁩** | led Banū Makhzūm after his father fell at Badr; accepted Islam; carried Abū Bakr's ؓ banner against Musaylima, was beaten, and was sent on by Oman and Mahra to the Yemen | an early Muslim who emigrated to Abyssinia; sent behind ʿIkrima ؓ against Musaylima, beaten in his turn, then given Khālid's ؓ vanguard at ʿAqrabāʾ; later commanded a quarter of the army in Syria |
 | **⁨ایک واقعہ⁩** | "Let me not see you and do not you see me" — the letter that sent him on instead of home (`RCT/E-RC15`, ⁨الکامل ج۲ ص۲۱۴⁩–۲۱۵) | the vanguard at ʿAqrabāʾ, days after his own defeat (`RCT/E-RC53`, ⁨البدایہ ج۷ ص۳۳⁩) |
 
+---
+
+## The dead of al-Yamāma — notices carried on their own cards (Parts VI–VIII)
+
+Added 2026-09-23 with `DECISIONS.md` #49. These six carry the overflow parts of evening 4. Each notice
+is spoken from the card named, in one breath (#28); the quotations are on those cards.
+**The remaining figures of Part VII** — ʿAbbād b. Bishr ؓ, Abū Maryam al-Ḥanafī, ʿAbdullāh b. ʿAbdullāh
+b. Ubayy ؓ, Ḥazn al-Makhzūmī ؓ, al-Ṭufayl b. ʿAmr al-Dawsī ؓ — are introduced **on their own cards** and
+have no entry here yet; the runsheet's *Introductions checked* table records how each is handled.
+
+| | ⁨سالم مولى أبي حذيفة ؓ⁩ | ⁨أبو حذيفة بن عتبة ؓ⁩ |
+|---|---|---|
+| **⁨نام و نسب⁩** | ⁨سالم مولى أبي حذيفة⁩ — a freed slave of the household of Abū Ḥudhayfa ؓ (`AHA/E-AS06`, `AS09`) | ⁨أبو حذيفة بن عتبة بن ربيعة⁩, ⁨القرشي العبشمي⁩ — ⁨سیر ج۱ ص۱۶۴⁩ `[SOURCED]` |
+| **⁨لقب⁩** | none invented. The tradition's own descriptor is the Prophet's ﷺ own: one of the four to take the Qurʾān from (⁨البدایہ ج۷ ص۵۰⁩; the four are ⁨صحیح مسلم⁩ ٢٤٦٤ in the editor's note) | «⁨السَّيِّدُ الكَبِيْرُ، الشَّهِيْدُ⁩ … ⁨البَدْرِيُّ⁩» — ⁨سیر ج۱ ص۱۶۴⁩ |
+| **⁨سنین⁩** | killed at ⁨اليمامة⁩, **12 AH** (633 CE) `[SOURCED]` | killed at ⁨اليمامة⁩, **12 AH** (633 CE) `[SOURCED]` |
+| **⁨کیا کیا⁩** | led the Muhājirūn in prayer at ⁨قباء⁩ before the Prophet ﷺ reached Medina, because he carried the most Qurʾān (`AHA/E-AS07`); carried the Muhājirūn's banner at ʿAqrabāʾ and took it up again after Zayd ؓ fell (`AS13`) | of Quraysh and a man of Badr; a Muslim before the Companions were meeting in the house of al-Arqam; held a wing at ʿAqrabāʾ (`RCT/E-RC61`) |
+| **⁨ایک واقعہ⁩** | both hands cut from the banner, he clasped it to his chest and recited ⁨آل عمران ١٤٤⁩ — then «⁨فأضجعوني بينهما⁩» (`AHA/E-AS15`, `AS16`, ⁨البدایہ ج۷ ص۵۰⁩) | ⁨عمر ؓ⁩, eleven years later: had Sālim ؓ been alive he would not have made it a ⁨شوریٰ⁩ (`AS18`) — the standing his household's freedman had |
+
+| | ⁨معن بن عدي ؓ⁩ | ⁨أبو عقيل ؓ⁩ |
+|---|---|---|
+| **⁨نام و نسب⁩** | ⁨معن بن عدي⁩, of ⁨بنو العجلان⁩, allies of the Anṣār (`ZIA/E-ZY8`) | ⁨أبو عقيل⁩ — one of the chiefs of the Anṣār (`ZIA/E-ZY12`) |
+| **⁨لقب⁩** | none printed on the pages read. Plain descriptor: Zayd b. al-Khaṭṭāb's ؓ brother by the Prophet's ﷺ pairing | none printed. Plain descriptor: a man of Badr |
+| **⁨سنین⁩** | killed at ⁨اليمامة⁩, **12 AH** (633 CE) `[SOURCED]` | killed at ⁨اليمامة⁩, **12 AH** (633 CE) `[SOURCED]` |
+| **⁨کیا کیا⁩** | one of the two men who met Abū Bakr ؓ and ʿUmar ؓ on the road to ⁨سقيفة بني ساعدة⁩ (`ZY9`) | pulled the arrow out of himself, bound himself up and went back into the fighting (`ZY12`) |
+| **⁨ایک واقعہ⁩** | on the day the Prophet ﷺ died: «⁨حَتَّى أُصَدِّقَهُ مَيْتاً، كَمَا صَدَّقْتُهُ حَيّاً⁩» — ⁨سیر ج۱ ص۳۲۱⁩ | many wounds were found on him afterwards — ⁨سیر الراشدون ص۶۰⁩. ⚠ the long famous version of his death is in **no** approved source |
+
+| | ⁨حبيب بن زيد ؓ⁩ | ⁨أم عمارة نسيبة بنت كعب رضي الله عنها⁩ |
+|---|---|---|
+| **⁨نام و نسب⁩** | ⁨حبيب بن زيد⁩ — the man Musaylima held (`ZIA/E-ZY15`) | ⁨نسيبة بنت كعب⁩, ⁨أم عمارة⁩ — his mother (`ZY15`) |
+| **⁨لقب⁩** | none printed. Plain descriptor: the man who would not hear | none printed. Plain descriptor: she was at ⁨العقبة⁩, ⁨أحد⁩, ⁨الحديبية⁩ and ⁨حنين⁩ |
+| **⁨سنین⁩** | killed in Musaylima's hands, **11–12 AH** `[SOURCED]` — the page does not fix the year more closely | not fixed on the pages read. **Do not give one** |
+| **⁨کیا کیا⁩** | asked to testify to Musaylima, he answered «⁨لا أسمع⁩» and gave nothing more, limb by limb, until he died | went out with the army to al-Yamāma; her hand was cut off there; Abū Bakr ؓ, while caliph, was seen coming to ask after her |
+| **⁨ایک واقعہ⁩** | «⁨أتشهدُ أني رسولُ اللَّه؟ فيقول: لا أسمع⁩» — ⁨البدایہ ج۳ ص۴۲۸⁩ | ⚠ **SPEAKER'S DISCRETION.** This is the most severe card of the evening: tell it plainly, do not dwell, and do not elaborate beyond the page |
+

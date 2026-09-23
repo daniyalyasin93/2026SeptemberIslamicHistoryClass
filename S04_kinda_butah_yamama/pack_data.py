@@ -8,8 +8,8 @@ Nothing on the cue sheet that can be read from somewhere else is typed here. The
 
   * verify_arabic()   — every Arabic fragment on the cue sheet occurs, harakat aside, in the statement of the
                         card named beside it. Fragments are lifted from the pool, never typed from memory.
-  * verify_coverage() — the beats name every card of Parts I–VI, in runsheet order, and nothing else;
-    16–28 beats (Parts V and VI, the overflow behind the STOP C close, are six of them).
+  * verify_coverage() — the beats name every card of Parts I–VIII, in runsheet order, and nothing
+    else; 16–32 beats (the overflow behind the STOP C close is eleven of them).
   * the CLOCK is computed from the runsheet's own Min column, scaled into the two story windows of the fixed
     shape (CLAUDE.md §2) and split at STOP B, where the worksheet falls on the room's pace.
   * the EARLY-CLOSE JUMPS are read from S04.pptx — the hidden slides whose notes open "BOOKEND OUT STOP A/B" —
@@ -68,6 +68,9 @@ FRAG = {
     "separate": ("RCT/E-RC19", "امْتَازُوا"),
     "throw": ("RCT/E-RC20", "أَلْقُونِي عَلَيْهِمْ"),
     "between": ("AHA/E-AS16", "فأضجعوني بينهما"),
+    "banner": ("AHA/E-AS13", "فَوَقَعَتْ الرَّايَةُ، فَأَخَذَهَا سَالِمٌ"),
+    "confirm": ("ZIA/E-ZY9", "أُصَدِّقَهُ مَيْتاً، كَمَا صَدَّقْتُهُ حَيّاً"),
+    "honoured": ("ZIA/E-ZY4", "أكرم زيدًا بيدي"),
     "scent": ("RCT/E-RC23", "رِيْحَ زَيْدٍ"),
     "gathered": ("RCT/E-RC37", "من اللِّخاف والعُسُب وصدور الرجال"),
 }
@@ -236,17 +239,25 @@ BEATS = [
     {"t": "V", "name": "Musaylima killed · the forts · Zayd ؓ and ʿUmar ؓ",
      "cards": ["RCT/E-RC21", "RCT/E-RC22", "RCT/E-RC23"],
      "cues": ["⚠ “a second man came up” · no ranking line · the terms were kept"]},
-    # Part VI — the dead, and why there is a muṣḥaf
-    {"t": "V", "name": "» the three at the line · Sālim ؓ: one of four · the hand, then the āya",
-     "cards": ["AHA/E-AS09", "AHA/E-AS15"],
-     "cues": ["⚠ the four names NOT on the slide"]},
-    {"t": "V", "name": F["between"] + " · «it is said» · al-Barāʾ ؓ lived · ninety-odd",
-     "cards": ["AHA/E-AS16", "AHA/E-AS17", "THO/E-HS14", "THO/E-HS15"],
-     "cues": ["⚠ second man NOT named · no one grave · “it is said”, never “they were found” · "
-              "HS14/HS15 cut first"]},
-    {"t": "V", "name": "How many reciters? · THE QURʾĀN " + F["gathered"] + " → STOP D",
-     "cards": ["ZIA/E-ZY17", "RCT/E-RC37"], "kind": "hands",
-     "cues": ["the books give NO number · end on the Qurʾān, say nothing after it"]},
+    # Parts VI-VIII are NOT cued beat by beat: 30 beats will not fit on one page, and the cue card is one
+    # page or it is not a cue card (CLAUDE.md 1.7). Each part gets ONE digest line naming its cards in
+    # order, with the part's ⚠ digest under it. The full beats live in the deck's own notes and BRIEFING.
+    {"t": "V", "name": "» VI · banner → Sālim ؓ " + F["banner"] + " · one of four · the pit · the hand "
+     "+ āya · «between them» · found together · 23 AH: «had Sālim ؓ been alive» · the estate",
+     "cards": ["AHA/E-AS13", "AHA/E-AS09", "AHA/E-AS14", "AHA/E-AS15", "AHA/E-AS16", "AHA/E-AS17",
+               "AHA/E-AS18", "AHA/E-AS19"],
+     "cues": ["⚠ no arrangement · four names off · pit = Thābit ؓ · 2nd man unnamed · no one grave · "
+              "her name unread"]},
+    {"t": "V", "name": "» VII · the pairs · Maʿn ؓ · <b>[HANDS]</b> the man who killed Zayd ؓ · the "
+     "arrow · the chief's son · three generations · the mother · father and son",
+     "cards": ["ZIA/E-ZY8", "ZIA/E-ZY9", "ZIA/E-ZY4", "ZIA/E-ZY12", "ZIA/E-ZY13", "ZIA/E-ZY14",
+               "ZIA/E-ZY15", "ZIA/E-ZY16"],
+     "cues": ["⚠ no answer from ʿUmar ؓ · the card's sentence only · “in this war” · ZY15 severe, your "
+              "call · Yarmuk not yet"]},
+    {"t": "V", "name": "» VIII · one who lived · ninety-odd · <b>[HANDS]</b> how many reciters? · "
+     "THE QURʾĀN " + F["gathered"] + " → STOP D",
+     "cards": ["THO/E-HS14", "THO/E-HS15", "ZIA/E-ZY17", "RCT/E-RC37"],
+     "cues": ["NO number exists · end on the Qurʾān, say nothing after it"]},
 ]
 
 
@@ -286,8 +297,8 @@ def build_run():
                              % (STOP % "C", jumps["V"]))
     # Part VI can be abandoned at any point for the ending: one typed number, the same mechanism
     for b in run:
-        if b["cards"][:1] == ["AHA/E-AS09"]:
-            b["cues"].append("out of time in this part? <b>THE QURʾĀN: type %d</b> ↵" % jumps["Q"])
+        if b["cards"][:1] == ["AHA/E-AS13"]:
+            b["cues"].append("out of time anywhere below? <b>THE QURʾĀN: type %d</b> ↵" % jumps["Q"])
     # the worksheet beat must sit directly after the STOP B beat
     wi = next(i for i, b in enumerate(run) if b.get("kind") == "act")
     if not run[wi - 1]["cards"] or run[wi - 1]["cards"][-1] != ws_after:
@@ -377,13 +388,16 @@ def verify_coverage(run):
     if have != want:
         raise SystemExit("Cue beats and RUNSHEET Parts I–IV differ.\n  not cued: %s\n  cued, not in the evening: %s"
                          "\n  (or the order differs)" % (sorted(set(want) - set(have)), sorted(set(have) - set(want))))
-    if not 16 <= len(run) <= 28:
-        raise SystemExit("The cue sheet holds 16-28 beats. It has %d." % len(run))
+    if not 16 <= len(run) <= 32:
+        raise SystemExit("The cue sheet holds 16-32 beats. It has %d." % len(run))
     # the numbered [HANDS] of Parts I–IV, and Part V's own (RC20's, marked [HANDS] 4 in the runsheet)
     kinds = [c for b in run if b.get("kind") == "hands" for c in b["cards"][:1]]
-    if kinds != ["ATA/E-TB15", "RCT/E-RC47", "RCT/E-RC54", "RCT/E-RC20", "ZIA/E-ZY17"]:
-        raise SystemExit("The [HANDS] beats are TB15, RC47, RC54, and in the overflow RC20 and ZY17 "
-                         "(RUNSHEET). Cued: %s" % kinds)
+    if kinds != ["ATA/E-TB15", "RCT/E-RC47", "RCT/E-RC54", "RCT/E-RC20"]:
+        raise SystemExit("The [HANDS] beats are TB15, RC47, RC54 and RC20 (RUNSHEET). The overflow's own "
+                         "two — ZY4 and ZY17 — are marked inside the part digests. Cued: %s" % kinds)
+    for mark in ("the man who killed Zayd", "how many reciters"):
+        if not any("[HANDS]</b> " + mark[:12] in b["name"] for b in run):
+            raise SystemExit("The overflow hands-up %r lost its [HANDS] mark on the cue sheet." % mark)
     clock = [b["t"] for b in run if ":" in b["t"]]          # "V" beats are outside the clock
     mins = [int(x.split(":")[0]) * 60 + int(x.split(":")[1]) for x in clock]
     if mins != sorted(mins):
@@ -469,19 +483,28 @@ def briefing(stops, jumps):
         "the tent). Their closing sets are hidden at the end of the deck: in the slide show, type **%d** and "
         "Enter for STOP A, **%d** and Enter for STOP B. If the clock is past %s at #%d, close at STOP B. On the "
         "room's pace STOP B is also where the worksheet falls: take the 90 silent seconds there, then open "
-        "Part IV. If instead the clock is kind, type **%d** at the STOP C close and go on into Part V and then "
-        "Part VI, which ends at STOP D. If time runs out inside Part VI, do not hurry it: type **%d** and "
-        "take the muṣḥaf card and the close."
+        "Part IV. If instead the clock is kind, type **%d** at the STOP C close and go on into Parts V–VIII, "
+        "which end at STOP D. **You are not expected to reach the end of them.** If time runs out anywhere "
+        "in there, do not hurry: type **%d**, take the muṣḥaf card and the close, and whatever was not "
+        "reached opens evening 5."
         % (a[0], b[0], jumps["A"], jumps["B"], b[2] or "0:36", b[0], jumps["V"], jumps["Q"]), "",
 
-        "**Part VI — the dead of al-Yamāma (#36–#43).** This is the part that makes the ending land. The "
-        "books give one reason for the ⁨جمع القرآن⁩ — that the killing ran hot among the reciters — and until "
-        "the room has met one reciter that is a sentence, not a loss. Part IV has already put the three of "
-        "them at the line (#28–#30). This part is what became of them: Sālim ؓ was one of four the Prophet ﷺ "
-        "named to take the Qurʾān from (#36); both his hands went, and he recited the āya Abū Bakr ؓ had read "
-        "to Medina the year before (#37); *lay me down between them* (#38); how the two were found (#39). "
-        "Then the man who went over the wall and lived (#40–#41), the number nobody can give (#42), and the "
-        "order at Medina (#43). Cut #40 and #41 first.", "",
+        "**Parts VI–VIII — the dead of al-Yamāma (#36–#55).** This is what makes the ending land, and it "
+        "is built to be stopped in the middle. The books give one reason for the ⁨جمع القرآن⁩ — that the "
+        "killing ran hot among the reciters — and until the room has met a reciter that is a sentence, not "
+        "a loss. Part IV has already put three of these men at the line (#28–#30).", "",
+        "- **Part VI, the banner (#36–#43):** it falls from Zayd ؓ and Sālim ؓ picks it up (#36); Sālim ؓ is "
+        "one of four the Prophet ﷺ named to take the Qurʾān from (#37); the pit (#38); both hands, and the "
+        "āya Abū Bakr ؓ read to Medina the year before (#39); *lay me down between them* (#40); how they "
+        "were found (#41); ʿUmar ؓ eleven years later (#42); the estate sent back (#43).",
+        "- **Part VII, the men beside them (#44–#51):** the ⁨مؤاخاة⁩ pairs who died together, Maʿn ؓ, the man "
+        "who killed Zayd ؓ and became a Muslim, Abū ʿAqīl ؓ, the son of the head of the hypocrites, four men "
+        "of one Meccan household, Ḥabīb b. Zayd ؓ and his mother, and al-Ṭufayl ؓ and his son.",
+        "- **Part VIII, what was left (#52–#55):** the man who went over the wall and lived, the number "
+        "nobody can give, and the order at Medina. **#55 is the last word in every version of the "
+        "evening.**", "",
+        "**Nothing here is compressed to fit.** Whatever is not reached rolls into evening 5 "
+        "(`DECISIONS.md` #20, #33), which still owes the room Ḥaḍramawt and Kinda.", "",
 
         "**Part II — how it is told.** al-Buṭāḥ and the reckoning at Medina (#7–#15) sits next to the disputes "
         "among the Companions. It is told straight, and it is told as a disagreement between books, never as a "

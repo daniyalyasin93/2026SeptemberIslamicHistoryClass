@@ -187,3 +187,18 @@ putting them on a slide face.
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1624 | ⁨ج۱ ص۱۹۸⁩ | «⁨أَترَانِي أَمُوْتُ عَلَى فِرَاشِي؟⁩ …» — `THO/E-HS15`; the count moves between chains, so "ninety-odd" |
 | ⁨البدایہ والنہایہ⁩ 30097 | 3225 | ⁨ج۷ ص۷۹⁩ | «⁨استَحَرّ القتلُ في القُرّاء يوم اليمامة⁩» (`ZIA/E-ZY17`) and the order to ⁨زيد بن ثابت ؓ⁩ (`RCT/E-RC37`) — ⁨صحيح البخاري⁩ ٤٩٨٦ |
 
+## 2026-09-23 — Parts VII–VIII, the men beside them (`DECISIONS.md` #49)
+
+All cached from the household research notes; this is the register entry for putting them on a face.
+
+| Book | Index | Printed | Why |
+|---|---|---|---|
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1724 | ⁨ج۱ ص۲۹۸⁩ | ⁨زيد بن الخطاب ؓ⁩ — the banner: «⁨فَوَقَعَتْ الرَّايَةُ، فَأَخَذَهَا سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ⁩» (`AHA/E-AS13`); and ⁨عمر's ؓ⁩ «⁨أَسْلَمَ قَبْلِي⁩ …» and the east wind (`RCT/E-RC23`) |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3194 | ⁨ج۷ ص۴۸⁩ | the pit: «⁨ما هكذا كنَّا نقاتلُ مع رسول الله ﷺ⁩ …» — ⁨ثابت بن قيس ؓ⁩ and ⁨سالم ؓ⁩ (`AHA/E-AS14`) |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3195 | ⁨ج۷ ص۴۹⁩ | ⁨أبو مريم الحنفي⁩ and «⁨أكرم زيدًا بيدي⁩» (`ZIA/E-ZY4`); the ⁨مؤاخاة⁩ pair with ⁨معن بن عدي ؓ⁩ (`ZY8`); ⁨حزن المخزومي ؓ⁩ and his household (`ZY14`) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1747 | ⁨ج۱ ص۳۲۱⁩ | ⁨معن بن عدي ؓ⁩ — «⁨حَتَّى أُصَدِّقَهُ مَيْتاً، كَمَا صَدَّقْتُهُ حَيّاً⁩» (`ZIA/E-ZY9`) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1208 | ⁨سیر الراشدون ص۶۰⁩ | ⁨أبو عقيل ؓ⁩ — the arrow, and the wounds found on him (`ZIA/E-ZY12`) |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3199 | ⁨ج۷ ص۵۳⁩ | ⁨عبد الله بن عبد الله بن أُبَيّ ؓ⁩ (`ZIA/E-ZY13`). ⚠ where he died is disputed — say "in this war" |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3198 | ⁨ج۷ ص۵۲⁩ | ⁨الطفيل بن عمرو الدوسي ؓ⁩ and his son (`ZIA/E-ZY16`). ⚠ only what he interpreted, never the dream's own words |
+| ⁨البدایہ والنہایہ⁩ 30097 | 1402 | ⁨ج۳ ص۴۲۸⁩ | ⁨حبيب بن زيد ؓ⁩ in Musaylima's hands — «⁨لا أسمع⁩» (`ZIA/E-ZY15`). ⚠ SPEAKER'S DISCRETION |
+

@@ -2,11 +2,11 @@
 
 Read this twice at home. Never at the lectern — the lectern carries CUE.pdf.
 
-**The evening.** Parts I–IV of `RUNSHEET.md`, 43 cards, ending at STOP C (Daniyal's cut, 2026-09-22). It opens on evening 3's STOP B closing pair, unchanged — the Line at 11–12 AH with Yemen settled, and the map with Ṣanʿāʾ blue and Ḥaḍramawt still grey — and turns back north to Khālid ؓ, last seen at Buzākha. Ḥaḍramawt stays grey tonight. Part I introduces the two claimants still standing, Musaylima and Sajāḥ, so that nothing later has to refer forward. Part II is al-Buṭāḥ and the reckoning at Medina. Part III is the road to al-Yamāma, and ends with a prisoner in irons in Khālid's ؓ own tent. Part IV is the day at ʿAqrabāʾ, up to the order to separate out: the line has re-formed, every clan under its own banner, and the day is not yet decided. That is where the evening is planned to end, and its two closing slides open evening 5.
+**The evening.** Parts I–IV of `RUNSHEET.md`, 55 cards, ending at STOP C (Daniyal's cut, 2026-09-22). It opens on evening 3's STOP B closing pair, unchanged — the Line at 11–12 AH with Yemen settled, and the map with Ṣanʿāʾ blue and Ḥaḍramawt still grey — and turns back north to Khālid ؓ, last seen at Buzākha. Ḥaḍramawt stays grey tonight. Part I introduces the two claimants still standing, Musaylima and Sajāḥ, so that nothing later has to refer forward. Part II is al-Buṭāḥ and the reckoning at Medina. Part III is the road to al-Yamāma, and ends with a prisoner in irons in Khālid's ؓ own tent. Part IV is the day at ʿAqrabāʾ, up to the order to separate out: the line has re-formed, every clan under its own banner, and the day is not yet decided. That is where the evening is planned to end, and its two closing slides open evening 5.
 
 **And behind that close, Part V** (#47): the rest of the day — the garden, the end of Musaylima, the terms at the forts, Zayd ؓ, and the order at Medina that gathered the Qurʾān. It is spoken only if there is time. The STOP C closing set stays in the deck where it is, so stopping needs no jump; going on is one typed slide number, and the cue sheet prints it.
 
-**Size and pace.** About 78 minutes as budgeted, for 34 story minutes. Evening 3 spoke 32 cards in the slot, so this is sized to the room's real pace, not the budget. The clock on the cue sheet is the budget scaled to that pace. If the clock runs ahead of the cards, drop GOOD cards in this order: #5, #4, #18, #21, #30, and #2 last — #26 closes the loop #2 opens. **Part II is all or nothing** — #7 to #15, or none of it.
+**Size and pace.** About 96 minutes as budgeted, for 34 story minutes. Evening 3 spoke 32 cards in the slot, so this is sized to the room's real pace, not the budget. The clock on the cue sheet is the budget scaled to that pace. If the clock runs ahead of the cards, drop GOOD cards in this order: #5, #4, #18, #21, #30, and #2 last — #26 closes the loop #2 opens. **Part II is all or nothing** — #7 to #15, or none of it.
 
 **The bridges.** Five slides are not cards: they close the seams where the story jumps in time, place or thread. Each shows three steps; say the line, then click on.
 
@@ -15,12 +15,20 @@ Read this twice at home. Never at the lectern — the lectern carries CUE.pdf.
 - Before #16 — *Back to the mosque, 11 AH*: That consolation came years later, in ʿUmar's ؓ own caliphate. Now back to 11 AH, and to the mosque at Medina where we left Khālid ؓ being answered for — and then sent straight out again.
 - Before #17 — *Meanwhile, at al-Yamāma*: Khālid ؓ was not the first to be sent against Musaylima. Back at Dhū al-Qaṣṣa one of the eleven banners had gone to ʿIkrima ؓ, with Shuraḥbīl ؓ sent after him — and both reached al-Yamāma before Khālid ؓ did. Here is what happened to them.
 - Before #32 — *Past the close: the day is decided*: We have just closed, and we are going on. Where we left it: the line had re-formed, every clan under its own banner, and the day was not decided. Now it is decided — and what comes out of it is the reason you can hold a muṣḥaf tonight.
-- Before #36 — *The men who did not come back*: We met these three at the line: Sālim ؓ with the banner of the Muhājirūn, and on the wings Zayd b. al-Khaṭṭāb ؓ and Abū Ḥudhayfa ؓ. All three were killed on that field. Now we go back to the banner itself — because what the books put next to the order given at Medina is what happened to the man holding it.
+- Before #37 — *The men who did not come back*: We met these three at the line: Sālim ؓ with the banner of the Muhājirūn, and on the wings Zayd b. al-Khaṭṭāb ؓ and Abū Ḥudhayfa ؓ. All three were killed on that field. Now we go back to the banner itself — because what the books put next to the order given at Medina is what happened to the man holding it.
+- Before #44 — *The same field, the men beside them*: That is the banner. But the banner is not the whole line. The books go through that field name by name, and what they record is not a casualty list — it is households. Here are some of them.
+- Before #52 — *And one man who lived*: One more, and he is the one who lived. The man who asked to be thrown over the wall of the garden came out of it with eighty-odd wounds, and Khālid ؓ stayed a month treating him. Here is what was said about him afterwards.
 - Before #21 — *Where we are*: After the worksheet — and for anyone who has just come in. Khālid ؓ was called to Medina over al-Buṭāḥ and kept in command. The two commanders sent ahead of him were both beaten. Forty thousand men of Banū Ḥanīfa wait at ʿAqrabāʾ, with their farms behind them — and there is a prisoner in Khālid's ؓ own tent. Morning comes.
 
-**The early closes.** STOP A falls after #15 (ʿUmar ؓ and Mutammim); STOP B after #20 (the prisoner in the tent). Their closing sets are hidden at the end of the deck: in the slide show, type **78** and Enter for STOP A, **82** and Enter for STOP B. If the clock is past 0:36 at #20, close at STOP B. On the room's pace STOP B is also where the worksheet falls: take the 90 silent seconds there, then open Part IV. If instead the clock is kind, type **56** at the STOP C close and go on into Part V and then Part VI, which ends at STOP D. If time runs out inside Part VI, do not hurry it: type **73** and take the muṣḥaf card and the close.
+**The early closes.** STOP A falls after #15 (ʿUmar ؓ and Mutammim); STOP B after #20 (the prisoner in the tent). Their closing sets are hidden at the end of the deck: in the slide show, type **94** and Enter for STOP A, **98** and Enter for STOP B. If the clock is past 0:36 at #20, close at STOP B. On the room's pace STOP B is also where the worksheet falls: take the 90 silent seconds there, then open Part IV. If instead the clock is kind, type **56** at the STOP C close and go on into Parts V–VIII, which end at STOP D. **You are not expected to reach the end of them.** If time runs out anywhere in there, do not hurry: type **89**, take the muṣḥaf card and the close, and whatever was not reached opens evening 5.
 
-**Part VI — the dead of al-Yamāma (#36–#43).** This is the part that makes the ending land. The books give one reason for the ⁨جمع القرآن⁩ — that the killing ran hot among the reciters — and until the room has met one reciter that is a sentence, not a loss. Part IV has already put the three of them at the line (#28–#30). This part is what became of them: Sālim ؓ was one of four the Prophet ﷺ named to take the Qurʾān from (#36); both his hands went, and he recited the āya Abū Bakr ؓ had read to Medina the year before (#37); *lay me down between them* (#38); how the two were found (#39). Then the man who went over the wall and lived (#40–#41), the number nobody can give (#42), and the order at Medina (#43). Cut #40 and #41 first.
+**Parts VI–VIII — the dead of al-Yamāma (#36–#55).** This is what makes the ending land, and it is built to be stopped in the middle. The books give one reason for the ⁨جمع القرآن⁩ — that the killing ran hot among the reciters — and until the room has met a reciter that is a sentence, not a loss. Part IV has already put three of these men at the line (#28–#30).
+
+- **Part VI, the banner (#36–#43):** it falls from Zayd ؓ and Sālim ؓ picks it up (#36); Sālim ؓ is one of four the Prophet ﷺ named to take the Qurʾān from (#37); the pit (#38); both hands, and the āya Abū Bakr ؓ read to Medina the year before (#39); *lay me down between them* (#40); how they were found (#41); ʿUmar ؓ eleven years later (#42); the estate sent back (#43).
+- **Part VII, the men beside them (#44–#51):** the ⁨مؤاخاة⁩ pairs who died together, Maʿn ؓ, the man who killed Zayd ؓ and became a Muslim, Abū ʿAqīl ؓ, the son of the head of the hypocrites, four men of one Meccan household, Ḥabīb b. Zayd ؓ and his mother, and al-Ṭufayl ؓ and his son.
+- **Part VIII, what was left (#52–#55):** the man who went over the wall and lived, the number nobody can give, and the order at Medina. **#55 is the last word in every version of the evening.**
+
+**Nothing here is compressed to fit.** Whatever is not reached rolls into evening 5 (`DECISIONS.md` #20, #33), which still owes the room Ḥaḍramawt and Kinda.
 
 **Part II — how it is told.** al-Buṭāḥ and the reckoning at Medina (#7–#15) sits next to the disputes among the Companions. It is told straight, and it is told as a disagreement between books, never as a verdict. The guardrail installed in session 1 is what makes it tellable: a report of history is neither a ruling nor a creed, and we do not judge between Companions. The only verdicts on the page are Abū Bakr's ؓ, that Khālid ؓ interpreted and was mistaken (#13), and Ibn Kathīr's own sentence (#14) — neither is the speaker's. Close the part on consolation, not on blame (#15). **No questions from the floor.** Slips go into the box; the prepared answers are in `docs/catalogue/QA_BANK.md` §6.1, §6.2 and §6.9, the last being the entry on the woman in Khālid's ؓ tent at al-Yamāma (`DECISIONS.md` #41): the books give the same name in both places, and the connection is not made from the platform.
 
@@ -1670,9 +1678,46 @@ to be driven to me and I was not given it."*
 
 ## Part VI — The dead of al-Yamāma
 
-### 36. Take the Qurʾān from four
+### 36. The banner nobody would leave on the ground
 
-**Runsheet:** The ⁨تراجم⁩ notice for **both** new men, one breath each: Sālim ؓ, and Abū Ḥudhayfa b. ʿUtba ؓ. ⚠ **The four names do not go on the slide** — ⁨ابن کثیر⁩ quotes only the opening clause, and the four are ⁨صحیح مسلم⁩ ٢٤٦٤ in the editor's note (`QA_BANK.md` §5.3)
+**Runsheet:** The hand-off itself, in ⁨الذہبی⁩'s own sentence: Zayd ؓ falls, Sālim ؓ picks the banner up. ⚠ **Three books give three different banner arrangements — say only that it changed hands because the man holding it was killed. Never a diagram**
+
+**Tier:** GOOD · **When:** ⁨۱۲ھ⁩, at ⁨اليمامة⁩ `[SOURCED]` · **Map:** **⁨عَقْرَباء⁩** — one marker, three
+hands.
+
+**What happened:** Zayd b. al-Khaṭṭāb ؓ — the elder brother of ʿUmar ؓ — carried the banner forward
+into the enemy until he was killed. The banner fell. Sālim ؓ picked it up. Al-Dhahabī ⁨رحمہ اللہ⁩
+records it in one sentence in Zayd's ؓ own notice, and Ibn Kathīr ⁨رحمہ اللہ⁩ records it twice, in two
+separate death notices on consecutive pages (⁨ج۷ ص۴۹⁩ and ⁨ج۷ ص۵۰⁩).
+
+**Beats:**
+
+1. Zayd ؓ carries it forward — The Muslims' banner was with him, and he kept pressing forward into the enemy.
+2. Until he was killed — He fought on with it until he was killed, and the banner fell.
+3. Sālim ؓ takes it up — The freedman of Abū Ḥudhayfa ؓ picks it off the ground.
+4. How we know — al-Dhahabī ⁨رحمہ اللہ⁩ records it once; Ibn Kathīr ⁨رحمہ اللہ⁩ twice, on consecutive pages.
+
+**Quote after beat:** 3
+
+**The statement:**
+> وَكَانَتْ رَايَةُ المُسْلِمِيْنَ مَعَهُ يَوْمَ اليَمَامَةِ، فَلَمْ يَزَلْ يَقْدَمُ بِهَا فِي نَحْرِ العَدُوِّ، ثُمَّ قَاتَلَ حَتَّى قُتِلَ، فَوَقَعَتْ الرَّايَةُ، فَأَخَذَهَا سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ
+> — ⁨سیر أعلام النبلاء ج۱ ص۲۹۸⁩ · https://shamela.ws/book/10906/1724
+> *English:* "The Muslims' banner was with him on the day of al-Yamāma, and he kept pressing forward
+> with it into the enemy's throat, and then fought until he was killed. The banner fell — and Sālim,
+> the freedman of Abū Ḥudhayfa, took it up."
+
+**⁨عبرت⁩:** Every man who took it knew what had happened to the man before him.
+
+**Hands-up?** no
+
+⚠ Three books give three different banner arrangements at al-Yamāma. **Do not draw a diagram** —
+say only that the banner changed hands because the man holding it was killed.
+
+---
+
+### 37. Take the Qurʾān from four
+
+**Runsheet:** The ⁨تراجم⁩ notice for **both** men, one breath each: Sālim ؓ, and Abū Ḥudhayfa b. ʿUtba ؓ. ⚠ **The four names do not go on the slide** — ⁨ابن کثیر⁩ quotes only the opening clause, and the four are ⁨صحیح مسلم⁩ ٢٤٦٤ in the editor's note (`QA_BANK.md` §5.3)
 
 **Tier:** CORE · **When:** the Prophet's ﷺ lifetime `[SOURCED]` · **Map:** n/a.
 
@@ -1706,7 +1751,44 @@ screen they must be captioned to ⁨صحیح مسلم ٢٤٦٤⁩ as given in th
 
 ---
 
-### 37. The hand, and the verse
+### 38. Two men who dug a pit and did not come out of it
+
+**Runsheet:** Thābit b. Qays ؓ and Sālim ؓ, after the line had been driven back three times. ⚠ **The ⁨بخاری⁩-anchored wording of those words belongs to Thābit ؓ** (`RCT/E-RC18`, §7.4(a)) — attribute it that way
+
+**Tier:** GOOD · **When:** ⁨۱۲ھ⁩, at ⁨اليمامة⁩ `[SOURCED]` · **Map:** **⁨عَقْرَباء⁩**, the point where the
+line stopped moving.
+
+**What happened:** Banū Ḥanīfa had driven the Muslims back three times. Thābit b. Qays ؓ and Sālim ؓ
+said the same thing to each other: this is not how we used to fight alongside the Messenger of Allah
+ﷺ. So they dug a pit, stood in it, and fought from there. Neither came out.
+
+**Beats:**
+
+1. Driven back three times — Banū Ḥanīfa had pushed the Muslim line backwards three times.
+2. What the two of them said — This is not how we used to fight alongside the Messenger of Allah ﷺ.
+3. What they did about it — They dug a pit for themselves, went down into it, and fought from there.
+4. Neither came out — Both were killed where they stood.
+
+**Quote after beat:** 2
+
+**The statement:**
+> فقال ثابتٌ وسالمٌ مولى أبي حذيفة: ما هكذا كنَّا نقاتلُ مع رسول الله ﷺ، فجعلا لأنفسهما حفرة فدخلا فيها فقاتلا حتى قُتلا
+> — ⁨البدایہ والنہایہ ج۷ ص۴۸⁩ · https://shamela.ws/book/30097/3194
+> *English:* "Thābit and Sālim, the freedman of Abū Ḥudhayfa, said: This is not how we used to fight
+> alongside the Messenger of Allah ﷺ. And the two of them made a pit for themselves and went down
+> into it and fought until they were killed."
+
+**⁨عبرت⁩:** They fixed the line by taking away their own ability to move back from it.
+
+**Hands-up?** no
+
+⚠ The Bukhārī-anchored version of these words (⁨البخاري ٢٨٤٥⁩, via ⁨سیر ج۱ ص۳۱۱⁩) belongs to
+
+**⁨ثابت بن قيس ؓ⁩**. Attribute accordingly; see §7.4(a) and RCT `E-RC18`.
+
+---
+
+### 39. The hand, and the verse
 
 **Runsheet:** The right hand, then the left, then the chest. **Make the link aloud:** the āya he recited is the one Abū Bakr ؓ read out to Medina the day the Prophet ﷺ died — one year before this field
 
@@ -1744,7 +1826,7 @@ died?" — then let the slide answer.
 
 ---
 
-### 38. "Lay me down between them"
+### 40. "Lay me down between them"
 
 **Runsheet:** ⚠ The second man is «⁨فلان⁩» in the source — **do not name him**. ⚠ **No approved source says they were buried in one grave** (§10.3 of the note)
 
@@ -1780,7 +1862,7 @@ were buried in one grave — see §10.3.
 
 ---
 
-### 39. How they were found
+### 41. How they were found
 
 **Runsheet:** ⚠ ⁨الذہبی⁩ gives this with «⁨وقيل⁩». Carry it across in the delivery: *"it is said that…"*, **never** *"they were found"*
 
@@ -1816,9 +1898,413 @@ that order: Abū Ḥudhayfa b. ʿUtba al-ʿAbshamī, and his freedman Sālim, on
 
 ---
 
-### 40. «Do not put al-Barāʾ over an army»
+### 42. "Had Sālim been alive"
 
-**Runsheet:** Answers what the room has been holding since #32 — **the man who went over the wall lived**. ⚠ The page opens with «⁨قيل⁩»: say *"it is reported that ʿUmar ؓ wrote"*. Hands-up is switched **off** here: the room has just buried two men
+**Runsheet:** The payoff of the whole thread, eleven years on: ⁨عمر ؓ⁩ dying, and the ⁨شوریٰ⁩. ⚠ Say **"it is related that…"** — Ibn Kathīr's own passive. ⚠ **Do not merge** the ⁨سیر⁩ ⁨ج۱ ص۱۷۰⁩ version naming Abū ʿUbayda ؓ as well: ⁨الذہبی⁩ weakens its chain on the page
+
+**Tier:** CORE · **When:** ⁨۲۳ھ⁩, Medina `[SOURCED]` · **Map:** n/a — the timeline jumps forward eleven
+years and comes back.
+
+**What happened:** Eleven years after al-Yamāma, ʿUmar ؓ was dying of the assassin's wound, and the
+question of who would follow him would not wait. He refused to name one man and set up a council of
+six instead. And it is related that he said that had Sālim ؓ been alive, he would not have made it a
+council at all. Ibn ʿAbd al-Barr ⁨رحمہ اللہ⁩ explains what that means: he would have gone by Sālim's ؓ
+judgement about whom to appoint.
+
+**Beats:**
+
+1. Eleven years later — ʿUmar ؓ is dying of the assassin's wound, and the succession will not wait.
+2. What he did — He refused to name one man, and made it a council of six instead.
+3. What is related of him — Had Sālim ؓ been alive, I would not have made it a council.
+4. What that means — Ibn ʿAbd al-Barr ⁨رحمہ اللہ⁩: he would have gone by Sālim's ؓ judgement on whom to appoint.
+5. Say it as Ibn Kathīr ⁨رحمہ اللہ⁩ writes it — "It is related that…", and nothing stronger.
+
+**Quote after beat:** 3
+
+**The statement:**
+> وروي عن عمر أنه قال لما احتُضِر: لو كانَ سالمٌ حيًّا لما جعلتها شُورى
+> — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
+> *English:* "And it is related of ʿUmar that he said, when death was upon him: Had Sālim been alive
+> I would not have made it a shūrā."
+
+**⁨عبرت⁩:** Eleven years later, the man the Commander of the Faithful wished were still in the room
+was a freed slave who had died holding a banner.
+
+**Hands-up?** no
+
+⚠ Say **"it is related that…"** — Ibn Kathīr's own passive. A second, differently worded report in
+⁨سیر ج۱ ص۱۷۰⁩ names **both ⁨سالم ؓ⁩ and ⁨أبو عبيدة ؓ⁩**, and **⁨الذہبی⁩ weakens its chain on the page**.
+Do not merge the two.
+
+---
+
+### 43. The inheritance that was sent back
+
+**Runsheet:** ⚠ **Do not read the name of the woman who freed him** — the printed page gives it two ways on one page (§4.2). ⚠ ⁨سیر⁩ ⁨ج۱ ص۱۶۹⁩ tells the estate differently: **tell one version, captioned to ⁨البدایہ ج۷ ص۵۰⁩**
+
+**Tier:** GOOD · **When:** after ⁨۱۲ھ⁩ `[SOURCED]` · **Map:** n/a.
+
+**What happened:** Sālim ؓ died leaving property and no heir of his own. Under the law of walāʾ it
+went to the woman who had freed him, so ʿUmar ؓ sent it to her. She sent it back. Her reason was
+that she had freed him outright — sāʾiba — and had never freed him expecting a return. ʿUmar ؓ put
+the estate into the treasury instead.
+
+**Beats:**
+
+1. He left property and no heir of his own — Under the law of walāʾ it goes to the woman who had freed him.
+2. ʿUmar ؓ sends it to her — And she sends it back.
+3. Her reason — She had freed him outright, and had never freed him expecting a return.
+4. Where it went instead — ʿUmar ؓ put the estate into the treasury.
+
+**Quote after beat:** 3
+
+**The statement:**
+> وقد بعثَ عمرُ بميراثه إلى مولاته التي أعْتَقَتْه "بثينة" فردَّتْه وقالتْ: إنّما أعْتَقَتْهُ سائبةٌ، فجعله عمر في بيت المال
+> — ⁨البدایہ والنہایہ ج۷ ص۵۰⁩ · https://shamela.ws/book/30097/3196
+> *English:* "ʿUmar sent his inheritance to the woman who had freed him, Buthayna; and she sent it
+> back and said: I freed him only as sāʾiba. So ʿUmar put it into the treasury."
+>
+> *(⚠ The name «⁨بثينة⁩» appears in the printed text here and «⁨ثُبَيْتة⁩» a few lines above it on the
+> same page. **Do not read the name aloud** — say "the woman who had freed him". See §4.2.)*
+
+**⁨عبرت⁩:** She had a legal claim on what he left, and she said she had not freed him in order to
+have one.
+
+**Hands-up?** no
+
+⚠ **⁨سیر ج۱ ص۱۶۹⁩ tells the same estate differently** (sold for 200 dirhams and given to «⁨أمه⁩»).
+
+**Tell one version only, captioned to ⁨البدایہ ج۷ ص۵۰⁩.** See §7.6.
+
+---
+
+---
+
+## Part VII — Who else was on that field
+
+### 44. Two brothers by appointment
+
+**Runsheet:** The ⁨مؤاخاة⁩ pairing of Zayd ؓ with Maʿn b. ʿAdī ؓ — and the second pair, Abū Ḥudhayfa ؓ with ʿAbbād b. Bishr ؓ. ⚠ The ⁨مؤاخاة⁩'s own year is `[CONVENTIONAL-ESTIMATE]`: say "when the Muhājirūn arrived", never a year
+
+**Tier:** CORE · **When:** the ⁨مؤاخاة⁩, on the arrival in ⁨المدینہ⁩ `[CONVENTIONAL-ESTIMATE]` — the
+approved sources give it no year → ⁨اليمامة ۱۲ھ⁩ `[SOURCED]` · **Map:** Two dots — Mecca and
+Medina — joined by a line; then the line moved intact to ⁨عَقْرَباء⁩.
+
+**What happened:** When the Muhājirūn arrived in Medina with nothing, the Prophet ﷺ paired each of
+them with a man of the Anṣār and made the two of them brothers. Zayd b. al-Khaṭṭāb ؓ, of Quraysh,
+was paired with Maʿn b. ʿAdī ؓ of Banū al-ʿAjlān, an ally of the Anṣār. Years later, both of them were on the
+field at al-Yamāma. Both of them were killed there, on the same day. And they were not the only such
+pair: Abū Ḥudhayfa ؓ and ʿAbbād b. Bishr ؓ had been paired the same way, and they died there too.
+
+**Beats:**
+
+1. The Muhājirūn arrive with nothing — The Prophet ﷺ pairs each of them with a man of the Anṣār, as brothers.
+2. Zayd's ؓ brother by appointment — Maʿn b. ʿAdī ؓ, of Banū al-ʿAjlān, an ally of the Anṣār.
+3. Years later, one field — Both were at al-Yamāma, and both were killed there.
+4. And not the only such pair — Abū Ḥudhayfa ؓ and ʿAbbād b. Bishr ؓ were paired the same way, and died there too.
+
+**Quote after beat:** 3
+
+**The statement:**
+> وقد آخى رسول الله ﷺ بينه وبين معن بن عديّ الأنصاري وقد قُتلا جميعًا باليمامة.
+> — ⁨البدایہ والنہایہ ج۷ ص۴۹⁩ · https://shamela.ws/book/30097/3195
+> *English:* "The Messenger of Allah ﷺ made him and Maʿn b. ʿAdī al-Anṣārī brothers, and the two of
+> them were killed together at al-Yamāma."
+
+**⁨عبرت⁩:** The tie was made in a year when they owned nothing, and it was still holding on the day
+they died.
+
+**Hands-up?** Before telling it: *"You are given a brother — not born to you, assigned to you. How
+long would you expect that to last?"*
+The second pair: ⁨البدایہ ج۷ ص۵۵⁩ — «⁨وآخى رسول الله ﷺ بينه وبين عَبَّاد بن بِشْر وقد قُتلا شَهيدين يومَ⁩
+⁨اليمامة⁩». ⁨سیر ج۱ ص۲۹۸⁩ carries the first pairing independently.
+
+---
+
+### 45. «So that I may confirm him dead»
+
+**Runsheet:** Maʿn ؓ on the day the Prophet ﷺ died — **and he is one of the two men who met Abū Bakr ؓ and ʿUmar ؓ on the road to the Saqīfa**, which evening 1 told. ⚠ Chain honesty (§4.2): ⁨البدایہ ج۷ ص۵۴⁩ connected through Ibn ʿUmar ؓ, the ⁨سیر⁩ editor notes the preserved form is ⁨مرسل⁩ from ⁨عروہ⁩ — say so if challenged
+
+**Tier:** CORE · **When:** ⁨المدینہ ۱۱ھ⁩ → ⁨اليمامة ۱۲ھ⁩ `[SOURCED]` · **Map:** n/a.
+
+**What happened:** When the Prophet ﷺ died, the people in Medina wept and said they wished they had
+died before him, because they were afraid of what would happen to them after him. One man said the
+opposite. He said he did not want to have died first — he wanted to be alive afterwards, so that he
+could confirm the Prophet ﷺ dead the same way he had confirmed him alive. His name was Maʿn b. ʿAdī ؓ.
+He was one of the two men who met Abū Bakr ؓ and ʿUmar ؓ on the road to the Saqīfa. And in the
+following year he was killed at al-Yamāma, in the war fought to hold what he had said he would
+confirm.
+
+**Beats:**
+
+1. The day the Prophet ﷺ died — Medina wept, and men said they wished they had died before him.
+2. One man said the opposite — Maʿn b. ʿAdī ؓ, Zayd's ؓ brother by appointment.
+3. What he said — I do not wish I had died first: let me confirm him dead as I confirmed him alive.
+4. Where else he stood — He was one of the two men who met Abū Bakr ؓ and ʿUmar ؓ on the road to the Saqīfa.
+5. The year after — He was killed at al-Yamāma, in the war fought to hold what he said he would confirm.
+
+**Quote after beat:** 3
+
+**The statement:**
+> فَقَالَ مَعْنٌ: لَكِنِّي -وَاللهِ- مَا أُحِبُّ أَنِّي مُتُّ قَبْلَهُ حَتَّى أُصَدِّقَهُ مَيْتاً، كَمَا صَدَّقْتُهُ حَيّاً.
+> — ⁨سیر أعلام النبلاء ج۱ ص۳۲۱⁩ · https://shamela.ws/book/10906/1747
+> *English:* "But I, by Allah, do not wish that I had died before him — so that I may confirm him
+> dead as I confirmed him alive."
+
+**⁨عبرت⁩:** He did not want to be spared what came next; he wanted to be there for it.
+
+**Hands-up?** no
+⚠ **Chain honesty (§4.2): ⁨البدایہ ج۷ ص۵۴⁩ gives it with a connected chain through ⁨ابن عمر ؓ⁩; the ⁨سیر⁩
+editor notes that the preserved form is mursal from ⁨عروة⁩. Say so if challenged.** **This card is the
+bookend for E-ZY8 — tell them together or not at all.**
+
+---
+
+### 46. The man who killed him
+
+**Runsheet:** **[HANDS] 5:** *"The man who killed your brother is standing in front of you, and he is now a Muslim. What is there to say?"* ⚠ **The sources record no answer from ʿUmar ؓ — do not supply one.** ⚠ Give Ibn Kathīr's own handling of the competing report: it is this part's "how do we know?" beat
+
+**Tier:** CORE · **When:** ⁨اليمامة ۱۲ھ⁩, and afterwards in ⁨المدینہ⁩ `[SOURCED]` · **Map:** n/a.
+
+**What happened:** The man who killed Zayd ؓ was called Abū Maryam al-Ḥanafī. He fought that day on
+the other side. Afterwards he became a Muslim. And at some point after that he stood in front of
+ʿUmar ؓ — the dead man's younger brother, now the Commander of the Faithful — and said this to him.
+ʿUmar ؓ later appointed him a judge. Ibn Kathīr records a second report naming a different killer,
+and records that Ibn ʿAbd al-Barr preferred it, and then says the second report does not disprove
+the first.
+
+**Beats:**
+
+1. Who killed Zayd ؓ — A man called Abū Maryam al-Ḥanafī, fighting that day on the other side.
+2. Afterwards — He became a Muslim.
+3. He stands in front of ʿUmar ؓ — The dead man's younger brother, now Commander of the Faithful.
+4. What he said — Allah honoured Zayd ؓ at my hand, and did not disgrace me at his.
+5. What the sources do not give — Any answer from ʿUmar ؓ. We do not supply one. He later made him a judge.
+6. A competing report, handled on the page — Ibn Kathīr names another killer, says Ibn ʿAbd al-Barr preferred it, then says it does not disprove the first.
+
+**Quote after beat:** 4
+
+**The statement:**
+> ثم قتلَ زيدًا رجل يقال له: أبو مريم الحنفي، وقد أسلم بعد ذلك وقال لعمر: يا أميرَ المؤمنين إن الله أكرم زيدًا بيدي ولم يُهنِّي على يده.
+> — ⁨البدایہ والنہایہ ج۷ ص۴۹⁩ · https://shamela.ws/book/30097/3195
+> *English:* "Then Zayd was killed by a man called Abū Maryam al-Ḥanafī, who afterwards became a
+> Muslim and said to ʿUmar: Commander of the Faithful — Allah honoured Zayd at my hand, and did not
+> disgrace me at his."
+
+**⁨عبرت⁩:** He did not ask to be forgiven; he told the brother what he thought Allah had done with
+both of them.
+
+**Hands-up?** Before telling it: *"The man who killed your brother is standing in front of you, and
+he is now a Muslim. What is there to say?"*
+⚠ **The sources record no answer from ʿUmar ؓ. Do not supply one.** ⚠ Give Ibn Kathīr's own handling
+of the competing report — it is the "how do we know?" beat of this act (§2.7).
+
+---
+
+### 47. The arrow he pulled out
+
+**Runsheet:** Abū ʿAqīl ؓ, a chief of the Anṣār and a man of Badr. ⚠⚠ **The long famous version — the night wound, the dead arm, the severed arm, "who won?" — is in NO approved source (§X.2). Tell only the sentence on the card**
+
+**Tier:** CORE · **When:** ⁨اليمامة⁩, ⁨۱۲ھ⁩ `[SOURCED]` · **Map:** No movement.
+
+**What happened:** Abū ʿAqīl ؓ was one of the chiefs of the Anṣār and a man of Badr. At al-Yamāma an
+arrow hit him. He pulled it out himself. Then he bound himself up, took his sword, and went back to
+fighting. He fought until he was killed. When they came to him afterwards, they found many wounds on
+him.
+
+**Beats:**
+
+1. Who he was — Abū ʿAqīl ؓ, one of the chiefs of the Anṣār and a man of Badr.
+2. The arrow — It struck him at al-Yamāma, and he pulled it out himself.
+3. What he did next — Bound himself up, took his sword, and went back into the fighting.
+4. Afterwards — He fought until he was killed, and many wounds were found on him.
+
+**Quote after beat:** 4
+
+**The statement:**
+> أصابه سهم يوم اليمامة فنزعه، وتحزم وأخذ السيف وقاتل حتى قتل، فوجد به جراحات كثيرة.
+> — ⁨سیر أعلام النبلاء⁩ (⁨سير الخلفاء الراشدين⁩) ⁨ص۶۰⁩ · https://shamela.ws/book/10906/1208
+> *English:* "An arrow struck him on the day of al-Yamāma and he pulled it out, bound himself up,
+> took his sword and fought until he was killed — and many wounds were found on him."
+
+**⁨عبرت⁩:** Nobody carried him out and nobody was asked to.
+
+**Hands-up?** no
+⁨البدایہ ج۷ ص۵۷⁩ gives the same sentence. ⚠⚠ **The long famous version of this account — the night
+wound, the dead arm, the severed arm, the fourteen wounds, "who won?" — is NOT in any approved
+source (§X.2). Tell only what is above.**
+
+---
+
+### 48. The son of the head of the hypocrites
+
+**Runsheet:** ⚠ **Where he died is disputed** (⁨سیر⁩/⁨البدایہ⁩: اليمامة; ⁨سیر الراشدون⁩ ص۶۱: ⁨جواثى⁩) — **say "in this war"**. ⚠ Do not print a verse number without checking a ⁨مصحف⁩
+
+**Tier:** GOOD · **When:** ⁨اليمامة⁩, ⁨۱۲ھ⁩ `[SOURCED]` · **Map:** n/a.
+
+**What happened:** ʿAbd Allāh b. ʿAbd Allāh b. Ubayy ؓ was the son of the man the Qurʾān calls the
+head of the hypocrites. He was a Muslim, he was at Badr and at everything after it, and the books
+call him one of the best of the Companions. He was the hardest of all people on his own father. When
+that father died, the Prophet ﷺ gave his own shirt for the burial and prayed over him — as an honour
+to the son. And a few years after that, the son was killed at al-Yamāma.
+
+**Beats:**
+
+1. Whose son he was — ʿAbdullāh b. ʿAbdullāh b. Ubayy ؓ: his father is the man the Qurʾān calls the head of the hypocrites.
+2. What he himself was — A Muslim at Badr and at everything after it; the books call him one of the best of them.
+3. Hardest of all people on his own father — And the books record that plainly.
+4. At that father's burial — The Prophet ﷺ gave his own shirt and prayed over him, as an honour to the son.
+5. A few years later — The son was killed in this war.
+
+**Quote after beat:** 3
+
+**The statement:**
+> وكان أبوه رأسَ المنافقين، وكان أشدَّ الناس على أبيه، ولو أذن له رسول الله فيه لضربَ عُنُقه.
+> — ⁨البدایہ والنہایہ ج۷ ص۵۳⁩ · https://shamela.ws/book/30097/3199
+> *English:* "His father was the head of the hypocrites, and he was the hardest of all people on his
+> father — had the Messenger of Allah ﷺ permitted him, he would have struck his neck."
+
+**⁨عبرت⁩:** A man is not his father, and the books are careful to record that they were not confused
+about it.
+
+**Hands-up?** no
+⚠ **Where he died is disputed: ⁨سیر ج۱ ص۳۲۲⁩ and ⁨البدایہ ج۷ ص۵۳⁩ say ⁨اليمامة⁩; ⁨سیر الراشدون ص۶۱⁩ records
+a report that it was ⁨جواثى⁩. Say "in this war" if the field is not needed.** ⚠ The ⁨سیر⁩ page prints the
+verse reference as [⁨التوبة⁩: ٨٩]; **verify against a ⁨مصحف⁩ before printing any number.**
+
+---
+
+### 49. Three generations, one morning
+
+**Runsheet:** ⚠ The fourth man is a son in one source and a grandson in another — **say "three men of his own household with him"** and do not count them out
+
+**Tier:** GOOD · **When:** ⁨اليمامة⁩, ⁨۱۲ھ⁩ `[SOURCED]` · **Map:** n/a.
+
+**What happened:** Ḥazn al-Makhzūmī ؓ was a man of Mecca of Banū Makhzūm, and the grandfather of
+Saʿīd b. al-Musayyab ⁨رحمہ اللہ⁩, one of the great jurists of the next generation. The Prophet ﷺ once
+wanted to change his name — Ḥazn means rough ground — to Sahl, which means smooth. He refused: he
+would not change a name his parents had given him. And the report ends: *so the roughness never left
+us.* At al-Yamāma, Ḥazn ؓ was killed. So were two of his sons. So was a grandson.
+
+**Beats:**
+
+1. Who he was — Ḥazn al-Makhzūmī ؓ of Mecca, grandfather of Saʿīd b. al-Musayyab ⁨رحمہ اللہ⁩.
+2. The name — The Prophet ﷺ wanted to change it; he would not change a name his parents had given him.
+3. How the report ends — So the roughness never left us.
+4. At al-Yamāma — He was killed, and three men of his own household with him.
+
+**Quote after beat:** 3
+
+**The statement:**
+> أراد رسولُ الله ﷺ أن يسميه سَهْلًا فامتنعَ وقال: لا أغيّرُ اسمًا سمانيه أبواي، فلم تزل الحزونة فينا. استُشهد يومَ اليمامة. وقتل معه أيضًا ابناه عبد الرحمن ووهب، وابن ابنه حكيمُ بن وَهْبِ بن حزن.
+> — ⁨البدایہ والنہایہ ج۷ ص۴۹⁩ · https://shamela.ws/book/30097/3195 — the naming report: **⁨صحيح البخاري ٦١٩٠⁩**
+> *English:* "The Messenger of Allah ﷺ wanted to name him Sahl, and he refused, saying: I will not
+> change a name my parents gave me. So the roughness never left us. He was martyred on the day of
+> al-Yamāma; and killed with him also were his two sons ʿAbd al-Raḥmān and Wahb, and his grandson
+> Ḥakīm b. Wahb b. Ḥazn."
+
+**⁨عبرت⁩:** One household sent four men to one field and none of them came back.
+
+**Hands-up?** no
+⚠ **⁨سیر الراشدون ص۵۷⁩ makes the fourth man a son rather than a grandson. Say: "three men of his own
+household with him — the sources differ over whether the fourth was his son or his grandson."**
+⚠ **The page does not say Saʿīd b. al-Musayyab ⁨رحمہ اللہ⁩ told the story; «⁨فلم تزل الحزونة فينا⁩» is
+part of the report as ⁨البدایہ⁩ prints it. Do not attribute the telling to him from the platform** —
+say only that the naming report is in **⁨صحيح البخاري ٦١٩٠⁩** (⁨البدایہ⁩ ed. fn., ⁨ج۷ ص۴۹⁩). ⚠ **Nothing on
+the page gives his age. Do not call him old.**
+
+---
+
+### 50. The mother at al-Yamāma
+
+**Runsheet:** ⚠ **SPEAKER'S DISCRETION — this is the most severe card in the evening.** It is what was done to Ḥabīb b. Zayd ؓ, and what his mother Umm ʿUmāra ؓ did after it. Tell it plainly and without dwelling; do not elaborate beyond the page. If the room is heavy, skip it
+
+**Tier:** CORE · **When:** ⁨۱۱ھ⁩ → ⁨۱۲ھ⁩ `[SOURCED]` · **Map:** A single line from ⁨المدینہ⁩ to ⁨عَقْرَباء⁩.
+
+**What happened:** Musaylima had a man named Ḥabīb b. Zayd ؓ in his hands. He asked him whether he
+testified that Muḥammad ﷺ was the Messenger of Allah, and Ḥabīb ؓ said yes. Then he asked whether he
+testified that he, Musaylima, was a messenger of Allah — and Ḥabīb ؓ said: I do not hear. So he began
+to cut him apart, one limb at a time, and Ḥabīb ؓ never gave him more than that answer, until he
+died in his hands. Ḥabīb's ؓ mother was Umm ʿUmāra Nusayba bint Kaʿb ⁨رضي الله عنها⁩, who had been at
+al-ʿAqaba, at Uḥud, at al-Ḥudaybiya and at Ḥunayn. When the army marched to al-Yamāma, she went with
+it. Her hand was cut off there. She came back to Medina covered in wounds, and Abū Bakr ؓ, while he
+was caliph, was seen coming to her to ask after her.
+
+**Beats:**
+
+1. A man in Musaylima's hands — Ḥabīb b. Zayd ؓ, asked whether he testified that Muḥammad ﷺ is the Messenger of Allah.
+2. He said yes — Then he was asked to testify the same of Musaylima, and said: I do not hear.
+3. He was cut apart, limb by limb — And he never gave more than that one answer, until he died.
+4. His mother — Umm ʿUmāra Nusayba bint Kaʿb ⁨رضي الله عنها⁩: al-ʿAqaba, Uḥud, al-Ḥudaybiya, Ḥunayn.
+5. She went out with the army — Her hand was cut off at al-Yamāma, and she came back covered in wounds.
+6. Abū Bakr ؓ, while he was caliph — Was seen coming to her to ask after her.
+
+**Quote after beat:** 3
+
+**The statement:**
+> فيقول: أتشهدُ أني رسولُ اللَّه؟ فيقول: لا أسمع، فجعل يقطِّعُه عضوًا عضوًا حتى مات في يديه، لا يزيدُه على ذلك.
+> — ⁨البدایہ والنہایہ ج۳ ص۴۲۸⁩ · https://shamela.ws/book/30097/1402
+> *English:* "Then he would say: Do you testify that I am the Messenger of Allah? And he would say:
+> I do not hear. So he began to cut him apart limb by limb until he died in his hands — and he never
+> gave him more than that."
+
+**⁨عبرت⁩:** He was not asked to say anything; he was asked to hear something, and he would not.
+
+**Hands-up?** no
+The wounds: ⁨سیر ج۲ ص۲۸۱⁩ — hand cut off at al-Yamāma and eleven wounds besides. ⚠ ⁨البدایہ ج۳ ص۴۲۸⁩
+says twelve wounds; **give one figure with its caption, or say only "covered in wounds".** ⚠ ⁨سیر ج۲⁩
+⁨ص۲۸۲⁩ names her **other** son ʿAbd Allāh b. Zayd ؓ as the man who killed Musaylima with his sword —
+**one of four accounts in the safe list; do not settle it (§9.3).**
+
+---
+
+### 51. The father at al-Yamāma, the son at al-Yarmūk
+
+**Runsheet:** ⚠ **Frame ⁨اليرموك⁩ aloud as a battle we have not reached** (#43, forward reference). ⚠ **Do not read the Arabic of the dream and do not render its second image** — say only what the card says he interpreted
+
+**Tier:** GOOD · **When:** ⁨اليمامة ۱۲ھ⁩, then ⁨اليرموك⁩ — whose own year is disputed in the sources
+(⁨۱۳ھ⁩ / ⁨۱۵ھ⁩) `[SOURCED]` · **Map:** Two marks a long way apart — ⁨عَقْرَباء⁩ in central Najd, and
+⁨اليرموك⁩ on the Syrian frontier.
+
+**What happened:** Al-Ṭufayl b. ʿAmr al-Dawsī ؓ was the man who took Islam back to his own tribe and
+brought ninety households of Daws to Medina. He went out to al-Yamāma with his son ʿAmr. Before the
+battle he had a dream, and he read it aloud himself: that he would be killed and buried, and that his
+son would press hard for martyrdom and would not get it that year. Both halves came true. The father
+was killed at al-Yamāma. The son was killed a few years later, at al-Yarmūk.
+
+**Beats:**
+
+1. Who he was — al-Ṭufayl b. ʿAmr al-Dawsī ؓ, who took Islam back to Daws and brought ninety households to Medina.
+2. He went out with his son — ʿAmr, to al-Yamāma.
+3. A dream before the battle, which he read aloud himself — He would be killed and buried; his son would press for martyrdom and not get it that year.
+4. Both halves came true — The father was killed at al-Yamāma.
+5. The son — Killed a few years later at al-Yarmūk, a battle this course has not reached yet.
+
+**Quote after beat:** 4
+
+**The statement:**
+> فأولها بأنه سيقتل ويدفن، وأن ابنه يحرص على الشهادةِ فلا ينالُها عامَه ذلك. وقد وقع الأمر كما أوّلها، ثم قُتل ابنُه شهيدًا يوم اليرموك.
+> — ⁨البدایہ والنہایہ ج۷ ص۵۲⁩ · https://shamela.ws/book/30097/3198
+> *English:* "He interpreted it himself: that he would be killed and buried, and that his son would
+> press for martyrdom and not attain it that year. And it happened exactly as he interpreted it —
+> and then his son was killed a martyr on the day of al-Yarmūk."
+
+**⁨عبرت⁩:** He read his own end aloud before the battle, and then went into it anyway.
+
+**Hands-up?** no
+⚠ **Do not read the Arabic of the dream itself aloud and do not render its second image. Say: he
+dreamed his head was shaved and the earth took him in, and that his son was trying to reach him and
+could not.** Ibn Kathīr's interpretation is his own text and is safe to give. Corroboration for the
+son at ⁨اليرموك⁩: ⁨سیر الراشدون ص۱۱۳⁩ · https://shamela.ws/book/10906/1258 — «⁨عمرو بن الطفيل بن عمرو بن⁩
+طريف، قتل باليرموك».
+
+---
+
+## Part VIII — What was left
+
+### 52. «Do not put al-Barāʾ over an army»
+
+**Runsheet:** Answers what the room has been holding since #32 — **the man who went over the wall lived**. ⚠ The page opens with «⁨قيل⁩»: say *"it is reported that ʿUmar ؓ wrote"*. Hands-up is switched **off**: the room has just buried a field
 
 **Tier:** GOOD · **When:** the caliphate of ⁨عمر ؓ⁩, ۱۳–⁨۲۳ھ⁩ `[SOURCED]` for the caliphate; the letter itself is undated · **Map:** n/a
 
@@ -1846,7 +2332,7 @@ that order: Abū Ḥudhayfa b. ʿUtba al-ʿAbshamī, and his freedman Sālim, on
 
 ---
 
-### 41. «Do you see me dying in my bed?»
+### 53. «Do you see me dying in my bed?»
 
 **Runsheet:** **Cut first.** ⚠ The counts move — ninety-nine, ninety-odd, a hundred. Say *"the reports give ninety-odd"* and move on. Beat 4 is where he did die: ⁨تُسْتَر⁩, years later
 
@@ -1875,9 +2361,9 @@ that order: Abū Ḥudhayfa b. ʿUtba al-ʿAbshamī, and his freedman Sālim, on
 
 ---
 
-### 42. The number nobody can give
+### 54. The number nobody can give
 
-**Runsheet:** **The card that stops a wrong number being said aloud.** **[HANDS] 5:** *"How many men who had the whole Qurʾān by heart died that day? What would you guess?"* — then the honest answer: the books do not give one
+**Runsheet:** **The card that stops a wrong number being said aloud.** **[HANDS] 6:** *"How many men who had the whole Qurʾān by heart died that day? What would you guess?"* — then the honest answer: the books do not give one
 
 **Tier:** CORE · **When:** ⁨۱۲ھ⁩, after the battle `[SOURCED]` · **Map:** n/a — this is the last slide
 of the al-Yamāma act.
@@ -1917,7 +2403,7 @@ reciters" has misread ⁨البدایہ ج۷ ص۵۵⁩.**
 
 ---
 
-### 43. The Qurʾān was collected because of this
+### 55. The Qurʾān was collected because of this
 
 **Runsheet:** **The true ending.** End here and go straight to the closing bookend — say nothing after it
 
