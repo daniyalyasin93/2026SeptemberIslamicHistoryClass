@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
-"""Make a shareable copy of a deck: no speaker notes, no hidden slides, images recompressed.
+"""Make a shareable copy of a deck: no hidden slides, images recompressed, notes dropped by default.
 
-    python tools/share_deck.py S04_kinda_butah_yamama/S04.pptx
+    python tools/share_deck.py S04_kinda_butah_yamama/S04.pptx                 # for the room
+    python tools/share_deck.py S04_kinda_butah_yamama/S04.pptx --keep-notes    # for the team
 
 Why each of the three:
 
 * **The notes are production apparatus.** They carry the ⚠ warnings, the card ids, "do not say",
   "SPEAKER'S DISCRETION", and the pointers into `QA_BANK.md`. `DECISIONS.md` #30 keeps that class of
-  text off a slide face; a file handed to other people is the same problem with a longer life.
+  text off a slide face; a file handed to strangers is the same problem with a longer life — so they
+  come out unless `--keep-notes` says otherwise. **For a review by the team they are the point**:
+  the warnings are what a reviewer is being asked to check, so that is what the flag is for.
 * **Hidden slides are alternates**, not content — the STOP A and STOP B closes. They do not appear in
   a slideshow, but anyone scrolling the file sees them and reads two endings that were never given.
 * **The images are the size.** A hand-edited deck comes back from PowerPoint with its renders
@@ -25,12 +28,15 @@ import zipfile
 from PIL import Image
 from pptx import Presentation
 
+if hasattr(sys.stdout, "reconfigure"):          # the console is cp1252; the report has ⚠ and ؓ in it
+    sys.stdout.reconfigure(encoding="utf-8")
+
 MAX_EDGE = 1920          # a 16:9 slide at 1920 is sharp on any screen and on most projectors
 JPEG_Q = 85
 
 
-def strip(src, dst):
-    """Copy the deck, dropping hidden slides and every notes slide. Returns (slides, hidden, noted)."""
+def strip(src, dst, keep_notes=False):
+    """Copy the deck, dropping hidden slides — and the notes too unless they are being kept."""
     shutil.copyfile(src, dst)
     prs = Presentation(dst)
     id_lst = prs.slides._sldIdLst
@@ -44,11 +50,12 @@ def strip(src, dst):
             prs.part.drop_rel(rid)
             hidden += 1
 
-    for slide in prs.slides:
-        for rel_id, rel in list(slide.part.rels.items()):
-            if rel.reltype.endswith('/notesSlide'):
-                slide.part.drop_rel(rel_id)
-                noted += 1
+    if not keep_notes:
+        for slide in prs.slides:
+            for rel_id, rel in list(slide.part.rels.items()):
+                if rel.reltype.endswith('/notesSlide'):
+                    slide.part.drop_rel(rel_id)
+                    noted += 1
 
     prs.save(dst)
     return len(prs.slides._sldIdLst), hidden, noted
@@ -96,17 +103,25 @@ def recompress(data, name):
 
 
 def main():
-    src = sys.argv[1]
-    dst = sys.argv[2] if len(sys.argv) > 2 else src.replace('.pptx', '_share.pptx')
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    keep_notes = '--keep-notes' in sys.argv
+    src = args[0]
+    dst = args[1] if len(args) > 1 else src.replace('.pptx', '_share.pptx')
     before = os.path.getsize(src)
-    slides, hidden, noted = strip(src, dst)
+    slides, hidden, noted = strip(src, dst, keep_notes)
     saved = shrink_media(dst)
     after = os.path.getsize(dst)
+    kept = sum(1 for s in Presentation(dst).slides if s.has_notes_slide)
     print('%-44s %7.1f MB  %d slides' % (os.path.basename(src), before / 1048576.0,
                                          slides + hidden))
-    print('%-44s %7.1f MB  %d slides   (-%d hidden, -%d notes pages, %.1f MB of images saved)'
-          % (os.path.basename(dst), after / 1048576.0, slides, hidden, noted, saved / 1048576.0))
+    print('%-44s %7.1f MB  %d slides   (-%d hidden, %s, %.1f MB of images saved)'
+          % (os.path.basename(dst), after / 1048576.0, slides, hidden,
+             ('%d notes pages KEPT' % kept) if keep_notes else ('-%d notes pages' % noted),
+             saved / 1048576.0))
     print('   %.0f%% smaller' % (100 * (1 - after / float(before))))
+    if keep_notes:
+        print('   ⚠ the notes carry the ⚠ warnings, card ids and "do not say" lines — this copy is '
+              'for the team, not for the room')
 
 
 if __name__ == '__main__':
