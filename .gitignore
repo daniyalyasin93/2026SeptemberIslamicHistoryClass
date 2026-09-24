@@ -36,3 +36,8 @@ S03_yemen/S03_rebuild.pptx
 # evening-4 map renders: 3-4 MB PNGs, reproducible from the scene files by make_maps.py. The deck
 # carries JPEG copies of the ones it uses (S04_kinda_butah_yamama/build.py map_image)
 S04_kinda_butah_yamama/visuals/maps/
+
+# Evening 4's deck is HAND-FINISHED and 118 MB (Daniyal's own maps, re-embedded by PowerPoint) —
+# over GitHub's 100 MB limit. The repo carries S04_share.pptx (10 MB) and S04.pdf instead, and
+# S04.FINAL records that build.py must never be run over it. Same pattern as evening 3 (#38).
+S04_kinda_butah_yamama/S04.pptx

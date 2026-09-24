@@ -1,0 +1,15 @@
+S04.pptx is HAND-FINISHED. It is the source of truth for what the room sees.
+
+Daniyal, 2026-09-24: "I changed the images because some of the maps had errors from you, and I want
+Muslim forces to be always in dark green." He has also rewritten some closing lines in his own words
+and hidden four slides he does not intend to show.
+
+DO NOT RUN build.py FOR THIS EVENING. It writes S04.pptx and would destroy that work.
+(build.py falls back to S04_NEW.pptx only when PowerPoint holds the file open — that is luck, not a
+guard.)
+
+What may still be run safely:
+  python S04_kinda_butah_yamama/pack_data.py     reads the deck, writes CUE/BRIEFING/WORKSHEET
+  python tools/share_deck.py S04_kinda_butah_yamama/S04.pptx    the copy for other people
+
+The evening-3 precedent is DECISIONS.md #38; this evening's is #55.

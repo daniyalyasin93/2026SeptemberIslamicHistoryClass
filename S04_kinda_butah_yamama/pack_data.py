@@ -41,6 +41,9 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(errors="replace")
 
 RUNSHEET = os.path.join(HERE, "RUNSHEET.md")
+# A hand-finished deck is the source of truth for what the room sees (DECISIONS.md #38, and #55 for
+# this evening): the build reads its slide numbers but never overrules its wording.
+FINAL = os.path.exists(os.path.join(HERE, "S04.FINAL"))
 DECK = os.path.join(HERE, "S04.pptx")
 POOL = B.pool_cards()
 PARTS = B.runsheet(RUNSHEET)
@@ -142,7 +145,9 @@ def deck_slides():
         if "The true ending" in notes and not hidden:
             jumps["Q"] = i              # RC37's own slide: where Part VI is abandoned for the ending
         if notes.startswith("TONIGHT'S") and not hidden:
-            text = " ".join(sh.text_frame.text for sh in s.shapes if sh.has_text_frame)
+            # joined on newlines, not spaces: a hand-finished deck's own lines are read back one by
+            # one for the cue sheet, and `flat` below collapses the whitespace again for the match
+            text = "\n".join(sh.text_frame.text for sh in s.shapes if sh.has_text_frame)
             # the notes carry the spoken lines, not card ids (#40); the ids are build.py's own list
             ids = (S04.LESSON_C, S04.LESSON_D, S04.LESSON_E)[len(tonight)]
             tonight.append((i, list(ids), text))
@@ -166,17 +171,36 @@ def deck_slides():
 
 
 def lessons_from_deck(tonight):
+    """The cue's ⁨عبرت⁩ column, read from the deck so the two cannot drift.
+
+    Once the deck is HAND-FINISHED that drift is the point: Daniyal rewrites the closing lines in his
+    own words, and the room sees HIS wording, not the card's. With `S04.FINAL` present the cue is
+    printed from the slide itself and the pool is only used to notice — out loud — which lines he
+    changed, so the difference is visible in the build log instead of being silently normalised away.
+    """
     num, ids, text = tonight
     flat = re.sub(r"\s+", " ", text)
-    out = []
-    for cid in ids:
-        line = B.clean(POOL[cid]["ibrah"]).strip()
-        if re.sub(r"\s+", " ", line) not in flat:
-            raise SystemExit("The Ibrah of %s is not what slide %d shows." % (cid, num))
-        out.append(line)
-    if len(out) != 4:
-        raise SystemExit("The «Tonight» slide names %d cards; the cue sheet expects four." % len(out))
-    return out
+    pool_lines = [B.clean(POOL[cid]["ibrah"]).strip() for cid in ids]
+    missing = [cid for cid, line in zip(ids, pool_lines)
+               if re.sub(r"\s+", " ", line) not in flat]
+
+    if not FINAL:
+        if missing:
+            raise SystemExit("The Ibrah of %s is not what slide %d shows." % (missing[0], num))
+        if len(pool_lines) != 4:
+            raise SystemExit("The «Tonight» slide names %d cards; the cue sheet expects four."
+                             % len(pool_lines))
+        return pool_lines
+
+    # hand-finished: take the slide's own lines, in the order the room reads them
+    own = [ln.strip() for ln in text.splitlines() if len(ln.strip()) > 25
+           and not ln.strip().lower().startswith("tonight")]
+    for cid in missing:
+        print("   · slide %d: %s's line is reworded in the deck — the deck wins" % (num, cid))
+    if not own:
+        raise SystemExit("Slide %d carries no readable «Tonight» lines." % num)
+    print("   %-31s %d lines, taken from the deck (S04.FINAL)" % ("ibrah", len(own)))
+    return own[:6]
 
 
 def clocks(ws_after):
