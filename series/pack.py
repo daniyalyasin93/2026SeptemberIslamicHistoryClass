@@ -103,7 +103,8 @@ h2 { font: 700 9.5pt 'Segoe UI'; letter-spacing: .14em; text-transform: uppercas
             text-transform: uppercase; }
 .over .list { column-count: 2; column-gap: 12px; }
 .over .o { margin-top: 1.5px; break-inside: avoid; }
-.over .o .name { font-weight: 700; }
+.over .o .name { font-weight: 700; font-size: %(small)spt; }   /* the band is not tonight's evening:
+   it may run a size below the run column, and that is what keeps the planned beats readable */
 .over .o .cues { color: %(muted)s; font-size: %(tiny)spt; }
 .beat.hands { background: #FBF3E0; border-left: 2.5pt solid %(gold)s; padding: 2px 5px;
               margin-left: -5px; }
