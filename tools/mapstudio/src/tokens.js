@@ -399,9 +399,9 @@
 
   /* ---------- campaign arrow ---------- */
 
-  function arrow(ctx, pts, color, width, dashed, k, sel) {
+  function arrow(ctx, pts, color, width, dashed, k, sel, flip) {
     if (pts.length < 2) return;
-    var path = pts.length === 2 ? MS_Proj.bow(pts[0], pts[1]) : pts;
+    var path = MS_Proj.arrowPath(pts, flip);
     var line = MS_Proj.smooth(path, 18);
     var w = width * k;
 

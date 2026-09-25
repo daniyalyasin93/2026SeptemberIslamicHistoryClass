@@ -128,7 +128,7 @@
       var m = base * (o.scale || 1);
       if (o.type === 'arrow') {
         var ap = stagePts(o);
-        var line = P.smooth(ap.length === 2 ? P.bow(ap[0], ap[1]) : ap, 12);
+        var line = P.smooth(P.arrowPath(ap, o.flip), 12);
         if (P.distToPolyline(sx, sy, line) < (o.width || 14) * m * 0.6 + 7) return o;
       } else if (o.type === 'territory') {
         var tp = stagePts(o);
@@ -379,6 +379,16 @@
       box.appendChild(row('Faction', selectInput(factionIds, o.faction, change(function (v) { o.faction = v; }), factionNames)));
       box.appendChild(row('Width', rangeInput(6, 30, 1, o.width, change(function (v) { o.width = +v; }))));
       box.appendChild(row('Dashed', checkInput(o.dashed, change(function (v) { o.dashed = v; }))));
+      box.appendChild(el('div', { class: 'btnrow' }, [
+        el('button', {
+          text: 'Mirror curve', title: 'Swap the bend or loop to the other side; both ends stay put (M)',
+          onclick: function () { mirrorArrow(o); }
+        }),
+        el('button', {
+          text: 'Reverse direction', title: 'Put the arrowhead at the other end',
+          onclick: change(function () { o.pts.reverse(); })
+        })
+      ]));
     }
     if (o.type === 'territory') {
       box.appendChild(row('Faction', selectInput(factionIds, o.faction, change(function (v) { o.faction = v; }), factionNames)));
@@ -399,7 +409,18 @@
       o.step = Math.max(1, +v || 1);
       store.scene.steps.count = store.maxStep();
       buildSteps();
+      buildLayers();
     }))));
+    var until = numberInput(1, 40, o.until || '', change(function (v) {
+      var n = parseInt(v, 10);
+      if (n >= (o.step || 1)) o.until = n;
+      else delete o.until;          // blank, or before its own start step = never hidden
+      store.scene.steps.count = store.maxStep();
+      buildSteps();
+      buildLayers();
+    }));
+    until.placeholder = 'to the end';
+    box.appendChild(row('Hide after step', until));
 
     box.appendChild(el('div', { class: 'btnrow' }, [
       el('button', { text: 'Bring forward', onclick: function () { store.raise(o.id); } }),
@@ -428,6 +449,24 @@
     var i = el('input', { type: 'checkbox', checked: value ? '' : null });
     i.addEventListener('change', function () { onchange(i.checked); });
     return i;
+  }
+
+  /* Swap which side an arrow bends or loops to, keeping both ends where they are.
+   * A two-point arrow only has its automatic bow, so that is flipped; a drawn
+   * path is reflected across the line joining its ends. Done in stage space so
+   * the mirror is true on screen, not skewed by the projection. */
+  function mirrorArrow(o) {
+    store.checkpoint();
+    if (o.pts.length === 2) {
+      o.flip = !o.flip;
+    } else {
+      var v = store.scene.view;
+      var m = P.mirrorAcrossChord(stagePts(o)).map(function (p) { return P.toGeo(v, p[0], p[1]); });
+      m[0] = o.pts[0]; m[m.length - 1] = o.pts[o.pts.length - 1];   // ends exactly where they were
+      o.pts = m;
+    }
+    invalidate();
+    scheduleAutosave();
   }
 
   function buildSteps() {
@@ -588,6 +627,12 @@
     invalidate();
   }
 
+  function stepText(o) {
+    var s = o.step || 1;
+    if (!o.until) return 'step ' + s;
+    return o.until === s ? 'step ' + s + ' only' : 'steps ' + s + '–' + o.until;
+  }
+
   function buildLayers() {
     var box = $('#layers');
     box.innerHTML = '';
@@ -606,7 +651,7 @@
       }, [
         el('span', { class: 'tag tag-' + o.type, text: o.type[0].toUpperCase() }),
         el('span', { class: 'nm', text: name }),
-        el('span', { class: 'st', text: 'step ' + (o.step || 1) })
+        el('span', { class: 'st', text: stepText(o) })
       ]);
       list.appendChild(b);
     });
@@ -793,6 +838,7 @@
       var fi = parseInt(k, 10) - 1;
       if (fi < store.scene.factions.length) { setActiveFaction(store.scene.factions[fi].id); return; }
     }
+    if ((k === 'm' || k === 'M') && store.selected() && store.selected().type === 'arrow') { mirrorArrow(store.selected()); return; }
     if (k === '[') { var st = store.scene.steps; st.current = Math.max(1, st.current - 1); buildSteps(); invalidate(); return; }
     if (k === ']') { var s2 = store.scene.steps; s2.current = Math.min(store.maxStep(), s2.current + 1); buildSteps(); invalidate(); return; }
 

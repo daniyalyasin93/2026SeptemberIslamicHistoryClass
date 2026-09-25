@@ -214,18 +214,26 @@
     this.emit('scene');
   };
 
-  /* Which objects are painted at the current step setting. */
+  /* Which objects are painted at the current step setting. An object shows
+   * from its `step` onwards; an optional `until` hides it after that step, so a
+   * step-1 army can be gone by step 3 without being deleted from step 1. */
   Store.prototype.visibleObjects = function () {
     var st = this.scene.steps;
     return this.scene.objects.filter(function (o) {
       var s = o.step || 1;
-      return st.mode === 'only' ? s === st.current : s <= st.current;
+      if (st.mode === 'only') return s === st.current;
+      return s <= st.current && (!o.until || st.current <= o.until);
     });
   };
 
   Store.prototype.maxStep = function () {
     var m = 1;
-    for (var i = 0; i < this.scene.objects.length; i++) m = Math.max(m, this.scene.objects[i].step || 1);
+    for (var i = 0; i < this.scene.objects.length; i++) {
+      var o = this.scene.objects[i];
+      m = Math.max(m, o.step || 1);
+      // Something hidden after step N needs step N+1 to exist, or the hiding is never seen.
+      if (o.until) m = Math.max(m, o.until + 1);
+    }
     return Math.max(m, this.scene.steps.count || 1);
   };
 
