@@ -311,7 +311,7 @@
       o = objs[i];
       if (o.type !== 'arrow') continue;
       f = store.faction(o.faction);
-      T.arrow(ctx, pts(o.pts), f.color, (o.width || 14) * base * (o.scale || 1), o.dashed, k, sel === o.id);
+      T.arrow(ctx, pts(o.pts), f.color, (o.width || 14) * base * (o.scale || 1), o.dashed, k, sel === o.id, o.flip);
     }
     for (i = 0; i < objs.length; i++) {
       o = objs[i];

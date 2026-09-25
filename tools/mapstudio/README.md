@@ -32,7 +32,7 @@ plain HTML and JavaScript and it works offline.
 | `L` | Label | Free text — a region, a sea, a note |
 
 Also: `Ctrl+Z` / `Ctrl+Shift+Z` undo and redo · `Ctrl+S` save · `Ctrl+E` export ·
-`Delete` remove · `[` and `]` step back and forward · `Esc` deselect or cancel a path ·
+`Delete` remove · `M` mirror the selected arrow · `[` and `]` step back and forward · `Esc` deselect or cancel a path ·
 `Alt+drag` or middle-drag to pan.
 
 ---
@@ -54,6 +54,15 @@ that is the dial for it. Hit-testing follows the scale, so big marks stay clicka
 this step" and press **Export steps**: you get `title-step-01.png`, `-02`, `-03`… That is
 how you build a map up across consecutive slides instead of dropping the finished thing on
 the room at once. Chrome asks once to allow multiple downloads.
+
+To take something *off* the map at a later step without deleting it, fill in **Hide after
+step** in the inspector. An army with Step `1` and Hide after step `2` shows in steps 1 and
+2 and is gone from step 3 on; it is still there when you step back. Leave the box blank
+for "stays to the end". The Objects list shows the range (`steps 1–2`, `step 2 only`).
+
+**Mirroring an arrow.** Select an arrow and press **Mirror curve** (or `M`): the bend or
+loop swaps to the other side of the line joining its two ends, and both ends stay put.
+Pressing it again puts it back. **Reverse direction** moves the arrowhead to the other end.
 
 **Terrain.** The base map is Natural Earth: 1:50m coastlines, 1:50m shaded relief, rivers
 and lakes. Mountains read as mountains. Turn it off, or dial **Relief strength** down, in

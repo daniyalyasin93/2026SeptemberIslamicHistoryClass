@@ -144,7 +144,8 @@
     return out;
   }
 
-  /* A two-point arrow gets a gentle bow so it never reads as a ruler line. */
+  /* A two-point arrow gets a gentle bow so it never reads as a ruler line.
+   * A negative amount bows it to the other side. */
   function bow(a, b, amount) {
     var mx = (a[0] + b[0]) / 2, my = (a[1] + b[1]) / 2;
     var dx = b[0] - a[0], dy = b[1] - a[1];
@@ -153,11 +154,32 @@
     return [a, [mx - dy / len * k, my + dx / len * k], b];
   }
 
+  /* The control points an arrow is actually drawn through. `flip` puts a
+   * two-point arrow's bow on the other side. */
+  function arrowPath(pts, flip) {
+    return pts.length === 2 ? bow(pts[0], pts[1], flip ? -0.16 : 0.16) : pts;
+  }
+
+  /* Reflect points across the straight line from the first point to the last,
+   * so a curve or loop swaps sides while both ends stay put. Stage coordinates. */
+  function mirrorAcrossChord(pts) {
+    var a = pts[0], b = pts[pts.length - 1];
+    var dx = b[0] - a[0], dy = b[1] - a[1];
+    var len2 = dx * dx + dy * dy;
+    if (!len2) return pts.slice();
+    return pts.map(function (p) {
+      var t = ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / len2;
+      var fx = a[0] + t * dx, fy = a[1] + t * dy;
+      return [2 * fx - p[0], 2 * fy - p[1]];
+    });
+  }
+
   global.MS_Proj = {
     LAT0: LAT0, K: K, STAGE_W: STAGE_W, STAGE_H: STAGE_H, REGIONS: REGIONS,
     makeView: makeView, fitBBox: fitBBox, toStage: toStage, toGeo: toGeo,
     zoomAt: zoomAt, panBy: panBy,
     dist: dist, distToSegment: distToSegment, distToPolyline: distToPolyline,
-    pointInPolygon: pointInPolygon, centroid: centroid, smooth: smooth, bow: bow
+    pointInPolygon: pointInPolygon, centroid: centroid, smooth: smooth, bow: bow,
+    arrowPath: arrowPath, mirrorAcrossChord: mirrorAcrossChord
   };
 })(window);
