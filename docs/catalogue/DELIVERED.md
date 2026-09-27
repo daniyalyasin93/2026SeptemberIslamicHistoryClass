@@ -121,13 +121,61 @@ Cards spoken, in the order delivered (32) — Parts I and II of `S03_yemen/RUNSH
 | | |
 |---|---|
 | Folder | `S04_kinda_butah_yamama/` |
-| Cut | **Parts I–IV, to STOP C** (Daniyal, 2026-09-22 — `DECISIONS.md` #44), **with an overflow Part V behind that close** (#47): the garden, the death of Musaylima, the terms at the forts, Zayd ؓ, and the collection of the Qurʾān. Ḥaḍramawt/Kinda still rolls to evening 5 |
-| Endings | STOP C at slides 52–55 (planned) · STOP D at 65–68 (if Part V was spoken) · STOP A 69 and STOP B 73, hidden. **Record which one was used** |
-| Deck | `S04.pptx` + `S04.pdf` — built, one slide per card; `CUE.pdf`, `WORKSHEET.pdf`, `BRIEFING.pdf` beside it |
-| Delivered | ⬜ **not yet** |
+| Deck delivered | Daniyal's hand-finished `S04.pptx` — 142 slides, 12 hidden, his own maps (`DECISIONS.md` #55). Local only (118 MB). In git: `S04_share.pptx` (130 slides — the hidden ones dropped, notes kept) and `S04.pdf` (the *built* deck, 139 pp.) |
+| Delivered | ✅ **yes** — reported by Daniyal 2026-09-27 (⬜ date to confirm) |
+| Stopped at | **STOP D** — his slide **67**, the Line (= `S04_share.pptx` slide 64), after `RCT/E-RC22`, the treaty at the forts. **Parts I–V spoken; the STOP C slides were passed through in the flow** |
+| Not reached | `RCT/E-RC23` and all of Parts VI–XI — the dead of al-Yamāma and the three houses. **They open evening 5.** Ḥaḍramawt/Kinda is still unspoken |
+| Hidden in his deck | `RCT/E-RC49` (#12, ʿUmar ؓ in the mosque) · the "Past the close" bridge · the «Next week» slides of STOP C and STOP D. ⬜ **RC49: Daniyal to confirm whether it was told** — until he does, it is not counted as spoken |
+| What Daniyal reported | (1) a map was shown, then told on later slides — he wants troops to move as he speaks; (2) al-Yamāma ended abruptly — and **the treaty's terms were on no card and in no notes: "I was totally lost on that"**; (3) the STOP C slides felt out of place mid-evening, and their notes gave him nothing to say; (4) he delivers from the `.pptx` and its notes **only** — the cue sheet and briefing were never used. `DECISIONS.md` #56–#61 |
 
-**After the evening, replace this block** with the cards actually spoken, in the order spoken, and where it
-stopped. Until then this section names **no card ids on purpose**: `tools/check_introductions.py` treats
-every id in this file as already spoken, so listing tonight's plan here would hide evening 5's first
-appearances.
+Cards spoken, in the order delivered (34):
+
+| # | Card | |
+|---|---|---|
+| 1 | `ATA/E-TB15` Musaylima's letter, and the reply | Part I |
+| 2 | `ATA/E-TB16` Musaylima at Medina, and the piece of palm-branch | Part I |
+| 3 | `ATA/E-TB12` The man who followed Musaylima knowing he was lying | Part I |
+| 4 | `ATA/E-TB18` Sajāḥ — who she actually was | Part I |
+| 5 | `ATA/E-TB19` What her claim was worth to the other claimant | Part I |
+| 6 | `RCT/E-RC64` There were Muslims inside al-Yamāma already | Part I |
+| 7 | `RCT/E-RC44` The third stop in the orders, and the Anṣār who would not march | Part II |
+| 8 | `RCT/E-RC45` Mālik b. Nuwayra ؓ, standing apart | Part II |
+| 9 | `RCT/E-RC46` "Disperse, and enter into this matter" | Part II |
+| 10 | `RCT/E-RC47` The patrol could not agree on what it had seen | Part II |
+| 11 | `RCT/E-RC48` One night, and four accounts of it | Part II |
+| 12 | `RCT/E-RC50` "He interpreted, and he was mistaken" | Part II |
+| 13 | `RCT/E-RC51` Ibn Kathīr's own verdict, and the precedent he sets beside it | Part II |
+| 14 | `RCT/E-RC52` ʿUmar ؓ and Mutammim | Part II |
+| 15 | `RCT/E-RC63` Excused in the mosque, and sent straight to al-Yamāma | Part III |
+| 16 | `RCT/E-RC15` ʿIkrima ؓ goes too early, and the letter that follows him | Part III |
+| 17 | `RCT/E-RC53` And then the second commander did the same thing | Part III |
+| 18 | `RCT/E-RC54` Forty thousand, and the ground he chose | Part III |
+| 19 | `RCT/E-RC16` The tent and the prisoner | Part III |
+| 20 | `RCT/E-RC55` The order of battle, and why there is no diagram of it | Part IV |
+| 21 | `RCT/E-RC56` "Today is the day of honour" | Part IV |
+| 22 | `RCT/E-RC17` The line breaks, and the two protections | Part IV |
+| 23 | `RCT/E-RC57` al-Rajjāl b. ʿUnfuwa — the man who made the lie believable | Part IV |
+| 24 | `RCT/E-RC58` "People of Sūrat al-Baqara" | Part IV |
+| 25 | `RCT/E-RC18` Thābit b. Qays ؓ puts on his shroud | Part IV |
+| 26 | `RCT/E-RC59` Sālim ؓ — "A wretched bearer of the Qurʾān I should be" | Part IV |
+| 27 | `RCT/E-RC60` Zayd b. al-Khaṭṭāb ؓ — "I will not speak" | Part IV |
+| 28 | `RCT/E-RC61` Abū Ḥudhayfa ؓ — "adorn the Qurʾān with deeds" | Part IV |
+| 29 | `RCT/E-RC62` Khālid ؓ between the lines, and the offer he made first | Part IV |
+| 30 | `RCT/E-RC19` "Imtāzū" — the order that turned the day | Part IV |
+| 31 | `RCT/E-RC66` The man who called them into the garden | Part V |
+| 32 | `RCT/E-RC20` Ḥadīqat al-Mawt — al-Barāʾ ؓ over the wall | Part V |
+| 33 | `RCT/E-RC21` The death of Musaylima, and what Waḥshī ؓ said | Part V |
+| 34 | `RCT/E-RC22` The treaty he was tricked into, and kept | Part V |
+
+**Told from memory, on no card** (Daniyal, 2026-09-27). These are spent — evening 5 does not tell them
+again (`DECISIONS.md` #56):
+- **Waḥshī ؓ's part at Uḥud, and the Prophet's ﷺ words to him** when he became Muslim — the substance of
+  `TMW/E-TRN2` and `TRN3`.
+- **al-Barāʾ ؓ's eighty-odd wounds** (⁨سیر ج۱ ص۱۹۶⁩) — the beat `RC20`'s ⚠ carries.
+- **Sālim ؓ leading the Muslims in prayer at Qubāʾ** — `RC59`'s notice; `AHA/E-AS07` becomes a callback.
+
+**Closing pair used:** STOP D — the Line at 11→12 AH with the garden and the death of Musaylima lit, and
+the map with al-Yamāma taken. **These two slides open evening 5** (#23) — Daniyal's own versions, from his
+deck. ⚠ His map colours the whole east green already; by the books Oman and Mahra were still being fought
+(`DECISIONS.md` #58).
 

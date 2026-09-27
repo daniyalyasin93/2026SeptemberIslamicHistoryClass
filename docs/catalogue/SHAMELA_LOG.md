@@ -117,25 +117,25 @@ Three notes: `al-aswad-al-ansi-and-yemen-before-the-ridda` (A) · `the-second-ye
 
 | Book | Printed page | Chapter | What it supports | |
 |---|---|---|---|---|
-| البدایہ 30097 | ج۲ ص۴۱۱ | فصل (سبأ) | A: Sayf b. Dhī Yazan recovers Yemen before the Prophet's ﷺ birth | cached |
-| البدایہ 30097 | ج۵ ص۲۲ | قصة ثمامة ووفد بني حنيفة | A: «العنسي الذي قتله فيروز باليمن», editor-restored from al-Bukhārī | cached |
-| البدایہ 30097 | ج۷ ص۱۱–۱۷ | مقتل الأسود العنسي · خروجه | A: Abnāʾ, Bādhām, governors, rising, letters, widow, the night, adhān, Muʿādh | cached |
-| البدایہ 30097 | ج۷ ص۱۹, ص۲۳ | تصدي الصديق / ذي القصة | B: Kinda under al-Ashʿath (Ibn Isḥāq); al-Muhājir's ؓ commission | cached |
-| البدایہ 30097 | ج۷ ص۴۱–۴۳ | ردة أهل عمان ومهرة واليمن | A/B: Qays's motive; the Abnāʾ footnote; the span of the wars | cached |
-| البدایہ 30097 | ج۷ ص۵۹ | من توفي في هذه السنة | A: a month to Ṣanʿāʾ, 3–4 months, «بليال، وقيل بليلة» | cached |
-| البدایہ 30097 | ج۷ ص۶۱ | سنة ۱۲ (footnote) | C: editor quoting al-Qāmūs — the four kings came with al-Ashʿath | cached |
-| البدایہ 30097 | ج۷ ص۱۳۳, ص۱۳۹, ص۲۲۹, ص۲۴۳–۲۴۴ | القادسية / نهاوند / سنة ۲۱ | B/C: al-Ashʿath and ʿAmr to Rustam; the three men (Jābir, via Sayf) | cached |
-| البدایہ 30097 | ج۲ ص۵۰۷ | امرؤ القيس | C: the Muʿallaqa (the ḥadīth here is very weak — not usable) | fetched |
-| البدایہ 30097 | ج۵ ص۵۶, ص۸۹ | وفد كندة | C: «بنو آكل المرار»; «كانوا ملوكا»; the reply; ten-odd riders | fetched |
-| البدایہ 30097 | ج۹ ص۱۷۸–۱۷۹, ص۱۸۶–۱۸۷ | فتنة ابن الأشعث · دير الجماجم | C: disputed date; the break; Shaʿbān 82; ʿAbd al-Malik's offer refused | fetched |
-| الکامل 21712 | ج۱ ص۴۶۱–۴۶۴ | مقتل حجر أبي امرئ القيس | C: Ḥujr Ākil al-Murār; al-Ḥārith and al-Ḥīra; Ḥujr killed by Banū Asad | fetched |
-| الکامل 21712 | ج۲ ص۱۹۶–۲۰۱ | أخبار الأسود العنسي باليمن | A: the whole chapter; Jishnas's first-person account | cached |
-| الکامل 21712 | ج۲ ص۲۲۶–۲۳۳ | ردة اليمن (ثانية) · ردة حضرموت وكندة | B/C: Ṣanʿāʾ deportation; ʿAmr and Qays at Medina; Tabūk and Umm Salama ؓ; «وابنه» (Shuraḥbīl's son); the four kings; al-Nujayr | cached |
-| سیر 10906 | الراشدون ص۱۷–۱۸, ص۲۸–۳۲, ص۵۵, ص۶۱–۶۲ | أبو بكر الصديق · قصة الأسود | A/B: Sayf's version; al-Wāqidī's other account; the regret report; al-Nujayr under 12 AH | cached |
-| سیر 10906 | ج۲ ص۳۷–۴۳ | الأشعث بن قيس | B/C: صحبة; pardon and marriage; "seventy"; «إني ارتددت»; d. 40 AH | cached |
-| سیر 10906 | ج۳ ص۵۲۰–۵۲۱ | قيس بن مكشوح | B: his notice — no ridda mentioned; eye lost at al-Yarmūk | fetched |
-| سیر 10906 | ج۴ ص۱۸۳–۱۸۴ | ابن الأشعث | C: full name; the scholars with him; Rutbīl; d. 84 AH | fetched |
-| ابن خلدون 12320 | ج۲ ص۳۲۷; ج۲ ص۴۸۱–۴۸۴, ص۴۹۱–۴۹۴; ج۳ ص۶۱ | ملوك كندة · خبر العنسي · ردة اليمن · ابن الأشعث | framing only: Ḥujr over Maʿadd; «كاهنا مشعوذا»; al-Muhājir's illness; «جيش الطواويس» (not usable alone) | cached / fetched |
+| ⁨البدایہ⁩ 30097 | ⁨ج۲ ص۴۱۱⁩ | ⁨فصل⁩ (⁨سبأ⁩) | A: Sayf b. Dhī Yazan recovers Yemen before the Prophet's ﷺ birth | cached |
+| ⁨البدایہ⁩ 30097 | ⁨ج۵ ص۲۲⁩ | ⁨قصة ثمامة ووفد بني حنيفة⁩ | A: «⁨العنسي الذي قتله فيروز باليمن⁩», editor-restored from al-Bukhārī | cached |
+| ⁨البدایہ⁩ 30097 | ⁨ج۷ ص۱۱⁩–۱۷ | ⁨مقتل الأسود العنسي⁩ · ⁨خروجه⁩ | A: Abnāʾ, Bādhām, governors, rising, letters, widow, the night, adhān, Muʿādh | cached |
+| ⁨البدایہ⁩ 30097 | ⁨ج۷ ص۱۹⁩, ⁨ص۲۳⁩ | ⁨تصدي الصديق⁩ / ⁨ذي القصة⁩ | B: Kinda under al-Ashʿath (Ibn Isḥāq); al-Muhājir's ؓ commission | cached |
+| ⁨البدایہ⁩ 30097 | ⁨ج۷ ص۴۱⁩–۴۳ | ⁨ردة أهل عمان ومهرة واليمن⁩ | A/B: Qays's motive; the Abnāʾ footnote; the span of the wars | cached |
+| ⁨البدایہ⁩ 30097 | ⁨ج۷ ص۵۹⁩ | ⁨من توفي في هذه السنة⁩ | A: a month to Ṣanʿāʾ, 3–4 months, «⁨بليال، وقيل بليلة⁩» | cached |
+| ⁨البدایہ⁩ 30097 | ⁨ج۷ ص۶۱⁩ | ⁨سنة ۱۲⁩ (footnote) | C: editor quoting al-Qāmūs — the four kings came with al-Ashʿath | cached |
+| ⁨البدایہ⁩ 30097 | ⁨ج۷ ص۱۳۳⁩, ⁨ص۱۳۹⁩, ⁨ص۲۲۹⁩, ⁨ص۲۴۳⁩–۲۴۴ | ⁨القادسية⁩ / ⁨نهاوند⁩ / ⁨سنة ۲۱⁩ | B/C: al-Ashʿath and ʿAmr to Rustam; the three men (Jābir, via Sayf) | cached |
+| ⁨البدایہ⁩ 30097 | ⁨ج۲ ص۵۰۷⁩ | ⁨امرؤ القيس⁩ | C: the Muʿallaqa (the ḥadīth here is very weak — not usable) | fetched |
+| ⁨البدایہ⁩ 30097 | ⁨ج۵ ص۵۶⁩, ⁨ص۸۹⁩ | ⁨وفد كندة⁩ | C: «⁨بنو آكل المرار⁩»; «⁨كانوا ملوكا⁩»; the reply; ten-odd riders | fetched |
+| ⁨البدایہ⁩ 30097 | ⁨ج۹ ص۱۷۸⁩–۱۷۹, ⁨ص۱۸۶⁩–۱۸۷ | ⁨فتنة ابن الأشعث⁩ · ⁨دير الجماجم⁩ | C: disputed date; the break; Shaʿbān 82; ʿAbd al-Malik's offer refused | fetched |
+| ⁨الکامل⁩ 21712 | ⁨ج۱ ص۴۶۱⁩–۴۶۴ | ⁨مقتل حجر أبي امرئ القيس⁩ | C: Ḥujr Ākil al-Murār; al-Ḥārith and al-Ḥīra; Ḥujr killed by Banū Asad | fetched |
+| ⁨الکامل⁩ 21712 | ⁨ج۲ ص۱۹۶⁩–۲۰۱ | ⁨أخبار الأسود العنسي باليمن⁩ | A: the whole chapter; Jishnas's first-person account | cached |
+| ⁨الکامل⁩ 21712 | ⁨ج۲ ص۲۲۶⁩–۲۳۳ | ⁨ردة اليمن⁩ (⁨ثانية⁩) · ⁨ردة حضرموت وكندة⁩ | B/C: Ṣanʿāʾ deportation; ʿAmr and Qays at Medina; Tabūk and Umm Salama ؓ; «⁨وابنه⁩» (Shuraḥbīl's son); the four kings; al-Nujayr | cached |
+| ⁨سیر⁩ 10906 | ⁨الراشدون ص۱۷⁩–۱۸, ⁨ص۲۸⁩–۳۲, ⁨ص۵۵⁩, ⁨ص۶۱⁩–۶۲ | ⁨أبو بكر الصديق⁩ · ⁨قصة الأسود⁩ | A/B: Sayf's version; al-Wāqidī's other account; the regret report; al-Nujayr under 12 AH | cached |
+| ⁨سیر⁩ 10906 | ⁨ج۲ ص۳۷⁩–۴۳ | ⁨الأشعث بن قيس⁩ | B/C: ⁨صحبة⁩; pardon and marriage; "seventy"; «⁨إني ارتددت⁩»; d. 40 AH | cached |
+| ⁨سیر⁩ 10906 | ⁨ج۳ ص۵۲۰⁩–۵۲۱ | ⁨قيس بن مكشوح⁩ | B: his notice — no ridda mentioned; eye lost at al-Yarmūk | fetched |
+| ⁨سیر⁩ 10906 | ⁨ج۴ ص۱۸۳⁩–۱۸۴ | ⁨ابن الأشعث⁩ | C: full name; the scholars with him; Rutbīl; d. 84 AH | fetched |
+| ⁨ابن خلدون⁩ 12320 | ⁨ج۲ ص۳۲۷⁩; ⁨ج۲ ص۴۸۱⁩–۴۸۴, ⁨ص۴۹۱⁩–۴۹۴; ⁨ج۳ ص۶۱⁩ | ⁨ملوك كندة⁩ · ⁨خبر العنسي⁩ · ⁨ردة اليمن⁩ · ⁨ابن الأشعث⁩ | framing only: Ḥujr over Maʿadd; «⁨كاهنا مشعوذا⁩»; al-Muhājir's illness; «⁨جيش الطواويس⁩» (not usable alone) | cached / fetched |
 
 ## Verified findings worth reusing
 
@@ -215,4 +215,19 @@ All cached from the household research notes; this is the register entry for put
 | ⁨سیر أعلام النبلاء⁩ 10906 | 2411 | ⁨ج۲ ص۴۳۱⁩ | the ⁨جمع⁩ dialogue in ⁨زيد بن ثابت ؓ⁩'s own words — «⁨كَيْفَ تَفْعَلُوْنَ شَيْئاً لَمْ يَفْعَلْهُ رَسُوْلُ اللهِ⁩ …» / «⁨هُوَ -وَاللهِ- خَيْرٌ⁩». The new card `RCT/E-RC65` |
 | ⁨البدایہ والنہایہ⁩ 30097 | 3181 | ⁨ج۷ ص۳۵⁩ | Ibn Kathīr's own figures for the day — «⁨وقتل من المسلمين ستمئة، وقيل: خمسمئة، فالله أعلم⁩», with Banū Ḥanīfa «⁨قريبًا من عشرة آلاف، وقيل: أحد وعشرون ألفًا⁩». `ZIA/E-ZY17` beats 4–5, **given as approximate because the book gives them that way** |
 | ⁨البدایہ والنہایہ⁩ 30097 | 3180, 3206 | ⁨ج۷ ص۳۴⁩, ⁨ج۷ ص۶۰⁩ | read for the ⁨محكم بن الطفيل⁩ question: he advised Banū Ḥanīfa into the garden, and «⁨أدرك عبد الرحمن بن أبي بكر محكمَ بن الطفيل فرماه بسهمٍ في عنقه وهو يخطب فقتله⁩». **Not yet carded — Daniyal's decision** |
-
+| ⁨الکامل فی التاریخ⁩ 21712 | 909 | ⁨ج۲ ص۲۱۸⁩ | the terms at the forts — «⁨فَصَالَحَهُ عَلَى كُلِّ شَيْءٍ دُونَ النُّفُوسِ⁩», then «⁨عَلَى الذَّهَبِ وَالْفِضَّةِ وَالسِّلَاحِ وَنِصْفِ السَّبْيِ، وَقِيلَ⁩: ⁨رُبْعُهُ⁩»; why he settled; and Ibn al-Athīr's count of the dead (360 + 300; Banū Ḥanīfa 7,000 × 3). `RCT/E-RC67`, `ZIA/E-ZY17` beats 6–7 (2026-09-27, `DECISIONS.md` #61) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1196 | ⁨الراشدون ص۴۸⁩ | ʿUrwa's list of the terms — gold and silver, armour and horses, half the slaves, a walled garden from every village; Salama b. ʿUmayr's «⁨قاتلوا ولا تقاضوا⁩»; «⁨فأسلم سائرهم⁩»; al-Zuhrī's men in the fort, spared (⚠ the number-word is misprinted — no figure spoken). `RCT/E-RC67`, `RC68` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3181 | ⁨ج۷ ص۳۵⁩ | «⁨فأسلموا عن آخرهم ورجعوا إلى الحق⁩», some captives returned, the rest sent to al-Ṣiddīq; ⚠ ʿAlī ؓ and the mother of Muḥammad b. al-Ḥanafiyya (on the page; not for the platform). `RCT/E-RC68` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3182 | ⁨ج۷ ص۳۶⁩ | the delegation of Banū Ḥanīfa at Medina and Musaylima's rhymed prose; «⁨فيقال⁩: ⁨إن الصّدّيق قال لهم⁩: ⁨ويحكم، أينَ كانَ يذهبُ بقولكم؟ إن هذا الكلام لم يخرج من إلٍّ⁩» — hedged on the page. `RCT/E-RC69` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3187 | ⁨ج۷ ص۴۱⁩ | Oman — Laqīṭ «⁨ذو التاج⁩ … ⁨فادّعى النُّبوَّة أيضًا⁩»; «⁨فبعثَ جيفر إلى الصديق فأخبره الخبر واستجاشه⁩»; the command arrangement and «⁨إن ينتهيا إلى رأي عكرمة⁩»; Dabā with the families behind. `RCT/E-RC70`, `RC29` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 910 | ⁨ج۲ ص۲۱۹⁩ | the order to gather the Qurʾān inside the account of the battle — «⁨لِئَلَّا يَذْهَبَ الْقُرْآنُ⁩», «⁨وَسَيَرِدُ مُبَيَّنًا سَنَةَ ثَلَاثِينَ⁩»; **no mention of al-Bukhārī on the page** (the correction to `RCT/E-RC37` beat 6 and to the jamʿ note §5.1, 2026-09-27, `DECISIONS.md` #66) |
+| ⁨الکامل فی التاریخ⁩ 21712 | 917 | ⁨ج۲ ص۲۲۶⁩ | Dabā — «⁨وَاسْتَعْلَى لَقِيطٌ⁩ … ⁨مَوَادُّهُمُ الْعُظْمَى⁩» from Banū Nājiya (al-Khirrīt b. Rāshid) and ʿAbd al-Qays (Sayḥān b. Wuṣḥān), ten thousand killed (his figure); the fifth with ʿArfaja; Mahra — Shikhrīt «⁨فَأَجَابَهُ وَأَسْلَمَ⁩». `RCT/E-RC29`, `RC30`, `RC70` (logged late, 2026-09-27) |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3188 | ⁨ج۷ ص۴۲⁩ | the relief «⁨في الساعة الراهنة⁩»; Mahra's two forces — «⁨على أحدهما - وهم الأكثر - أميرٌ يُقالُ له: المصبح، أحد بني محارب⁩»; «⁨وكان هذا الاختلاف رحمة على المؤمنين⁩»; harder than Dabā; the fifth with Shikhrīt. `RCT/E-RC29`, `RC30` (2026-09-27) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1756 | ⁨ج۱ ص۳۳۰⁩ | al-Ḥārith b. Hishām «⁨مِنَ الصَّحَابَةِ الأَشْرَافِ، وَهُوَ أَخُو أَبِي جَهْلٍ⁩» — Umm Ḥakīm's ؓ father; evening 5's Tree C. `TMW/E-TRN7` (2026-09-27) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 823 | ⁨السیرة ۲ ص۱۶۴⁩ | «⁨واستأذنت أم حكيم بنت الحارث بن هشام وهي يومئذ مسلمة، وهي تحت عكرمة بن أبي جهل⁩» — the safe-conduct. `TMW/E-TRN7` (logged late, 2026-09-27) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1299 | ⁨الراشدون ص۱۵۷⁩ | the ṣuḥuf with Ḥafṣa ؓ, borrowed by ʿUthmān ؓ and returned; Ḥudhayfa's report from the campaign toward Armenia. `ABU/E-Q5` (logged late; the report added to the card 2026-09-27) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1211 | ⁨الراشدون ص۶۳⁩ | «⁨حتى جمعه زيد في صحف⁩» — the year-by-year notice of the collection. `ABU/E-Q3` beat 6 (logged late, 2026-09-27) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1163 | ⁨الراشدون ص۱۵⁩ | ʿAlī ؓ: «⁨أعظم الناس أجرا في المصاحف أبو بكر⁩ …», «⁨إسناده حسن⁩». `ABU/E-Q4` (logged late, 2026-09-27) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2408 | ⁨ج۲ ص۴۲۸⁩ | Zayd b. Thābit ؓ, the boy of Banū al-Najjār with seventeen sūras; «⁨يَا زَيْدُ! تَعَلَّمْ لِي كِتَابَ يَهُوْدٍ⁩ …». `ABU/E-Q7` (logged late, 2026-09-27) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2409 | ⁨ج۲ ص۴۲۹⁩ | «⁨فَمَا مَضَى لِي نِصْفُ شَهْرٍ حَتَّى حَذَقْتُهُ⁩»; Syriac in seventeen days; «⁨إِذَا نَزَلَ عَلَيْهِ الوَحْيُ، بَعَثَ إِلَيَّ، فَكَتَبْتُهُ⁩». `ABU/E-Q7` (2026-09-27) |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 2412 | ⁨ج۲ ص۴۳۲⁩ | al-Shaʿbī: «⁨غَلَبَ زَيْدٌ النَّاسَ عَلَى اثْنَتَيْنِ: الفَرَائِضِ، وَالقُرْآنِ⁩». `ABU/E-Q7` (2026-09-27) |

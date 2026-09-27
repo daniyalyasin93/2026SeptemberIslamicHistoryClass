@@ -1017,6 +1017,14 @@ throwaway script lived at `F:\AppData\Local\Temp\claude\sh_search.py`. On Window
 ### E-TRN6 · The ship, and the vow
 **Tier:** CORE · **When:** ⁨رمضان ۸ھ⁩, at the Conquest `[STANDARD]` (to verify) · **Map:** Mecca → the Tihāma coast → the sea → back
 **What happened:** When Mecca fell, ʿIkrima b. Abī Jahl was one of the few whose blood was not covered by the amnesty. He rode for the coast and took ship. A squall struck. The people on board told one another to be sincere to God alone, because their gods would be no use out there. ʿIkrima heard it. What he said next he said there, in the storm.
+**Beats:**
+1. Whose son he was — ʿIkrima, son of Abū Jahl: the man who led Quraysh against the Prophet ﷺ at Badr, and was killed there.
+2. The Conquest of Mecca, 8 AH — He was one of the few whose blood the amnesty did not cover.
+3. He ran for the sea — He rode for the coast and took a ship.
+4. The squall — The people on board said: be sincere to God alone; your gods are no use out here.
+5. What he said in the storm — If nothing saves at sea but sincerity, then nothing else saves on land either.
+6. The vow — If God brings him through, he will go to Muḥammad ﷺ and put his hand in his hand.
+**Quote after beat:** 6
 **The statement:**
 > <div dir="rtl">⁨وَاللَّهِ لَئِنْ لَمْ يُنْجِ فِي الْبَحْرِ إِلَّا الْإِخْلَاصُ فَإِنَّهُ لَا يُنْجِي فِي الْبَرِّ غَيْرُهُ، اللَّهُمَّ إِنَّ لَكَ عَلَيَّ عَهْدًا إِنْ أَنْتَ عَافَيْتَنِي مِمَّا أَنَا فِيهِ، أَنْ آتِيَ مُحَمَّدًا حَتَّى أَضَعَ يَدِي فِي يَدِهِ فَلَأَجِدَنَّهُ عَفُوًّا كَرِيمًا⁩</div>
 > — ⁨البدایہ والنہایہ ج۴ ص۵۵۰⁩ · https://shamela.ws/book/30097/2039
@@ -1027,16 +1035,36 @@ throwaway script lived at `F:\AppData\Local\Temp\claude\sh_search.py`. On Window
 ### E-TRN7 · Umm Ḥakīm ؓ goes after her husband
 **Tier:** CORE · **When:** ⁨رمضان ۸ھ⁩ `[STANDARD]` (to verify) · **Map:** Mecca → Yemen / Tihāma → Medina. This is a real journey; draw the arrow.
 **What happened:** Umm Ḥakīm bint al-Ḥārith b. Hishām accepted Islam on the day of the Conquest. Her husband had fled. She went to the Prophet ﷺ herself and asked leave to go after him, and asked safe-conduct for him. He gave her both. She travelled with a servant who tried to force himself on her; she put him off until she reached some people who bound him for her. She caught her husband somewhere in Tihāma, with him already aboard the ship. She brought him back.
+**Beats:**
+1. His wife — Umm Ḥakīm bint al-Ḥārith b. Hishām ؓ became a Muslim on the day of the Conquest.
+2. She went to the Prophet ﷺ herself — And asked leave to go after her husband, and safe-conduct for him. He gave her both.
+3. The road — A servant travelling with her turned on her; she held him off until people on the way bound him for her.
+4. At the shore — She reached him in Tihāma, already aboard the ship — and she brought him back.
+**Quote after beat:** 2
 **The statement:**
 > <div dir="rtl">⁨فاستأذنت رسول الله صلى الله عليه وسلم في طلب زوجها، فأذن لها وآمنه⁩</div>
 > — ⁨سیر أعلام النبلاء، ج السیرۃ ۲ ص۱۶۴⁩ · https://shamela.ws/book/10906/823
 > *English:* "She asked the Messenger of Allah ﷺ leave to go after her husband, and he gave her leave and granted him safe-conduct."
 **⁨عبرت⁩:** The safe-conduct that brought ʿIkrima ؓ back was asked for by his wife, in person.
 **Hands-up?** no
+**Whose daughter she was** (added 2026-09-27 for evening 5's family tree — on §1's household list, on no card until
+now). She is «⁨أم حكيم بنت الحارث بن هشام⁩» on the card's own page; and al-Ḥārith b. Hishām ؓ was Abū Jahl's brother,
+so she was ʿIkrima's ؓ cousin — his father's brother's daughter:
+
+> وَالحَارِثُ بنُ هِشَامِ بنِ المُغِيْرَةِ المَخْزُوْمِيُّ أَبُو عَبْدِ الرَّحْمَنِ مِنَ الصَّحَابَةِ الأَشْرَافِ، وَهُوَ أَخُو أَبِي جَهْلٍ
+> — ⁨سیر أعلام النبلاء ج۱ ص۳۳۰⁩ · https://shamela.ws/book/10906/1756
+> *English:* "And al-Ḥārith b. Hishām b. al-Mughīra al-Makhzūmī, Abū ʿAbd al-Raḥmān, one of the noble Companions — and he
+> is Abū Jahl's brother."
 
 ### E-TRN8 · The cloak
 **Tier:** CORE · **When:** ⁨۸ھ⁩ `[STANDARD]` (to verify) · **Map:** Medina
 **What happened:** ʿIkrima came in to the Prophet ﷺ with his wife. This is the son of the man who had led Quraysh against him at Badr, and who had been killed there. The books record what the Prophet ﷺ did when he saw him. He did not wait for him to reach the front. He got up.
+**Beats:**
+1. The two of them come in — ʿIkrima, with his wife, to the Prophet ﷺ.
+2. Whose son this is — The son of the man who led Quraysh against him at Badr, and was killed there.
+3. What the Prophet ﷺ did — He did not wait for him to come close: he sprang up in joy and threw his cloak over him.
+4. The pledge — The cloak was over him until he had pledged his allegiance.
+**Quote after beat:** 3
 **The statement:**
 > <div dir="rtl">⁨فَلَمَّا رَآهُ وَثَبَ فَرَحًا بِهِ، وَرَمَى عَلَيْهِ رِدَاءَهُ حَتَّى بَايَعَهُ⁩</div>
 > — ⁨سیر أعلام النبلاء، ج السیرۃ ۲ ص۱۸۵⁩ · https://shamela.ws/book/10906/844

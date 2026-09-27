@@ -1738,7 +1738,9 @@ reciters died. We only know that it was enough.
 3. What none of them gives — A number for the reciters.
 4. Ibn Kathīr's figures are approximate, and he says so — Six hundred Muslim dead, or five hundred: «and Allah knows best».
 5. And twenty pages later — Four hundred and fifty, counting reciters, Companions and others together.
-6. So we say it plainly — We know why the Qurʾān was collected. We do not know how many were lost. Only that it was enough.
+6. Ibn al-Athīr counts differently — 360 of the Muhājirūn and Anṣār of Medina, and 300 Muhājirūn from elsewhere.
+7. And Banū Ḥanīfa's dead, in his count — Seven thousand at ʿAqrabāʾ, as many in the garden, and about as many in the pursuit.
+8. So we say it plainly — We know why the Qurʾān was collected. We do not know how many were lost. Only that it was enough.
 **Quote after beat:** 2
 **The statement:**
 > وذلك بعد ما استَحَرّ القتلُ في القُرّاء يوم اليمامة كما ثبت به الحديث في صحيح البخاري.
@@ -1752,6 +1754,20 @@ would you guess?"* — then give the honest answer: the books do not say.
 ⚠ **This is the card that stops a wrong number being said. The figures the safe list does give run
 from 58 to more than 1,080 (§Y), and none of them is a count of reciters.** ⚠ **Anyone who says "450
 reciters" has misread ⁨البدایہ ج۷ ص۵۵⁩.**
+**Ibn al-Athīr's count, beside Ibn Kathīr's** (added 2026-09-27, `DECISIONS.md` #61 — the room's next question
+after the terms is *"and how many of them died?"*) — ⁨الکامل ج۲ ص۲۱۸⁩ (https://shamela.ws/book/21712/909):
+> وَقَدْ قُتِلَ مِنَ الْمُهَاجِرِينَ وَالْأَنْصَارِ مِنْ أَهْلِ الْمَدِينَةِ ثَلَاثُمِائَةٍ وَسِتُّونَ، وَمِنَ الْمُهَاجِرِينَ مِنْ غَيْرِ الْمَدِينَةِ ثَلَاثُمِائَةِ رَجُلٍ
+> — ⁨الکامل فی التاریخ ج۲ ص۲۱۸⁩ · https://shamela.ws/book/21712/909
+> *English:* "There had been killed, of the Muhājirūn and the Anṣār of the people of Medina, three hundred
+> and sixty; and of the Muhājirūn not of Medina, three hundred men."
+
+> وَقُتِلَ مِنْ بَنِي حَنِيفَةَ بِعُقْرَبَاءَ سَبْعَةُ آلَافٍ، وَبِالْحَدِيقَةِ مِثْلُهَا، وَفِي الطَّلَبِ نَحْوٌ مِنْهَا
+> — ⁨الکامل فی التاریخ ج۲ ص۲۱۸⁩ · https://shamela.ws/book/21712/909
+> *English:* "And of Banū Ḥanīfa there were killed at ʿAqrabāʾ seven thousand, in the garden as many,
+> and in the pursuit about as many."
+
+**Every number is said with its book.** None of them is a count of reciters, and the two books' Muslim
+totals do not agree — which is the card's point, not a problem for it.
 
 ---
 

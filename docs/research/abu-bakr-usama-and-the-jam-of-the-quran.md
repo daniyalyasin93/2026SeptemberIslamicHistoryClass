@@ -494,6 +494,17 @@ of ⁨أبو بكر ؓ⁩'s death and virtues (⁨الکامل ج۲⁩, «⁨ذ�
 ⁨ص۲۶۴⁩–۲۶۵). **The ⁨جمع⁩ as an event — ⁨زيد ؓ⁩ commissioned, the search, the ⁨صحف⁩ — is narrated in ⁨البدایہ⁩
 and in ⁨سیر⁩ and in neither case in ⁨الکامل⁩. Do not cite ⁨الکامل⁩ for the ⁨جمع⁩.**
 
+⚠ **Corrected 2026-09-27 — this was too strong.** ⁨الکامل ج۲ ص۲۱۹⁩ carries the order inside its account of
+the battle, with its reason:
+
+> أَمَرَ أَبُو بَكْرٍ بِجَمْعِ الْقُرْآنِ لِمَا رَأَى مِنْ كَثْرَةِ مَنْ قُتِلَ مِنَ الصَّحَابَةِ؛ لِئَلَّا يَذْهَبَ الْقُرْآنُ، وَسَيَرِدُ مُبَيَّنًا سَنَةَ ثَلَاثِينَ
+> — ⁨الکامل فی التاریخ ج۲ ص۲۱۹⁩ · https://shamela.ws/book/21712/910
+> *English:* "Abū Bakr ordered the Qurʾān gathered, because of how many of the Companions he saw had been
+> killed — so that the Qurʾān would not be lost; and it will come, set out in full, under the year thirty."
+
+What ⁨الکامل⁩ does not carry is the narrative — Zayd ؓ commissioned, the search, the ⁨صحف⁩ — and that is still
+cited to ⁨البدایہ⁩ and ⁨سیر⁩ only. See `ridda-campaign-the-conduct-of-the-wars.md`, `E-RC37`.
+
 ⚠ **One qualification, on a page that was read.** ⁨الکامل⁩ is not quite silent on the ⁨مصحف⁩. In the run
 of ⁨أبو بكر ؓ⁩'s "firsts" at **⁨ج۲ ص۲۶۶⁩** ⁨ابن الاثیر⁩ has «⁨وَأَوَّلَ مَنْ سَمَّى مُصْحَفَ الْقُرْآنِ⁩
 ⁨مُصْحَفًا⁩» — *"and the first to call the ⁨مصحف⁩ of the Qur'an a ⁨مصحف⁩"* (https://shamela.ws/book/21712/957).
@@ -1007,6 +1018,7 @@ some of it is dropped.
 **Hands-up?** Ask: *if every copy of a book you loved lived only in people's memories, how many
 funerals would it take to lose it?*
 *(Never put a number of ⁨قرّاء⁩ on the slide — none of our sources gives one.)*
+**Not run on evening 5 (2026-09-27):** `ZIA/E-ZY17` carries Ibn Kathīr's count and «⁨استحرّ القتل في القرّاء⁩»; this card repeats it.
 
 ---
 
@@ -1028,6 +1040,7 @@ there is.
 **⁨عبرت⁩:** The men closest to the Prophet ﷺ were the most afraid of adding to what he ﷺ left — which
 is exactly why what they did add can be trusted.
 **Hands-up?** no
+**Not run on evening 5 (2026-09-27):** `RCT/E-RC65` is this card with beats, from the same page (⁨سیر ج۲ ص۴۳۱⁩).
 
 ---
 
@@ -1040,6 +1053,14 @@ Companions had written it on: strips of parchment, the
 flat shoulder-blades of animals, the bare stalks of palm branches, thin white stones — and out of
 the memories of the men who had it by heart. Then it was one set of ⁨صحف⁩, in one place, for the
 first time.
+**Beats:**
+1. Nothing to copy from — There was no single written volume; the Qurʾān had to be tracked down.
+2. His own word for it — Tatabbaʿa: to follow a thing up, piece by piece.
+3. Parchment and shoulder-blades — Strips of parchment, and the flat shoulder-blades of animals.
+4. Palm-stalks and white stones — The bare stalks of palm branches; Ibn Kathīr names thin white stones too.
+5. And the breasts of men — The memories of the men who had it by heart.
+6. One set of ṣuḥuf — Until Zayd ؓ had gathered it into ṣuḥuf: in one place, for the first time.
+**Quote after beat:** 5
 **The statement:**
 > فَكُنْتُ أَتَتَبَّعُ القُرْآنَ، أَجْمَعُهُ مِنَ الرِّقَاعِ، وَالأَكْتَافِ، وَالعُسُبِ، وَصُدُوْرِ الرِّجَالِ.
 > — ⁨سیر أعلام النبلاء ج۲ ص۴۳۱⁩ · https://shamela.ws/book/10906/2411
@@ -1049,6 +1070,12 @@ first time.
 properly.
 **Hands-up?** Ask the room to name the four things after you have said them once. It is the one line
 in the evening everybody will remember.
+**One set of ṣuḥuf** (beat 6) — ⁨الذہبی⁩'s year-by-year notice:
+
+> حتى جمعه زيد في صحف.
+> — ⁨سیر أعلام النبلاء، سیر الخلفاء الراشدين ص۶۳⁩ · https://shamela.ws/book/10906/1211
+> *English:* "…until Zayd gathered it into ṣuḥuf."
+
 *(Ibn Kathīr's own wording at ⁨البدایہ ج۷ ص۷۹⁩ names ⁨اللِّخاف⁩ — the thin white stones — where ⁨الذہبی⁩
 names ⁨الرقاع⁩. If both are wanted, say so and cite both.)*
 
@@ -1061,6 +1088,12 @@ says when he said it. The chain is graded **⁨حسن⁩** by ⁨الذہبی⁩
 **What happened:** The judgement on this decision does not have to come from us, and it does not
 have to come from a later historian. It comes from ⁨علی بن أبی طالب ؓ⁩, and ⁨الذہبی⁩ records his chain
 and grades it good.
+**Beats:**
+1. Whose judgement this is — Not ours, and not a later historian's: ʿAlī b. Abī Ṭālib ؓ.
+2. How it is recorded — al-Dhahabī gives its chain, and grades the chain good.
+3. What ʿAlī ؓ said — The greatest of men in reward for the maṣāḥif is Abū Bakr ؓ.
+4. The reason he gave — He was the first to gather the Qurʾān between two boards.
+**Quote after beat:** 4
 **The statement:**
 > أعظم الناس أجرا في المصاحف أبو بكر، كان أول من جمع القرآن بين اللوحين
 > — ⁨سیر أعلام النبلاء، سیر الخلفاء الراشدين ص۱۵⁩ · https://shamela.ws/book/10906/1163
@@ -1076,10 +1109,19 @@ need to say it yourself.
 **Tier:** GOOD · **When:** ⁨۱۲ھ⁩, and then across two more caliphates `[SOURCED]` for the endpoint ·
 **Map:** a single arrow: ⁨المدینہ⁩ → ⁨المدینہ⁩. Nothing moves. That is the point.
 **What happened:** The ⁨صحف زيد ؓ⁩ gathered did not go into a library or a treasury. They stayed in
-the household. Twenty-odd years later, when ⁨حذيفة ؓ⁩ came back from the Armenian front alarmed at how
+the household. A caliphate and a half later, when ⁨حذيفة ؓ⁩ came back from the Armenian front alarmed at how
 differently the men of ⁨الشام⁩ and the men of ⁨العراق⁩ were reciting, ⁨عثمان ؓ⁩ sent for them — and he
 sent to ⁨حفصة بنت عمر ؓ⁩, a wife of the Prophet ﷺ and the daughter of the second caliph. She sent
 them. They were copied. Then he sent them back to her.
+**Beats:**
+1. A look ahead, and say so — This is in a caliphate the course has not reached; note only where the ṣuḥuf went.
+2. Where they stayed — Not in a library or a treasury: in the household.
+3. A report from the front — A Companion campaigning toward Armenia heard the men of al-Shām and al-ʿIrāq disputing over the Qurʾān.
+4. "Reach this ummah" — Before they differ over the Qurʾān as the Jews and the Christians differed over their books.
+5. ʿUthmān ؓ sends to Ḥafṣa ؓ — Mother of the believers: send us the ṣuḥuf in which the Qurʾān was gathered.
+6. Copied — Zayd b. Thābit ؓ was one of the four men who copied them into the maṣāḥif.
+7. And given back — Then ʿUthmān ؓ returned the ṣuḥuf to Ḥafṣa ؓ.
+**Quote after beat:** 7
 **The statement:**
 > فأرسل إلى حفصة أم المؤمنين: أن أرسلي بالصحف التي جمع فيها القرآن، فأرسلت إليه بها … ثم رد عثمان الصحف إلى حفصة
 > — ⁨سیر أعلام النبلاء، سیر الخلفاء الراشدين ص۱۵۷⁩ · https://shamela.ws/book/10906/1299
@@ -1088,6 +1130,18 @@ them. They were copied. Then he sent them back to her.
 **⁨عبرت⁩:** What is entrusted is returned. The whole transmission of this book is a chain of things
 handed back intact.
 **Hands-up?** no
+⚠ **Corrected 2026-09-27:** the prose said *twenty-odd years later*; no page gives an interval, and ⁨الکامل⁩ files
+the copying under the year thirty (`RCT/E-RC37`). Say *a caliphate and a half later*, or *years later*.
+⚠ **Do not name the Companion who brought the report on evening 5** — the page names him ⁨حذيفة⁩, and the evening
+already carries ⁨أبو حذيفة ؓ⁩ and ⁨حذيفة بن محصن⁩. Say *a Companion, back from the front*. The report, on the page:
+
+> وقال أنس: إن حذيفة قدم على عثمان، وكان يغزو مع أهل العراق قبل أرمينية، فاجتمع في ذلك الغزو أهل الشام وأهل العراق، فتنازعوا في القرآن حتى سمع حذيفة من اختلافهم ما يكره، فركب حتى أتى عثمان فقال: يا أمير المؤمنين أدرك هذه الأمة قبل أن يختلفوا في القرآن اختلاف اليهود والنصارى في الكتب.
+> — ⁨سیر أعلام النبلاء، سیر الخلفاء الراشدين ص۱۵۷⁩ · https://shamela.ws/book/10906/1299
+> *English:* "Anas said: Ḥudhayfa came to ʿUthmān — he had been campaigning with the people of Iraq toward
+> Armenia, and the people of al-Shām and of Iraq met in that campaign and disputed over the Qurʾān, until
+> Ḥudhayfa heard in their differences what he disliked. He rode to ʿUthmān and said: Commander of the
+> Faithful, reach this ummah before they differ over the Qurʾān as the Jews and the Christians differed over
+> the books."
 *(Do **not** recite "⁨أبو بكر⁩ → ⁨عمر⁩ → ⁨حفصة⁩" as a three-step chain on the slide. The middle step is
 ⁨البخاري⁩'s and is not on any page we hold. What is sourced is: they were with ⁨حفصة ؓ⁩, borrowed, and
 returned.)*
@@ -1107,6 +1161,9 @@ few who already had the whole of it and had also physically written it down.
 > ⁨أنصار⁩: ⁨أُبَيّ⁩, and ⁨مُعاذ⁩, and ⁨زيد بن ثابت⁩, and ⁨أبو زيد⁩."
 **⁨عبرت⁩:** Being ready is not something you do on the day you are needed.
 **Hands-up?** no
+**Not run on evening 5 (2026-09-27):** it is a *second* list of four — Anas's, of those who had it all by heart — on the evening that
+already tells `AHA/E-AS09`'s four, whom the Prophet ﷺ named to learn it from. Two different fours in one
+evening is a confusion, not a lesson.
 
 ---
 
@@ -1116,6 +1173,15 @@ few who already had the whole of it and had also physically written it down.
 already been killed at ⁨بُعاث⁩, so he grew up an orphan. They brought him forward and said: this boy
 of ⁨بنو النجار⁩ has already memorised seventeen of the ⁨سور⁩ that came down to you. He recited, and the
 Prophet ﷺ was pleased, and gave him a task on the spot.
+**Beats:**
+1. The man Abū Bakr ؓ sent for — Zayd b. Thābit ؓ, of Banū al-Najjār of the Khazraj; al-Dhahabī calls him the scribe of the revelation.
+2. An orphan of Buʿāth — His father was killed before the Hijra, on the day of Buʿāth, and he grew up an orphan.
+3. Eleven, and seventeen sūras — When the Prophet ﷺ came to Medina the boy was brought forward: he already knew seventeen sūras.
+4. A task on the spot — Zayd, learn for me the writing of the Jews; by Allah, I do not trust them with my letters.
+5. Half a month — He had mastered it inside half a month, and wrote the Prophet's ﷺ letters to them.
+6. When revelation came — The Prophet ﷺ would send for him, and he would write it down.
+7. What he was remembered for — al-Shaʿbī: Zayd surpassed the people in two things, inheritance-law and the Qurʾān.
+**Quote after beat:** 4
 **The statement:**
 > يَا زَيْدُ! تَعَلَّمْ لِي كِتَابَ يَهُوْدٍ، فَإِنِّي -وَاللهِ- مَا آمَنُهُمْ عَلَى كِتَابِي
 > — ⁨سیر أعلام النبلاء ج۲ ص۴۲۸⁩–۴۲۹ (the last word falls on ⁨ص۴۲۹⁩) · https://shamela.ws/book/10906/2408
@@ -1123,6 +1189,33 @@ Prophet ﷺ was pleased, and gave him a task on the spot.
 > correspondence."
 **⁨عبرت⁩:** The people who end up carrying something were given small jobs first, and did them.
 **Hands-up?** no
+**The notice, line by line** (added 2026-09-27 from §5.3 — on no card until now). ⁨الذہبی⁩'s heading ends:
+
+> الخَزْرَجِيُّ، النَّجَّارِيُّ، الأَنْصَارِيُّ، كَاتِبُ الوَحْيِ
+> — ⁨سیر أعلام النبلاء ج۲ ص۴۲۷⁩ · https://shamela.ws/book/10906/2407
+> *English:* "…the Khazrajī, of Banū al-Najjār, the Anṣārī, the scribe of the revelation."
+
+> وَقَدْ قُتِلَ أَبُوْهُ قَبْلَ الهِجْرَةِ يَوْمَ بُعَاثٍ، فَرُبِّيَ زَيْدٌ يَتِيْماً.
+> — ⁨سیر أعلام النبلاء ج۲ ص۴۲۷⁩ · https://shamela.ws/book/10906/2407
+> *English:* "His father had been killed before the Hijra, on the day of Buʿāth, so Zayd was raised an orphan."
+
+> يَا رَسُوْلَ اللهِ! هَذَا غُلاَمٌ مِنْ بَنِي النَّجَّارِ، وَقَدْ قَرَأَ مِمَّا أُنْزِلَ عَلَيْكَ سَبْعَ عَشْرَةَ سُوْرَةً.
+> — ⁨سیر أعلام النبلاء ج۲ ص۴۲۸⁩ · https://shamela.ws/book/10906/2408
+> *English:* "Messenger of Allah! This is a boy of Banū al-Najjār, and he has already recited seventeen of the
+> sūras sent down to you."
+
+> كَانَ رَسُوْلُ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ- إِذَا نَزَلَ عَلَيْهِ الوَحْيُ، بَعَثَ إِلَيَّ، فَكَتَبْتُهُ
+> — ⁨سیر أعلام النبلاء ج۲ ص۴۲۹⁩ · https://shamela.ws/book/10906/2409
+> *English:* "When revelation came down upon the Messenger of Allah ﷺ he would send for me, and I would
+> write it."
+
+> غَلَبَ زَيْدٌ النَّاسَ عَلَى اثْنَتَيْنِ: الفَرَائِضِ، وَالقُرْآنِ
+> — ⁨سیر أعلام النبلاء ج۲ ص۴۳۲⁩ · https://shamela.ws/book/10906/2412 (al-Shaʿbī)
+> *English:* "Zayd surpassed the people in two things: the inheritance-law, and the Qurʾān."
+
+The same page as the fortnight (⁨ج۲ ص۴۲۹⁩) records that he learned Syriac too, at the Prophet's ﷺ instruction, in
+seventeen days — background, not a beat.
+⚠ **The evening's fourth Zayd.** Say the full name every time: Zayd b. Thābit ؓ.
 *(He adds on the next page, ⁨سیر ج۲ ص۴۲۹⁩: «⁨فَتَعَلَّمْتُهُ، فَمَا مَضَى لِي نِصْفُ شَهْرٍ حَتَّى⁩
 ⁨حَذَقْتُهُ⁩» — "I learned it, and half a month had not passed before I had mastered it." His age at
 the ⁨جمع⁩ is not stated in any source we hold; the arithmetic gives about twenty-one, and must be
@@ -1215,36 +1308,5 @@ turn and that nothing is omitted. The second was already described in the note's
 
 ## Card written from §5.2 (2026-09-23, `DECISIONS.md` #52)
 
-### E-RC65 · «How do you do a thing the Prophet ﷺ did not do?»
-**Tier:** CORE · **When:** ⁨۱۲ھ⁩, ⁨المدینہ⁩ `[SOURCED]` · **Map:** n/a — the Line, on ⁨۱۲ھ⁩.
-**What happened:** Abū Bakr ؓ sent for Zayd b. Thābit ؓ and told him plainly why it was him: a young
-man, of sound judgement, not suspected — and he had written the revelation for the Prophet ﷺ. Then he
-told him to follow the Qurʾān up and gather it. Zayd ؓ did not say yes. He asked how they could do a
-thing the Messenger of Allah ﷺ had not done. Abū Bakr ؓ answered him in three words: by Allah, it is
-good. And he kept coming back to him — these are Zayd's ؓ own words — until Allah opened his breast to
-what He had opened the breast of Abū Bakr ؓ and ʿUmar ؓ to. Then he went and gathered it: from the
-parchments, the shoulder-blades, the palm-stalks, and the breasts of men.
-**Beats:**
-1. Why him — A young man, of sound judgement, not suspected; and he had written the revelation for the Prophet ﷺ.
-2. The order — Follow the Qurʾān up, and gather it.
-3. He did not say yes — How do you do a thing the Messenger of Allah ﷺ did not do?
-4. The answer, in three words — By Allah, it is good.
-5. What changed it — Abū Bakr ؓ kept coming back to him, until Allah opened his breast to what He had opened theirs to.
-6. What he gathered it from — The parchments, the shoulder-blades, the palm-stalks, and the breasts of men.
-**Quote after beat:** 4
-**The statement:**
-> إِنَّكَ رَجُلٌ شَابٌّ عَاقِلٌ لاَ نَتَّهِمُكَ، قَدْ كُنْتَ تَكْتُبَ الوَحْيَ لِرَسُوْلِ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ- فَتَتَبَّعِ القُرْآنَ، فَاجْمَعْهُ. فَقُلْتُ: كَيْفَ تَفْعَلُوْنَ شَيْئاً لَمْ يَفْعَلْهُ رَسُوْلُ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ-. قَالَ: هُوَ -وَاللهِ- خَيْرٌ.
-> — ⁨سیر أعلام النبلاء ج۲ ص۴۳۱⁩ · https://shamela.ws/book/10906/2411
-> *English:* "You are a young man, of sound judgement, and we do not suspect you; you used to write
-> the revelation for the Messenger of Allah ﷺ — so follow the Qurʾān up and gather it. I said: How do
-> you do a thing the Messenger of Allah ﷺ did not do? He said: By Allah, it is good."
-
-**⁨عبرت⁩:** The man who did it first had to be argued into it, and he is the one who told us so.
-**Hands-up?** no
-⚠ **ʿUmar ؓ is named inside Zayd's ؓ own sentence** («⁨شَرَحَ اللهُ صَدْرِي لِلَّذِي شَرَحَ لَهُ صَدْرَ أَبِي⁩
-⁨بَكْرٍ وَعُمَرَ⁩»). That is the page's wording, **not** a claim about who proposed it. **Do not build the
-"ʿUmar ؓ proposed it" account on this card — it is not on this page.**
-⚠ This page adds ⁨الرقاع⁩ and ⁨الأكتاف⁩ to the materials `RCT/E-RC37` lists. Say all four, or say the
-two the next card says; do not say "only".
-
+*The card itself now lives in `ridda-campaign-the-conduct-of-the-wars.md`, in its EVENT CARDS section immediately before `E-RC37`, so the pool builder reads it as `RCT/E-RC65` — the id evening 4 and `DECISIONS.md` #52 use. (Moved 2026-09-27: written here, below this note's card section, it was on no rebuilt pool.)*
 ---

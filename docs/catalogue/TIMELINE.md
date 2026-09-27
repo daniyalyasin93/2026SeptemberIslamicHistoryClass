@@ -12,7 +12,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 **Do not resolve it here.** Narrate what the sources narrate and say they differ.
 
 
-**1476 dated cards.**
+**1483 dated cards.**
 
 | When | Certainty | Card | Event |
 |---|---|---|---|
@@ -123,9 +123,11 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC61` | Abū Ḥudhayfa ؓ — "adorn the Qurʾān with deeds" |
 | 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC62` | Khālid ؓ between the lines, and the offer he made first |
 | 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC19` | «امتازوا» — the order that turned the day |
+| 11ھ→12ھ, at عَقْرَباء | `SOURCED` | `RCT/E-RC66` | The man who called them into the garden |
 | 11ھ→12ھ, at عَقْرَباء [SOURCED, the attribution is disputed] | `—` | `RCT/E-RC56` | "Today is the day of honour" |
 | 11ھ→12ھ, at عَقْرَباء [SOURCED, the books disagree] | `—` | `RCT/E-RC55` | The order of battle, and why there is no diagram of it |
 | 11ھ→12ھ, حضرموت | `SOURCED` | `RCT/E-RC33` | The she-camel called Shadhra |
+| 11ھ→12ھ, عُمان | `SOURCED` | `RCT/E-RC70` | Oman asked for help |
 | 11ھ→12ھ, عُمان | `SOURCED` | `RCT/E-RC29` | دَبا — the relief that came from inside the theatre |
 | 11–12 AH | `SOURCED` | `TSY/E-YK06` | "Qays — you killed the servants of Allah" |
 | 11–12 AH | `SOURCED` | `TSY/E-YK18` | "Every day routed or taken prisoner" |
@@ -137,6 +139,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 12 AH [SOURCED — البدایہ ج7 ص64] | `—` | `ISA/E-C2` | The letter to the marzubāns of Persia |
 | 12 AH [SOURCED — البدایہ ج7 ص70; also سیر ج1 ص376, where the chain is مرسل] | `—` | `ISA/E-C3` | The poison cup at al-Ḥīra |
 | 12ھ | `SOURCED` | `RCT/E-RC22` | The treaty he was tricked into, and kept |
+| 12ھ | `SOURCED` | `RCT/E-RC68` | To the last man |
 | 12ھ | `SOURCED` | `RCT/E-RC37` | The Qurʾān was collected because of this |
 | 12ھ (to verify) | `STANDARD` | `TMW/E-TRN4` | The same spear, at al-Yamāma |
 | 12ھ (to verify) | `STANDARD` | `TMW/E-TRN5` | The witness against the enemy |
@@ -150,6 +153,9 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | 12ھ, at اليمامة | `SOURCED` | `AHA/E-AS14` | Two men who dug a pit and did not come out of it |
 | 12ھ, at اليمامة | `SOURCED` | `AHA/E-AS15` | The hand, and the verse |
 | 12ھ, at اليمامة | `SOURCED` | `AHA/E-AS16` | "Lay me down between them" |
+| 12ھ, the forts of اليمامة | `SOURCED` | `RCT/E-RC67` | The terms at the forts |
+| 12ھ, المدينة | `SOURCED` | `RCT/E-RC69` | The delegation at Medina, and Musaylima's words |
+| 12ھ, المدینہ | `SOURCED` | `RCT/E-RC65` | «How do you do a thing the Prophet ﷺ did not do?» |
 | 12ھ, المدینہ | `SOURCED` | `ZIA/E-ZY5` | «He outstripped me to the two good things» |
 | 12ھ, ربيع الأول | `SOURCED` | `RCT/E-RC23` | Zayd b. al-Khaṭṭāb ؓ, and his brother |
 | 12–40 AH ; the years of the grandson's rising are not on the page | `SOURCED` | `POT/E-PG44` | Three generations of one house |
@@ -1203,6 +1209,7 @@ Where two rows disagree about the same event, that disagreement is real and is i
 | النهروان, 38 AH | `SOURCED` | `TKI/E-KR24` | The grey mule, and the weeping |
 | النهروان, 38 AH | `SOURCED` | `TKI/E-KR25` | What the man looked like, from a man who looked at him |
 | اليرموك, and the death of أبو بكر ؓ on Monday, 8 nights remaining of جمادى الآخرة 13 AH [SOURCED — البدایہ ج7 ص95، ص102] | `—` | `ISA/E-C12` | The courier in the middle of the battle |
+| اليمامة 12ھ | `SOURCED` | `ZIA/E-ZY18` | Her other son, and one of the four names |
 | اليمامة 12ھ, and afterwards in المدینہ | `SOURCED` | `ZIA/E-ZY4` | The man who killed him |
 | اليمامة 12ھ, and then المدینہ | `SOURCED` | `ZIA/E-ZY11` | The armour in the cooking pot |
 | اليمامة 12ھ, then اليرموك — whose own year is disputed in the sources (13ھ / 15ھ) | `SOURCED` | `ZIA/E-ZY16` | The father at al-Yamāma, the son at al-Yarmūk |
