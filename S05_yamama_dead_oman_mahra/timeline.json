@@ -1,0 +1,607 @@
+{
+  "schema": 2,
+  "title": "Evening 5 — the Line: what al-Yamāma cost, the houses told where their men fell, the Qurʾān gathered, and ʿIkrima's ؓ road to the last front",
+  "note": "Same drawing language as evenings 3 and 4: DATE BANDS, events in COLUMNS inside a band, position inside a band is order only, never a scale. NEW for evening 5 (DECISIONS.md #57): each house told at its graveside has its OWN LANE, so a flashback is seen on the Line rather than explained — the lane runs from the Prophet's ﷺ lifetime into 12 AH, where its men fall, and on into 'years later' where the house's story ends. Every event names the card(s) it comes from; nothing on the image is apparatus.",
+  "styles": {
+    "lit": "gold dot, ink bold label — tonight's material, told up to this checkpoint",
+    "delivered": "small teal dot, muted label — told on an earlier evening",
+    "untold": "hollow dot, muted label — 'later' only. Tonight's parts not yet told at a checkpoint are not drawn."
+  },
+  "bands": [
+    {
+      "id": "life",
+      "label": "The Prophet's ﷺ lifetime",
+      "short": "His ﷺ lifetime",
+      "min_slots": 4.2
+    },
+    {
+      "id": "12",
+      "label": "12 AH",
+      "short": "12 AH",
+      "min_slots": 3.2
+    },
+    {
+      "id": "after",
+      "label": "Years later",
+      "short": "Years later",
+      "min_slots": 1.6
+    }
+  ],
+  "lanes": [
+    {
+      "id": "house1",
+      "label": "The house of Umm Sulaym ؓ",
+      "lines": [
+        "The house of",
+        "Umm Sulaym ؓ"
+      ]
+    },
+    {
+      "id": "yamama",
+      "label": "al-Yamāma",
+      "lines": [
+        "al-Yamāma"
+      ]
+    },
+    {
+      "id": "house2",
+      "label": "Abū Ḥudhayfa ؓ and Sālim ؓ",
+      "lines": [
+        "Abū Ḥudhayfa ؓ",
+        "and Sālim ؓ"
+      ]
+    },
+    {
+      "id": "medina",
+      "label": "Medina",
+      "lines": [
+        "Medina"
+      ]
+    },
+    {
+      "id": "east",
+      "label": "ʿIkrima's ؓ road",
+      "lines": [
+        "ʿIkrima's ؓ",
+        "road"
+      ]
+    },
+    {
+      "id": "south",
+      "label": "The last front",
+      "lines": [
+        "The last",
+        "front"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "d01",
+      "lane": "yamama",
+      "band": "12",
+      "col": 1,
+      "order": 1,
+      "group": "delivered",
+      "label": "al-Yamāma taken",
+      "short": "al-Yamāma taken",
+      "when": "11→12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "RCT/E-RC21",
+        "RCT/E-RC22"
+      ],
+      "note": "Where evening 4 ended (STOP D)."
+    },
+    {
+      "id": "y01",
+      "lane": "yamama",
+      "band": "12",
+      "col": 2,
+      "order": 2,
+      "group": "part1",
+      "side": "above",
+      "label": "The terms at the forts",
+      "short": "The terms",
+      "when": "12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "RCT/E-RC67",
+        "RCT/E-RC68"
+      ],
+      "note": "The terms, and Banū Ḥanīfa to the last man."
+    },
+    {
+      "id": "h01",
+      "lane": "house1",
+      "band": "life",
+      "col": 1,
+      "order": 3,
+      "group": "part2",
+      "side": "below",
+      "label": "The dower that was Islam",
+      "short": "The dower",
+      "when": "before the Hijra, at Medina",
+      "certainty": "STANDARD",
+      "cards": [
+        "THO/E-HS1",
+        "THO/E-HS9"
+      ],
+      "note": "The house — Tree A carries the rest of it in one line each."
+    },
+    {
+      "id": "h05",
+      "lane": "house1",
+      "band": "12",
+      "col": 3,
+      "order": 4,
+      "group": "part2",
+      "side": "below",
+      "label": "al-Barāʾ ؓ lived",
+      "short": "al-Barāʾ ؓ lived",
+      "when": "12 AH, and after",
+      "certainty": "SOURCED",
+      "cards": [
+        "THO/E-HS14",
+        "THO/E-HS15"
+      ],
+      "note": "The man who opened the gate."
+    },
+    {
+      "id": "h06",
+      "lane": "house1",
+      "band": "after",
+      "col": 1,
+      "order": 5,
+      "group": "part2",
+      "side": "below",
+      "label": "Tustar",
+      "short": "Tustar",
+      "when": "17–20 AH (the sources differ)",
+      "certainty": "SOURCED",
+      "cards": [
+        "THO/E-HS17"
+      ],
+      "note": "Where al-Barāʾ ؓ fell — framed aloud as a war not yet reached."
+    },
+    {
+      "id": "y02",
+      "lane": "yamama",
+      "band": "12",
+      "col": 4,
+      "order": 6,
+      "group": "part3",
+      "side": "below",
+      "label": "The men beside them",
+      "short": "The men beside them",
+      "when": "12 AH, at al-Yamāma",
+      "certainty": "SOURCED",
+      "cards": [
+        "ZIA/E-ZY12",
+        "ZIA/E-ZY15",
+        "ZIA/E-ZY18"
+      ],
+      "note": "Part III, one point."
+    },
+    {
+      "id": "y03",
+      "lane": "yamama",
+      "band": "12",
+      "col": 5,
+      "order": 7,
+      "group": "part4",
+      "side": "below",
+      "label": "The banner",
+      "short": "The banner",
+      "when": "12 AH, at al-Yamāma",
+      "certainty": "SOURCED",
+      "cards": [
+        "AHA/E-AS13",
+        "ZIA/E-ZY4",
+        "ZIA/E-ZY8",
+        "ZIA/E-ZY9",
+        "ZIA/E-ZY10"
+      ],
+      "note": "Zayd ؓ, Maʿn ؓ, Thābit ؓ."
+    },
+    {
+      "id": "a01",
+      "lane": "house2",
+      "band": "life",
+      "col": 1,
+      "order": 8,
+      "group": "part4",
+      "side": "below",
+      "label": "Mecca: the elder's son",
+      "short": "Mecca",
+      "when": "before the house of al-Arqam",
+      "certainty": "SOURCED",
+      "cards": [
+        "AHA/E-AS02"
+      ],
+      "note": "The second house — Tree B carries the family."
+    },
+    {
+      "id": "a03",
+      "lane": "house2",
+      "band": "life",
+      "col": 2,
+      "order": 9,
+      "group": "part4",
+      "side": "below",
+      "label": "Qubāʾ",
+      "short": "Qubāʾ",
+      "when": "before the Prophet ﷺ reached Medina",
+      "certainty": "SOURCED",
+      "cards": [
+        "AHA/E-AS06",
+        "AHA/E-AS07"
+      ],
+      "note": "Sālim ؓ leads the prayer."
+    },
+    {
+      "id": "a04",
+      "lane": "house2",
+      "band": "life",
+      "col": 3,
+      "order": 10,
+      "group": "part4",
+      "side": "below",
+      "label": "Badr, 2 AH",
+      "short": "Badr",
+      "when": "2 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "AHA/E-AS04"
+      ],
+      "note": "The father and the brother."
+    },
+    {
+      "id": "a05",
+      "lane": "house2",
+      "band": "12",
+      "col": 6,
+      "order": 11,
+      "group": "part4",
+      "side": "below",
+      "label": "Both fall, together",
+      "short": "Both fall",
+      "when": "12 AH, at al-Yamāma",
+      "certainty": "SOURCED",
+      "cards": [
+        "AHA/E-AS09",
+        "AHA/E-AS15",
+        "AHA/E-AS16"
+      ],
+      "note": "The hand and the verse; 'lay me down between them'."
+    },
+    {
+      "id": "a06",
+      "lane": "house2",
+      "band": "after",
+      "col": 2,
+      "order": 12,
+      "group": "part4",
+      "side": "below",
+      "label": "“Had Sālim been alive”",
+      "short": "“Had Sālim been alive”",
+      "when": "23 AH, Medina",
+      "certainty": "SOURCED",
+      "cards": [
+        "AHA/E-AS18"
+      ],
+      "note": "ʿUmar ؓ dying — framed aloud as an evening not reached."
+    },
+    {
+      "id": "m00",
+      "lane": "medina",
+      "band": "life",
+      "col": 2,
+      "order": 13,
+      "group": "part5",
+      "side": "above",
+      "label": "The boy of Banū al-Najjār",
+      "short": "Zayd b. Thābit ؓ",
+      "when": "1 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "ABU/E-Q7"
+      ],
+      "note": "The man Abū Bakr ؓ sent for, as a boy."
+    },
+    {
+      "id": "m01",
+      "lane": "medina",
+      "band": "12",
+      "col": 7,
+      "order": 14,
+      "group": "part5",
+      "side": "above",
+      "label": "The news, and the delegation",
+      "short": "The delegation",
+      "when": "12 AH, Medina",
+      "certainty": "SOURCED",
+      "cards": [
+        "RCT/E-RC23",
+        "RCT/E-RC69"
+      ],
+      "note": "ʿUmar ؓ and his son; Banū Ḥanīfa at Medina."
+    },
+    {
+      "id": "m02",
+      "lane": "medina",
+      "band": "12",
+      "col": 8,
+      "order": 15,
+      "group": "part5",
+      "side": "above",
+      "label": "The Qurʾān gathered",
+      "short": "The Qurʾān gathered",
+      "when": "12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "ZIA/E-ZY17",
+        "RCT/E-RC65",
+        "ABU/E-Q3",
+        "ABU/E-Q4",
+        "RCT/E-RC37"
+      ],
+      "note": "The ending of the al-Yamāma story."
+    },
+    {
+      "id": "m03",
+      "lane": "medina",
+      "band": "after",
+      "col": 3,
+      "order": 16,
+      "group": "part5",
+      "side": "above",
+      "label": "The ṣuḥuf, with Ḥafṣa ؓ",
+      "short": "With Ḥafṣa ؓ",
+      "when": "a caliphate and a half later",
+      "certainty": "SOURCED",
+      "cards": [
+        "ABU/E-Q5"
+      ],
+      "note": "Borrowed by ʿUthmān ؓ, copied, returned — framed aloud as an evening not reached."
+    },
+    {
+      "id": "e01",
+      "lane": "east",
+      "band": "life",
+      "col": 4,
+      "order": 17,
+      "group": "part6",
+      "side": "below",
+      "label": "ʿIkrima's ؓ vow, 8 AH",
+      "short": "ʿIkrima's ؓ vow",
+      "when": "Ramaḍān 8 AH, the Conquest",
+      "certainty": "STANDARD",
+      "cards": [
+        "TMW/E-TRN6",
+        "TMW/E-TRN7",
+        "TMW/E-TRN8"
+      ],
+      "note": "His own story, told where he becomes load-bearing."
+    },
+    {
+      "id": "e02",
+      "lane": "east",
+      "band": "12",
+      "col": 7,
+      "order": 18,
+      "group": "part6",
+      "side": "below",
+      "label": "Oman: Dabā",
+      "short": "Oman: Dabā",
+      "when": "11→12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "RCT/E-RC70",
+        "RCT/E-RC29"
+      ],
+      "note": "Meanwhile — the same months as al-Yamāma; the column says 'same band', not 'same day'."
+    },
+    {
+      "id": "e03",
+      "lane": "east",
+      "band": "12",
+      "col": 8,
+      "order": 19,
+      "group": "part6",
+      "side": "below",
+      "label": "Mahra",
+      "short": "Mahra",
+      "when": "11→12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "RCT/E-RC30"
+      ],
+      "note": "Won with a letter."
+    },
+    {
+      "id": "k00",
+      "lane": "south",
+      "band": "life",
+      "col": 4,
+      "order": 20,
+      "group": "part7a",
+      "side": "below",
+      "label": "Kinda at Medina",
+      "short": "Kinda at Medina",
+      "when": "the year of the delegations",
+      "certainty": "STANDARD",
+      "cards": [
+        "KTK/E-KD05"
+      ],
+      "note": "The delegation — Tree D before it."
+    },
+    {
+      "id": "k01",
+      "lane": "south",
+      "band": "12",
+      "col": 9,
+      "order": 21,
+      "group": "part7a",
+      "side": "below",
+      "label": "A she-camel, and the fires",
+      "short": "The four kings",
+      "when": "11→12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "TSY/E-YK07",
+        "RCT/E-RC33",
+        "TSY/E-YK08",
+        "TSY/E-YK09",
+        "TSY/E-YK10",
+        "TSY/E-YK19"
+      ],
+      "note": "From the zakāt arrangement to the night at the fires."
+    },
+    {
+      "id": "k02",
+      "lane": "south",
+      "band": "12",
+      "col": 10,
+      "order": 22,
+      "group": "part7a",
+      "side": "below",
+      "label": "al-Nujayr",
+      "short": "al-Nujayr",
+      "when": "11 or 12 AH (the books differ)",
+      "certainty": "SOURCED",
+      "cards": [
+        "TSY/E-YK11",
+        "TSY/E-YK12"
+      ],
+      "note": "The last siege."
+    },
+    {
+      "id": "k03",
+      "lane": "south",
+      "band": "12",
+      "col": 11,
+      "order": 23,
+      "group": "part7",
+      "side": "below",
+      "label": "al-Ashʿath at Medina",
+      "short": "al-Ashʿath at Medina",
+      "when": "12 AH",
+      "certainty": "SOURCED",
+      "cards": [
+        "TSY/E-YK14",
+        "POT/E-PG40"
+      ],
+      "note": "The judgement, and the wedding feast."
+    },
+    {
+      "id": "k04",
+      "lane": "south",
+      "band": "after",
+      "col": 4,
+      "order": 24,
+      "group": "part7",
+      "side": "below",
+      "label": "“And I did”",
+      "short": "“And I did”",
+      "when": "years later",
+      "certainty": "SOURCED",
+      "cards": [
+        "TSY/E-YK16",
+        "POT/E-PG41"
+      ],
+      "note": "Framed aloud as evenings not reached."
+    }
+  ],
+  "links": [
+    {
+      "from": "h01",
+      "to": "h05",
+      "when_lit": "part2",
+      "label": "",
+      "route": "corridor",
+      "note": "The house's lane runs on to al-Yamāma."
+    },
+    {
+      "from": "a04",
+      "to": "a05",
+      "when_lit": "part4",
+      "label": "",
+      "route": "corridor",
+      "note": "The second house's lane runs on to al-Yamāma."
+    },
+    {
+      "from": "e01",
+      "to": "e02",
+      "when_lit": "part6",
+      "label": "",
+      "route": "corridor",
+      "note": "From the vow to the road east."
+    },
+    {
+      "from": "k00",
+      "to": "k01",
+      "when_lit": "part7a",
+      "label": "",
+      "route": "corridor",
+      "note": "From the delegation to the war."
+    }
+  ],
+  "not_drawn": {
+    "THO/E-HS9": "at Medina, no year — drawn with the dower",
+    "AHA/E-AS09": "in the Prophet's ﷺ lifetime, no year — drawn with the fall",
+    "Trees A–D": "a tree is not an event; its people are drawn only where a card puts them"
+  },
+  "renders": [
+    {
+      "name": "line_s05_cp1",
+      "title": "Tonight: what al-Yamāma cost, and the Qurʾān gathered",
+      "lit": [
+        "part1",
+        "part2",
+        "part3",
+        "part4",
+        "part5"
+      ]
+    },
+    {
+      "name": "line_s05_cp2",
+      "title": "Tonight: and ʿIkrima's ؓ road, to Oman and Mahra",
+      "lit": [
+        "part1",
+        "part2",
+        "part3",
+        "part4",
+        "part5",
+        "part6"
+      ]
+    },
+    {
+      "name": "line_s05_cp3",
+      "title": "Tonight: and the last front, to al-Nujayr",
+      "lit": [
+        "part1",
+        "part2",
+        "part3",
+        "part4",
+        "part5",
+        "part6",
+        "part7a"
+      ]
+    },
+    {
+      "name": "line_s05_close",
+      "title": "Tonight: al-Yamāma's cost, and ʿIkrima's ؓ road to the last front",
+      "lit": [
+        "part1",
+        "part2",
+        "part3",
+        "part4",
+        "part5",
+        "part6",
+        "part7a",
+        "part7"
+      ]
+    }
+  ]
+}

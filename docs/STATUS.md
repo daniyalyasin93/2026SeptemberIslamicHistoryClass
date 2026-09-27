@@ -1,5 +1,28 @@
 # STATUS — read this first, every session
 
+> **2026-09-27 · RESUME POINT — read this first. Evening 4 was DELIVERED to STOP D; evening 5 is BUILT (second pass).**
+> Evening 4 stopped at Daniyal's slide 67 (STOP D, after `RC22`) — recorded in `docs/catalogue/DELIVERED.md`,
+> **with what he told from memory**, which evening 5 does not repeat. His four reports changed the pipeline:
+> `DECISIONS.md` **#56–#61**. He then saw the first evening-5 build and sent four more, and three more after
+> those. They are **#62–#66**: one flashback per man · where a card moves, its map is its slide · maps fade what a
+> click has finished with · each house opens on a family tree · the Qurʾān's collection told whole · Ḥaḍramawt
+> added as the end of ʿIkrima's ؓ road.
+>
+> | Evening 5 | State |
+> |---|---|
+> | `S05_yamama_dead_oman_mahra/RUNSHEET.md` | ✅ **second pass: 51 cards in seven parts** — the day's end · al-Barāʾ ؓ and his brother's house · the men beside them · the banner and the reciters · **Medina: the Qurʾān gathered** · ʿIkrima's ؓ road to Oman and Mahra · **Ḥaḍramawt and Kinda, the last front**. Checkpoints after `RC37`, `RC30`, `YK12`; the close after `PG41`. **At evening 4's pace the evening closes at Checkpoint 1**; the runsheet names six cards to strike to reach Mahra |
+> | `S05.pptx` + `S05.pdf` | ✅ **REBUILT 2026-09-27** — 95 slides, 8 MB. **14 moving maps, 38 clicks** — each the slide of the card it tells (#63), captions fading as the story moves (#64); 13 words slides; **4 family trees** (#65); 6 bridges; 3 checkpoints + the close. ⬜ **Daniyal to click through** and hand-finish — then create `S05.FINAL`, which `build.py` refuses to build over. ⚠ The PDF shows every map layer at once; the notes book shows each click |
+> | `S05_notes.pdf` | ✅ 173 A5 pages — every slide with its full notes; each click's picture under its ▶ CLICK line; the trees' notes carry every cut story |
+> | Content | ✅ beats for the Qurʾān cards `Q3`, `Q4`, `Q5`, `Q7`; `RC37` and `Q5` corrected; §8's uncarded details on `RC70`, `RC29`, `RC30`; Umm Ḥakīm's ؓ father on `TRN7`. `check_citations` **4,728 / 0** · introductions **0 unanswered** · `check_cards` 2 old problems in the 23–41 AH pool (`TCW/E-SB13`, `SB23`), not this evening's |
+> | ⚠ Umm Sulaym ؓ | Daniyal asked that she be named the mother of Anas ؓ **and al-Barāʾ ؓ**. **No page we hold names al-Barāʾ's ؓ mother** (house note §X.14). The tree draws only what the pages say; a page from a fifth book would change it (#65) |
+> | Rebuild order | `make_timeline.py` → `make_maps.py` (whole steps + click layers) → `build.py` → `notes_book.py`. Renders are git-ignored |
+> | `docs/specs/2026-09-27-evening-5-spec.md` | ✅ implemented; §9 records the second pass |
+>
+> **Evening 6** = whatever evening 5 does not reach (at the room's pace: ʿIkrima's ؓ road, Oman to al-Nujayr — built),
+> then **Bahrayn**, told as *"meanwhile"*: ⬜ **its five cards have no beats, and §7 carries findings on no card —
+> card them first**. Then Ibn Kathīr's summing-up. Open for Daniyal: whether `RC49` was told on evening 4; the
+> green; the worksheet.
+
 > **2026-09-22 · RESUME POINT — read this first. Evening 4 is BUILT and ready to deliver.**
 > `S04_kinda_butah_yamama/`, Daniyal's cut **Parts I–IV to STOP C** (`DECISIONS.md` #44): 31 cards —
 > **with Parts V–XI built behind that close as overflow** (#47–#50): 50 more cards, ~90 more minutes.

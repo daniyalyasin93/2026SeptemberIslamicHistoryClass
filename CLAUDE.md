@@ -188,9 +188,18 @@ White is not a palette choice, it is a merge requirement: it is the one colour G
 exactly, so a generated image drops in with no seam. `SLIDES.md` carries a paste-ready
 **`IMAGE BRIEF:`** for every visual slide.
 
-**The lectern carries `CUE.pdf` — one page, headings, names, dates, no complete sentences**
-(`DECISIONS.md` #22). Prose lives in `BRIEFING.pdf` and is read at home. The prose speaker script
-is retired as a delivery artifact.
+**The lectern is the deck's speaker notes — nothing else (`DECISIONS.md` #60, which retires #22's
+`CUE.pdf`).** Daniyal delivers from the `.pptx` and its notes only; the cue sheet and the briefing were
+never opened. So every slide's notes run in the order the eye needs them: ⚠ warning · **SAY** (the beats,
+with `▶ CLICK n` where a map moves) · ⏱ (checkpoints only) · the quotation · the ⁨عبرت⁩ line · hands-up ·
+**BACKGROUND** last — and never a file path or build note. The home reading is **one PDF of every slide
+with its full notes** (`SNN/notes_book.py`), readable on a phone. No `CUE.pdf`, no `BRIEFING.pdf`.
+
+**Maps build up on clicks (#58).** A map slide is the stage the story is told on: `tools/render_scene.py
+--layers` cuts the ground and every moving mark, `series/anim.py` writes the click animations (arrows wipe
+on, banners travel their route, territories fade to green), and the notes carry `▶ CLICK n`.
+**Checkpoints, not mid-evening closes (#59):** two slides (Line + map) in the flow, scripted for carrying
+on or for ending there; «Tonight» and «Next week» only at the real close.
 
 **A SLIDE FACE CARRIES ONLY WHAT THE ROOM MAY SEE (`DECISIONS.md` #30).** Certainty labels, tier
 tags, card ids, cross-references, build markers, `[HANDS]` cues, `n/a`, IMAGE BRIEF text, the words
@@ -200,7 +209,7 @@ the class of defect that survives every review and then appears on a projector.
 
 **One slide per CARD (`DECISIONS.md` #39, which retires the beat-per-slide deck of #37).** Every card still
 carries a `**Beats:**` list in its research note — one line per event the speaker must tell — but the beats go
-into the **speaker notes** of that card's single slide, and into `CUE.pdf` and `BRIEFING.pdf`. **They are not
+into the **speaker notes** of that card's single slide, and so into the notes book. **They are not
 slides.** Evening 3 was delivered from a 356-slide beats deck and it bored the room and forced the speaker to
 click past events he had already told. Build the deck at spoken density: **≈ one slide per spoken minute,
 40–55 slides, 25–30 cards** for a 45-minute evening. The *pool* is still over-built (#20); the *deck* is not.
@@ -215,7 +224,8 @@ per-slide PNGs and a contact sheet — **look at the contact sheet before callin
   rejected as "too dry" and they were.
 - **Speaker packs are HTML → A4 PDF, never Markdown.** Markdown cannot keep Urdu and English apart
   and the result is unreadable. See `L01_overview/speaker.html`.
-- **The cue card must fit on ONE page.** That is its entire purpose.
+- **Anything the speaker needs on the night goes in the slide's notes** (#60) — never in a second
+  document beside the laptop. He tried a phone beside it; it did not work.
 - **Method content is minimal, and there is no methodology slot.** The weekly «کیسے پتا چلا؟»
   segment was cut on 2026-08-27 as too academic, and that cut is now carried through into the
   session shape itself (`DECISIONS.md` #27). What survives: one four-minute "two ways of knowing
@@ -237,7 +247,8 @@ drop-in catch up in 3 minutes, and what stops the speaker from ever being lost.
 0:00  Bookend IN       4   Last week's CLOSING Line + CLOSING Map, unchanged. "We came from here."
 0:04  The story       22   Scenes, not coverage. The map moves. People are met inside the story.
                           One عبرت line after each major event. Three [HANDS] beats.
-0:26  Worksheet        2   90 seconds, silent. Mark the map; fill the timeline boxes.
+0:26  Checkpoint       1   The Line + the map, "where we stand" — scripted either way (#59). The
+                          worksheet pause is dropped (#60); checkpoints sit wherever the clock may run out.
 0:28  The story       12   Continues.
 0:40  Bookend OUT      1   The Line, with tonight's events lit up and nothing else.
 0:41  Bookend OUT      2   The Map — where we stand NOW vs. when the room walked in.
@@ -362,10 +373,10 @@ L03_pehla_imtihan/     the 23–41 AH POOL (CONTENT.md)
 SNN_<slug>/            per evening (DECISIONS #33): RUNSHEET.md (card ids to cut), then six artifacts (spec v4 §1):
   CONTENT.md             (pools only) numbered event cards, tiered CORE/GOOD/CUT
   SLIDES.md              one block per slide + the paste-ready IMAGE BRIEF for Gemini
-  build.py -> LNN.pptx   editable, white ground, image placeholders. Never hand-edit for structure
-  CUE.pdf                ONE page for the lectern. Headings, names, dates. No sentences
-  BRIEFING.pdf           the prose. Read twice at home. Never at the lectern
-  WORKSHEET.pdf          blank map + blank timeline strip + the «ایک واقعہ» lines
+  build.py -> SNN.pptx   editable, white ground, maps built up on clicks. Never hand-edit for structure
+  make_maps.py           Map Studio scenes → whole steps + click layers (#58)
+  notes_book.py          SNN_notes.pdf — every slide with its full notes, for home (#60)
+  (CUE.pdf, BRIEFING.pdf, WORKSHEET.pdf — retired from evening 5, #60)
 archive/               superseded work, kept as a parts bin
 ```
 

@@ -44,7 +44,26 @@ explicitly and give a reason — do not quietly reverse it.
 | 44 | 2026-09-22 | **Evening 4 is cut to Parts I–IV, ending at STOP C**; Kinda rolls to evening 5 | active |
 | 45 | 2026-09-22 | **Bridge slides at the seams** — a deck is read as a story, not card by card | active |
 | 46 | 2026-09-22 | Evening 4 review: authored face excerpts, no spoilers in the notes, maps rendered by the build | active |
-| 47 | 2026-09-22 | **Evening 4 carries an overflow Part V behind the planned close** | active |
+| 47 | 2026-09-22 | **Evening 4 carries an overflow Part V behind the planned close** | **in-place closes superseded by #59** |
+| 48 | 2026-09-22 | Part VI — the dead of al-Yamāma behind Part V; the muṣḥaf is the last word | active |
+| 49 | 2026-09-23 | The whole al-Yamāma household pool goes in; what is not reached opens evening 5 | active |
+| 50 | 2026-09-23 | The households go in as well — Parts IX–XI, behind the close | **"behind the close" superseded by #57** |
+| 51 | 2026-09-23 | The missing-detail audit — four notes read against the 82 cards | active |
+| 52 | 2026-09-23 | The dialogue over the ⁨جمع⁩, and Ibn Kathīr's numbers as he gives them | active |
+| 53 | 2026-09-23 | One more close, where the map actually moves — STOP D | **superseded by #59 from evening 5** |
+| 54 | 2026-09-23 | The garden card — who called them in, and whose son killed him | active |
+| 55 | 2026-09-24 | Evening 4's deck is hand-finished and protected (`S04.FINAL`) | active |
+| 56 | 2026-09-27 | **What evening 4 taught** — four reports from the lectern | active |
+| 57 | 2026-09-27 | **Evening 5: the houses are told where their men fall; Oman and Mahra close it** | active |
+| 58 | 2026-09-27 | **Maps build up on clicks** — troops move as the speaker speaks | active |
+| 59 | 2026-09-27 | **Checkpoints, not mid-evening closes**; one real close | active |
+| 60 | 2026-09-27 | **The lectern is the deck's notes; the home reading is one PDF of them** | active |
+| 61 | 2026-09-27 | **Every card answers the question the room will ask next** | active |
+| 62 | 2026-09-27 | **One flashback per man** — the houses cut to what makes a death land | active |
+| 63 | 2026-09-27 | **Where a card moves, its map is its slide** — never a map, then the card again | active |
+| 64 | 2026-09-27 | **A map fades what a click has finished with; the road stays** | active |
+| 65 | 2026-09-27 | **Each house opens on a family tree**; its notes keep every cut story | active |
+| 66 | 2026-09-27 | **The Qurʾān's collection told whole; Ḥaḍramawt ends ʿIkrima's ؓ road**; Bahrayn after | active |
 
 ---
 
@@ -558,7 +577,7 @@ table in `CLAUDE.md` §3 had silently stopped describing what the room will hear
    cached — the sources carry far more narrative than the pools had drawn out.
 5. New research for the ⁨ردة⁩ is appended to the 11–23 AH pool (its note slugs are added to
    `ORDER_L02` in `tools/build_content.py`), even where a card reaches before 11 AH (backstory) or
-   after 23 AH (a forward pointer, e.g. ابن الأشعث).
+   after 23 AH (a forward pointer, e.g. ⁨ابن الأشعث⁩).
 
 **Evening 3 = Yemen, start to end** — al-Aswad al-ʿAnsī in depth, the second Yemen ⁨ردة⁩, and
 Ḥaḍramawt/Kinda to al-Ashʿath at al-Nujayr, with a short Kinda backstory. Told by front rather than
@@ -591,7 +610,7 @@ second Yemen ⁨ردة⁩ to Qays and ʿAmr sent home (Part II)** — ≈ 59 min
    matched only the bare `[SOURCED]`; both now match qualified forms. And AW13's statement (words the
    widow said *to the guards* to save their lives, calling al-Aswad a prophet) is kept off the face; the
    slide carries one sentence of the card's own narrative instead.
-5. **The ligature ﷿ (U+FDFF, عز وجل) is left exactly as the source has it**, although Traditional Arabic
+5. **The ligature ﷿ (U+FDFF, ⁨عز وجل⁩) is left exactly as the source has it**, although Traditional Arabic
    draws it as an empty box: it has no Unicode decomposition, no permitted font on this machine carries it,
    and spelling it out would be writing Arabic into a quotation. The one slide affected (RC32) is flagged
    in its speaker notes for Daniyal to decide by hand.
@@ -607,7 +626,7 @@ E-AW02. Two defects compounded:
    bodies that were on no card in either pool** (47 al-Aswad, 35 second ridda). The research agents had
    carded the scenes they judged central and left the rest in the body.
 2. **Cards → speaker notes lost more.** `build_full_deck.notes_for()` copied only the named fields
-   (What happened, Map, عبرت, Hands-up, source). Everything after Hands-up — "Also on the page",
+   (What happened, Map, ⁨عبرت⁩, Hands-up, source). Everything after Hands-up — "Also on the page",
    cross-references, ⚠ teaching warnings, second quotations — was silently dropped from every deck built
    from a pool, evening 2's included. **Fixed at the root:** cards now carry an `extra` field and the notes
    print it in full, with the statement's full rendering.
@@ -636,10 +655,10 @@ the **Kinda kingship backstory** (E-KD01–07) stays rolled forward. STOP A and 
 and hidden. Two Map Studio scenes (`s03-07-hadramawt-and-kinda`, `s03-08-al-ashath-to-medina`) and a STOP C
 closing scene; al-Nujayr and Maḥjar al-Zurqān are named in words, not placed, because no page locates them.
 
-**A parser defect found on the way, fixed at the root.** `build_full_deck.FIELD` read عبرت, Map, When and
+**A parser defect found on the way, fixed at the root.** `build_full_deck.FIELD` read ⁨عبرت⁩, Map, When and
 Hands-up only to the end of their first line; cards are hard-wrapped, so every wrapped field was cut
 mid-sentence on slides and in notes ("…and then heard the news that"). The fields now run to the next
-field or blank line. All 1,839 cards re-parse with no empty عبرت line.
+field or blank line. All 1,839 cards re-parse with no empty ⁨عبرت⁩ line.
 
 ## 37 · One slide per event: every card carries Beats — 2026-09-16
 
@@ -676,10 +695,10 @@ skeptic before any fix was applied.
 wording that names the book when reports differ, timeline and map corrections). Three corrections of our own
 making came out of it and are recorded here so they are not re-made:
 - **ʿAmr b. Maʿdī Karib is ؓ after his return.** The second-ridda note says so from Ibn Kathīr's «﵁» (⁨البدایہ ج۷
-  ص۲۴۴⁩). The instruction given to the beats agents ("no honorific for ʿAmr") was wrong and had stripped it from
+  ⁨ص۲۴۴⁩⁩). The instruction given to the beats agents ("no honorific for ʿAmr") was wrong and had stripped it from
   E-YK16 at al-Qādisiyya; restored. Qays b. Makshūḥ stays without one — no page states his Companionship.
 - **Arabic on slides is now marked `lang="ar-SA"`** (`series/deck2.py`). Without it PowerPoint placed colons,
-  dashes and "!" on the wrong side of Arabic words (e.g. «له :وهرز»). Every deck picks this up on rebuild.
+  dashes and "!" on the wrong side of Arabic words (e.g. «⁨له⁩ :⁨وهرز⁩»). Every deck picks this up on rebuild.
 - **The opening Line gave away the first [HANDS] answer** ("Ṣanʿāʾ in 25 nights"); its short label is now
   "Najrān, then Ṣanʿāʾ".
 
@@ -764,8 +783,8 @@ BACKGROUND —     the card's prose and everything after the Hands-up line. Read
 
 Two parser defects fixed in the same pass, both of which had been silently losing note content:
 
-- **A field no longer ends at any bold run, only at the next known field label.** `**Map:**` and `**عبرت:**`
-  routinely continue onto a line beginning with a bold place name («**اليمامة**. The enemy camp is at …»)
+- **A field no longer ends at any bold run, only at the next known field label.** `**Map:**` and `**⁨عبرت⁩:**`
+  routinely continue onto a line beginning with a bold place name («**⁨اليمامة⁩**. The enemy camp is at …»)
   and were being cut there. Every MAP note in every deck built before today is truncated at that point.
 - **The English rendering is no longer double-quoted**, and a trailing `---` no longer produces an empty
   BACKGROUND block.
@@ -927,7 +946,7 @@ change how evenings are built, not just this one:
   account that clears Khālid ؓ — at the centre of a part that is never a verdict. It is now a 2 × 2 grid
   of the four, from the campaign note's §5.7(d) table.
 - **No spoilers in the speaker's own lines.** Beats had Thābit ؓ die at #2, Musaylima die at #3, and
-  RC54's عبرت say *"It worked"* at #19. Pool cards `TB16`, `TB12`, `RC53`, `RC54` and `RC19` are reworded;
+  RC54's ⁨عبرت⁩ say *"It worked"* at #19. Pool cards `TB16`, `TB12`, `RC53`, `RC54` and `RC19` are reworded;
   the early-close Lines no longer draw tonight's untold events; the worksheet (in the room's hands at STOP
   B) no longer prints two Part IV events.
 - **Two words that take sides are gone.** *"A later caliph"* for Muʿāwiya ؓ called him caliph, which
@@ -1232,3 +1251,237 @@ on it. The runsheet's introductions table says so.
 `RC20` to `RC66`, which now opens Part V; the overflow's hands-up beat opens on `RC66` and carries
 `RC20`'s [HANDS] 4 inside it; STOP D is now after **#35**, STOP E after **#58**.
 
+---
+
+## 55. Evening 4's deck is hand-finished, and protected — 2026-09-24
+
+*Recorded 2026-09-27: `S04.FINAL` and `S04_kinda_butah_yamama/pack_data.py` both cite #55, and the entry was
+never written. This is it, from the commit that made it (`f644a3d`).*
+
+Daniyal finished `S04.pptx` by hand: 142 slides against the build's 139, **his own maps** — *"some of the
+maps had errors from you, and I want Muslim forces to be always in dark green"* — four more slides hidden,
+and some closing lines rewritten in his own words. **That file is the source of truth for what the room
+sees.** `S04.FINAL` says so and says **do not run `build.py`** for this evening; `pack_data.py` reads the
+deck instead of the pool while the marker exists. The deck is 118 MB, over GitHub's limit, so it is
+git-ignored; the repo carries `S04_share.pptx` (`tools/share_deck.py`: hidden slides dropped, notes kept,
+images recompressed) and `S04.pdf`. Same principle as #38. **Caught doing it:** the printed cue sheet
+carried the built deck's jump numbers, every one three slides off his deck's.
+
+---
+
+## 56. What evening 4 taught — 2026-09-27
+
+Evening 4 was delivered to **STOP D** (his slide 67): Parts I–V, 34 cards (`DELIVERED.md`). Daniyal
+reported four things, and each one changes how every evening from 5 on is built:
+
+1. **The maps stood still.** *"If we had more maps and animated moving of troops as I speak it might have
+   been more interesting. Atm its like a show map and say what happens in the map in later slides."* A map
+   slide showed one finished picture; the cards that told it came after, as text. The build had rendered
+   every intermediate step and placed only the last. → #58.
+2. **The battle ended abruptly — and the treaty had no terms.** *"In the last slides we didn't even discuss
+   the terms of treaty, it wasn't even in my learning material, so I was totally lost on that. We just
+   mentioned Mujjāʿa's trick."* `RC22` said *"he settles on terms"* and never what they were; three approved
+   pages give them (⁨الکامل ج۲ ص۲۱۸⁩ · ⁨سیر الراشدون ص۴۸⁩ · ⁨البدایہ ج۷ ص۳۵⁩). → #61, and evening 5 opens on them.
+3. **The stop markers felt out of place.** *"Maybe the notes should carry more script to explain to me."*
+   The STOP C slides' notes were build notes — *"BOOKEND OUT STOP C — the Line. Re-used verbatim…"*,
+   *"MAP: tools/mapstudio/scenes/s04-close-stop-c.json at step 1"* — nothing to say. → #59.
+4. **Only the deck goes to the lectern.** *"I have never used any of your artifacts like cuesheet, etc. I
+   just use the pptx and its notes to deliver the lecture."* → #60.
+
+**Also learned: he tells things from memory that are on no card** — Waḥshī ؓ at Uḥud and the Prophet's ﷺ
+words to him, al-Barāʾ's ؓ eighty-odd wounds, Sālim ؓ leading the prayer at Qubāʾ. `DELIVERED.md` now has
+a *Told from memory* list for each evening, **and the next evening does not tell those things again.**
+Ask for it after every evening.
+
+---
+
+## 57. Evening 5: the houses are told where their men fall, and Oman and Mahra close it — 2026-09-27
+
+The first plan put ~10 of the al-Yamāma dead in the evening and everything else — the rest of the dead,
+the three houses, Kinda's kings — **behind the close**. Daniyal: *"I think we will gloss over a lot of
+details with this, and miss material we have already collected … I think we should put them up at
+appropriate places within the story, not at end."* He is right, and it is the books' own form: Ibn Kathīr
+closes each year with the lives of those who died in it, and the *Siyar* is built man by man. **A life told
+at the death is not a digression.** "Behind the close" would in practice have meant never.
+
+**Settled — `S05_yamama_dead_oman_mahra/RUNSHEET.md`:**
+
+- **Evening 5** = how the day ended (the terms; *"they became Muslims to the last man"*) → **the house of
+  Umm Sulaym ؓ, told at the gate al-Barāʾ ؓ opened** → the men beside them → the banner and the reciters,
+  **with the house of Abū Ḥudhayfa ؓ and Sālim ؓ told before they fall** → Medina and the Qurʾān →
+  **ʿIkrima's ؓ road: his own story, then Oman and Mahra.** Daniyal added Oman and Mahra: *"a lot of this
+  stuff I have mentioned from memory"* — the evening had less new material than it looked.
+- **The reciters are told last** because their deaths are the one reason the books give for the
+  collection (#48): the order of Part IV and Part V is that argument.
+- **al-Barāʾ ؓ died at Tustar, not at al-Yamāma**; the tradition would tell his house there. It is told
+  now, at the gate, while the room remembers him — and ends on Tustar, framed as a war not yet reached.
+- **Evening 6** = Bahrayn → **Ḥaḍramawt, told from the beginning**, with Kinda's kings woven in where the
+  room first asks *"who are Kinda?"* → Ibn Kathīr's summing-up. Ḥaḍramawt moves a fourth time, knowingly:
+  it has never had the room to be told whole, and now it does.
+- **Supersedes #50's "behind the close."** #50's own worry — flashbacks teaching the room that the Line is
+  decoration — is answered in the build: every flashback is opened and closed aloud by a bridge, and each
+  house gets **its own lane on the Line**, running into al-Yamāma.
+- **Size:** 58 cards, 90.5 minutes budgeted; CORE 39. **Suggested cut `✂` on 22 cards → 36**, the size of
+  evening 4 as spoken, which reaches Mahra. The cut is Daniyal's.
+
+---
+
+## 58. Maps build up on clicks — 2026-09-27
+
+Chosen from three (#56.1): **built on clicks** over stage-by-stage fades (reliable, but nothing moves) and
+video clips (smoothest, but fixed timing, large, and not editable by hand).
+
+- **One slide per map, and it stays up while the speaker tells it.** Each click is a beat: an arrow wipes on
+  in its direction of travel; an army's banner travels along its arrow; a territory fades to green; a mark
+  with Map Studio's *Hide after step* fades out. The notes carry `▶ CLICK n` on the beat it belongs to.
+- **Map Studio** gains one field — an army may name the arrow it follows — and `tools/render_scene.py`
+  gains a **layer export**: the ground as one picture (terrain, places, starting territory, legend, scale),
+  every mark as its own transparent picture cut to its size, and a manifest of where each sits, its step,
+  its `until`, and its route.
+- **The build writes PowerPoint's click animations itself** (python-pptx has no API for them).
+- **One green for Muslim forces: `#2CB020`**, from his own garden map — his evening-4 maps used three.
+- **The trial first.** One map (the garden at ʿAqrabāʾ) is built alone, played in PowerPoint, exported to
+  video and checked frame by frame, **and shown to Daniyal before any other map is built.**
+- **His maps stay his.** Fix in Map Studio and save into `tools/mapstudio/scenes/` before hand-finishing, or
+  fix in PowerPoint: each mark is its own picture, and *Change Picture* keeps its animation.
+- ⚠ His STOP D map colours the whole east green; by the books Oman and Mahra were still being fought. The
+  bookend uses his map unchanged (#23); the Oman map shows the east still fighting, with one sentence.
+
+---
+
+## 59. Checkpoints, not mid-evening closes — 2026-09-27
+
+Chosen from three (#56.3): **checkpoints and one real close**, over fully-scripted in-place closes and
+closes hidden at the back of the deck.
+
+- **A checkpoint is two slides in the flow** — the Line and the map, *where we stand* — and its notes are a
+  script: two or three lines to say on each, a **⏱ time check**, a **CARRYING ON** sentence into the next
+  part, and an **OUT OF TIME** ending: three closing lines, next week's question, ⁨السلام علیکم⁩, the dua.
+  If the evening stops there, the next one opens on those two slides (#23 unchanged). It also re-anchors
+  anyone who came in late.
+- **«Tonight» and «Next week» appear only at the real close.** «Tonight» is **headings** — Daniyal rewrote
+  evening 4's lesson slides as a list of what was covered — with one lesson line each in the notes, so #26's
+  spoken ⁨عبرت⁩ stays.
+- **Supersedes the in-place four-slide closes of #47 and #53, and the hidden early closes, from evening 5
+  on.** No typed slide numbers either way.
+- **Build notes leave the notes pane entirely.** File paths and step numbers live in the runsheet.
+
+---
+
+## 60. The lectern is the deck's notes; the home reading is one PDF of them — 2026-09-27
+
+#56.4. A second artifact at the lectern does not get used, and a phone beside a laptop did not work.
+
+- **`CUE.pdf` is no longer built** (supersedes #22's cue sheet). What it carried moves into each slide's
+  notes, in the order the eye needs it: **⚠** a delivery warning · **SAY** — the beats, with `▶ CLICK` ·
+  **⏱** (checkpoints only) · the quotation · the lesson line · the hands-up question · **BACKGROUND** last.
+- **`BRIEFING.pdf` is replaced by the notes book** — every slide with its full notes beneath it, rendered
+  by this repo's own HTML → PDF path (PowerPoint's notes-page export cuts long notes off), readable on a
+  phone. It is the exact script he will deliver from.
+- **The worksheet is dropped, and the 90-second pause with it** — assumed 2026-09-27 and not objected to;
+  reversible. Supersedes the worksheet beat of #17 and #24.
+- **The research notes stay the deeper reading**, and their PDFs are **re-rendered before any reading list
+  is given**: the ones on disk dated from 7 September, before the corrections of the 19th and 23rd.
+
+---
+
+## 61. Every card answers the question the room will ask next — 2026-09-27
+
+`RC22` passed every gate this repo has — the citations were exact, the card well formed, every name
+introduced — and still left the speaker *"totally lost"*: it said *"he settles on terms"* and never what they
+were. **No existing check can see a missing answer.**
+
+**Settled:** every card is read for **the next question the room will ask** — *what were the terms, what did
+the letter say, how many, what happened to them* — and the answer goes on the card, or the card says the
+books do not give it. The runsheet carries a **"Questions the room will ask"** table beside *Introductions
+checked*. This is #43 extended from names to content: #43 asks *who is this?*; #61 asks *and then what?*
+
+---
+
+## 62. One flashback per man — 2026-09-27
+
+Daniyal, on the first evening-5 build: *"too much backstory on the families and we will not be able to keep
+audience interest."* The numbers agreed with him. The two houses were 32 of the 55 cards. At the pace evening 4
+was actually spoken (34 cards in the slot), the evening stopped in the middle of the second house and never
+reached the Qurʾān, or Oman and Mahra, which were the reasons for the evening.
+
+**Settled:** a house earns a card only where it makes a death on the field land harder. **One short flashback
+per man, told where he falls** (#57's rule, now with a budget). The houses went from 16 and 16 cards to 5 and 9,
+and the three weakest men-beside-them cards (each resting on a "the books differ" warning) left too.
+**Nothing is deleted:** the cards stay in the pool, and every one of their stories is a line on a family tree
+(#65). The runsheet lists where each one went.
+
+## 63. Where a card moves, its map is its slide — 2026-09-27
+
+Daniyal: *"at some places, we have a click click map, and the story should be ideally be said along with them,
+but there are slides later which have the same thing."* The first build put a map in front of the card, with
+its own intro and click lines, and then told the card again on the card's slide. **That broke the v5 spec as
+written** (§2.2.4: *the card's notes carry* `▶ CLICK`) — a build fault, not a design question.
+
+**Settled:** a card that moves is told on its map. The map slide carries the card's headline and date; its notes
+are the card's own beats, with `▶ CLICK n` inserted before the beat each click lands on. The build refuses a
+click on a beat the runsheet skips, and it still fails when a slide's clicks and its `▶ CLICK` lines disagree.
+**A card with an Arabic quotation keeps one more slide after the map, for the words only**: its notes are the
+quotation, its rendering and the lesson line. The story is not told twice, and the authority of the Arabic
+(CLAUDE.md §1.4) is not thrown away. The first build's one map that is not a card's own, *last week in one
+minute* before `RC67`, stays as it was.
+
+## 64. A map fades what a click has finished with; the road stays — 2026-09-27
+
+Daniyal: *"some of the click click maps become too crowded, we might need to use the mode that old markers
+dissapear at later step."* The Oman map ended with ten captions on screen.
+
+**Settled:** on every map, a caption fades on the click after its own, and so do spent arrows, a battle mark
+once the story has moved on, and a banner that has travelled on. This is Map Studio's *hide after step*
+(`until`), which `series/anim.py` already played as an exit fade. **The road itself stays**, so the last click
+of a route map still shows the whole journey. The house maps also lost the legs whose cards left (#62).
+**Known limit:** a static export (the deck's PDF, the PNG previews) shows every layer at once. In the show they
+come and go; **the notes book shows each click's true picture.**
+
+## 65. Each house opens on a family tree — 2026-09-27
+
+Daniyal: *"an organogram showing the familial relationships would be nice"* — and *"we dont want to loose well
+researched details."* The two requests are one answer.
+
+**Settled:** each house opens on one diagram slide, built in `build.py` (boxes and lines, no generated image):
+the house of Umm Sulaym ؓ, ʿUtba's house (Abū Ḥudhayfa ؓ and Sālim ؓ), ʿIkrima ؓ and Umm Ḥakīm ؓ, and Kinda.
+**The face carries names and lines only**, about twenty words. **The notes give every relative one sourced
+sentence** — the core lines first, then *"if the room is with you"* — and the BACKGROUND keeps, for home, the
+beats of every card #62 moved off the running order. **Every line drawn is cited** in the runsheet's tree table.
+
+**Two lines the trees refuse to draw:**
+1. **Umm Sulaym ؓ to al-Barāʾ ؓ.** Daniyal asked that she be named *the mother of Anas and al-Barāʾ*. Our pages
+   name her Anas's ؓ mother only; the house note §X.14 searched 10906, 30097 and 21712 for al-Barāʾ's mother and
+   found none. So the tree draws al-Barāʾ ؓ as Mālik's son and Anas's ؓ elder brother, and the notes say
+   *"Anas's mother"*. If a page is found — in the four books, or in a fifth Daniyal admits — the line goes in.
+2. **Sālim ؓ as "adopted".** The adoption is `AS10`, which Daniyal struck as speaker's discretion; the tree
+   says *freed slave* (`AS09`'s own words).
+
+And Kinda's tree keeps `KD06`'s rule: **the old kingdom and the ridda sit side by side, with no line between.**
+
+## 66. The Qurʾān's collection told whole; Ḥaḍramawt ends ʿIkrima's ؓ road — 2026-09-27
+
+Daniyal: *"we also skipped all info about the collection of quran, this was a natural place to put this in"*;
+*"maybe including kinda and hadramawt might be good"*; *"make sure you have got all the details of oman and mahra
+and rest."*
+
+**Settled:**
+1. **Part V tells the collection whole:** the count (`ZY17`), the man sent for, as a boy (`Q7`), the order and
+   the objection (`RC65`), what it was gathered from (`Q3`), ʿAlī's ؓ judgement (`Q4`), where the ṣuḥuf went
+   (`Q5`, framed as a look ahead), and the ending (`RC37`). The jamʿ cards had sat in the pool **with no beats**,
+   and so never reached a deck; they now have them. `Q1`, `Q2` and `Q6` are not run (they repeat `ZY17` and
+   `RC65`, or give a second list of four beside `AS09`'s) — the note says so on each.
+2. **Ḥaḍramawt and Kinda are Part VII**, as the end of the road Part VI is already on. The campaign note §12.2
+   gives Ḥaḍramawt as last, as sequence, and our cards put ʿIkrima ؓ at the siege of al-Nujayr. It had been
+   carried forward twice, from evening 3 and then evening 4. **Bahrayn moves after it**, to be told as
+   *"meanwhile, in the east"*. Its cards have no beats yet and §7 carries findings on no card.
+3. **The completeness pass.** §8's details that were on no card are now on `RC70`, `RC29` and `RC30`: Laqīṭ's old
+   name and following, Ibn Kathīr's *"at that very hour"*, the relief's commanders, al-Muṣabbaḥ's clan and larger
+   force. Umm Ḥakīm's ؓ father is on `TRN7`, and the Zayd b. Thābit ؓ notice lines are on `Q7`.
+4. **Two corrections to cards written in this repo.** `RC37` said both books point at al-Bukhārī; ⁨الکامل ج۲ ص۲۱۹⁩
+   does not (and the jamʿ note §5.1's "do not cite al-Kāmil for the jamʿ" was too strong: that page carries the
+   order and its reason). `Q5` said *twenty-odd years later*, which is on no page.
+
+**The price, stated plainly:** at evening 4's pace the evening now closes at Checkpoint 1, after the Qurʾān.
+Oman, Mahra and Ḥaḍramawt are built behind it, and open evening 6 if not reached. The runsheet names the six
+cards to strike if Daniyal wants Oman and Mahra that night.
