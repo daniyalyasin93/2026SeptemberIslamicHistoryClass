@@ -186,14 +186,175 @@ def render(scene_path, out_dir, scale=1.2, step=None):
     return written
 
 
+# ---------------------------------------------------------------------------------------------- layers
+# DECISIONS.md #58 — a map that builds up on clicks while the speaker talks. For one slide, showing
+# steps START..END of a scene, the slide needs: the ground that does not move (one picture), and every
+# mark that arrives or leaves during those clicks as its OWN transparent picture, so PowerPoint can wipe
+# an arrow on along its route, send a banner along it, or fade a territory in. The painter is the
+# studio's own (render.js, opts.layerOnly / opts.filter), so a layer is the same drawing, not a copy.
+#
+#   base   = every object present at START that is still there at END
+#   layers = every object whose step is START+1..END (it enters), or that is present at START and has
+#            `until` < END (it leaves). Painted in the painter's own type order, so stacking matches.
+#   click  = step - START (enter), until - START + 1 (exit)
+
+PAGE_LAYERS = PAGE.replace("""    Promise.all([R.whenReady(), fontsFor(T, store.scene.style.urduLabels !== false)])
+      .then(function (res) {
+        if (store.scene.style.relief !== false && !res[0]) throw new Error('shaded relief did not load');
+        steps.forEach(function (n) {
+          if (n < 1 || n > max) throw new Error('step ' + n + ' is outside 1..' + max);
+          store.scene.steps.current = n;
+          var c = document.createElement('canvas');
+          c.width = Math.round(P.STAGE_W * SCALE);
+          c.height = Math.round(P.STAGE_H * SCALE);
+          R.render(c.getContext('2d'), store, {k: SCALE, showSelection: false, images: {}});
+          out('step-' + String(n).padStart(2, '0'), c.toDataURL('image/png'));
+        });
+        out('done', String(max));
+      })""", """    var START = STEPS[0], END = STEPS[1];
+    if (!(START >= 1 && END >= START && END <= max)) throw new Error('range ' + START + '-' + END + ' is outside 1..' + max);
+    var ORDER = {territory: 0, arrow: 1, settlement: 2, battle: 3, army: 4, label: 5};
+    function sOf(o) { return o.step || 1; }
+    function isBase(o) { return sOf(o) <= START && (!o.until || o.until >= END); }
+    function isLayer(o) {
+      return (sOf(o) > START && sOf(o) <= END) || (sOf(o) <= START && o.until && o.until < END && o.until >= START);
+    }
+    function canvas() {
+      var c = document.createElement('canvas');
+      c.width = Math.round(P.STAGE_W * SCALE);
+      c.height = Math.round(P.STAGE_H * SCALE);
+      return c;
+    }
+    Promise.all([R.whenReady(), fontsFor(T, store.scene.style.urduLabels !== false)])
+      .then(function (res) {
+        if (store.scene.style.relief !== false && !res[0]) throw new Error('shaded relief did not load');
+        var view = store.scene.view;
+        function px(lon, lat) { var s = P.toStage(view, lon, lat); return [s[0] * SCALE, s[1] * SCALE]; }
+        // the legend is drawn from what is visible, so it is computed at END: it never changes mid-slide
+        store.scene.steps.current = END;
+        var c = canvas();
+        R.render(c.getContext('2d'), store, {k: SCALE, showSelection: false, images: {}, all: true, filter: isBase});
+        out('base', c.toDataURL('image/png'));
+        var objs = store.scene.objects.filter(isLayer);
+        objs.sort(function (a, b) { return (ORDER[a.type] || 0) - (ORDER[b.type] || 0); });
+        var byId = {};
+        store.scene.objects.forEach(function (o) { byId[o.id] = o; });
+        var manifest = {start: START, end: END, width: Math.round(P.STAGE_W * SCALE),
+                        height: Math.round(P.STAGE_H * SCALE), layers: []};
+        objs.forEach(function (o) {
+          var lc = canvas();
+          R.render(lc.getContext('2d'), store, {k: SCALE, showSelection: false, images: {}, layerOnly: true,
+                                               all: true, filter: function (x) { return x.id === o.id; }});
+          out('layer-' + o.id, lc.toDataURL('image/png'));
+          var m = {id: o.id, type: o.type, faction: o.faction || null, name: o.name || o.label || o.text || '',
+                   step: sOf(o), until: o.until || null,
+                   enter: sOf(o) > START ? sOf(o) - START : 0,
+                   exit: (o.until && o.until < END) ? o.until - START + 1 : null};
+          if (o.pts) m.pts = o.pts.map(function (p) { return px(p[0], p[1]); });
+          if (o.lon !== undefined) m.at = px(o.lon, o.lat);
+          if (o.follows && byId[o.follows] && byId[o.follows].pts) {
+            m.follows = o.follows;
+            m.route = byId[o.follows].pts.map(function (p) { return px(p[0], p[1]); });
+          }
+          manifest.layers.push(m);
+        });
+        out('manifest', JSON.stringify(manifest));
+        out('done', String(max));
+      })""")
+
+assert PAGE_LAYERS != PAGE, "render_scene: the layers page did not patch — PAGE's render loop has changed"
+
+LAYER_RE = re.compile(r'<pre id="(base|layer-[^"]+)">data:image/png;base64,([A-Za-z0-9+/=]+)</pre>')
+MANIFEST_RE = re.compile(r'<pre id="manifest">(.*?)</pre>', re.S)
+
+
+def render_layers(scene_path, out_dir, start, end, scale=1.2, pad=6):
+    """Render one slide's worth of a scene as layers. Returns the manifest path.
+
+    Writes <slug>-r<start>-<end>-base.png, <slug>-r<start>-<end>-<id>.png (each cropped to its own box,
+    the box recorded in the manifest in full-image pixels) and <slug>-r<start>-<end>-layers.json."""
+    from PIL import Image
+    import io
+
+    scene_path = os.path.abspath(scene_path)
+    with open(scene_path, encoding="utf-8") as f:
+        scene = json.load(f)
+    slug = os.path.splitext(os.path.basename(scene_path))[0]
+    if not os.path.exists(CHROME):
+        raise SystemExit("render_scene: Chrome not found at %s (set CHROME to override)" % CHROME)
+    scene_js = json.dumps(scene, ensure_ascii=False).replace("</", "<\\/")
+    page_html = PAGE_LAYERS % {
+        "scripts": "\n".join('<script src="%s"></script>' % _file_url(os.path.join(STUDIO, s)) for s in SCRIPTS),
+        "scene": scene_js, "steps": json.dumps([int(start), int(end)]), "scale": repr(float(scale)),
+    }
+    work = tempfile.mkdtemp(prefix="render_layers_")
+    try:
+        page = os.path.join(work, slug + ".html")
+        with open(page, "w", encoding="utf-8") as f:
+            f.write(page_html)
+        try:
+            proc = subprocess.run(
+                [CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars",
+                 "--allow-file-access-from-files", "--no-first-run", "--no-default-browser-check",
+                 "--user-data-dir=" + os.path.join(work, "profile"),
+                 "--virtual-time-budget=60000", "--dump-dom", _file_url(page)],
+                capture_output=True, timeout=400)
+        except subprocess.TimeoutExpired:
+            raise SystemExit("render_scene: %s: Chrome did not finish the layers in 400 s." % slug)
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
+
+    dom = proc.stdout.decode("utf-8", "replace")
+    err = ERR_RE.search(dom)
+    if err:
+        raise SystemExit("render_scene: %s: the page reported an error:\n%s" % (slug, html.unescape(err.group(1))))
+    man = MANIFEST_RE.search(dom)
+    if not man or '<pre id="done">' not in dom:
+        raise SystemExit("render_scene: %s: the layer render did not finish. Nothing written." % slug)
+    manifest = json.loads(html.unescape(man.group(1)))
+    images = dict(LAYER_RE.findall(dom))
+
+    os.makedirs(out_dir, exist_ok=True)
+    stem = "%s-r%d-%d" % (slug, start, end)
+    for old in glob.glob(os.path.join(out_dir, stem + "-*")):
+        os.remove(old)
+    base = os.path.join(out_dir, stem + "-base.png")
+    with open(base, "wb") as f:
+        f.write(base64.b64decode(images["base"]))
+    manifest["base"] = os.path.basename(base)
+    keep = []
+    for m in manifest["layers"]:
+        im = Image.open(io.BytesIO(base64.b64decode(images["layer-" + m["id"]]))).convert("RGBA")
+        box = im.getchannel("A").getbbox()
+        if not box:
+            continue                               # an object that draws nothing at this view
+        box = (max(0, box[0] - pad), max(0, box[1] - pad), min(im.width, box[2] + pad), min(im.height, box[3] + pad))
+        name = "%s-%s.png" % (stem, m["id"])
+        im.crop(box).save(os.path.join(out_dir, name))
+        m["file"], m["box"] = name, list(box)
+        keep.append(m)
+    manifest["layers"] = keep
+    mpath = os.path.join(out_dir, stem + "-layers.json")
+    with open(mpath, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=1)
+    return mpath
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("scenes", nargs="+", help="Map Studio scene .json file(s)")
     ap.add_argument("--out-dir", required=True, help="where the PNGs go")
     ap.add_argument("--scale", type=float, default=1.2, help="1.2 = 1920x1080 (default); 2.4 = 4K")
     ap.add_argument("--step", type=int, default=None, help="render only this step")
+    ap.add_argument("--layers", default=None, metavar="START-END",
+                    help="render steps START..END as a ground and one transparent layer per moving mark")
     a = ap.parse_args(argv)
     for s in a.scenes:
+        if a.layers:
+            start, end = (int(x) for x in a.layers.split("-"))
+            m = render_layers(s, a.out_dir, start, end, a.scale)
+            print("  %-40s layers -> %s" % (os.path.basename(s), os.path.basename(m)))
+            continue
         paths = render(s, a.out_dir, a.scale, a.step)
         print("  %-40s %d PNG(s)" % (os.path.basename(s), len(paths)))
     return 0

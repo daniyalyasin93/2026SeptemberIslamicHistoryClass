@@ -400,7 +400,8 @@ def _placeholder(s, x, y, w, h, brief, wanted):
              scaffold=True, name=SCAFFOLD + "path")
 
 
-def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=None, map_frac=0.60):
+def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=None, map_frac=0.60,
+              trim=True):
     """A map on the left, a short key down the right.
 
     The theatre of these campaigns — Egypt to Persia, Anatolia to Yemen — is very nearly square,
@@ -423,12 +424,15 @@ def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=No
     path = image if image and os.path.isabs(image) else os.path.join(VIS, image or "")
     placed = bool(image and os.path.exists(path))
     if placed:
-        path = _trim(path)
+        # trim=False for a map that animates (series/anim.py): its layers are positioned against the
+        # full render, so the ground must not be cropped
+        path = _trim(path) if trim else path
         pic = s.shapes.add_picture(path, MARGIN, CONTENT_Y, height=map_h)
         if pic.width > map_w:
             pic.width, pic.height = map_w, Emu(int(pic.height * map_w / pic.width))
         pic.left = MARGIN + Emu(int((map_w - pic.width) / 2))
         pic.top = CONTENT_Y + Emu(int((map_h - pic.height) / 2))
+        pic.name = "map"
     else:
         _placeholder(s, MARGIN, CONTENT_Y, map_w, map_h, brief or headline, image)
 

@@ -277,7 +277,10 @@
   function drawObjects(ctx, store, W, H, k, opts) {
     var scene = store.scene;
     var view = scene.view;
-    var objs = store.visibleObjects();
+    // opts.all / opts.filter are for tools/render_scene.py's layer export, which draws one mark at a time
+    // on a transparent canvas (DECISIONS.md #58). The studio itself never passes them.
+    var objs = opts.all ? scene.objects.slice() : store.visibleObjects();
+    if (opts.filter) objs = objs.filter(opts.filter);
     var sel = opts.showSelection ? store.selection : null;
     var showUrdu = scene.style.urduLabels !== false;
     var base = markScale(scene);
@@ -597,6 +600,15 @@
     var k = 1;
     var W = P.STAGE_W, H = P.STAGE_H;
     var scene = store.scene;
+
+    if (opts.layerOnly) {
+      // one mark on a transparent ground, for a slide that animates it in on its own click
+      ctx.save();
+      ctx.clearRect(0, 0, W, H);
+      drawObjects(ctx, store, W, H, k, opts);
+      ctx.restore();
+      return;
+    }
 
     ctx.save();
     ctx.clearRect(0, 0, W, H);
