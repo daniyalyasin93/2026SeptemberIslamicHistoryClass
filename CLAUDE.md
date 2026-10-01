@@ -201,6 +201,18 @@ on, banners travel their route, territories fade to green), and the notes carry 
 **Checkpoints, not mid-evening closes (#59):** two slides (Line + map) in the flow, scripted for carrying
 on or for ending there; «Tonight» and «Next week» only at the real close.
 
+**A DECK DANIYAL HAS SAVED EDITS INTO IS HIS (`DECISIONS.md` #67, 2026-10-01).** Before any build or any write
+to an evening's `.pptx`: `git status --short` on the deck, and look for its `~$` lock file. If it differs from
+its last commit, **do not rebuild over it** — copy it aside, commit it as his version, then change the file in
+place (python-pptx; the headline and kicker boxes are named) or write the rebuild beside it as `SNN_NEW.pptx`.
+A rebuild on 2026-10-01 destroyed half an hour of his hand-finishing. `S05/build.py` refuses to overwrite a deck
+whose hash is neither the commit's nor its own last output; the rule is older than the check.
+
+**Face headlines are names, not sentences (#68).** Daniyal delivers mostly in Urdu with some English. A card
+about a person is headed by the person's name — with the ⁨لقب⁩, or a plain word or two (*at Badr*, *the banner*)
+only where he has several slides. Card titles stay as the researcher wrote them; the face is set in `build.py`
+`FACE_TITLE`.
+
 **A SLIDE FACE CARRIES ONLY WHAT THE ROOM MAY SEE (`DECISIONS.md` #30).** Certainty labels, tier
 tags, card ids, cross-references, build markers, `[HANDS]` cues, `n/a`, IMAGE BRIEF text, the words
 Claude/Gemini/AI, and raw URLs are **production apparatus and belong in the speaker notes**.

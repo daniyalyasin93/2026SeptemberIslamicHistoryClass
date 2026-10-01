@@ -65,6 +65,7 @@ explicitly and give a reason — do not quietly reverse it.
 | 65 | 2026-09-27 | **Each house opens on a family tree**; its notes keep every cut story | active |
 | 66 | 2026-09-27 | **The Qurʾān's collection told whole; Ḥaḍramawt ends ʿIkrima's ؓ road**; Bahrayn after | active |
 | 67 | 2026-10-01 | **The family trees are editable org charts**; the house of ʿUtba grows to its famous in-laws | active |
+| 68 | 2026-10-01 | **Face headlines are names, not sentences** — the dead of al-Yamāma headed by the Companion's name | active |
 
 ---
 
@@ -1513,3 +1514,21 @@ me and add their other famous relatives: hind bint utba, abu sufyan... sohail bi
 
 The other three trees were rebuilt on the same engine, each with a real root box (al-Naḍr and Milḥān; Hishām b.
 al-Mughīra) in place of the first build's unlabelled sibling bars.
+
+---
+
+## 68. Face headlines are names, not sentences — 2026-10-01
+
+Daniyal: *"in the dead of yamama name the slides with the name of sahabi instead of an obscure english sentence.
+I am going to deliver this mostly in urdu with mix of english, so obscure english sentences don't make much
+sense."*
+
+**Settled:** a card about a person is headed by the person's name. The ⁨لقب⁩ the tradition gave may follow it
+(§1.2); where one man has several slides, a plain word or two tells them apart — *Sālim ؓ at Qubāʾ*, *Sālim ؓ —
+the banner*, *Abū Ḥudhayfa ؓ at Badr*. Never an English sentence: the room hears Urdu, and a sentence on the face
+in a language the speaker is not using is noise. **Card titles stay as the researchers wrote them** — they are
+the index of the pool — and the face is set in each evening's `build.py` `FACE_TITLE`. Applied to evening 5's
+Parts II–IV (twenty-one cards); standing for every evening from here.
+
+Also today, after the same conversation: **a deck Daniyal has saved edits into is never rebuilt over** — see #67's
+guard, and `CLAUDE.md` §1.7. The rule exists because a rebuild destroyed half an hour of his work this morning.

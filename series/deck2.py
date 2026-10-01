@@ -273,10 +273,10 @@ def header(slide, headline, kicker=None):
 
     if kicker:
         text(slide, kicker, MARGIN, Inches(0.10), CONTENT_W, Inches(0.30),
-             size=MIN_PT, color=GOLD, font=SANS, bold=True)
+             size=MIN_PT, color=GOLD, font=SANS, bold=True, name="kicker")
 
     text(slide, hl, MARGIN, top, CONTENT_W, text_h, size=size, color=CREAM,
-         font=EN, bold=True, anchor=MSO_ANCHOR.TOP, line=1.16)
+         font=EN, bold=True, anchor=MSO_ANCHOR.TOP, line=1.16, name="headline")
     return slide
 
 

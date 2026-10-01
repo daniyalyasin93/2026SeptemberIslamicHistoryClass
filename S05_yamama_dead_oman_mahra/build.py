@@ -64,6 +64,30 @@ FACE_TITLE = dict(S4.FACE_TITLE, **{
     "ABU/E-Q7": "Zayd b. Thābit ؓ, as a boy",
     "ABU/E-Q3": "What it was gathered from",
     "TSY/E-YK19": "al-Ashʿath b. Qays comes into it",
+    # #68 (2026-10-01): the dead of al-Yamāma — Parts II–IV — are headed by the Companion's name, with a plain
+    # word or two only where one man has several slides. Daniyal delivers in Urdu; an English sentence on the
+    # face is no use to him there, a name is.
+    "THO/E-HS14": "al-Barāʾ b. Mālik ؓ",
+    "THO/E-HS1": "Abū Ṭalḥa ؓ and Umm Sulaym ؓ",
+    "THO/E-HS9": "Umm Sulaym ؓ",
+    "THO/E-HS15": "al-Barāʾ ؓ and Anas ؓ",
+    "THO/E-HS17": "al-Barāʾ ؓ at Tustar",
+    "ZIA/E-ZY12": "Abū ʿAqīl ؓ",
+    "ZIA/E-ZY15": "Ḥabīb b. Zayd ؓ, and Umm ʿUmāra ؓ",
+    "ZIA/E-ZY18": "ʿAbd Allāh b. Zayd ؓ",
+    "AHA/E-AS13": "Zayd b. al-Khaṭṭāb ؓ — the banner",
+    "ZIA/E-ZY4": "ʿUmar ؓ, and the man who killed Zayd ؓ",
+    "ZIA/E-ZY8": "Zayd ؓ and Maʿn b. ʿAdī ؓ",
+    "ZIA/E-ZY9": "Maʿn b. ʿAdī ؓ",
+    "ZIA/E-ZY10": "Thābit b. Qays ؓ",
+    "AHA/E-AS02": "Abū Ḥudhayfa b. ʿUtba ؓ",
+    "AHA/E-AS06": "Sālim ؓ — from Iṣṭakhr",
+    "AHA/E-AS07": "Sālim ؓ at Qubāʾ",
+    "AHA/E-AS04": "Abū Ḥudhayfa ؓ at Badr",
+    "AHA/E-AS09": "Sālim ؓ — one of the four",
+    "AHA/E-AS15": "Sālim ؓ — the banner",
+    "AHA/E-AS16": "Sālim ؓ and Abū Ḥudhayfa ؓ",
+    "AHA/E-AS18": "ʿUmar ؓ on Sālim ؓ",
 })
 FACE_WHEN = dict(S4.FACE_WHEN, **{
     "RCT/E-RC67": "12 AH, the forts of al-Yamāma",
