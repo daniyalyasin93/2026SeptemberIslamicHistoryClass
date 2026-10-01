@@ -64,6 +64,7 @@ explicitly and give a reason — do not quietly reverse it.
 | 64 | 2026-09-27 | **A map fades what a click has finished with; the road stays** | active |
 | 65 | 2026-09-27 | **Each house opens on a family tree**; its notes keep every cut story | active |
 | 66 | 2026-09-27 | **The Qurʾān's collection told whole; Ḥaḍramawt ends ʿIkrima's ؓ road**; Bahrayn after | active |
+| 67 | 2026-10-01 | **The family trees are editable org charts**; the house of ʿUtba grows to its famous in-laws | active |
 
 ---
 
@@ -1485,3 +1486,30 @@ and rest."*
 **The price, stated plainly:** at evening 4's pace the evening now closes at Checkpoint 1, after the Qurʾān.
 Oman, Mahra and Ḥaḍramawt are built behind it, and open evening 6 if not reached. The runsheet names the six
 cards to strike if Daniyal wants Oman and Mahra that night.
+
+---
+
+## 67. The family trees are editable org charts; the house of ʿUtba grows to its famous in-laws — 2026-10-01
+
+Daniyal, on the house tree of evening 5 (slide 27): *"make a greater organogram, that is editable as well with
+me and add their other famous relatives: hind bint utba, abu sufyan... sohail bin amr."*
+
+**Settled:**
+1. **Every tree is an editable org chart.** Each box is a named PowerPoint shape (*person: Hind*), and every
+   line is a connector glued to its two boxes — a child's line runs from the parent's foot to the child's head
+   as an elbow, a marriage is a gold line between neighbours, Sālim's ؓ tie a dashed grey one. Move a box and
+   its lines follow. The first build drew free-floating lines, which came apart the moment a box was moved.
+2. **The house of ʿUtba b. Rabīʿa** now carries Rabīʿa → ʿUtba and Shayba; ʿUtba's children al-Walīd, Abū
+   Ḥudhayfa ؓ and Hind ؓ; Hind ؓ ═ Abū Sufyān ؓ and their son Muʿāwiya ؓ; Abū Ḥudhayfa ؓ ═ Sahla ؓ, daughter of
+   Suhayl b. ʿAmr ؓ; and Sālim ؓ. Every line is page-cited in the runsheet's tree table — Hind as *Umm Muʿāwiya*
+   on ⁨سیر ج۱ ص۱۶۵⁩, Abū Sufyān's ؓ notice on ⁨ج۲ ص۱۰۶⁩, Suhayl's ؓ on ⁨ج۱ ص۱۹۴⁩.
+3. **Daniyal chose what goes on the face.** Muʿāwiya ؓ yes; Abū Hāshim b. ʿUtba ؓ and Sālim's ؓ wife (al-Walīd's
+   daughter, ⁨البدایہ ج۷ ص۵۰⁩) in the notes only; **Muḥammad b. Abī Ḥudhayfa off the tree** — his later life is
+   ⁨مشاجرات⁩ material (the house note §1).
+4. **Forward references stay framed.** Abū Sufyān ؓ and Muʿāwiya ؓ are *"names for evenings we have not
+   reached"*; the notes say nothing of what came later. Hind's verses against her brother are not read out.
+5. **A names-only diagram is the one slide allowed past the twenty-word body cap** (#21): about thirty words, all
+   names and a three-line key.
+
+The other three trees were rebuilt on the same engine, each with a real root box (al-Naḍr and Milḥān; Hishām b.
+al-Mughīra) in place of the first build's unlabelled sibling bars.

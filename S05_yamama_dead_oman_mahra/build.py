@@ -249,29 +249,33 @@ BRIDGE_BEFORE = {
         "came by. From here the two of them go east, to the last front of the war. First: who were Kinda?"),
 }
 
-# ---------------------------------------------------------------------------------------------- family trees (#65)
-# before card id -> a tree. Boxes: (label, centre x, top y, width, style) in inches; style is "focus" (the man
-# the part is about), "house" (the one the house is named for), "plain", or "other" (the other side at Badr, and
-# after). Lines: ("line" | "double" | "dash", [(x, y), …]). Every line drawn is one the runsheet's tree table
-# cites; the notes carry one sentence per person, each a card's.
-H_BOX = 0.82
+# ---------------------------------------------------------------------------------------------- family trees (#65, #67)
+# before card id -> a tree. Boxes: (key, label, centre x, top y, width, style) in inches; style is "focus" (the
+# men the part is about), "house" (the one the house is named for), "plain", or "other" (the other side at Badr).
+# Links join boxes BY KEY and are drawn as PowerPoint connectors glued to the boxes (#67), so Daniyal can move a
+# box and its lines follow: ("child", parent, child) is an elbow from the parent's foot to the child's head;
+# ("marriage", left, right) a gold line between two neighbours; ("freed", a, b, caption) a dashed grey line.
+# Every link drawn is one the runsheet's tree table cites; the notes carry one sentence per person, each a
+# card's or a cited page's.
+H_BOX = 0.78
 TREES = {
     "THO/E-HS1": dict(
         head="The house of Umm Sulaym ؓ", kick="Banū al-Najjār, of Medina",
-        boxes=[("Anas b. al-Naḍr ؓ", 1.55, 2.45, 1.86, "plain"), ("Mālik", 3.61, 2.45, 1.86, "plain"),
-               ("Umm Sulaym ؓ", 5.67, 2.45, 1.86, "house"), ("Abū Ṭalḥa ؓ", 7.73, 2.45, 1.86, "plain"),
-               ("Umm Ḥarām ؓ", 9.79, 2.45, 1.86, "plain"), ("Ḥarām ؓ", 11.80, 2.45, 1.70, "plain"),
-               ("al-Barāʾ ؓ", 2.40, 4.55, 1.86, "focus"), ("Anas ؓ", 4.64, 4.55, 1.86, "plain"),
-               ("a small son", 6.70, 4.55, 1.86, "plain")],
-        lines=[("line", [(1.55, 2.45), (1.55, 2.08), (3.61, 2.08), (3.61, 2.45)]),
-               ("line", [(5.67, 2.45), (5.67, 2.08), (11.80, 2.08), (11.80, 2.45)]),
-               ("line", [(9.79, 2.08), (9.79, 2.45)]),
-               ("double", [(4.54, 2.86), (4.74, 2.86)]), ("double", [(6.60, 2.86), (6.80, 2.86)]),
-               ("line", [(4.64, 2.86), (4.64, 4.55)]), ("line", [(6.70, 2.86), (6.70, 4.55)]),
-               ("line", [(3.61, 3.27), (3.61, 3.95), (2.40, 3.95), (2.40, 4.55)])],
-        captions=[("al-Naḍr", 2.58, 1.60, 1.9), ("Milḥān", 10.80, 1.60, 1.9)],
+        boxes=[("nadr", "al-Naḍr", 2.58, 1.42, 1.70, "plain"), ("milhan", "Milḥān", 9.60, 1.42, 1.70, "plain"),
+               ("anas_nadr", "Anas b. al-Naḍr ؓ", 1.55, 2.95, 1.86, "plain"), ("malik", "Mālik", 3.61, 2.95, 1.86, "plain"),
+               ("umm_sulaym", "Umm Sulaym ؓ", 5.67, 2.95, 1.86, "house"), ("abu_talha", "Abū Ṭalḥa ؓ", 7.73, 2.95, 1.86, "plain"),
+               ("umm_haram", "Umm Ḥarām ؓ", 9.79, 2.95, 1.86, "plain"), ("haram", "Ḥarām ؓ", 11.80, 2.95, 1.70, "plain"),
+               ("bara", "al-Barāʾ ؓ", 2.40, 5.15, 1.86, "focus"), ("anas", "Anas ؓ", 4.64, 5.15, 1.86, "plain"),
+               ("son", "a small son", 6.70, 5.15, 1.86, "plain")],
+        links=[("child", "nadr", "anas_nadr"), ("child", "nadr", "malik"),
+               ("child", "milhan", "umm_sulaym"), ("child", "milhan", "umm_haram"), ("child", "milhan", "haram"),
+               ("marriage", "malik", "umm_sulaym"), ("marriage", "umm_sulaym", "abu_talha"),
+               ("child", "malik", "bara"), ("child", "malik", "anas"), ("child", "umm_sulaym", "anas"),
+               ("child", "umm_sulaym", "son"), ("child", "abu_talha", "son")],
+        legend=[("marriage", "married", 8.9, 6.35)],
         notes=(
-            "TREE — the house of Umm Sulaym ؓ. Point as you go.\n\n"
+            "TREE — the house of Umm Sulaym ؓ. Point as you go. (Every line is glued to its boxes: move a box and "
+            "its lines follow.)\n\n"
             "SAY — Before we go on with him, look at the house he came from: one house of Banū al-Najjār, in "
             "Medina.\n"
             "1. Mālik b. al-Naḍr — the father of al-Barāʾ ؓ and of Anas ؓ. Al-Barāʾ ؓ is the elder.\n"
@@ -299,45 +303,65 @@ TREES = {
         background=["THO/E-HS2", "THO/E-HS3", "THO/E-HS4", "THO/E-HS5", "THO/E-HS6", "THO/E-HS8", "THO/E-HS11",
                     "THO/E-HS12", "THO/E-HS13", "THO/E-HS10", "THO/E-HS7"]),
     "AHA/E-AS02": dict(
-        head="One house, two battlefields", kick="Badr, 2 AH · al-Yamāma, 12 AH",
-        boxes=[("ʿUtba b. Rabīʿa", 3.90, 2.35, 2.60, "other"), ("Shayba", 6.90, 2.35, 1.90, "other"),
-               ("al-Walīd", 2.70, 4.35, 1.90, "other"), ("Abū Ḥudhayfa ؓ", 5.50, 4.35, 2.40, "focus"),
-               ("Sālim ؓ", 9.60, 4.35, 1.90, "focus")],
-        lines=[("line", [(3.90, 2.35), (3.90, 2.00), (6.90, 2.00), (6.90, 2.35)]),
-               ("line", [(3.90, 3.17), (3.90, 3.80)]),
-               ("line", [(2.70, 4.35), (2.70, 3.80), (5.50, 3.80), (5.50, 4.35)]),
-               ("dash", [(6.70, 4.76), (8.65, 4.76)])],
-        captions=[("freed slave", 7.68, 4.22, 1.9)],
-        legend=[("other", "killed at Badr, 2 AH", 1.10, 6.25), ("focus", "killed at al-Yamāma, 12 AH", 6.40, 6.25)],
+        head="The house of ʿUtba b. Rabīʿa", kick="Quraysh — Badr, 2 AH · al-Yamāma, 12 AH",
+        boxes=[("suhayl", "Suhayl b. ʿAmr ؓ", 1.90, 1.42, 2.50, "plain"), ("rabia", "Rabīʿa", 5.50, 1.42, 1.70, "plain"),
+               ("utba", "ʿUtba b. Rabīʿa", 4.30, 2.95, 2.40, "other"), ("shayba", "Shayba", 6.70, 2.95, 1.90, "other"),
+               ("sahla", "Sahla ؓ", 1.90, 4.45, 1.90, "plain"), ("abu_hudhayfa", "Abū Ḥudhayfa ؓ", 4.30, 4.45, 2.40, "focus"),
+               ("walid", "al-Walīd", 6.70, 4.45, 1.90, "other"), ("hind", "Hind ؓ", 8.95, 4.45, 1.80, "plain"),
+               ("abu_sufyan", "Abū Sufyān ؓ", 11.25, 4.45, 2.55, "plain"),
+               ("salim", "Sālim ؓ", 4.30, 6.00, 1.90, "focus"), ("muawiya", "Muʿāwiya ؓ", 10.075, 6.00, 2.10, "plain")],
+        links=[("child", "rabia", "utba"), ("child", "rabia", "shayba"),
+               ("child", "utba", "abu_hudhayfa"), ("child", "utba", "walid"), ("child", "utba", "hind"),
+               ("child", "suhayl", "sahla"), ("marriage", "sahla", "abu_hudhayfa"),
+               ("marriage", "hind", "abu_sufyan"), ("child", "hind", "muawiya"), ("child", "abu_sufyan", "muawiya"),
+               ("freed", "abu_hudhayfa", "salim", "freed slave")],
+        legend=[("other", "killed at Badr, 2 AH", 8.10, 1.42), ("focus", "killed at al-Yamāma, 12 AH", 8.10, 1.90),
+                ("marriage", "married", 8.10, 2.38)],
         notes=(
-            "TREE — one house, two battlefields. Point as you go.\n\n"
-            "SAY — One family, on two battlefields.\n"
-            "1. ʿUtba b. Rabīʿa — al-Dhahabī calls him the elder of the Jāhiliyya — with his brother Shayba and "
-            "his son al-Walīd: the three who came out for the single combat that opened Badr. All three were "
-            "killed.\n"
-            "2. Abū Ḥudhayfa ؓ — ʿUtba's son — was standing with the Muslims that day: his father and his "
-            "brother on one side, himself on the other.\n"
-            "3. Sālim ؓ — the freed slave the household kept. His origin was Iṣṭakhr, in Persia.\n"
-            "4. Ten years after Badr, both of them fell at al-Yamāma, side by side.\n\n"
+            "TREE — the house of ʿUtba b. Rabīʿa, and who married into it. Point as you go. (Every line is glued "
+            "to its boxes: move a box and its lines follow.)\n\n"
+            "SAY — One family, on two battlefields — and some names you know.\n"
+            "1. ʿUtba b. Rabīʿa — al-Dhahabī calls him the elder of the Jāhiliyya — his brother Shayba, and his "
+            "son al-Walīd: the three who came out for the single combat that opened Badr. All three were killed.\n"
+            "2. Abū Ḥudhayfa ؓ, ʿUtba's son, stood with the Muslims that day: his father and his brother on one "
+            "side, himself on the other.\n"
+            "3. His sister: Hind bint ʿUtba ؓ — al-Dhahabī names her as Umm Muʿāwiya. Her husband, Abū Sufyān ؓ: "
+            "the head of Quraysh, their commander at Uḥud and at the Trench — until, in al-Dhahabī's words, "
+            "Allah rescued him with Islam on the day of the Conquest. Their son, Muʿāwiya ؓ — a name for "
+            "evenings we have not reached.\n"
+            "4. His wife: Sahla ؓ, the daughter of Suhayl b. ʿAmr ؓ — the orator of Quraysh, the man who held "
+            "Mecca for Islam when the Prophet ﷺ died. She went with Abū Ḥudhayfa ؓ on the first ship to "
+            "Abyssinia — hired, it is reported, for half a dīnār.\n"
+            "5. Sālim ؓ — the freed slave the household kept. His origin was Iṣṭakhr, in Persia.\n"
+            "6. Ten years after Badr, Abū Ḥudhayfa ؓ and Sālim ؓ fell at al-Yamāma, side by side.\n\n"
             "IF THE ROOM IS WITH YOU — one line each:\n"
-            "5. Abū Ḥudhayfa ؓ and his wife Sahla ؓ were on the first ship to Abyssinia — hired, it is reported, "
-            "for half a dīnār.\n"
-            "6. The Prophet ﷺ went out one night with his cloak to listen to Sālim ؓ recite in the mosque. "
-            "Al-Dhahabī records it, and marks the chain good.\n\n"
+            "7. Abū Ḥudhayfa ؓ married Sālim ؓ to his own brother al-Walīd's daughter — into the family itself. "
+            "Ibn Kathīr alone carries it.\n"
+            "8. Another brother, Abū Hāshim b. ʿUtba ؓ — a Muslim on the day of the Conquest, \"and his Islam was "
+            "good\"; Muʿāwiya ؓ came to his bedside in his last illness.\n"
+            "9. The Prophet ﷺ went out one night with his cloak to listen to Sālim ؓ recite in the mosque; "
+            "al-Dhahabī marks the chain good.\n\n"
+            "⚠ Abū Sufyān ؓ and Muʿāwiya ؓ are forward references: say \"names for evenings we have not "
+            "reached\", and nothing of what came later.\n"
+            "⚠ The verses Hind is said to have spoken against her brother at Badr are not to be read out.\n"
+            "⚠ Abū Ḥudhayfa's ؓ son Muḥammad, born in Abyssinia, is not on the tree: his later life belongs to "
+            "the مشاجرات and is not for the platform.\n"
             "⚠ The tree says \"freed slave\", not \"adopted\": the adoption, and what the law did with it, is not "
             "for the platform."),
         background=["AHA/E-AS03", "AHA/E-AS01", "AHA/E-AS08", "AHA/E-AS05"]),
     "TMW/E-TRN7": dict(
         head="ʿIkrima ؓ and Umm Ḥakīm ؓ", kick="Banū Makhzūm, of Mecca",
-        boxes=[("Abū Jahl\nkilled at Badr", 4.20, 2.30, 2.60, "other"),
-               ("al-Ḥārith b. Hishām ؓ", 8.90, 2.30, 2.60, "plain"),
-               ("ʿIkrima ؓ", 4.20, 4.60, 2.60, "focus"), ("Umm Ḥakīm ؓ", 8.90, 4.60, 2.60, "focus")],
-        box_h=0.95,
-        lines=[("line", [(4.20, 2.30), (4.20, 1.98), (8.90, 1.98), (8.90, 2.30)]),
-               ("line", [(4.20, 3.25), (4.20, 4.60)]), ("line", [(8.90, 3.25), (8.90, 4.60)]),
-               ("double", [(5.50, 5.07), (7.60, 5.07)])],
+        boxes=[("hisham", "Hishām b. al-Mughīra", 6.55, 1.42, 2.90, "plain"),
+               ("abu_jahl", "Abū Jahl\nkilled at Badr", 4.20, 2.95, 2.60, "other"),
+               ("harith", "al-Ḥārith b. Hishām ؓ", 8.90, 2.95, 2.60, "plain"),
+               ("ikrima", "ʿIkrima ؓ", 4.20, 5.15, 2.60, "focus"), ("umm_hakim", "Umm Ḥakīm ؓ", 8.90, 5.15, 2.60, "focus")],
+        box_h=0.92,
+        links=[("child", "hisham", "abu_jahl"), ("child", "hisham", "harith"),
+               ("child", "abu_jahl", "ikrima"), ("child", "harith", "umm_hakim"), ("marriage", "ikrima", "umm_hakim")],
+        legend=[("marriage", "married", 8.9, 6.60)],
         notes=(
-            "TREE — whose son, and whose daughter. Point as you go.\n\n"
+            "TREE — whose son, and whose daughter. Point as you go. (Every line is glued to its boxes: move a box "
+            "and its lines follow.)\n\n"
             "SAY — Whose son he was, and whose daughter his wife was.\n"
             "1. Abū Jahl — who led Quraysh against the Prophet ﷺ at Badr, and was killed there.\n"
             "2. His brother, al-Ḥārith b. Hishām ؓ — in al-Dhahabī's words, one of the noble Companions.\n"
@@ -345,14 +369,13 @@ TREES = {
             "brother's daughter. On the day of the Conquest she became a Muslim. He ran.")),
     "KTK/E-KD05": dict(
         head="Kinda", kick="kings once — and two branches in 11 AH",
-        boxes=[("Ākil al-Murār", 2.20, 2.55, 2.90, "plain"),
-               ("Banū Muʿāwiya", 8.60, 2.10, 2.70, "plain"),
-               ("Banū ʿAmr", 6.90, 3.75, 2.40, "plain"), ("Banū al-Ḥārith", 10.40, 3.75, 2.60, "plain"),
-               ("the four kings", 6.90, 5.20, 2.60, "other"), ("al-Ashʿath b. Qays", 10.40, 5.20, 2.90, "focus")],
-        lines=[("dash", [(4.30, 1.85), (4.30, 6.70)]),
-               ("line", [(8.60, 2.92), (8.60, 3.35)]),
-               ("line", [(6.90, 3.75), (6.90, 3.35), (10.40, 3.35), (10.40, 3.75)]),
-               ("line", [(6.90, 4.57), (6.90, 5.20)]), ("line", [(10.40, 4.57), (10.40, 5.20)])],
+        boxes=[("akil", "Ākil al-Murār", 2.20, 2.55, 2.90, "plain"),
+               ("muawiya_k", "Banū Muʿāwiya", 8.60, 2.10, 2.70, "plain"),
+               ("amr", "Banū ʿAmr", 6.90, 3.75, 2.40, "plain"), ("harith_k", "Banū al-Ḥārith", 10.40, 3.75, 2.60, "plain"),
+               ("kings", "the four kings", 6.90, 5.20, 2.60, "other"), ("ashath", "al-Ashʿath b. Qays", 10.40, 5.20, 2.90, "focus")],
+        links=[("child", "muawiya_k", "amr"), ("child", "muawiya_k", "harith_k"),
+               ("child", "amr", "kings"), ("child", "harith_k", "ashath")],
+        rules=[("dash", 4.30, 1.85, 4.30, 6.70)],
         captions=[("kings of the north, before Islam", 2.20, 3.55, 3.30)],
         notes=(
             "TREE — Kinda. Point as you go.\n\n"
@@ -577,52 +600,97 @@ def static_map(prs, scene, step, headline, kicker, keys):
     return D.map_slide(prs, jpeg(png), headline, keys=keys, kicker=kicker, map_frac=0.70, trim=False)
 
 
-def _seg(s, x1, y1, x2, y2, color, width, dash=False):
-    c = s.shapes.add_connector(MSO_CONNECTOR.STRAIGHT, Inches(x1), Inches(y1), Inches(x2), Inches(y2))
-    c.line.color.rgb = color
-    c.line.width = Pt(width)
-    if dash:
-        c.line.dash_style = MSO_LINE_DASH_STYLE.DASH
-    return c
-
-
 BOX_STYLE = {   # fill, border, border width, text colour, dashed border
     "focus": (D.TEAL, D.TEAL, 1.5, D.CREAM, False),
     "house": (D.CREAM, D.GOLD, 3.0, D.DARK, False),
     "plain": (D.CREAM, D.RULE, 1.5, D.DARK, False),
     "other": (D.WHITE, D.MUTED, 1.5, D.MUTED, True),
 }
+TOP, LEFT, BOTTOM, RIGHT = 0, 1, 2, 3        # a rectangle's connection sites, in PowerPoint's order
+
+
+def _link(s, a, b, kind, a_site, b_site):
+    """A connector glued to two boxes (#67). PowerPoint re-routes it when either box is moved."""
+    ax, ay = {TOP: (a.left + a.width // 2, a.top), BOTTOM: (a.left + a.width // 2, a.top + a.height),
+              LEFT: (a.left, a.top + a.height // 2), RIGHT: (a.left + a.width, a.top + a.height // 2)}[a_site]
+    bx, by = {TOP: (b.left + b.width // 2, b.top), BOTTOM: (b.left + b.width // 2, b.top + b.height),
+              LEFT: (b.left, b.top + b.height // 2), RIGHT: (b.left + b.width, b.top + b.height // 2)}[b_site]
+    c = s.shapes.add_connector(MSO_CONNECTOR.ELBOW if kind == "child" else MSO_CONNECTOR.STRAIGHT, ax, ay, bx, by)
+    c.begin_connect(a, a_site)
+    c.end_connect(b, b_site)
+    if kind == "marriage":
+        c.line.color.rgb, c.line.width = D.GOLD, Pt(3.0)
+    elif kind == "freed":
+        c.line.color.rgb, c.line.width = D.MUTED, Pt(2.25)
+        c.line.dash_style = MSO_LINE_DASH_STYLE.DASH
+    else:
+        c.line.color.rgb, c.line.width = D.TEAL, Pt(2.25)
+    c.name = "%s: %s - %s" % (kind, a.name.split(": ", 1)[-1], b.name.split(": ", 1)[-1])
+    return c
+
+
+def _rule(s, x1, y1, x2, y2):
+    c = s.shapes.add_connector(MSO_CONNECTOR.STRAIGHT, Inches(x1), Inches(y1), Inches(x2), Inches(y2))
+    c.line.color.rgb, c.line.width = D.MUTED, Pt(2.25)
+    c.line.dash_style = MSO_LINE_DASH_STYLE.DASH
+    c.name = "rule"
+    return c
 
 
 def family_tree(prs, pool, t):
-    """#65: a house as a diagram. Names and lines on the face; one sentence per person in the notes."""
+    """#65/#67: a house as an editable org chart. Names and lines on the face; one sentence per person in the
+    notes. Boxes are named shapes ("person: Hind"); every line is a connector glued to its two boxes."""
     s = D.blank(prs)
     D.header(s, t["head"], t.get("kick"))
     bh = t.get("box_h", H_BOX)
-    for kind, pts in t.get("lines", []):
-        for (x1, y1), (x2, y2) in zip(pts, pts[1:]):
-            if kind == "double":
-                _seg(s, x1, y1 - 0.035, x2, y2 - 0.035, D.GOLD, 2.25)
-                _seg(s, x1, y1 + 0.035, x2, y2 + 0.035, D.GOLD, 2.25)
-            else:
-                _seg(s, x1, y1, x2, y2, D.MUTED if kind == "dash" else D.TEAL, 2.25, dash=kind == "dash")
-    for label, cx, y, w, style in t["boxes"]:
+    box = {}
+    for key, label, cx, y, w, style in t["boxes"]:
         fill, border, bw, ink, dashed = BOX_STYLE[style]
-        D.rect(s, Inches(cx - w / 2), Inches(y), Inches(w), Inches(bh), fill=fill, line_color=border,
-               line_w=Pt(bw), dash=dashed, name="person")
-        D.text(s, label, Inches(cx - w / 2 + 0.06), Inches(y), Inches(w - 0.12), Inches(bh), size=24,
-               color=ink, font=D.EN, bold=True, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE, line=1.0)
+        r = D.rect(s, Inches(cx - w / 2), Inches(y), Inches(w), Inches(bh), fill=fill, line_color=border,
+                   line_w=Pt(bw), dash=dashed, name="person: " + label.split("\n")[0])
+        tf = r.text_frame
+        tf.word_wrap = True
+        tf.vertical_anchor = MSO_ANCHOR.MIDDLE
+        tf.margin_left = tf.margin_right = Inches(0.06)
+        tf.margin_top = tf.margin_bottom = 0
+        for i, line in enumerate(label.split("\n")):
+            p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
+            p.alignment = PP_ALIGN.CENTER
+            p.line_spacing = 1.0
+            run = p.add_run()
+            run.text = line
+            run.font.size, run.font.name, run.font.bold = Pt(24), D.EN, True
+            run.font.color.rgb = ink
+            D.set_cs(run, D.AR_HON if D._HONORIFIC.search(line) else D.EN)
+        box[key] = r
+    for link in t.get("links", []):
+        kind, a, b = link[0], box[link[1]], box[link[2]]
+        if kind == "child":
+            _link(s, a, b, kind, BOTTOM, TOP)
+        elif kind == "marriage":
+            _link(s, a, b, kind, RIGHT, LEFT)
+        elif kind == "freed":
+            c = _link(s, a, b, kind, BOTTOM, TOP)
+            if len(link) > 3:
+                D.text(s, link[3], Inches((a.left + a.width / 2) / 914400 + 0.12), Inches((a.top + a.height) / 914400 + 0.14),
+                       Inches(1.75), Inches(0.42), size=24, color=D.MUTED, font=D.SANS)
+    for x1, y1, x2, y2 in [r[1:] for r in t.get("rules", [])]:
+        _rule(s, x1, y1, x2, y2)
     for text, cx, y, w in t.get("captions", []):
         D.text(s, text, Inches(cx - w / 2), Inches(y), Inches(w), Inches(0.9), size=24, color=D.MUTED,
                font=D.SANS, align=PP_ALIGN.CENTER, line=1.05)
     for style, text, x, y in t.get("legend", []):
-        fill, border, bw, _, dashed = BOX_STYLE[style]
-        D.rect(s, Inches(x), Inches(y + 0.06), Inches(0.42), Inches(0.34), fill=fill, line_color=border,
-               line_w=Pt(bw), dash=dashed)
-        D.text(s, text, Inches(x + 0.56), Inches(y), Inches(4.6), Inches(0.5), size=24, color=D.INK, font=D.SANS)
-    notes = t["notes"]
+        if style == "marriage":
+            c = s.shapes.add_connector(MSO_CONNECTOR.STRAIGHT, Inches(x), Inches(y + 0.23), Inches(x + 0.42), Inches(y + 0.23))
+            c.line.color.rgb, c.line.width = D.GOLD, Pt(3.0)
+            c.name = "legend"
+        else:
+            fill, border, bw, _, dashed = BOX_STYLE[style]
+            D.rect(s, Inches(x), Inches(y + 0.06), Inches(0.42), Inches(0.34), fill=fill, line_color=border,
+                   line_w=Pt(bw), dash=dashed, name="legend")
+        D.text(s, text, Inches(x + 0.56), Inches(y), Inches(4.4), Inches(0.5), size=24, color=D.INK, font=D.SANS)
     bg = pool_background(pool, t.get("background", []))
-    D.note(s, notes + ("\n\n" + bg if bg else ""))
+    D.note(s, t["notes"] + ("\n\n" + bg if bg else ""))
     return s
 
 
@@ -680,6 +748,43 @@ def bookend_images():
         open(line, "wb").write(pics["line"])
         open(mp, "wb").write(pics["map"])
     return line, mp
+
+
+HASH_FILE = os.path.join(HERE, ".build", "deck.sha256")      # what the last build wrote, so it may overwrite its own work
+
+
+def _sha256(path):
+    import hashlib
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def deck_has_uncommitted_changes(path):
+    """True when the deck on disk is neither its committed version nor this build's own last output — i.e.
+    somebody has saved edits to it since."""
+    import subprocess
+    if not os.path.exists(path):
+        return False
+    try:
+        r = subprocess.run(["git", "status", "--porcelain", "--", path], capture_output=True, text=True, cwd=ROOT)
+    except OSError:
+        return False
+    if not any(line[:2].strip() in ("M", "AM", "MM") for line in r.stdout.splitlines()):
+        return False                                     # identical to the commit: nobody's edits are at risk
+    try:
+        last = open(HASH_FILE, encoding="utf-8").read().strip()
+    except OSError:
+        last = ""
+    return _sha256(path) != last                         # changed by someone other than the last build
+
+
+def remember_deck(path):
+    os.makedirs(os.path.dirname(HASH_FILE), exist_ok=True)
+    with open(HASH_FILE, "w", encoding="utf-8") as f:
+        f.write(_sha256(path))
 
 
 def face_card(c, cid):
@@ -779,7 +884,15 @@ def build():
     if checkpoints != len(CHECKPOINTS):
         raise SystemExit("%d checkpoints emitted of %d — a checkpoint card left the runsheet"
                          % (checkpoints, len(CHECKPOINTS)))
-    out = D.save(prs, os.path.join(HERE, "S05.pptx"))
+    target = os.path.join(HERE, "S05.pptx")
+    if deck_has_uncommitted_changes(target):
+        # 2026-10-01: a build overwrote S05.pptx while it carried Daniyal's own saved edits, which are not
+        # recoverable. A deck that differs from its committed version is his, until he commits it.
+        print("   !! S05.pptx differs from its committed version (Daniyal's edits?) - NOT overwritten.\n"
+              "      This build is written to S05_NEW.pptx. Commit or discard the changes to S05.pptx first.")
+        target = os.path.join(HERE, "S05_NEW.pptx")
+    out = D.save(prs, target)
+    remember_deck(out)
     import json
     os.makedirs(os.path.join(HERE, ".build"), exist_ok=True)
     with open(os.path.join(HERE, ".build", "slides.json"), "w", encoding="utf-8") as f:

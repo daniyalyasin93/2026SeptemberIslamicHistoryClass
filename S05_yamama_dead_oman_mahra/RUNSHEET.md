@@ -35,7 +35,7 @@ road Part VI is already on. Whatever is not reached opens evening 6 (#20, #33).
 | #1 | *The day at ʿAqrabāʾ, in one minute* — moving map M1 | last week in five clicks, then *"and this is what was signed"* |
 | #4 | **Tree A — the house of Umm Sulaym ؓ** | al-Barāʾ ؓ lived; now the house his brother Anas ؓ grew up in — before the Hijra |
 | #11 | *The banner* | back to the moment the banner changed hands |
-| #16 | **Tree B — one house, two battlefields** | who the two men in the line were: ʿUtba's son, and the freed slave from Persia |
+| #16 | **Tree B — the house of ʿUtba b. Rabīʿa** | who the two men in the line were — and the names the room knows that belong to the same house: Hind ؓ, Abū Sufyān ؓ, Muʿāwiya ؓ, Sahla ؓ and her father Suhayl b. ʿAmr ؓ (enlarged 2026-10-01, #67) |
 | #20 | *↪ Back to the field* | the house closes on the field — the banner in Sālim's ؓ hands |
 | #24 | *The news reaches Medina* | from the field to the mosque |
 | #27 | *↩ The man he sent for* | the order is given; who was the man, as a boy? |
@@ -44,22 +44,31 @@ road Part VI is already on. Whatever is not reached opens evening 6 (#20, #33).
 | #39 | *From Abyan to the last front* | evening 3's double order — first the Yemen, then your own post — and the two men who carry it east |
 | #39 | **Tree D — Kinda** | who Kinda were: kings once, two branches now — side by side, no line between |
 
-**The family trees — every line and its source** (#65). The slide carries names and lines only; the notes carry
-one sentence per person, and each sentence is a card's.
+**The family trees — every line and its source** (#65, #67). The slide carries names and lines only; the notes carry
+one sentence per person, and each sentence is a card's or a cited page's. **Every box is a named shape and every line
+a connector glued to its two boxes** — Daniyal can move a box and its lines follow. A names-only diagram is the one
+slide allowed past the twenty-word body cap (#21): the house of ʿUtba carries about thirty, all names.
 
 | Tree | Line on the slide | Source |
 |---|---|---|
+| A | al-Naḍr → Mālik and Anas b. al-Naḍr ؓ; Milḥān → Umm Sulaym ؓ, Umm Ḥarām ؓ, Ḥarām ؓ (the two root boxes) | the house note §1 — ⁨سیر ج۱ ص۱۹۵⁩ (the nasab), ⁨ج۲ ص۳۰۴⁩, ⁨ج۲ ص۳۱۶⁩, ⁨البدایہ ج۴ ص۲۵۵⁩ |
 | A | al-Barāʾ ؓ and Anas ؓ, sons of Mālik b. al-Naḍr; al-Barāʾ ؓ the elder | `HS14` beat 2; the house note §1 (⁨سیر ج۱ ص۱۹۵⁩, ⁨البدایہ ج۶ ص۳۹۶⁩) |
 | A | Umm Sulaym ؓ, **Anas's ؓ mother**, married to Mālik, then to Abū Ṭalḥa ؓ | the house note §1 (⁨سیر ج۲ ص۳۰۴⁩); `HS1` |
 | A | ⚠ **no line from Umm Sulaym ؓ to al-Barāʾ ؓ** — no page we hold names his mother (house note §X.14: all three books searched) | — |
 | A | their small son, unnamed | `HS9` — *the page does not name the child* |
 | A | Anas b. al-Naḍr ؓ, Mālik's brother — the uncle Anas ؓ was named after | `HS4`; house note §1 (⁨البدایہ ج۴ ص۲۰۲، ۲۰۷⁩) |
 | A | Umm Ḥarām ؓ and Ḥarām b. Milḥān ؓ, Umm Sulaym's ؓ sister and brother | `HS13`, `HS11`; house note §1 (⁨سیر ج۲ ص۳۱۶⁩, ⁨البدایہ ج۴ ص۲۵۵⁩) |
-| B | ʿUtba b. Rabīʿa, his brother Shayba, his son al-Walīd — killed at Badr | `AS03` beats 3–4 |
+| B | Rabīʿa → ʿUtba and Shayba, brothers — both killed at Badr, with ʿUtba's son al-Walīd | `AS03` beats 3–4 (the father is the two names' own) |
+| B | Hind ؓ, ʿUtba's daughter — «⁨أُخْتُهُ أُمُّ مُعَاوِيَةَ؛ هِنْدُ بِنْتُ عُتْبَةَ⁩» | ⁨سیر ج۱ ص۱۶۵⁩ (the house note §1, §2.3) |
+| B | Hind ؓ ═ Abū Sufyān ؓ, and Muʿāwiya ؓ their son | Umm Muʿāwiya on ⁨سیر ج۱ ص۱۶۵⁩ + Muʿāwiya, brother of Yazīd b. Abī Sufyān ؓ, on ⁨سیر ج۱ ص۳۳۰⁩ (`TRN25`); Abū Sufyān's ؓ own notice ⁨سیر ج۲ ص۱۰۶⁩ (`TRN24`) |
+| B | Abū Ḥudhayfa ؓ ═ Sahla ؓ, daughter of Suhayl b. ʿAmr ؓ | ⁨سیر ج۱ ص۱۶۵⁩; `AS01` (⁨البدایہ ج۳ ص۲۸۱⁩) |
+| B | Suhayl b. ʿAmr ؓ — ⁨خطيب قريش⁩, who held Mecca when the Prophet ﷺ died | ⁨سیر ج۱ ص۱۹۴⁩; ⁨الکامل ج۲ ص۱۸۶⁩, ⁨البدایہ ج۵ ص۳۹۷⁩–۳۹۸ (`suhayl-ibn-amr.md` §1, §3) |
+| B | *notes only:* Abū Hāshim b. ʿUtba ؓ (⁨سیر ج۱ ص۱۶۶⁩); Sālim ؓ married to al-Walīd's daughter Fāṭima (⁨البدایہ ج۷ ص۵۰⁩, one source) — Daniyal's choice, 2026-10-01 | — |
+| B | ⚠ **Muḥammad b. Abī Ḥudhayfa is not on the tree** — ⁨مشاجرات⁩ material (the house note §1) | — |
 | B | Abū Ḥudhayfa ؓ, ʿUtba's son, on the Muslim side | `AS02`, `AS03` beat 5 |
 | B | Sālim ؓ, the freed slave the household kept — ⚠ **not "adopted"** (the adoption is `AS10`, struck by Daniyal) | `AS09` beat 1 |
 | B | both killed at al-Yamāma, 12 AH | `AS16`; the house note §0 item 22 (⁨سیر ج۱ ص۱۶۶⁩) |
-| C | Abū Jahl, killed at Badr; his brother al-Ḥārith b. Hishām ؓ | `TRN6` beat 1; `TRN7` (⁨سیر ج۱ ص۳۳۰⁩, added today) |
+| C | Hishām b. al-Mughīra → Abū Jahl (ʿAmr b. Hishām), killed at Badr, and al-Ḥārith b. Hishām ؓ | `TRN6` beat 1; `TRN7` (⁨سیر ج۱ ص۳۳۰⁩: «⁨الحَارِثُ بنُ هِشَامِ بنِ المُغِيْرَةِ⁩ … ⁨أَخُو أَبِي جَهْلٍ⁩»); the men-who-fought note §1 |
 | C | Umm Ḥakīm ؓ, al-Ḥārith's daughter and ʿIkrima's ؓ wife — his cousin | `TRN7` beat 1 and its new line |
 | D | Ākil al-Murār — kings over the northern tribes, before Islam | `KD01` |
 | D | Banū Muʿāwiya of Kinda: Banū ʿAmr (the four kings) · Banū al-Ḥārith (al-Ashʿath b. Qays) | `KD06`; `YK19` beat 3; `YK08`–`YK09` (⁨الکامل ج۲ ص۲۳۱⁩) |
@@ -375,7 +384,8 @@ wanted; maps told the story and a later slide told it again (#62–#65).
 | `RCT/E-RC22` (evening 4) | *What were the terms?* | `RC67` — the first card of the evening |
 | `ZIA/E-ZY17` | *And how many of Banū Ḥanīfa died?* | ⁨الکامل ج۲ ص۲۱۸⁩'s figures, on the card |
 | Tree A | *Wasn't Umm Sulaym ؓ al-Barāʾ's ؓ mother too?* | **Not on any page we hold** — every page names her sons as Anas ؓ, Abū ʿUmayr and ʿAbd Allāh ؓ, and none names al-Barāʾ's ؓ mother (house note §X.14). If a slip asks: *"our books call her Anas's mother and al-Barāʾ his elder brother; they do not name his mother"* |
-| Tree B | *Wasn't Hind, Muʿāwiya's ؓ mother, his sister?* | Yes — ⁨سیر ج۱ ص۱۶۵⁩ (the household note §1). Not on the tree: she is in no story tonight |
+| Tree B | *Who were the famous ones in that house?* | On the tree since 2026-10-01: Hind ؓ, Abū Sufyān ؓ, Muʿāwiya ؓ, Sahla ؓ, Suhayl ؓ — each with one line in the notes, and the forward references framed |
+| Tree B | *Didn't Abū Ḥudhayfa ؓ have a son?* | Muḥammad, born in Abyssinia (⁨سیر ج۱ ص۱۶۵⁩) — **not on the tree, and not from the platform**: his later life is ⁨مشاجرات⁩ material, session 3's |
 | `RCT/E-RC29` | *Who was the claimant in Oman?* | `RC70`, which comes before it |
 | `RCT/E-RC68` | *What happened to the captives?* | ⁨البدایہ ج۷ ص۳۵⁩: some given back — the card says what the page says, and no more |
 | `RCT/E-RC65` | *Wasn't it ʿUmar ؓ who proposed the collection?* | **Not on any page we hold.** It is the well-known content of ⁨البخاري⁩ 4986, and both ⁨البدایہ ج۷ ص۷۹⁩ and ⁨سیر ج۲ ص۴۳۱⁩ point to that ḥadīth — but neither reproduces that half of it (jamʿ note, §5 "Not licensed"). If a slip asks: *"the report in al-Bukhārī says so; tonight's page is Zayd's ؓ own account"* |
@@ -510,4 +520,4 @@ runsheet, where the Kinda cards sat behind the close and were checked then.
 | Shadhra | `RCT/E-RC33` | the she-camel — not a person |
 | Ḥāritha | `RCT/E-RC33` | Ḥāritha b. Surāqa, the man who untied her — named in the act here and in full at `YK08` beat 3. No notice |
 | Al-Ḥuṣayn | `TSY/E-YK08` | al-Ḥuṣayn b. Numayr, sent between the two sides — named once. No notice |
-| **On the trees** (the tool reads cards, not trees — answered by hand) | Trees A–D | **Every name on a tree is introduced by that tree's notes, one sentence each** — Mālik b. al-Naḍr, Anas b. al-Naḍr ؓ, Umm Ḥarām ؓ, Ḥarām ؓ (A); ʿUtba b. Rabīʿa, Shayba, al-Walīd (B); Abū Jahl, al-Ḥārith b. Hishām ؓ (C); Banū Muʿāwiya, Banū ʿAmr, Banū al-Ḥārith (D). A name on a tree whose line is skipped is still on the slide — **say at least its one line** |
+| **On the trees** (the tool reads cards, not trees — answered by hand) | Trees A–D | **Every name on a tree is introduced by that tree's notes, one sentence each** — Mālik b. al-Naḍr, Anas b. al-Naḍr ؓ, Umm Ḥarām ؓ, Ḥarām ؓ (A); Rabīʿa, ʿUtba b. Rabīʿa, Shayba, al-Walīd, Hind ؓ, Abū Sufyān ؓ, Muʿāwiya ؓ, Sahla ؓ, Suhayl b. ʿAmr ؓ (B — ⚠ Abū Sufyān ؓ and Muʿāwiya ؓ are forward references, framed in the notes); Hishām b. al-Mughīra, Abū Jahl, al-Ḥārith b. Hishām ؓ (C); al-Naḍr, Milḥān (A); Banū Muʿāwiya, Banū ʿAmr, Banū al-Ḥārith (D). A name on a tree whose line is skipped is still on the slide — **say at least its one line** |
