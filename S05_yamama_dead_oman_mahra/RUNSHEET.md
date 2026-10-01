@@ -41,6 +41,7 @@ road Part VI is already on. Whatever is not reached opens evening 6 (#20, #33).
 | #27 | *↩ The man he sent for* | the order is given; who was the man, as a boy? |
 | #33 | *Meanwhile: the man sent away* | evening 3's line — *ʿIkrima ؓ came into Abyan from Mahra* — and tonight, how he got there |
 | #34 | **Tree C — ʿIkrima ؓ and Umm Ḥakīm ؓ** | whose son he was, and whose daughter his wife was |
+| #38 | *Oman settled* — moving map M5, three clicks | **a front closes before the next opens (#69):** the captives and the market, Ḥudhayfa stays, the fifth to Medina — and ʿIkrima ؓ on to Mahra with the men who came to the rescue |
 | #39 | *From Abyan to the last front* | evening 3's double order — first the Yemen, then your own post — and the two men who carry it east |
 | #39 | **Tree D — Kinda** | who Kinda were: kings once, two branches now — side by side, no line between |
 
@@ -196,8 +197,8 @@ this part steps sideways in time — the bridge says so, and closes a line the r
 | 34 | `TMW/E-TRN7` Umm Ḥakīm ؓ goes after her husband | CORE | 1.5 | 55.5 | A real journey; the map draws it|
 | 35 | `TMW/E-TRN8` The cloak | CORE | 1.5 | 57 | ⚠ **Do not say "nothing was said to him about his father"** — an argument from silence|
 | 36 | `RCT/E-RC70` Oman asked for help | CORE | 2 | 59 | The claimant who called himself *the one with the crown* (⚠ the books differ on how plainly he claimed prophethood), the lawful ruler's letter to Medina, the commanders each in charge in his own theatre, and the letters to the rebel's own chiefs at Rijām|
-| 37 | `RCT/E-RC29` Dabā — the relief that came from inside the theatre | CORE | 2 | 61 | The Muslims very nearly lost it. **Short arrows from inside the region, not one from Medina.** **[HANDS] spare:** *"The column from Medina is losing. Who is close enough to help?"* ⚠ "ten thousand" is ⁨الکامل⁩'s figure — say it as his|
-| 38 | `RCT/E-RC30` Mahra — the front won with a letter | CORE | 2 | 63 | The fifth went to Medina **carried by the man who had led half the rebellion.** ⚠ No page gives an interval|
+| 37 | `RCT/E-RC29` Dabā — the relief that came from inside the theatre | CORE | 2 | 61 | The Muslims very nearly lost it. **Short arrows from inside the region, not one from Medina.** **[HANDS] spare:** *"The column from Medina is losing. Who is close enough to help?"* ⚠ "ten thousand" — both books give it. SKIP BEATS 7,8 — the closing map after the words tells them|
+| 38 | `RCT/E-RC30` Mahra — the front won with a letter | CORE | 2 | 63 | The fifth went to Medina **carried by the man who had led half the rebellion.** ⚠ No page gives an interval. SKIP BEATS 1 — the closing map told the departure|
 
 Part VI: **11 min**, all CORE.
 
@@ -267,7 +268,7 @@ that has moved on. The road itself stays, so the last click still shows the whol
 | **M2 Tustar** | #7 `HS17` | the gate at al-Yamāma → Tustar, dashed, *years later* |
 | **M3 Iṣṭakhr** | #17 `AS06` | Iṣṭakhr, in Persia — where Sālim ؓ came from · Mecca → Qubāʾ |
 | **M4 ʿIkrima's ؓ flight** | #33 `TRN6` · #34 `TRN7` | Mecca → the coast and the ship · Umm Ḥakīm ؓ goes after him · she brings him back |
-| **M5 Oman** | #36 `RC70` | the rulers pushed to the edges · the request · two commanders from Medina · ʿIkrima ؓ from al-Yamāma, at Rijām · letters to the rebel's chiefs |
+| **M5 Oman** | #36 `RC70` · the closing before #38 | the rulers pushed to the edges · the request · two commanders from Medina · ʿIkrima ؓ from al-Yamāma, at Rijām · letters to the rebel's chiefs · **then** Oman settled, Ḥudhayfa stays · the fifth to Medina · ʿIkrima ؓ on to Mahra |
 | **M6 Dabā** | #37 `RC29` | the advance from Ṣuḥār · the line gives way · the relief from inside the region · the rebels broken |
 | **M7 Mahra** | #38 `RC30` | ʿIkrima ؓ arrives · the letter · Shikhrīt comes over · harder than Dabā · the fifth to Medina |
 | **M8 Ḥaḍramawt and Kinda** | #40 `YK07` · #42 `YK08` · #43 `YK09` · #44 `YK10` · #45 `YK19` · #46 `YK11` | the ṣadaqa both ways, then refused · two camps, the night strike, Kinda rises · the pastures as strongholds, one man leaves · five sides, the four kings · the column home, al-Ashʿath across it · al-Muhājir ؓ ahead, Maḥjar al-Zurqān, al-Nujayr ringed |
@@ -387,6 +388,7 @@ wanted; maps told the story and a later slide told it again (#62–#65).
 | Tree B | *Who were the famous ones in that house?* | On the tree since 2026-10-01: Hind ؓ, Abū Sufyān ؓ, Muʿāwiya ؓ, Sahla ؓ, Suhayl ؓ — each with one line in the notes, and the forward references framed |
 | Tree B | *Didn't Abū Ḥudhayfa ؓ have a son?* | Muḥammad, born in Abyssinia (⁨سیر ج۱ ص۱۶۵⁩) — **not on the tree, and not from the platform**: his later life is ⁨مشاجرات⁩ material, session 3's |
 | `RCT/E-RC29` | *Who was the claimant in Oman?* | `RC70`, which comes before it |
+| `RCT/E-RC29` | *And then? What became of Oman?* | the closing map before `RC30` — both books: the families taken captive, the property and the market, the fifth with ʿArfaja, Ḥudhayfa stays. ⚠ Both books give ten thousand; the earlier note said al-Kāmil alone |
 | `RCT/E-RC68` | *What happened to the captives?* | ⁨البدایہ ج۷ ص۳۵⁩: some given back — the card says what the page says, and no more |
 | `RCT/E-RC65` | *Wasn't it ʿUmar ؓ who proposed the collection?* | **Not on any page we hold.** It is the well-known content of ⁨البخاري⁩ 4986, and both ⁨البدایہ ج۷ ص۷۹⁩ and ⁨سیر ج۲ ص۴۳۱⁩ point to that ḥadīth — but neither reproduces that half of it (jamʿ note, §5 "Not licensed"). If a slip asks: *"the report in al-Bukhārī says so; tonight's page is Zayd's ؓ own account"* |
 | `ABU/E-Q5` | *And where are those ṣuḥuf now?* | Not on our pages. What they give is the chain of keeping as far as ʿUthmān ؓ returning them to Ḥafṣa ؓ — say that, and stop |

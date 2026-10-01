@@ -147,9 +147,11 @@ def check_face_quotes(pool):
     S4.check_face_quotes(pool)
 
 
-# ---------------------------------------------------------------------------------------------- the recap
-# The one map that is not a card's own: last week, in one minute, before RC67 (#1 in the runsheet).
-RECAP_BEFORE = {
+# ---------------------------------------------------------------------------------------------- map bridges
+# Maps that are not a card's own: last week in one minute, before RC67 (#1 in the runsheet); and the closing of
+# Oman before RC30 (#69) — a front closes on its map before the next opens. Each entry: (scene, first step, last
+# step, headline, kicker, keys, what to say as the slide opens, one line per click).
+MAP_BRIDGE_BEFORE = {
     "RCT/E-RC67": ("s05-01-aqraba", 1, 6, "The day at ʿAqrabāʾ", "Last week, in one minute",
                    [("The garden", "the gate shut, then opened"), ("Musaylima", "falls"),
                     ("The forts", "where the terms were made")],
@@ -160,6 +162,23 @@ RECAP_BEFORE = {
                     "He fights at the gate and opens it, and the army pours in.",
                     "In a gap in the wall, Musaylima falls.",
                     "The survivors reach the forts. And this is where tonight begins: what was signed there."]),
+    "RCT/E-RC30": ("s05-05-oman", 6, 9, "Oman settled", "11–12 AH",
+                   [("Ḥudhayfa", "stays, settling the people"), ("The fifth", "to Medina, with ʿArfaja"),
+                    ("ʿIkrima ؓ", "on to Mahra, with Nājiya and ʿAbd al-Qays")],
+                   "Dabā is won. Before we leave Oman, the closing of the front — in both books' words.",
+                   ["The families they had put behind their lines are taken captive; the property, and the whole "
+                    "market, divided. Ḥudhayfa stays in Oman, settling the people — Oman is settled.",
+                    "The fifth goes to Abū Bakr ؓ at Medina, with ʿArfaja. (Ibn Kathīr has ʿArfaja then returning "
+                    "to his companions; Ibn al-Athīr has Ḥudhayfa staying. Say both, each as its book's.)",
+                    "And ʿIkrima ؓ goes on to Mahra — with the men who came to the rescue at Dabā: Nājiya, ʿAbd "
+                    "al-Qays, and with them Rāsib and Saʿd."]),
+}
+# the Arabic the lectern reads on a map bridge, after its clicks
+MAP_BRIDGE_QUOTE = {
+    "RCT/E-RC30": ("QUOTE — وَسَبَوُا الذَّرَارِيَّ وَقَسَّمُوا الْأَمْوَالَ، وَبَعَثُوا بِالْخُمْسِ إِلَى أَبِي بَكْرٍ مَعَ عَرْفَجَةَ، وَأَقَامَ حُذَيْفَةُ بِعُمَانَ يُسَكِّنُ النَّاسَ\n"
+                   "\"They took the families captive and divided the property, sent the fifth to Abū Bakr with ʿArfaja, and "
+                   "Ḥudhayfa stayed in Oman, settling the people.\"\n— al-Kamil, vol. 2, p. 226 (al-Bidaya, vol. 7, p. 42 has the "
+                   "same closing, with ʿArfaja then returning to his companions)"),
 }
 
 # ---------------------------------------------------------------------------------------------- map = the card's slide
@@ -198,7 +217,7 @@ MAP_FOR = {
     "RCT/E-RC30": ("s05-07-mahra", 1, 5,
                    [("Mahra", "two chiefs at odds"), ("The letter", "half the enemy comes over"),
                     ("The fifth", "to Medina")],
-                   [(1, "ʿIkrima ؓ comes into Mahra."),
+                   [(2, "ʿIkrima ؓ comes into Mahra, with the men from Oman."),
                     (4, "The letter — and Shikhrīt comes over."),
                     (5, "al-Muṣabbaḥ refuses: the fighting is harder than Dabā."),
                     (6, "And the fifth goes to Medina, carried by Shikhrīt himself.")]),
@@ -832,7 +851,7 @@ def build():
     if missing:
         raise SystemExit("RUNSHEET.md names cards that are not in any pool: %s" % missing)
     for table, name in ((MAP_FOR, "MAP_FOR"), (TREES, "TREES"), (BRIDGE_BEFORE, "BRIDGE_BEFORE"),
-                        (CHECKPOINTS, "CHECKPOINTS"), (RECAP_BEFORE, "RECAP_BEFORE")):
+                        (CHECKPOINTS, "CHECKPOINTS"), (MAP_BRIDGE_BEFORE, "MAP_BRIDGE_BEFORE")):
         stray = [k for k in table if k not in ids]
         if stray:
             raise SystemExit("%s names cards the runsheet does not run: %s" % (name, stray))
@@ -856,12 +875,12 @@ def build():
                         B.clean(part.split(" — ", 1)[1] if " — " in part else "", translit=True) or None)
         for cid, rnote in rows:
             c = face_card(pool[cid], cid)
-            if cid in RECAP_BEFORE:
-                scene, a, b, head, kick, keys, intro, lines = RECAP_BEFORE[cid]
+            if cid in MAP_BRIDGE_BEFORE:
+                scene, a, b, head, kick, keys, intro, lines = MAP_BRIDGE_BEFORE[cid]
                 s, n = layered_map(prs, scene, a, b, head, kick, keys)
                 if n != len(lines):
                     raise SystemExit("%s: %d clicks on the slide, %d ▶ CLICK lines in its notes" % (scene, n, len(lines)))
-                D.note(s, map_notes(intro, lines))
+                D.note(s, map_notes(intro, lines) + ("\n\n" + MAP_BRIDGE_QUOTE[cid] if cid in MAP_BRIDGE_QUOTE else ""))
                 maps += 1
                 clicks_total += n
             if cid in BRIDGE_BEFORE:

@@ -66,6 +66,7 @@ explicitly and give a reason — do not quietly reverse it.
 | 66 | 2026-09-27 | **The Qurʾān's collection told whole; Ḥaḍramawt ends ʿIkrima's ؓ road**; Bahrayn after | active |
 | 67 | 2026-10-01 | **The family trees are editable org charts**; the house of ʿUtba grows to its famous in-laws | active |
 | 68 | 2026-10-01 | **Face headlines are names, not sentences** — the dead of al-Yamāma headed by the Companion's name | active |
+| 69 | 2026-10-01 | **A front closes on its map before the next opens** — Oman settled before Mahra | active |
 
 ---
 
@@ -1532,3 +1533,23 @@ Parts II–IV (twenty-one cards); standing for every evening from here.
 
 Also today, after the same conversation: **a deck Daniyal has saved edits into is never rebuilt over** — see #67's
 guard, and `CLAUDE.md` §1.7. The rule exists because a rebuild destroyed half an hour of his work this morning.
+
+---
+
+## 69. A front closes on its map before the next opens — 2026-10-01
+
+Daniyal: *"dont you think that the transition from oman to mahra is rather sudden? there is no proper closing of
+oman."* It was: Dabā ended on *the rebels broken*, the settlement of Oman was one line at the foot of the
+notes, and the next slide was already Mahra.
+
+**Settled:** every front gets its closing on its own map before the story moves — what became of the defeated,
+who stayed, what went to Medina — and the hand-over names the men who carried on. For Oman: three clicks on the
+Oman scene between Dabā's words slide and Mahra — Oman settled and Ḥudhayfa stays · the fifth to Medina with
+ʿArfaja · ʿIkrima ؓ on to Mahra with Nājiya and ʿAbd al-Qays, the men who had come to the rescue. The card
+(`RC29`) carries the closing as beats 7–8 with both books' lines; Dabā's own slide stops at beat 6 and Mahra's
+starts at its beat 2, so nothing is told twice (#63). **Standing for evening 6:** Mahra, Ḥaḍramawt and Bahrayn
+each close the same way before the next opens.
+
+Also corrected on the way: *ten thousand* killed at Dabā is both books' figure (⁨البدایہ ج۷ ص۴۲⁩ has it too), not
+Ibn al-Athīr's alone; and the books part on ʿArfaja — ⁨الکامل⁩ has Ḥudhayfa staying, ⁨البدایہ⁩ has ʿArfaja returning
+to his companions — so the notes say both, each as its book's.

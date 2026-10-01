@@ -3610,8 +3610,9 @@ him. Then they fought at Dabā, the country's great market town. And they very n
 3. The lawful rulers — Jayfar and ʿAbbād camped at Ṣuḥār, and sent to the commanders.
 4. The fight — Hard; Laqīṭ got the upper hand, and in Ibn Kathīr's words the Muslims were tried and very nearly turned their backs.
 5. The relief — Not from Medina: Banū Nājiya and ʿAbd al-Qays, men of that region — Ibn Kathīr: at that very hour.
-6. The end at Dabā — The rebels broke; Ibn al-Athīr gives ten thousand of them killed — his figure.
-7. Afterwards — The fifth went back to Medina with ʿArfaja; Ḥudhayfa stayed to settle the country.
+6. The end at Dabā — The rebels broke and ran, and the Muslims rode on their backs: ten thousand killed, a figure both books give.
+7. What was taken — The families they had put behind their lines were taken captive; the property, and the whole market, divided.
+8. Oman settled — The fifth went to Abū Bakr ؓ at Medina with ʿArfaja; Ḥudhayfa stayed in Oman, settling the people.
 **Quote after beat:** 5
 **The statement:**
 > وَاسْتَعْلَى لَقِيطٌ، وَرَأَى الْمُسْلِمُونَ الْخَلَلَ، وَرَأَى الْمُشْرِكُونَ الظَّفَرَ. فَبَيْنَمَا هُمْ كَذَلِكَ جَاءَتِ الْمُسْلِمِينَ مَوَادُّهُمُ الْعُظْمَى مِنْ بَنِي نَاجِيَةَ … وَمِنْ عَبْدِ الْقَيْسِ.
@@ -3626,8 +3627,26 @@ him. Then they fought at Dabā, the country's great market town. And they very n
 not a clean case of purely political secession.**
 **Also on the page** — ⁨البدایہ ج۷ ص۴۱⁩ (https://shamela.ws/book/30097/3187): Laqīṭ at Dabā «⁨وجعل الذراري والأموال⁩
 ⁨وراءَ ظهورهم ليكونَ أقوى لحربهم⁩» — the same ground Musaylima chose at ʿAqrabāʾ (`E-RC54`). ⁨الکامل ج۲ ص۲۲۶⁩: the
-count, «⁨فَقُتِلَ مِنْهُمْ فِي الْمَعْرَكَةِ عَشَرَةُ آلَافٍ⁩» — **his figure; say it as his** — and afterwards the fifth went
-to Medina with ʿArfaja while Ḥudhayfa stayed «⁨يُسَكِّنُ النَّاسَ⁩».
+count, «⁨فَقُتِلَ مِنْهُمْ فِي الْمَعْرَكَةِ عَشَرَةُ آلَافٍ⁩» — a figure ⁨البدایہ ج۷ ص۴۲⁩ gives too, «⁨عشرة آلاف مقاتل⁩» (corrected
+2026-10-01: it is not Ibn al-Athīr's alone) — and afterwards the fifth went to Medina with ʿArfaja while Ḥudhayfa stayed
+«⁨يُسَكِّنُ النَّاسَ⁩».
+**The closing of the front, in both books** (added 2026-10-01, `DECISIONS.md` #69 — beats 7–8, and the closing map before
+`E-RC30`):
+
+> فَوَلَّى الْمُشْرِكُونَ الْأَدْبَارَ، فَقُتِلَ مِنْهُمْ فِي الْمَعْرَكَةِ عَشَرَةُ آلَافٍ، وَرَكِبُوهُمْ حَتَّى أَثْخَنُوا فِيهِمْ، وَسَبَوُا الذَّرَارِيَّ وَقَسَّمُوا الْأَمْوَالَ، وَبَعَثُوا بِالْخُمْسِ إِلَى أَبِي بَكْرٍ مَعَ عَرْفَجَةَ، وَأَقَامَ حُذَيْفَةُ بِعُمَانَ يُسَكِّنُ النَّاسَ.
+> — ⁨الکامل فی التاریخ ج۲ ص۲۲۶⁩ · https://shamela.ws/book/21712/917
+> *English:* "The mushrikūn turned their backs; ten thousand of them were killed in the engagement, and the Muslims
+> rode them down until they had cut deep into them. They took the families captive and divided the property, sent the
+> fifth to Abū Bakr with ʿArfaja, and Ḥudhayfa stayed in Oman, settling the people."
+
+> فولّى المشركون مُدْبرين، وركب المسلمون ظهورهم فقتلوا منهم عشرة آلاف مقاتل، وسَبَوا الذراري، وأخذوا الأموال والسوق بحذافيرها، وبعثوا بالخُمْس إلى الصديق ﵁ مع أحد الأمراء، وهو عرفجة، ثم رجع إلى أصحابه.
+> — ⁨البدایہ والنہایہ ج۷ ص۴۲⁩ · https://shamela.ws/book/30097/3188
+> *English:* "The mushrikūn turned in flight, and the Muslims rode on their backs and killed ten thousand fighters of
+> them; they took the families captive, and took the property and the market, all of it; and they sent the fifth to
+> al-Ṣiddīq with one of the commanders, ʿArfaja — who then returned to his companions."
+
+⚠ The two books part on ʿArfaja: ⁨الکامل⁩ has Ḥudhayfa staying, ⁨البدایہ⁩ has ʿArfaja returning to his companions. Say
+both, each as its book's.
 **Ibn Kathīr's own telling of the crisis** (added 2026-09-27 — on §8.1, on no card until now). The fight:
 
 > وتقاتلوا قتالًا شديدًا، وابتُلي المسلمون وكادوا أن يُولُّوا

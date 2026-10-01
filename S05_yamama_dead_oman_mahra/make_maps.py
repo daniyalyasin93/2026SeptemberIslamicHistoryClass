@@ -151,22 +151,31 @@ def scenes():
     # Medina · ʿIkrima's ؓ line from al-Yamāma, joining at Rijām (a label: no page locates it) · letters to
     # the rebel's own chiefs. Each caption fades when the next move lands (#64).
     ask = until(path([[56.4, 23.5], [52.0, 25.4], [44.3, 25.9]], "", "f1", dashed=True, width=7, step=3, ls=1), 3)
-    cols = path([[44.3, 26.6], [50.0, 26.8], RIJAM], "", "f1", width=10, step=4, ls=1)
-    ikr = path([[46.9, 24.3], [51.0, 23.2], RIJAM], "", "f1", width=10, step=5, ls=1)
+    cols = until(path([[44.3, 26.6], [50.0, 26.8], RIJAM], "", "f1", width=10, step=4, ls=1), 6)
+    ikr = until(path([[46.9, 24.3], [51.0, 23.2], RIJAM], "", "f1", width=10, step=5, ls=1), 6)
+    # the closing (#69): Oman settled and Ḥudhayfa stays (7) · the fifth to Medina with ʿArfaja (8) · ʿIkrima ؓ on
+    # to Mahra with the men who came to the rescue (9). RC29 beats 7-8 and RC30 beat 1, before RC30's own map.
+    fifth5 = path([[56.0, 24.1], [50.2, 25.9], [44.5, 25.5]], "", "f1", dashed=True, width=7, step=8, ls=1)
+    on = path([RIJAM, [54.9, 21.5], [54.4, 19.1]], "", "f1", width=10, step=9, ls=1)
     S.append(("s05-05-oman", "Oman", "11→12 AH — a request, not an invasion", [44.0, 17.0, 60.2, 27.8], [
                   area(YAMAMA, "f1", "", 0.26), note(46.9, 25.0, "al-Yamāma", 24),
-                  area(OMAN_A, "f4", "", 0.28), note(58.3, 21.3, "Oman", 30),
-                  force("Laqīṭ", xy("Nizwa")[0], xy("Nizwa")[1], "f4", "the one with the crown", label_pos="right",
-                        scale=0.95),
+                  until(area(OMAN_A, "f4", "", 0.28), 6), note(58.3, 21.3, "Oman", 30),
+                  until(force("Laqīṭ", xy("Nizwa")[0], xy("Nizwa")[1], "f4", "the one with the crown", label_pos="right",
+                              scale=0.95), 6),
                   force("Jayfar and ʿAbbād", 56.45, 24.55, "f1", label_pos="left", step=2, scale=0.8),
                   until(note(57.55, 24.95, "to the edges", 22, step=2), 2),
                   ask, until(note(49.3, 25.95, "Jayfar asks for help", 22, step=3), 3),
                   cols, until(note(47.2, 27.25, "from Medina", 22, step=4), 4),
-                  ikr, follow(force("ʿIkrima ؓ", RIJAM[0] - 0.25, RIJAM[1] - 0.05, "f1", label_pos="below",
-                                     step=5, scale=0.85), ikr),
-                  note(RIJAM[0], RIJAM[1] + 0.55, "Rijām", 22, step=5),
-                  path([RIJAM, [55.9, 23.2], [57.1, 22.7]], "", "f1", dashed=True, width=6, step=6, ls=1),
-                  note(56.4, 20.55, "letters to his chiefs", 22, step=6),
+                  ikr, until(follow(force("ʿIkrima ؓ", RIJAM[0] - 0.25, RIJAM[1] - 0.05, "f1", label_pos="below",
+                                           step=5, scale=0.85), ikr), 8),
+                  until(note(RIJAM[0], RIJAM[1] + 0.55, "Rijām", 22, step=5), 6),
+                  until(path([RIJAM, [55.9, 23.2], [57.1, 22.7]], "", "f1", dashed=True, width=6, step=6, ls=1), 6),
+                  until(note(56.4, 20.55, "letters to his chiefs", 22, step=6), 6),
+                  area(OMAN_A, "f1", "", 0.30, step=7), note(59.05, 20.4, "settled", 24, step=7),
+                  force("Ḥudhayfa stays", 57.35, 23.65, "f1", label_pos="right", step=7, scale=0.85),
+                  fifth5, note(49.8, 26.45, "the fifth, with ʿArfaja", 22, step=8),
+                  on, follow(force("ʿIkrima ؓ", 54.4, 19.1, "f1", label_pos="right", step=9, scale=0.85), on),
+                  note(55.3, 18.35, "to Mahra, with Nājiya and ʿAbd al-Qays", 20, step=9),
               ], {}))
 
     # ------------------------------------------------------------------ M6 — Dabā (RC29)
@@ -338,7 +347,7 @@ SLIDES = [
     ("s05-02-tustar", 1, 2),                                   # HS17
     ("s05-03-salim", 1, 2),                                    # AS06
     ("s05-04-ikrima-flight", 1, 2), ("s05-04-ikrima-flight", 2, 4),     # TRN6, TRN7
-    ("s05-05-oman", 1, 6),                                     # RC70
+    ("s05-05-oman", 1, 6), ("s05-05-oman", 6, 9),              # RC70 · the closing of Oman, before RC30
     ("s05-06-daba", 1, 5),                                     # RC29
     ("s05-07-mahra", 1, 5),                                    # RC30
     ("s05-10-kinda", 1, 3), ("s05-10-kinda", 3, 6), ("s05-10-kinda", 6, 8),       # YK07, YK08, YK09

@@ -45,7 +45,7 @@
   ],
   "objects": [
     {
-      "id": "t_0049",
+      "id": "t_0051",
       "type": "territory",
       "pts": [
         [
@@ -76,7 +76,7 @@
       "step": 1
     },
     {
-      "id": "l_0050",
+      "id": "l_0052",
       "type": "label",
       "lon": 46.9,
       "lat": 25.0,
@@ -87,7 +87,7 @@
       "step": 1
     },
     {
-      "id": "t_0051",
+      "id": "t_0053",
       "type": "territory",
       "pts": [
         [
@@ -123,10 +123,11 @@
       "label": "",
       "ur": "",
       "opacity": 0.28,
-      "step": 1
+      "step": 1,
+      "until": 6
     },
     {
-      "id": "l_0052",
+      "id": "l_0054",
       "type": "label",
       "lon": 58.3,
       "lat": 21.3,
@@ -137,7 +138,7 @@
       "step": 1
     },
     {
-      "id": "a_0053",
+      "id": "a_0055",
       "type": "army",
       "lon": 57.533,
       "lat": 22.933,
@@ -149,10 +150,11 @@
       "labelPos": "right",
       "step": 1,
       "note": "",
-      "scale": 0.95
+      "scale": 0.95,
+      "until": 6
     },
     {
-      "id": "a_0054",
+      "id": "a_0056",
       "type": "army",
       "lon": 56.45,
       "lat": 24.55,
@@ -167,7 +169,7 @@
       "scale": 0.8
     },
     {
-      "id": "l_0055",
+      "id": "l_0057",
       "type": "label",
       "lon": 57.55,
       "lat": 24.95,
@@ -204,7 +206,7 @@
       "until": 3
     },
     {
-      "id": "l_0056",
+      "id": "l_0058",
       "type": "label",
       "lon": 49.3,
       "lat": 25.95,
@@ -237,10 +239,11 @@
       "ur": "",
       "dashed": false,
       "width": 10.0,
-      "step": 4
+      "step": 4,
+      "until": 6
     },
     {
-      "id": "l_0057",
+      "id": "l_0059",
       "type": "label",
       "lon": 47.2,
       "lat": 27.25,
@@ -273,10 +276,11 @@
       "ur": "",
       "dashed": false,
       "width": 10.0,
-      "step": 5
+      "step": 5,
+      "until": 6
     },
     {
-      "id": "a_0058",
+      "id": "a_0060",
       "type": "army",
       "lon": 53.95,
       "lat": 23.4,
@@ -289,10 +293,11 @@
       "step": 5,
       "note": "",
       "scale": 0.85,
-      "follows": "r_0048"
+      "follows": "r_0048",
+      "until": 8
     },
     {
-      "id": "l_0059",
+      "id": "l_0061",
       "type": "label",
       "lon": 54.2,
       "lat": 24.0,
@@ -300,10 +305,11 @@
       "ur": "",
       "size": 22,
       "align": "center",
-      "step": 5
+      "step": 5,
+      "until": 6
     },
     {
-      "id": "r_0060",
+      "id": "r_0062",
       "type": "arrow",
       "pts": [
         [
@@ -324,10 +330,11 @@
       "ur": "",
       "dashed": true,
       "width": 6.0,
-      "step": 6
+      "step": 6,
+      "until": 6
     },
     {
-      "id": "l_0061",
+      "id": "l_0063",
       "type": "label",
       "lon": 56.4,
       "lat": 20.55,
@@ -335,7 +342,159 @@
       "ur": "",
       "size": 22,
       "align": "center",
-      "step": 6
+      "step": 6,
+      "until": 6
+    },
+    {
+      "id": "t_0064",
+      "type": "territory",
+      "pts": [
+        [
+          55.7,
+          26.3
+        ],
+        [
+          56.5,
+          24.3
+        ],
+        [
+          58.9,
+          23.5
+        ],
+        [
+          59.8,
+          22.4
+        ],
+        [
+          57.9,
+          20.1
+        ],
+        [
+          55.3,
+          21.9
+        ],
+        [
+          55.1,
+          24.4
+        ]
+      ],
+      "faction": "f1",
+      "label": "",
+      "ur": "",
+      "opacity": 0.3,
+      "step": 7
+    },
+    {
+      "id": "l_0065",
+      "type": "label",
+      "lon": 59.05,
+      "lat": 20.4,
+      "text": "settled",
+      "ur": "",
+      "size": 24,
+      "align": "center",
+      "step": 7
+    },
+    {
+      "id": "a_0066",
+      "type": "army",
+      "lon": 57.35,
+      "lat": 23.65,
+      "name": "Ḥudhayfa stays",
+      "ur": "",
+      "faction": "f1",
+      "strength": "",
+      "unit": "mixed",
+      "labelPos": "right",
+      "step": 7,
+      "note": "",
+      "scale": 0.85
+    },
+    {
+      "id": "r_0049",
+      "type": "arrow",
+      "pts": [
+        [
+          56.0,
+          24.1
+        ],
+        [
+          50.2,
+          25.9
+        ],
+        [
+          44.5,
+          25.5
+        ]
+      ],
+      "faction": "f1",
+      "label": "",
+      "ur": "",
+      "dashed": true,
+      "width": 7.0,
+      "step": 8
+    },
+    {
+      "id": "l_0067",
+      "type": "label",
+      "lon": 49.8,
+      "lat": 26.45,
+      "text": "the fifth, with ʿArfaja",
+      "ur": "",
+      "size": 22,
+      "align": "center",
+      "step": 8
+    },
+    {
+      "id": "r_0050",
+      "type": "arrow",
+      "pts": [
+        [
+          54.2,
+          23.45
+        ],
+        [
+          54.9,
+          21.5
+        ],
+        [
+          54.4,
+          19.1
+        ]
+      ],
+      "faction": "f1",
+      "label": "",
+      "ur": "",
+      "dashed": false,
+      "width": 10.0,
+      "step": 9
+    },
+    {
+      "id": "a_0068",
+      "type": "army",
+      "lon": 54.4,
+      "lat": 19.1,
+      "name": "ʿIkrima ؓ",
+      "ur": "",
+      "faction": "f1",
+      "strength": "",
+      "unit": "mixed",
+      "labelPos": "right",
+      "step": 9,
+      "note": "",
+      "scale": 0.85,
+      "follows": "r_0050"
+    },
+    {
+      "id": "l_0069",
+      "type": "label",
+      "lon": 55.3,
+      "lat": 18.35,
+      "text": "to Mahra, with Nājiya and ʿAbd al-Qays",
+      "ur": "",
+      "size": 20,
+      "align": "center",
+      "step": 9
     }
   ],
   "underlay": null,
@@ -355,8 +514,8 @@
     "aspect": "16:9"
   },
   "steps": {
-    "count": 6,
-    "current": 6,
+    "count": 9,
+    "current": 9,
     "mode": "upto"
   }
 }
