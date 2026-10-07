@@ -1655,3 +1655,41 @@ and left"*, ⁨البدایہ ج۷ ص۶۱⁩ (cached, 30097/3207). It is told ov
 one grey patch left, and it is the licence for the evening's shape: ⁨يمينًا وشمالًا⁩ is the point. It carries
 the standing ⚠ that **the books do not fix the months inside 11–12 AH**, so the order is the course's, not
 theirs. **The same card returns at evening 7 as the hinge** — the bookend device of #23 applied inside the arc.
+
+---
+
+## 72. Two evenings in one deck, and Daniyal picks the stop on the night — 2026-10-07
+
+Daniyal: *"I think you should try to build the material for both this session and next in one slide pptx,
+I will decide where to stop based on available time."*
+
+This is #20 ("build ~70 minutes for the 45-minute slot and let Daniyal cut") taken one step further, and it
+is the pattern evening 4 already used — Parts I–IV planned, Parts V–XI built behind the close (#47–#50).
+What is new is that the stop is **chosen at the lectern, not in the runsheet.**
+
+**Settled:**
+
+1. **`S06` is one deck covering what were planned as evenings 6 and 7** — 44 cards, ~82.5 min budgeted,
+   ≈ 60 min at his measured pace. Ten parts.
+2. **Four checkpoints, and the deck is built so any of them can be the end** (#59). Each is a Line + map pair
+   with a scripted carry-on *and* a scripted ending, and whichever is used opens the next evening verbatim
+   (#23). The runsheet's *"four stops"* table says what each one leaves behind:
+   **CP1** Dārīn, 15 cards · **CP2** al-Nujayr, 24 · **CP3** `PG41`, 28 — *the natural evening* ·
+   **CP4** `RC35`, 38 — *the Ridda finished, Arabia in one colour* · the close, 44.
+3. **No typed slide numbers and no hidden early closes.** #59 already retired those; a checkpoint is simply
+   two slides in the flow, and he carries on or stops.
+4. **The deck ends at Checkpoint 4 until two things are done:** the two-empires research note (Part IX) and
+   beats for the `ISA`/`GSA` cards (Part X). ⚠ **Checkpoint 4 is a complete evening on its own** — the Ridda
+   finished, with the peninsula in one colour — so a deck that stops there is not a deck with a hole in it.
+5. **Ordering is unchanged and still governs** (#71): one announced step back (Part III, 10 AH) and one
+   announced turn outward (Part IX). Everything else runs forward, and the retrospective material is
+   gathered into Part VI rather than scattered among the fronts.
+
+**Two answers from Daniyal recorded the same day, both in `docs/catalogue/DELIVERED.md`:**
+
+- **What he told from memory on evening 5: he does not recall.** So that evening has **no spent-material
+  list**, and #56 cannot be applied to it. The exposure is small — evening 6 opens on fronts the room has not
+  heard of — but the lesson is a process one: **the note has to be made on the night, in the margin of the
+  runsheet, not asked for afterwards.**
+- **Evening 5's slides 11–13 are his own maps and diagrams**, deliberately picture-only. Not unfinished
+  slides, and not to be "fixed".

@@ -199,7 +199,7 @@ deck. ⚠ His map colours the whole east green already; by the books Oman and Ma
 | **Deleted** | `ZIA/E-ZY12` Abū ʿAqīl ؓ — the arrow he pulled out |
 | **Hidden** (in the deck, not shown) | `AHA/E-AS04` the face at the well (sl 34) · `RCT/E-RC69` the delegation at Medina (sl 42) · `ZIA/E-ZY17` the number nobody can give (sl 43) |
 | **Reordered** | Part V opens on `RCT/E-RC37` (sl 44) — the reason stated first, then the collection told. The runsheet had it last |
-| **Added** | three full-bleed picture slides of his own after Tree A (sl 11–13), no notes |
+| **Added** | **three maps/diagrams of his own** after Tree A (sl 11–13) — picture-only, no headline and no notes. **Deliberate** (confirmed 2026-10-07): they are his own visuals, not unfinished slides |
 
 Cards spoken, in the order delivered (33):
 
@@ -248,8 +248,12 @@ Non-card slides: 1 title · 2–3 bookend IN · 4, 8, 19, 22, 40, 52 part divide
 **Still available, never spoken:** `TMW/E-TRN6`, `TRN7`, `TRN8` (**and not to be told** — Daniyal's
 decision) · `ZIA/E-ZY12` · `AHA/E-AS04` · `RCT/E-RC69` · `ZIA/E-ZY17`.
 
-**Told from memory, on no card:** ⬜ **to ask Daniyal.** Until he answers, evening 6 must assume nothing
-was added — and anything he did tell is spent (`DECISIONS.md` #56).
+**Told from memory, on no card:** **not recorded — Daniyal does not recall** (asked 2026-10-07). So, unlike
+evenings 3 and 4, this evening has **no spent-material list**, and #56 cannot be applied to it.
+**What to do about it:** evening 6 opens on fronts the room has not heard of at all, so the risk of repeating
+him is low. Where it is not low — the Qurʾān's collection, al-Yamāma's dead, ʿIkrima's ؓ road — the cards
+already carry *"the room heard this last week"* notes. ⚠ **Ask on the night, not after:** a one-line note in
+the margin of the runsheet as he goes is the only thing that has ever worked.
 
 **Closing pair used:** Checkpoint 2 — the Line at 12 AH with Oman and Mahra on ʿIkrima's ؓ lane, and the
 map with Oman and Mahra green and Ḥaḍramawt still grey. **These two slides open evening 6** (#23).
