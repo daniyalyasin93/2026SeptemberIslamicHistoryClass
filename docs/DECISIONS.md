@@ -1553,3 +1553,105 @@ each close the same way before the next opens.
 Also corrected on the way: *ten thousand* killed at Dabā is both books' figure (⁨البدایہ ج۷ ص۴۲⁩ has it too), not
 Ibn al-Athīr's alone; and the books part on ʿArfaja — ⁨الکامل⁩ has Ḥudhayfa staying, ⁨البدایہ⁩ has ʿArfaja returning
 to his companions — so the notes say both, each as its book's.
+
+---
+
+## 70. The Ridda's fighting ends on evening 6; evening 7 is the hinge — 2026-10-07
+
+Daniyal, after delivering evening 5 to Checkpoint 2: *"aim is to wrap up ridda and hang on a cliff hanger to
+the start of persian and roman invasion at end of session 7"* — and, on the shape offered: *"we must not miss
+any detail or gloss over"*, *"the older background of ikrima needs not be mentioned"*, *"the maps and animation
+approach of season 5 and the functionality we built, please do use that."*
+
+**The arithmetic that forced the choice.** The Ridda remainder *as built* is Part VII of evening 5 — 13 cards,
+24 min — plus five Bahrayn cards with **no beats**, plus `RC35` and `RC36`. That is **one evening, not two**. To
+land the cliffhanger at the end of evening 7 without compressing anything, the slack is spent on the two things
+the repo already owed: **Bahrayn told whole**, and **the Ridda's own closing reckoning**, which has never been
+carded at all.
+
+**Settled:**
+
+1. **Evening 6 = the last two fronts, and the fighting ends.** Part I is Ḥaḍramawt and Kinda — evening 5's
+   Part VII, unreached, and **already production-complete** (maps rendered and placed with named click layers,
+   notes written). Part II is **Bahrayn told whole**, as *"meanwhile, in the east"* — because ⁨البدایہ ج۷ ص۶۱⁩
+   puts the year-12 fronts side by side and the campaign note §12.2 makes Bahrayn concurrent with al-Yamāma and
+   with Oman/Mahra, and **Ḥaḍramawt last**. Part III is over-build (#20): the fronts nobody tells.
+2. **Evening 7 = the hinge, «⁨اس کے بعد کیا تھا⁩».** The peninsula in one colour · who did **not** break away ·
+   the Ridda's last word · why it did not break again · what the two empires looked like · and the two letters
+   that leave Medina. **It closes at the threshold and crosses nothing** — `ISA/E-C9` onward is al-Yarmūk and is
+   not touched.
+3. **The cliffhanger is honest chronology, and this is the page that makes it so.** Ibn Kathīr opens his year-12
+   chapter in his own voice, unhedged: «⁨استُهلَّت هذه السنة، وجيوشُ الصديق وأُمراؤه الذين بعثهم لقتال أهل الرّدّة
+   جَوّالون في البلاد يمينًا وشمالًا، لتمهيد قواعد الإسلام⁩» — ⁨البدایہ ج۷ ص۶۱⁩. On the next page the march to Iraq
+   is dated into the same month. **⚠ That dating is al-Madāʾinī's, by isnād, as Ibn Kathīr transmits it** —
+   «⁨وقد ذكر المدائني بإسناده أن خالدًا توجّه إلى العراق في المحرم سنة اثنتي عشرة⁩», ⁨ج۷ ص۶۲⁩. Say *"al-Madāʾinī
+   dates it to Muḥarram 12"*, never *"it was Muḥarram 12"*. **The route was disputed too, on the same page:**
+   al-Wāqidī gives two accounts — straight on from al-Yamāma, or back to Medina and then the Kufa road to
+   al-Ḥīra — and Ibn Kathīr rules «⁨قلت: والمشهور الأول⁩». Tell it that way.
+   ⚠ *Earlier in this entry a line «لمَّا فَرَغ خالدُ بن الوليد من اليمامة» was attributed to ⁨ص۶۲⁩ as Ibn
+   Kathīr's undated framing. **It is not on that page** and has been removed — checked against the cache,
+   `sources/shamela/30097/3208.txt`.*
+4. **ʿIkrima's ؓ own background is not told, in any evening.** He deleted `TMW/E-TRN6`, `TRN7`, `TRN8` and
+   Tree C from his deck and has now made it standing. He was introduced on evening 4 (`RC15`) and that stands.
+   **This narrows #62** for this man: no flashback, not even where he falls. `TRN10`–`TRN12`, `TRN22`, `TRN23`
+   (his death in Syria) stay held, and are not a licence to reopen the Mecca material.
+   ⚠ One consequence to fix: evening 5's bridge slide 53 still says aloud *"But first, who he was"* — the cards
+   that answered it are gone.
+5. **#68 is extended to Part VII, and that is evening 6's largest writing job.** Sixteen slides across eleven
+   cards carry English sentences, questions, quotations and relative clauses where a name belongs — including
+   four consecutive slides about al-Ashʿath with his name on none of them. The eleven replacement faces are in
+   `S06_hadramawt_bahrayn/RUNSHEET.md`; they go into that evening's `build.py` `FACE_TITLE`.
+6. **The map pipeline is unchanged and is reused as built.** `make_maps.py` → `tools/render_scene.py --layers`
+   → `series/anim.py`, maps building on clicks (#58), a moving card's map *is* its slide (#63), captions fading
+   when their move is done (#64), **a front closing on its own map before the next opens (#69)** — which now
+   governs Bahrayn too. `tools/mapstudio/scenes/bahrain-darin.json` **already exists on the same schema** but
+   has all ten objects on `step: 1`: it needs steps and `until` authored, not a new scene. Evening 7's bases
+   likewise exist — `southern-fronts`, `13ah-where-we-stand`, `iraq-hira`, `syria-ajnadayn`.
+7. **One real research gap, and it is evening 7's only one.** The condition of the two empires in 11–12 AH is
+   **nowhere in this repo** — not Sasanian succession after Khosrau II, not Heraclius's war of 602–628 or his
+   recovery of the Cross, nothing on how either state looked to Arabia. `docs/PRIMER.md` has one unsourced
+   sentence and `maps/world_632_kandg.png` is a video frame (`MAPS.md` §: for slide drama only). **A page-cited
+   note is owed before evening 7 is built.** Two assets reduce its size: the Persian court-killing is **already
+   spoken** (evening 3, `AAA/E-AW01`, `AW02` — Kisrā killed by his own sons), so Persia's instability is a
+   callback, not new material; and `ISA/E-C2`'s own cached page carries a contemporaneous Muslim reading of
+   Persia's condition in Arabic — «⁨فالحمد لله الذي فض خدمتكم وسلبَ مُلْككم ووهنَ كيدكَم⁩», ⁨البدایہ ج۷ ص۶۴⁩.
+8. **`ISA/E-C2` needs one correction before it can be the cliffhanger.** Its body opens *"Khālid ؓ had taken
+   al-Ḥīra"*, which is past the threshold and is **not what ⁨ج۷ ص۶۴⁩ supports** — that page precedes al-Ḥīra
+   (⁨ص۶۹–۷۱⁩) in Ibn Kathīr's own order, and the al-Ḥīra link in the source is only that al-Shaʿbī was read the
+   letter by Banū Buqayla *of* al-Ḥīra. Rewrite the opening sentence and the card is a clean threshold.
+9. **No ISA or QMA card has a `Beats:` list, and nor do the Bahrayn five, `RC35`, `RC36`, `RC39`, `TB22`,
+   `TB24`, `TB25`, `TB10`, `TB13`, `TB06` or any of the 26 Ibn Khaldūn cards.** Beats are what reach the notes
+   (#39, #60), so **every card either evening uses must be given beats first.** This is now the standing first
+   step of building any evening from this pool.
+10. **The arc may run past evening 7, and that is not a failure** (#20). The room objected to speeding up after
+    session 1. If evening 6 does not reach Bahrayn, Bahrayn opens evening 7 and the hinge moves to evening 8.
+
+---
+
+## 71. An evening changes direction once, and says so when it does — 2026-10-07
+
+Daniyal, on the first evening-6 order: *"when you put in the missing pieces, the order makes sense, going back
+and forth in timeline unnecessarily again and again maybe would give bad impression."* The draft changed
+direction four times — a 10 AH flashback, then 11–12, then forward years, then back to 11 for Bahrayn, then
+back again to early 11 for the uncarded fronts.
+
+**Settled, and standing for every evening:**
+
+1. **One direction change per evening, and it is announced aloud.** Evening 6 has exactly one — the 10 AH
+   Kinda delegation — and the speaker says *"before any of this"* before it.
+2. **Concurrent fronts are told in the sources' own sequence, not in the order they were researched.** The
+   campaign note §12.2 has Bahrayn as *"meanwhile"* and **Ḥaḍramawt last**, so Bahrayn now comes first and
+   the last front closes the evening's fighting — which also deletes the *"meanwhile"* reversal the draft had.
+3. **Forward references go at the end, where nothing follows them.** `YK16` and `PG41` sat mid-evening and
+   dragged the room forward and back. This narrows the ↪ device of #28: a look ahead may still be framed and
+   spoken, but not between two cards that then return to the earlier year.
+4. **Retrospective material belongs in a retrospective evening.** The uncarded fronts (Quḍāʿa, §9.1's four
+   coastal actions, Najrān's covenant, Thaqīf, the Azd) moved to evening 7, whose whole mode is looking back.
+5. **A statement about a whole period is not a timeline step, and may open an evening.** Hence `RCT/E-RC80`.
+
+**`RCT/E-RC80`, the new frame card** — Daniyal asked for this Arabic on a card: Ibn Kathīr's own unhedged
+sentence opening his year-12 chapter, that the year began with al-Ṣiddīq's ؓ armies *"roving the land right
+and left"*, ⁨البدایہ ج۷ ص۶۱⁩ (cached, 30097/3207). It is told over Arabia with **every front lit at once** and
+one grey patch left, and it is the licence for the evening's shape: ⁨يمينًا وشمالًا⁩ is the point. It carries
+the standing ⚠ that **the books do not fix the months inside 11–12 AH**, so the order is the course's, not
+theirs. **The same card returns at evening 7 as the hinge** — the bookend device of #23 applied inside the arc.

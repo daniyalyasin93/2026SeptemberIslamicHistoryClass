@@ -757,6 +757,18 @@ said: we know it. What did they do? They said: they died. And he said: then Mu�
 they died — and I bear witness that there is no god but Allah and that Muḥammad is the Messenger of
 Allah. And they said: and we bear witness too. They held to their Islam and left the rest of the
 people to what they were in.
+**Beats:**
+1. Same region, same weeks, a few days' ride inland — and the map needs its second colour now: عبد القيس.
+2. al-Jārūd b. al-Muʿallā al-ʿAbdī ؓ — of عبد القيس. He had come to the Messenger of Allah ﷺ, learned fiqh with him, and been sent back to his own people; البدایہ calls him one of their nobles and says he was among those who emigrated to the Prophet ﷺ (الکامل ج۲ ص۲۲۱; البدایہ ج۷ ص۳۸). Our pages give him no لقب and no dates — البدایہ's own word for him here is that he stood as a خطيب among them. He is the reason this region is not one colour.
+3. Word had reached him of what his own people were saying: if Muḥammad had been a prophet, he would not have died (الکامل ج۲ ص۲۲۲; البدایہ ج۷ ص۳۸).
+4. He gathered them, and set a condition before he asked anything at all — answer me if you know it, and do not answer me if you do not (البدایہ ج۷ ص۳۸).
+5. First question: do you know that Allah had prophets before Muḥammad? They said yes.
+6. Second question — and this is the one الکامل does not have: do you know that, or do you only suppose it? They said: we know it (البدایہ ج۷ ص۳۸).
+7. Third question: what did they do? They said: they died.
+8. And then there is no fourth question. He takes the shahāda himself, out loud: then Muḥammad ﷺ has died as they died, and I bear witness that there is no god but Allah and that Muḥammad is the Messenger of Allah.
+9. And they said it back to him — and they added: and you are the best of us and our chief. They held firm on their Islam and left the rest of the people to what they were in (البدایہ ج۷ ص۳۹; الکامل ج۲ ص۲۲۲).
+10. He did not argue with anybody. He asked them what they already knew, in order, and let them reach it themselves.
+**Quote after beat:** 8
 **The statement:**
 > فإنَّ محمدًا ﷺ ماتَ كما ماتوا، وإني أشهدُ أن لا إله إلا الله وأن محمدًا رسول الله
 > — البدایہ والنہایہ ج۷ ص۳۸ · https://shamela.ws/book/30097/3184
@@ -2479,6 +2491,16 @@ from (ed. fn., البدایہ ج۷ ص۳۶). ابن خلدون ج۲ ص۵۰۳ has 
 al-Khaṭṭ, sent a force to Dārīn, and made a king of the old Lakhmid line. And they besieged the
 Muslims in one village called Juwāthā, and starved them. One of the besieged put a message into four
 lines of verse, addressed to Abū Bakr ؓ and to the young men of Medina, and it is preserved.
+**Beats:**
+1. One place in that whole region did not break, and it was one village — جُواثى. Ibn Kathīr says not a single town in Bahrayn stood firm except it (البدایہ ج۷ ص۳۸).
+2. And it is the village the ḥadīth remembers: Ibn Kathīr says it was the first village of the people of the ridda to establish the jumuʿa, and that this is established in al-Bukhārī from Ibn ʿAbbās ؓ (البدایہ ج۷ ص۳۸). This is the one sentence on this front that rests on البخاري rather than on campaign reporting — lean on it.
+3. The apostates closed around it and tightened — they were cut off from food, and the hunger in the village became severe (البدایہ ج۷ ص۳۸).
+4. And a man inside it put the message out in four lines of verse — عبد الله بن حَذَف, one of the besieged; البدایہ adds that he was of بنو بكر بن كلاب (ج۷ ص۳۸).
+5. Read the two lines off the screen — a message to Abū Bakr ؓ and to all the young men of Medina: have you any thought for a noble people, sitting besieged in Juwāthā?
+6. ⚠ **Do not speak the fourth line from this card.** The two books print a different word in it — البدایہ has *patience* where الکامل has *victory*, and البدایہ's own editor records that معجم البلدان has *victory* too (ج۷ ص۳۸, ed. fn. 5). The verse is to be read off a page image before it is spoken aloud or printed.
+7. How the siege ended, in Ibn Kathīr's own four words: «until Allah relieved them» (البدایہ ج۷ ص۳۸). He gives no terms, no numbers and no date here — the relief has a name, and it is the man who walks on two cards from now.
+8. And now move the eye, not the clock — a few days' ride from this ring, in the same weeks, one tribe of that same region never broke at all. No honest map shades Bahrayn one colour. That is the next thing to show.
+**Quote after beat:** 4
 **The statement:**
 > أَلَا أَبْلِغْ أَبَا بَكْرٍ رَسُولًا … وَفِتْيَانَ الْمَدِينَةِ أَجْمَعِينَا
 > فَهَلْ لَكُمُ إِلَى قَوْمٍ كِرَامٍ … قُعُودٍ فِي جُوَاثَا مُحْصَرِينَا
@@ -2505,11 +2527,94 @@ said that every Muslim he passed on the road was to march out with him. And that
 Thumāma b. Uthāl ؓ joined him with the Muslims of Banū Ḥanīfa. Qays b. ʿĀṣim joined him and brought
 the zakāt he had held back. ʿAmr, the Abnāʾ, Saʿd and the Rabāb joined — a body the size of the one
 he already had. A column of sixteen crossed the sand desert as an army.
+**Beats:**
+1. Who he is — al-ʿAlāʾ b. al-Ḥaḍramī ؓ, the Prophet's ﷺ own governor over Bahrayn, who held it again for Abū Bakr ؓ and then for ʿUmar ؓ and died in 21 AH (641–642 CE); Ibn Kathīr رحمہ اللہ calls him one of the chiefs of the Companions, of the learned and the much-worshipping, a man whose supplication was answered.
+2. Sixteen riders, and a letter — he left Medina with sixteen riders, and Abū Bakr ؓ wrote him a letter: every Muslim he passed on the road was to march out with him against their enemy.
+3. The letter did the recruiting — Thumāma b. Uthāl ؓ joined with the Muslims of Banū Ḥanīfa; Qays b. ʿĀṣim al-Minqarī joined and handed over the replacement for the ṣadaqa his people had divided after the Prophet ﷺ died; then ʿAmr, the Abnāʾ, Saʿd b. Tamīm and the Rabāb came in, a body the size of the one he already had.
+4. The road, and the night everything was lost — he took them into al-Dahnāʾ and camped in the middle of the sand; in the night the camels bolted with the food, the water and the tents, and the men were left on open sand with nothing but their clothes, making their bequests to one another.
+5. Three questions, not a speech — he called them together and asked them: are you not the Muslims? are you not in the path of Allah? are you not the helpers of Allah? They said yes — then rejoice, for Allah does not abandon men in the state you are in.
+6. Then fajr, and duʿāʾ until sunrise — he prayed fajr with them, went down on his knees and raised his hands, and every man did the same, until the sun was up.
+7. What the book then narrates — at the third time, a great pool of sweet water beside them; they drank and washed; and before the day was high the camels came in from every direction with their loads, and the men had not lost a thread.
+8. A Companion standing inside the scene — Abū Hurayra ؓ was one of the men on that march; when they had moved on he took a guide, Minjāb b. Rāshid, back to the place, found the pool still there, filled his water-skin and set it on the lip of it to see which it was, and said: this is the place — and praised Allah.
+9. ⚠ How to tell beats 5–8, and this line is not an event — narrate it as what the book narrates and go straight on. In البدایہ the chain runs through سيف بن عمر. No doctrinal point is built on it from this platform, and no claim is made about the man.
+**Quote after beat:** 2
 **The statement:**
 > فَخَرَجَ مِنَ المَدِيْنَةِ فِي سِتَّةَ عَشَرَ رَاكِباً، وَكَتَبَ لَهُ كِتَاباً: أَنْ يَنْفِرَ مَعَهُ كُلُّ مَنْ مَرَّ بِهِ مِنَ المُسْلِمِيْنَ إِلَى عَدُوِّهِم.
 > — سیر أعلام النبلاء ج۱ ص۲۶۴ · https://shamela.ws/book/10906/1690
 > *English:* "He left Medina with sixteen riders, and he wrote him a letter: that every Muslim he
 > passed should march out with him against their enemy."
+
+**APPEND** to `RCT/E-RC25` after its existing `**Hands-up?**` line. `notes_for()` reads everything
+after that line into **BACKGROUND**, which is where the lifted Arabic belongs: the beats are what he
+says aloud, this is what he reads at home.
+
+```markdown
+**Who he was, in one breath — and all three lines are on a page we hold:**
+
+> وَلاَّهُ رَسُوْلُ اللهِ -صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ- البَحْرَيْنِ، ثُمَّ وَلِيَهَا لأَبِي بَكْرٍ، وَعُمَرَ.
+> — سیر أعلام النبلاء ج۱ ص۲۶۳ · https://shamela.ws/book/10906/1689
+> *English:* "The Messenger of Allah صلى الله عليه وسلم appointed him over Bahrayn; then he held it for Abū Bakr, and for ʿUmar."
+> تُوُفِّيَ سَنَةَ: إِحْدَى وَعِشْرِيْنَ.
+> — سیر أعلام النبلاء ج۱ ص۲۶۴ · https://shamela.ws/book/10906/1690
+> *English:* "He died in the year twenty-one."
+> وقد كان العلاء من ساداتِ الصحابةِ العلماءِ العُبَّادِ مجابي الدعوة
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "al-ʿAlāʾ was among the chiefs of the Companions, the learned, the much-worshipping, whose supplication was answered."
+**The three questions, the فجر, and the water — البدایہ's telling, which is fuller than the one the
+card carries:**
+
+> أيها الناسُ ألستم المسلمين؟ ألستُم في سبيل الله؟ ألستُم أنصارَ الله؟ قالوا: بلى، قال: فأبشروا فواللهِ لا يخذل اللهُ منْ كانَ في مثل حالكم
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "O people — are you not the Muslims? Are you not in the path of Allāh? Are you not the helpers of Allāh? They said: yes. He said: then rejoice, for by Allāh, Allāh does not abandon men who are in a state like yours."
+> ونُودي بصلاةِ الصبحِ، حين طلعَ الفجرُ فصلَّى بالناس، فلما قضى الصلاةَ جثا على رُكبتيه وجثا الناسُ، ونصبَ في الدعاء ورفع يديه وفعلَ الناسُ مثله حتى طلعتِ الشمسُ
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "The call was given for the dawn prayer as the fajr broke, and he prayed with the people; and when he had finished the prayer he went down on his knees, and the people went down on theirs, and he set himself to supplicate and raised his hands, and the people did as he did, until the sun rose."
+> فلما بلغَ الثالثةَ إذا قد خلق الله إلى جانبهم غديرًا عظيمًا من الماءَ القَراح
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "And when he reached the third time — there, Allāh had created beside them a great pool of sweet, clear water."
+> فما تعالى النهارُ حتى أقبلتِ الإبل من كلّ فجٍّ بما عليها، لم يفقدِ الناسُ من أمتعتهم سِلْكًا
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "And the day had not grown high before the camels came in from every pass with their loads upon them; the people had not lost a thread of their baggage."
+**And أبو هريرة ؓ was standing in it** — the detail that puts a Companion the whole room knows inside
+the scene, and it is الکامل's, not البدایہ's:
+
+> وَكَانَ أَبُو هُرَيْرَةَ فِيهِمْ، فَلَمَّا سَارُوا عَنْ ذَلِكَ الْمَكَانِ قَالَ لِمِنْجَابِ بْنِ رَاشِدٍ: كَيْفَ عِلْمُكَ بِمَوْضِعِ الْمَاءِ؟ قَالَ: عَارِفٌ بِهِ. فَقَالَ لَهُ: كُنْ مَعِي حَتَّى تُقِيمَنِي عَلَيْهِ
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "And Abū Hurayra was among them. When they had moved on from that place he said to Minjāb b. Rāshid: how well do you know where the water is? He said: I know it. He said to him: come with me until you set me over it."
+> وَمَلَأْتُ إِدَاوَتِي ثُمَّ وَضَعْتُهَا عَلَى شَفِيرِ الْغَدِيرِ وَقُلْتُ: إِنْ كَانَ مَنَّا مِنَ الْمَنِّ عَرَفْتُهُ، وَإِنْ كَانَ عَيْنًا عَرَفْتُهُ، فَإِذَا مَنٌّ مِنَ الْمَنِّ. فَحَمِدَ اللَّهَ
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "… and I filled my water-skin, then set it on the lip of the pool and said: if it is a gift of the kind that is given, I shall know it; and if it is a spring, I shall know it — and it was a gift of the kind that is given. And he praised Allāh."
+⚠ **This is a كرامہ narrative, and in البدایہ it comes through سيف بن عمر.** The card's own standing
+instruction, kept: narrate it as what the book narrates; build no doctrinal point on it. **Beat 9
+carries that to the lectern**, which is the only place it was missing.
+
+⚠ **«Abū Hurayra ؓ was his muezzin» — on the page, but the page marks the chain very weak.**
+سیر ج۱ ص۲۶۴ carries «بَعَثَنِي رَسُوْلُ اللهِ ﷺ مَعَ العَلاَءِ بنِ الحَضْرَمِيِّ، وَوَصَّاهُ بِي، فَكُنْتُ أُؤَذِّنُ لَهُ» — *"The
+Messenger of Allah ﷺ sent me with al-ʿAlāʾ b. al-Ḥaḍramī and charged him concerning me, and I used to
+give the adhān for him"* — and that same page's editorial note says of its isnād:
+
+> وإسناده ضعيف جدا لان الواقدي
+> — سیر أعلام النبلاء ج۱ ص۲۶۴ · https://shamela.ws/book/10906/1690
+> *English:* "… and its isnād is very weak, because al-Wāqidī is discarded."
+**Do not say it flatly.** What is solid is الکامل's «وَكَانَ أَبُو هُرَيْرَةَ فِيهِمْ» — he was among them on
+that march — and that is what beat 8 says.
+
+⚠ **The books give no total for the force that reached Bahrayn.** الکامل ج۲ ص۲۲۲ says only that the
+Rabāb came in «فِي مِثْلِ عُدَّتِهِ», in the like of his own number. There is no figure anywhere we hold.
+If a slip asks how many, **say the books do not give one.**
+
+⚠ **سیر compresses this campaign into two lines and its order is not the order we tell.** Where
+الکامل and البدایہ have هَجَر, the pincer and a month of trenches, سیر ج۱ ص۲۶۴ has only:
+
+> فَسَارَ العَلاَءُ فِيْمَنْ تَبِعَهُ، حَتَّى لَحِقَ بِحِصْنِ جُوَاثَى (٣) ، فَقَاتَلَهُم، فَلَمْ يُفْلِتْ مِنْهُم أَحَدٌ. ثُمَّ أَتَى القَطِيْفَ وَبِهَا جَمْعٌ، فَقَاتَلَهُم، فَانْهَزَمُوا
+> — سیر أعلام النبلاء ج۱ ص۲۶۴ · https://shamela.ws/book/10906/1690
+> *English:* "So al-ʿAlāʾ marched with those who followed him, until he reached the fort of Juwāthā, and fought them, and not one of them escaped. Then he came to al-Qaṭīf, where there was a gathering, and fought them, and they were routed."
+**Tell الکامل's and البدایہ's sequence** — the march, هَجَر, the trench month, the night attack,
+دارين. سیر is a biographical summary, not a second battle, and its wording at جُواثى does not make
+clear whom he fought there. **That ambiguity is not to be resolved from the platform.**
+```
+
+---
 
 **عبرت:** The state had almost no soldiers to send; what it sent instead was a commander and a piece
 of writing.
@@ -2531,11 +2636,78 @@ and find out what it was, and was captured. His mother was of ʿIjl — so he sh
 name, and his uncle came and recognised him, and fed him, and gave him a camel, and let him out. The
 uncle was too drunk to think about it. He came back and told al-ʿAlāʾ ؓ that the whole enemy camp was
 drunk.
+**Beats:**
+1. The ground he chose — he brought the column down at Hajar and camped against al-Ḥuṭam on the Hajar side of him.
+2. The other jaw of the pincer — he sent to al-Jārūd ؓ, the man who had held ʿAbd al-Qays to Islam with five questions, to bring ʿAbd al-Qays down on al-Ḥuṭam from the far side: the loyal tribe inside the province is now half the army, and the rebel has a front in two directions.
+3. Everyone came to al-Ḥuṭam but one place — every mushrik in Bahrayn gathered to him except the people of Dārīn. Say it here, because it is the reason there is still an operation left after this battle is won.
+4. A month of trenches — both sides dug in on themselves; they took turns at the fighting and went back to their trenches, and they were like that for a month.
+5. What they heard in the night — not general noise: a commotion like a rout, or like a battle. That is why al-ʿAlāʾ ؓ asked who would bring him news of them — he thought something military was happening.
+6. The volunteer — ʿAbdullāh b. Ḥadhf said: I will. He went out until he came near their trench, and they took him.
+7. ⚠ Before you say the word, and this line is not an event — no page we hold gives any reason why that camp was drinking. No feast, no festival, no occasion. Give the setting, which is on the page — a month of stalemate facing a trench — and leave the reason exactly where the books leave it.
+8. What he brought back — he got into the Muslims' camp and told them the people were drunk, past understanding; and the Muslims went out at them and put the sword into them as they pleased.
+9. What the night cost them — the Muslims took the camp itself, and الکامل says not one man got away with more than he had on him; Ibn Kathīr رحمہ اللہ calls the spoil immense.
+**Quote after beat:** 8
 **The statement:**
 > فَدَخَلَ عَسْكَرَ الْمُسْلِمِينَ فَأَخْبَرَهُمْ أَنَّ الْقَوْمَ سُكَارَى، فَخَرَجَ الْمُسْلِمُونَ عَلَيْهِمْ، فَوَضَعُوا فِيهِمُ السَّيْفَ كَيْفَ شَاءُوا.
 > — الکامل ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
 > *English:* "He entered the Muslims' camp and told them that the people were drunk. So the Muslims
 > went out at them and put the sword into them as they pleased."
+
+**APPEND** to `RCT/E-RC26` after its existing `**Hands-up?**` line.
+
+⚠ **AND DELETE** its existing sub-note `**The chief's death, and the regret** — البدایہ ج۷ ص۳۹: …`.
+`RCT/E-RC74` now carries that whole scene, with الکامل's name for the man who cut the leg and the
+sequence settled. Two artifacts must not tell it twice (CLAUDE.md §4).
+
+```markdown
+**The dispositions — this is the beat that was on no card, and it is what makes `ATA/E-TB24` pay off
+militarily:**
+
+> ثُمَّ سَارُوا فَنَزَلُوا بِهَجَرَ، وَأَرْسَلَ الْعَلَاءُ إِلَى الْجَارُودِ يَأْمُرُهُ أَنْ يَنْزِلَ بِعَبْدِ الْقَيْسِ عَلَى الْحُطَمِ مِمَّا يَلِيهِ، وَسَارَ هُوَ فِيمَنْ مَعَهُ حَتَّى نَزَلَ عَلَيْهِ مِمَّا يَلِي هَجَرَ
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "Then they marched on and camped at Hajar. And al-ʿAlāʾ sent to al-Jārūd, ordering him to come down with ʿAbd al-Qays upon al-Ḥuṭam from his own side, while he himself marched with those who were with him until he camped against him on the Hajar side."
+⚠ **Beat 2 only works if the room has met al-Jārūd ؓ.** He is `ATA/E-TB24` — *Al-Jārūd ؓ asks his
+tribe five questions* — and that card is CORE. **If `ATA/E-TB24` is cut from the running order, beat
+2 must carry his notice in one breath** (#43): al-Jārūd b. al-Muʿallā ؓ of ʿAbd al-Qays, the man who
+held his own tribe to Islam when the rest of Bahrayn went.
+
+**Why دارين still needs an operation after this battle is won:**
+
+> فَاجْتَمَعَ الْمُشْرِكُونَ كُلُّهُمْ إِلَى الْحُطَمِ إِلَّا أَهْلَ دَارِينَ
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "And all the mushrikūn gathered to al-Ḥuṭam — except the people of Dārīn."
+**The month, in الکامل's own words:**
+
+> وَخَنْدَقَ الْمُسْلِمُونَ عَلَى أَنْفُسِهِمْ وَالْمُشْرِكُونَ، وَكَانُوا يَتَرَاوَحُونَ الْقِتَالَ وَيَرْجِعُونَ إِلَى خَنْدَقِهِمْ، فَكَانُوا كَذَلِكَ شَهْرًا
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "The Muslims dug a trench about themselves, and so did the mushrikūn; and they would take turns at the fighting and go back to their trench — and they were like that for a month."
+**And why a volunteer was asked for at all** — the sentence that explains the whole scene, and it was
+on no card:
+
+> سَمِعَ الْمُسْلِمُونَ ضَوْضَاءَ هَزِيمَةٍ أَوْ قِتَالٍ، فَقَالَ الْعَلَاءُ: مَنْ يَأْتِينَا بِخَبَرِ الْقَوْمِ؟
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "The Muslims heard a commotion — of a rout, or of a battle. So al-ʿAlāʾ said: who will bring us news of these people?"
+⚠⚠ **WHY THE ENEMY CAMP WAS DRUNK: NO PAGE WE HOLD SAYS.** Neither book gives an occasion — no feast,
+no festival, no reason at all. البدایہ ج۷ ص۳۹ carries only:
+
+> فوجدهم سُكارى لا يعقلون من الشراب، فرجعَ إليه فأخبره
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "… and he found them drunk, past understanding from the drink; and he went back to him and told him."
+**What the pages do supply is the setting, not the cause** — a month of trench stalemate, quoted
+above. **Give the setting and supply no reason the books withhold.** Beat 7 puts that at the lectern
+in the words he needs, because he will say it aloud.
+
+**What the night took — both books, and they agree:**
+
+> وَاسْتَوْلَى الْمُسْلِمُونَ عَلَى الْعَسْكَرِ، وَلَمْ يُفْلِتْ رَجُلٌ إِلَّا بِمَا عَلَيْهِ
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "And the Muslims took possession of the camp, and not a man got away with anything but what was on him."
+> واستولى على جميعِ أموالهم وحواصلهم وأثقالهم، فكانت غنيمةً عظيمةً جسيمةً
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "And he took possession of all their wealth, their stores and their baggage — and it was an immense, massive spoil."
+```
+
+---
 
 **عبرت:** A month of trenches was decided by one night on which one side could not think.
 **Hands-up?** no
@@ -2554,11 +2726,109 @@ Then a blue arrow goes **straight across the water** and comes straight back the
 Al-ʿAlāʾ ؓ did not chase them straight away. He first wrote to the Muslims of Bakr b. Wāʾil to sit on
 every road and close the land behind him. Then he brought his men to the water's edge — where the
 ships would have been too slow — and told them what he intended.
+**Beats:**
+1. One force had never come to the battle at all — Every one of them gathered to al-Ḥuṭam **except the people of Dārīn** (⁨الکامل ج۲ ص۲۲۳⁩). So this is not mopping up after a win; it is an enemy that still holds its own ground.
+2. And the beaten went to join them — The main body of the broken took ship for Dārīn; the rest scattered home to their own tribes' country.
+3. What Dārīn is — An anchorage off the Bahrayn coast. A day and a night out, for ships.
+4. He closed the land before he opened the sea — Before he moved at all he wrote to the men of Bakr b. Wāʾil who had held firm on their Islam, to sit on every road and take the routed and the apostates.
+5. And he named two of them — ʿUtayba b. al-Nahhās and al-Muthannā b. Ḥāritha. **Say aloud that al-Muthannā is a name we will meet again when the war moves into Iraq** — he is the man who takes the banner at the Bridge.
+6. They did it, and sent word back — Only then did he order that the enemy be come at from behind his own back, and called the people to Dārīn.
+7. At the water's edge — The crossing was too far: by ship the enemy would be gone before he arrived. **Say the words here** — *The words at the water's edge*, below.
+8. He went in first — On his horse, saying the duʿāʾ aloud, and then ordering the whole army to say it and plunge in behind him. *The duʿāʾ going in*, below.
+9. What they were walking on — Soft sand with water over it, not deep enough to cover the camels' pads. A passage that takes ships a day and a night; across, fought, and back again — all of it in one day.
+10. And nothing was lost in the water — One man's horse-fodder, and al-ʿAlāʾ ؓ went back for it and brought it to him.
+11. The fight, and the man they had wanted for a king — Hard fighting; the Muslims won and left nobody behind to carry the news. ʿAfīf b. al-Mundhir took the Lakhmid claimant prisoner, and he became a Muslim. The spoils were divided (⁨الکامل ج۲ ص۲۲۴⁩).
+12. And the sentence the chapter closes on — Islam settled on that coast and did not move off it again.
+**Quote after beat:** 12
 **The statement:**
+> وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ.
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "And Islam settled its neck to the ground there." — the image is a camel kneeling and
+> setting its neck down to stay: the front was not held, it was finished.
+
+**The words at the water's edge:**
 > قَدْ أَرَاكُمُ اللَّهُ مِنْ آيَاتِهِ فِي الْبَرِّ لِتَعْتَبِرُوا بِهَا فِي الْبَحْرِ، فَانْهَضُوا إِلَى عَدُوِّكُمْ وَاسْتَعْرِضُوا الْبَحْرَ.
 > — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
 > *English:* "Allah has shown you of His signs on land so that you may take heed of them at sea. Rise
 > against your enemy, and go straight across the sea."
+
+**The duʿāʾ going in — ⁨البدایہ⁩ prints it in full, and he said it first, alone, on his horse:**
+> فاقتحمَ البحرَ بفرسه وهو يقولُ: يا أرحمَ الراحمين، يا حكيمُ يا كريمُ، يا أحدُ يا صمدُ، يا حيُّ يا مُحيي، يا قيّومُ، يا ذا الجلال والإكرام، لا إله إلا أنت يا ربَّنا.
+> — البدایہ والنہایہ ج۷ ص۴۰ · https://shamela.ws/book/30097/3186
+> *English:* "So he plunged into the sea on his horse, saying: O Most Merciful of the merciful, O Wise, O
+> Generous, O One, O Eternally Self-Sufficient, O Living, O Giver of life, O Self-Subsisting, O Possessor
+> of Majesty and Honour — there is no god but You, O our Lord."
+
+**Who sealed the land roads, and who was named to do it:**
+> فَكَتَبَ الْعَلَاءُ إِلَى مَنْ ثَبَتَ عَلَى إِسْلَامِهِ مِنْ بَكْرِ بْنِ وَائِلٍ، مِنْهُمْ عُتَيْبَةُ بْنُ النَّهَّاسِ وَالْمُثَنَّى بْنُ حَارِثَةَ وَغَيْرُهُمَا، يَأْمُرُهُمْ بِالْقُعُودِ لِلْمُنْهَزِمِينَ وَالْمُرْتَدِّينَ بِكُلِّ طَرِيقٍ، فَفَعَلُوا
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "So al-ʿAlāʾ wrote to those of Bakr b. Wāʾil who had held firm on their Islam — among them
+> ʿUtayba b. al-Nahhās and al-Muthannā b. Ḥāritha and others — ordering them to sit on every road for
+> the routed and the apostates. And they did so."
+
+**The day-and-night distance is in ⁨الکامل⁩'s own text, not only in ⁨البدایہ⁩'s editor footnote:**
+> وَبَيْنَ السَّاحِلِ وَدَارِينَ يَوْمٌ وَلَيْلَةٌ لِسُفُنِ الْبَحْر
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "And between the shore and Dārīn is a day and a night, for the ships of the
+> sea."
+
+The research note credits only the ⁨معجم البلدان⁩ gloss printed in ⁨البدایہ ج۷ ص۴۰⁩, so beat 3 looked like it rested on an
+editor's footnote. It does not — ⁨الکامل⁩ carries it in the body of the text.
+
+**Why ⁨دارين⁩ needed a separate operation, and it is on the earlier page:**
+> فَاجْتَمَعَ الْمُشْرِكُونَ كُلُّهُمْ إِلَى الْحُطَمِ إِلَّا أَهْلَ دَارِينَ
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "All the idolaters gathered to al-Ḥuṭam except the people of Dārīn."
+
+⚠ **Eyeball the duʿāʾ against the page image before it reaches a slide** (CLAUDE.md §1.1). ⁨البدایہ⁩'s text
+here is only lightly vocalised and one wrong letter changes the word. The same goes for the crossing line
+on that page, «يمشون على مثل رملةٍ دمثةٍ فوقها ماء لا يغمر أخفاف الإبل، ولا يصلُ إلى ركبِ الخيل» (البدایہ ج۷ ص۴۰).
+
+⚠⚠ **NO PAGE SAYS THE PRISONER WAS PARDONED. DO NOT SAY IT.** ⁨الکامل ج۲ ص۲۲۴⁩ says only that ʿAfīf took him
+prisoner, that he became a Muslim, and that the spoils were divided. Nothing about terms, nothing about a
+pardon, nothing about what became of him afterwards.
+
+⚠ **He is given no name from the platform** — three books give three forms of it, so the series says
+*"the man they wanted to make king of the old Lakhmid line"* (see `RC71`). The Arabic sentence that
+carries the capture also carries the name, so if it is quoted at all it is quoted elided, exactly so:
+«فَأَسَرَ عَفِيفٌ … الْغَرُورَ فَأَسْلَمَ.» (الکامل ج۲ ص۲۲۴) — and the ellipsis is deliberate, not damage.
+
+⚠ **DANIYAL'S DECISION — the man's own line about himself.** ⁨الکامل ج۲ ص۲۲۲⁩ records that after he became
+a Muslim he used to say:
+> فَلَمَّا أَسْلَمَ كَانَ يَقُولُ: أَنَا الْمَغْرُورُ، وَلَسْتُ بِالْغَرُورِ.
+> — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
+> *English:* "And when he became a Muslim he used to say: I am the deceived one, not the deceiver."
+
+It is a pun on the very ⁨لقب⁩ this series refuses to speak, which is why it is a decision and not a
+default. **If it is spoken, it is spoken as this man's own words about himself after he became Muslim —
+never as his name, and never as what the books call him.** If it is not spoken, nothing is lost: beat 11
+already carries the fact that he became a Muslim. Note its page: **⁨ج۲ ص۲۲۲⁩, not ص۲۲۴.**
+
+⚠ **CITATION CORRECTION, and it matters.** The research note §12.3 cites «⁨فَأَسَرَ عَفِيفٌ⁩ ... ⁨الْغَرُورَ⁩
+⁨فَأَسْلَمَ⁩» to **البدایہ ج۷ ص۴۰** as well as to ⁨الکامل⁩. **البدایہ ج۷ ص۴۰ does not carry it.** `30097/3186` was
+read in full: on that page ʿAfīf b. al-Mundhir appears only as the author of the two verses about the
+crossing. The capture-and-conversion is **⁨الکامل ج۲ ص۲۲۴⁩ alone.** Cite ⁨الکامل⁩ and nothing else, and fix
+§12.3's row.
+
+⚠ **al-Muthannā b. Ḥāritha carries no honorific here, and that clashes with an existing card.**
+`QMA/E-Q3` (the Bridge) writes «المثنى بن حارثة ؓ». **No page we hold states his Companionship** —
+⁨الکامل ج۲ ص۲۲۴⁩ has only that he was among «مَنْ ثَبَتَ عَلَى إِسْلَامِهِ», those who held firm on their Islam, and
+⁨سیر أعلام النبلاء⁩ (⁨جراشدون⁩ ⁨ص۱۰۰⁩, ⁨ص۱۰۱⁩, ⁨ص۱۰۵⁩ = 10906/1245, 1246, 1250) names him
+«⁨المثنى بن حارثة الشيباني⁩» with no ⁨صحابی⁩ notice anywhere on those pages. Settle it in
+`docs/catalogue/PEOPLE.md` and make both cards agree (CLAUDE.md §4). Until it is settled, beat 4 says
+*"men of Bakr b. Wāʾil who had held firm on their Islam"*, which is exactly what the page says and needs
+no honorific at all.
+
+⚠ **#43 FORWARD REFERENCE — answer the row in the runsheet.** Beat 5 is where the room first hears
+**ʿUtayba b. al-Nahhās** and **al-Muthannā b. Ḥāritha**. Neither is in `DELIVERED.md`. The page gives no
+dates and no ⁨لقب⁩ for either man, so the one-breath notice is the one the page licenses and no more: *men
+of Bakr b. Wāʾil who stayed Muslim when their tribe did not, and who were ordered to sit on the roads.*
+For al-Muthannā, add the forward reference aloud — *"remember the name; he comes back in Iraq"* —
+which is what #43 asks for. ⚠ **The books we hold give no birth or death year for either man; do not
+supply one.** What ⁨سیر⁩ does give for al-Muthannā is his end: he was over the Muslims in Iraq, and died of
+the wound he took on the day of the Bridge (⁨سیر⁩ ⁨جراشدون ص۱۰۰⁩). Hold that for the Iraq evening.
+
+---
 
 **عبرت:** He closed the roads behind the enemy before he opened one in front of himself.
 **Hands-up?** no
@@ -2577,11 +2847,54 @@ strongest, and then joined al-ʿAlāʾ ؓ on the road to Bahrayn. Al-ʿAlāʾ ؓ
 spoils for it: al-Ḥuṭam's own embroidered cloak, the one the man used to show off in. Coming back
 from Dārīn he was seen wearing it by Banū Qays b. Thaʿlaba, and they decided it meant he had killed
 their chief.
+**Beats:**
+1. ⚠ Not an introduction — a callback — The room met him on evening 4: Thumāma b. Uthāl al-Ḥanafī ؓ, of Banū Ḥanīfa itself, Musaylima's own tribe, who was fighting Musaylima inside his own country before any army came from Medina (`RCT/E-RC64`, delivered, Part I). One sentence; do not re-introduce him.
+2. What he did after that — He joined al-ʿAlāʾ's ؓ column on the road to Bahrayn with the Muslims of Banū Ḥanīfa, and went through the whole war with it, as far as Dārīn.
+3. What he was given for it — When the spoils were divided al-ʿAlāʾ ؓ singled out the men who had borne the hardest of the fighting and gave them garments. Thumāma ؓ got al-Ḥuṭam's own embroidered cloak — the one al-Ḥuṭam used to show himself off in.
+4. On the road home from Dārīn — Banū Qays b. Thaʿlaba saw it on him. They were al-Ḥuṭam's own tribe, and they had surrendered.
+5. The exchange — They said: you killed al-Ḥuṭam. He said: I did not kill him; I came by it out of the spoils. They fell on him and killed him. **Quote.**
+6. Say exactly who, and say what the page withholds — Banū Qays b. Thaʿlaba, as a body: the words are plural and name nobody. The motive the page does give is on its face — they took the cloak for proof of their chief's blood. What the page does not give: no individual killer, no word on whether they believed him, and nothing at all about a reckoning afterwards or about Medina being told.
+7. ⚠ Tell it plainly and move — Two sentences, no dwelling, no lesson beyond the one line. **If the room is heavy, cut the card** — nothing later in the evening depends on it.
+**Quote after beat:** 5
 **The statement:**
 > فَقَالُوا لَهُ: أَنْتَ قَتَلْتَ الْحُطَمَ! فَقَالَ: لَمْ أَقْتُلْهُ، وَلَكِنِّي اشْتَرَيْتُهَا مِنَ الْمَغْنَمِ. فَوَثَبُوا عَلَيْهِ فَقَتَلُوهُ.
 > — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
 > *English:* "They said to him: You killed al-Ḥuṭam! He said: I did not kill him — I bought it from
 > the spoils. So they fell on him and killed him."
+
+**What he was given, on the same page:**
+> فَأَعْطَى ثُمَامَةَ بْنَ أُثَالٍ الْحَنَفِيَّ خَمِيصَةً ذَاتَ أَعْلَامٍ كَانَتْ لِلْحُطَمِ يُبَاهِي بِهَا.
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "So he gave Thumāma b. Uthāl al-Ḥanafī an embroidered cloak that had been al-Ḥuṭam's, which
+> he used to show himself off in."
+
+⚠ **WHO KILLED HIM, FROM THE PAGE.** ⁨الکامل ج۲ ص۲۲۴⁩ gives the killers as a body and names no individual:
+«فَوَثَبُوا عَلَيْهِ فَقَتَلُوهُ.» — *"So they fell on him and killed him."* The body is ⁨بنو قيس بن ثعلبة⁩, al-Ḥuṭam's own
+tribe. **Say "Banū Qays b. Thaʿlaba"; do not name a man, because the page does not.**
+
+⚠ **"GAVE" AND "BOUGHT" ARE BOTH ON THE SAME PAGE — do not let the speaker contradict himself.**
+⁨الکامل ج۲ ص۲۲۴⁩ says al-ʿAlāʾ ؓ **gave** him the cloak, and then has Thumāma ؓ answer «⁨وَلَكِنِّي اشْتَرَيْتُهَا⁩
+⁨مِنَ الْمَغْنَمِ⁩» — *"but I bought it from the spoils."* ⁨ابن خلدون ج۲ ص۵۰۶⁩, **as his reading and named as
+such**, has him say instead «⁨الأمير نفلنيها⁩» — *"the commander awarded it to me."* Keep the English
+rendering of the quotation literal, but in the narrative prose say **"he came by it out of the spoils"**,
+which is true on every page and does not set the speaker against his own sentence.
+
+⚠ **THE MOTIVE IS STATED; THE AFTERMATH IS NOT.** The page gives the reason they struck — the cloak
+taken as proof — and then stops. ⁨ابن خلدون ج۲ ص۵۰۶⁩ adds, **as his reading only**, the one extra link:
+«⁨فلم يقبلوا وقتلوه⁩» — *they would not accept it, and they killed him.* Under `DECISIONS.md` #29 he may
+frame this and may not carry it alone, so attribute it to him by name if it is used at all. **No page we
+hold records any consequence for the killers, or any word sent to ⁨المدينة⁩.** Say so plainly if a slip
+asks; do not invent one.
+
+⚠ **⁨الکامل⁩ narrates this out of order, and the card does not.** On ⁨ج۲ ص۲۲۴⁩ the killing is told inside the
+division of spoils at ⁨هَجَر⁩, with «⁨فَلَمَّا رَجَعَ ثُمَامَةُ بَعْدَ فَتْحِ دَارِينَ⁩» — *when Thumāma returned, after
+the conquest of Dārīn* — flagging that it belongs later. The card's placing after `RC27` is the forward
+order, not the book's page order. **Do not "correct" it back.**
+
+⚠ **⁨ابن خلدون ج۲ ص۵۰۶⁩ is verified in the cache** (`12320/1303`) and does carry this episode. The existing
+⚠ on the card is sound and should stay.
+
+---
 
 **عبرت:** He survived the war and was killed for a piece of cloth by men who had already surrendered.
 **Hands-up?** no
@@ -3127,6 +3440,844 @@ Ibn Kathīr grades that route himself, on the same page: «هذا حديث غر�
 
 **عبرت:** The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself.
 **Hands-up?** Before the table: *"Medina is one town. How many armies would you send out at once?"*
+
+---
+
+### RCT/E-RC71 · The governor dies, and they fetch a king back
+**Tier:** CORE · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** البحرين enters the map for the first
+time, and it must enter **in two colours** — the one region of the war that no honest map shades
+once. Rabīʿa's ground along the coast and inland to هَجَر reddens. One block stays blue: **عبد القيس**.
+At the centre, the marker for the Prophet's ﷺ own administration goes dark — the governor is dead —
+and where it stood, a crown appears.
+**What happened:** Bahrayn was not a new front. It was an existing administration: the Prophet ﷺ had
+sent al-ʿAlāʾ b. al-Ḥaḍramī to its king, al-Mundhir b. Sāwā al-ʿAbdī, and the king accepted Islam at
+his hands and, Ibn Kathīr says, established Islam and justice among his people. Al-Mundhir was
+already ill when the Prophet ﷺ died, and he died shortly after him. That second death is what opened
+this front. Then Rabīʿa in Bahrayn agreed together on the ridda — all of it except al-Jārūd ؓ and
+those who followed him — and what they announced was not a prophet. It was a restoration. They said:
+we will put the kingship back. And they brought out a man of the old royal house and made him king.
+**Beats:**
+1. Bahrayn was already a Muslim administration — the Prophet ﷺ had sent al-ʿAlāʾ b. al-Ḥaḍramī to its king, and the king had accepted Islam at his hands and run Islam and justice there (البدایہ ج۷ ص۳۷).
+2. The man who held it — al-Mundhir b. Sāwā al-ʿAbdī, of عبد القيس, the Prophet's ﷺ own appointee in Bahrayn. The books we hold give no لقب and no dates for him; what they give is that he was already ill when the Prophet ﷺ died, and that he died shortly after him.
+3. So on this front there are two deaths, not one — the Prophet ﷺ, and then, within a short time, the man who held the country for him. The second death is what opens the fighting.
+4. Rabīʿa in Bahrayn agreed together on the ridda — all of it except al-Jārūd ؓ and the men who followed him. Hold that exception; the room will need it in a few minutes.
+5. And then the sentence that makes this front unlike every other one tonight — they said: we will put the kingship back.
+6. No claimant to prophethood here. These men were not following a false prophet. They were restoring a monarchy. Say that plainly — it is the thing the room will not be expecting.
+7. They brought a man of the old royal house out and set him up as king over themselves. ⚠ Give no name — the books do not agree on one, and the reason is in the warning below.
+**Quote after beat:** 5
+**The statement:**
+> وَاجْتَمَعَتْ رَبِيعَةُ بِالْبَحْرَيْنِ عَلَى الرِّدَّةِ إِلَّا الْجَارُودُ وَمَنْ تَبِعَهُ، وَقَالُوا: نَرُدُّ الْمُلْكَ
+> — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
+> *English:* "And Rabīʿa in Bahrayn agreed together upon the ridda — except al-Jārūd and those who
+> followed him — and they said: we will restore the kingship."
+
+**عبرت:** The thing they wanted back on this front was not a religion. It was a throne.
+**Hands-up?** no
+**The administration that was already there (البدایہ ج۷ ص۳۷):**
+> كان من خبرهم أنَّ رسولَ الله ﷺ كان قد بعثَ العلاءَ بن الحَضْرميّ إلى مَلِكِها، المُنْذر بن ساوى العَبْدي، وأسلم على يديه وأقام فيهم الإسلامَ والعدلَ، فلما توفي رسولُ الله ﷺ توفي المنذر بعدَه بقليل
+> — البدایہ والنہایہ ج۷ ص۳۷ · https://shamela.ws/book/30097/3183
+> *English:* "The account of them is that the Messenger of Allah ﷺ had sent al-ʿAlāʾ b. al-Ḥaḍramī to
+> its king, al-Mundhir b. Sāwā al-ʿAbdī, and he accepted Islam at his hands and established Islam and
+> justice among them. And when the Messenger of Allah ﷺ died, al-Mundhir died shortly after him."
+
+**He was already ill when the news came (الکامل ج۲ ص۲۲۱):**
+> فَلَمَّا مَاتَ النَّبِيُّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - كَانَ الْمُنْذِرُ بْنُ سَاوَى الْعَبْدِيُّ مَرِيضًا
+> — الکامل فی التاریخ ج۲ ص۲۲۱ · https://shamela.ws/book/21712/912
+> *English:* "And when the Prophet ﷺ died, al-Mundhir b. Sāwā al-ʿAbdī was ill."
+
+**What became of the governor — and it is on the page (البدایہ ج۷ ص۳۷–۳۸).** ʿAmr b. al-ʿĀṣ ؓ was
+present with him in that final illness. Al-Mundhir asked him whether the Messenger of Allah ﷺ used to
+allow a sick man to assign anything out of his wealth; ʿAmr ؓ said yes, a third. He asked what to do
+with it, and ʿAmr ؓ offered him three ways — to give it to his relatives, or to the needy, or to make
+it a ṣadaqa after him, tied up and inalienable. He refused the third — he said he disliked making it
+like the
+dedicated animals of the Jāhiliyya:
+
+> أن أجعله كالبَحيرةِ والسّائبة والوَصِيلةِ والحام
+> — البدایہ والنہایہ ج۷ ص۳۸ · https://shamela.ws/book/30097/3184
+> *English:* "...that I should make it like the baḥīra and the sāʾiba and the waṣīla and the ḥām."
+
+He gave it away outright instead, and died; and ʿAmr ؓ used to marvel at him.
+
+⚠ **This is a story about one man's scruple, not a ruling on waqf. Narrate it and move on; do not
+invite the room to draw a fiqh conclusion from it,
+and if a slip comes in asking, it goes to the later session.** It is optional colour — the card works
+without it.
+
+⚠⚠ **NAME NO KING — and this is the reason, so that no rebuild can undo it.** Our pages carry **three
+different forms** of this man's name, and one of our authorities argues with himself about whether the
+word is a name at all:
+- «الغرور», and the full form **المنذر بن النعمان بن المنذر** — البدایہ ج۷ ص۳۸ and الکامل ج۲ ص۲۲۲ (the
+  two safe-list books **agree** on the patronymic; it is the لقب that moves);
+- «**المعرور** بن النعمان بن المنذر» — البدایہ ج۷ ص۱۹, inside محمد بن إسحاق's roster of the risings;
+- «**المغرور بن سويد**» — ابن خلدون ج۲ ص۵۰۴، ص۵۰۵, where the same two pages also carry the other form
+  **and** the remark that المغرور may be a name rather than a لقب.
+
+**On stage: "they brought out a man of the old royal house and made him king." No name, no dynasty
+label.** The word *Lakhmid* is modern scholarship and is on no page we hold `[CONVENTIONAL-ESTIMATE]`;
+الحيرة reaches us here only through ابن خلدون, who is framing-only (`DECISIONS.md` #29) — so neither
+word goes on the slide face.
+
+**Not for the slide face — the naming, for the speaker only.** Daniyal should see exactly what he is
+withholding, and that it is not a disagreement about *who* the man was but about *what he was called*:
+> نَرُدُّ الْمُلْكَ فِي الْمُنْذِرِ بْنِ النُّعْمَانِ بْنِ الْمُنْذِرِ، وَكَانَ يُسَمَّى الْغَرُورُ
+> — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
+> *English:* "We will restore the kingship in al-Mundhir b. al-Nuʿmān b. al-Mundhir — and he used to
+> be called al-Gharūr."
+
+> فلما مات المنذرُ ارتدَّ أهلُ البحرين وملَّكوا عليهم الغرور، وهو المنذر بن النعمان بن المنذر. وقال قائلهم: لو كان محمد نبيًا ما مات
+> — البدایہ والنہایہ ج۷ ص۳۸ · https://shamela.ws/book/30097/3184
+> *English:* "When al-Mundhir died, the people of Bahrayn apostatised and made al-Gharūr king over
+> them — and he is al-Mundhir b. al-Nuʿmān b. al-Mundhir. And one of them said: if Muḥammad had been
+> a prophet, he would not have died."
+
+⚠ **The slogan in that second quotation belongs to `ATA/E-TB24`, where it is answered — do not spend
+it here.** If it is spoken on this card it must not be spoken again later in the evening; pick one.
+
+> وارتدَّتْ ربيعةُ مع المعرور بن النعمان بن المنذر
+> — البدایہ والنہایہ ج۷ ص۱۹ · https://shamela.ws/book/30097/3165 (inside محمد بن إسحاق's roster)
+> *English:* "And Rabīʿa apostatised with al-Maʿrūr b. al-Nuʿmān b. al-Mundhir."
+
+**ابن خلدون, named as his reading only (`DECISIONS.md` #29) — never as what happened.** He reads the
+programme as the restoration of a client throne, and his own pages carry both name-forms:
+> ونصبوا المنذر بن النعمان بن المنذر وكان يسمّى المغرور، فأقاموه ملكا كما كان قومه بالحيرة
+> — تاریخ ابن خلدون ج۲ ص۵۰۴ · https://shamela.ws/book/12320/1301
+> *English:* "And they set up al-Mundhir b. al-Nuʿmān b. al-Mundhir, who used to be called
+> al-Maghrūr, and established him as a king, as his people had been at al-Ḥīra."
+
+> وأرسل إلى المغرور بن سويد أخي النعمان بن المنذر
+> — تاریخ ابن خلدون ج۲ ص۵۰۴ · https://shamela.ws/book/12320/1301
+> *English:* "And he sent to al-Maghrūr b. Suwayd, brother of al-Nuʿmān b. al-Mundhir."
+
+> ويقال إن المغرور اسمه وليس هو بلقب
+> — تاریخ ابن خلدون ج۲ ص۵۰۵ · https://shamela.ws/book/12320/1302
+> *English:* "And it is said that al-Maghrūr is his name, and not a nickname."
+
+⚠ **No ؓ for al-Mundhir b. Sāwā on any artifact until a page is held.** He accepted Islam in the
+Prophet's ﷺ lifetime and held his appointment, and he is conventionally counted a Companion — but
+**no page in `sources/` states his Companionship**, and al-ʿAlāʾ ؓ was sent *to* him, so our pages do
+not even place him in the Prophet's ﷺ presence. `[STANDARD]` *(to verify)*. Nothing printed may carry
+the honorific; whether Daniyal says it aloud from his own knowledge is his own call. A ترجمة page
+(سیر, or الإصابة, which is outside the safe list) would settle it in one fetch.
+
+⚠ **The pun at the end of this front is not this card's.** The captured king's own later line — "I am
+the deceived one, not the deceiver" (الکامل ج۲ ص۲۲۲) — belongs at دارين, where he is taken and becomes
+a Muslim (`ridda-campaign-the-conduct-of-the-wars.md` §12.3; البدایہ ج۷ ص۴۰, الکامل ج۲ ص۲۲۴). **And
+note the tension before anyone speaks it: it is a pun on the very name this card refuses to say.** It
+is Daniyal's decision whether to speak it at all; if he does, it is spoken as the man's own words
+about himself, after his Islam, and never as our label for him. ⚠ It is **not** on `RCT/E-RC27` as
+that card currently stands — if it is wanted, it has to be put there.
+
+⚠ **Dating.** The rising itself is ۱۱ھ: it begins at the Prophet's ﷺ death and the governor's death
+shortly after. But Ibn Kathīr records a dissent about the *fighting* that followed —
+
+> وقد قيل: إن وقعةَ جُواثا وعُمان ومهرة وما كان من الوقائع التي أشرنا إليها إنما كانت في سنة ثنتي عشرة
+> — البدایہ والنہایہ ج۷ ص۶۱ · https://shamela.ws/book/30097/3207
+> *English:* "And it has been said that the affair of Juwāthā and Oman and Mahra, and the events we
+> have pointed to, were only in the year twelve."
+
+Do not let the Line put a hard ۱۱ھ on the battles of this front.
+
+---
+
+### RCT/E-RC72 · al-Ḥuṭam b. Ḍubayʿa, and what he gathered
+**Tier:** CORE · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** The red on البحرين now acquires a shape,
+in the order he took it. **القَطيف** and **هَجَر** redden first — he camps there. Then **الخَطّ** on the
+coast. Then a short arrow crosses the water to **دارين**. Last, a ring closes around one blue dot,
+**جُواثى** — and that ring is where the next card starts. ⚠ Zones and arrows, never points: the sources
+place all of this relatively and fix no coordinate.
+**What happened:** The fighting on this front was not done by the king. It was done by al-Ḥuṭam b.
+Ḍubayʿa, of Banū Qays b. Thaʿlaba, who went out at the head of Bakr b. Wāʾil. And al-Ḥuṭam gathered
+something it would have been easy for a historian to leave out: besides the apostates, men came to him
+who had never been Muslims at all — men who had never stopped being idolaters. He came down on
+al-Qaṭīf and Hajar and took them. He drew in al-Khaṭṭ on the coast, and with it the Zuṭṭ and the
+Sabābija who were already settled there. He sent a force across the water to the island of Dārīn. And
+he sent to Juwāthā, and shut the Muslims inside it.
+**Beats:**
+1. The man who did the actual fighting on this front — al-Ḥuṭam b. Ḍubayʿa, of بنو قيس بن ثعلبة. He went out at the head of بكر بن وائل. Our pages give him no لقب and no dates, and he is not a Companion — no honorific.
+2. And then the sentence الکامل could easily have left out — besides the apostates, men gathered to him who had never ceased to be idolaters. Men who had never been Muslims in the first place.
+3. So say it to the room plainly: the ridda on this front was not all ridda. Part of this war was with people who had never come in, and the one word does not cover them.
+4. Now the ground, in the order he took it — he came down on القَطيف and هَجَر, and took them.
+5. Then الخَطّ on the coast, and with the place two communities already living in it — the زُطّ and the سَبابجة — drawn in along with it. ⚠ Who they were is not on any page we hold: name them as the page names them, and stop.
+6. Then a force sent across the water to the island of دارين — remember that island; this front ends there.
+7. And last: he sent to جُواثى and shut the Muslims inside it. That siege is the next thing we tell.
+**Quote after beat:** 2
+**The statement:**
+> وَخَرَجَ الْحُطَمُ بْنُ ضُبَيْعَةَ أَخُو بَنِي قَيْسِ بْنِ ثَعْلَبَةَ فِي بَكْرِ بْنِ وَائِلٍ، فَاجْتَمَعَ إِلَيْهِ مِنْ غَيْرِ الْمُرْتَدِّينَ مِمَّنْ لَمْ يَزَلْ مُشْرِكًا
+> — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
+> *English:* "And al-Ḥuṭam b. Ḍubayʿa, of Banū Qays b. Thaʿlaba, went out at the head of Bakr b.
+> Wāʾil; and there gathered to him, besides the apostates, men who had never ceased to be idolaters."
+
+**عبرت:** The word «ridda» names this whole front, and on this front it does not fit everyone inside
+it. Some of those men had never been Muslims to leave.
+**Hands-up?** no
+**The ground he took, verbatim (الکامل ج۲ ص۲۲۲):**
+> حَتَّى نَزَلَ الْقَطِيفَ وَهَجَرَ، وَاسْتَغَوَوُا الْخَطَّ وَمَنْ بِهَا مِنَ الزُّطِّ وَالسَّبَابِجَةِ، وَبَعَثَ بَعْثًا إِلَى دَارِينَ، وَبَعَثَ إِلَى جُوَاثَا فَحَصَرَ الْمُسْلِمِينَ
+> — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
+> *English:* "...until he came down upon al-Qaṭīf and Hajar, and they drew in al-Khaṭṭ and those of
+> the Zuṭṭ and the Sabābija who were there; and he sent a force to Dārīn, and he sent to Juwāthā and
+> besieged the Muslims."
+
+**الزُّطّ and السَّبابجة — exactly what we may say, and no more.** الکامل ج۲ ص۲۲۲ gives two things only:
+they were **at الخَطّ**, and they were **drawn in with the place**. They are listed apart from the Arab
+tribes, which is why they are named at all. **No page in `sources/shamela/` glosses either name** — the
+only other cached occurrence is ابن خلدون ج۲ ص۶۱۰ («الزطّ والسابحة», forty men on guard), a different
+event thirty years later, which identifies nothing. So: say they were two communities already settled
+on that coast who were brought in with it, and say that who they were is not in the books we read.
+⚠ **Any identification beyond that needs معجم البلدان or a ترجمة fetched first. Do not supply one from
+general knowledge.**
+
+⚠ **Two sieges, or one told twice? Record it; do not resolve it.** The same page carries both:
+> وَحَصَرَهُمْ أَصْحَابُ الْمُنْذِرِ بَعْدَهُ حَتَّى اسْتَنْقَذَهُمُ الْعَلَاءُ بْنُ الْحَضْرَمِيِّ
+> — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
+> *English:* "And al-Mundhir's own men besieged them after him, until al-ʿAlāʾ b. al-Ḥaḍramī
+> delivered them."
+
+That sentence besieges **عبد القيس** and attributes it to the dead governor's own men; the sentence in
+this card's second quotation besieges **جُواثى** and attributes it to al-Ḥuṭam. جُواثى was a stronghold
+of عبد القيس (البدایہ ج۷ ص۳۸, ed. fn. quoting معجم البلدان), so these are plausibly one siege reported
+twice — **but no page says so, and we do not say it either.** On stage, tell one siege: the one at
+جُواثى.
+
+⚠ **#43 — this card is the only place al-Ḥuṭam is introduced, and it must never be cut.** His death is
+told on `RCT/E-RC26` (the stirrup-leather, the severed foot, Qays b. ʿĀṣim's regret) and his
+embroidered cloak carries `RCT/E-RC28` — and in the delivered series his name reaches a slide face for
+the first time on the **last** card of the block, after he is already dead. If this card is cut, a man
+the room has never met dies in front of it.
+
+⚠ **Dating:** as `RCT/E-RC71` — the rising is ۱۱ھ; Ibn Kathīr records that some put the **fighting** of
+this front, جُواثى included, in ۱۲ھ (البدایہ ج۷ ص۶۱).
+
+---
+
+### RCT/E-RC73 · The uncle in the other trench
+**Tier:** GOOD · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** The two trench lines between **هَجَر**
+and **القَطيف**, unchanged from the card before — nothing on the ground moves. One small figure
+crosses the gap in the dark, is held at the red trench, and then goes back across it **on a camel**.
+**What happened:** The man who went out to find what the noise was did not come back because he was
+clever. He came back because of who his mother was. ʿAbdullāh b. Ḥadhf went up to the rebel trench in
+the dark and was taken. His mother was of ʿIjl, and ʿIjl were in the camp in front of him — so he
+called out from among his captors for his maternal uncle, Abjar b. Bujayr, until the man came.
+Abjar recognised him, got him loose, and told him to his face that he thought him a poor sort of
+sister's-son to come to his uncles on such a night. Then he asked for food, was fed, asked for
+provisions and a mount, got both, and was let through. الکامل puts the whole explanation in one
+clause: he was saying all this to a man whom drink had got the better of.
+**Beats:**
+1. Back up a few minutes, and this is the only reason the news ever reached al-ʿAlāʾ ؓ — we left him taken at the rebel trench; here is how he got out of it.
+2. Who he is — ʿAbdullāh b. Ḥadhf, a man of al-ʿAlāʾ's ؓ own camp whose mother was of ʿIjl. That is the whole of what الکامل tells us about him, and no page we hold states his Companionship, so no honorific.
+3. The name he shouted — not for mercy and not for a bargain: he called, over and over, for his maternal uncle Abjar b. Bujayr, who was in the camp in front of him. And Abjar came out, and knew him.
+4. What is your business — he answered with a question of his own: what am I to come to, with armies of ʿIjl and Taym al-Lāt all round me?
+5. What the uncle said to his face — by Allah, I think you a poor sort of sister's-son, coming to your uncles tonight. He named him an enemy out loud, got him loose, and let him go anyway.
+6. Food first, then the camel — let me alone about that and feed me, I am dying of hunger; he was fed, and then asked for provisions and a mount, and got both, and was passed through.
+7. الکامل's own explanation, in one clause — he was saying all this to a man whom drink had got the better of.
+8. What became of the uncle — when the camp broke that night, Abjar was one of the men who got away: الکامل says so plainly.
+9. ⚠ If a written slip asks whether this is the same ʿAbdullāh b. Ḥadhf who was starving inside Juwāthā — say the books name him twice and do not tell us whether it is one man, and leave it there.
+**Quote after beat:** 5
+**The statement:**
+> وَاللَّهِ إِنِّي لَأَظُنُّكَ بِئْسَ ابْنُ أُخْتٍ أَتَيْتَ اللَّيْلَةَ أَخْوَالَكَ
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "By Allāh, I think you a poor sort of sister's-son, coming to your uncles tonight."
+**عبرت:** This war ran straight through families. The man who let him go knew exactly who he was,
+said so out loud, and let him go because he was his sister's son.
+**Hands-up?** no
+**The shout, and the uncle who answered it:**
+
+> فَجَعَلَ يُنَادِي: يَا أَبْجَرَاهُ! فَجَاءَ أَبْجَرُ بْنُ بُجَيْرٍ فَعَرَفَهُ
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "So he began to call out: O Abjar! And Abjar b. Bujayr came, and recognised him."
+> وَكَانَتْ أُمُّهُ عِجْلِيَّةً
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "And his mother was a woman of ʿIjl."
+**What he answered when he was asked his business:**
+
+> عَلَامَ أُقْبِلُ وَحَوْلِي عَسَاكِرُ مِنْ عِجْلٍ وَتَيْمِ اللَّاتِ وَغَيْرِهِمَا؟
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "What am I to come to, with armies of ʿIjl and Taym al-Lāt and others round about me?"
+**Food before freedom:**
+
+> دَعْنِي مِنْ هَذَا وَأَطْعِمْنِي؛ فَقَدْ مُتُّ جُوعًا
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "Let me alone about that, and feed me — I am dying of hunger."
+**And الکامل's one clause, which explains the whole scene:**
+
+> يَقُولُ هَذَا لِرَجُلٍ قَدْ غَلَبَ عَلَيْهِ السُّكْرُ، فَحَمَلَهُ عَلَى بَعِيرٍ وَزَوَّدَهُ وَجَوَّزَهُ
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "He was saying this to a man whom drink had got the better of — so he mounted him on a camel, provisioned him, and let him through."
+**And the uncle got away:**
+
+> فَأَمَّا أَبْجَرُ فَأَفْلَتَ
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "As for Abjar, he escaped."
+⚠⚠ **ʿAbdullāh b. Ḥadhf — one man or two? The books do not say.** Raised by Daniyal, 2026-09-06, and
+it is a real ambiguity rather than a slip in one book. The same name stands in two places. Inside
+جُواثى, among the besieged, as the man who put out the four lines of verse:
+
+> وقد قال رجل منهم يقال له عبد الله بن حذف، أحد بني بكر بن كلاب، وقد اشتد عليه الجوع
+> — البدایہ والنہایہ ج۷ ص۳۸ · https://shamela.ws/book/30097/3184
+> *English:* "And a man of theirs called ʿAbdullāh b. Ḥadhf, one of Banū Bakr b. Kilāb, upon whom the hunger had grown severe, said …"
+And in al-ʿAlāʾ's ؓ camp at هَجَر, as the volunteer scout — البدایہ ج۷ ص۳۹ and الکامل ج۲ ص۲۲۳, the
+latter adding the عِجْلي mother. If it is one man the sequence is coherent, and hunger appears in both
+scenes. But **no page joins them**, and البدایہ gives a كلابي paternal line where الکامل gives an
+عِجْلي maternal one — which is not a contradiction, and is not a confirmation either. **Do not assert
+from the platform that they are the same man.**
+
+⚠ **This whole card is الکامل's.** البدایہ ج۷ ص۳۹ has the night in one sentence: he went in among
+them, found them drunk, came back and told him. The uncle, the mother, the words, the food and the
+camel are in الکامل ج۲ ص۲۲۳ and nowhere else we hold. **Attribute it that way if asked.**
+
+⚠ **No honorific for either man.** No page we hold states the Companionship of ʿAbdullāh b. Ḥadhf or
+of Abjar b. Bujayr. Say both names plain.
+```
+
+---
+
+### RCT/E-RC74 · al-Ḥuṭam, and what Qays b. ʿĀṣim said over him
+**Tier:** CORE · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** The red trench line between **هَجَر**
+and **القَطيف** goes out. One red marker where the chief falls. The survivors' arrows run east to the
+coast and stop there, pointing at **دارين** — which does not change colour yet.
+**What happened:** al-Ḥuṭam b. Ḍubayʿa of Banū Qays b. Thaʿlaba — the man who had taken al-Qaṭīf and
+Hajar, drawn in al-Khaṭṭ, sent a force to Dārīn and besieged the Muslims in Juwāthā — was asleep when
+the Muslims came over the trench. He got up confused, mounted his horse, and his stirrup-leather
+parted. He began calling for somebody to fix it. A Muslim came up in the dark and said he would: lift
+your foot. When he lifted it, the man struck with the sword and took the foot off with it. He asked
+that man to finish him, and the man refused. So he lay on the ground, and every man who passed he
+asked to kill him, and each one refused — until Qays b. ʿĀṣim passed. He told him: I am al-Ḥuṭam,
+kill me. And Qays killed him. Then he saw the severed leg, and was sorry.
+**Beats:**
+1. Who he was, and this is where he ends — al-Ḥuṭam b. Ḍubayʿa of Banū Qays b. Thaʿlaba: the man who took al-Qaṭīf and Hajar, drew in al-Khaṭṭ and the men who were there, sent a force to Dārīn and besieged the Muslims in Juwāthā. He was asleep when the trench was crossed.
+2. The stirrup — he got up confused, mounted his horse, and his stirrup-leather parted; and he was calling out, who will set my stirrup right for me?
+3. The man in the dark — a Muslim said: I will set it right for you, lift your foot. When he lifted it, the man struck with the sword and took it off, foot and all. البدایہ leaves him unnamed; الکامل names him — ʿAfīf b. al-Mundhir al-Taymī.
+4. Finish me — he asked that man to finish him, and the man said: I will not.
+5. The part that takes longest to tell, and should — he lay there, and every man who passed he asked to kill him, and each one refused.
+6. Qays b. ʿĀṣim — the same man who had caught the column up on the road and handed over the replacement for the ṣadaqa his people had divided after the Prophet ﷺ died. He passed, and al-Ḥuṭam said: I am al-Ḥuṭam, kill me. And he killed him.
+7. And then he saw the leg — what a shameful thing; had I known his condition, I would not have touched him.
+8. ⚠ Not an event, a sourcing instruction — name البدایہ and الکامل, which tell this death the same way, and stop there. ابن خلدون gives three different answers to who killed him on his own consecutive pages, so he is not cited on this card at all.
+**Quote after beat:** 7
+**The statement:**
+> واسوأتاه، لو أعلمُ ما به لم أحرِّكْهُ
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "What a shameful thing — had I known his condition, I would not have touched him."
+**عبرت:** He asked every man who passed to kill him and they refused; the one who finally did it was
+sorry the moment he saw the state he was already in. The book kept the regret, not the kill.
+**Hands-up?** no
+**The stirrup, the foot, and the long wait — البدایہ ج۷ ص۳۹, whole:**
+
+> فركبَ جوادَهُ فانقطع ركابُه فجعلَ يقولُ: منْ يُصْلح لي ركابي؟ فجاءَ رجلٌ من المسلمين في الليل فقال: أنا أصلحُها لك، ارفع رجلك، فلما رفعها ضربه بالسيف فقطعها مع قدمه
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "So he mounted his horse, and his stirrup-leather parted, and he began saying: who will set my stirrup right for me? A man of the Muslims came in the night and said: I will set it right for you — lift your foot. And when he lifted it he struck it with the sword and cut it off, with his foot."
+> فوقعَ صريعًا كلما مرَّ به أحدٌ يسأله أن يقتلَه فيأبى، حتى مرَّ به قيسُ بن عاصم فقال له: أنا الحطم فاقتلني فقتله
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "So he fell stricken; and every time anyone passed him he would ask him to kill him, and the man would refuse — until Qays b. ʿĀṣim passed him, and he said to him: I am al-Ḥuṭam, kill me. So he killed him."
+**الکامل names the man who cut the leg, and settles the sequence — the cut first, then the killing:**
+
+> فَأَمَّا أَبْجَرُ فَأَفْلَتَ، وَأَمَّا الْحُطَمُ فَقُتِلَ، قَتَلَهُ قَيْسُ بْنُ عَاصِمٍ بَعْدَ أَنْ قَطَعَ عَفِيفُ بْنُ الْمُنْذِرِ التَّيْمِيُّ رِجْلَهُ
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "As for Abjar, he escaped; and as for al-Ḥuṭam, he was killed — Qays b. ʿĀṣim killed him, after ʿAfīf b. al-Mundhir al-Taymī had cut off his leg."
+**Who Qays b. ʿĀṣim is, in one line from the page** — he is already named in `RCT/E-RC25`, and this is
+the line to use for him, because it is the one thing the books say he did:
+
+> وَلَحِقَ بِهِ أَيْضًا قَيْسُ بْنُ عَاصِمٍ الْمِنْقَرِيُّ، وَأَعْطَاهُ بَدَلَ مَا كَانَ قُسِمَ مِنَ الصَّدَقَةِ بَعْدَ مَوْتِ النَّبِيِّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ -
+> — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
+> *English:* "And Qays b. ʿĀṣim al-Minqarī also caught up with him, and gave him the replacement for what had been divided of the ṣadaqa after the death of the Prophet صلى الله عليه وسلم."
+⚠ **No honorific for Qays b. ʿĀṣim, and none for ʿAfīf b. al-Mundhir.** No page we hold states the
+Companionship of either man, and §1.2's rule is the rule. **This is a gap worth closing** — Qays b.
+ʿĀṣim al-Minqarī may well be a Companion in the biographical literature; until a page we hold says so
+he is named plain. **To verify.**
+
+⚠⚠ **DO NOT USE ابن خلدون FOR THIS DEATH.** It is the clearest worked example in the whole pool of why
+`DECISIONS.md` #29 bars him as a sole authority: **he gives three different killers on his own
+consecutive pages.** On ج۲ ص۵۰۵:
+
+> وقتل قيس بن عاصم الحطم بن ربيعة، ولحق جابر بن بحير وضربه فقطع عصبه ومات
+> — تاریخ ابن خلدون ج۲ ص۵۰۵ · https://shamela.ws/book/12320/1302
+> *English:* "And Qays b. ʿĀṣim killed al-Ḥuṭam b. Rabīʿa; and Jābir b. Buḥayr caught him and struck him and cut his tendon, and he died."
+and one page later, inside al-ʿAlāʾ's ؓ own despatch to Abū Bakr ؓ, on ج۲ ص۵۰۶:
+
+> وكتب العلاء إلى أبي بكر بهزيمة أهل الخندق وقتل الخطم قتله زيد وسميفع
+> — تاریخ ابن خلدون ج۲ ص۵۰۶ · https://shamela.ws/book/12320/1303
+> *English:* "And al-ʿAlāʾ wrote to Abū Bakr with the rout of the people of the trench and the killing of al-Khuṭam — Zayd and Sumayfaʿ killed him."
+— and the editor's footnote to that very line records yet another copy reading «مسمع». **Three
+readings, two pages, one book.** He also mis-names the father, and then the man: ج۲ ص۵۰۴ has
+«الحطم بن ربيعة» where الکامل ج۲ ص۲۲۲ and البدایہ ج۷ ص۳۹ have **الحُطَم بن ضُبَيعة**, and ج۲ ص۵۰۶ spells
+the name «الخطم» against «الحطم» on his own previous page.
+
+> ⚠ **CORRECTION, and it changes a page citation.** `ridda-campaign-the-conduct-of-the-wars.md` §7.3
+> and §14.3 give the three-killer divergence as *ابن خلدون ج۲ ص۵۰۴ and ۵۰۶*. Checked against the
+> cache: قيس بن عاصم and جابر بن بحير are **both on ج۲ ص۵۰۵** (index 1302), not ص۵۰۴, and
+> «قتله زيد وسميفع» is on **ج۲ ص۵۰۶** (index 1303). ص۵۰۴ (index 1301) carries only the rising and the
+> father's name «بن ربيعة». **The pages cited on this card are the checked ones.**
+
+⚠ **البدایہ does not name the man who cut the foot** — only «رجلٌ من المسلمين», a man of the Muslims.
+The name عفيف بن المنذر التيمي is الکامل's alone. **Say it as الکامل's if asked.**
+
+⚠ **Where this death sits in the running order.** It ends the هَجَر fighting, so it is told before
+دارين and never after it: in `RCT/E-RC27` the survivors take ship, and the man they had been following
+is already dead. **The خميصة that was his belongs to the Thumāma ؓ card, which is later still — do not
+reach forward to it here.**
+```
+
+---
+
+### RCT/E-RC75 · The monk of Hajar
+**Tier:** GOOD · **When:** ۱۱ھ→۱۲ھ, البحرين `[SOURCED]` · **Map:** **The closing card of the Bahrayn
+block — the map stops moving.** Everything on this front settles at once: ⁨هَجَر⁩, ⁨القَطيف⁩, ⁨جُواثى⁩, the
+coast, and ⁨دارين⁩ across the water. Every arrow gone, nothing left on the board but a finished province.
+Hold it there for the whole card. The next click leaves Bahrayn for ⁨عُمان⁩ and does not come back.
+**What happened:** Travelling with al-ʿAlāʾ's ؓ column was a monk of the people of Hajar. The books say
+only that — a monk, of that town. They do not name him, and they do not say what he had been before. He
+had been with the army for all of it: the night in the sand, and the crossing. When it was over he became
+a Muslim, and somebody asked him what had brought him to it. He did not answer with an argument. He
+answered with three things he had seen himself, and said he had been afraid of what would be done to him
+if he saw them and stayed as he was. Then he said what he had concluded from them. And the account did not
+come down through an army report. It came down because he went on telling it, and the Companions heard
+him.
+**Beats:**
+1. Who he was, and exactly what the page says — A monk of the people of Hajar, travelling with the Muslim army. Both books call him that. **They do not give his name, and they do not say which religion he had been following** — so neither do we.
+2. He was there for all of it — Ibn Kathīr says so plainly: he was with the Muslims through these scenes and sights of al-ʿAlāʾ's ؓ affair. The water in the sand, and then the sea.
+3. Note the order — First he became a Muslim. Then somebody asked him why. This is a man explaining himself after the fact, not a man being argued into anything.
+4. He did not argue. He counted — Three things, and he said he feared what Allah would do to him if he had seen them and gone on as he was. **Quote.**
+5. The three, in his own order — Water welling up in the sands. The sea's swells laid flat. And a supplication he heard in their camp, in the air, before dawn.
+6. He could repeat the third one — The book prints the words he says he heard, straight after the three. He had not been taught them; he had heard them.
+7. What he concluded — That men are not helped like that unless they are on the truth.
+8. And this is how it reached us — ⁨الکامل⁩ closes the whole Bahrayn chapter on it: the Companions of the Prophet ﷺ used to hear this from him afterwards. The one man in that army who had no reason to take their side is the man whose account they kept repeating. **That is the answer to "how do we know?", and it is inside the story.**
+**Quote after beat:** 4
+**The statement:**
+> ثَلَاثَةُ أَشْيَاءَ خَشِيتُ أَنْ يَمْسَخَنِي اللَّهُ بَعْدَهَا: فَيْضٌ فِي الرِّمَالِ، وَتَمْهِيدُ أَثْبَاجِ الْبَحْرِ، وَدُعَاءٌ سَمِعْتُهُ فِي عَسْكَرِهِمْ فِي الْهَوَاءِ سَحَرًا
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "Three things, after which I feared Allah would transform me: water welling up in the sands,
+> the levelling of the sea's swells, and a supplication I heard in their camp, in the air, before dawn."
+
+**عبرت:** The strongest witness for what happened on this front is the one man in it who had no reason to
+take their side.
+**Hands-up?** Before beat 3: *"Hands up — who has been wondering, while I have been telling all this, how anybody knows that it happened?"*
+**How the question was put to him, in the words that open the report:**
+> وَكَانَ مَعَ الْمُسْلِمِينَ رَاهِبٌ مِنْ أَهْلِ هَجَرَ، فَأَسْلَمَ، فَقِيلَ لَهُ: مَا حَمَلَكَ عَلَى الْإِسْلَامِ؟
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "And there was with the Muslims a monk of the people of Hajar, and he became a Muslim. It
+> was said to him: what brought you to Islam?"
+
+**How the account reached us — the line ⁨الکامل⁩ ends the chapter on:**
+> فَعَلِمْتُ أَنَّ الْقَوْمَ لَمْ يُعَانُوا بِالْمَلَائِكَةِ إِلَّا وَهُمْ عَلَى حَقٍّ، فَكَانَ أَصْحَابُ النَّبِيِّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - يَسْمَعُونَ هَذَا مِنْهُ بَعْدُ.
+> — الکامل فی التاریخ ج۲ ص۲۲۵ · https://shamela.ws/book/21712/916
+> *English:* "So I knew that these people would not be helped by the angels unless they were upon the
+> truth. And the Companions of the Prophet ﷺ used to hear this from him afterwards."
+
+**What ⁨البدایہ⁩ has instead, and whose report it is:**
+> أنه كان مع المسلمين في هذه المواقف والمشاهد التي رَأوْها من أمر العلاءَ، وما أجرى الله على يديه من الكرامات، رجل من أهل هَجَر راهب فأسلم حينئذ
+> — البدایہ والنہایہ ج۷ ص۴۰ · https://shamela.ws/book/30097/3186
+> *English:* "...that there was with the Muslims, in these scenes and sights which they saw of al-ʿAlāʾ's
+> affair and of what Allah brought about by his hands, a man of the people of Hajar, a monk, who became a
+> Muslim then and there."
+
+Ibn Kathīr gives this **on the authority of ⁨سيف بن عمر التميمي⁩, and says so on the page.** His version is
+also shorter: his man gives **one** reason — that he feared being transformed, from the signs he had
+seen — and then the supplication he heard at ⁨سحر⁩. **The three-item list is ⁨الکامل⁩'s form. If the card
+says "three", cite ⁨الکامل ج۲ ص۲۲۴⁩ for it, never ⁨البدایہ⁩.**
+
+**What the three refer to** — the water in the sands is the night at ⁨الدَّهْناء⁩, where the camels bolted
+with everything on them and water was found beside the men by morning (⁨البدایہ ج۷ ص۳۹⁩; ⁨الکامل ج۲ ص۲۲۳⁩);
+the levelling of the sea is the ⁨دارين⁩ crossing of `RC27`. ⚠ **The page lists the three without naming
+either episode.** It is ⁨البدایہ ج۷ ص۴۰⁩ that places this man at them. Say it the way the pages do — *he
+had been with them for all of it* — and do not assert a one-to-one match the page does not make.
+
+⚠ **MONK IS ESTABLISHED. BISHOP IS NOT.** Both pages say ⁨راهب⁩, a monk: the ⁨الکامل⁩ report opens with it
+(quoted above), and ⁨البدایہ ج۷ ص۴۰⁩ has «⁨رجل من أهل هَجَر راهب⁩». So *the monk of Hajar* is exactly what the
+books support, and it is a plain factual descriptor from the source, not a coined title (CLAUDE.md §1.2).
+**Do not upgrade him to a bishop, do not name him, and do not state what community he came from — no
+page we hold gives any of the three.**
+
+⚠ **NO HONORIFIC.** No page we hold states that he ever saw the Prophet ﷺ, so he gets no ؓ. He became a
+Muslim in ۱۲ھ, after the Prophet ﷺ had died. If a slip asks whether he was a Companion: the books do not
+say, and neither do we.
+
+⚠ **THIS IS A ⁨كرامہ⁩-ADJACENT REPORT AND ⁨البدایہ⁩ FRAMES IT AS ONE** — «⁨وما أجرى الله على يديه من⁩
+⁨الكرامات⁩» (البدایہ ج۷ ص۴۰). **Narrate it as the book narrates it.** Do not build a doctrinal point on it,
+do not defend it from the platform, and do not soften it either. If challenged: this is what the book
+records, with the name of the man it records it from, and we are reading a book.
+
+⚠ **Eyeball every Arabic line on this card against the page image before it reaches a slide**
+(CLAUDE.md §1.1). ⁨البدایہ⁩'s text here is lightly vocalised and ⁨الکامل⁩'s is fully vocalised, so the two
+will not look alike on screen even where they agree.
+
+⚠ **ADD TO `docs/catalogue/HOWWEKNOW.md`.** The bank has nothing from this front — it was grepped and
+carries no entry for ⁨هَجَر⁩, ⁨دارين⁩ or ⁨العلاء ؓ⁩ — and this is its best entry in the whole part: an
+eyewitness from outside the community, explaining himself, with the chain stated on the page. **It is also
+the licence for the one source remark this evening is allowed** (`DECISIONS.md` #27) — at the moment a
+listener asks "how do we know that?", inside the story. Not a methodology slot, and not a recurring one.
+
+⚠ **#43 — the row this card answers.** No new proper name walks on stage here: the man is unnamed, and
+al-ʿAlāʾ ؓ, ⁨هَجَر⁩, ⁨الدَّهْناء⁩ and ⁨دارين⁩ are all already on earlier cards of the same block. Answer the
+runsheet row **"the monk of Hajar — no notice needed; the books do not name him"**.
+
+---
+
+### RCT/E-RC76 · The north was open before the banners were tied
+**Tier:** GOOD · **When:** ۱۱ھ, before ذو القصّة — the northern marches `[SOURCED]` as sequence; no month `[CONVENTIONAL-ESTIMATE]` · **Map:** The north of the map. أسامة's ؓ arrow — already on the evening-2 map — comes back down, and **a strike-mark falls on بلاد قضاعة on its return leg, before a single one of the eleven arrows exists.** Then two sector boxes go on the north: **قضاعة** under عمرو بن العاص ؓ, and **مشارف الشام** under خالد بن سعيد بن العاص ؓ. **Leave the second box an empty outline — nothing is narrated inside it, and the empty box is the card's point.**
+**What happened:** The room has the eleven banners at Dhū al-Qaṣṣa as the moment the war began. On the northern side it had begun already. Ibn al-Athīr says Usāma's ؓ cavalry pushed into the middle of the country of Quḍāʿa, loosed a raid among the clans there that had broken away, took spoil and came back safe — and that the column was gone forty days, some say seventy. Up there the fighting was not between Medina and the tribes at all. It was between the Prophet's ﷺ own appointed agents and their own tribesmen. Three agents held districts up there; two of them stayed on their religion and the third turned, and two more leading men turned with their followings. Abū Bakr ؓ wrote to the two who had held, and he would not come to blows with the rest until Usāma ؓ was home.
+**Beats:**
+1. Where this sits — **before** Dhū al-Qaṣṣa. The eleven banners were not the first fighting of the war; the north was already open.
+2. Usāma's ؓ column struck on its way — it pushed into the middle of Quḍāʿa's country, loosed a raid, took spoil and came back whole.
+3. How long it was gone — forty days, Ibn al-Athīr says; and it is said seventy.
+4. Who was fighting whom up there — the Prophet's ﷺ own agents against their own tribesmen. **Two held:** Imruʾ al-Qays b. al-Aṣbagh al-Kalbī over Quḍāʿa and Kalb, and ʿAmr b. al-Ḥakam over al-Qayn. **One turned:** Muʿāwiya al-Wālibī over Saʿd Hudhaym, with those of them who followed him. **And two more men turned with their followings:** Zumayl b. Qutba al-Qaynī, and Wadīʿa al-Kalbī.
+5. And Abū Bakr ؓ would not be hurried — he held off the collision until Usāma ؓ had come back.
+6. The sectors afterwards — ʿAmr b. al-ʿĀṣ ؓ was given Quḍāʿa, and Shuraḥbīl b. Ḥasana ؓ was to join him the moment al-Yamāma was finished.
+7. And the one box that stays empty — Khālid b. Saʿīd b. al-ʿĀṣ ؓ was given the marches of Syria, and **not one page we hold tells us what he did there.**
+**Quote after beat:** 2
+**The statement:**
+> وَتَوَسَّطَتْ خَيْلُ أُسَامَةَ بِبِلَادِ قُضَاعَةَ، فَشَنَّ الْغَارَةَ فِيهِمْ، فَغَنِمُوا وَعَادُوا سَالِمِينَ
+> — الکامل فی التاریخ ج۲ ص۲۰۱ · https://shamela.ws/book/21712/892
+> *English:* "And Usāma's cavalry pushed into the middle of the country of Quḍāʿa, and he loosed the
+> raid among them, and they took spoil and came back safe."
+
+**عبرت:** The war did not begin where the room was watching. It had already begun somewhere else.
+**Hands-up?** no
+**The same thing, from earlier in the same book, with the day-count** — الکامل ج۲ ص۱۹۶ (https://shamela.ws/book/21712/887):
+
+> فَسَارَ وَأَوْقَعَ بِقَبَائِلَ مِنْ نَاسِ قُضَاعَةَ الَّتِي ارْتَدَّتْ، وَغَنِمَ وَعَادَ، وَكَانَتْ غَيْبَتُهُ أَرْبَعِينَ يَوْمًا، وَقِيلَ: سَبْعِينَ يَوْمًا
+> *English:* "So he marched and fell upon clans of the people of Quḍāʿa that had broken away, and took
+> spoil and came back; and his absence was forty days — and it is said seventy days."
+
+**The agents, and which of them turned** — الکامل ج۲ ص۲۰۱ (https://shamela.ws/book/21712/892), an
+unusually precise list for this front:
+
+> فَكَانَ عُمَّالُ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - عَلَى قُضَاعَةَ وَكَلْبٍ: امْرُؤُ الْقَيْسِ بْنُ الْأَصْبَغِ الْكَلْبِيُّ، وَعَلَى الْقَيْنِ: عَمْرُو بْنُ الْحَكَمِ، وَعَلَى سَعْدِ هُذَيْمٍ: مُعَاوِيَةُ الْوَالِبِيُّ
+> *English:* "The agents of the Messenger of Allah ﷺ were: over Quḍāʿa and Kalb, Imruʾ al-Qays b.
+> al-Aṣbagh al-Kalbī; over al-Qayn, ʿAmr b. al-Ḥakam; over Saʿd Hudhaym, Muʿāwiya al-Wālibī."
+
+> فَارْتَدَّ وَدِيعَةُ الْكَلْبِيُّ فِيمَنْ تَبِعَهُ، وَبَقِيَ امْرُؤُ الْقَيْسِ عَلَى دِينِهِ، وَارْتَدَّ زُمَيْلُ بْنُ قُطْبَةَ الْقَيْنِيُّ، وَبَقِيَ عَمْرٌو، وَارْتَدَّ مُعَاوِيَةُ فِيمَنِ اتَّبَعَهُ مِنْ سَعْدِ هُذَيْمٍ
+> *English:* "Then Wadīʿa al-Kalbī apostatised with those who followed him, and Imruʾ al-Qays remained
+> on his religion; and Zumayl b. Qutba al-Qaynī apostatised, and ʿAmr remained; and Muʿāwiya
+> apostatised with those of Saʿd Hudhaym who followed him."
+
+**And he waited for Usāma ؓ before engaging anybody** — same page:
+
+> وَانْتَظَرَ بِمُصَادَمَتِهِمْ قُدُومَ أُسَامَةَ
+> — الکامل فی التاریخ ج۲ ص۲۰۱ · https://shamela.ws/book/21712/892
+> *English:* "And he waited, before coming to blows with them, for Usāma's arrival."
+
+**This is the answer to the question the room will ask** — *if the north was already open, why did he
+not deal with it first?* — he did not yet have an army to do it with.
+**The sectors, in Abū Bakr's ؓ own instruction** — الکامل ج۲ ص۲۱۵ (https://shamela.ws/book/21712/906):
+
+> فَكَتَبَ إِلَى شُرَحْبِيلَ بِالْمُقَامِ إِلَى أَنْ يَأْتِيَ خَالِدٌ، فَإِذَا فَرَغُوا مِنْ مُسَيْلِمَةَ تَلْحَقُ بِعَمْرِو بْنِ الْعَاصِ تُعِينُهُ عَلَى قُضَاعَةَ
+> *English:* "So he wrote to Shuraḥbīl to stay where he was until Khālid should come; and when they
+> were done with Musaylima, 'you are to join ʿAmr b. al-ʿĀṣ and help him against Quḍāʿa.'"
+
+⚠⚠ **NO ENGAGEMENT OF خالد بن سعيد بن العاص ؓ ON مشارف الشام IS NARRATED ON ANY PAGE WE HOLD.** All
+three books record the posting; none of them records a battle. **Do not draw one for him.** The honest
+line, and it should be spoken as a line and not skipped: *he was given the marches of Syria, and we are
+told nothing of what he did there.* **This is the one place in the frame where a speaker would be
+tempted to invent a battle, and the empty box on the map is there to stop him.** The only thing the
+الکامل puts in his hands anywhere in this war is in a Yemen context — striking عمرو بن معدي كرب,
+putting him to flight and taking his sword الصمصامة and his horse (الکامل ج۲ ص۲۲۹) — and the pool
+already carries that on its own card.
+⚠ **Cross-reference `ABU/E-U6` — "Forty days, and what the tribes concluded" — which is already in the
+pool and was already delivered.** That card carries the forty days AND the deterrent effect, and it
+says plainly that **the books differ on what the blow actually was** — a raid on أُبنى in the البلقاء,
+or on Quḍāʿa clans, or a clash with Roman forces. **RC76 must not settle that dispute.** RC76's claim
+is narrower and safe: الکامل says Quḍāʿa, twice, and whatever the target was it was struck **before the
+eleven banners were tied.** The chronology is the card; the target is not.
+⚠ **The الکامل's next clause is too compressed to narrate an engagement from:**
+
+> فَسَارَ بِوَدِيعَةَ إِلَى عَمْرٍو، فَأَقَامَ لِزُمَيْلٍ
+> — الکامل فی التاریخ ج۲ ص۲۰۱ · https://shamela.ws/book/21712/892
+> *English:* "So he marched with Wadīʿa to ʿAmr, and stood up to Zumayl."
+
+It will not even settle whether Wadīʿa was taken prisoner or marched against. **Do not build a battle
+out of it.** Say only that Abū Bakr ؓ wrote to the agents who had held, and that they moved against the
+ones who had not.
+⚠ **Framing only, and never on its own authority (#29):** ابن خلدون ج۲ ص۵۰۴ divides the northern ground
+between the two commanders by tribe. That is **how Ibn Khaldūn read the front**, named as his, and the
+tribe names from it are not to be printed.
+**Optional aside, and flagged ⚠ as a forward reference:** the same الکامل page notes that Imruʾ al-Qays
+was the grandfather of Sukayna bint al-Ḥusayn. It is sourced and it is interesting, but it names a
+house the course does not reach until session 4. **Skip it unless he wants it**, and if he takes it,
+take it in one clause and move on.
+
+---
+
+### RCT/E-RC77 · Four places you have not heard of
+**Tier:** GOOD · **When:** ۱۱ھ, تِهامة and the south-western highlands — alongside everything else `[SOURCED]` as events; no month `[CONVENTIONAL-ESTIMATE]` · **Map:** The south-west corner. **Four small strike-marks and NOT ONE arrow out of المدینہ — that absence is the slide.** الأبارق in تِهامة · شنوءة · الأعْلاب · خثعم country. نجران sits beside them in its own separate colour, because it renewed its covenant instead of rising. ⚠⚠ **الأبارق here is in تِهامة, and it is NOT the الأبرق of الرَّبَذة that the room saw on the evening-2 map.** Two different places with nearly the same name. **Do not put the mark in the old spot.**
+**What happened:** Four small actions in the south-west, and every one of them was run by a man who was already there. ʿAttāb b. Asīd ؓ wrote to Abū Bakr ؓ from Mecca to tell him who had turned in his own district, and then sent his own brother Khālid against the people of Tihāma, where Mudlij, Khuzāʿa and the sons of Kināna had gathered, Kināna under Jundub b. Salmā. They met at al-Abāriq, Khālid killed them and scattered them, and Jundub got away and went home. ʿUthmān b. Abī al-ʿĀṣ ؓ sent a party from al-Ṭāʾif against Shanūʾa and put ʿUthmān b. Abī Rabīʿa over it; the Azd, Bajīla and Khathʿam there were broken and scattered, and Ḥumayḍa b. al-Nuʿmān, who led them, fled into open country. At al-Aʿlāb the people of ʿAkk and the Ashʿarīs were routed. And Jarīr b. ʿAbdallāh ؓ was sent home to raise the loyal half of his own tribe and fight the other half with it.
+**Beats:**
+1. Where this sits — these are not fronts in the ordinary sense. Four small actions, running at the same time as everything else, **and no army from Medina in any of them.**
+2. The letter first — ʿAttāb b. Asīd ؓ, the Prophet's ﷺ own agent over Mecca and its land, wrote to Abū Bakr ؓ to tell him who had turned in his district.
+3. **Tihāma** — he sent his own brother Khālid against Mudlij, Khuzāʿa and the sons of Kināna; Kināna were under Jundub b. Salmā. They met at **al-Abāriq**. Khālid killed them and scattered them — and Jundub got away and went back.
+4. **Shanūʾa** — ʿUthmān b. Abī al-ʿĀṣ ؓ, the Prophet's ﷺ agent over al-Ṭāʾif, sent a party and put ʿUthmān b. Abī Rabīʿa over it. The Azd, Bajīla and Khathʿam there, under Ḥumayḍa b. al-Nuʿmān, broke and scattered, and Ḥumayḍa fled away into the country.
+5. **al-Aʿlāb** — ʿAkk were the first people in Tihāma to break away after the Prophet ﷺ. They and the Ashʿarīs camped at al-Aʿlāb, and al-Ṭāhir b. Abī Hāla came against them with Masrūq and the men of ʿAkk who had **not** turned. Heavy killing. Ibn al-Athīr: "and that was a great victory."
+6. The name that stuck — Abū Bakr's ؓ letter reached al-Ṭāhir ordering him to fight them; it called them **al-Akhābith** and their road **the road of al-Akhābith** — and Ibn al-Athīr says the name was still on them in his own day, centuries later.
+7. **Bajīla and Khathʿam** — Abū Bakr ؓ sent Jarīr b. ʿAbdallāh ؓ back to his own people, to call up those of them who had stood firm and fight with them those who had not, and then to go to Khathʿam against whoever came out in anger for Dhū al-Khalaṣa. Nobody stood up to him but a small band.
+8. And one community went the other way — Najrān sent a delegation to renew its covenant, and he wrote them a document for it.
+**Quote after beat:** 5
+**The statement:**
+> ثُمَّ تَجَمَّعَ عَكٌّ وَالْأَشْعَرِيُّونَ، وَأَقَامُوا عَلَى الْأَعْلَابِ، فَسَارَ إِلَيْهِمُ الطَّاهِرُ بْنُ أَبِي هَالَةَ وَمَعَهُ مَسْرُوقٌ وَقَوْمُهُ مِنْ عَكٍّ مِمَّنْ لَمْ يَرْتَدَّ، فَالْتَقَوْا عَلَى الْأَعْلَابِ، فَانْهَزَمَتْ عَكٌّ وَمَنْ مَعَهُمْ، وَقُتِلُوا قَتْلًا ذَرِيعًا، وَكَانَ ذَلِكَ فَتْحًا عَظِيمًا
+> — الکامل فی التاریخ ج۲ ص۲۲۷ · https://shamela.ws/book/21712/918
+> *English:* "Then ʿAkk and the Ashʿarīs gathered and encamped at al-Aʿlāb, and al-Ṭāhir b. Abī Hāla
+> marched against them, and with him Masrūq and his people of ʿAkk who had not apostatised. They met
+> at al-Aʿlāb, and ʿAkk and those with them were routed, and they were killed in great numbers — and
+> that was a great victory."
+
+**عبرت:** On four of these fronts nobody arrived from anywhere. The men who held them were already
+standing there.
+**Hands-up?** Four place-names. Ask the room, before you say them, how many of the four they have ever heard of.
+⚠⚠ **SINGLE SOURCE. Ibn al-Athīr alone records all of this; البدایہ carries none of it.** Say so on the
+card and in the notes: *"Ibn al-Athīr alone records these four."* One page — الکامل ج۲ ص۲۲۷ — carries the
+whole card.
+**Tihāma, verbatim** — الکامل ج۲ ص۲۲۷:
+
+> فَكَتَبَ عَتَّابُ بْنُ أَسِيدٍ إِلَى أَبِي بَكْرٍ يُعَرِّفُهُ خَبَرَ مَنِ ارْتَدَّ فِي عَمَلِهِ، وَبَعَثَ عَتَّابٌ أَخَاهُ خَالِدًا إِلَى أَهْلِ تِهَامَةَ، وَبِهَا جَمَاعَةٌ مِنْ مُدْلِجٍ وَخُزَاعَةَ وَأَبْنَاءِ كِنَانَةَ
+> *English:* "So ʿAttāb b. Asīd wrote to Abū Bakr informing him of the news of who had apostatised in
+> his district; and ʿAttāb sent his brother Khālid to the people of Tihāma, where there was a body of
+> Mudlij and Khuzāʿa and the sons of Kināna."
+
+> وَأَمَّا كِنَانَةُ عَلَيْهِمْ جُنْدُبُ بْنُ سَلْمَى، فَالْتَقَوْا بِالْأَبَارِقِ، فَقَتَلَهُمْ خَالِدٌ وَفَرَّقَهُمْ
+> *English:* "And as for Kināna — over them was Jundub b. Salmā. They met at al-Abāriq, and Khālid
+> killed them and scattered them."
+
+**And what became of him** — the next clause on the same page:
+
+> وَأَفْلَتَ جُنْدُبُ بْنُ سَلْمَى وَعَادَ
+> — الکامل فی التاریخ ج۲ ص۲۲۷ · https://shamela.ws/book/21712/918
+> *English:* "And Jundub b. Salmā escaped, and went back."
+
+**That is the answer for this one: he was not killed and he was not taken. He got away and went home,
+and the books say nothing further about him.**
+**Shanūʾa, verbatim** — الکامل ج۲ ص۲۲۷:
+
+> وَبَعَثَ عُثْمَانُ بْنُ أَبِي الْعَاصِ بَعْثًا إِلَى شَنُوءَةَ وَبِهَا جَمَاعَةٌ مِنَ الْأَزْدِ، وَبَجِيلَةُ، وَخَثْعَمُ، وَعَلَيْهِمْ حُمَيْضَةُ بْنُ النُّعْمَانِ، وَاسْتَعْمَلَ عُثْمَانُ عَلَى السَّرِيَّةِ عُثْمَانَ بْنَ أَبِي رَبِيعَةَ، فَالْتَقَوْا بِشَنُوءَةَ، فَانْهَزَمَ الْكُفَّارُ وَتَفَرَّقُوا، وَهَرَبَ حُمَيْضَةُ فِي الْبِلَادِ
+> *English:* "And ʿUthmān b. Abī al-ʿĀṣ sent out a party to Shanūʾa, where there was a body of the Azd,
+> and Bajīla, and Khathʿam, and over them was Ḥumayḍa b. al-Nuʿmān; and ʿUthmān put ʿUthmān b. Abī
+> Rabīʿa in command of the detachment. They met at Shanūʾa, and the unbelievers were routed and
+> scattered, and Ḥumayḍa fled away into the country."
+
+**The name Abū Bakr ؓ gave them, and how long it lasted** — الکامل ج۲ ص۲۲۷:
+
+> وَوَرَدَ كِتَابُ أَبِي بَكْرٍ عَلَى الطَّاهِرِ يَأْمُرُهُ بِقِتَالِهِمْ، وَسَمَّاهُمُ الْأَخَابِثَ، وَسَمَّى طَرِيقَهُمْ طَرِيقَ الْأَخَابِثِ، فَبَقِيَ الِاسْمُ عَلَيْهِمْ إِلَى الْآنَ
+> *English:* "And Abū Bakr's letter came to al-Ṭāhir ordering him to fight them, and it named them
+> al-Akhābith and named their road the road of al-Akhābith — and the name has remained on them until
+> now."
+
+⚠ **"Until now" is Ibn al-Athīr's now, not ours.** Say *"and the name was still on them in Ibn
+al-Athīr's own day, centuries later"* — **never "and it is still called that today",** which no page we
+hold supports. ⚠ **Do not put a year on him from memory:** no page we hold gives Ibn al-Athīr's dates,
+so "centuries later" is as far as this goes without a citation. `[STANDARD]` **(to verify)** if a
+figure is ever wanted.
+**Bajīla and Khathʿam, verbatim** — الکامل ج۲ ص۲۲۷:
+
+> وَأَمَّا بَجِيلَةُ فَإِنَّ أَبَا بَكْرٍ رَدَّ جَرِيرَ بْنَ عَبْدِ اللَّهِ، وَأَمَرَهُ أَنْ يَسْتَنْفِرَ مِنْ قَوْمِهِ مَنْ ثَبَتَ عَلَى الْإِسْلَامِ، وَيُقَاتِلَ بِهِمْ مَنِ ارْتَدَّ عَنِ الْإِسْلَامِ، وَأَنْ يَأْتِيَ خَثْعَمَ فَيُقَاتِلَ مَنْ خَرَجَ غَضَبًا لِذِي الْخَلَصَةِ، فَخَرَجَ جَرِيرٌ وَفَعَلَ مَا أَمَرَهُ، فَلَمْ يَقُمْ لَهُ أَحَدٌ إِلَّا نَفَرٌ يَسِيرٌ، فَقَتَلَهُمْ وَتَتَبَّعَهُمْ
+> *English:* "And as for Bajīla — Abū Bakr sent Jarīr b. ʿAbdallāh back, and ordered him to call up
+> those of his people who had stood firm upon Islam and to fight with them those who had apostatised
+> from Islam, and to go to Khathʿam and fight whoever had come out in anger for Dhū al-Khalaṣa. So
+> Jarīr went out and did what he had ordered him, and nobody stood up to him but a small band — and
+> he killed them and hunted them down."
+
+Jarīr b. ʿAbdallāh ؓ is already known to this room: he is the man al-Ashʿath put forward to lead a
+funeral prayer, saying *"this man did not apostatise — and I did"* (already on a pool card). **This card
+is where he gets his own command.** ⚠ Dhū al-Khalaṣa is an idol, and the page does not gloss it. Say
+only what the page says — men who "came out in anger for Dhū al-Khalaṣa" — and do not describe it.
+**And the one community that renewed its treaty instead of rising** — الکامل ج۲ ص۲۲۷:
+
+> وَأَمَّا أَهْلُ نَجْرَانَ فَلَمَّا بَلَغَهُمْ مَوْتُ النَّبِيِّ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - أَرْسَلُوا وَفْدًا لِيُجَدِّدُوا عَهْدَهُمْ مَعَ أَبِي بَكْرٍ، فَكَتَبَ بِذَلِكَ كِتَابًا
+> *English:* "And as for the people of Najrān — when the news of the Prophet's ﷺ death reached them,
+> they sent a delegation to renew their covenant with Abū Bakr, and he wrote a document to that effect."
+
+⚠ **Cross-reference `RCT/E-RC36`.** The pool's closing card already carries Najrān, in Ibn Kathīr's own
+closing words:
+
+> وأهل ذمة من الصديق، كأهل نجران
+> — البدایہ والنہایہ ج۷ ص۴۳ · https://shamela.ws/book/30097/3189
+> *English:* "…and people under al-Ṣiddīq's protection, such as the people of Najrān."
+
+**Do not tell Najrān twice.** If RC36 is in the deck, drop beat 8 from this card and let the closing
+card have it; this sub-note is here so the الکامل wording is on record either way.
+**The appointments this card rests on** — الکامل ج۲ ص۲۲۶ (https://shamela.ws/book/21712/917) lists who
+held what when the Prophet ﷺ died, and it is the تراجم material for three of the men above:
+
+> وَعَلَى مَكَّةَ وَأَرْضِهَا عَتَّابُ بْنُ أَسِيدٍ، وَعَلَى عَكٍّ وَالْأَشْعَرِيِّينَ الطَّاهِرُ بْنُ أَبِي هَالَةَ، وَعَلَى الطَّائِفِ عُثْمَانُ بْنُ أَبِي الْعَاصِ وَمَالِكُ بْنُ عَوْفٍ النَّضْرِيُّ، وَعُثْمَانُ عَلَى الْمُدُنِ، وَمَالِكٌ عَلَى أَهْلِ الْوَبَرِ
+> *English:* "…and over Mecca and its land, ʿAttāb b. Asīd; and over ʿAkk and the Ashʿarīs, al-Ṭāhir b.
+> Abī Hāla; and over al-Ṭāʾif, ʿUthmān b. Abī al-ʿĀṣ and Mālik b. ʿAwf al-Naḍrī — ʿUthmān over the
+> towns and Mālik over the people of the tents."
+
+**This is the whole mechanism of the card in one sentence: these men were already in post, appointed by
+the Prophet ﷺ, and the ridda in their districts was put down by them.** It is Ibn Kathīr's own summary
+point at `RCT/E-RC36` — armies sent *to support whichever believers were already in that region* — and
+here it is happening with no army sent at all.
+⚠⚠ **HONORIFICS — read this before writing any slide.** The ؓ in this card follows the research note and
+the pool exactly: **ʿAttāb b. Asīd ؓ**, **ʿUthmān b. Abī al-ʿĀṣ ؓ**, **Jarīr b. ʿAbdallāh ؓ** (whom the
+pool already prints with ؓ). **No honorific for Khālid b. ʿAttāb, ʿUthmān b. Abī Rabīʿa, Masrūq, Mālik b.
+ʿAwf al-Naḍrī, Ḥumayḍa b. al-Nuʿmān or Jundub b. Salmā** — no page we hold states Companionship for any
+of them, and the last two were on the other side.
+⚠ **One honorific is genuinely unsettled, and the gap is stated rather than guessed: الطاهر بن أبي هالة.**
+ص۲۲۶ puts him in **exactly** the same position as the two men who do carry ؓ here — the Prophet's ﷺ own
+appointed agent, over ʿAkk and the Ashʿarīs — yet the research note leaves his name bare and so does this
+card. **The bare name is a conservative choice, not a judgement about the man.** It wants settling once,
+in `docs/catalogue/PEOPLE.md`, and then every artifact reads it from there. Until then: bare, and if a
+slip asks, say the book names him as the Prophet's ﷺ agent over ʿAkk and that we have not verified more.
+⚠ **#43 — six names and four places walk on stage here for the first time in the whole series.** Every
+one of them needs its one breath, and four of them get no more than a clause: *ʿAttāb b. Asīd ؓ — the
+Prophet's ﷺ agent over Mecca* · *his brother Khālid, who did the fighting* · *ʿUthmān b. Abī al-ʿĀṣ ؓ —
+the Prophet's ﷺ agent over al-Ṭāʾif* · *ʿUthmān b. Abī Rabīʿa, who led his detachment* · *al-Ṭāhir b. Abī
+Hāla — the Prophet's ﷺ agent over ʿAkk and the Ashʿarīs* · *Masrūq, of ʿAkk, who did not turn.* **The
+dates of none of these six are on any page we hold** — give the posting instead of a date, which is what
+the room actually needs. ⚠ And the four place-names — الأبارق · شنوءة · الأعْلاب · ذو الخلصة — are on no
+map in `docs/catalogue/MAPS.md` yet. **They need adding before this card can carry a map.**
+
+---
+
+### RCT/E-RC79 · The march to Khaybar that never happened
+**Tier:** GOOD · **When:** ۱۱ھ, as the eleven commanders rode out of ذو القصّة `[SOURCED]` · **Map:** ذو القصّة, with the eleven arrows already on the ground from the banners map. **One more arrow goes north from المدینہ to خيبر — and it is DASHED, because no army ever walked it.** Small tribal marks scattered along the road between; the dashed arrow's only effect is on them. ⚠ On the click, the dashed arrow should appear and then stay dashed. It must never be allowed to fill in.
+**What happened:** When Khālid ؓ left Dhū al-Qaṣṣa and Abū Bakr ؓ parted from him, the caliph promised he would meet him from the direction of Khaybar, with the commanders who were with him. And then, in Ibn Kathīr's own words, they made that promise public — so that the bedouin would be afraid. No army went to Khaybar. Khālid's ؓ actual orders were to go first to Ṭulayḥa al-Asadī and then to Banū Tamīm, and Khaybar lay nowhere on that road. Abū Bakr ؓ had already taken the field himself more than once in that year, and would again — but never towards Khaybar. Ibn al-Athīr reports the same thing and states the purpose outright: he was putting fear into the enemy by it.
+**Beats:**
+1. Where this sits — the same ground and the same hour as the eleven banners: Dhū al-Qaṣṣa, as the commanders ride off.
+2. The promise to Khālid ؓ — Abū Bakr ؓ told him he would meet him from the direction of Khaybar, with the commanders who were with him.
+3. And they said it out loud — the verb in the sentence is "they made it public" — so that the bedouin would be afraid.
+4. The real orders — Khālid ؓ was to go first to Ṭulayḥa, then to Banū Tamīm. Khaybar was not on the route, and no army went there.
+5. Both books carry it, and Ibn al-Athīr says the purpose in plain words: to put fear into the enemy by it.
+6. And what the books do **not** say — no page we hold reports that any tribe was in fact frightened by it. The books give us the intention, not the result.
+**Quote after beat:** 3
+**The statement:**
+> واعده أنَّه سيلقاهُ من ناحيةِ خيبر بمن معه من الأمراء - وأظهروا ذلك ليرعبوا الأعرابَ
+> — البدایہ والنہایہ ج۷ ص۲۴ · https://shamela.ws/book/30097/3170
+> *English:* "He promised him that he would meet him from the direction of Khaybar with the commanders
+> who were with him — and they made that public, so as to put fear into the bedouin."
+
+**عبرت:** A thing said out loud did part of the work the swords would otherwise have had to do.
+**Hands-up?** no
+**The same, from Ibn al-Athīr, with the purpose stated outright** — الکامل ج۲ ص۲۰۴ (https://shamela.ws/book/21712/895):
+
+> وَأَظْهَرَ أَبُو بَكْرٍ لِلنَّاسِ أَنَّهُ خَارِجٌ إِلَى خَيْبَرَ بِجَيْشٍ حَتَّى يُلَاقِيَ خَالِدًا، يُرْهِبُ الْعَدُوَّ بِذَلِكَ
+> *English:* "And Abū Bakr made it known to the people that he was going out to Khaybar with an army
+> until he should meet Khālid — putting fear into the enemy by that."
+
+**Both books, the same fact, and neither hedges it.** الکامل ج۲ ص۲۰۴ is the same page the pool's
+eleven-banners card (`RCT/E-RC05`) already quotes, so this costs the citation log nothing new.
+⚠ **The books report the purpose, not the result.** Do not say "and the tribes were frightened". Say
+"he made it public **so that** they would be". The one place in this war where a deterrent effect is
+actually *reported* is Usāma's ؓ real march (`ABU/E-U6`, البدایہ ج۷ ص۱۱: the tribes said *"were it not
+that these people have strength, men like these would not have gone out from among them"*). **Tell
+RC76 and RC79 together and the pair makes the point by itself: one march that happened and was
+believed, one march that did not happen and was announced.**
+⚠ **Register (§1.2).** Narrate it exactly as the book narrates it — a thing made public in order to put
+fear into the enemy. **Do not call it a lie, a bluff, a trick or a ruse on the slide face**, and do not
+invite the room to admire the cleverness of it. The book states it flatly; so do we.
+⚠ **خيبر has no page-cited gloss anywhere in `docs/catalogue/`.** This room will almost certainly know
+it, so no gloss is needed. If he does gloss it, the most that can be said from what we hold is that it
+lay north of المدینہ on the road towards الشام — and that is `[STANDARD]` **(to verify)**, not sourced.
+**Do not attach a date or an account of its conquest to it from memory.**
+⚠ **Printed-page note for the citation checker:** the cache file for شاملہ index 3170 has no parsed
+`PRINTED PAGE` field, but its own `TITLE` line reads «ج7 - ص24», and it sits exactly four indices below
+ج۷ ص۲۸ (index 3174). **ص۲۴ is the printed page; it is confirmed two ways.**
+
+---
+
+### RCT/E-RC80 · The year opened with the armies still in the field
+**Tier:** CORE — **this is the frame slide of the evening** · **When:** ۱۲ھ opens, the whole peninsula `[SOURCED]` · **Map:** **The evening's licensing map.** The whole of Arabia with **every front lit at once** — the banners' eleven arrows all filled in, نجد and بُزاخة, البُطاح, اليمامة, the Yemen and تِهامة, عُمان and مَهْرة, and the northern marches — and **two patches still grey: البحرين on the Gulf coast and حضرموت on the south coast.** No sequence numbers on the arrows. The room must look at it and see a sweep, not a queue.
+**What happened:** Ibn Kathīr does not open his chapter for the year 12 with an event. He opens it with a situation. The year came in, he writes, with al-Ṣiddīq's armies and his commanders — the ones he had sent to fight the people of the ridda — roving the country, right and left. Not one front after another: all of them, at the same time. Everything this room has been given over four evenings sat inside the same two years, and much of it inside the same months. He says what it was for, and he says what came of it: the religion's strayed part brought back, the truth returned to its place, the peninsula made level, the furthest-off country become like the nearest. Two of those fronts the room has not been told about yet.
+**Beats:**
+1. Where we are on the Line — the year 12 opens. The map you are looking at is the one you walked out on last week.
+2. Ibn Kathīr does not begin the year with a battle — he begins it with a description of where everybody was.
+3. Right and left — **the two direction words in the sentence you have just read out are the whole point:** the armies were out in every direction at once, not taking their turn.
+4. What it was for, in his words — to lay down the foundations of Islam, and to fight the tyrants among men.
+5. And what came of it — the straying brought back, the truth returned to its place, the peninsula levelled, the furthest-off made as near as the nearest.
+6. Which fronts you already have — al-Yamāma, the Yemen, Oman, Mahra. **They overlapped.** They were not fought one after another and then reported in a queue.
+7. Which two are still grey — البحرين on the Gulf, and حضرموت on the south coast. That is tonight.
+8. And one step back before we go there — three things that were happening while you were watching al-Yamāma.
+**Quote after beat:** 2
+**The statement:**
+> استُهلَّت هذه السنة، وجيوشُ الصديق وأُمراؤه الذين بعثهم لقتال أهل الرّدّة جَوّالون في البلاد يمينًا وشمالًا، لتمهيد قواعد الإسلام، وقتال الطُّغاة من الأنام، حتى ردَّ شاردَ الدّين بعد ذهابه، ورجعَ الحقُّ إلى نصابه، وتمهدتْ جزيرةُ العرب، وصار البعيدُ الأقْصى كالقريب الأدْنى
+> — البدایہ والنہایہ ج۷ ص۶۱ · https://shamela.ws/book/30097/3207
+> *English:* "This year began while al-Ṣiddīq's armies and his commanders, whom he had sent to fight
+> the people of the ridda, were roving the land right and left — to lay down the foundations of Islam
+> and to fight the tyrants among men — until the straying of the religion was brought back after it
+> had gone, and the truth returned to its proper place, and the Arabian peninsula was made level, and
+> the furthest-off became like the nearest at hand."
+
+**عبرت:** The book does not open the year with a battle. It opens it with a map — and on that map the
+armies are out in every direction at the same time.
+**Hands-up?** Before the map goes up: hands up if you thought these fronts were fought one after another.
+**One view, and the page hedges it** — on the same page, immediately after the dating of اليمامة:
+
+> وقد قيل: إن وقعةَ جُواثا وعُمان ومهرة وما كان من الوقائع التي أشرنا إليها إنما كانت في سنة ثنتي عشرة
+> — البدایہ والنہایہ ج۷ ص۶۱ · https://shamela.ws/book/30097/3207
+> *English:* "And it has been said that the affair of Juwāthā, and Oman, and Mahra, and what there was
+> of the engagements we have referred to, were only in the year 12."
+
+⚠ **The sentence opens with the hedge "and it has been said". Report it as one view, never as the
+book's own position.** It matters for two reasons. It places **Juwāthā** — which is the البحرين front, tonight's first
+front — in the year 12. And it would put **Oman and Mahra**, which this room was given last week,
+a year later than the course placed them. The course follows the narrative sequence; Ibn Kathīr
+records this as an alternative and does not choose. **If a slip asks why the dates differ, that is
+the answer: the book carries both and declines to pick.**
+**Ibn Kathīr's own unhedged body text, on the same page** — this one carries no "it is said":
+
+> وفيها كان قتلُ الملوك الأربعة: جَمْدٍ ومِخْوسٍ وأبْضَعة ومِشْرَحٍ
+> — البدایہ والنہایہ ج۷ ص۶۱ · https://shamela.ws/book/30097/3207
+> *English:* "And in it was the killing of the four kings: Jamd, Mikhwas, Abḍaʿa and Mishraḥ."
+
+The very next clause of the same sentence adds their sister:
+
+> وأسروا أختهم العَمرَّدة
+> — البدایہ والنہایہ ج۷ ص۶۱ · https://shamela.ws/book/30097/3207
+> *English:* "…and they took their sister al-ʿAmarrada captive."
+
+So the four kings of Kinda, whom evening 4 gave the room, are placed by Ibn Kathīr in **the year 12**,
+in his own voice. ⚠ **Spell the four names from the pool, not from this page.** The pool prints
+Mikhwaṣ, Mishraḥ, Jamad, Abḍaʿa, al-ʿAmarrada (`KTK/E-KD06`); this page's own footnote (6) sets out
+how the manuscripts and the printed edition differ over three of the four and calls both readings
+corrupt, which is why the transliteration in the blockquote above — which follows **this page** — is
+not quite the pool's. **Two artifacts must not disagree on a name: use the pool's forms on the slide.**
+⚠ The two blockquotes above are one sentence in the book, split here because a footnote marker «(٦)»
+stands between them in the printed text. Read them as one line.
+⚠⚠ **The words "and they were killed on the day of al-Nujayr" on ص۶۱ are the EDITOR'S FOOTNOTE, not
+Ibn Kathīr's body text.** The phrase sits inside footnote (6) of that page, where Tadmurī is quoting
+al-Fīrūzābādī's القاموس:
+
+> فقتلوا يوم النُّجير
+> — البدایہ والنہایہ ج۷ ص۶۱ — **footnote (6), NOT the body text** · https://shamela.ws/book/30097/3207
+> *English:* "…so they were killed on the day of al-Nujayr."
+
+**Do not cite ص۶۱ for the link between the four kings and al-Nujayr.** That link is carried on the
+pool's own al-Nujayr pages; cite those.
+**اليمامة's date, on the same page, and it agrees with what the pool already says:**
+
+> وفد قال جماعةٌ من علماءَ السِّير والتواريخ: إنّ وقعة اليمامةِ كانت في ربيع الأول من هذه السنة، وقيل إنها كانت في أواخر [السنة] التي قبلها، والجَمْعُ بينَ القولين أنَّ ابتداءها كان في السنة الماضية، وانتهاءَها وقع في هذه السنة الآتية
+> — البدایہ والنہایہ ج۷ ص۶۱ · https://shamela.ws/book/30097/3207
+> *English:* "And a body of the scholars of sīra and of the histories have said that the affair of
+> al-Yamāma was in Rabīʿ al-Awwal of this year; and it is said that it was in the latter part of the
+> year before it. And the reconciling of the two views is that its beginning was in the year past and
+> its ending fell in this year coming."
+
+⚠ The cache file reads «وفد قال» where the sense plainly requires «وقد قال». **Eyeball this one against
+the page image before it reaches a slide** (§1.1). Safer still: speak the sense and quote only the
+reconciliation clause.
+⚠ **This is Ibn Kathīr reconciling it in his own voice on ص۶۱, and it matches the pool's existing card
+(البدایہ ج۷ ص۳۵–۳۶ + سیر الراشدون ص۴۹: begun in 11, finished in 12). Second page, same answer — do not
+present it as a new finding.**
+⚠ **"Concurrent" means the FRONTS overlapped — not that every action did.** The sentence licenses the
+shape of the evening and no more than that. Several individual commanders' own fronts were plainly
+sequential, and the books say so in terms: ʿIkrima ؓ went to Oman, then to Mahra, then on to join
+al-Muhājir ؓ, and Khālid ؓ went Buzākha, then al-Buṭāḥ, then al-Yamāma. **So the honest claim is: the
+fronts ran alongside one another; each commander's own road ran in order.** If a listener presses, that
+distinction is the answer, and it costs nothing to give.
+⚠ **THE MONTHS INSIDE ۱۱–۱۲ھ ARE NOT FIXED BY THE BOOKS.** Two months are dated on pages we hold —
+Usāma's ؓ march in ربيع الأول ۱۱ھ, and this page's ربيع الأول for اليمامة, which is itself one view of
+two. **Everything else is sequence, not calendar.** So the order this course tells the fronts in is
+**the course's order**, built from the narrative order and the explicit "when you are done with X, go
+to Y" instructions — not a dated timetable in the books. Say that aloud on this slide. It is the
+sentence that licenses the whole evening, and it is also what keeps the course honest.
+⚠ **Cross-reference `RCT/E-RC36`** — the pool's closing card already carries Ibn Kathīr's duration
+sentence:
+
+> وعامة ما وقع من هذه الحروب كان في أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة
+> — البدایہ والنہایہ ج۷ ص۴۳ · https://shamela.ws/book/30097/3189
+> *English:* "And the general run of these wars was in the last part of the year 11 and the first part
+> of the year 12."
+
+**This card and that one say the same thing from two pages and must not be made to disagree.** RC80 is the
+opening frame; RC36 is the closing frame. If both are in the deck, RC80 states the shape and RC36
+states the duration — do not let RC80 also claim the duration.
+⚠ The quotation stops at «كالقريب الأدْنى». The printed text continues with a bracketed «[الأقرب]»,
+which footnote (2) marks as an addition from manuscript أ. It is left out deliberately.
 
 ---
 

@@ -1,18 +1,13 @@
 # SHAMELA LOG — every Arabic page used, and what it was used for
-
 Running register. **Nothing from Shamela enters an artifact without a line in this table.**
 Fetch: `python tools/shamela.py get <book> <index>` · Locate: `python tools/shamela.py toc <book> --find "<text>"`
 All pages cached under `sources/shamela/<book>/<index>.txt` — the cache header records the URL,
 the volume-and-printed-page, and the chapter, so any citation can be re-checked offline.
-
 > ⚠ **Cite the volume and printed page** (`⁨ج۷ ص۱۳۴⁩`), never the Shamela index. The index is an
 > internal sequential number and means nothing to a reader holding the book.
-
 ## Approved sources — the safe list
-
 Stay inside this list for general narrative. All of them are named and relied on by the course's own
 ⁨مقدمہ⁩, so using them is staying inside the course's frame rather than stepping outside it.
-
 | id | Work | Standing |
 |---|---|---|
 | **30097** | ⁨البدایہ والنہایہ⁩ — ⁨ابن کثیر رحمہ اللہ⁩ (⁨ط دار ابن كثير⁩) | ✅ Primary Arabic narrative. The ⁨مقدمہ⁩'s own recommendation — reason applied alongside chains |
@@ -21,20 +16,14 @@ Stay inside this list for general narrative. All of them are named and relied on
 | **12320** | ⁨تاریخ ابن خلدون⁩ — ⁨كتاب العبر وديوان المبتدأ والخبر⁩ | ⚖ **Judgement and framing only** (`DECISIONS.md` #29). Never the sole authority for a date, name, number or wording — his early narrative follows ⁨الطبری⁩, so citing him alone for a fact is citing ⁨الطبری⁩ at one remove. Never for the ⁨مشاجرات⁩. Attribute by name when used |
 | **34** | ⁨الإعلان بالتوبيخ⁩ — ⁨السخاوی رحمہ اللہ⁩ | ✅ For the ⁨فوائد⁩ and the value of history |
 | 9783 | ⁨تاریخ الطبری⁩ | ⚠️ **Corroboration only, never alone.** The raw well — collects with chains and does not sift. Presence in ⁨طبری⁩ is not authenticity; the ⁨مقدمہ⁩ devotes p.۷۱ to this. **Never** for anything touching the ⁨مشاجرات⁩ |
-
 **Not to be used** without a specific decision: works of contested attribution, and anything the
 ⁨مقدمہ⁩ flags for sectarian lean (it names ⁨یعقوبی⁩ and ⁨مسعودی⁩ at p.۴۶).
-
 ---
-
 ## Pages fetched
-
 ### Session 3 — «⁨پہلا امتحان⁩» (۲۳–⁨۴۰ھ⁩)
-
 **1,569 pages fetched in one sweep on 2026-09-12** so the research pass read the whole window
 off disk and a dropped connection could not strand it. Every page is under
 `sources/shamela/<book>/<index>.txt` with its URL, volume and printed page in the header.
-
 | Book | Volume & page | Chapter | Used for | Status |
 |---|---|---|---|---|
 | ⁨البدایہ⁩ 30097 | **⁨ج۷ ص۲۵۸⁩–۲۷۹** | ⁨آخر سنة ۲۳⁩ · ⁨وفاة عمر ؓ وصفته وزوجاته⁩ | The hinge out of session 2 | cached |
@@ -68,9 +57,7 @@ off disk and a dropped connection could not strand it. Every page is under
 | ⁨سیر⁩ 10906 | **⁨جراشدون ص۱۴۹⁩–۲۲۲** | ⁨سيرة ذي النورين عثمان ؓ⁩ | The man, and the killing | cached |
 | ⁨سیر⁩ 10906 | **⁨جراشدون ص۲۲۵⁩–۲۹۰** | ⁨سيرة أبي الحسنين علي ؓ⁩ | The man, and the killing | cached |
 | ⁨سیر⁩ 10906 | ⁨ج۱⁩–⁨ج۳⁩, various | The ⁨تراجم⁩ of 32 figures of the window — ⁨طلحة ؓ⁩ · ⁨الزبير ؓ⁩ · ⁨عائشة ؓ⁩ · ⁨عبد الرحمن بن عوف ؓ⁩ · ⁨سعد ؓ⁩ · ⁨عمار ؓ⁩ · ⁨أبو ذر ؓ⁩ · ⁨ابن مسعود ؓ⁩ · ⁨عمرو بن العاص ؓ⁩ · ⁨أبو موسى ؓ⁩ · ⁨المغيرة ؓ⁩ · ⁨الأشتر⁩ · ⁨محمد بن أبي بكر ؓ⁩ · ⁨هاشم بن عتبة ؓ⁩ · ⁨حجر بن عدي⁩ · ⁨صعصعة⁩ · ⁨جرير ؓ⁩ · ⁨الأشعث ؓ⁩ · ⁨حذيفة ؓ⁩ · ⁨قيس بن سعد ؓ⁩ · ⁨معاوية ؓ⁩ · ⁨الحسن ؓ⁩ · ⁨ابن عباس ؓ⁩ · ⁨مروان⁩ · ⁨الوليد بن عقبة ؓ⁩ · ⁨سعيد بن العاص ؓ⁩ · ⁨ابن عامر ؓ⁩ · ⁨كعب الأحبار⁩ · ⁨عدي بن حاتم ؓ⁩ · ⁨أم كلثوم ؓ⁩ · ⁨أبي بن كعب ؓ⁩ · ⁨عبيدة السلماني⁩ | The profiles register | cached |
-
 ### Session 2 — «⁨بارہ سال⁩» (۱۱–⁨۲۳ھ⁩)
-
 | Book | Volume & page | Chapter | Used for | Status |
 |---|---|---|---|---|
 | ⁨البدایہ⁩ 30097 | **⁨ج۵ ص۳۴۴⁩–۳۴۹** | ⁨قصة سقيفة بني ساعدة⁩ · ⁨ذكر اعتراف سعد بن عبادة⁩ | The succession, block 1 of the story | cached |
@@ -80,17 +67,12 @@ off disk and a dropped connection could not strand it. Every page is under
 | ⁨سیر⁩ 10906 | **⁨راشدون ص۷⁩–۱۲** | ⁨أبو بكر الصديق خليفة رسول الله ﷺ⁩ | ⁨تعارف⁩ panel ۱ | cached |
 | ⁨سیر⁩ 10906 | **⁨ج۱ ص۵⁩–۱۰** | ⁨أبو عبيدة بن الجراح عامر بن عبد الله⁩ | ⁨تعارف⁩ panel ۳ | cached |
 | ⁨سیر⁩ 10906 | **⁨ج۱ ص۳۶۶⁩–۳۷۱** | ⁨خالد بن الوليد المخزومي⁩ | ⁨تعارف⁩ panel ۲ | cached |
-
 ### Session 1
-
 | Book | Volume & page | Chapter | Used for | Status |
 |---|---|---|---|---|
 | ⁨الإعلان⁩ 34 | **⁨ص۱۱۱⁩** | ⁨فوائد التاريخ⁩ | The course epigraph, on the title slide | ✅ **in use** |
-
 ### Strand — ⁨سهيل بن عمرو ؓ⁩, the man who held Mecca (research note: `docs/research/suhayl-ibn-amr.md`)
-
 Belongs to session 2 «⁨بارہ سال⁩» — Mecca's ⁨۱۱ھ⁩, running alongside ⁨المدینہ⁩'s.
-
 | Book | Volume & page | Chapter | Used for | Status |
 |---|---|---|---|---|
 | ⁨سیر⁩ 10906 | **⁨ج۱ ص۱۹۲⁩–۱۹۳** | ⁨أبو جندل⁩ · ⁨عبد الله بن سهيل⁩ | The two sons; ⁨طاعون عمواس ۱۸ھ⁩ | cached |
@@ -103,18 +85,13 @@ Belongs to session 2 «⁨بارہ سال⁩» — Mecca's ⁨۱۱ھ⁩, running
 | ⁨الکامل⁩ 21712 | **⁨ج۲ ص۲۴⁩–۲۵** | ⁨غزوة بدر الكبرى⁩ | **The teeth incident — «⁨دَعْهُ يَا عُمَرُ؛ فَسَيَقُومُ مَقَامًا تَحْمَدُهُ عَلَيْهِ⁩»** | cached |
 | ⁨الکامل⁩ 21712 | **⁨ج۲ ص۸۴⁩** | ⁨عمرة الحديبية⁩ | «⁨سُهِّلَ أَمْرُكُمْ⁩» | cached |
 | ⁨الکامل⁩ 21712 | **⁨ج۲ ص۱۸۶⁩** | ⁨مرض رسول الله ﷺ ووفاته⁩ | **The Mecca speech, verbatim — the only safe-list source that carries it** | cached |
-
 ⚠ The «⁨يَا أَهْلَ مَكَّةَ، لَا تَكُونُوا آخِرَ مَنْ أَسْلَمَ وَأَوَّلَ مَنِ ارْتَدَّ⁩» text is
 **⁨ابن الاثیر⁩'s, ⁨ج۲ ص۱۸۶⁩** — ⁨البدایہ⁩ carries only the substance of that stand, in different words.
 Never caption the ⁨الکامل⁩ wording to ⁨ابن کثیر⁩. See the research note for both, side by side.
-
 ---
-
 ### Evening 3 — Yemen, start to end (2026-09-13)
-
 Three notes: `al-aswad-al-ansi-and-yemen-before-the-ridda` (A) · `the-second-yemen-ridda-and-kinda-11-12ah` (B) ·
 `kinda-the-kingdom-before-islam-and-the-house-of-al-ashath` (C). 17 pages newly fetched; the rest were cached.
-
 | Book | Printed page | Chapter | What it supports | |
 |---|---|---|---|---|
 | ⁨البدایہ⁩ 30097 | ⁨ج۲ ص۴۱۱⁩ | ⁨فصل⁩ (⁨سبأ⁩) | A: Sayf b. Dhī Yazan recovers Yemen before the Prophet's ﷺ birth | cached |
@@ -136,49 +113,34 @@ Three notes: `al-aswad-al-ansi-and-yemen-before-the-ridda` (A) · `the-second-ye
 | ⁨سیر⁩ 10906 | ⁨ج۳ ص۵۲۰⁩–۵۲۱ | ⁨قيس بن مكشوح⁩ | B: his notice — no ridda mentioned; eye lost at al-Yarmūk | fetched |
 | ⁨سیر⁩ 10906 | ⁨ج۴ ص۱۸۳⁩–۱۸۴ | ⁨ابن الأشعث⁩ | C: full name; the scholars with him; Rutbīl; d. 84 AH | fetched |
 | ⁨ابن خلدون⁩ 12320 | ⁨ج۲ ص۳۲۷⁩; ⁨ج۲ ص۴۸۱⁩–۴۸۴, ⁨ص۴۹۱⁩–۴۹۴; ⁨ج۳ ص۶۱⁩ | ⁨ملوك كندة⁩ · ⁨خبر العنسي⁩ · ⁨ردة اليمن⁩ · ⁨ابن الأشعث⁩ | framing only: Ḥujr over Maʿadd; «⁨كاهنا مشعوذا⁩»; al-Muhājir's illness; «⁨جيش الطواويس⁩» (not usable alone) | cached / fetched |
-
 ## Verified findings worth reusing
-
 **The ⁨القاب⁩ are confirmed, not assumed.** ⁨الذہبی⁩ records both:
-
 - سیدنا ابو عبیدہ ؓ — «شَهِدَ لَهُ النَّبِيُّ ﷺ بِالجَنَّةِ، وَسَمَّاهُ: **أَمِيْنَ الأُمَّةِ**» — سیر، ج۱ ص۶
 - سیدنا خالد بن الولید ؓ — «وَسَمَّاهُ النَّبِيُّ ﷺ: **سَيْفَ اللهِ**» — سیر، ج۱ ص۳۶۶
-
 **The ⁨سقيفة⁩ → ⁨ابو عبیدہ ؓ⁩ link.** ⁨الذہبی⁩ notes he was among those put forward at ⁨السقيفة⁩
 «⁨لِكَمَالِ أَهْلِيَّتِهِ عِنْدَ أَبِي بَكْرٍ⁩» (⁨ج۱ ص۶⁩) — which ties the ⁨تعارف⁩ panel directly to the
 evening's opening block instead of standing apart from it.
-
 **The ⁨القادسية⁩ exchange** — ⁨البدایہ ج۷ ص۱۳۴⁩, the envoy answering ⁨رستم⁩:
-
 > <div dir="rtl">⁨وَإِخْرَاجُ الْعِبَادِ مِنْ عِبَادَةِ الْعِبَادِ إِلَى عِبَادَةِ اللهِ⁩ … ⁨وَالنَّاسُ بَنُو آدَمَ، فَهُمْ إِخْوَةٌ لِأَبٍ وَأُمٍّ⁩</div>
-
 Short, authentic, in ⁨ابن کثیر⁩, and it carries the whole point of the evening without any comment
 from the speaker.
-
 ## 2026-09-19 — evening 4 content review (`DECISIONS.md` #43)
-
 | Book | Index | Printed | Why |
 |---|---|---|---|
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1735 | ⁨ج۱ ص۳۰۹⁩ | ⁨ثابت بن قيس بن شماس ؓ⁩ — his ⁨تراجم⁩ notice, «⁨خَطِيْبُ الأَنْصَارِ⁩ … ⁨وَلَمْ يَشْهَدْ بَدْراً، شَهِدَ أُحُداً، وَبَيْعَةَ الرُّضْوَانِ⁩». `RCT/E-RC18` |
 | ⁨سیر أعلام النبلاء⁩ 10906 | 2429 | ⁨ج۲ ص۴۴۹⁩ | ⁨أبو قتادة الأنصاري ؓ⁩ — «⁨فَارِسُ رَسُوْلِ اللهِ ﷺ⁩ ⁨شَهِدَ أُحُداً وَالحُدَيْبِيَةَ⁩». `RCT/E-RC47` |
-
 Both were fetched because the review found the men carrying cards with no notice anywhere in the
 delivered series. No other page was fetched for evening 4 — every new card is drawn from pages already
 in the cache.
-
 ### Evening-4 review fixes — 2026-09-22 (all three pages were already cached; nothing was fetched)
-
 | Book | Index | Printed | Why |
 |---|---|---|---|
 | ⁨البدایہ والنہایہ⁩ 30097 | 3354 | ⁨ج۷ ص۲۰۸⁩ | ⁨شرحبيل بن حسنة ؓ⁩ — his notice, «⁨وحَسَنَةُ أمه، نسب إليها وغلب عليه ذلك. أسلم قديمًا وهاجر إلى الحبشة⁩ …». `RCT/E-RC15` beat 2 |
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1749 | ⁨ج۱ ص۳۲۳⁩ | ⁨عكرمة بن أبي جهل ؓ⁩ — «⁨الشَّرِيْفُ، الرَّئِيْسُ، الشَّهِيْدُ⁩». `RCT/E-RC15` beat 1 |
 | ⁨البدایہ والنہایہ⁩ 30097 | 3168 | ⁨ج۷ ص۲۲⁩ | Khālid's ؓ orders: «⁨وأمره بطُلَيْحة بن خُوَيْلد، فإذا فرغَ سار إلى مالك بن نُوَيْرَةَ بالبطاح إن أقام له⁩». The *After Buzākha* bridge slide |
-
 ## 2026-09-22 — Part VI, the dead of al-Yamāma (`DECISIONS.md` #48)
-
 Every page below was already cached from the household research notes; this is the register entry for
 putting them on a slide face.
-
 | Book | Index | Printed | Why |
 |---|---|---|---|
 | ⁨البدایہ والنہایہ⁩ 30097 | 3196 | ⁨ج۷ ص۵۰⁩ | ⁨سالم مولى أبي حذيفة ؓ⁩ — «⁨استقرئوا القرآنَ من أربعةٍ⁩» (`AHA/E-AS09`); the two hands and the two ⁨آیات⁩ (`AS15`); «⁨فأضجعوني بينهما⁩» (`AS16`) |
@@ -186,11 +148,8 @@ putting them on a slide face.
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1622 | ⁨ج۱ ص۱۹۶⁩ | «⁨لاَ تَسْتَعْمِلُوا البَرَاءَ عَلَى جَيْشٍ⁩ …» — `THO/E-HS14`. ⚠ the page opens with «⁨قِيْلَ⁩» |
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1624 | ⁨ج۱ ص۱۹۸⁩ | «⁨أَترَانِي أَمُوْتُ عَلَى فِرَاشِي؟⁩ …» — `THO/E-HS15`; the count moves between chains, so "ninety-odd" |
 | ⁨البدایہ والنہایہ⁩ 30097 | 3225 | ⁨ج۷ ص۷۹⁩ | «⁨استَحَرّ القتلُ في القُرّاء يوم اليمامة⁩» (`ZIA/E-ZY17`) and the order to ⁨زيد بن ثابت ؓ⁩ (`RCT/E-RC37`) — ⁨صحيح البخاري⁩ ٤٩٨٦ |
-
 ## 2026-09-23 — Parts VII–VIII, the men beside them (`DECISIONS.md` #49)
-
 All cached from the household research notes; this is the register entry for putting them on a face.
-
 | Book | Index | Printed | Why |
 |---|---|---|---|
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1724 | ⁨ج۱ ص۲۹۸⁩ | ⁨زيد بن الخطاب ؓ⁩ — the banner: «⁨فَوَقَعَتْ الرَّايَةُ، فَأَخَذَهَا سَالِمٌ مَوْلَى أَبِي حُذَيْفَةَ⁩» (`AHA/E-AS13`); and ⁨عمر's ؓ⁩ «⁨أَسْلَمَ قَبْلِي⁩ …» and the east wind (`RCT/E-RC23`) |
@@ -201,9 +160,7 @@ All cached from the household research notes; this is the register entry for put
 | ⁨البدایہ والنہایہ⁩ 30097 | 3199 | ⁨ج۷ ص۵۳⁩ | ⁨عبد الله بن عبد الله بن أُبَيّ ؓ⁩ (`ZIA/E-ZY13`). ⚠ where he died is disputed — say "in this war" |
 | ⁨البدایہ والنہایہ⁩ 30097 | 3198 | ⁨ج۷ ص۵۲⁩ | ⁨الطفيل بن عمرو الدوسي ؓ⁩ and his son (`ZIA/E-ZY16`). ⚠ only what he interpreted, never the dream's own words |
 | ⁨البدایہ والنہایہ⁩ 30097 | 1402 | ⁨ج۳ ص۴۲۸⁩ | ⁨حبيب بن زيد ؓ⁩ in Musaylima's hands — «⁨لا أسمع⁩» (`ZIA/E-ZY15`). ⚠ SPEAKER'S DISCRETION |
-
 ## 2026-09-23 — what the missing-detail audit put on cards (`DECISIONS.md` #51)
-
 | Book | Index | Printed | Why |
 |---|---|---|---|
 | ⁨سیر أعلام النبلاء⁩ 10906 | 2262 | ⁨ج۲ ص۲۸۲⁩ | «⁨وَابْنُهَا الآخَرُ عَبْدُ اللهِ بنُ زَيْدٍ المَازِنِيُّ … وَهُوَ الَّذِي قَتَلَ مُسَيْلِمَةَ الكَذَّابَ بِسَيْفِهِ⁩» — the new card `ZIA/E-ZY18`. ⚠ ONE of four names (`QA_BANK.md` §5.3) |
@@ -235,3 +192,17 @@ All cached from the household research notes; this is the register entry for put
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1592 | ⁨ج۱ ص۱۶۶⁩ | martyred at al-Yamāma in 12 AH «⁨هُوَ وَمَوْلاَهُ سَالِمٌ⁩»; his brother Abū Hāshim b. ʿUtba ؓ — «⁨فَأَسْلَمَ يَوْمَ الفَتْحِ، وَحَسُنَ إِسْلاَمُهُ⁩», Muʿāwiya ؓ at his bedside. The house tree's notes (2026-10-01) |
 | ⁨سیر أعلام النبلاء⁩ 10906 | 2086 | ⁨ج۲ ص۱۰۶⁩ | Abū Sufyān ؓ — «⁨رَأْسُ قُرَيْشٍ، وَقَائِدُهُمْ يَوْمَ أُحُدٍ، وَيَوْمَ الخَنْدَقِ⁩»; «⁨تَدَارَكَهُ اللهُ بِالإِسْلاَمِ يَوْمَ الفَتْحِ⁩». `TMW/E-TRN24`; the house tree (2026-10-01) |
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1620 | ⁨ج۱ ص۱۹۴⁩ | Suhayl b. ʿAmr ؓ — «⁨وَكَانَ خَطِيْبَ قُرَيْشٍ، وَفَصِيْحَهُم، وَمِنْ أَشْرَافِهِم⁩»; «⁨تَأَخَّرَ إِسْلاَمُهُ إِلَى يَوْمِ الفَتْحِ، ثُمَّ حَسُنَ إِسْلاَمُهُ⁩». The Suhayl note; the house tree (2026-10-01) |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3170 | ⁨ج۷ ص۲۴⁩ | The Khaybar feint — «⁨وأظهروا ذلك ليرعبوا الأعرابَ⁩». `RCT/E-RC79`, new 2026-10-07 |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3184 | ⁨ج۷ ص۳۸⁩ | Bahrayn: al-Mundhir b. Sāwā ؓ dies; the rising; ⁨جُواثى⁩ besieged and its verses; al-Jārūd ؓ and ʿAbd al-Qays. `RC24`, `RC71`, `ATA/E-TB24` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3185 | ⁨ج۷ ص۳۹⁩ | al-Dahnāʾ as three questions, the fajr and the duʿāʾ; the trench month; al-Ḥuṭam's death and Qays b. ʿĀṣim's «⁨واسوأتاه⁩». `RC25`, `RC26`, `RC73`, `RC74` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3186 | ⁨ج۷ ص۴۰⁩ | ⁨دارين⁩ — the duʿāʾ going into the water, printed in full; the would-be king taken and his Islam; the monk of Hajar. `RC27`, `RC75` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3207 | ⁨ج۷ ص۶۱⁩ | **The year-12 frame** — «⁨استُهلَّت هذه السنة … جَوّالون في البلاد يمينًا وشمالًا⁩»; the «⁨وقد قيل⁩» view on Juwāthā/Oman/Mahra; the four kings and their sister. `RCT/E-RC80`, new 2026-10-07 (`DECISIONS.md` #71) |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3208 | ⁨ج۷ ص۶۲⁩ | The order to Iraq; al-Wāqidī's two accounts of the route and «⁨قلت: والمشهور الأول⁩»; al-Madāʾinī's ⁨المحرم ۱۲ھ⁩, Quṭba b. Qatāda and al-Muthannā b. Ḥāritha. Evening 7's cliffhanger (`ISA/E-C1`) |
+| ⁨الکامل فی التاریخ⁩ 21712 | 892 | ⁨ج۲ ص۲۰۱⁩ | Quḍāʿa struck on Usāma's ؓ return; **Ibn Masʿūd's ؓ verdict on the whole decision** — «⁨لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ⁩». `RCT/E-RC76`; ⬜ the verdict is evening 7's closer and still needs a card |
+| ⁨الکامل فی التاریخ⁩ 21712 | 906 | ⁨ج۲ ص۲۱۵⁩ | The northern sectors — Quḍāʿa and Wadīʿa. `RCT/E-RC76` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 913 | ⁨ج۲ ص۲۲۲⁩ | The Lakhmid restoration «⁨نَرُدُّ الْمُلْكَ⁩…»; al-Ḥuṭam b. Ḍubayʿa, ⁨القَطيف⁩, ⁨هَجَر⁩, ⁨الخَطّ⁩ with the ⁨زُطّ⁩ and ⁨السَّبابجة⁩; **«⁨مِمَّنْ لَمْ يَزَلْ مُشْرِكًا⁩» — the ridda here was not all ridda**. `RC71`, `RC72` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 914 | ⁨ج۲ ص۲۲۳⁩ | The al-Jārūd ؓ pincer at ⁨هَجَر⁩; Abū Hurayra ؓ on the march; «⁨ضوضاء هزيمة أو قتال⁩»; Ibn Ḥadhf and his uncle Abjar b. Bujayr. `RC25`, `RC26`, `RC73` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 915 | ⁨ج۲ ص۲۲۴⁩ | «⁨إلا أهل دارين⁩»; ʿUtayba b. al-Nahhās and al-Muthannā b. Ḥāritha sealing the roads; ʿAfīf b. al-Mundhir; «⁨وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ⁩»; the monk's three reasons; Thumāma ؓ and the cloak. `RC27`, `RC74`, `RC75`, `RC28` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 917 | ⁨ج۲ ص۲۲۶⁩ | The appointments behind §9.1's four actions — ʿAttāb b. Asīd ؓ and the rest. `RCT/E-RC77` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 918 | ⁨ج۲ ص۲۲۷⁩ | **The four coastal and highland sub-fronts, single-source**; and Najrān's delegation renewing its covenant — «⁨أَرْسَلُوا وَفْدًا لِيُجَدِّدُوا عَهْدَهُمْ⁩». `RCT/E-RC77`; ⬜ Najrān still needs `RC78` |
+| ⁨سیر أعلام النبلاء⁩ 10906 | 1690 | ⁨ج۱ ص۲۶۴⁩ | al-ʿAlāʾ b. al-Ḥaḍramī ؓ — his notice, and the sixteen riders. `RCT/E-RC25` |

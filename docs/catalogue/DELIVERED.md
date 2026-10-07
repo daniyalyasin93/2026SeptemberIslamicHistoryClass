@@ -179,3 +179,77 @@ the map with al-Yamāma taken. **These two slides open evening 5** (#23) — Dan
 deck. ⚠ His map colours the whole east green already; by the books Oman and Mahra were still being fought
 (`DECISIONS.md` #58).
 
+
+## Evening 5 — what al-Yamāma cost, the Qurʾān gathered, and ʿIkrima's ؓ road to Oman and Mahra
+
+| | |
+|---|---|
+| Folder | `S05_yamama_dead_oman_mahra/` |
+| Deck delivered | Daniyal's hand-finished `S05.pptx` — **90 slides** (3 hidden), his edit of the 96-slide build. Working tree only, not committed |
+| Delivered | ✅ **yes** — reported by Daniyal 2026-10-07 (⬜ date to confirm) |
+| Stopped at | **Checkpoint 2** — his slide **63** is the Part VII divider, so the evening closed on slides **61–62**: the Line at 12 AH with ʿIkrima's ؓ lane lit, and the map with Oman and Mahra green, Ḥaḍramawt still to come |
+| Not reached | **All of Part VII — Ḥaḍramawt and Kinda** (`KD05`, `YK07`, `RC33`, `YK08`, `YK09`, `YK10`, `YK19`, `YK11`, `YK12`, `YK14`, `PG40`, `YK16`, `PG41`), built as slides 63–86. **They open evening 6.** Bahrayn is still unspoken, and still uncarded in part |
+| Cards spoken | **33** — his pace a third time running (26 · 32 · 34 · 33) |
+
+**What he changed in the deck before delivering** — derived from his own file, not from the runsheet:
+
+| Change | Cards |
+|---|---|
+| **Deleted** — ʿIkrima's ؓ own flashback, with Tree C | `TMW/E-TRN6` (the ship and the vow) · `TRN7` (Umm Ḥakīm ؓ goes after him) · `TRN8` (the cloak). **Daniyal's standing decision, 2026-10-07: his older background is not to be told at all** — ʿIkrima ؓ was introduced on evening 4 (`RC15`) and that stands |
+| **Deleted** | `ZIA/E-ZY12` Abū ʿAqīl ؓ — the arrow he pulled out |
+| **Hidden** (in the deck, not shown) | `AHA/E-AS04` the face at the well (sl 34) · `RCT/E-RC69` the delegation at Medina (sl 42) · `ZIA/E-ZY17` the number nobody can give (sl 43) |
+| **Reordered** | Part V opens on `RCT/E-RC37` (sl 44) — the reason stated first, then the collection told. The runsheet had it last |
+| **Added** | three full-bleed picture slides of his own after Tree A (sl 11–13), no notes |
+
+Cards spoken, in the order delivered (33):
+
+| # | Card | Slide | |
+|---|---|---|---|
+| 1 | `RCT/E-RC67` The terms at the forts | 6 | Part I |
+| 2 | `RCT/E-RC68` To the last man | 7 | Part I |
+| 3 | `THO/E-HS14` «Do not put al-Barāʾ over an army» | 9 | Part II |
+| — | *Tree A — the house of Umm Sulaym ؓ* | 10 | |
+| 4 | `THO/E-HS1` The dower that was Islam | 14 | Part II |
+| 5 | `THO/E-HS9` «It was a loan» | 15 | Part II |
+| 6 | `THO/E-HS15` «Do you see me dying in my bed?» | 16 | Part II |
+| 7 | `THO/E-HS17` The oath at Tustar | 17–18 | Part II |
+| 8 | `ZIA/E-ZY15` The mother at al-Yamāma | 20 | Part III |
+| 9 | `ZIA/E-ZY18` Her other son, and one of the four names | 21 | Part III |
+| 10 | `AHA/E-AS13` The banner nobody would leave on the ground | 23–24 | Part IV |
+| 11 | `ZIA/E-ZY4` The man who killed him | 25 | Part IV |
+| 12 | `ZIA/E-ZY8` Two brothers by appointment | 26 | Part IV |
+| 13 | `ZIA/E-ZY9` «So that I may confirm him dead» | 27 | Part IV |
+| 14 | `ZIA/E-ZY10` «Are you not content to live praised?» | 28 | Part IV |
+| — | *Tree B — the house of ʿUtba b. Rabīʿa* | 29 | |
+| 15 | `AHA/E-AS02` The son of the elder of the Jāhiliyya | 30 | Part IV |
+| 16 | `AHA/E-AS06` From Iṣṭakhr to the banner of the Muhājirūn | 31–32 | Part IV |
+| 17 | `AHA/E-AS07` The imām at Qubāʾ | 33 | Part IV |
+| 18 | `AHA/E-AS09` Take the Qurʾān from four | 35 | Part IV |
+| 19 | `AHA/E-AS15` The hand, and the verse | 36 | Part IV |
+| 20 | `AHA/E-AS16` "Lay me down between them" | 37 | Part IV |
+| 21 | `AHA/E-AS18` "Had Sālim been alive" | 38 | Part IV |
+| 22 | `RCT/E-RC23` Zayd b. al-Khaṭṭāb ؓ, and his brother | 39 | Part V |
+| 23 | `RCT/E-RC37` The Qurʾān was collected because of this | 44 | Part V — moved to open |
+| 24 | `ABU/E-Q7` The boy who learned the Jews' script in a fortnight | 45 | Part V |
+| 25 | `RCT/E-RC65` «How do you do a thing the Prophet ﷺ did not do?» | 46 | Part V |
+| 26 | `ABU/E-Q3` Parchment, shoulder-blades, palm-stalks, and the breasts of men | 47 | Part V |
+| 27 | `ABU/E-Q4` ʿAlī ؓ on who deserves the credit | 48 | Part V |
+| 28 | `ABU/E-Q5` Where the ṣuḥuf went | 49 | Part V |
+| — | **Checkpoint 1** — the Line and the map | 50–51 | passed through |
+| 29 | `RCT/E-RC70` Oman asked for help | 54–55 | Part VI |
+| 30 | `RCT/E-RC29` Dabā — the relief that came from inside the theatre | 56–57 | Part VI |
+| — | *Oman settled* — the front closing on its own map (#69) | 58 | |
+| 31 | `RCT/E-RC30` Mahra — the front won with a letter | 59–60 | Part VI |
+
+*(31 card slides; 33 counting the two Parts that ran a map slide and a words slide as one telling each.
+Non-card slides: 1 title · 2–3 bookend IN · 4, 8, 19, 22, 40, 52 part dividers · 5 the recap map ·
+11–13 his pictures · 41, 53 bridges · 50–51 Checkpoint 1 · 58 Oman closing · 61–62 Checkpoint 2.)*
+
+**Still available, never spoken:** `TMW/E-TRN6`, `TRN7`, `TRN8` (**and not to be told** — Daniyal's
+decision) · `ZIA/E-ZY12` · `AHA/E-AS04` · `RCT/E-RC69` · `ZIA/E-ZY17`.
+
+**Told from memory, on no card:** ⬜ **to ask Daniyal.** Until he answers, evening 6 must assume nothing
+was added — and anything he did tell is spent (`DECISIONS.md` #56).
+
+**Closing pair used:** Checkpoint 2 — the Line at 12 AH with Oman and Mahra on ʿIkrima's ؓ lane, and the
+map with Oman and Mahra green and Ḥaḍramawt still grey. **These two slides open evening 6** (#23).

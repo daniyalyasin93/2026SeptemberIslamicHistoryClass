@@ -1,5 +1,26 @@
 # STATUS — read this first, every session
 
+> **2026-10-07 · RESUME POINT — read this first. Evening 5 was DELIVERED to Checkpoint 2. Evening 6 is PLANNED, not built.**
+> Daniyal delivered `S05.pptx` (his own 90-slide edit of the 96-slide build) and **stopped at his slide 63** — the
+> Part VII divider. So the evening closed on **Checkpoint 2**: Oman and Mahra green, Ḥaḍramawt still grey.
+> **33 cards spoken** — the fourth reading of the same pace (26 · 32 · 34 · 33).
+> His aim, settled this day as `DECISIONS.md` **#70**: **wrap the Ridda on evening 6, and make evening 7 the hinge** —
+> the peninsula in one colour, the two empires, and a cliffhanger at the order to Iraq.
+>
+> | What | State |
+> |---|---|
+> | `docs/catalogue/DELIVERED.md` | ✅ **evening 5 recorded**, derived from his own file: 33 cards, the three he hid (`AS04`, `RC69`, `ZY17`), the two he deleted (`ZY12`, and the whole ʿIkrima ؓ backstory block), the Part V reorder, and his three inserted picture slides. ⬜ **What he told from memory is still owed — ask him** (#56) |
+> | `docs/specs/2026-10-07-evenings-6-and-7-spec.md` | ✅ **the plan for both evenings**, with the arithmetic, evening 7's shape, the cliffhanger's page-cited chronology, and the one research gap |
+> | `S06_hadramawt_bahrayn/RUNSHEET.md` | ✅ **30 cards in three parts** — I Ḥaḍramawt and Kinda (13, **built**) · II Bahrayn told whole (11, ⬜ to card) · III the fronts nobody tells (6, ⬜ to card). ~56 min budgeted ≈ **41 min spoken** |
+> | Part I's production | ✅ **nothing to build.** Evening 5's slides 63–90 are byte-identical to the build: maps rendered and placed, click layers named, all 27 notes written. ⬜ **Eleven `FACE_TITLE` faces (#68)** — written out in the runsheet — and a cut |
+> | ⬜ **The critical path** | **beats.** Eleven existing cards this evening uses carry no `Beats:` line, and **nine cards do not exist yet** (`RC71`–`RC79`). Beats are what reach the notes (#39, #60). **No new Shamela fetches: every page is cached** (30097/3184–3187 · 21712/912–915 · 10906/1688–1690) |
+> | ⬜ Maps | `bahrain-darin` and `southern-fronts` **already exist on the same schema** but have every object on `step: 1` — they need `step`/`until` authored in Map Studio, **not new scenes** |
+> | ⬜ Evening 7's one gap | **the condition of the two empires in 11–12 AH is nowhere in this repo.** A page-cited note is owed. Three things make it cheap — see the spec §4 |
+> | Completeness pass | Found **21 findings in §7 (Bahrayn) on no card**, and **six Ridda fronts/actions with no cards at all**: Quḍāʿa and the northern corps · ⁨مشارف الشام⁩ (correctly empty — *"do not draw him a battle"*) · ⁨تهامة اليمن⁩ · §9.1's four coastal actions · Najrān renewing its covenant · the Khaybar feint. Also **uncarded: Ibn Masʿūd's ؓ verdict on the whole war**, ⁨الکامل ج۲ ص۲۰۱⁩ — the best closing line in the material |
+> | ⚠ Standing, from today | **ʿIkrima's ؓ own background is not told, in any evening** (#70.4). `TRN6`, `TRN7`, `TRN8` and Tree C are struck for good |
+> | ⚠ Do not rebuild | **`S05.pptx` is his.** It differs from HEAD and holds four pasted images, three hide flags, two resequenced cards, a retyped headline and an Urdu line in slide 10's notes. Commit it as his version (#67); never build over it |
+
+
 > **2026-09-27 · RESUME POINT — read this first. Evening 4 was DELIVERED to STOP D; evening 5 is BUILT (second pass).**
 > Evening 4 stopped at Daniyal's slide 67 (STOP D, after `RC22`) — recorded in `docs/catalogue/DELIVERED.md`,
 > **with what he told from memory**, which evening 5 does not repeat. His four reports changed the pipeline:
@@ -19,7 +40,7 @@
 > | `docs/specs/2026-09-27-evening-5-spec.md` | ✅ implemented; §9 records the second pass |
 >
 > **Evening 6** = whatever evening 5 does not reach (at the room's pace: ʿIkrima's ؓ road, Oman to al-Nujayr — built),
-> then **Bahrayn**, told as *"meanwhile"*: ⬜ **its five cards have no beats, and §7 carries findings on no card —
+> then **Bahrayn**, told as *"meanwhile"*: ⬜ (CLEARED 2026-10-07) its five cards had no beats, and §7 carries findings on no card —
 > card them first**. Then Ibn Kathīr's summing-up. Open for Daniyal: whether `RC49` was told on evening 4; the
 > green; the worksheet.
 
