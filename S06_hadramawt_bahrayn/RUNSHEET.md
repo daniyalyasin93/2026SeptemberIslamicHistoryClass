@@ -208,23 +208,92 @@ instruction) · `TB28`, `TB23`, `TB20` (spent) · `TB11` (a man who *did* break 
 
 ## Introductions checked
 
-⬜ To complete once the cards exist. Rows already known to be owed:
+Every proper name `tools/check_introductions.py` finds appearing for the first time in the series.
+**"No notice needed" is a valid answer** (#43) — the rule is that somebody looked.
 
-| Name / thing | First appears | Answer |
+| Name | First appears | Answer |
 |---|---|---|
-| al-ʿAlāʾ b. al-Ḥaḍramī ؓ | II, #9 | ⬜ **needs a notice** — commands a whole front, never named in the series. ⁨سیر ج۱ ص۲۶۴⁩ |
-| al-Mundhir b. Sāwā ؓ | II, #5 | ⬜ one line — the Prophet's ﷺ governor, dead shortly after him |
-| al-Ḥuṭam b. Ḍubayʿa | II, #6 | ✅ `RC72` **is** his introduction — the defect it exists to fix |
-| al-Jārūd b. al-Muʿallā ؓ | II, #8 | ⬜ of ʿAbd al-Qays — notice on the card |
-| Abū Hurayra ؓ | II, #9 | ⬜ **no notice needed** — but say *why* he is here |
-| al-Muthannā b. Ḥāritha | II, #13 | ⬜ **forward reference — frame it aloud.** The Iraq evenings need him |
-| Qays b. ʿĀṣim · ʿAfīf b. al-Mundhir · Abjar b. Bujayr | II, #11–12 | ⬜ one line for Qays; **no notice needed** for the other two |
-| Thumāma b. Uthāl ؓ | II, #15 | ✅ met evening 4 (`RC64`) — a callback |
-| Khālid b. Saʿīd b. al-ʿĀṣ ؓ · Jundub b. Salmā | I, #3–#4 | ⬜ a banner on a roster, and a name with a battle. **Say that and no more** |
-| al-Ashʿath b. Qays | III, #16 | ✅ `KD05` is his introduction, at the head of the delegation |
-| al-ʿAddāʾ · Ḥāritha b. Surāqa · Shuraḥbīl b. al-Simṭ and his son | IV, #19–#20 | ⬜ named on the face now — one clause each from the card |
-| Jaḥdam | IV, #24 | ⬜ **no notice needed** — a man with a knife is all the books give |
-| Jarīr b. ʿAbd Allāh ؓ | V, #28 | ⬜ one line — the measure al-Ashʿath ؓ steps back for |
-| Ziyād b. Labīd ؓ | IV, #17 | ⬜ heard once in a clause on evening 3 — **notice in one breath** |
-| ⁨البسوس⁩ | IV, #19 | ✅ standing ⚠ — *"an old war that had started the same way"*, no name |
-| al-Qādisiyya · Nahāwand · al-Yarmūk | V, #27 | ✅ `YK16` beat 1 frames them |
+| Line | Part I · `RCT/E-RC80` | NOT A NAME — the Line, our timeline strip. |
+| Gulf | Part I · `RCT/E-RC80` | NOT A NAME — the Gulf, on the map. |
+| Khaybar | Part I · `RCT/E-RC79` | A PLACE, and the room knows it. `[STANDARD]` (to verify) caps what may be said: the Jewish settlement north of Medina taken in 7 AH. The card needs no more. |
+| al-Asadī | Part I · `RCT/E-RC79` | Ṭulayḥa al-Asadī — **met on evening 2** (`ATA/E-TB14`, `RCT/E-RC09`, `TMW/E-TRN13`–`TRN15`), and he comes back on evening 6 only inside `YK16`'s forward reference. A callback. |
+| Imruʾ | Part I · `RCT/E-RC76` | Part of a name in ⁨الکامل⁩'s Quḍāʿa roster (⁨امرؤ⁩ …). Said as the page says it; no notice. |
+| al-Kalbī | Part I · `RCT/E-RC76` | The nisba of Wadīʿa al-Kalbī — see his row. |
+| Kalb | Part I · `RCT/E-RC76` | A TRIBE of Quḍāʿa. Named on the card; no notice. |
+| al-Qayn | Part I · `RCT/E-RC76` | A TRIBE of Quḍāʿa. Named on the card. |
+| al-Wālibī | Part I · `RCT/E-RC76` | A nisba in ⁨الکامل⁩'s Quḍāʿa account. Named once, as the page names it. |
+| Hudhaym | Part I · `RCT/E-RC76` | A TRIBE of Quḍāʿa. Named on the card. |
+| Zumayl | Part I · `RCT/E-RC76` | Zumayl al-Qaynī — of Quḍāʿa, in `RC76`. ⚠ «⁨فَسَارَ بِوَدِيعَةَ إِلَى عَمْرٍو، فَأَقَامَ لِزُمَيْلٍ⁩» is too compressed to build a battle from, and the card says so. |
+| al-Qaynī | Part I · `RCT/E-RC76` | The nisba of Zumayl al-Qaynī — see his row. |
+| Wadīʿa | Part I · `RCT/E-RC76` | Wadīʿa al-Kalbī — of Quḍāʿa. ⚠ **Whether he was captured or marched against cannot be settled from the page.** `RC76` states the gap rather than choosing. |
+| ʿAttāb | Part I · `RCT/E-RC77` | ʿAttāb b. Asīd ؓ — the Prophet's ﷺ own agent over Mecca. One line on `RC77`, where he sends his brother Khālid. |
+| Tihāma | Part I · `RCT/E-RC77` | A REGION — the Red Sea coastal plain. Already on the series map since evening 3. |
+| Mudlij | Part I · `RCT/E-RC77` | A TRIBE in §9.1's Tihāma action. Named on the card. |
+| Khuzāʿa | Part I · `RCT/E-RC77` | A TRIBE. Met on evening 1 in the Mecca material; here only as one of three named in §9.1. |
+| Jundub | Part I · `RCT/E-RC77` | Jundub b. Salmā — **a name with a battle and nothing else.** ⁨الکامل ج۲ ص۲۲۷⁩ gives him al-Abāriq and his escape home, and no date and no end. The card says so. |
+| al-Abāriq | Part I · `RCT/E-RC77` | A PLACE — where Khālid b. ʿAttāb met Jundub b. Salmā. ⁨الکامل⁩ alone names it. |
+| Shanūʾa | Part I · `RCT/E-RC77` | A BRANCH OF AZD (⁨أزد شنوءة⁩). Named as the page names it; the Azd are met properly on evening 7 (`TB25`). |
+| Azd | Part I · `RCT/E-RC77` | A TRIBE the room already knows — Laqīṭ al-Azdī of Oman was evening 5 (`RC70`). **Evening 7's `TB25` is the card that does the Azd properly.** |
+| Khathʿam | Part I · `RCT/E-RC77` | A TRIBE in §9.1. Named on the card. |
+| Ḥumayḍa | Part I · `RCT/E-RC77` | Ḥumayḍa b. al-Nuʿmān — as Jundub: a name, an action, and a flight into open country. Nothing further is recorded. |
+| al-Aʿlāb | Part I · `RCT/E-RC77` | A PLACE in ⁨الكامل⁩'s §9.1 account. Named once, as the page names it. |
+| Ashʿarīs | Part I · `RCT/E-RC77` | A PEOPLE in §9.1. Named on the card. |
+| Masrūq | Part I · `RCT/E-RC77` | A posting in ⁨الکامل ج۲ ص۲۲۶⁩. Named once; no date and no action of his own. |
+| al-Akhābith | Part I · `RCT/E-RC77` | A NAME GIVEN TO A PEOPLE AND THEIR ROAD by Abū Bakr ؓ, in ⁨الکامل ج۲ ص۲۲۷⁩ — which says it was still on them in Ibn al-Athīr's own day. The card explains it where it falls; no separate notice. |
+| al-Khalaṣa | Part I · `RCT/E-RC77` | ⁨ذو الخلصة⁩ — ⚠ **no page-cited gloss exists in this repo.** Repeat only the page's own phrase and do not describe it. |
+| al-ʿAlāʾ | Part II · `RCT/E-RC71` | ⬜ **NEEDS HIS NOTICE, and it is beat 1 of `RC25`** — al-ʿAlāʾ b. al-Ḥaḍramī ؓ commands this whole front and has never been named in the delivered series. ⁨سیر ج۱ ص۲۶۴⁩. |
+| al-Mundhir | Part II · `RCT/E-RC71` | al-Mundhir b. Sāwā al-ʿAbdī ؓ — **the Prophet's ﷺ own governor in Bahrayn.** `RC71` is his introduction: one line, and his death is what starts the front. |
+| al-ʿAbdī | Part II · `RCT/E-RC71` | His nisba — see al-Mundhir. |
+| al-Jārūd | Part II · `RCT/E-RC71` | al-Jārūd b. al-Muʿallā ؓ, of ʿAbd al-Qays. **`TB24` is his introduction** and he is the loyalist half of the Bahrayn map. |
+| Give | Part II · `RCT/E-RC71` | NOT A NAME — the first word of a runsheet instruction. |
+| al-Ḥuṭam | Part II · `RCT/E-RC72` | **`RC72` IS his introduction** — the #43 defect this pass exists to fix. Before it, his death and his cloak carried two cards and the room met a stranger. |
+| al-Qaṭīf | Part II · `RCT/E-RC72` | A PLACE on the Bahrayn coast. The map names it; no notice. |
+| Hajar | Part II · `RCT/E-RC72` | A PLACE — the main town of Bahrayn, where the trench month was fought. The map names it. |
+| al-Khaṭṭ | Part II · `RCT/E-RC72` | A PLACE on the Bahrayn coast, drawn in by al-Ḥuṭam. The map names it. |
+| Zuṭṭ | Part II · `RCT/E-RC72` | A PEOPLE al-Ḥuṭam drew in at al-Khaṭṭ — ⚠ **`RC72` glosses them from the page and no further**; they are on no other card in the repo. |
+| Sabābija | Part II · `RCT/E-RC72` | As Zuṭṭ — glossed on `RC72` from the page, and no further. |
+| Dārīn | Part II · `RCT/E-RC72` | A PLACE — the island a day and a night out from the shore. The map names it, and the crossing is a map click. |
+| Lakhmid | Part II · `RCT/E-RC24` | A DYNASTY — the old kings of al-Ḥīra. `RC71` is its introduction, and it is the point of that card. ⚠ **No king of it is named** (three books, three forms). |
+| ʿĀṣim | Part II · `RCT/E-RC25` | Qays b. ʿĀṣim al-Minqarī — one line on `RC74`, from the page, where he kills al-Ḥuṭam and then says «⁨واسوأتاه⁩». |
+| Rabāb | Part II · `RCT/E-RC25` | A name in ⁨الکامل⁩'s Bahrayn account. Named once, as the page names it; no notice. |
+| al-Minqarī | Part II · `RCT/E-RC25` | See ʿĀṣim. |
+| al-Dahnāʾ | Part II · `RCT/E-RC25` | A PLACE — the sand belt the sixteen riders crossed. The map names it. |
+| Hurayra | Part II · `RCT/E-RC25` | Abū Hurayra ؓ — **no notice needed, the room knows him.** But `RC25` says *why* he is here: he was on that march, and went back afterwards with a guide to look at the place. |
+| Minjāb | Part II · `RCT/E-RC25` | The man in ⁨البدایہ⁩'s al-Dahnāʾ account. Named once, as the page names him; the card gives him no more than the page does. |
+| ʿIjl | Part II · `RCT/E-RC26` | A TRIBE — Bakr b. Wāʾil's branch in the trench account. Named on the card. |
+| Abjar | Part II · `RCT/E-RC73` | **No notice needed** — Abjar b. Bujayr exists in the story only as the uncle in the enemy camp who recognises his sister's son. ⚠ And `RC73` carries the open question: is Ibn Ḥadhf one man or two? The books do not say. |
+| Companionship | Part II · `RCT/E-RC73` | NOT A NAME — the word in a "no honorific" warning. |
+| Taym | Part II · `RCT/E-RC73` | A TRIBE — the nisba of ʿAfīf b. al-Mundhir al-Taymī. Named on the card. |
+| al-Lāt | Part II · `RCT/E-RC73` | AN IDOL, in a line of ⁨الکامل⁩'s. Said as the page says it; no gloss, and nothing built on it. |
+| ʿAfīf | Part II · `RCT/E-RC74` | **No notice needed** — ʿAfīf b. al-Mundhir al-Taymī is named once, as the man who took al-Ḥuṭam's foot off, and once as the man who took the would-be king prisoner. ⁨الکامل ج۲ ص۲۲۴⁩. |
+| al-Taymī | Part II · `RCT/E-RC74` | See Taym. |
+| Not | Part II · `RCT/E-RC74` | NOT A NAME — the first word of a warning. |
+| ʿUtayba | Part II · `RCT/E-RC27` | ʿUtayba b. al-Nahhās — named once on `RC27`, as one of the two men set to sit on the roads. |
+| al-Muthannā | Part II · `RCT/E-RC27` | ⬜ **A FORWARD REFERENCE, and `RC27` beat 5 frames it aloud.** al-Muthannā b. Ḥāritha al-Shaybānī seals the roads here, and the Iraq evenings will need him — he is on البدایہ ج۷ ص۶۲ holding Kufa for Khālid ؓ. ⚠ He carries no honorific on the pages we hold for this evening. |
+| Bridge | Part II · `RCT/E-RC27` | NOT A NAME — a build term. |
+| RCT | Part II · `RCT/E-RC28` | NOT A NAME — a card-id prefix. |
+| E-RC | Part II · `RCT/E-RC28` | NOT A NAME — a card-id prefix. |
+| Part | Part II · `RCT/E-RC28` | NOT A NAME — a runsheet heading. |
+| Tell | Part II · `RCT/E-RC28` | NOT A NAME — the first word of a delivery note. |
+| Ākil | Part III · `KTK/E-KD05` | Ākil al-Murār — the ancestor of Kinda's kings. **Tree D is his introduction**, and `KD05` is the room hearing his name claimed. ⚠ No source ties the old kingship to the ridda. |
+| al-Murār | Part III · `KTK/E-KD05` | See Ākil. |
+| al-Ashʿath | Part III · `KTK/E-KD05` | **`KD05` IS his introduction** — at the head of the Kinda delegation, in kohl and silk. ⚠ And the honorific moves with the man: **al-Ashʿath b. Qays** until the pardon, **al-Ashʿath ؓ** after it (#68 table). |
+| al-Naḍr | Part III · `KTK/E-KD05` | al-Naḍr b. Kināna — named by the Prophet ﷺ in `KD05`'s own answer. The room met the name on evening 5 (Tree A has a different al-Naḍr — ⚠ **say "al-Naḍr b. Kināna" in full here**, or the room will join two houses that are not joined). |
+| Bayāḍa | Part IV · `TSY/E-YK07` | A clan name in `YK07`'s account of the ṣadaqa arrangement. Named as the page names it; no notice. |
+| Shadhra | Part IV · `RCT/E-RC33` | A SHE-CAMEL — and she is the card. `RC33` names her and that is the whole point of the slide face (#68). |
+| al-Basūs | Part IV · `TSY/E-YK08` | ✅ **Answered as a standing ⚠.** ⁨البسوس⁩ carries the whole force of `YK08`'s warning and **we have no page for it.** Say only *"an old war that had started the same way"* — and no name. |
+| al-ʿAddāʾ | Part IV · `TSY/E-YK08` | The owner of the camel, and now the face of `YK08` (#68). One clause from the card: of Banū ʿAmr of Kinda, the man who called out to his clan. |
+| Al-Ḥuṣayn | Part IV · `TSY/E-YK08` | al-Ḥuṣayn b. Numayr — sent against the gathering in `YK08`. Named once, as the page names him. |
+| al-Sakāsik | Part IV · `TSY/E-YK09` | A PEOPLE of Ḥaḍramawt, named in `YK09` as drifting toward the rebels. Named on the card. |
+| Mikhwaṣ | Part IV · `TSY/E-YK10` | One of **the four kings**, and `YK10`'s face now carries all four names (#68). ⚠ The spellings differ between the manuscripts and the printed edition; **use the pool's forms** — Mikhwaṣ, Mishraḥ, Jamad, Abḍaʿa. |
+| Mishraḥ | Part IV · `TSY/E-YK10` | See Mikhwaṣ. |
+| Jamad | Part IV · `TSY/E-YK10` | See Mikhwaṣ. |
+| Abḍaʿa | Part IV · `TSY/E-YK10` | See Mikhwaṣ. |
+| al-ʿAmarrada | Part IV · `TSY/E-YK10` | Their sister, taken captive. Named on the card as the page names her, and nothing more is said of her — ⚠ **the books give nothing further; do not supply an ending.** |
+| Maḥjar | Part IV · `TSY/E-YK11` | A PLACE — ⁨مَحْجَر الزُّرقان⁩, where Kinda broke. One place-name, said once; the map carries it. |
+| al-Zurqān | Part IV · `TSY/E-YK11` | Part of ⁨مَحْجَر الزُّرقان⁩ — see that row. |
+| al-Nujayr | Part IV · `TSY/E-YK11` | A PLACE — the fort of the last siege. **The room has heard it promised three evenings running**; tonight it arrives. |
+| Jaḥdam | Part IV · `TSY/E-YK12` | **No notice needed** — a man with a knife, and that is all the books give. He is the whole reason al-Ashʿath forgot to write his own name in, so he is named once and never again. |
+| Rustam | Part V · `TSY/E-YK16` | ⬜ **A FORWARD REFERENCE, and `YK16` beat 1 frames it aloud** — al-Qādisiyya is an evening not yet reached. He is named, not explained. |
+| Yarmūk | Part V · `TSY/E-YK16` | ⬜ **A FORWARD REFERENCE**, framed the same way by `YK16` beat 1. ⚠ Its own year is disputed in the books; say nothing that fixes it. |
+| Jābir | Part V · `TSY/E-YK16` | Jābir b. ʿAbd Allāh ؓ — **no notice needed**, the room knows him. `YK16` records what Ibn Kathīr reports him swearing about the army at al-Qādisiyya. ⚠ The saying comes through ⁨سيف بن عمر⁩: say *"Ibn Kathīr records that…"*. |
