@@ -47,3 +47,7 @@ S04_kinda_butah_yamama/S04.pptx
 S05_yamama_dead_oman_mahra/visuals/maps/
 S05_yamama_dead_oman_mahra/.build/
 S05_yamama_dead_oman_mahra/S05_sheet.png
+
+# evening 6 (DECISIONS #72): the map renders are 60 MB and are reproducible from the scene files by
+# make_maps.py in one command. The scenes and the Line images are committed; the renders are not.
+S06_hadramawt_bahrayn/visuals/maps/

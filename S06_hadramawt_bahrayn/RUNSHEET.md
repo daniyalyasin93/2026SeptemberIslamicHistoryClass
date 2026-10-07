@@ -153,7 +153,7 @@ week: what Abū Bakr ؓ did with him."*
 | 27 | `TSY/E-YK16` "We suspected three men" | CORE | 2 | 51.5 | **↪ Forward, framed by beat 1** — al-Qādisiyya and Nahāwand are evenings ahead |
 | 28 | `POT/E-PG41` This man did not apostatise, and I did | CORE | 1 | 52.5 | **↪ Years later, at a funeral.** Closes on a man who came back — and on his own sentence about himself |
 
-## The close
+### The close — the spoken script (the slides come from `build.py`, not from a table)
 
 Line: 12 AH, every lane lit but the ones not told. Map: the last grey gone. **«Tonight»** — headings, one
 lesson line each in the notes (#59): *Right and left · The front that started first · Who Kinda were · The
@@ -222,7 +222,7 @@ movement in time at all. ✅ **All five now carry beats** (2026-10-07).
 | 37 | `RCT/E-RC43` The eleven banners — who went where | GOOD | 2 | 69.5 | **A recap, not news** — the room met the moment on evening 2 (`RC05`). The roster read back now, with every sector green |
 | 38 | `RCT/E-RC35` The captives bought back | CORE | 1.5 | 71 | **↪ Forward to ʿUmar's ؓ caliphate — frame it aloud**, the way `AS18` was framed on evening 5. «⁨إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا⁩» — the peninsula in one colour at last |
 
-**✓ Checkpoint 4 — after #38.** ⬜ new pair. **The second natural close, and the one that ends the Ridda.**
+**✓ Checkpoint 4 — after #37 (`RC43`), with `RC35` as the last card and the close after it.** ⬜ new pair. **The second natural close, and the one that ends the Ridda.**
 - **The Line:** 11→12 AH, every lane of the Ridda lit. **The map:** Arabia in one colour.
 - **Out of time:** *"Two years after the Prophet ﷺ died, every man in Arabia was on the same side. Next week:
   there were two empires on the other side of the desert — did either of them know?"*
@@ -233,7 +233,14 @@ movement in time at all. ✅ **All five now carry beats** (2026-10-07).
 |---|---|---|---|---|---|
 | 39 | `IKO/E-IKR1` ⭐ What the religious call does to ⁨عصبیہ⁩ | CORE | 2 | 73 | **ONE slide, not a block.** ⁨ابن خلدون ج۱ ص۱۹۸⁩. ⁨عبرت⁩: *"What changed in Arabia was not how many men there were, but which way they were all facing."* ⚠⚠ **#29: his name on the face, and the words *"as he reads it"*** — he never wrote this about the Ridda; joining his chapter to year 11 is the course's doing, not his |
 
-## Part IX — The other side of the desert
+## Held — everything below this line is NOT in the deck
+
+⚠ **This heading is load-bearing.** `build_full_deck.runsheet()` ends a part only at the next `## `
+heading — a `###` does not close one. Without this line, Part VIII swallows every table below it and
+the unbuilt futūḥ cards walk into the deck. (Found the hard way, 2026-10-07: the first S06 build
+carried `ISA/E-C1`, `C7` and `C2` onto slides with no beats behind them.)
+
+### Part IX — The other side of the desert — ⬜ NOT BUILT (the build skips a ### heading)
 
 ⬜⬜ **THE ONE REAL GAP IN THE WHOLE DECK.** The condition of the two empires in 11–12 AH is **nowhere in this
 repo** — not Sasanian succession after Khosrau II, not Heraclius's war of 602–628. `docs/PRIMER.md` has one
@@ -251,7 +258,7 @@ unsourced sentence and `maps/world_632_kandg.png` is a video frame (`MAPS.md`: s
 **If the note comes back thin, build the part from what Muslims said about the two empires rather than from
 what the two empires were** — the callback, Khālid's ؓ line, and Part VIII's slide. That is honest, and enough.
 
-## Part X — Two letters leave Medina (⁨المحرم ۱۲ھ⁩ → early 13 AH)
+### Part X — Two letters leave Medina — ⬜ NOT BUILT (the build skips a ### heading) (⁨المحرم ۱۲ھ⁩ → early 13 AH)
 
 ⬜ **None of these four has beats — no `ISA` or `GSA` card in the pool does.**
 
@@ -262,7 +269,7 @@ what the two empires were** — the callback, Khālid's ؓ line, and Part VIII's
 | 42 | `GSA/E-ST8` The charge to Yazīd b. Abī Sufyān ؓ | CORE | 2 | 79 | ⁨الکامل ج۲ ص۲۴۹⁩ — the same scene from inside. «⁨إِنِّي قَدْ وَلَّيْتُكَ لِأَبْلُوَكَ وَأُجَرِّبَكَ … فَإِيَّاكَ وَعُبِّيَّةَ الْجَاهِلِيَّةِ⁩». Ibn al-Athīr, printing it, calls it one of the best charges ever given to a man in office |
 | 43 | `GSA/E-ST9` «I am one arrow — shoot me where it is hardest» | GOOD | 1.5 | 80.5 | ʿAmr b. al-ʿĀṣ ؓ, offered the Syrian command and left free to keep his own post, answers in one sentence |
 
-## The close — the cliffhanger
+### The close — the cliffhanger — ⬜ NOT BUILT
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
