@@ -315,6 +315,14 @@ is not one thing. Their views differed in the days of the ridda. Some of them tu
 zakāt. Some of them sent the ṣadaqa money in to Abū Bakr ؓ. And some of them held back to see how the
 matter would go. That is one tribe in three states at the same moment. Any map that shades Banū Tamīm
 a single colour is contradicted by the book it claims to be drawn from.
+**Beats:**
+1. The book stops its own narrative to say what Banū Tamīm did — and it is not one thing.
+2. Some of them turned, and withheld the zakāt.
+3. Some of them sent the ṣadaqa money in to Abū Bakr ؓ.
+4. And some held back to see how the matter would go.
+5. One tribe, in three states, in the same month. ⚠ **The room met Banū Tamīm on evening 4, at al-Buṭāḥ** — this is that tribe, counted honestly.
+6. Any map that shades Banū Tamīm a single colour is contradicted by the book it claims to be drawn from.
+**Quote after beat:** 1
 **The statement:**
 > كانت بنو تميم قد اختلفتْ أراؤُهم أيام الرِّدَّة، فمنهم من ارتدَّ ومنعَ الزكاة، ومنهم منْ بعثَ بأموالِ الصَّدقات إلى الصدِّيق، ومنهم من توقف لينظر في أمره.
 > — البدایہ والنہایہ ج۷ ص۲۸ · https://shamela.ws/book/30097/3174
@@ -396,6 +404,13 @@ in astonishment: what is this about the rule of Abū Bakr? The longer version at
 he is to leave it to Bakr after him, and calls that, by God's life, a thing that breaks the back.
 Nothing in those lines denies the prayer, and nothing in them denies the Prophet ﷺ. What they object
 to is who is to be obeyed now.
+**Beats:**
+1. The book twice prints a verse from the refusing side — so the objection can be heard in its own words, not in ours.
+2. *"We obeyed the Messenger of Allah while he was among us — so what is this about the rule of Abū Bakr?"*
+3. The longer version at ⁨ج۷ ص۲۰⁩ asks whether it is to be left to Bakr after him, and calls that a thing that breaks the back.
+4. Nothing in those lines denies the prayer. Nothing in them denies the Prophet ﷺ.
+5. What is objected to is **who is to be obeyed now.** ⚠ Say that plainly and stop — it is an observation about what the verse says, not a verdict on anybody.
+**Quote after beat:** 2
 **The statement:**
 > أطعنَا رسولَ اللهِ إذْ كانَ بَيْننا … فواعَجَبًا ما بَالُ مُلْكِ أبي بَكْرِ
 > — البدایہ والنہایہ ج۷ ص۱۸ · https://shamela.ws/book/30097/3164 (and again ج۷ ص۲۰ ·
@@ -689,6 +704,13 @@ Abī al-ʿĀṣ ؓ over them for what he saw of his intelligence and his eagerne
 the youngest man in the delegation. Abū Bakr ؓ then confirmed him over Ṭāʾif, and after him ʿUmar ؓ.
 Tribes that had been inside Islam far longer broke. So the variable was not the age of the
 conversion.
+**Beats:**
+1. Thaqīf at Ṭāʾif had come into Islam only in the year 9 — **two years before all this.**
+2. And they did not flee, and they did not turn.
+3. What was standing among them was one man: ʿUthmān b. Abī al-ʿĀṣ ؓ, whom the Prophet ﷺ put over them for what he saw of his intelligence and his eagerness for good — **and he was the youngest man in the delegation.**
+4. Abū Bakr ؓ confirmed him over Ṭāʾif, and ʿUmar ؓ after him. Three caliphs left him where he was.
+5. Tribes that had been inside Islam far longer broke. **So the variable was not how long they had been Muslim.**
+**Quote after beat:** 2
 **The statement:**
 > وقد كانت ثقيفُ بالطائف ثَبَتوا على الإسلام، لم يفرُّوا ولا ارتدّوا
 > — البدایہ والنہایہ ج۷ ص۹ · https://shamela.ws/book/30097/3155
@@ -697,7 +719,7 @@ conversion.
 
 **عبرت:** The newest Muslims in the peninsula held, and what was standing among them was a man the
 Prophet ﷺ had chosen and Abū Bakr ؓ left exactly where he was.
-**Hands-up?** Before telling it: *"Which would you expect to break first — the oldest Muslims, or the
+**Hands-up?** Before beat 1: *"Who do you think held firmer that year — the oldest Muslims in Arabia, or the newest?"*
 newest?"*
 **The man, from سیر أعلام النبلاء ج۲ ص۳۷۴** (https://shamela.ws/book/10906/2354), الذہبی رحمہ اللہ
 on **عثمان بن أبي العاص ؓ الثقفي الطائفي**:
@@ -797,6 +819,14 @@ revolt behind Laqīṭ b. Mālik al-Azdī, who was called Dhū al-Tāj and who a
 while the Azd of Medina were carrying the banner of the Anṣār at al-Yamāma under Thābit b. Qays b.
 Shammās ؓ, who dug his feet into the ground to his shins and died standing there. One descent, two
 ends of the map, two opposite choices in the same year.
+**Beats:**
+1. ⚠ **Frame it before you tell it:** this is the fact that stops a genealogy from turning into a theory.
+2. The Anṣār of Medina are of al-Azd. So are the Azd of Oman.
+3. In the same months, the Azd of Oman were in open revolt behind Laqīṭ b. Mālik al-Azdī — **whom the room met last week** (`RC70`).
+4. And the Azd of Medina were carrying the banner of the Anṣār at al-Yamāma under Thābit b. Qays ؓ — **whom the room met on evening 4** — who dug his feet into the ground to his shins and died standing there.
+5. One descent. Two ends of the map. Two opposite choices in the same year.
+6. ⚠ **It is a statement about that year, not about anybody alive.** Do not let it become one.
+**Quote after beat:** 3
 **The statement:**
 > فنبغَ فيهم رجلٌ يقالَ له: ذو التاج لَقيطُ بن مالك الأَزدي، وكان يُسَمَّى في الجاهلية الجُلَنْدَى، فادّعى النُّبوَّة أيضًا
 > — البدایہ والنہایہ ج۷ ص۴۱ · https://shamela.ws/book/30097/3187
@@ -3204,6 +3234,14 @@ community.
 one another. He consulted about ransoming the captives taken in these wars and set a price — six or
 seven camels a head — and made it lighter for Ḥanīfa and Kinda, because so many of their men had been
 killed. Then the women were sought out wherever they had been taken.
+**Beats:**
+1. ↪ **Frame the jump aloud: years later, in ʿUmar's ؓ caliphate.** ⚠ The page does not fix the year — «⁨لَمَّا وَلِيَ عُمَرُ⁩», *when ʿUmar became caliph*.
+2. He said it was a shameful thing for Arabs to own one another.
+3. He consulted about ransoming the captives taken in these wars, and set a price: six or seven camels a head.
+4. **Lighter for Ḥanīfa and Kinda, because so many of their men had been killed** — the two names the room has spent two evenings with.
+5. Then the women were sought out wherever they had been taken.
+6. The war's last act was the state buying back the people its own victory had taken.
+**Quote after beat:** 2
 **The statement:**
 > إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا
 > — الکامل فی التاریخ ج۲ ص۲۳۲ · https://shamela.ws/book/21712/923 (the ransom terms run on to
@@ -3226,6 +3264,14 @@ in that region. The fifth of the spoils came back to Medina and was spent among 
 went on that way until there was nobody left in the peninsula except people in obedience, and people
 under a covenant of protection — like the people of Najrān, who had sent a delegation to renew theirs
 while Muslim tribes were breaking theirs.
+**Beats:**
+1. ⚠ **This comes after Ḥaḍramawt, never before it.** It is Ibn Kathīr stopping at the end of his own account and summing it up himself.
+2. He does not describe a conquest. He says there was **no region of Arabia in which some people did not turn.**
+3. And that Abū Bakr ؓ sent armies and commanders **to be a support to whichever believers were already in that region** — not to subdue it.
+4. The fifth of the spoils came back to Medina, and was spent among the people.
+5. And it went on that way until there was nobody left in the peninsula but people in obedience and people under a covenant — **«like the people of Najrān»**, who are the card the room heard a few minutes ago.
+6. Then the duration, in his own words: the end of 11 and the beginning of 12. **Two years. Not a generation.**
+**Quote after beat:** 2
 **The statement:**
 > ما من ناحية من جزيرة العرب إلا وحصلَ في أهلها ردَّةٌ لبعض الناس، فبعثَ الصدِّيقُ إليهم جيوشًا وأمراء يكونون عونًا لمن في تلك الناحية من المؤمنين … ولم يزل الأمر كذلك حتى لم يبق بجزيرة العرب إلَّا أهل طاعة للّه ولرسوله، وأهل ذمة من الصديق، كأهل نجران وما جرى مجراهم ولله الحمد.
 > وعامة ما وقع من هذه الحروب كان في أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة.
@@ -3350,6 +3396,14 @@ Badr into office. He said he left them so they would meet Allah with their good 
 wards off harm through such men more than He gives victory through them. And the book records, in the
 same breath and without embarrassment, that ʿUmar ؓ took the opposite view and held that they should
 be employed.
+**Beats:**
+1. Abū Bakr ؓ had a policy about who did **not** get commands.
+2. He would not put the men of Badr into office — *"I leave them so they may meet Allah with their good deeds."*
+3. His stated reason: Allah wards off harm through such men more than He gives victory through them.
+4. **And the book records, in the same breath and without embarrassment, that ʿUmar ؓ took the opposite view** and held that they should be employed.
+5. Two men who agreed about the war disagreed about who should run it — and the book prints both views on one page.
+6. ⚠ **This is a difference of administrative judgement, not a dispute. Do not dress it as one** (§1.6), and do not adjudicate it.
+**Quote after beat:** 3
 **The statement:**
 > لَا أَسْتَعْمِلُ أَهْلَ بَدْرٍ، أَدَعُهُمْ حَتَّى يَلْقَوُا اللَّهَ بِصَالِحِ أَعْمَالِهِمْ، فَإِنَّ اللَّهَ يَدْفَعُ بِهِمْ وَبِالصَّالِحِينَ أَكْثَرَ مِمَّا يَنْتَصِرُ بِهِمْ. وَكَانَ عُمَرُ يَرَى اسْتِعْمَالَهُمْ عَلَى الْجُنْدِ وَغَيْرِهِ.
 > — الکامل فی التاریخ ج۲ ص۲۱۵ · https://shamela.ws/book/21712/906
@@ -3438,6 +3492,13 @@ Ibn Kathīr grades that route himself, on the same page: «هذا حديث غر�
 | 10 | **سُوَيد بن مُقَرِّن ؓ** | **تِهامة اليمن** | ✓ | ✓ | ✓ |
 | 11 | **العلاء بن الحَضْرمي ؓ** | **البحرين** | ✓ | ✓ | ✓ |
 
+**Beats:**
+1. ⚠ **A recap, not news — say so.** The room saw this moment on evening 2 (`RC05`); tonight the roster is read back with every sector settled.
+2. One sitting at Dhū al-Qaṣṣa, one day's ride from Medina: eleven banners tied, and each commander given a region.
+3. Go round the map naming them, now that the room has met almost all of them.
+4. ⚠ **The two books disagree on the count**, and the answer is dull: one of them folds two commands into one. Say that, and do not pick a number.
+5. ⚠ Khālid b. Saʿīd b. al-ʿĀṣ ؓ has the Syrian marches on the roster and **no engagement on any page we hold** — the empty outline on the map (`RC76`). Say that aloud rather than skipping past it.
+6. The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself.
 **عبرت:** The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself.
 **Hands-up?** Before the table: *"Medina is one town. How many armies would you send out at once?"*
 
@@ -4278,6 +4339,81 @@ opening frame; RC36 is the closing frame. If both are in the deck, RC80 states t
 states the duration — do not let RC80 also claim the duration.
 ⚠ The quotation stops at «كالقريب الأدْنى». The printed text continues with a bracketed «[الأقرب]»,
 which footnote (2) marks as an addition from manuscript أ. It is left out deliberately.
+
+---
+
+### RCT/E-RC78 · Najrān renews its covenant
+**Tier:** CORE · **When:** ۱۱ھ→۱۲ھ, نجران `[SOURCED]` · **Map:** Najrān marked in a **third colour —
+neither green nor red** — with one thin line running to Medina and back.
+**What happened:** While the peninsula was breaking, Najrān did the opposite of breaking. It was a
+Christian community holding a covenant from the Prophet ﷺ himself, and it sent a delegation to Medina to
+renew that covenant with Abū Bakr ؓ — who wrote them a document to that effect. Ibn al-Athīr records it in
+a single sentence among the campaigns, with no date inside the two years and no names. It is the end-state
+Ibn Kathīr reaches for when he sums the whole war up: nobody left in the peninsula but people in obedience
+and people under a covenant, *"like the people of Najrān."*
+**Beats:**
+1. ⚠ **Frame it:** not every community in Arabia was Muslim — and not every community that was not Muslim rose.
+2. Najrān held a covenant given by the Prophet ﷺ himself.
+3. While Muslim tribes were breaking theirs, Najrān sent a delegation to Medina **to renew its own.**
+4. And Abū Bakr ؓ wrote them a document.
+5. ⚠ The page gives **no date inside 11–12 AH and no names** — do not supply either.
+6. This is the end-state `RC36` names a few minutes later, in Ibn Kathīr's own words: *"like the people of Najrān."*
+**Quote after beat:** 4
+**The statement:**
+> أَرْسَلُوا وَفْدًا لِيُجَدِّدُوا عَهْدَهُمْ مَعَ أَبِي بَكْرٍ، فَكَتَبَ بِذَلِكَ كِتَابًا
+> — الکامل فی التاریخ ج۲ ص۲۲۷ · https://shamela.ws/book/21712/918
+> *English:* "They sent a delegation to renew their covenant with Abū Bakr, and he wrote a document to
+> that effect."
+
+**عبرت:** The war ended with the peninsula in two conditions, not one — and the book names the second
+condition with a community that never left.
+**Hands-up?** no
+⚠ **Do not open the Najrān delegation of the Prophet's ﷺ lifetime, or the ⁨مباهلة⁩.** That is a different
+subject and a different evening; tonight Najrān is one line in a campaign chapter.
+⚠ **Single-source.** ⁨البدایہ⁩ carries Najrān in `RC36`'s summing-up but not this delegation. Say
+*"Ibn al-Athīr records…"*.
+
+---
+
+### RCT/E-RC81 · «We nearly perished» — Ibn Masʿūd ؓ on the whole decision
+**Tier:** CORE — **this is the closing slide of the ⁨ردة⁩** · **When:** ۱۱ھ, looking back `[SOURCED]` ·
+**Map:** n/a — a large-statement slide.
+**What happened:** Ibn al-Athīr opens his whole account of the Ridda not with an event but with a
+Companion's verdict on it. ʿAbd Allāh b. Masʿūd ؓ says that after the Messenger of Allah ﷺ they stood in a
+position in which they nearly perished, had Allah not favoured them with Abū Bakr ؓ. And then he says what
+the position was: **they had agreed among themselves not to fight** over a young she-camel — a bint makhāḍ
+and a bint labūn — but to live off the Arab settlements and worship Allah until certainty came to them.
+Then Allah resolved for Abū Bakr ؓ to fight them; and he accepted nothing from them but the humiliating
+terms or the war that drives out.
+**Beats:**
+1. ⚠ **This is where the evening stops moving forward and looks back.** Ibn al-Athīr opens his entire Ridda chapter with it, before any event.
+2. Who is speaking: ʿAbd Allāh b. Masʿūd ؓ. **No notice needed — the room knows him.**
+3. *"We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished — had Allah not favoured us with Abū Bakr."*
+4. And then he says what the position was: **they had agreed not to fight** over a young she-camel.
+5. To live off the Arab settlements, and to worship Allah until certainty came.
+6. ⚠ **Say it plainly and do not soften it: the consensus went the other way, and a Companion is the one who records that it did.**
+7. *"Then Allah resolved for Abū Bakr ؓ to fight them."*
+8. And he accepted nothing but **⁨الخُطّة المُخْزِية أو الحَرْب المُجْلِية⁩** — the two terms the room heard on **evening 2** (`RC10`). The loop closes on the words it opened with.
+**Quote after beat:** 3
+**The statement:**
+> لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ، أَجْمَعْنَا عَلَى أَنْ لَا نُقَاتِلَ عَلَى ابْنَةِ مَخَاضٍ وَابْنَةِ لَبُونٍ، وَأَنْ نَأْكُلَ قُرًى عَرَبِيَّةً، وَنَعْبُدَ اللَّهَ حَتَّى يَأْتِيَنَا الْيَقِين
+> — الکامل فی التاریخ ج۲ ص۲۰۱ · https://shamela.ws/book/21712/892
+> *English:* "We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished, had
+> Allah not favoured us with Abū Bakr. We had agreed not to fight over a bint makhāḍ or a bint labūn, and
+> to live off the Arab settlements, and to worship Allah until certainty came to us."
+
+**And how it ends, on the same page:**
+> فَعَزَمَ اللَّهُ لِأَبِي بَكْرٍ عَلَى قِتَالِهِمْ، فَوَاللَّهِ مَا رَضِيَ مِنْهُمْ إِلَّا بِالْخُطَّةِ الْمُخْزِيَةِ أَوِ الْحَرْبِ الْمُجْلِيَة
+> — الکامل فی التاریخ ج۲ ص۲۰۱ · https://shamela.ws/book/21712/892
+> *English:* "Then Allah resolved for Abū Bakr to fight them; and by Allah, he accepted nothing from them
+> but the humiliating terms or the war that drives out."
+
+**عبرت:** A Companion, looking back, says plainly that the right answer was not the one they had all agreed on.
+**Hands-up?** Before beat 4: *"He says they had already agreed on something. What do you think they had agreed?"*
+⚠ **Ibn al-Athīr prints this at the head of the chapter with no isnād.** Narrate it as what the book
+carries — *"Ibn al-Athīr opens his account by quoting Ibn Masʿūd ؓ"* — and build no ruling on it.
+⚠ **This is not a ⁨مشاجرات⁩ card.** It is a Companion praising Abū Bakr ؓ for a decision, and nothing in it
+judges anyone. Keep it there.
 
 ---
 
@@ -12205,6 +12341,14 @@ mutual envy that exist among people bound by kin, and points them all one way. A
 nothing stands in front of them — because the direction is one, the object is equal in every eye, and
 they will die for it. He names the conquests as his own example.
 
+**Beats:**
+1. ⚠⚠ **Say who he is before he says anything.** Ibn Khaldūn رحمہ اللہ — a historian writing **seven centuries after these events**, whose book asks why peoples rise and fall. **He is a reader of the event, never a witness to it.**
+2. He asks the question anyone looking at the map of the year eleven would ask: how does a peninsula that has just fragmented move against two empires within two years?
+3. **His answer does not multiply anybody's numbers.**
+4. A religious call, he says, takes away the rivalry and the mutual envy that exist among people bound by kin, and points them all one way.
+5. And once that happens nothing stands in front of them — because the direction is one, the object is equal in every eye, and they will die for it.
+6. ⚠ **He names the conquests as his own example — but he never wrote this about the ⁨ردة⁩.** Joining his chapter to the year 11 is this course's doing, not his. Say *"this is how Ibn Khaldūn reads it"*, and leave it there.
+**Quote after beat:** 4
 **The statement:**
 > والسّبب في ذلك … أنّ الصّبغة الدّينيّة تذهب بالتنافس والتّحاسد الّذي في أهل العصبيّة وتفرد الوجهة
 > إلى الحقّ فإذا حصل لهم الاستبصار في أمرهم لم يقف لهم شيء لأنّ الوجهة واحدة والمطلوب متساو عندهم
@@ -12216,7 +12360,7 @@ they will die for it. He names the conquests as his own example.
 > the object is equal in all their eyes, and they will die for it."
 
 **عبرت:** What changed in Arabia was not how many men there were, but which way they were all facing.
-**Hands-up?** Yes — *"Two years after the tribes broke apart, they were moving on two empires. What
+**Hands-up?** Before beat 3: *"What would you need, to turn that map into one army? More men?"* Take two answers, then read him.
 had changed?"*
 ⚠ **The slide must carry his name and the words "as he reads it".** He never wrote this about the
 ridda; joining his chapter to the year eleven is our doing (§7.2).

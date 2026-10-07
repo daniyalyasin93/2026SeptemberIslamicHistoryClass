@@ -99,15 +99,15 @@ Runs forward throughout — the governor's death, the rising, the siege, the mar
 |---|---|---|---|---|---|
 | 5 | `RCT/E-RC71` ⬜ The governor dies, and they fetch a king back | CORE | 2 | 10 | al-Mundhir b. Sāwā ؓ, the Prophet's ﷺ own man there, dies *"shortly after the Prophet ﷺ"*. The programme is a **restoration of the old Lakhmid kingship** — not a false prophet. ⚠⚠ **NAME NO KING:** three forms across the books. Say *"a king of the old Lakhmid line"* |
 | 6 | `RCT/E-RC72` ⬜ al-Ḥuṭam b. Ḍubayʿa, and what he gathered | CORE | 2 | 12 | **Fixes a real #43 defect** — his death and his cloak carry two cards and he was never introduced. ⚠ **And the ridda here was not all ridda: men who had never been Muslims joined him** (⁨الکامل ج۲ ص۲۲۲⁩). That is a **beat and the ⁨عبرت⁩**, not an apparatus note |
-| 7 | `RCT/E-RC24` ⁨جُواثى⁩ under siege | GOOD | 2 | 14 | ⬜ beats. ⚠⚠ **The verses' last hemistich differs** (⁨الصبر⁩/⁨النصر⁩) — read it off a page image (§1.1). ⚠ No honest map shades Bahrayn one colour |
-| 8 | `ATA/E-TB24` Al-Jārūd ؓ asks his tribe five questions | CORE | 2 | 16 | ⬜ beats. **Bolted to #7 — both or neither.** Same page; the **loyalist half of a two-colour map**: Bakr b. Wāʾil rose, ʿAbd al-Qays held behind al-Jārūd ؓ |
-| 9 | `RCT/E-RC25` The sixteen riders | CORE | 2 | 18 | ⬜ beats. **al-ʿAlāʾ b. al-Ḥaḍramī ؓ has never been named in the series — his notice is beat 1.** ⚠⚠ al-Dahnāʾ's water is a ⁨کرامہ⁩ narrative, through ⁨سيف بن عمر⁩ in ⁨البدایہ⁩ — narrate as the book narrates. ⁨البدایہ ج۷ ص۳۹⁩'s three-questions version is the better telling. ⚠ **Abū Hurayra ؓ was on that march** |
-| 10 | `RCT/E-RC26` The trench month | GOOD | 2 | 20 | ⬜ beats. ⚠ **The pincer is on no card:** al-ʿAlāʾ ؓ sent for al-Jārūd ؓ to come up the other side — which is what makes #8 pay off. ⚠⚠ **Why the camp was drunk: no page says.** Give the stalemate as the setting and supply nothing |
+| 7 | `RCT/E-RC24` ⁨جُواثى⁩ under siege | GOOD | 2 | 14 | ⚠⚠ **The verses' last hemistich differs** (⁨الصبر⁩/⁨النصر⁩) — read it off a page image (§1.1). ⚠ No honest map shades Bahrayn one colour |
+| 8 | `ATA/E-TB24` Al-Jārūd ؓ asks his tribe five questions | CORE | 2 | 16 | **Bolted to #7 — both or neither.** Same page; the **loyalist half of a two-colour map**: Bakr b. Wāʾil rose, ʿAbd al-Qays held behind al-Jārūd ؓ |
+| 9 | `RCT/E-RC25` The sixteen riders | CORE | 2 | 18 | **al-ʿAlāʾ b. al-Ḥaḍramī ؓ has never been named in the series — his notice is beat 1.** ⚠⚠ al-Dahnāʾ's water is a ⁨کرامہ⁩ narrative, through ⁨سيف بن عمر⁩ in ⁨البدایہ⁩ — narrate as the book narrates. ⁨البدایہ ج۷ ص۳۹⁩'s three-questions version is the better telling. ⚠ **Abū Hurayra ؓ was on that march** |
+| 10 | `RCT/E-RC26` The trench month | GOOD | 2 | 20 | ⚠ **The pincer is on no card:** al-ʿAlāʾ ؓ sent for al-Jārūd ؓ to come up the other side — which is what makes #8 pay off. ⚠⚠ **Why the camp was drunk: no page says.** Give the stalemate as the setting and supply nothing |
 | 11 | `RCT/E-RC73` ⬜ The uncle at the trench | GOOD | 1.5 | 21.5 | Ibn Ḥadhf shouts for his maternal uncle, in the enemy camp. ⚠⚠ **One man or two? The books do not say** (Daniyal, 2026-09-06) — do not assert it |
 | 12 | `RCT/E-RC74` ⬜ al-Ḥuṭam's death, and what Qays b. ʿĀṣim said | CORE | 2 | 23.5 | The stirrup-leather, the sword, and the man who asked passers-by to finish him. ⚠⚠ **Do not use ⁨ابن خلدون⁩** — three different killers on his own pages. The clearest worked example of why #29 exists |
-| 13 | `RCT/E-RC27` ⁨دارين⁩ — into the water | CORE | 2 | 25.5 | ⬜ beats. ⚠ **Why Dārīn was separate:** everyone gathered to al-Ḥuṭam **except the people of Dārīn**. ⚠ **al-Muthannā b. Ḥāritha** sealed the roads — a name the Iraq evenings need; frame it. «⁨وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ⁩» is the **statement**, not a sub-note. The would-be king: captured, **and he became a Muslim** — ⚠ **no page says pardoned** |
+| 13 | `RCT/E-RC27` ⁨دارين⁩ — into the water | CORE | 2 | 25.5 | ⚠ **Why Dārīn was separate:** everyone gathered to al-Ḥuṭam **except the people of Dārīn**. ⚠ **al-Muthannā b. Ḥāritha** sealed the roads — a name the Iraq evenings need; frame it. «⁨وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ⁩» is the **statement**, not a sub-note. The would-be king: captured, **and he became a Muslim** — ⚠ **no page says pardoned** |
 | 14 | `RCT/E-RC75` ⬜ The monk of Hajar | GOOD | 1.5 | 27 | Three reasons, from a man who was there. **The closing card of the part**, and it answers *"how do we know that?"* from inside the story (#27) |
-| 15 | `RCT/E-RC28` Thumāma b. Uthāl ؓ and the embroidered cloak | GOOD | 1.5 | 28.5 | ⬜ beats. Callback to evening 4. ⚠⚠ **Not in ⁨البدایہ⁩ — cite ⁨الکامل ج۲ ص۲۲۴⁩ only.** ⚠ **Discretion:** killed by fellow Arabs after the surrender, over cloth. Plainly, briefly; skip if the room is heavy |
+| 15 | `RCT/E-RC28` Thumāma b. Uthāl ؓ and the embroidered cloak | GOOD | 1.5 | 28.5 | Callback to evening 4. ⚠⚠ **Not in ⁨البدایہ⁩ — cite ⁨الکامل ج۲ ص۲۲۴⁩ only.** ⚠ **Discretion:** killed by fellow Arabs after the surrender, over cloth. Plainly, briefly; skip if the room is heavy |
 
 **✓ Checkpoint 1 — after #15.** ⬜ new pair. Line: the eastern lane lit, Juwāthā to Dārīn. Map, three clicks
 (#69): Dārīn taken · the east green · **one grey patch left.** ⚠ Keep ʿAbd al-Qays a different shade
@@ -202,12 +202,12 @@ titles stay as written; the face is set in `build.py` `FACE_TITLE`.
 ## Part VI — Who did not break away (11 AH)
 
 **The evening turns.** Everything so far has been fronts; this is the same moment looked at sideways — no
-movement in time at all. ⬜ **All five need beats.**
+movement in time at all. ✅ **All five now carry beats** (2026-10-07).
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
 | 29 | `ATA/E-TB22` Thaqīf had been Muslim for two years, and did not break | CORE | 2 | 54.5 | «⁨وقد كانت ثقيفُ بالطائف ثَبَتوا على الإسلام، لم يفرُّوا ولا ارتدّوا⁩» — ⁨البدایہ ج۷ ص۹⁩. **The newest Muslims in the peninsula held.** The room will expect the opposite |
-| 30 | `RCT/E-RC78` ⬜ Najrān sent a delegation to renew its covenant | CORE | 1.5 | 56 | ⁨الکامل ج۲ ص۲۲۷⁩. While the peninsula broke, a community that was **not Muslim** came to Medina to renew its treaty — **and got it in writing.** It is the end-state `RC36` names, *"like the people of Najrān"* |
+| 30 | `RCT/E-RC78` Najrān sent a delegation to renew its covenant | CORE | 1.5 | 56 | ⁨الکامل ج۲ ص۲۲۷⁩. While the peninsula broke, a community that was **not Muslim** came to Medina to renew its treaty — **and got it in writing.** It is the end-state `RC36` names, *"like the people of Najrān"* |
 | 31 | `ATA/E-TB10` One tribe, three answers | CORE | 2 | 58 | Banū Tamīm: some withheld, some sent the ṣadaqa to Medina, some waited. **The room met Banū Tamīm on evening 4** — the same tribe, counted honestly |
 | 32 | `ATA/E-TB13` The verse that puts the objection as politics | CORE | 2 | 60 | «⁨فواعَجَبًا ما بَالُ مُلْكِ أبي بَكْرِ⁩» — ⁨البدایہ ج۷ ص۱۸⁩. The refusal stated its own reason, and it was not theology |
 | 33 | `ATA/E-TB25` The Azd stood on both sides of the map | CORE | 2 | 62 | **The ⁨عبرت⁩ card of the whole Ridda, and the card says so of itself:** *"If only one sentence of §2 survives the cut, keep this one."* One tribe furnished a claimant in Oman and a commander against him |
@@ -216,11 +216,11 @@ movement in time at all. ⬜ **All five need beats.**
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 34 | `RCT/E-RC36` What Ibn Kathīr says the whole war was | CORE | 2 | 64 | ⬜ beats. **Must come after Ḥaḍramawt, not before it.** No region untouched; the armies sent as a support to believers already standing; the end-state *obedience or covenant*; and the duration «⁨أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة⁩» |
-| 35 | `RCT/E-RC81` ⬜ «We nearly perished» — Ibn Masʿūd ؓ on the whole decision | CORE | 1.5 | 65.5 | ⁨الکامل ج۲ ص۲۰۱⁩, cached — «⁨لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ ﷺ مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ⁩». **On no card until now, and it is the best closing line in the material.** A Companion saying plainly how near it came |
-| 36 | `RCT/E-RC39` The men of Badr who were kept out of office | CORE | 2 | 67.5 | ⬜ beats. Abū Bakr ؓ «⁨لَا أَسْتَعْمِلُ أَهْلَ بَدْرٍ⁩» — **and ʿUmar's ؓ different view, on the same page.** A recorded difference of administrative judgement between the first two caliphs, and a very safe one for this room |
-| 37 | `RCT/E-RC43` The eleven banners — who went where | GOOD | 2 | 69.5 | ⬜ beats. **A recap, not news** — the room met the moment on evening 2 (`RC05`). The roster read back now, with every sector green |
-| 38 | `RCT/E-RC35` The captives bought back | CORE | 1.5 | 71 | ⬜ beats. **↪ Forward to ʿUmar's ؓ caliphate — frame it aloud**, the way `AS18` was framed on evening 5. «⁨إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا⁩» — the peninsula in one colour at last |
+| 34 | `RCT/E-RC36` What Ibn Kathīr says the whole war was | CORE | 2 | 64 | **Must come after Ḥaḍramawt, not before it.** No region untouched; the armies sent as a support to believers already standing; the end-state *obedience or covenant*; and the duration «⁨أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة⁩» |
+| 35 | `RCT/E-RC81` «We nearly perished» — Ibn Masʿūd ؓ on the whole decision | CORE | 1.5 | 65.5 | ⁨الکامل ج۲ ص۲۰۱⁩, cached — «⁨لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ ﷺ مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ⁩». **On no card until now, and it is the best closing line in the material.** A Companion saying plainly how near it came |
+| 36 | `RCT/E-RC39` The men of Badr who were kept out of office | CORE | 2 | 67.5 | Abū Bakr ؓ «⁨لَا أَسْتَعْمِلُ أَهْلَ بَدْرٍ⁩» — **and ʿUmar's ؓ different view, on the same page.** A recorded difference of administrative judgement between the first two caliphs, and a very safe one for this room |
+| 37 | `RCT/E-RC43` The eleven banners — who went where | GOOD | 2 | 69.5 | **A recap, not news** — the room met the moment on evening 2 (`RC05`). The roster read back now, with every sector green |
+| 38 | `RCT/E-RC35` The captives bought back | CORE | 1.5 | 71 | **↪ Forward to ʿUmar's ؓ caliphate — frame it aloud**, the way `AS18` was framed on evening 5. «⁨إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا⁩» — the peninsula in one colour at last |
 
 **✓ Checkpoint 4 — after #38.** ⬜ new pair. **The second natural close, and the one that ends the Ridda.**
 - **The Line:** 11→12 AH, every lane of the Ridda lit. **The map:** Arabia in one colour.
@@ -231,7 +231,7 @@ movement in time at all. ⬜ **All five need beats.**
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 39 | `IKO/E-IKR1` ⭐ What the religious call does to ⁨عصبیہ⁩ | CORE | 2 | 73 | ⬜ beats. **ONE slide, not a block.** ⁨ابن خلدون ج۱ ص۱۹۸⁩. ⁨عبرت⁩: *"What changed in Arabia was not how many men there were, but which way they were all facing."* ⚠⚠ **#29: his name on the face, and the words *"as he reads it"*** — he never wrote this about the Ridda; joining his chapter to year 11 is the course's doing, not his |
+| 39 | `IKO/E-IKR1` ⭐ What the religious call does to ⁨عصبیہ⁩ | CORE | 2 | 73 | **ONE slide, not a block.** ⁨ابن خلدون ج۱ ص۱۹۸⁩. ⁨عبرت⁩: *"What changed in Arabia was not how many men there were, but which way they were all facing."* ⚠⚠ **#29: his name on the face, and the words *"as he reads it"*** — he never wrote this about the Ridda; joining his chapter to year 11 is the course's doing, not his |
 
 ## Part IX — The other side of the desert
 
@@ -389,6 +389,13 @@ Every proper name `tools/check_introductions.py` finds appearing for the first t
 | Homs | Part X · `ISA/E-C7` | A PLACE — Abū ʿUbayda’s ؓ province on the same list. Named, not explained. |
 | Palestine | Part X · `ISA/E-C7` | A PLACE — ʿAmr b. al-ʿĀṣ’s ؓ province on the same list. Named, not explained. |
 | Jordan | Part X · `ISA/E-C7` | A PLACE — Shuraḥbīl b. Ḥasana’s ؓ province on the same list. ⚠ **The room met Shuraḥbīl ؓ on evening 4** (`RC53`, he went too early at al-Yamāma) — a callback. |
+| Frame | Part VI · `RCT/E-RC78` | NOT A NAME — the first word of a beat instruction. |
+| Lighter | Part VII · `RCT/E-RC35` | NOT A NAME — the first word of a beat. |
+| Syrian | Part VII · `RCT/E-RC43` | NOT A NAME — the adjective in *"the Syrian marches"*. |
+| Ridda | Part VII · `RCT/E-RC81` | NOT A NAME — the word ‘Ridda’ capitalised in the card’s prose. |
+| DECISIONS | Part VIII · `IKO/E-IKR1` | NOT A NAME — a build cross-reference that had leaked into a beat. **Removed from the card.** |
+| Joining | Part VIII · `IKO/E-IKR1` | NOT A NAME — the first word of a sentence in a warning. |
+| Masʿūd | Part VII · `RCT/E-RC81` | ʿAbd Allāh b. Masʿūd ؓ — **no notice needed, the room knows him**, and beat 2 says so. ⚠ He speaks here only in praise of Abū Bakr ؓ for a decision; **nothing in the card judges anyone**, and it is not ⁨مشاجرات⁩ material. Keep it there. |
 | Jaḥdam | Part IV · `TSY/E-YK12` | **No notice needed** — a man with a knife, and that is all the books give. He is the whole reason al-Ashʿath forgot to write his own name in, so he is named once and never again. |
 | Rustam | Part V · `TSY/E-YK16` | ⬜ **A FORWARD REFERENCE, and `YK16` beat 1 frames it aloud** — al-Qādisiyya is an evening not yet reached. He is named, not explained. |
 | Yarmūk | Part V · `TSY/E-YK16` | ⬜ **A FORWARD REFERENCE**, framed the same way by `YK16` beat 1. ⚠ Its own year is disputed in the books; say nothing that fixes it. |
