@@ -499,7 +499,7 @@ def _clause_cut(cut):
 
 
 def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=None,
-                    size=None):
+                    size=None, speaker=None, scene=None):
     """One large quotation. Arabic in Naskh on top, its English rendering beneath.
 
     Arabic carries authority in this room (CLAUDE.md 1.4), so where a source supplies the saying
@@ -513,6 +513,26 @@ def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=
     else:
         rect(s, 0, 0, Pt(9), H, fill=GOLD)
         y, avail = Inches(1.30), Inches(5.0)
+
+    # SCENE LINES (docs/VISION.md F4) — one or two short lines that give the room the picture before the
+    # words: who, where, what is happening. Daniyal, 2026-10-08: "maybe more detail on the slide? one or
+    # two small lines? describing the stirrup and the horse?"
+    scene = [str(x).strip() for x in (scene or []) if x and str(x).strip()]
+    shift = Emu(0)
+    if scene:
+        if len(scene) > 2 or sum(_count_words(x) for x in scene) > MAX_BODY_WORDS:
+            raise DeckContractError("scene lines: two at most, %d words in all; got %r"
+                                    % (MAX_BODY_WORDS, scene))
+        for ln in scene:
+            text(s, ln, MARGIN, y + shift, CONTENT_W, Inches(0.5), size=MIN_PT, color=MUTED, font=SANS,
+                 name="scene")
+            shift = shift + Inches(0.50)
+        y, avail = y + shift, avail - shift
+
+    # THE SPEAKER (docs/VISION.md Q1) — a quotation says whose words it is, on the face. Daniyal, of four
+    # verses with only a book and a page under them: "who said this?"
+    foot = Inches(0.52) if speaker else Emu(0)
+    avail = avail - foot
     if cite:
         avail = avail - Inches(0.85)      # the citation strip is not free space to centre into
 
@@ -539,7 +559,7 @@ def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=
         # The rendering is already an excerpt (the whole of it is in the notes). If it cannot fit
         # between the Arabic and the citation, cut it at a word — never let it run onto the source.
         # The citation sits at H - 0.78in, below the content box; what is above it is the room.
-        room = (H - Inches(0.78) - Inches(0.10) - (CONTENT_Y + Inches(0.25))) / 914400.0
+        room = (H - Inches(0.78) - Inches(0.10) - (CONTENT_Y + Inches(0.25)) - shift - foot) / 914400.0
         # never fewer than one line: a slide with its English cut to one line is still a slide, and
         # refusing it would drop the card from the deck altogether
         fit = max(1, int((room - ar_h / 914400.0 - 0.48 - 0.16) / en_line))
@@ -555,7 +575,7 @@ def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=
 
     total = ar_h + en_h + (Inches(0.48) if arabic else Inches(0))
     y = y + Emu(max(0, int((avail - total) / 2)))
-    top = CONTENT_Y + Inches(0.25) if headline else Inches(1.30)
+    top = (CONTENT_Y + Inches(0.25) if headline else Inches(1.30)) + shift
     y = Emu(min(int(y), int(top + max(Emu(0), avail - total))))    # never push past the citation
 
     if arabic:
@@ -568,6 +588,9 @@ def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=
     text(s, english, MARGIN, y, CONTENT_W, en_h, size=en_pt, color=INK,
          font=EN, italic=bool(arabic), line=1.30)
 
+    if speaker:
+        text(s, "— " + str(speaker), MARGIN, H - Inches(0.78) - (Inches(0.52) if cite else Emu(0)),
+             CONTENT_W, Inches(0.5), size=MIN_PT, color=TEAL, font=SANS, bold=True, name="speaker")
     if cite:
         text(s, cite, MARGIN, H - Inches(0.78), CONTENT_W, Inches(0.5),
              size=MIN_PT, color=MUTED, font=SANS)

@@ -1,5 +1,23 @@
 # STATUS — read this first, every session
 
+> **2026-10-08 · RESUME POINT — read this first. Daniyal reviewed evening 6's slides 1–25; the review became a SYSTEM.**
+> His instruction: *"fix the comments but more importantly … make the system that generates our content always within
+> the vision given my feedback."* `DECISIONS.md` **#73**. Read **`docs/VISION.md`** before generating anything.
+>
+> | What | State |
+> |---|---|
+> | `docs/VISION.md` | ✅ the house style as numbered, checkable rules, each with his words and its check |
+> | `tools/check_vision.py` | ✅ **the gate.** On the deck he reviewed it found **578 breaches of 17 rules**, reproducing his comments unprompted. After the rebuild: **none.** `build.py` runs it |
+> | `series/notes2.py` | ✅ two-tier notes: short spaced SAY cues, a drawn rule, then detail. Beats are `Cue — detail` |
+> | `series/mapkit.py` | ✅ maps written, not drawn — march / siege / trench / sail / say, rule-true by construction; a scene that breaks a rule cannot be saved. Includes a crowding check (M15) |
+> | Parser bug | ✅ **fixed.** `build_full_deck` silently dropped every beat with no ` — `: 49 of evening 6's 288 beats never reached a slide |
+> | `S06` Parts I–II | ✅ **rebuilt**: Arabia map + the Arabic he asked for on the face · situation map (the Prophet's ﷺ letter) · theatre map + three close-ups (coast, Hajar, Dārīn) · four slides of faith (al-Dahnāʾ ×2, the shore ×2) · speakers, scene lines, kickers, briefs |
+> | `S06` deck | ✅ 41 cards, 16 maps / 44 clicks, Parts I–VIII; `IMAGE_BRIEFS.md` beside it. ⬜ **Daniyal to review from slide 1 again** — and slides 26+ for the first time |
+> | ⬜ His to confirm | (a) the letter to al-Mundhir b. Sāwā is sourced (⁨البدایہ ج۴ ص۵۱۷⁩) but **no page gives the year** — the slide says *"in the Prophet's ﷺ lifetime"*, not *8 AH*; (b) VISION **I2**: image briefs ask for places, animals and objects, never people |
+> | ⬜ Still open | Parts III–VIII have had the mechanical rules applied but **not his eye**; the Ḥaḍramawt scene is evening 5's with labels and sizes fixed, not re-scripted through the kit; Parts IX–X unbuilt (two-empires note; `ISA`/`GSA` beats) |
+> | Rebuild order | `scenes.py` → `make_timeline.py` → `make_maps.py` → `build.py` (which ends on the gate) |
+
+
 > **2026-10-07 · RESUME POINT — read this first. Evening 5 was DELIVERED to Checkpoint 2. Evening 6 is PLANNED, not built.**
 > Daniyal delivered `S05.pptx` (his own 90-slide edit of the 96-slide build) and **stopped at his slide 63** — the
 > Part VII divider. So the evening closed on **Checkpoint 2**: Oman and Mahra green, Ḥaḍramawt still grey.

@@ -1,0 +1,606 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "The coast of Bahrayn",
+  "subtitle": "",
+  "urduTitle": "",
+  "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
+ },
+ "view": {
+  "cx": 43.21466764884349,
+  "cy": -26.0,
+  "scale": 377.1428571428569
+ },
+ "style": {
+  "relief": true,
+  "reliefStrength": 0.4,
+  "rivers": true,
+  "markScale": 2.0,
+  "cartoucheScale": 2.0,
+  "graticule": false,
+  "grain": true,
+  "vignette": true,
+  "cartouche": false,
+  "legend": false,
+  "scalebar": true,
+  "urduLabels": false,
+  "aspect": "16:9"
+ },
+ "factions": [
+  {
+   "id": "f1",
+   "name": "Muslim forces",
+   "ur": "",
+   "color": "#2CB020"
+  },
+  {
+   "id": "f4",
+   "name": "In revolt",
+   "ur": "",
+   "color": "#E7A244"
+  },
+  {
+   "id": "f5",
+   "name": "Not yet told",
+   "ur": "",
+   "color": "#9AA39E"
+  },
+  {
+   "id": "f6",
+   "name": "Under a covenant",
+   "ur": "",
+   "color": "#5B8FD6"
+  }
+ ],
+ "underlay": null,
+ "objects": [
+  {
+   "id": "s_001",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 50.01,
+   "lat": 26.56,
+   "name": "al-Qaṭīf",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "above",
+   "scale": 1.5
+  },
+  {
+   "id": "s_002",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 49.588,
+   "lat": 25.383,
+   "name": "Hajar",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "left",
+   "scale": 1.5
+  },
+  {
+   "id": "s_003",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 49.9,
+   "lat": 25.45,
+   "name": "Juwāthā",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "s_004",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 50.1,
+   "lat": 26.16,
+   "name": "al-Khaṭṭ",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "t_005",
+   "type": "territory",
+   "step": 1,
+   "note": "region:darin",
+   "pts": [
+    [
+     50.16,
+     26.72
+    ],
+    [
+     50.3,
+     26.74
+    ],
+    [
+     50.34,
+     26.64
+    ],
+    [
+     50.26,
+     26.57
+    ],
+    [
+     50.15,
+     26.61
+    ]
+   ],
+   "faction": "f5",
+   "label": "",
+   "ur": "",
+   "opacity": 0.6
+  },
+  {
+   "id": "s_006",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 50.24,
+   "lat": 26.66,
+   "name": "Dārīn",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "a_007",
+   "type": "army",
+   "step": 1,
+   "note": "force",
+   "lon": 50.0,
+   "lat": 25.2,
+   "name": "al-Jārūd ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "ʿAbd al-Qays, in Juwāthā",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "a_008",
+   "type": "arrow",
+   "step": 2,
+   "note": "march:al-Ḥuṭam",
+   "pts": [
+    [
+     48.95,
+     26.9
+    ],
+    [
+     49.25,
+     26.7
+    ],
+    [
+     49.55,
+     26.38
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_009",
+   "type": "army",
+   "step": 2,
+   "note": "force",
+   "lon": 49.55,
+   "lat": 26.38,
+   "name": "al-Ḥuṭam",
+   "ur": "",
+   "faction": "f4",
+   "strength": "Bakr b. Wāʾil",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_008",
+   "until": 2
+  },
+  {
+   "id": "a_010",
+   "type": "arrow",
+   "step": 3,
+   "note": "march:al-Ḥuṭam",
+   "pts": [
+    [
+     49.55,
+     26.38
+    ],
+    [
+     49.45,
+     26.1
+    ],
+    [
+     49.36,
+     25.62
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_011",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 49.36,
+   "lat": 25.62,
+   "name": "al-Ḥuṭam",
+   "ur": "",
+   "faction": "f4",
+   "strength": "Bakr b. Wāʾil",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_010"
+  },
+  {
+   "id": "t_012",
+   "type": "territory",
+   "step": 4,
+   "note": "region:khatt",
+   "pts": [
+    [
+     49.98,
+     26.28
+    ],
+    [
+     50.22,
+     26.28
+    ],
+    [
+     50.22,
+     26.04
+    ],
+    [
+     49.98,
+     26.04
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "opacity": 0.34
+  },
+  {
+   "id": "l_013",
+   "type": "label",
+   "step": 4,
+   "note": "say",
+   "lon": 50.45,
+   "lat": 26.0,
+   "text": "al-Khaṭṭ joins him",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 4
+  },
+  {
+   "id": "a_014",
+   "type": "arrow",
+   "step": 5,
+   "note": "march:his force",
+   "pts": [
+    [
+     49.7,
+     25.75
+    ],
+    [
+     50.0,
+     26.0
+    ],
+    [
+     50.35,
+     26.25
+    ],
+    [
+     50.62,
+     26.4
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 9.0
+  },
+  {
+   "id": "a_015",
+   "type": "army",
+   "step": 5,
+   "note": "force",
+   "lon": 50.62,
+   "lat": 26.4,
+   "name": "his force",
+   "ur": "",
+   "faction": "f4",
+   "strength": "sent to Dārīn",
+   "unit": "naval",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_014"
+  },
+  {
+   "id": "t_016",
+   "type": "territory",
+   "step": 6,
+   "note": "siege",
+   "pts": [
+    [
+     50.03856406460551,
+     25.45
+    ],
+    [
+     50.03508997420928,
+     25.476702512074755
+    ],
+    [
+     50.02484190841958,
+     25.502066048694108
+    ],
+    [
+     50.00833374804732,
+     25.524818776223047
+    ],
+    [
+     49.98639328118563,
+     25.543819777896164
+    ],
+    [
+     49.96012069445836,
+     25.55811626414829
+    ],
+    [
+     49.9308334050688,
+     25.56699134946182
+    ],
+    [
+     49.9,
+     25.57
+    ],
+    [
+     49.869166594931194,
+     25.56699134946182
+    ],
+    [
+     49.839879305541636,
+     25.55811626414829
+    ],
+    [
+     49.81360671881437,
+     25.543819777896164
+    ],
+    [
+     49.79166625195268,
+     25.524818776223047
+    ],
+    [
+     49.775158091580415,
+     25.502066048694108
+    ],
+    [
+     49.76491002579072,
+     25.476702512074755
+    ],
+    [
+     49.76143593539449,
+     25.45
+    ],
+    [
+     49.76491002579072,
+     25.423297487925243
+    ],
+    [
+     49.775158091580415,
+     25.39793395130589
+    ],
+    [
+     49.79166625195268,
+     25.375181223776952
+    ],
+    [
+     49.81360671881437,
+     25.356180222103834
+    ],
+    [
+     49.839879305541636,
+     25.34188373585171
+    ],
+    [
+     49.869166594931194,
+     25.33300865053818
+    ],
+    [
+     49.9,
+     25.33
+    ],
+    [
+     49.9308334050688,
+     25.33300865053818
+    ],
+    [
+     49.96012069445836,
+     25.34188373585171
+    ],
+    [
+     49.98639328118563,
+     25.356180222103834
+    ],
+    [
+     50.00833374804732,
+     25.375181223776952
+    ],
+    [
+     50.02484190841958,
+     25.39793395130589
+    ],
+    [
+     50.03508997420928,
+     25.423297487925243
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "opacity": 0.1
+  },
+  {
+   "id": "a_017",
+   "type": "arrow",
+   "step": 6,
+   "note": "siege",
+   "pts": [
+    [
+     50.19184337632587,
+     25.58807455511801
+    ],
+    [
+     50.106722391564155,
+     25.547802809875257
+    ],
+    [
+     50.03984161782281,
+     25.516160724327378
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0
+  },
+  {
+   "id": "a_018",
+   "type": "arrow",
+   "step": 6,
+   "note": "siege",
+   "pts": [
+    [
+     49.83855309258051,
+     25.7330410008752
+    ],
+    [
+     49.85647510724453,
+     25.650487375619935
+    ],
+    [
+     49.87055669019483,
+     25.585623812919366
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0
+  },
+  {
+   "id": "a_019",
+   "type": "arrow",
+   "step": 6,
+   "note": "siege",
+   "pts": [
+    [
+     49.570180346385314,
+     25.486854403632652
+    ],
+    [
+     49.666377745356264,
+     25.476105202573127
+    ],
+    [
+     49.7419614159763,
+     25.467659401740647
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0
+  },
+  {
+   "id": "a_020",
+   "type": "arrow",
+   "step": 6,
+   "note": "siege",
+   "pts": [
+    [
+     49.757607151327896,
+     25.189736273204886
+    ],
+    [
+     49.79913839885726,
+     25.26564652685346
+    ],
+    [
+     49.831770093344616,
+     25.32529029757734
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0
+  },
+  {
+   "id": "a_021",
+   "type": "arrow",
+   "step": 6,
+   "note": "siege",
+   "pts": [
+    [
+     50.1418160333804,
+     25.25229376716925
+    ],
+    [
+     50.07128635697778,
+     25.309958085078218
+    ],
+    [
+     50.01587018266144,
+     25.355265763435266
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0
+  },
+  {
+   "id": "l_022",
+   "type": "label",
+   "step": 6,
+   "note": "say",
+   "lon": 50.5,
+   "lat": 25.62,
+   "text": "Juwāthā, besieged",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 6
+  }
+ ],
+ "steps": {
+  "count": 6,
+  "current": 6,
+  "mode": "upto"
+ }
+}

@@ -144,7 +144,7 @@
    "lat": 24.7,
    "text": "al-Yamāma",
    "ur": "",
-   "size": 22,
+   "size": 24,
    "align": "center",
    "step": 1
   },
@@ -187,10 +187,10 @@
    "id": "l_0145",
    "type": "label",
    "lon": 45.2,
-   "lat": 15.6,
+   "lat": 15.7,
    "text": "the Yemen",
    "ur": "",
-   "size": 22,
+   "size": 24,
    "align": "center",
    "step": 1
   },
@@ -224,7 +224,7 @@
    "ur": "",
    "opacity": 0.3,
    "step": 1,
-   "until": 1
+   "until": 2
   },
   {
    "id": "l_0147",
@@ -289,7 +289,7 @@
    "ur": "",
    "opacity": 0.34,
    "step": 1,
-   "until": 2
+   "until": 3
   },
   {
    "id": "l_0153",
@@ -312,7 +312,8 @@
    "tier": "capital",
    "labelPos": "left",
    "step": 1,
-   "note": ""
+   "note": "",
+   "scale": 1.5
   },
   {
    "id": "t_0155",
@@ -413,10 +414,10 @@
    "label": "",
    "ur": "",
    "opacity": 0.3,
-   "step": 3
+   "step": 4
   },
   {
-   "id": "tb_s06_1",
+   "id": "t_s06_bahrayn",
    "type": "territory",
    "pts": [
     [
@@ -444,46 +445,71 @@
    "label": "",
    "ur": "",
    "opacity": 0.3,
-   "step": 2
+   "step": 3
+  },
+  {
+   "id": "l_s06_17",
+   "type": "label",
+   "lon": 55.0,
+   "lat": 29.6,
+   "text": "not yet told",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "step": 2,
+   "note": "say",
+   "until": 2
   },
   {
    "id": "l_s06_18",
    "type": "label",
-   "lon": 46.8,
-   "lat": 28.6,
-   "text": "right and left",
+   "lon": 50.3,
+   "lat": 13.6,
+   "text": "not yet told",
    "ur": "",
-   "step": 1,
-   "until": 1
+   "size": 26,
+   "align": "center",
+   "step": 2,
+   "note": "say",
+   "until": 2
   },
   {
    "id": "l_s06_19",
    "type": "label",
-   "lon": 51.2,
-   "lat": 26.9,
-   "text": "settled",
+   "lon": 55.2,
+   "lat": 29.6,
+   "text": "Bahrayn, held again",
    "ur": "",
-   "step": 2,
-   "until": 2
+   "size": 26,
+   "align": "center",
+   "step": 3,
+   "note": "say",
+   "until": 3
   },
   {
    "id": "l_s06_20",
    "type": "label",
-   "lon": 49.8,
-   "lat": 15.2,
-   "text": "the last front, taken",
+   "lon": 50.6,
+   "lat": 13.6,
+   "text": "Ḥaḍramawt, the last front",
    "ur": "",
-   "step": 3,
-   "until": 3
+   "size": 26,
+   "align": "center",
+   "step": 4,
+   "note": "say",
+   "until": 4
   },
   {
    "id": "l_s06_21",
    "type": "label",
-   "lon": 46.8,
-   "lat": 28.6,
+   "lon": 46.5,
+   "lat": 29.3,
    "text": "one colour",
    "ur": "",
-   "step": 4
+   "size": 26,
+   "align": "center",
+   "step": 5,
+   "note": "say"
   }
  ],
  "underlay": null,
@@ -497,14 +523,14 @@
   "grain": true,
   "vignette": true,
   "cartouche": false,
-  "legend": true,
+  "legend": false,
   "scalebar": true,
   "urduLabels": false,
   "aspect": "16:9"
  },
  "steps": {
-  "count": 4,
-  "current": 4,
+  "count": 5,
+  "current": 5,
   "mode": "upto"
  }
 }

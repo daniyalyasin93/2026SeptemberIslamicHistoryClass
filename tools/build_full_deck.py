@@ -151,7 +151,14 @@ def cards_of(content_md):
         tail = body[hm.end():] if hm else ""
         c["extra"] = re.sub(r"\n-{3,}\s*$", "", tail.strip()).strip()
         bm = BEATS.search(body)
-        c["beats"] = [(h.strip(), t.strip()) for h, t in BEAT_LINE.findall(bm.group(1))] if bm else []
+        # EVERY numbered beat is kept. Until 2026-10-08 a beat with no " — " matched nothing and was dropped
+        # in silence: 49 of evening 6's 288 beats (17%) never reached a slide, among them the one line that
+        # set up al-Jārūd's ؓ five questions — which Daniyal then asked for, not knowing it was on the card.
+        # A beat without a dash is its own cue, with no detail. tools/check_vision.py fails a cue that is long.
+        c["beats"] = []
+        for raw in (re.findall(r"(?m)^[ 	]*\d+\.[ 	]*(.+?)[ 	]*$", bm.group(1)) if bm else []):
+            mm = re.match(r"^(.+?)\s+—\s+(.+)$", raw)
+            c["beats"].append((mm.group(1).strip(), mm.group(2).strip()) if mm else (raw.strip(), ""))
         qm = QUOTE_AFTER.search(body)
         c["quote_after"] = min(int(qm.group(1)), len(c["beats"])) if qm else len(c["beats"])
         sm = STATEMENT.search(body)
@@ -453,7 +460,7 @@ def beat_slide(prs, c, i, extra_notes=""):
 
 
 def card_slide(prs, c, extra_notes="", arabic_on_face=True, face_text=None, face_quote=None,
-               tail_notes=""):
+               tail_notes="", speaker=None, scene=None, brief=None):
     """One card -> one slide, by the rules in the module docstring. Returns the slide, or None.
 
     `arabic_on_face=False` keeps the statement in the speaker notes only: for a quotation that must
@@ -478,7 +485,8 @@ def card_slide(prs, c, extra_notes="", arabic_on_face=True, face_text=None, face
 
     try:
         if face_text:
-            s = D.statement_slide(prs, english=face_text, headline=head, kicker=kicker)
+            s = D.statement_slide(prs, english=face_text, headline=head, kicker=kicker,
+                                  speaker=speaker, scene=scene)
         elif c["arabic"] and ar_len(c["arabic"]) <= AR_SLIDE_MAX:
             # The rendering is truncated on the slide and given whole in the notes. A 146-word
             # translation projected at 30pt is not readable from the back of a hall, and the
@@ -487,25 +495,25 @@ def card_slide(prs, c, extra_notes="", arabic_on_face=True, face_text=None, face
             # A blind 24-word cut here threw away words that fitted ("…he had meant nothing but…").
             s = D.statement_slide(prs, english=clean(face(c["english"])),
                                   arabic=c["arabic"], cite=face(cite_en(c["cite"])),
-                                  headline=head, kicker=kicker)
+                                  headline=head, kicker=kicker, speaker=speaker, scene=scene)
         elif c["arabic"]:
             # Too long to project whole. The slide holds the card; the statement waits in the
             # notes with an instruction to excerpt it deliberately rather than by accident.
             s = D.image_slide(prs, None, head, kicker=kicker,
-                              brief="A restrained editorial illustration for: %s. Landscape, "
+                              brief=brief or "A restrained editorial illustration for: %s. Landscape, "
                                     "architecture, objects or texture only - no people, no "
                                     "faces. Muted ochre, teal and bone. 16:9."
                                     % short(c["what"], 30))
         elif not is_na(c["map"]):
             s = D.map_slide(prs, None, head, kicker=kicker,
                             keys=[(clean(short(face(c["map"]), 4)), clean(short(face(c["what"]), 8)))],
-                            brief="A restrained editorial illustration for: %s. Landscape, "
+                            brief=brief or "A restrained editorial illustration for: %s. Landscape, "
                                   "architecture, objects or texture only — no people, no faces. "
                                   "Muted ochre, teal and bone. 16:9."
                                   % short(c["what"], 30))
         else:
             s = D.image_slide(prs, None, head, kicker=kicker,
-                              brief="A restrained editorial illustration for: %s. Landscape, "
+                              brief=brief or "A restrained editorial illustration for: %s. Landscape, "
                                     "architecture, objects or texture only — no people, no "
                                     "faces. Muted ochre, teal and bone. 16:9."
                                     % short(c["what"], 30))

@@ -1,0 +1,522 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "Hajar",
+  "subtitle": "",
+  "urduTitle": "",
+  "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
+ },
+ "view": {
+  "cx": 43.02414206001092,
+  "cy": -25.4,
+  "scale": 1164.7058823529417
+ },
+ "style": {
+  "relief": true,
+  "reliefStrength": 0.3,
+  "rivers": true,
+  "markScale": 2.0,
+  "cartoucheScale": 2.0,
+  "graticule": false,
+  "grain": true,
+  "vignette": true,
+  "cartouche": false,
+  "legend": false,
+  "scalebar": true,
+  "urduLabels": false,
+  "aspect": "16:9"
+ },
+ "factions": [
+  {
+   "id": "f1",
+   "name": "Muslim forces",
+   "ur": "",
+   "color": "#2CB020"
+  },
+  {
+   "id": "f4",
+   "name": "In revolt",
+   "ur": "",
+   "color": "#E7A244"
+  },
+  {
+   "id": "f5",
+   "name": "Not yet told",
+   "ur": "",
+   "color": "#9AA39E"
+  },
+  {
+   "id": "f6",
+   "name": "Under a covenant",
+   "ur": "",
+   "color": "#5B8FD6"
+  }
+ ],
+ "underlay": null,
+ "objects": [
+  {
+   "id": "s_001",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 49.588,
+   "lat": 25.383,
+   "name": "Hajar",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "above",
+   "scale": 1.5
+  },
+  {
+   "id": "s_002",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 49.93,
+   "lat": 25.5,
+   "name": "Juwāthā",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "a_003",
+   "type": "army",
+   "step": 1,
+   "note": "force",
+   "lon": 49.6,
+   "lat": 25.27,
+   "name": "al-Ḥuṭam",
+   "ur": "",
+   "faction": "f4",
+   "strength": "Bakr b. Wāʾil",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "until": 9
+  },
+  {
+   "id": "a_004",
+   "type": "army",
+   "step": 1,
+   "note": "force",
+   "lon": 50.02,
+   "lat": 25.33,
+   "name": "al-Jārūd ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "ʿAbd al-Qays",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "until": 2
+  },
+  {
+   "id": "a_005",
+   "type": "arrow",
+   "step": 2,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     49.12,
+     25.2
+    ],
+    [
+     49.19,
+     25.25
+    ],
+    [
+     49.28,
+     25.34
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_006",
+   "type": "army",
+   "step": 2,
+   "note": "force",
+   "lon": 49.28,
+   "lat": 25.34,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "follows": "a_005",
+   "until": 8
+  },
+  {
+   "id": "a_007",
+   "type": "arrow",
+   "step": 3,
+   "note": "march:al-Jārūd ؓ",
+   "pts": [
+    [
+     50.02,
+     25.33
+    ],
+    [
+     49.96,
+     25.3
+    ],
+    [
+     49.88,
+     25.28
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_008",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 49.88,
+   "lat": 25.28,
+   "name": "al-Jārūd ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "ʿAbd al-Qays",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "follows": "a_007",
+   "until": 8
+  },
+  {
+   "id": "t_009",
+   "type": "territory",
+   "step": 4,
+   "note": "trench",
+   "pts": [
+    [
+     49.453856406460545,
+     25.56
+    ],
+    [
+     49.453856406460545,
+     25.16
+    ],
+    [
+     49.42614359353945,
+     25.16
+    ],
+    [
+     49.42614359353945,
+     25.56
+    ]
+   ],
+   "faction": "f5",
+   "label": "",
+   "ur": "",
+   "opacity": 0.75
+  },
+  {
+   "id": "t_010",
+   "type": "territory",
+   "step": 4,
+   "note": "trench",
+   "pts": [
+    [
+     49.773856406460546,
+     25.56
+    ],
+    [
+     49.773856406460546,
+     25.16
+    ],
+    [
+     49.74614359353945,
+     25.16
+    ],
+    [
+     49.74614359353945,
+     25.56
+    ]
+   ],
+   "faction": "f5",
+   "label": "",
+   "ur": "",
+   "opacity": 0.75
+  },
+  {
+   "id": "l_011",
+   "type": "label",
+   "step": 4,
+   "note": "say",
+   "lon": 49.6,
+   "lat": 25.6,
+   "text": "trenches",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 4
+  },
+  {
+   "id": "l_012",
+   "type": "label",
+   "step": 5,
+   "note": "say",
+   "lon": 49.6,
+   "lat": 25.66,
+   "text": "a month",
+   "ur": "",
+   "size": 32,
+   "align": "center",
+   "until": 5
+  },
+  {
+   "id": "a_013",
+   "type": "arrow",
+   "step": 6,
+   "note": "march:Ibn Ḥadhf",
+   "pts": [
+    [
+     49.29,
+     25.47
+    ],
+    [
+     49.35,
+     25.5
+    ],
+    [
+     49.41,
+     25.5
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0,
+   "until": 6
+  },
+  {
+   "id": "a_014",
+   "type": "army",
+   "step": 6,
+   "note": "force",
+   "lon": 49.41,
+   "lat": 25.5,
+   "name": "Ibn Ḥadhf",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "above",
+   "scale": 1.5,
+   "follows": "a_013",
+   "until": 7
+  },
+  {
+   "id": "l_015",
+   "type": "label",
+   "step": 6,
+   "note": "say",
+   "lon": 49.98,
+   "lat": 25.69,
+   "text": "a noise in the night",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 6
+  },
+  {
+   "id": "b_016",
+   "type": "battle",
+   "step": 7,
+   "note": "clash",
+   "lon": 49.44,
+   "lat": 25.5,
+   "name": "",
+   "ur": "",
+   "date": "",
+   "labelPos": "below",
+   "scale": 1.5,
+   "until": 7
+  },
+  {
+   "id": "l_017",
+   "type": "label",
+   "step": 7,
+   "note": "say",
+   "lon": 49.98,
+   "lat": 25.69,
+   "text": "taken — he calls for his uncle",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 7
+  },
+  {
+   "id": "a_018",
+   "type": "arrow",
+   "step": 8,
+   "note": "march:Ibn Ḥadhf",
+   "pts": [
+    [
+     49.41,
+     25.5
+    ],
+    [
+     49.34,
+     25.56
+    ],
+    [
+     49.27,
+     25.52
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0,
+   "until": 8
+  },
+  {
+   "id": "a_019",
+   "type": "army",
+   "step": 8,
+   "note": "force",
+   "lon": 49.27,
+   "lat": 25.52,
+   "name": "Ibn Ḥadhf",
+   "ur": "",
+   "faction": "f1",
+   "strength": "“they are drunk”",
+   "unit": "mixed",
+   "labelPos": "above",
+   "scale": 1.5,
+   "follows": "a_018",
+   "until": 8
+  },
+  {
+   "id": "a_020",
+   "type": "arrow",
+   "step": 9,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     49.28,
+     25.34
+    ],
+    [
+     49.39,
+     25.37
+    ],
+    [
+     49.5,
+     25.4
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_021",
+   "type": "army",
+   "step": 9,
+   "note": "force",
+   "lon": 49.5,
+   "lat": 25.4,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_020"
+  },
+  {
+   "id": "a_022",
+   "type": "arrow",
+   "step": 9,
+   "note": "march:al-Jārūd ؓ",
+   "pts": [
+    [
+     49.88,
+     25.28
+    ],
+    [
+     49.8,
+     25.31
+    ],
+    [
+     49.7,
+     25.36
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_023",
+   "type": "army",
+   "step": 9,
+   "note": "force",
+   "lon": 49.7,
+   "lat": 25.36,
+   "name": "al-Jārūd ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "ʿAbd al-Qays",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_022"
+  },
+  {
+   "id": "b_024",
+   "type": "battle",
+   "step": 9,
+   "note": "clash",
+   "lon": 49.588,
+   "lat": 25.383,
+   "name": "",
+   "ur": "",
+   "date": "",
+   "labelPos": "below",
+   "scale": 1.5,
+   "until": 9
+  },
+  {
+   "id": "l_025",
+   "type": "label",
+   "step": 10,
+   "note": "say",
+   "lon": 49.6,
+   "lat": 25.2,
+   "text": "al-Ḥuṭam killed",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 10
+  }
+ ],
+ "steps": {
+  "count": 10,
+  "current": 10,
+  "mode": "upto"
+ }
+}

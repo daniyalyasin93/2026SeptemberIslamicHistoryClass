@@ -1693,3 +1693,46 @@ What is new is that the stop is **chosen at the lectern, not in the runsheet.**
   runsheet, not asked for afterwards.**
 - **Evening 5's slides 11–13 are his own maps and diagrams**, deliberately picture-only. Not unfinished
   slides, and not to be "fixed".
+
+---
+
+## 73. Feedback becomes a gate: `docs/VISION.md` and `tools/check_vision.py` — 2026-10-08
+
+Daniyal, after studying evening 6's slides 1–25: *"You need to fix the comments but more importantly we need to
+make the system that generates our content always within the vision given my feedback."*
+
+**What the review found was not twenty slide faults but five causes, each repeated:**
+
+| Cause | What it produced | Root, once looked for |
+|---|---|---|
+| Notes he cannot deliver from | 540–2,091 words under one slide | the pane dumped every sub-note above the beats — and **the parser silently dropped any beat not written `Cue — detail`: 49 of 288, 17%**. The line he asked for at slide 16 was on the card |
+| Faces that assume knowledge | *"who said this?"* · *"taken by who?"* · *"where or what is al Khatt??"* · a title that *"will make no sense"* | no rule required a speaker, an agent, a gloss, or a name |
+| Maps that do not move with the story | a stale icon, an unexplained arrow, 10px captions, a title box over the march | the scene was hand-placed. Evening 5's scenes already had the box off and the text doubled; nothing made the new one inherit either. Its captions had no `size`, so the painter fell back to 10px |
+| Images with no brief | *"where is the description…?"* | the build wrote an IMAGE BRIEF into the notes and the next call overwrote it; and the "brief" was the story's first thirty words |
+| Order | *"didn't this happen before slide 20?"* | a card's statement belonged to the card after it |
+
+**Settled:**
+
+1. **`docs/VISION.md` is the house style as numbered rules**, each with the words of his that produced it and the
+   check that enforces it. It is read before anything is generated.
+2. **`tools/check_vision.py` is the gate**, and `build.py` runs it. Run on the deck he had just reviewed, it
+   reproduced his comments unprompted — *"the key 'al-Qaṭīf, Hajar' — 'taken' does not say who did it"* — and found
+   **578 breaches of 17 rules**. After the rebuild: none.
+3. **Notes are two tiers** (`series/notes2.py`): a SAY block of short spaced cues, then a drawn rule, then the
+   detail. Beats are written `Cue — detail`; the parser now keeps every beat.
+4. **Maps are written through `series/mapkit.py`**, whose helpers satisfy the map rules by construction, and which
+   refuses to save a scene that breaks one. Frames are computed from the projection (equirectangular at 30°N —
+   `view.cx` is longitude × cos 30°, which is why setting it by trial had taken three renders).
+5. **A face names things**: `FACE_SPEAKER`, `FACE_SCENE`, `FACE_WHEN`, `FACE_CUT`, `IMAGE_BRIEF` in `build.py`;
+   `deck2.statement_slide` takes a speaker and scene lines; the build refuses a placeholder with no authored brief.
+6. **Moments of faith get a slide of their own** (`IMAN`), and reading a page includes looking for the line that
+   could be said aloud to a room (VISION D2 — his second message of the day).
+7. **The gate is not the eye.** It passed a close-up with three forces on one spot. Looking caught it; rule M15
+   (nothing printed over anything else) was written because of it, and found six more collisions on a map not yet
+   looked at. **Every new map's rendered steps are opened before hand-over; what the eye catches is the next rule.**
+
+**Two things he should confirm.** (a) **The year of the Prophet's ﷺ letter to al-Mundhir b. Sāwā.** He asked for
+the opening map to be titled *8 Hijri*. The embassy is on a page — ⁨البدایہ ج۴ ص۵۱۷⁩, from Ibn Isḥāq — **but no
+page we hold gives its year.** The slide says *"in the Prophet's ﷺ lifetime"* and the note says the year is
+commonly put at 8 AH. (b) **I2** — image briefs ask for places, animals and objects, never a person or a face — is
+a default proposed for this room, not something he has said.

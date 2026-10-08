@@ -1,0 +1,487 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "Bahrayn",
+  "subtitle": "",
+  "urduTitle": "",
+  "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
+ },
+ "view": {
+  "cx": 39.57736095294885,
+  "cy": -25.45,
+  "scale": 108.38789053586574
+ },
+ "style": {
+  "relief": true,
+  "reliefStrength": 0.85,
+  "rivers": true,
+  "markScale": 2.0,
+  "cartoucheScale": 2.0,
+  "graticule": false,
+  "grain": true,
+  "vignette": true,
+  "cartouche": false,
+  "legend": false,
+  "scalebar": true,
+  "urduLabels": false,
+  "aspect": "16:9"
+ },
+ "factions": [
+  {
+   "id": "f1",
+   "name": "Muslim forces",
+   "ur": "",
+   "color": "#2CB020"
+  },
+  {
+   "id": "f4",
+   "name": "In revolt",
+   "ur": "",
+   "color": "#E7A244"
+  },
+  {
+   "id": "f5",
+   "name": "Not yet told",
+   "ur": "",
+   "color": "#9AA39E"
+  },
+  {
+   "id": "f6",
+   "name": "Under a covenant",
+   "ur": "",
+   "color": "#5B8FD6"
+  }
+ ],
+ "underlay": null,
+ "objects": [
+  {
+   "id": "s_001",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 39.61,
+   "lat": 24.47,
+   "name": "Medina",
+   "ur": "",
+   "tier": "capital",
+   "labelPos": "left",
+   "scale": 1.5
+  },
+  {
+   "id": "s_002",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 49.588,
+   "lat": 25.383,
+   "name": "Hajar",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "below",
+   "scale": 1.5
+  },
+  {
+   "id": "l_003",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 44.9,
+   "lat": 25.75,
+   "text": "al-Yamāma",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_004",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 47.7,
+   "lat": 28.05,
+   "text": "al-Dahnāʾ",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_005",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 51.4,
+   "lat": 28.3,
+   "text": "BAHRAYN",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "t_006",
+   "type": "territory",
+   "step": 1,
+   "note": "region:bahrayn",
+   "pts": [
+    [
+     48.5,
+     27.4
+    ],
+    [
+     50.2,
+     27.3
+    ],
+    [
+     50.8,
+     26.2
+    ],
+    [
+     50.5,
+     24.7
+    ],
+    [
+     48.9,
+     24.6
+    ],
+    [
+     48.3,
+     25.8
+    ]
+   ],
+   "faction": "f5",
+   "label": "",
+   "ur": "",
+   "opacity": 0.26,
+   "until": 2
+  },
+  {
+   "id": "a_007",
+   "type": "arrow",
+   "step": 2,
+   "note": "letter",
+   "pts": [
+    [
+     39.61,
+     24.47
+    ],
+    [
+     44.599000000000004,
+     25.325619999999997
+    ],
+    [
+     49.588,
+     25.383
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 5.0,
+   "until": 2
+  },
+  {
+   "id": "l_008",
+   "type": "label",
+   "step": 2,
+   "note": "say",
+   "lon": 42.6,
+   "lat": 27.7,
+   "text": "a letter from the Prophet ﷺ",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 2
+  },
+  {
+   "id": "t_009",
+   "type": "territory",
+   "step": 3,
+   "note": "region:bahrayn",
+   "pts": [
+    [
+     48.5,
+     27.4
+    ],
+    [
+     50.2,
+     27.3
+    ],
+    [
+     50.8,
+     26.2
+    ],
+    [
+     50.5,
+     24.7
+    ],
+    [
+     48.9,
+     24.6
+    ],
+    [
+     48.3,
+     25.8
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "opacity": 0.26,
+   "until": 4
+  },
+  {
+   "id": "a_010",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 51.3,
+   "lat": 26.3,
+   "name": "al-Mundhir ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "holds Bahrayn",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "until": 3
+  },
+  {
+   "id": "l_011",
+   "type": "label",
+   "step": 4,
+   "note": "say",
+   "lon": 42.6,
+   "lat": 27.7,
+   "text": "al-Mundhir ؓ dies",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 4
+  },
+  {
+   "id": "t_012",
+   "type": "territory",
+   "step": 5,
+   "note": "region:bahrayn",
+   "pts": [
+    [
+     48.5,
+     27.4
+    ],
+    [
+     50.2,
+     27.3
+    ],
+    [
+     50.8,
+     26.2
+    ],
+    [
+     50.5,
+     24.7
+    ],
+    [
+     48.9,
+     24.6
+    ],
+    [
+     48.3,
+     25.8
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "opacity": 0.26
+  },
+  {
+   "id": "a_013",
+   "type": "army",
+   "step": 5,
+   "note": "force",
+   "lon": 51.2,
+   "lat": 24.1,
+   "name": "al-Jārūd ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "holds firm",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5
+  },
+  {
+   "id": "l_014",
+   "type": "label",
+   "step": 5,
+   "note": "say",
+   "lon": 42.6,
+   "lat": 27.7,
+   "text": "Rabīʿa turn",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 5
+  },
+  {
+   "id": "a_015",
+   "type": "army",
+   "step": 6,
+   "note": "force",
+   "lon": 51.3,
+   "lat": 26.5,
+   "name": "al-Ḥuṭam",
+   "ur": "",
+   "faction": "f4",
+   "strength": "Bakr b. Wāʾil",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "a_016",
+   "type": "army",
+   "step": 7,
+   "note": "force",
+   "lon": 40.9,
+   "lat": 23.3,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "sixteen riders",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "until": 7
+  },
+  {
+   "id": "a_017",
+   "type": "arrow",
+   "step": 8,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     40.9,
+     23.3
+    ],
+    [
+     43.2,
+     23.7
+    ],
+    [
+     45.6,
+     23.6
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_018",
+   "type": "army",
+   "step": 8,
+   "note": "force",
+   "lon": 45.6,
+   "lat": 23.6,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "+ Banū Ḥanīfa",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "follows": "a_017",
+   "until": 8
+  },
+  {
+   "id": "a_019",
+   "type": "arrow",
+   "step": 9,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     45.6,
+     23.6
+    ],
+    [
+     46.3,
+     23.8
+    ],
+    [
+     46.9,
+     24.3
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_020",
+   "type": "army",
+   "step": 9,
+   "note": "force",
+   "lon": 46.9,
+   "lat": 24.3,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "+ Tamīm",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "follows": "a_019",
+   "until": 9
+  },
+  {
+   "id": "a_021",
+   "type": "arrow",
+   "step": 10,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     46.9,
+     24.3
+    ],
+    [
+     47.2,
+     25.4
+    ],
+    [
+     47.6,
+     26.6
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_022",
+   "type": "army",
+   "step": 10,
+   "note": "force",
+   "lon": 47.6,
+   "lat": 26.6,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "an army now",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_021"
+  }
+ ],
+ "steps": {
+  "count": 10,
+  "current": 10,
+  "mode": "upto"
+ }
+}

@@ -1,4 +1,4 @@
-# Evenings 6 and 7, in one deck — «Right and left» · RUNSHEET
+# Evenings 6 and 7, in one deck — Bahrayn and Ḥaḍramawt · RUNSHEET
 
 **The cut is Daniyal's.** Only tables under `## Part` headings are the evening; the build reads them in order.
 
@@ -42,7 +42,7 @@ Three rules got it there:
 
 | | |
 |---|---|
-| Material | **44 cards / ~82.5 min budgeted ≈ 60 min spoken** at his measured 1.36 min a card — **two evenings in one file** (Daniyal, 2026-10-07: *"build the material for both this session and next in one slide pptx, I will decide where to stop based on available time"*) |
+| Material | **41 cards built (Parts I–VIII)** at his measured 1.36 min a card — **two evenings in one file** (Daniyal, 2026-10-07: *"build the material for both this session and next in one slide pptx, I will decide where to stop based on available time"*) |
 | Shape | one slide per card (#39) · a moving card's map **is** its slide (#63) · captions fade (#64) · **each front closes on its own map before the next opens (#69)** · lectern = the notes (#60) |
 | Research | **none needed.** Every page is cached: 30097/3184–3187, 3207 · 21712/912–915 · 10906/1688–1690 |
 
@@ -51,15 +51,15 @@ Three rules got it there:
 
 | Stop | After | The evening it makes | What is left |
 |---|---|---|---|
-| **Checkpoint 1** | #15, Dārīn | the frame + Bahrayn — **15 cards, ≈ 24 min.** Short | everything from Kinda on |
-| **Checkpoint 2** | #24, al-Nujayr | + Ḥaḍramawt to the fort — **24 cards, ≈ 36 min** | the judgement at Medina, and all of evening 7 |
-| **Checkpoint 3** | #28, `PG41` | **the natural evening 6 — 28 cards, ≈ 39 min.** The fighting ends and a man comes back | the whole retrospective and the turn outward |
-| **Checkpoint 4** | #38, `RC35` | **+ the Ridda's last word — 38 cards, ≈ 52 min.** Arabia in one colour | only the two empires and the two letters |
-| *the close* | #44, `ISA/E-C2` | everything, **≈ 60 min.** Only if the slot runs long | — |
+| **Checkpoint 1** | #17, Thumāma ؓ | Bahrayn whole — **17 cards, ≈ 30 min budgeted.** A complete evening on its own | Kinda and Ḥaḍramawt, and all of evening 7 |
+| **Checkpoint 2** | #26, al-Nujayr | + Ḥaḍramawt to the fort — **26 cards** | the judgement at Medina, and evening 7 |
+| **Checkpoint 3** | #30, `PG41` | **the natural evening 6 — 30 cards.** The fighting ends and al-Ashʿath ؓ comes back | the retrospective and the turn outward |
+| **Checkpoint 4** | #40, `RC35` | **+ the war looked back on — 40 cards.** Arabia in one colour | Ibn Khaldūn's one slide; then Parts IX–X, unbuilt |
+| *the close* | #41, `IKR1` | everything that is built | — |
 
-⚠ **Parts IX and X cannot be built until two things are done** — the two-empires research note (Part IX) and
-beats for the `ISA`/`GSA` cards (Part X). **Until then the deck ends at Checkpoint 4**, which is a complete
-and satisfying evening on its own: the Ridda, finished, with the peninsula in one colour.
+⚠ **Bahrayn is now longer than it was** — seventeen cards, sixteen maps' worth of clicks, four slides of faith — because
+Daniyal asked for it to be told properly (2026-10-08). At his pace **Checkpoint 1 or 2 is the likely end of the
+evening**, and that is the intended behaviour (#20): whatever is not reached opens the next one.
 
 > ### Already told — do not tell again
 > **Evening 5:** the terms at the forts · the two houses and the reciters · the Qurʾān gathered whole · Oman,
@@ -78,40 +78,39 @@ Evening 5's Checkpoint 2 pair, unchanged — the Line at 12 AH with Oman and Mah
 and Ḥaḍramawt grey. One sentence to turn: *last week the east was settled front by front, and one grey patch
 was left. Tonight: the front that started before all of them — and then the last one.*
 
-## Part I — Right and left (the frame)
+## Part I — Arabia, as the year 12 opens
 
-**Not a timeline step.** A statement about the whole period, in Ibn Kathīr's own voice, which licenses
-everything after it. Told over the Arabia map with **every front lit at once** and one grey patch.
-
-| # | Card | Tier | Min | Σ | Note |
-|---|---|---|---|---|---|
-| 1 | `RCT/E-RC80` ⬜ The year began with the armies still out | CORE | 2 | 2 | **The card Daniyal asked for**, carrying ⁨البدایہ ج۷ ص۶۱⁩ verbatim — the year 12 opened with the armies *"roving the land right and left"*. ⁨يمينًا وشمالًا⁩ is the point: the fronts overlapped. ⚠ **The books do not fix the months inside 11–12 AH** — say once that the order is ours. ⚠ «⁨فقتلوا يوم النُّجير⁩» on that page is the **editor's footnote**, not Ibn Kathīr's text |
-| 2 | `RCT/E-RC79` ⬜ The march to Khaybar that never happened | GOOD | 2 | 4 | A bluff, reported by the book as a bluff — ⁨البدایہ ج۷ ص۲۴⁩. Entirely new: ⁨خیبر⁩ is on no card in the repo |
-| 3 | `RCT/E-RC76` ⬜ The north was opened before the banners were tied | GOOD | 2 | 6 | Usāma's ؓ army struck Quḍāʿa on its way back. ⚠⚠ **No engagement of Khālid b. Saʿīd b. al-ʿĀṣ ؓ on ⁨مشارف الشام⁩ is on any page we hold — DO NOT DRAW HIM A BATTLE.** The honest line: he was given the Syrian marches and we are told nothing of what he did there |
-| 4 | `RCT/E-RC77` ⬜ Four places you have not heard of | GOOD | 2 | 8 | §9.1's four coastal and highland actions, ⁨الکامل ج۲ ص۲۲۷⁩ **only**. ⚠ Say *"Ibn al-Athīr alone records…"* |
-
-## Part II — Bahrayn: the front that started first (11→12 AH)
-
-Runs forward throughout — the governor's death, the rising, the siege, the march, the trench, Dārīn.
-⬜ **Five cards to write; six existing cards have no beats.**
+One card. The three framing cards that stood here were cut by Daniyal on 2026-10-08 — *"6-8 are unnecessary"*
+— and are listed under *Cut by Daniyal* below. They stay in the pool.
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 5 | `RCT/E-RC71` ⬜ The governor dies, and they fetch a king back | CORE | 2 | 10 | al-Mundhir b. Sāwā ؓ, the Prophet's ﷺ own man there, dies *"shortly after the Prophet ﷺ"*. The programme is a **restoration of the old Lakhmid kingship** — not a false prophet. ⚠⚠ **NAME NO KING:** three forms across the books. Say *"a king of the old Lakhmid line"* |
-| 6 | `RCT/E-RC72` ⬜ al-Ḥuṭam b. Ḍubayʿa, and what he gathered | CORE | 2 | 12 | **Fixes a real #43 defect** — his death and his cloak carry two cards and he was never introduced. ⚠ **And the ridda here was not all ridda: men who had never been Muslims joined him** (⁨الکامل ج۲ ص۲۲۲⁩). That is a **beat and the ⁨عبرت⁩**, not an apparatus note |
-| 7 | `RCT/E-RC24` ⁨جُواثى⁩ under siege | GOOD | 2 | 14 | ⚠⚠ **The verses' last hemistich differs** (⁨الصبر⁩/⁨النصر⁩) — read it off a page image (§1.1). ⚠ No honest map shades Bahrayn one colour |
-| 8 | `ATA/E-TB24` Al-Jārūd ؓ asks his tribe five questions | CORE | 2 | 16 | **Bolted to #7 — both or neither.** Same page; the **loyalist half of a two-colour map**: Bakr b. Wāʾil rose, ʿAbd al-Qays held behind al-Jārūd ؓ |
-| 9 | `RCT/E-RC25` The sixteen riders | CORE | 2 | 18 | **al-ʿAlāʾ b. al-Ḥaḍramī ؓ has never been named in the series — his notice is beat 1.** ⚠⚠ al-Dahnāʾ's water is a ⁨کرامہ⁩ narrative, through ⁨سيف بن عمر⁩ in ⁨البدایہ⁩ — narrate as the book narrates. ⁨البدایہ ج۷ ص۳۹⁩'s three-questions version is the better telling. ⚠ **Abū Hurayra ؓ was on that march** |
-| 10 | `RCT/E-RC26` The trench month | GOOD | 2 | 20 | ⚠ **The pincer is on no card:** al-ʿAlāʾ ؓ sent for al-Jārūd ؓ to come up the other side — which is what makes #8 pay off. ⚠⚠ **Why the camp was drunk: no page says.** Give the stalemate as the setting and supply nothing |
-| 11 | `RCT/E-RC73` ⬜ The uncle at the trench | GOOD | 1.5 | 21.5 | Ibn Ḥadhf shouts for his maternal uncle, in the enemy camp. ⚠⚠ **One man or two? The books do not say** (Daniyal, 2026-09-06) — do not assert it |
-| 12 | `RCT/E-RC74` ⬜ al-Ḥuṭam's death, and what Qays b. ʿĀṣim said | CORE | 2 | 23.5 | The stirrup-leather, the sword, and the man who asked passers-by to finish him. ⚠⚠ **Do not use ⁨ابن خلدون⁩** — three different killers on his own pages. The clearest worked example of why #29 exists |
-| 13 | `RCT/E-RC27` ⁨دارين⁩ — into the water | CORE | 2 | 25.5 | ⚠ **Why Dārīn was separate:** everyone gathered to al-Ḥuṭam **except the people of Dārīn**. ⚠ **al-Muthannā b. Ḥāritha** sealed the roads — a name the Iraq evenings need; frame it. «⁨وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ⁩» is the **statement**, not a sub-note. The would-be king: captured, **and he became a Muslim** — ⚠ **no page says pardoned** |
-| 14 | `RCT/E-RC75` ⬜ The monk of Hajar | GOOD | 1.5 | 27 | Three reasons, from a man who was there. **The closing card of the part**, and it answers *"how do we know that?"* from inside the story (#27) |
-| 15 | `RCT/E-RC28` Thumāma b. Uthāl ؓ and the embroidered cloak | GOOD | 1.5 | 28.5 | Callback to evening 4. ⚠⚠ **Not in ⁨البدایہ⁩ — cite ⁨الکامل ج۲ ص۲۲۴⁩ only.** ⚠ **Discretion:** killed by fellow Arabs after the surrender, over cloth. Plainly, briefly; skip if the room is heavy |
+| 1 | `RCT/E-RC80` The year opened with the armies still in the field | CORE | 2 | 2 | **The Arabic Daniyal asked for, on the face.** Told on the Arabia map: every front lit, the two not yet told marked |
 
-**✓ Checkpoint 1 — after #15.** ⬜ new pair. Line: the eastern lane lit, Juwāthā to Dārīn. Map, three clicks
-(#69): Dārīn taken · the east green · **one grey patch left.** ⚠ Keep ʿAbd al-Qays a different shade
-throughout. ⏱ Past 0:30 → Part III runs; past 0:38 → close here, and Ḥaḍramawt opens evening 7.
+## Part II — Bahrayn: the front that began first (11→12 AH)
+
+**Rebuilt 2026-10-08 after Daniyal's review** (`docs/VISION.md`). A situation map first; then one theatre map and
+three close-ups, every force an icon that travels; the cards in the order things happened; and the moments of
+faith at al-Dahnāʾ and at the shore given slides of their own.
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| 2 | `RCT/E-RC71` The governor dies, and they fetch a king back | CORE | 2 | 4 | Opens on the **situation map**: the Prophet's ﷺ letter, Bahrayn under Islam. Then the map of the rising |
+| 3 | `ATA/E-TB24` Al-Jārūd ؓ asks his tribe five questions | CORE | 2 | 6 | The first cue is what ʿAbd al-Qays were saying — the line the parser used to drop |
+| 4 | `RCT/E-RC72` al-Ḥuṭam b. Ḍubayʿa, and what he gathered | CORE | 2 | 8 | Close-up of the coast: al-Qaṭīf, Hajar, al-Khaṭṭ, the force to Dārīn, the siege of Juwāthā |
+| 5 | `RCT/E-RC24` ⁨جُواثى⁩ under siege | GOOD | 1.5 | 9.5 | The verses, with their speaker on the face |
+| 6 | `RCT/E-RC25` The sixteen riders | CORE | 2 | 11.5 | The theatre map again: the men who joined, and into al-Dahnāʾ |
+| 7 | `RCT/E-RC82` al-Dahnāʾ — the three questions | CORE | 2 | 13.5 | **A moment of faith: its own slide** |
+| 8 | `RCT/E-RC83` al-Dahnāʾ — the prayer, and the water | CORE | 2 | 15.5 | **A moment of faith: its own slide** |
+| 9 | `RCT/E-RC26` The trench month | GOOD | 1.5 | 17 | Close-up of Hajar: the two camps, the trenches, a month |
+| 10 | `RCT/E-RC73` The uncle in the other trench | GOOD | 2 | 19 | **Before** the assault, where it happened — Daniyal: *"didn't this happen before slide 20?"* |
+| 11 | `RCT/E-RC74` al-Ḥuṭam, and what Qays b. ʿĀṣim said over him | CORE | 2 | 21 | The assault, on the same close-up; then the words, with a scene line |
+| 12 | `RCT/E-RC84` The roads are closed | CORE | 1.5 | 22.5 | Close-up of the coast and Dārīn: the beaten sail, the roads are shut |
+| 13 | `RCT/E-RC85` "His signs on land — that you may take heed at sea" | CORE | 1 | 23.5 | **A moment of faith: its own slide** |
+| 14 | `RCT/E-RC86` The duʿāʾ at the water's edge | CORE | 1.5 | 25 | **A moment of faith: its own slide** |
+| 15 | `RCT/E-RC27` ⁨دارين⁩ — into the water | CORE | 2 | 27 | The crossing, on the close-up |
+| 16 | `RCT/E-RC75` The monk of Hajar | GOOD | 1.5 | 28.5 | |
+| 17 | `RCT/E-RC28` Thumāma b. Uthāl ؓ and the embroidered cloak | GOOD | 1.5 | 30 | ⚠ Speaker's discretion. **Checkpoint 1 follows** |
 
 ## Part III — Kinda, before any of it (10 AH)
 
@@ -199,7 +198,7 @@ titles stay as written; the face is set in `build.py` `FACE_TITLE`.
 
 **Rebuild order:** `make_timeline.py` → `make_maps.py` → `build.py` → `notes_book.py`.
 
-## Part VI — Who did not break away (11 AH)
+## Part VI — Thaqīf, Najrān, the Azd: who did not break away (11 AH)
 
 **The evening turns.** Everything so far has been fronts; this is the same moment looked at sideways — no
 movement in time at all. ✅ **All five now carry beats** (2026-10-07).
@@ -212,7 +211,7 @@ movement in time at all. ✅ **All five now carry beats** (2026-10-07).
 | 32 | `ATA/E-TB13` The verse that puts the objection as politics | CORE | 2 | 60 | «⁨فواعَجَبًا ما بَالُ مُلْكِ أبي بَكْرِ⁩» — ⁨البدایہ ج۷ ص۱۸⁩. The refusal stated its own reason, and it was not theology |
 | 33 | `ATA/E-TB25` The Azd stood on both sides of the map | CORE | 2 | 62 | **The ⁨عبرت⁩ card of the whole Ridda, and the card says so of itself:** *"If only one sentence of §2 survives the cut, keep this one."* One tribe furnished a claimant in Oman and a commander against him |
 
-## Part VII — The last word (12 AH)
+## Part VII — Medina, 12 AH: Ibn Kathīr and Ibn Masʿūd ؓ on the whole war
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
@@ -227,7 +226,7 @@ movement in time at all. ✅ **All five now carry beats** (2026-10-07).
 - **Out of time:** *"Two years after the Prophet ﷺ died, every man in Arabia was on the same side. Next week:
   there were two empires on the other side of the desert — did either of them know?"*
 
-## Part VIII — Why it did not break again
+## Part VIII — Ibn Khaldūn: why Arabia did not break again
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
@@ -239,6 +238,15 @@ movement in time at all. ✅ **All five now carry beats** (2026-10-07).
 heading — a `###` does not close one. Without this line, Part VIII swallows every table below it and
 the unbuilt futūḥ cards walk into the deck. (Found the hard way, 2026-10-07: the first S06 build
 carried `ISA/E-C1`, `C7` and `C2` onto slides with no beats behind them.)
+
+### Cut by Daniyal, 2026-10-08 — *"6-8 are unnecessary"*
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| — | `RCT/E-RC79` The march to Khaybar that never happened | GOOD | 2 | — | ✂ in the pool |
+| — | `RCT/E-RC76` The north was open before the banners were tied | GOOD | 2 | — | ✂ in the pool |
+| — | `RCT/E-RC77` Four places you have not heard of | GOOD | 2 | — | ✂ in the pool |
+
 
 ### Part IX — The other side of the desert — ⬜ NOT BUILT (the build skips a ### heading)
 
@@ -403,6 +411,8 @@ Every proper name `tools/check_introductions.py` finds appearing for the first t
 | DECISIONS | Part VIII · `IKO/E-IKR1` | NOT A NAME — a build cross-reference that had leaked into a beat. **Removed from the card.** |
 | Joining | Part VIII · `IKO/E-IKR1` | NOT A NAME — the first word of a sentence in a warning. |
 | Masʿūd | Part VII · `RCT/E-RC81` | ʿAbd Allāh b. Masʿūd ؓ — **no notice needed, the room knows him**, and beat 2 says so. ⚠ He speaks here only in praise of Abū Bakr ؓ for a decision; **nothing in the card judges anyone**, and it is not ⁨مشاجرات⁩ material. Keep it there. |
+| Ḥadhf | Part II · `RCT/E-RC24` | ʿAbd Allāh b. Ḥadhf — named on the face as the speaker of the verses, one of the besieged. ⚠ The books name a man of this name again at the trench (`RC73`) and **do not say whether he is the same**; do not assert it. |
+| Abjarāh | Part II · `RCT/E-RC73` | NOT A NAME — the cry «Yā Abjarāh!», calling his uncle Abjar b. Bujayr, who is answered in the row below. |
 | Jaḥdam | Part IV · `TSY/E-YK12` | **No notice needed** — a man with a knife, and that is all the books give. He is the whole reason al-Ashʿath forgot to write his own name in, so he is named once and never again. |
 | Rustam | Part V · `TSY/E-YK16` | ⬜ **A FORWARD REFERENCE, and `YK16` beat 1 frames it aloud** — al-Qādisiyya is an evening not yet reached. He is named, not explained. |
 | Yarmūk | Part V · `TSY/E-YK16` | ⬜ **A FORWARD REFERENCE**, framed the same way by `YK16` beat 1. ⚠ Its own year is disputed in the books; say nothing that fixes it. |

@@ -316,12 +316,12 @@ zakāt. Some of them sent the ṣadaqa money in to Abū Bakr ؓ. And some of the
 matter would go. That is one tribe in three states at the same moment. Any map that shades Banū Tamīm
 a single colour is contradicted by the book it claims to be drawn from.
 **Beats:**
-1. The book stops its own narrative to say what Banū Tamīm did — and it is not one thing.
-2. Some of them turned, and withheld the zakāt.
-3. Some of them sent the ṣadaqa money in to Abū Bakr ؓ.
-4. And some held back to see how the matter would go.
-5. One tribe, in three states, in the same month. ⚠ **The room met Banū Tamīm on evening 4, at al-Buṭāḥ** — this is that tribe, counted honestly.
-6. Any map that shades Banū Tamīm a single colour is contradicted by the book it claims to be drawn from.
+1. Banū Tamīm: not one answer — The book stops its own narrative to say what they did, and it is three things.
+2. Some withheld the zakāt — Some of them turned.
+3. Some sent it to Abū Bakr ؓ — The ṣadaqa money went in to Medina.
+4. Some waited — They held back to see how the matter would go.
+5. The tribe of al-Buṭāḥ — The room met Banū Tamīm on evening 4; this is that tribe, counted honestly.
+6. No tribe is one colour — A map that shades Banū Tamīm a single colour is contradicted by the book it is drawn from.
 **Quote after beat:** 1
 **The statement:**
 > كانت بنو تميم قد اختلفتْ أراؤُهم أيام الرِّدَّة، فمنهم من ارتدَّ ومنعَ الزكاة، ومنهم منْ بعثَ بأموالِ الصَّدقات إلى الصدِّيق، ومنهم من توقف لينظر في أمره.
@@ -405,11 +405,11 @@ he is to leave it to Bakr after him, and calls that, by God's life, a thing that
 Nothing in those lines denies the prayer, and nothing in them denies the Prophet ﷺ. What they object
 to is who is to be obeyed now.
 **Beats:**
-1. The book twice prints a verse from the refusing side — so the objection can be heard in its own words, not in ours.
-2. *"We obeyed the Messenger of Allah while he was among us — so what is this about the rule of Abū Bakr?"*
-3. The longer version at ⁨ج۷ ص۲۰⁩ asks whether it is to be left to Bakr after him, and calls that a thing that breaks the back.
-4. Nothing in those lines denies the prayer. Nothing in them denies the Prophet ﷺ.
-5. What is objected to is **who is to be obeyed now.** ⚠ Say that plainly and stop — it is an observation about what the verse says, not a verdict on anybody.
+1. The other side, in its own words — The book twice prints a verse from the men who refused.
+2. "What is this rule of Abū Bakr?" — "We obeyed the Messenger of Allah while he was among us — so what is this about the rule of Abū Bakr?"
+3. The longer version — At ⁨ج۷ ص۲۰⁩ it asks whether it is to be left to Bakr after him, and calls that a thing that breaks the back.
+4. Not the prayer, not the Prophet ﷺ — Nothing in the lines denies either.
+5. Only: who is obeyed now — That is what the verse objects to. Say it and stop; it is not a verdict on anyone.
 **Quote after beat:** 2
 **The statement:**
 > أطعنَا رسولَ اللهِ إذْ كانَ بَيْننا … فواعَجَبًا ما بَالُ مُلْكِ أبي بَكْرِ
@@ -705,11 +705,11 @@ the youngest man in the delegation. Abū Bakr ؓ then confirmed him over Ṭāʾ
 Tribes that had been inside Islam far longer broke. So the variable was not the age of the
 conversion.
 **Beats:**
-1. Thaqīf at Ṭāʾif had come into Islam only in the year 9 — **two years before all this.**
-2. And they did not flee, and they did not turn.
-3. What was standing among them was one man: ʿUthmān b. Abī al-ʿĀṣ ؓ, whom the Prophet ﷺ put over them for what he saw of his intelligence and his eagerness for good — **and he was the youngest man in the delegation.**
-4. Abū Bakr ؓ confirmed him over Ṭāʾif, and ʿUmar ؓ after him. Three caliphs left him where he was.
-5. Tribes that had been inside Islam far longer broke. **So the variable was not how long they had been Muslim.**
+1. Thaqīf: Muslim for only two years — They came into Islam in the year 9, two years before all this.
+2. They did not flee, they did not turn — Ibn Kathīr's own words; read them off the slide.
+3. One young man stood among them — ʿUthmān b. Abī al-ʿĀṣ ؓ, whom the Prophet ﷺ put over them for his intelligence and his eagerness for good — the youngest man in the delegation.
+4. Three caliphs left him there — Abū Bakr ؓ confirmed him over al-Ṭāʾif, and ʿUmar ؓ after him.
+5. So it was not about how long — Tribes inside Islam far longer broke; the newest Muslims in the peninsula held.
 **Quote after beat:** 2
 **The statement:**
 > وقد كانت ثقيفُ بالطائف ثَبَتوا على الإسلام، لم يفرُّوا ولا ارتدّوا
@@ -780,17 +780,16 @@ they died — and I bear witness that there is no god but Allah and that Muḥam
 Allah. And they said: and we bear witness too. They held to their Islam and left the rest of the
 people to what they were in.
 **Beats:**
-1. Same region, same weeks, a few days' ride inland — and the map needs its second colour now: عبد القيس.
-2. al-Jārūd b. al-Muʿallā al-ʿAbdī ؓ — of عبد القيس. He had come to the Messenger of Allah ﷺ, learned fiqh with him, and been sent back to his own people; البدایہ calls him one of their nobles and says he was among those who emigrated to the Prophet ﷺ (الکامل ج۲ ص۲۲۱; البدایہ ج۷ ص۳۸). Our pages give him no لقب and no dates — البدایہ's own word for him here is that he stood as a خطيب among them. He is the reason this region is not one colour.
-3. Word had reached him of what his own people were saying: if Muḥammad had been a prophet, he would not have died (الکامل ج۲ ص۲۲۲; البدایہ ج۷ ص۳۸).
-4. He gathered them, and set a condition before he asked anything at all — answer me if you know it, and do not answer me if you do not (البدایہ ج۷ ص۳۸).
-5. First question: do you know that Allah had prophets before Muḥammad? They said yes.
-6. Second question — and this is the one الکامل does not have: do you know that, or do you only suppose it? They said: we know it (البدایہ ج۷ ص۳۸).
-7. Third question: what did they do? They said: they died.
-8. And then there is no fourth question. He takes the shahāda himself, out loud: then Muḥammad ﷺ has died as they died, and I bear witness that there is no god but Allah and that Muḥammad is the Messenger of Allah.
-9. And they said it back to him — and they added: and you are the best of us and our chief. They held firm on their Islam and left the rest of the people to what they were in (البدایہ ج۷ ص۳۹; الکامل ج۲ ص۲۲۲).
-10. He did not argue with anybody. He asked them what they already knew, in order, and let them reach it themselves.
-**Quote after beat:** 8
+1. What ʿAbd al-Qays were saying — "If Muḥammad had been a prophet, he would not have died."
+2. al-Jārūd b. al-Muʿallā ؓ — Of ʿAbd al-Qays; he had come to the Prophet ﷺ and learned the dīn with him.
+3. He gathers them, and sets a condition — "Answer me if you know it, and do not answer me if you do not."
+4. Were there prophets before him? — They said: yes.
+5. Do you know it, or only suppose it? — They said: we know it.
+6. And what became of them? — They said: they died.
+7. "Then Muḥammad ﷺ died as they died" — And he bears witness aloud: no god but Allah, and Muḥammad is His servant and messenger.
+8. They said it back to him — And added: you are the best of us, and our chief. They held firm on their Islam.
+9. He argued with nobody — He asked them what they already knew, in order, and let them reach it themselves.
+**Quote after beat:** 7
 **The statement:**
 > فإنَّ محمدًا ﷺ ماتَ كما ماتوا، وإني أشهدُ أن لا إله إلا الله وأن محمدًا رسول الله
 > — البدایہ والنہایہ ج۷ ص۳۸ · https://shamela.ws/book/30097/3184
@@ -820,12 +819,12 @@ while the Azd of Medina were carrying the banner of the Anṣār at al-Yamāma u
 Shammās ؓ, who dug his feet into the ground to his shins and died standing there. One descent, two
 ends of the map, two opposite choices in the same year.
 **Beats:**
-1. ⚠ **Frame it before you tell it:** this is the fact that stops a genealogy from turning into a theory.
-2. The Anṣār of Medina are of al-Azd. So are the Azd of Oman.
-3. In the same months, the Azd of Oman were in open revolt behind Laqīṭ b. Mālik al-Azdī — **whom the room met last week** (`RC70`).
-4. And the Azd of Medina were carrying the banner of the Anṣār at al-Yamāma under Thābit b. Qays ؓ — **whom the room met on evening 4** — who dug his feet into the ground to his shins and died standing there.
-5. One descent. Two ends of the map. Two opposite choices in the same year.
-6. ⚠ **It is a statement about that year, not about anybody alive.** Do not let it become one.
+1. One tribe, two ends of the map — The fact that stops a genealogy from turning into a theory.
+2. The Anṣār are of al-Azd — And so are the Azd of Oman.
+3. In Oman: behind Laqīṭ — The Azd of Oman rose behind Laqīṭ b. Mālik al-Azdī, whom the room met last week.
+4. At al-Yamāma: under Thābit b. Qays ؓ — The Azd of Medina carried the Anṣār's banner; he dug his feet in to his shins and died standing.
+5. Same descent, opposite choices — In the same year.
+6. About that year only — It says nothing about anyone alive; do not let it.
 **Quote after beat:** 3
 **The statement:**
 > فنبغَ فيهم رجلٌ يقالَ له: ذو التاج لَقيطُ بن مالك الأَزدي، وكان يُسَمَّى في الجاهلية الجُلَنْدَى، فادّعى النُّبوَّة أيضًا
@@ -2522,14 +2521,12 @@ al-Khaṭṭ, sent a force to Dārīn, and made a king of the old Lakhmid line. 
 Muslims in one village called Juwāthā, and starved them. One of the besieged put a message into four
 lines of verse, addressed to Abū Bakr ؓ and to the young men of Medina, and it is preserved.
 **Beats:**
-1. One place in that whole region did not break, and it was one village — جُواثى. Ibn Kathīr says not a single town in Bahrayn stood firm except it (البدایہ ج۷ ص۳۸).
-2. And it is the village the ḥadīth remembers: Ibn Kathīr says it was the first village of the people of the ridda to establish the jumuʿa, and that this is established in al-Bukhārī from Ibn ʿAbbās ؓ (البدایہ ج۷ ص۳۸). This is the one sentence on this front that rests on البخاري rather than on campaign reporting — lean on it.
-3. The apostates closed around it and tightened — they were cut off from food, and the hunger in the village became severe (البدایہ ج۷ ص۳۸).
-4. And a man inside it put the message out in four lines of verse — عبد الله بن حَذَف, one of the besieged; البدایہ adds that he was of بنو بكر بن كلاب (ج۷ ص۳۸).
-5. Read the two lines off the screen — a message to Abū Bakr ؓ and to all the young men of Medina: have you any thought for a noble people, sitting besieged in Juwāthā?
-6. ⚠ **Do not speak the fourth line from this card.** The two books print a different word in it — البدایہ has *patience* where الکامل has *victory*, and البدایہ's own editor records that معجم البلدان has *victory* too (ج۷ ص۳۸, ed. fn. 5). The verse is to be read off a page image before it is spoken aloud or printed.
-7. How the siege ended, in Ibn Kathīr's own four words: «until Allah relieved them» (البدایہ ج۷ ص۳۸). He gives no terms, no numbers and no date here — the relief has a name, and it is the man who walks on two cards from now.
-8. And now move the eye, not the clock — a few days' ride from this ring, in the same weeks, one tribe of that same region never broke at all. No honest map shades Bahrayn one colour. That is the next thing to show.
+1. One village did not break — Juwāthā: Ibn Kathīr says no other town in Bahrayn held.
+2. Shut in, and starving — Cut off from food until the hunger became severe.
+3. A man inside sends four lines — ʿAbd Allāh b. Ḥadhf, one of the besieged.
+4. Read the first two lines — A message to Abū Bakr ؓ and all the young men of Medina.
+5. Do not speak the fourth line — The two books print a different word in it.
+6. "Until Allah relieved them" — Ibn Kathīr's own words for how the siege ended; he gives no terms.
 **Quote after beat:** 4
 **The statement:**
 > أَلَا أَبْلِغْ أَبَا بَكْرٍ رَسُولًا … وَفِتْيَانَ الْمَدِينَةِ أَجْمَعِينَا
@@ -2558,15 +2555,12 @@ Thumāma b. Uthāl ؓ joined him with the Muslims of Banū Ḥanīfa. Qays b. ʿ
 the zakāt he had held back. ʿAmr, the Abnāʾ, Saʿd and the Rabāb joined — a body the size of the one
 he already had. A column of sixteen crossed the sand desert as an army.
 **Beats:**
-1. Who he is — al-ʿAlāʾ b. al-Ḥaḍramī ؓ, the Prophet's ﷺ own governor over Bahrayn, who held it again for Abū Bakr ؓ and then for ʿUmar ؓ and died in 21 AH (641–642 CE); Ibn Kathīr رحمہ اللہ calls him one of the chiefs of the Companions, of the learned and the much-worshipping, a man whose supplication was answered.
-2. Sixteen riders, and a letter — he left Medina with sixteen riders, and Abū Bakr ؓ wrote him a letter: every Muslim he passed on the road was to march out with him against their enemy.
-3. The letter did the recruiting — Thumāma b. Uthāl ؓ joined with the Muslims of Banū Ḥanīfa; Qays b. ʿĀṣim al-Minqarī joined and handed over the replacement for the ṣadaqa his people had divided after the Prophet ﷺ died; then ʿAmr, the Abnāʾ, Saʿd b. Tamīm and the Rabāb came in, a body the size of the one he already had.
-4. The road, and the night everything was lost — he took them into al-Dahnāʾ and camped in the middle of the sand; in the night the camels bolted with the food, the water and the tents, and the men were left on open sand with nothing but their clothes, making their bequests to one another.
-5. Three questions, not a speech — he called them together and asked them: are you not the Muslims? are you not in the path of Allah? are you not the helpers of Allah? They said yes — then rejoice, for Allah does not abandon men in the state you are in.
-6. Then fajr, and duʿāʾ until sunrise — he prayed fajr with them, went down on his knees and raised his hands, and every man did the same, until the sun was up.
-7. What the book then narrates — at the third time, a great pool of sweet water beside them; they drank and washed; and before the day was high the camels came in from every direction with their loads, and the men had not lost a thread.
-8. A Companion standing inside the scene — Abū Hurayra ؓ was one of the men on that march; when they had moved on he took a guide, Minjāb b. Rāshid, back to the place, found the pool still there, filled his water-skin and set it on the lip of it to see which it was, and said: this is the place — and praised Allah.
-9. ⚠ How to tell beats 5–8, and this line is not an event — narrate it as what the book narrates and go straight on. In البدایہ the chain runs through سيف بن عمر. No doctrinal point is built on it from this platform, and no claim is made about the man.
+1. al-ʿAlāʾ b. al-Ḥaḍramī ؓ — The Prophet's ﷺ own governor over Bahrayn, sent back now by Abū Bakr ؓ.
+2. Sixteen riders, and a letter — Every Muslim he passes is to march out with him.
+3. Thumāma b. Uthāl ؓ joins — With the Muslims of Banū Ḥanīfa.
+4. Qays b. ʿĀṣim joins, and more — With the ṣadaqa he had held back; then others of Tamīm — a force the size of his own.
+5. Into al-Dahnāʾ — He takes them into the sands, and camps in the middle of it.
+6. Abū Hurayra ؓ was on this march — He went back afterwards with a guide, to look at the place.
 **Quote after beat:** 2
 **The statement:**
 > فَخَرَجَ مِنَ المَدِيْنَةِ فِي سِتَّةَ عَشَرَ رَاكِباً، وَكَتَبَ لَهُ كِتَاباً: أَنْ يَنْفِرَ مَعَهُ كُلُّ مَنْ مَرَّ بِهِ مِنَ المُسْلِمِيْنَ إِلَى عَدُوِّهِم.
@@ -2667,21 +2661,17 @@ name, and his uncle came and recognised him, and fed him, and gave him a camel, 
 uncle was too drunk to think about it. He came back and told al-ʿAlāʾ ؓ that the whole enemy camp was
 drunk.
 **Beats:**
-1. The ground he chose — he brought the column down at Hajar and camped against al-Ḥuṭam on the Hajar side of him.
-2. The other jaw of the pincer — he sent to al-Jārūd ؓ, the man who had held ʿAbd al-Qays to Islam with five questions, to bring ʿAbd al-Qays down on al-Ḥuṭam from the far side: the loyal tribe inside the province is now half the army, and the rebel has a front in two directions.
-3. Everyone came to al-Ḥuṭam but one place — every mushrik in Bahrayn gathered to him except the people of Dārīn. Say it here, because it is the reason there is still an operation left after this battle is won.
-4. A month of trenches — both sides dug in on themselves; they took turns at the fighting and went back to their trenches, and they were like that for a month.
-5. What they heard in the night — not general noise: a commotion like a rout, or like a battle. That is why al-ʿAlāʾ ؓ asked who would bring him news of them — he thought something military was happening.
-6. The volunteer — ʿAbdullāh b. Ḥadhf said: I will. He went out until he came near their trench, and they took him.
-7. ⚠ Before you say the word, and this line is not an event — no page we hold gives any reason why that camp was drinking. No feast, no festival, no occasion. Give the setting, which is on the page — a month of stalemate facing a trench — and leave the reason exactly where the books leave it.
-8. What he brought back — he got into the Muslims' camp and told them the people were drunk, past understanding; and the Muslims went out at them and put the sword into them as they pleased.
-9. What the night cost them — the Muslims took the camp itself, and الکامل says not one man got away with more than he had on him; Ibn Kathīr رحمہ اللہ calls the spoil immense.
-**Quote after beat:** 8
+1. al-Ḥuṭam holds Hajar — Every one of them has gathered to him — except the men of Dārīn.
+2. al-ʿAlāʾ ؓ camps against him — On the Hajar side.
+3. He sends for al-Jārūd ؓ — To bring ʿAbd al-Qays down on al-Ḥuṭam from the other side.
+4. Both sides dig trenches — The Muslims round themselves, and the enemy round theirs.
+5. A month — They fight by turns and go back to their trenches; a month of it.
+**Quote after beat:** 5
 **The statement:**
-> فَدَخَلَ عَسْكَرَ الْمُسْلِمِينَ فَأَخْبَرَهُمْ أَنَّ الْقَوْمَ سُكَارَى، فَخَرَجَ الْمُسْلِمُونَ عَلَيْهِمْ، فَوَضَعُوا فِيهِمُ السَّيْفَ كَيْفَ شَاءُوا.
-> — الکامل ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
-> *English:* "He entered the Muslims' camp and told them that the people were drunk. So the Muslims
-> went out at them and put the sword into them as they pleased."
+> وَخَنْدَقَ الْمُسْلِمُونَ عَلَى أَنْفُسِهِمْ وَالْمُشْرِكُونَ، وَكَانُوا يَتَرَاوَحُونَ الْقِتَالَ وَيَرْجِعُونَ إِلَى خَنْدَقِهِمْ، فَكَانُوا كَذَلِكَ شَهْرًا
+> — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
+> *English:* "The Muslims dug a trench round themselves, and so did the mushrikūn; they would fight by
+> turns and go back to their trench, and they went on like that for a month."
 
 **APPEND** to `RCT/E-RC26` after its existing `**Hands-up?**` line.
 
@@ -2757,24 +2747,18 @@ Al-ʿAlāʾ ؓ did not chase them straight away. He first wrote to the Muslims o
 every road and close the land behind him. Then he brought his men to the water's edge — where the
 ships would have been too slow — and told them what he intended.
 **Beats:**
-1. One force had never come to the battle at all — Every one of them gathered to al-Ḥuṭam **except the people of Dārīn** (⁨الکامل ج۲ ص۲۲۳⁩). So this is not mopping up after a win; it is an enemy that still holds its own ground.
-2. And the beaten went to join them — The main body of the broken took ship for Dārīn; the rest scattered home to their own tribes' country.
-3. What Dārīn is — An anchorage off the Bahrayn coast. A day and a night out, for ships.
-4. He closed the land before he opened the sea — Before he moved at all he wrote to the men of Bakr b. Wāʾil who had held firm on their Islam, to sit on every road and take the routed and the apostates.
-5. And he named two of them — ʿUtayba b. al-Nahhās and al-Muthannā b. Ḥāritha. **Say aloud that al-Muthannā is a name we will meet again when the war moves into Iraq** — he is the man who takes the banner at the Bridge.
-6. They did it, and sent word back — Only then did he order that the enemy be come at from behind his own back, and called the people to Dārīn.
-7. At the water's edge — The crossing was too far: by ship the enemy would be gone before he arrived. **Say the words here** — *The words at the water's edge*, below.
-8. He went in first — On his horse, saying the duʿāʾ aloud, and then ordering the whole army to say it and plunge in behind him. *The duʿāʾ going in*, below.
-9. What they were walking on — Soft sand with water over it, not deep enough to cover the camels' pads. A passage that takes ships a day and a night; across, fought, and back again — all of it in one day.
-10. And nothing was lost in the water — One man's horse-fodder, and al-ʿAlāʾ ؓ went back for it and brought it to him.
-11. The fight, and the man they had wanted for a king — Hard fighting; the Muslims won and left nobody behind to carry the news. ʿAfīf b. al-Mundhir took the Lakhmid claimant prisoner, and he became a Muslim. The spoils were divided (⁨الکامل ج۲ ص۲۲۴⁩).
-12. And the sentence the chapter closes on — Islam settled on that coast and did not move off it again.
-**Quote after beat:** 12
+1. al-ʿAlāʾ ؓ comes down to the shore — With the whole army.
+2. Into the water — Across the gulf, by Allah's leave.
+3. "Like soft sand with water over it" — Not covering the camels' pads, nor reaching the horses' knees; by ship, a day and a night.
+4. Dārīn falls — He fights them and overcomes them, and is back the same day.
+5. Nothing lost in the sea — But one man's nosebag — and al-ʿAlāʾ ؓ went back and brought it.
+6. The king they had wanted — Taken prisoner; and he became a Muslim. No page says he was pardoned.
+7. "Islam settled there" — The sentence the chapter closes on.
+**Quote after beat:** 7
 **The statement:**
 > وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ.
 > — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
-> *English:* "And Islam settled its neck to the ground there." — the image is a camel kneeling and
-> setting its neck down to stay: the front was not held, it was finished.
+> *English:* "And Islam settled its neck to the ground there."
 
 **The words at the water's edge:**
 > قَدْ أَرَاكُمُ اللَّهُ مِنْ آيَاتِهِ فِي الْبَرِّ لِتَعْتَبِرُوا بِهَا فِي الْبَحْرِ، فَانْهَضُوا إِلَى عَدُوِّكُمْ وَاسْتَعْرِضُوا الْبَحْرَ.
@@ -2878,13 +2862,12 @@ spoils for it: al-Ḥuṭam's own embroidered cloak, the one the man used to sho
 from Dārīn he was seen wearing it by Banū Qays b. Thaʿlaba, and they decided it meant he had killed
 their chief.
 **Beats:**
-1. ⚠ Not an introduction — a callback — The room met him on evening 4: Thumāma b. Uthāl al-Ḥanafī ؓ, of Banū Ḥanīfa itself, Musaylima's own tribe, who was fighting Musaylima inside his own country before any army came from Medina (`RCT/E-RC64`, delivered, Part I). One sentence; do not re-introduce him.
-2. What he did after that — He joined al-ʿAlāʾ's ؓ column on the road to Bahrayn with the Muslims of Banū Ḥanīfa, and went through the whole war with it, as far as Dārīn.
-3. What he was given for it — When the spoils were divided al-ʿAlāʾ ؓ singled out the men who had borne the hardest of the fighting and gave them garments. Thumāma ؓ got al-Ḥuṭam's own embroidered cloak — the one al-Ḥuṭam used to show himself off in.
-4. On the road home from Dārīn — Banū Qays b. Thaʿlaba saw it on him. They were al-Ḥuṭam's own tribe, and they had surrendered.
-5. The exchange — They said: you killed al-Ḥuṭam. He said: I did not kill him; I came by it out of the spoils. They fell on him and killed him. **Quote.**
-6. Say exactly who, and say what the page withholds — Banū Qays b. Thaʿlaba, as a body: the words are plural and name nobody. The motive the page does give is on its face — they took the cloak for proof of their chief's blood. What the page does not give: no individual killer, no word on whether they believed him, and nothing at all about a reckoning afterwards or about Medina being told.
-7. ⚠ Tell it plainly and move — Two sentences, no dwelling, no lesson beyond the one line. **If the room is heavy, cut the card** — nothing later in the evening depends on it.
+1. Thumāma b. Uthāl ؓ again — The room met him on evening 4, of Banū Ḥanīfa itself.
+2. He had joined al-ʿAlāʾ ؓ on the road — With the Muslims of Banū Ḥanīfa.
+3. A cloak from the spoils — An embroidered one; it had been al-Ḥuṭam's.
+4. al-Ḥuṭam's tribe saw it on him — Banū Qays b. Thaʿlaba, on the road home from Dārīn.
+5. "You killed al-Ḥuṭam" — "I did not; I came by it out of the spoils." They fell on him and killed him.
+6. Tell it plainly, and move on — Two sentences; skip it if the room is heavy.
 **Quote after beat:** 5
 **The statement:**
 > فَقَالُوا لَهُ: أَنْتَ قَتَلْتَ الْحُطَمَ! فَقَالَ: لَمْ أَقْتُلْهُ، وَلَكِنِّي اشْتَرَيْتُهَا مِنَ الْمَغْنَمِ. فَوَثَبُوا عَلَيْهِ فَقَتَلُوهُ.
@@ -3235,12 +3218,12 @@ one another. He consulted about ransoming the captives taken in these wars and s
 seven camels a head — and made it lighter for Ḥanīfa and Kinda, because so many of their men had been
 killed. Then the women were sought out wherever they had been taken.
 **Beats:**
-1. ↪ **Frame the jump aloud: years later, in ʿUmar's ؓ caliphate.** ⚠ The page does not fix the year — «⁨لَمَّا وَلِيَ عُمَرُ⁩», *when ʿUmar became caliph*.
-2. He said it was a shameful thing for Arabs to own one another.
-3. He consulted about ransoming the captives taken in these wars, and set a price: six or seven camels a head.
-4. **Lighter for Ḥanīfa and Kinda, because so many of their men had been killed** — the two names the room has spent two evenings with.
-5. Then the women were sought out wherever they had been taken.
-6. The war's last act was the state buying back the people its own victory had taken.
+1. Years later: ʿUmar ؓ as caliph — A look ahead, and say so; the page does not fix the year.
+2. "Shameful for Arabs to own Arabs" — He said it was a shameful thing for Arabs to own one another.
+3. A ransom price — He consulted, and set it: six or seven camels a head.
+4. Lighter for Ḥanīfa and Kinda — Because so many of their men had been killed — the two names of these evenings.
+5. The women were found — Sought out wherever they had been taken.
+6. The state bought them back — The war's last act was buying back the people its own victory had taken.
 **Quote after beat:** 2
 **The statement:**
 > إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا
@@ -3265,12 +3248,12 @@ went on that way until there was nobody left in the peninsula except people in o
 under a covenant of protection — like the people of Najrān, who had sent a delegation to renew theirs
 while Muslim tribes were breaking theirs.
 **Beats:**
-1. ⚠ **This comes after Ḥaḍramawt, never before it.** It is Ibn Kathīr stopping at the end of his own account and summing it up himself.
-2. He does not describe a conquest. He says there was **no region of Arabia in which some people did not turn.**
-3. And that Abū Bakr ؓ sent armies and commanders **to be a support to whichever believers were already in that region** — not to subdue it.
-4. The fifth of the spoils came back to Medina, and was spent among the people.
-5. And it went on that way until there was nobody left in the peninsula but people in obedience and people under a covenant — **«like the people of Najrān»**, who are the card the room heard a few minutes ago.
-6. Then the duration, in his own words: the end of 11 and the beginning of 12. **Two years. Not a generation.**
+1. Ibn Kathīr stops and sums up — At the end of his own account; this comes after Ḥaḍramawt, never before it.
+2. No region untouched — There was no part of Arabia in which some people did not turn.
+3. Armies sent to support believers — Abū Bakr ؓ sent commanders to help whichever believers were already standing in each region — not to subdue it.
+4. The fifth went to Medina — And was spent among the people.
+5. Obedience, or covenant — Until nobody was left but people in obedience and people under a covenant, "like the people of Najrān".
+6. The end of 11, the start of 12 — His own words for how long it took: two years, not a generation.
 **Quote after beat:** 2
 **The statement:**
 > ما من ناحية من جزيرة العرب إلا وحصلَ في أهلها ردَّةٌ لبعض الناس، فبعثَ الصدِّيقُ إليهم جيوشًا وأمراء يكونون عونًا لمن في تلك الناحية من المؤمنين … ولم يزل الأمر كذلك حتى لم يبق بجزيرة العرب إلَّا أهل طاعة للّه ولرسوله، وأهل ذمة من الصديق، كأهل نجران وما جرى مجراهم ولله الحمد.
@@ -3397,12 +3380,12 @@ wards off harm through such men more than He gives victory through them. And the
 same breath and without embarrassment, that ʿUmar ؓ took the opposite view and held that they should
 be employed.
 **Beats:**
-1. Abū Bakr ؓ had a policy about who did **not** get commands.
-2. He would not put the men of Badr into office — *"I leave them so they may meet Allah with their good deeds."*
-3. His stated reason: Allah wards off harm through such men more than He gives victory through them.
-4. **And the book records, in the same breath and without embarrassment, that ʿUmar ؓ took the opposite view** and held that they should be employed.
-5. Two men who agreed about the war disagreed about who should run it — and the book prints both views on one page.
-6. ⚠ **This is a difference of administrative judgement, not a dispute. Do not dress it as one** (§1.6), and do not adjudicate it.
+1. Whom Abū Bakr ؓ would not appoint — He had a policy about who did not get commands.
+2. Not the men of Badr — "I leave them so they may meet Allah with their good deeds."
+3. His reason — Allah wards off harm through such men more than He gives victory through them.
+4. ʿUmar ؓ saw it differently — The book records, on the same page, that he held they should be employed.
+5. Both views, on one page — Two men who agreed about the war disagreed about who should run it.
+6. A difference of judgement, not a dispute — Do not dress it as one, and do not adjudicate it.
 **Quote after beat:** 3
 **The statement:**
 > لَا أَسْتَعْمِلُ أَهْلَ بَدْرٍ، أَدَعُهُمْ حَتَّى يَلْقَوُا اللَّهَ بِصَالِحِ أَعْمَالِهِمْ، فَإِنَّ اللَّهَ يَدْفَعُ بِهِمْ وَبِالصَّالِحِينَ أَكْثَرَ مِمَّا يَنْتَصِرُ بِهِمْ. وَكَانَ عُمَرُ يَرَى اسْتِعْمَالَهُمْ عَلَى الْجُنْدِ وَغَيْرِهِ.
@@ -3493,12 +3476,12 @@ Ibn Kathīr grades that route himself, on the same page: «هذا حديث غر�
 | 11 | **العلاء بن الحَضْرمي ؓ** | **البحرين** | ✓ | ✓ | ✓ |
 
 **Beats:**
-1. ⚠ **A recap, not news — say so.** The room saw this moment on evening 2 (`RC05`); tonight the roster is read back with every sector settled.
-2. One sitting at Dhū al-Qaṣṣa, one day's ride from Medina: eleven banners tied, and each commander given a region.
-3. Go round the map naming them, now that the room has met almost all of them.
-4. ⚠ **The two books disagree on the count**, and the answer is dull: one of them folds two commands into one. Say that, and do not pick a number.
-5. ⚠ Khālid b. Saʿīd b. al-ʿĀṣ ؓ has the Syrian marches on the roster and **no engagement on any page we hold** — the empty outline on the map (`RC76`). Say that aloud rather than skipping past it.
-6. The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself.
+1. The eleven banners, read back — A recap: the room saw this on evening 2; tonight every sector is settled.
+2. One sitting at Dhū al-Qaṣṣa — A day's ride from Medina: eleven banners tied, each commander given a region.
+3. Round the map, by name — Name them now that the room has met almost all of them.
+4. The books differ on the count — One of them folds two commands into one; say that and pick no number.
+5. Khālid b. Saʿīd ؓ: no battle on any page — He has the Syrian marches on the roster and nothing narrated of him there; say so aloud.
+6. Ordered in one sitting — By a man who had just been turned back from leading it himself.
 **عبرت:** The whole war was ordered in one sitting, by a man who had just been turned back from leading it himself.
 **Hands-up?** Before the table: *"Medina is one town. How many armies would you send out at once?"*
 
@@ -3518,14 +3501,14 @@ this front. Then Rabīʿa in Bahrayn agreed together on the ridda — all of it 
 those who followed him — and what they announced was not a prophet. It was a restoration. They said:
 we will put the kingship back. And they brought out a man of the old royal house and made him king.
 **Beats:**
-1. Bahrayn was already a Muslim administration — the Prophet ﷺ had sent al-ʿAlāʾ b. al-Ḥaḍramī to its king, and the king had accepted Islam at his hands and run Islam and justice there (البدایہ ج۷ ص۳۷).
-2. The man who held it — al-Mundhir b. Sāwā al-ʿAbdī, of عبد القيس, the Prophet's ﷺ own appointee in Bahrayn. The books we hold give no لقب and no dates for him; what they give is that he was already ill when the Prophet ﷺ died, and that he died shortly after him.
-3. So on this front there are two deaths, not one — the Prophet ﷺ, and then, within a short time, the man who held the country for him. The second death is what opens the fighting.
-4. Rabīʿa in Bahrayn agreed together on the ridda — all of it except al-Jārūd ؓ and the men who followed him. Hold that exception; the room will need it in a few minutes.
-5. And then the sentence that makes this front unlike every other one tonight — they said: we will put the kingship back.
-6. No claimant to prophethood here. These men were not following a false prophet. They were restoring a monarchy. Say that plainly — it is the thing the room will not be expecting.
-7. They brought a man of the old royal house out and set him up as king over themselves. ⚠ Give no name — the books do not agree on one, and the reason is in the warning below.
-**Quote after beat:** 5
+1. Bahrayn was already Muslim — Under al-Mundhir b. Sāwā al-ʿAbdī ؓ, the Prophet's ﷺ own man there.
+2. Two deaths, close together — The Prophet ﷺ; and shortly after him, al-Mundhir ؓ.
+3. Rabīʿa turn — all but al-Jārūd ؓ — Rabīʿa in Bahrayn agreed on the ridda, except al-Jārūd ؓ and those who followed him.
+4. "We will restore the kingship" — In a man of the old Lakhmid house: a monarchy brought back, not a false prophet followed.
+5. Name no king — Three books give his name three ways; say only "a king of the old Lakhmid line".
+6. al-Ḥuṭam b. Ḍubayʿa comes out — Of Banū Qays b. Thaʿlaba, at the head of Bakr b. Wāʾil.
+7. Not all of them had ever been Muslim — Men who had never been Muslims joined him: on this front the ridda was not all ridda.
+**Quote after beat:** 4
 **The statement:**
 > وَاجْتَمَعَتْ رَبِيعَةُ بِالْبَحْرَيْنِ عَلَى الرِّدَّةِ إِلَّا الْجَارُودُ وَمَنْ تَبِعَهُ، وَقَالُوا: نَرُدُّ الْمُلْكَ
 > — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
@@ -3655,13 +3638,11 @@ al-Qaṭīf and Hajar and took them. He drew in al-Khaṭṭ on the coast, and w
 Sabābija who were already settled there. He sent a force across the water to the island of Dārīn. And
 he sent to Juwāthā, and shut the Muslims inside it.
 **Beats:**
-1. The man who did the actual fighting on this front — al-Ḥuṭam b. Ḍubayʿa, of بنو قيس بن ثعلبة. He went out at the head of بكر بن وائل. Our pages give him no لقب and no dates, and he is not a Companion — no honorific.
-2. And then the sentence الکامل could easily have left out — besides the apostates, men gathered to him who had never ceased to be idolaters. Men who had never been Muslims in the first place.
-3. So say it to the room plainly: the ridda on this front was not all ridda. Part of this war was with people who had never come in, and the one word does not cover them.
-4. Now the ground, in the order he took it — he came down on القَطيف and هَجَر, and took them.
-5. Then الخَطّ on the coast, and with the place two communities already living in it — the زُطّ and the سَبابجة — drawn in along with it. ⚠ Who they were is not on any page we hold: name them as the page names them, and stop.
-6. Then a force sent across the water to the island of دارين — remember that island; this front ends there.
-7. And last: he sent to جُواثى and shut the Muslims inside it. That siege is the next thing we tell.
+1. al-Ḥuṭam, with Bakr b. Wāʾil — He is the man who does the fighting on this front.
+2. He occupies al-Qaṭīf and Hajar — He comes down on both, and holds them.
+3. al-Khaṭṭ is won over — A place the page names with the two peoples living in it, the Zuṭṭ and the Sabābija: drawn in, not marched on.
+4. He sends a force to Dārīn — Across the water. Remember that island: this front ends there.
+5. And he besieges Juwāthā — He sent to Juwāthā and shut the Muslims inside it.
 **Quote after beat:** 2
 **The statement:**
 > وَخَرَجَ الْحُطَمُ بْنُ ضُبَيْعَةَ أَخُو بَنِي قَيْسِ بْنِ ثَعْلَبَةَ فِي بَكْرِ بْنِ وَائِلٍ، فَاجْتَمَعَ إِلَيْهِ مِنْ غَيْرِ الْمُرْتَدِّينَ مِمَّنْ لَمْ يَزَلْ مُشْرِكًا
@@ -3724,16 +3705,16 @@ sister's-son to come to his uncles on such a night. Then he asked for food, was 
 provisions and a mount, got both, and was let through. الکامل puts the whole explanation in one
 clause: he was saying all this to a man whom drink had got the better of.
 **Beats:**
-1. Back up a few minutes, and this is the only reason the news ever reached al-ʿAlāʾ ؓ — we left him taken at the rebel trench; here is how he got out of it.
-2. Who he is — ʿAbdullāh b. Ḥadhf, a man of al-ʿAlāʾ's ؓ own camp whose mother was of ʿIjl. That is the whole of what الکامل tells us about him, and no page we hold states his Companionship, so no honorific.
-3. The name he shouted — not for mercy and not for a bargain: he called, over and over, for his maternal uncle Abjar b. Bujayr, who was in the camp in front of him. And Abjar came out, and knew him.
-4. What is your business — he answered with a question of his own: what am I to come to, with armies of ʿIjl and Taym al-Lāt all round me?
-5. What the uncle said to his face — by Allah, I think you a poor sort of sister's-son, coming to your uncles tonight. He named him an enemy out loud, got him loose, and let him go anyway.
-6. Food first, then the camel — let me alone about that and feed me, I am dying of hunger; he was fed, and then asked for provisions and a mount, and got both, and was passed through.
-7. الکامل's own explanation, in one clause — he was saying all this to a man whom drink had got the better of.
-8. What became of the uncle — when the camp broke that night, Abjar was one of the men who got away: الکامل says so plainly.
-9. ⚠ If a written slip asks whether this is the same ʿAbdullāh b. Ḥadhf who was starving inside Juwāthā — say the books name him twice and do not tell us whether it is one man, and leave it there.
-**Quote after beat:** 5
+1. A noise in the night — Like a rout, or like a battle; al-ʿAlāʾ ؓ asks who will find out.
+2. ʿAbd Allāh b. Ḥadhf goes — He comes near their trench, and they take him.
+3. He calls for his uncle — His mother was of ʿIjl: "Yā Abjarāh!" — and Abjar b. Bujayr comes, and knows him.
+4. "A poor sort of sister's son" — "…coming to your uncles tonight."
+5. "Feed me — I am dying of hunger" — He is fed; he asks for a mount, and is given one.
+6. Said to a man overcome by drink — The book's own explanation of why he was let go.
+7. He comes back: they are drunk — He enters the Muslims' camp and tells them.
+8. Why they were drinking: no page says — Give the month of stalemate as the setting; supply no reason.
+9. One man or two? — The books name an ʿAbd Allāh b. Ḥadhf inside Juwāthā and here, and do not say if he is the same.
+**Quote after beat:** 4
 **The statement:**
 > وَاللَّهِ إِنِّي لَأَظُنُّكَ بِئْسَ ابْنُ أُخْتٍ أَتَيْتَ اللَّيْلَةَ أَخْوَالَكَ
 > — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
@@ -3805,15 +3786,14 @@ that man to finish him, and the man refused. So he lay on the ground, and every 
 asked to kill him, and each one refused — until Qays b. ʿĀṣim passed. He told him: I am al-Ḥuṭam,
 kill me. And Qays killed him. Then he saw the severed leg, and was sorry.
 **Beats:**
-1. Who he was, and this is where he ends — al-Ḥuṭam b. Ḍubayʿa of Banū Qays b. Thaʿlaba: the man who took al-Qaṭīf and Hajar, drew in al-Khaṭṭ and the men who were there, sent a force to Dārīn and besieged the Muslims in Juwāthā. He was asleep when the trench was crossed.
-2. The stirrup — he got up confused, mounted his horse, and his stirrup-leather parted; and he was calling out, who will set my stirrup right for me?
-3. The man in the dark — a Muslim said: I will set it right for you, lift your foot. When he lifted it, the man struck with the sword and took it off, foot and all. البدایہ leaves him unnamed; الکامل names him — ʿAfīf b. al-Mundhir al-Taymī.
-4. Finish me — he asked that man to finish him, and the man said: I will not.
-5. The part that takes longest to tell, and should — he lay there, and every man who passed he asked to kill him, and each one refused.
-6. Qays b. ʿĀṣim — the same man who had caught the column up on the road and handed over the replacement for the ṣadaqa his people had divided after the Prophet ﷺ died. He passed, and al-Ḥuṭam said: I am al-Ḥuṭam, kill me. And he killed him.
-7. And then he saw the leg — what a shameful thing; had I known his condition, I would not have touched him.
-8. ⚠ Not an event, a sourcing instruction — name البدایہ and الکامل, which tell this death the same way, and stop there. ابن خلدون gives three different answers to who killed him on his own consecutive pages, so he is not cited on this card at all.
-**Quote after beat:** 7
+1. The Muslims go in — al-ʿAlāʾ ؓ mounts at once, and they fall on the camp.
+2. al-Ḥuṭam wakes in confusion — He mounts; his stirrup-leather parts; he calls out for someone to set his foot.
+3. A man in the dark — "I will; lift your foot" — and strikes it off. Ibn al-Athīr names him: ʿAfīf b. al-Mundhir.
+4. "Finish me" — He asks every man who passes; each one refuses.
+5. Qays b. ʿĀṣim does — The same Qays who joined the column on the road.
+6. "What a shameful thing" — Then he sees the leg: "had I known his condition, I would not have touched him."
+7. Do not use Ibn Khaldūn here — He gives three different killers on his own pages.
+**Quote after beat:** 6
 **The statement:**
 > واسوأتاه، لو أعلمُ ما به لم أحرِّكْهُ
 > — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
@@ -3893,15 +3873,14 @@ if he saw them and stayed as he was. Then he said what he had concluded from the
 come down through an army report. It came down because he went on telling it, and the Companions heard
 him.
 **Beats:**
-1. Who he was, and exactly what the page says — A monk of the people of Hajar, travelling with the Muslim army. Both books call him that. **They do not give his name, and they do not say which religion he had been following** — so neither do we.
-2. He was there for all of it — Ibn Kathīr says so plainly: he was with the Muslims through these scenes and sights of al-ʿAlāʾ's ؓ affair. The water in the sand, and then the sea.
-3. Note the order — First he became a Muslim. Then somebody asked him why. This is a man explaining himself after the fact, not a man being argued into anything.
-4. He did not argue. He counted — Three things, and he said he feared what Allah would do to him if he had seen them and gone on as he was. **Quote.**
-5. The three, in his own order — Water welling up in the sands. The sea's swells laid flat. And a supplication he heard in their camp, in the air, before dawn.
-6. He could repeat the third one — The book prints the words he says he heard, straight after the three. He had not been taught them; he had heard them.
-7. What he concluded — That men are not helped like that unless they are on the truth.
-8. And this is how it reached us — ⁨الکامل⁩ closes the whole Bahrayn chapter on it: the Companions of the Prophet ﷺ used to hear this from him afterwards. The one man in that army who had no reason to take their side is the man whose account they kept repeating. **That is the answer to "how do we know?", and it is inside the story.**
-**Quote after beat:** 4
+1. A monk of Hajar, with the army — He was with the Muslims through all of it.
+2. He became a Muslim, and was asked why — A man explaining himself afterwards.
+3. "Three things" — He feared what Allah would do to him had he seen them and not believed.
+4. Water in the sands; the sea laid flat — And a duʿāʾ he heard in the camp before dawn.
+5. He could repeat the duʿāʾ — The book prints the words he says he heard.
+6. "Men are not helped like that…" — "…unless they are on the truth."
+7. How it reached us — The Companions used to hear it from him afterwards.
+**Quote after beat:** 3
 **The statement:**
 > ثَلَاثَةُ أَشْيَاءَ خَشِيتُ أَنْ يَمْسَخَنِي اللَّهُ بَعْدَهَا: فَيْضٌ فِي الرِّمَالِ، وَتَمْهِيدُ أَثْبَاجِ الْبَحْرِ، وَدُعَاءٌ سَمِعْتُهُ فِي عَسْكَرِهِمْ فِي الْهَوَاءِ سَحَرًا
 > — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
@@ -4352,12 +4331,12 @@ a single sentence among the campaigns, with no date inside the two years and no 
 Ibn Kathīr reaches for when he sums the whole war up: nobody left in the peninsula but people in obedience
 and people under a covenant, *"like the people of Najrān."*
 **Beats:**
-1. ⚠ **Frame it:** not every community in Arabia was Muslim — and not every community that was not Muslim rose.
-2. Najrān held a covenant given by the Prophet ﷺ himself.
-3. While Muslim tribes were breaking theirs, Najrān sent a delegation to Medina **to renew its own.**
-4. And Abū Bakr ؓ wrote them a document.
-5. ⚠ The page gives **no date inside 11–12 AH and no names** — do not supply either.
-6. This is the end-state `RC36` names a few minutes later, in Ibn Kathīr's own words: *"like the people of Najrān."*
+1. Not everyone in Arabia was Muslim — And not every community that was not Muslim rose.
+2. Najrān held the Prophet's ﷺ covenant — A Christian community, under a covenant he ﷺ had given them himself.
+3. They sent to renew it — While Muslim tribes were breaking theirs, Najrān sent a delegation to Medina to renew its own.
+4. Abū Bakr ؓ wrote it down — He wrote them a document to that effect.
+5. No date and no names on the page — Ibn al-Athīr gives one sentence; supply nothing more.
+6. Ibn Kathīr names them again — When he sums the war up, the peninsula ends in obedience or covenant, "like the people of Najrān".
 **Quote after beat:** 4
 **The statement:**
 > أَرْسَلُوا وَفْدًا لِيُجَدِّدُوا عَهْدَهُمْ مَعَ أَبِي بَكْرٍ، فَكَتَبَ بِذَلِكَ كِتَابًا
@@ -4386,14 +4365,14 @@ and a bint labūn — but to live off the Arab settlements and worship Allah unt
 Then Allah resolved for Abū Bakr ؓ to fight them; and he accepted nothing from them but the humiliating
 terms or the war that drives out.
 **Beats:**
-1. ⚠ **This is where the evening stops moving forward and looks back.** Ibn al-Athīr opens his entire Ridda chapter with it, before any event.
-2. Who is speaking: ʿAbd Allāh b. Masʿūd ؓ. **No notice needed — the room knows him.**
-3. *"We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished — had Allah not favoured us with Abū Bakr."*
-4. And then he says what the position was: **they had agreed not to fight** over a young she-camel.
-5. To live off the Arab settlements, and to worship Allah until certainty came.
-6. ⚠ **Say it plainly and do not soften it: the consensus went the other way, and a Companion is the one who records that it did.**
-7. *"Then Allah resolved for Abū Bakr ؓ to fight them."*
-8. And he accepted nothing but **⁨الخُطّة المُخْزِية أو الحَرْب المُجْلِية⁩** — the two terms the room heard on **evening 2** (`RC10`). The loop closes on the words it opened with.
+1. Ibn al-Athīr opens with a verdict — Before any event of the Ridda, he quotes a Companion looking back.
+2. ʿAbd Allāh b. Masʿūd ؓ is speaking — The room knows him; no introduction.
+3. "We nearly perished" — "We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished — had Allah not favoured us with Abū Bakr."
+4. They had agreed not to fight — Over a young she-camel: a bint makhāḍ and a bint labūn.
+5. To live quietly and worship — To live off the Arab settlements and worship Allah until certainty came.
+6. The consensus went the other way — Say it plainly; a Companion is the one who records it.
+7. Then Allah resolved Abū Bakr ؓ — "Then Allah resolved for Abū Bakr to fight them."
+8. The two terms of evening 2 — He accepted nothing but the humiliating terms or the war that drives out; the loop closes on the words it opened with.
 **Quote after beat:** 3
 **The statement:**
 > لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ، أَجْمَعْنَا عَلَى أَنْ لَا نُقَاتِلَ عَلَى ابْنَةِ مَخَاضٍ وَابْنَةِ لَبُونٍ، وَأَنْ نَأْكُلَ قُرًى عَرَبِيَّةً، وَنَعْبُدَ اللَّهَ حَتَّى يَأْتِيَنَا الْيَقِين
@@ -4414,6 +4393,155 @@ terms or the war that drives out.
 carries — *"Ibn al-Athīr opens his account by quoting Ibn Masʿūd ؓ"* — and build no ruling on it.
 ⚠ **This is not a ⁨مشاجرات⁩ card.** It is a Companion praising Abū Bakr ؓ for a decision, and nothing in it
 judges anyone. Keep it there.
+
+---
+
+### RCT/E-RC82 · al-Dahnāʾ — the three questions
+**Tier:** CORE · **When:** ۱۱ھ, الدهناء `[SOURCED]` · **Map:** n/a — a large-statement slide.
+**What happened:** At night, in the middle of al-Dahnāʾ, the camels bolted with everything on them — the
+army's food, its tents and its water — and not one of them could be caught. The men were left on the sand
+with nothing but their clothes, and began making their bequests to one another. Then al-ʿAlāʾ's ؓ caller
+summoned them, and when they had gathered he asked them three questions. They answered yes. And he said:
+then rejoice — by Allah, Allah does not abandon those who are in a state like yours.
+**Beats:**
+1. Night, in the middle of the sands — The camels bolt with the food, the tents and the water; not one is caught.
+2. Nothing left but their clothes — The men begin making their bequests to one another.
+3. He calls them together — al-ʿAlāʾ ؓ has his caller summon the whole column.
+4. Three questions — Are you not the Muslims? Are you not in the path of Allah? Are you not the helpers of Allah?
+5. They said: yes — All of them.
+6. "Then rejoice" — "By Allah, Allah does not abandon those who are in a state like yours."
+**Quote after beat:** 4
+**The statement:**
+> أيها الناسُ ألستم المسلمين؟ ألستُم في سبيل الله؟ ألستُم أنصارَ الله؟ قالوا: بلى، قال: فأبشروا فواللهِ لا يخذل اللهُ منْ كانَ في مثل حالكم
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "O people — are you not the Muslims? Are you not in the path of Allah? Are you not the helpers
+> of Allah?" They said: "Yes." He said: "Then rejoice — for by Allah, Allah does not abandon those who are
+> in a state like yours."
+
+**عبرت:** He did not promise them water. He reminded them who they were.
+**Hands-up?** no
+⚠ **Narrate it as the book narrates it.** In ⁨البدایہ⁩ this account comes through Sayf b. ʿUmar; it is told,
+and no ruling or creed is built on it.
+
+---
+
+### RCT/E-RC83 · al-Dahnāʾ — the prayer, and the water
+**Tier:** CORE · **When:** ۱۱ھ, الدهناء `[SOURCED]` · **Map:** n/a — a large-statement slide.
+**What happened:** When dawn broke the prayer was called and al-ʿAlāʾ ؓ led the men in it. When he had
+finished he went down on his knees, and they went down on theirs; he raised his hands in supplication and
+they did as he did, until the sun rose — and they watched its shimmer on the sand, again and again, while he
+kept on. At the third time, the book says, Allah had made a great pool of pure water beside them. They
+walked to it, and drank, and washed. And before the day was high the camels came back from every pass with
+everything on them: not a thread of their baggage was missing.
+**Beats:**
+1. Fajr is called — At dawn he leads them in the prayer.
+2. He kneels, and they kneel — He raises his hands in duʿāʾ and the men do the same — until the sun is up.
+3. The shimmer, again and again — They watch the mirage on the sand while he keeps on in his duʿāʾ.
+4. At the third time: water — A great pool of pure water beside them; they walk to it, drink, and wash.
+5. And the camels come back — From every pass, with everything on them; not a thread was lost.
+6. "Among the signs of Allah" — Ibn Kathīr's own closing words for what the men saw on that expedition.
+7. Told as the book tells it — It comes through Sayf b. ʿUmar; narrate it, and build nothing on it.
+**Quote after beat:** 2
+**The statement:**
+> فلما قضى الصلاةَ جثا على رُكبتيه وجثا الناسُ، ونصبَ في الدعاء ورفع يديه وفعلَ الناسُ مثله حتى طلعتِ الشمس
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "When he had finished the prayer he went down on his knees, and the people went down on
+> theirs; he set himself to supplication and raised his hands, and the people did as he did, until the
+> sun rose."
+
+**عبرت:** The first thing he did with an army that had lost everything was pray.
+**Hands-up?** no
+**What the book then narrates:**
+> فلما بلغَ الثالثةَ إذا قد خلق الله إلى جانبهم غديرًا عظيمًا من الماءَ القَراح، فمشى ومشى الناسُ إليه فشربوا واغتسلوا، فما تعالى النهارُ حتى أقبلتِ الإبل من كلّ فجٍّ بما عليها، لم يفقدِ الناسُ من أمتعتهم سِلْكًا
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "When he reached the third time, Allah had created beside them a great pool of pure water.
+> He walked to it, and the people walked to it, and they drank and washed; and the day was not high before
+> the camels came from every pass with what was on them — the people did not lose a thread of their baggage."
+
+**And Ibn Kathīr's closing line:**
+> فكان هذا مما عاينَ الناس من آيات الله بهذه السرية
+> — البدایہ والنہایہ ج۷ ص۳۹ · https://shamela.ws/book/30097/3185
+> *English:* "This was among the signs of Allah that the people saw with their own eyes on that expedition."
+
+---
+
+### RCT/E-RC84 · The roads are closed
+**Tier:** CORE · **When:** ۱۱ھ→۱۲ھ, البحرين `[SOURCED]` · **Map:** the coast and the island. The beaten take
+ship for Dārīn; behind them, the land roads are shut by the men of Bakr b. Wāʾil who had kept their Islam.
+**What happened:** Most of the routed made for Dārīn and took ship to it; the rest went home to their own
+tribes' country. Dārīn was not only where the beaten fled — its people had never come to Hajar at all. So
+al-ʿAlāʾ ؓ did not go straight after them. He wrote first to the men of Bakr b. Wāʾil who had held to their
+Islam — ʿUtayba b. al-Nahhās and al-Muthannā b. Ḥāritha among them — ordering them to sit in wait on every
+road. They did it, and their messengers brought him word. Only then did he call the army out to Dārīn.
+**Beats:**
+1. Dārīn had never come to Hajar — Every one of them gathered to al-Ḥuṭam except the people of Dārīn.
+2. The beaten take ship — Most of the routed go by sea to Dārīn; the rest go home to their own country.
+3. He closes the land first — al-ʿAlāʾ ؓ writes to the Muslims of Bakr b. Wāʾil: sit in wait on every road.
+4. ʿUtayba b. al-Nahhās, al-Muthannā b. Ḥāritha — The two he names. al-Muthannā is a name the Iraq evenings will need.
+5. They did it, and sent word — Only then does he turn to the sea.
+**Quote after beat:** 3
+**The statement:**
+> فَكَتَبَ الْعَلَاءُ إِلَى مَنْ ثَبَتَ عَلَى إِسْلَامِهِ مِنْ بَكْرِ بْنِ وَائِلٍ، مِنْهُمْ عُتَيْبَةُ بْنُ النَّهَّاسِ وَالْمُثَنَّى بْنُ حَارِثَةَ وَغَيْرُهُمَا، يَأْمُرُهُمْ بِالْقُعُودِ لِلْمُنْهَزِمِينَ وَالْمُرْتَدِّينَ بِكُلِّ طَرِيق
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "So al-ʿAlāʾ wrote to those of Bakr b. Wāʾil who had held firm on their Islam — among them
+> ʿUtayba b. al-Nahhās and al-Muthannā b. Ḥāritha and others — ordering them to sit in wait for the routed
+> and the apostates on every road."
+
+**عبرت:** He closed the roads behind the enemy before he opened one in front of himself.
+**Hands-up?** no
+⚠ **No page says where each of them sat.** The map places them on the roads inland; say *"on every road"*, as
+the page does, and name no place for either man. ⚠ No honorific for either on the pages we hold.
+
+---
+
+### RCT/E-RC85 · "His signs on land — that you may take heed at sea"
+**Tier:** CORE · **When:** ۱۱ھ→۱۲ھ, the shore opposite دارين `[SOURCED]` · **Map:** n/a — a large-statement slide.
+**What happened:** With the roads shut behind the enemy, al-ʿAlāʾ ؓ called the army out to Dārīn — and the
+men who stood in front of him were the men who had been at al-Dahnāʾ. He reminded them of it in one
+sentence, and sent them at the sea.
+**Beats:**
+1. The same men who were at al-Dahnāʾ — He is speaking to the army that lost its camels and found the water.
+2. "His signs on land" — "Allah has shown you His signs on land, so that you may take heed by them at sea."
+3. "Rise against your enemy" — "…and take the sea in your stride."
+**Quote after beat:** 2
+**The statement:**
+> قَدْ أَرَاكُمُ اللَّهُ مِنْ آيَاتِهِ فِي الْبَرِّ لِتَعْتَبِرُوا بِهَا فِي الْبَحْرِ، فَانْهَضُوا إِلَى عَدُوِّكُمْ وَاسْتَعْرِضُوا الْبَحْر
+> — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
+> *English:* "Allah has shown you His signs on land so that you may take heed by them at sea. So rise
+> against your enemy, and take the sea in your stride."
+
+**عبرت:** What they had seen in the desert was the reason he gave them for the sea.
+**Hands-up?** no
+
+---
+
+### RCT/E-RC86 · The duʿāʾ at the water's edge
+**Tier:** CORE · **When:** ۱۱ھ→۱۲ھ, the shore opposite دارين `[SOURCED]` · **Map:** n/a — a large-statement slide.
+**What happened:** He brought them to the shore to take ship, and saw that the crossing was long — by ship
+they would not reach the enemy before he was gone. So he rode his horse into the sea, saying a duʿāʾ aloud,
+and ordered the army to say it and ride in after him. They did.
+**Beats:**
+1. The shore, and no time for ships — By ship the crossing is a day and a night; the enemy would be gone.
+2. He rides in first — On his horse, saying the duʿāʾ aloud.
+3. Read the duʿāʾ — Slowly; it is the whole of the slide.
+4. He orders the army to say it — And to ride in after him; and they did.
+**Quote after beat:** 3
+**The statement:**
+> يا أرحمَ الراحمين، يا حكيمُ يا كريمُ، يا أحدُ يا صمدُ، يا حيُّ يا مُحيي، يا قيّومُ، يا ذا الجلال والإكرام، لا إله إلا أنت يا ربَّنا
+> — البدایہ والنہایہ ج۷ ص۴۰ · https://shamela.ws/book/30097/3186
+> *English:* "O Most Merciful of the merciful; O Wise, O Generous; O One, O Eternal; O Living, O Giver of
+> life; O Sustainer; O Lord of majesty and honour — there is no god but You, our Lord."
+
+**عبرت:** He asked first, and he went in first.
+**Hands-up?** no
+**What they walked on, as the book describes it:**
+> يمشون على مثل رملةٍ دمثةٍ فوقها ماء لا يغمر أخفاف الإبل، ولا يصلُ إلى ركبِ الخيل
+> — البدایہ والنہایہ ج۷ ص۴۰ · https://shamela.ws/book/30097/3186
+> *English:* "…walking on something like soft sand with water over it — not covering the camels' pads, nor
+> reaching the horses' knees."
+
+⚠ **Eyeball the duʿāʾ against the page image before it is projected** (CLAUDE.md §1.1). ⚠ Narrated as the
+book narrates it; no ruling is built on it.
 
 ---
 
@@ -12342,12 +12470,12 @@ nothing stands in front of them — because the direction is one, the object is 
 they will die for it. He names the conquests as his own example.
 
 **Beats:**
-1. ⚠⚠ **Say who he is before he says anything.** Ibn Khaldūn رحمہ اللہ — a historian writing **seven centuries after these events**, whose book asks why peoples rise and fall. **He is a reader of the event, never a witness to it.**
-2. He asks the question anyone looking at the map of the year eleven would ask: how does a peninsula that has just fragmented move against two empires within two years?
-3. **His answer does not multiply anybody's numbers.**
-4. A religious call, he says, takes away the rivalry and the mutual envy that exist among people bound by kin, and points them all one way.
-5. And once that happens nothing stands in front of them — because the direction is one, the object is equal in every eye, and they will die for it.
-6. ⚠ **He names the conquests as his own example — but he never wrote this about the ⁨ردة⁩.** Joining his chapter to the year 11 is this course's doing, not his. Say *"this is how Ibn Khaldūn reads it"*, and leave it there.
+1. Ibn Khaldūn: a reader, not a witness — رحمہ اللہ; he wrote seven centuries after these events, and his book asks why peoples rise and fall.
+2. His question — How does a peninsula that has just fragmented move against two empires within two years?
+3. Not more men — His answer multiplies nobody's numbers.
+4. The call removes rivalry — A religious call takes away the envy among people bound by kin, and points them all one way.
+5. One direction — Then nothing stands in front of them: the object is equal in every eye, and they will die for it.
+6. "As Ibn Khaldūn reads it" — He never wrote this about the Ridda; joining his chapter to the year 11 is this course's doing, not his.
 **Quote after beat:** 4
 **The statement:**
 > والسّبب في ذلك … أنّ الصّبغة الدّينيّة تذهب بالتنافس والتّحاسد الّذي في أهل العصبيّة وتفرد الوجهة

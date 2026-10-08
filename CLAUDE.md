@@ -23,6 +23,7 @@ Weekly thereafter. ~45 minutes.
 | `docs/STATUS.md` | Where everything stands *right now* — what is built, what is blocked, what is next |
 | `docs/DECISIONS.md` | Every settled decision with its reason. **Append-only** |
 | `docs/research/INDEX.md` | The research catalogue — grep it before researching anything |
+| `docs/VISION.md` | **The house style as rules a script can check** — every rule with the words of Daniyal's that produced it. Read it before generating; `python tools/check_vision.py SNN_<slug>` must pass before he is shown anything |
 | `docs/specs/2026-09-06-L02-and-production-v4-spec.md` | **The current production pipeline** — the six per-session artifacts, the deck contract, the runtime |
 
 ### 0.1 The research catalogue rule (standing instruction)
@@ -244,6 +245,22 @@ per-slide PNGs and a contact sheet — **look at the contact sheet before callin
   the past" slide in session 1, the سفیان ثوری quotation, and a source remark **spoken inside the
   story** at the moment a listener would naturally ask "how do we know that?" Never a recurring slot.
 - Regenerate visuals with `python series/make_visuals.py`; decks import `series/deckkit.py`.
+
+## 1.8 Feedback becomes a gate (`docs/VISION.md`, `DECISIONS.md` #73)
+
+**When Daniyal comments on a deck, the fix is the lesser half.** Find the general rule the comment is an instance
+of, write it into `docs/VISION.md` with his words, add its check to `tools/check_vision.py`, and only then fix the
+slide. A rule he has had to repeat is a rule nothing enforces.
+
+- **Notes** are two tiers (`series/notes2.py`): short spaced cues first, the detail under a drawn rule. Beats are
+  written `Cue — detail`.
+- **Maps are written, not drawn** (`series/mapkit.py`): a march, a siege, a trench, a crossing, a caption — helpers
+  that make the map rules true by construction. A scene that breaks a rule cannot be saved.
+- **A face names things**: titles name places or people, quotations name their speaker, a kicker says when and
+  where, an image placeholder carries an authored brief.
+- **Moments of faith get a slide of their own**, in Arabic; and when a page is read, look for the line that could
+  be said aloud to a room.
+- **Then look.** The gate checks what it has been taught. Open every new map's rendered steps before hand-over.
 
 ## 2. The fixed session shape (45 min)
 

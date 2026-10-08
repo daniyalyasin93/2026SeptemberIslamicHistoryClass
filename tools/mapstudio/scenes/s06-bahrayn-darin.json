@@ -1,0 +1,428 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "Dārīn",
+  "subtitle": "",
+  "urduTitle": "",
+  "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
+ },
+ "view": {
+  "cx": 43.30127018922194,
+  "cy": -26.35,
+  "scale": 301.07747371073754
+ },
+ "style": {
+  "relief": true,
+  "reliefStrength": 0.4,
+  "rivers": true,
+  "markScale": 2.0,
+  "cartoucheScale": 2.0,
+  "graticule": false,
+  "grain": true,
+  "vignette": true,
+  "cartouche": false,
+  "legend": false,
+  "scalebar": true,
+  "urduLabels": false,
+  "aspect": "16:9"
+ },
+ "factions": [
+  {
+   "id": "f1",
+   "name": "Muslim forces",
+   "ur": "",
+   "color": "#2CB020"
+  },
+  {
+   "id": "f4",
+   "name": "In revolt",
+   "ur": "",
+   "color": "#E7A244"
+  },
+  {
+   "id": "f5",
+   "name": "Not yet told",
+   "ur": "",
+   "color": "#9AA39E"
+  },
+  {
+   "id": "f6",
+   "name": "Under a covenant",
+   "ur": "",
+   "color": "#5B8FD6"
+  }
+ ],
+ "underlay": null,
+ "objects": [
+  {
+   "id": "s_001",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 49.588,
+   "lat": 25.383,
+   "name": "Hajar",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "left",
+   "scale": 1.5
+  },
+  {
+   "id": "t_002",
+   "type": "territory",
+   "step": 1,
+   "note": "region:darin",
+   "pts": [
+    [
+     50.55,
+     27.2
+    ],
+    [
+     50.98,
+     27.24
+    ],
+    [
+     51.08,
+     26.94
+    ],
+    [
+     50.84,
+     26.74
+    ],
+    [
+     50.52,
+     26.84
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "opacity": 0.6,
+   "until": 5
+  },
+  {
+   "id": "s_003",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 50.8,
+   "lat": 27.02,
+   "name": "Dārīn",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "above",
+   "scale": 1.5
+  },
+  {
+   "id": "a_004",
+   "type": "army",
+   "step": 1,
+   "note": "force",
+   "lon": 50.0,
+   "lat": 25.2,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "until": 3
+  },
+  {
+   "id": "a_005",
+   "type": "army",
+   "step": 1,
+   "note": "force",
+   "lon": 51.55,
+   "lat": 27.08,
+   "name": "the men of Dārīn",
+   "ur": "",
+   "faction": "f4",
+   "strength": "never came to Hajar",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "until": 5
+  },
+  {
+   "id": "a_006",
+   "type": "arrow",
+   "step": 2,
+   "note": "march:the beaten",
+   "pts": [
+    [
+     49.66,
+     25.45
+    ],
+    [
+     49.95,
+     25.95
+    ],
+    [
+     50.4,
+     26.2
+    ],
+    [
+     51.0,
+     26.38
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 9.0
+  },
+  {
+   "id": "a_007",
+   "type": "army",
+   "step": 2,
+   "note": "force",
+   "lon": 51.0,
+   "lat": 26.38,
+   "name": "the beaten",
+   "ur": "",
+   "faction": "f4",
+   "strength": "by ship",
+   "unit": "naval",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_006",
+   "until": 5
+  },
+  {
+   "id": "a_008",
+   "type": "arrow",
+   "step": 3,
+   "note": "march:ʿUtayba b. al-Nahhās",
+   "pts": [
+    [
+     47.35,
+     27.2
+    ],
+    [
+     47.8,
+     27.12
+    ],
+    [
+     48.2,
+     27.0
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_009",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 48.2,
+   "lat": 27.0,
+   "name": "ʿUtayba b. al-Nahhās",
+   "ur": "",
+   "faction": "f1",
+   "strength": "on the roads",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "follows": "a_008"
+  },
+  {
+   "id": "a_010",
+   "type": "arrow",
+   "step": 3,
+   "note": "march:al-Muthannā b. Ḥāritha",
+   "pts": [
+    [
+     47.35,
+     26.2
+    ],
+    [
+     47.8,
+     26.16
+    ],
+    [
+     48.2,
+     26.1
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_011",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 48.2,
+   "lat": 26.1,
+   "name": "al-Muthannā b. Ḥāritha",
+   "ur": "",
+   "faction": "f1",
+   "strength": "on the roads",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "follows": "a_010"
+  },
+  {
+   "id": "a_012",
+   "type": "arrow",
+   "step": 4,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     50.0,
+     25.2
+    ],
+    [
+     49.55,
+     26.1
+    ],
+    [
+     49.95,
+     26.42
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_013",
+   "type": "army",
+   "step": 4,
+   "note": "force",
+   "lon": 49.95,
+   "lat": 26.42,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_012",
+   "until": 4
+  },
+  {
+   "id": "a_014",
+   "type": "arrow",
+   "step": 5,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     49.95,
+     26.42
+    ],
+    [
+     50.1,
+     26.5
+    ],
+    [
+     50.26,
+     26.56
+    ],
+    [
+     50.42,
+     26.62
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 9.0
+  },
+  {
+   "id": "a_015",
+   "type": "army",
+   "step": 5,
+   "note": "force",
+   "lon": 50.42,
+   "lat": 26.62,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "naval",
+   "labelPos": "below",
+   "scale": 1.5,
+   "follows": "a_014"
+  },
+  {
+   "id": "l_016",
+   "type": "label",
+   "step": 5,
+   "note": "say",
+   "lon": 51.5,
+   "lat": 25.55,
+   "text": "by ship: a day and a night",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 5
+  },
+  {
+   "id": "t_017",
+   "type": "territory",
+   "step": 6,
+   "note": "region:darin",
+   "pts": [
+    [
+     50.55,
+     27.2
+    ],
+    [
+     50.98,
+     27.24
+    ],
+    [
+     51.08,
+     26.94
+    ],
+    [
+     50.84,
+     26.74
+    ],
+    [
+     50.52,
+     26.84
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "opacity": 0.6
+  },
+  {
+   "id": "b_018",
+   "type": "battle",
+   "step": 6,
+   "note": "clash",
+   "lon": 50.8,
+   "lat": 27.0,
+   "name": "",
+   "ur": "",
+   "date": "",
+   "labelPos": "below",
+   "scale": 1.5,
+   "until": 6
+  }
+ ],
+ "steps": {
+  "count": 6,
+  "current": 6,
+  "mode": "upto"
+ }
+}

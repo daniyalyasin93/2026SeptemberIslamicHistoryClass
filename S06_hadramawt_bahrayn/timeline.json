@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "title": "Evening 6 — the last two fronts, and the Ridda's last word. The Line is drawn once and lit checkpoint by checkpoint; nothing tonight has not yet been told is drawn.",
- "note": "Lanes are the threads of the evening, not geography. 'The war as a whole' carries the retrospective cards, which belong to no single front. Events marked 'delivered' were told on evenings 2-5 and are drawn small, so the room sees tonight's work against what it already has.",
+ "title": "Evening 6 — the last two fronts. Two strands only: the fronts, and Medina.",
+ "note": "Simplified 2026-10-08 at Daniyal's request: 'the timeline has to be simplified, atm its too many merged. maybe a short general timeline with one or two strands would be ok.' Two lanes, eight events. Anything finer belongs on a map, not on the Line.",
  "styles": {
   "lit": "gold dot, ink bold label — tonight's material, told up to this checkpoint",
   "delivered": "small teal dot, muted label — told on an earlier evening",
@@ -29,18 +29,10 @@
  ],
  "lanes": [
   {
-   "id": "east",
-   "label": "Bahrayn",
+   "id": "fronts",
+   "label": "The fronts",
    "lines": [
-    "Bahrayn"
-   ]
-  },
-  {
-   "id": "south",
-   "label": "Ḥaḍramawt and Kinda",
-   "lines": [
-    "Ḥaḍramawt",
-    "and Kinda"
+    "The fronts"
    ]
   },
   {
@@ -49,20 +41,12 @@
    "lines": [
     "Medina"
    ]
-  },
-  {
-   "id": "whole",
-   "label": "The war as a whole",
-   "lines": [
-    "The war",
-    "as a whole"
-   ]
   }
  ],
  "events": [
   {
-   "id": "d01",
-   "lane": "south",
+   "id": "d1",
+   "lane": "fronts",
    "band": "12",
    "col": 1,
    "order": 1,
@@ -75,14 +59,14 @@
     "RCT/E-RC29",
     "RCT/E-RC30"
    ],
-   "note": "Where evening 5 ended (Checkpoint 2)."
+   "note": "Where evening 5 ended."
   },
   {
-   "id": "d02",
+   "id": "d2",
    "lane": "medina",
    "band": "12",
    "col": 1,
-   "order": 2,
+   "order": 1,
    "group": "delivered",
    "label": "The Qurʾān gathered",
    "short": "The Qurʾān gathered",
@@ -91,287 +75,106 @@
    "cards": [
     "RCT/E-RC37"
    ],
-   "note": "Told on evening 5."
+   "note": "Evening 5."
   },
   {
-   "id": "f01",
-   "lane": "whole",
-   "band": "12",
-   "col": 2,
-   "order": 1,
-   "group": "part1",
-   "label": "The year opens with the armies still out",
-   "short": "The year opens with the armies still out",
-   "when": "12 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "RCT/E-RC80"
-   ],
-   "note": "Ibn Kathīr, البدایہ ج۷ ص۶۱."
-  },
-  {
-   "id": "f02",
-   "lane": "whole",
-   "band": "11",
-   "col": 1,
-   "order": 1,
-   "group": "part1",
-   "label": "The march to Khaybar that never happened",
-   "short": "The march to Khaybar that never happened",
-   "when": "11 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "RCT/E-RC79"
-   ],
-   "note": "A feint, reported as a feint."
-  },
-  {
-   "id": "f03",
-   "lane": "whole",
-   "band": "11",
-   "col": 2,
-   "order": 1,
-   "group": "part1",
-   "label": "The north open before the banners were tied",
-   "short": "The north open before the banners were tied",
-   "when": "11 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "RCT/E-RC76"
-   ],
-   "note": "⚠ No engagement of Khālid b. Saʿīd ؓ is on any page we hold."
-  },
-  {
-   "id": "b01",
-   "lane": "east",
+   "id": "b1",
+   "lane": "fronts",
    "band": "11",
    "col": 1,
    "order": 1,
    "group": "part2",
-   "label": "The governor dies; a king of the old line",
-   "short": "The governor dies; a king of the old line",
+   "label": "Bahrayn rises",
+   "short": "Bahrayn rises",
    "when": "11 AH",
    "certainty": "SOURCED",
    "cards": [
-    "RCT/E-RC71"
-   ],
-   "note": "⚠ Name no king — three books, three forms."
-  },
-  {
-   "id": "b02",
-   "lane": "east",
-   "band": "11",
-   "col": 2,
-   "order": 1,
-   "group": "part2",
-   "label": "Juwātha besieged",
-   "short": "Juwātha besieged",
-   "when": "11 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "RCT/E-RC72",
-    "RCT/E-RC24"
-   ],
-   "note": "And ʿAbd al-Qays hold, behind al-Jārūd ؓ."
-  },
-  {
-   "id": "b03",
-   "lane": "east",
-   "band": "11",
-   "col": 3,
-   "order": 1,
-   "group": "part2",
-   "label": "The sixteen riders, and al-Dahnāʾ",
-   "short": "The sixteen riders, and al-Dahnāʾ",
-   "when": "11 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "RCT/E-RC25"
-   ],
-   "note": "⚠ A كرامة narrative, through سيف بن عمر in البدایہ."
-  },
-  {
-   "id": "b04",
-   "lane": "east",
-   "band": "11",
-   "col": 4,
-   "order": 1,
-   "group": "part2",
-   "label": "The trench month, and al-Ḥuṭam killed",
-   "short": "The trench month, and al-Ḥuṭam killed",
-   "when": "11 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "RCT/E-RC26",
-    "RCT/E-RC74"
+    "RCT/E-RC71",
+    "RCT/E-RC72"
    ],
    "note": ""
   },
   {
-   "id": "b05",
-   "lane": "east",
+   "id": "b2",
+   "lane": "fronts",
    "band": "12",
    "col": 2,
-   "order": 2,
+   "order": 1,
    "group": "part2",
-   "label": "Dārīn — into the water",
-   "short": "Dārīn — into the water",
+   "label": "Dārīn crossed",
+   "short": "Dārīn crossed",
    "when": "11→12 AH",
    "certainty": "SOURCED",
    "cards": [
     "RCT/E-RC27"
    ],
-   "note": "«وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ»."
+   "note": ""
   },
   {
-   "id": "k01",
-   "lane": "south",
+   "id": "k1",
+   "lane": "fronts",
    "band": "11",
    "col": 2,
    "order": 1,
    "group": "part3",
-   "label": "The she-camel called Shadhra",
-   "short": "The she-camel called Shadhra",
+   "label": "Kinda rises",
+   "short": "Kinda rises",
    "when": "11 AH",
    "certainty": "SOURCED",
    "cards": [
     "TSY/E-YK07",
     "RCT/E-RC33"
    ],
-   "note": "What set Kinda off, as the books report it."
+   "note": ""
   },
   {
-   "id": "k02",
-   "lane": "south",
-   "band": "11",
+   "id": "k2",
+   "lane": "fronts",
+   "band": "12",
    "col": 3,
    "order": 1,
    "group": "part3",
-   "label": "The four kings, round their fires",
-   "short": "The four kings, round their fires",
-   "when": "11 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "TSY/E-YK10"
-   ],
-   "note": "⚠ No source ties the old kingship to the ridda."
-  },
-  {
-   "id": "k03",
-   "lane": "south",
-   "band": "12",
-   "col": 2,
-   "order": 1,
-   "group": "part3",
-   "label": "al-Nujayr, and the knife at the writing",
-   "short": "al-Nujayr, and the knife at the writing",
+   "label": "al-Nujayr falls",
+   "short": "al-Nujayr falls",
    "when": "11 or 12 AH",
    "certainty": "SOURCED",
    "cards": [
-    "TSY/E-YK11",
     "TSY/E-YK12"
    ],
-   "note": "⚠ الکامل puts it in 11, the سیر in 12."
+   "note": ""
   },
   {
-   "id": "m01",
+   "id": "m1",
    "lane": "medina",
-   "band": "12",
-   "col": 2,
-   "order": 1,
-   "group": "part4",
-   "label": "\"What do you think I will do with you?\"",
-   "short": "\"What do you think I will do with you?\"",
-   "when": "12 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "TSY/E-YK14",
-    "POT/E-PG40"
-   ],
-   "note": "Pardoned, and married into the family."
-  },
-  {
-   "id": "m02",
-   "lane": "medina",
-   "band": "after",
-   "col": 1,
-   "order": 1,
-   "group": "part4",
-   "label": "\"This man did not apostatise, and I did\"",
-   "short": "\"This man did not apostatise, and I did\"",
-   "when": "years later",
-   "certainty": "SOURCED",
-   "cards": [
-    "POT/E-PG41",
-    "TSY/E-YK16"
-   ],
-   "note": "A man who came back."
-  },
-  {
-   "id": "w01",
-   "lane": "whole",
-   "band": "11",
-   "col": 3,
-   "order": 1,
-   "group": "part5",
-   "label": "Who did not break away",
-   "short": "Who did not break away",
-   "when": "11 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "ATA/E-TB22",
-    "ATA/E-TB25",
-    "RCT/E-RC78"
-   ],
-   "note": "Thaqīf, the Azd, and Najrān renewing its covenant."
-  },
-  {
-   "id": "w02",
-   "lane": "whole",
-   "band": "12",
-   "col": 3,
-   "order": 1,
-   "group": "part5",
-   "label": "Ibn Kathīr's summing-up",
-   "short": "Ibn Kathīr's summing-up",
-   "when": "12 AH",
-   "certainty": "SOURCED",
-   "cards": [
-    "RCT/E-RC36"
-   ],
-   "note": "«أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة»."
-  },
-  {
-   "id": "w03",
-   "lane": "whole",
    "band": "12",
    "col": 4,
    "order": 1,
-   "group": "part5",
-   "label": "«We nearly perished»",
-   "short": "«We nearly perished»",
-   "when": "looking back",
+   "group": "part4",
+   "label": "al-Ashʿath before Abū Bakr ؓ",
+   "short": "al-Ashʿath before Abū Bakr ؓ",
+   "when": "12 AH",
    "certainty": "SOURCED",
    "cards": [
-    "RCT/E-RC81"
+    "TSY/E-YK14"
    ],
-   "note": "Ibn Masʿūd ؓ, at the head of Ibn al-Athīr's chapter."
+   "note": ""
   },
   {
-   "id": "w04",
-   "lane": "whole",
-   "band": "after",
-   "col": 2,
+   "id": "m2",
+   "lane": "medina",
+   "band": "12",
+   "col": 5,
    "order": 1,
    "group": "part5",
-   "label": "The captives bought back",
-   "short": "The captives bought back",
-   "when": "ʿUmar's ؓ caliphate",
+   "label": "The war, in sum",
+   "short": "The war, in sum",
+   "when": "12 AH",
    "certainty": "SOURCED",
    "cards": [
-    "RCT/E-RC35"
+    "RCT/E-RC36",
+    "RCT/E-RC81"
    ],
-   "note": "⚠ The year is not fixed on the page."
+   "note": ""
   }
  ],
  "links": [],
@@ -383,26 +186,23 @@
  "renders": [
   {
    "name": "line_s06_cp1",
-   "title": "Tonight: the fronts ran together — and Bahrayn, to Dārīn",
+   "title": "Tonight: Bahrayn, to Dārīn",
    "lit": [
-    "part1",
     "part2"
    ]
   },
   {
    "name": "line_s06_cp2",
-   "title": "Tonight: and the last front, to al-Nujayr",
+   "title": "Tonight: and Ḥaḍramawt, to al-Nujayr",
    "lit": [
-    "part1",
     "part2",
     "part3"
    ]
   },
   {
    "name": "line_s06_cp3",
-   "title": "Tonight: and the man who came back",
+   "title": "Tonight: and the judgement at Medina",
    "lit": [
-    "part1",
     "part2",
     "part3",
     "part4"
@@ -410,9 +210,8 @@
   },
   {
    "name": "line_s06_cp4",
-   "title": "Tonight: the Ridda, whole",
+   "title": "Tonight: the war, whole",
    "lit": [
-    "part1",
     "part2",
     "part3",
     "part4",
@@ -423,7 +222,6 @@
    "name": "line_s06_close",
    "title": "Tonight on the Line",
    "lit": [
-    "part1",
     "part2",
     "part3",
     "part4",
