@@ -102,15 +102,16 @@ faith at al-Dahnāʾ and at the shore given slides of their own.
 | 6 | `RCT/E-RC25` The sixteen riders | CORE | 2 | 11.5 | The theatre map again: the men who joined, and into al-Dahnāʾ |
 | 7 | `RCT/E-RC82` al-Dahnāʾ — the three questions | CORE | 2 | 13.5 | **A moment of faith: its own slide** |
 | 8 | `RCT/E-RC83` al-Dahnāʾ — the prayer, and the water | CORE | 2 | 15.5 | **A moment of faith: its own slide** |
-| 9 | `RCT/E-RC26` The trench month | GOOD | 1.5 | 17 | Close-up of Hajar: the two camps, the trenches, a month |
-| 10 | `RCT/E-RC73` The uncle in the other trench | GOOD | 2 | 19 | **Before** the assault, where it happened — Daniyal: *"didn't this happen before slide 20?"* |
-| 11 | `RCT/E-RC74` al-Ḥuṭam, and what Qays b. ʿĀṣim said over him | CORE | 2 | 21 | The assault, on the same close-up; then the words, with a scene line |
-| 12 | `RCT/E-RC84` The roads are closed | CORE | 1.5 | 22.5 | Close-up of the coast and Dārīn: the beaten sail, the roads are shut |
-| 13 | `RCT/E-RC85` "His signs on land — that you may take heed at sea" | CORE | 1 | 23.5 | **A moment of faith: its own slide** |
-| 14 | `RCT/E-RC86` The duʿāʾ at the water's edge | CORE | 1.5 | 25 | **A moment of faith: its own slide** |
-| 15 | `RCT/E-RC27` ⁨دارين⁩ — into the water | CORE | 2 | 27 | The crossing, on the close-up |
-| 16 | `RCT/E-RC75` The monk of Hajar | GOOD | 1.5 | 28.5 | |
-| 17 | `RCT/E-RC28` Thumāma b. Uthāl ؓ and the embroidered cloak | GOOD | 1.5 | 30 | ⚠ Speaker's discretion. **Checkpoint 1 follows** |
+| 9 | `RCT/E-RC87` al-Dahnāʾ — the words of the duʿāʾ, in another telling | GOOD | 1 | 16.5 | **A moment of faith: its own slide.** Another telling, under its own page — cut first if the clock is short |
+| 10 | `RCT/E-RC26` The trench month | GOOD | 1.5 | 18 | Close-up of Hajar: the two camps, the trenches, a month |
+| 11 | `RCT/E-RC73` The uncle in the other trench | GOOD | 2 | 20 | **Before** the assault, where it happened — Daniyal: *"didn't this happen before slide 20?"* |
+| 12 | `RCT/E-RC74` al-Ḥuṭam, and what Qays b. ʿĀṣim said over him | CORE | 2 | 22 | The assault, on the same close-up; then the words, with a scene line |
+| 13 | `RCT/E-RC84` The roads are closed | CORE | 1.5 | 23.5 | Close-up of the coast and Dārīn: the beaten sail, the roads are shut |
+| 14 | `RCT/E-RC85` "His signs on land — that you may take heed at sea" | CORE | 1 | 24.5 | **A moment of faith: its own slide** |
+| 15 | `RCT/E-RC86` The duʿāʾ at the water's edge | CORE | 1.5 | 26 | **A moment of faith: its own slide** |
+| 16 | `RCT/E-RC27` ⁨دارين⁩ — into the water | CORE | 2 | 28 | The crossing, on the close-up |
+| 17 | `RCT/E-RC75` The monk of Hajar | GOOD | 1.5 | 29.5 | |
+| 18 | `RCT/E-RC28` Thumāma b. Uthāl ؓ and the embroidered cloak | GOOD | 1.5 | 31 | ⚠ Speaker's discretion. **Checkpoint 1 follows** |
 
 ## Part III — Kinda, before any of it (10 AH)
 
@@ -119,7 +120,7 @@ Prophet ﷺ died — a delegation came to Medina."*
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 16 | `KTK/E-KD05` "We are the sons of Ākil al-Murār" | GOOD | 2.5 | 31 | ⚠ **Say the flashback aloud.** The date is standard, not page-cited: *"in the year of the delegations"*. The room meets al-Ashʿath b. Qays here, at the head of his people, in kohl and silk. **Tree D (Kinda) opens the part** |
+| 17 | `KTK/E-KD05` "We are the sons of Ākil al-Murār" | GOOD | 2.5 | 32 | ⚠ **Say the flashback aloud.** The date is standard, not page-cited: *"in the year of the delegations"*. The room meets al-Ashʿath b. Qays here, at the head of his people, in kohl and silk. **Tree D (Kinda) opens the part** |
 
 ## Part IV — Ḥaḍramawt: the last front (11→12 AH)
 
@@ -127,14 +128,14 @@ Prophet ﷺ died — a delegation came to Medina."*
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 17 | `TSY/E-YK07` The promise about the camels | CORE | 2 | 33 | **Ziyād b. Labīd's ؓ notice in one breath first** |
-| 18 | `RCT/E-RC33` The she-camel called Shadhra | CORE | 2 | 35 | SKIP BEATS 1 — #17 told the arrangement |
-| 19 | `TSY/E-YK08` "The humbled man…" | CORE | 2 | 37 | ⚠ **⁨البسوس⁩ has no page here** — say only *"an old war that had started the same way"* |
-| 20 | `TSY/E-YK09` Free men do not change sides | CORE | 2 | 39 | Shuraḥbīl b. al-Simṭ **and his son** |
-| 21 | `TSY/E-YK10` Round their fires | CORE | 2 | 41 | **No source ties the old kingship to the ridda** — imply nothing. SKIP BEATS 7,8 |
-| 22 | `TSY/E-YK19` al-Ashʿath b. Qays comes into it | CORE | 1.5 | 42.5 | **Never cut.** Where the war becomes his |
-| 23 | `TSY/E-YK11` The fort they had already repaired | GOOD | 1 | 43.5 | **The road that began at al-Yamāma ends here** |
-| 24 | `TSY/E-YK12` The knife at the writing | CORE | 2 | 45.5 | ⚠ **Say "11 or 12 AH"** — ⁨الکامل⁩ and ⁨سیر⁩ differ. ⚠ `YK13`'s second telling exists if a slip asks |
+| 18 | `TSY/E-YK07` The promise about the camels | CORE | 2 | 34 | **Ziyād b. Labīd's ؓ notice in one breath first** |
+| 19 | `RCT/E-RC33` The she-camel called Shadhra | CORE | 2 | 36 | SKIP BEATS 1 — #17 told the arrangement |
+| 20 | `TSY/E-YK08` "The humbled man…" | CORE | 2 | 38 | ⚠ **⁨البسوس⁩ has no page here** — say only *"an old war that had started the same way"* |
+| 21 | `TSY/E-YK09` Free men do not change sides | CORE | 2 | 40 | Shuraḥbīl b. al-Simṭ **and his son** |
+| 22 | `TSY/E-YK10` Round their fires | CORE | 2 | 42 | **No source ties the old kingship to the ridda** — imply nothing. SKIP BEATS 7,8 |
+| 23 | `TSY/E-YK19` al-Ashʿath b. Qays comes into it | CORE | 1.5 | 43.5 | **Never cut.** Where the war becomes his |
+| 24 | `TSY/E-YK11` The fort they had already repaired | GOOD | 1 | 44.5 | **The road that began at al-Yamāma ends here.** SKIP BEATS 5,6,7 — the close-up of al-Nujayr, on the next slide, tells them |
+| 25 | `TSY/E-YK12` The knife at the writing | CORE | 2 | 46.5 | ⚠ **Say "11 or 12 AH"** — ⁨الکامل⁩ and ⁨سیر⁩ differ. ⚠ `YK13`'s second telling exists if a slip asks |
 
 **✓ Checkpoint 2 — after #24.** The pair exists as evening 5's slides 81–82. Line: Ḥaḍramawt lit to
 al-Nujayr. Map: every front settled; one man on the road to Medina in bonds. ⏱ Past 0:40 → close here.
@@ -147,10 +148,10 @@ week: what Abū Bakr ؓ did with him."*
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 25 | `TSY/E-YK14` "What do you think I will do with you?" | CORE | 2.5 | 48 | Spare [HANDS]: ask the room before the answer. ⚠ Ten or seventy — the books differ |
-| 26 | `POT/E-PG40` The wedding feast in the camel market | CORE | 1.5 | 49.5 | ⚠ **Do not name Abū Bakr's ؓ sister** — the books differ. SKIP BEATS 1–4 |
-| 27 | `TSY/E-YK16` "We suspected three men" | CORE | 2 | 51.5 | **↪ Forward, framed by beat 1** — al-Qādisiyya and Nahāwand are evenings ahead |
-| 28 | `POT/E-PG41` This man did not apostatise, and I did | CORE | 1 | 52.5 | **↪ Years later, at a funeral.** Closes on a man who came back — and on his own sentence about himself |
+| 26 | `TSY/E-YK14` "What do you think I will do with you?" | CORE | 2.5 | 49 | Spare [HANDS]: ask the room before the answer. ⚠ Ten or seventy — the books differ |
+| 27 | `POT/E-PG40` The wedding feast in the camel market | CORE | 1.5 | 50.5 | ⚠ **Do not name Abū Bakr's ؓ sister** — the books differ. SKIP BEATS 1–4 |
+| 28 | `TSY/E-YK16` "We suspected three men" | CORE | 2 | 52.5 | **↪ Forward, framed by beat 1** — al-Qādisiyya and Nahāwand are evenings ahead |
+| 29 | `POT/E-PG41` This man did not apostatise, and I did | CORE | 1 | 53.5 | **↪ Years later, at a funeral.** Closes on a man who came back — and on his own sentence about himself |
 
 ### The close — the spoken script (the slides come from `build.py`, not from a table)
 
@@ -205,21 +206,21 @@ movement in time at all. ✅ **All five now carry beats** (2026-10-07).
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 29 | `ATA/E-TB22` Thaqīf had been Muslim for two years, and did not break | CORE | 2 | 54.5 | «⁨وقد كانت ثقيفُ بالطائف ثَبَتوا على الإسلام، لم يفرُّوا ولا ارتدّوا⁩» — ⁨البدایہ ج۷ ص۹⁩. **The newest Muslims in the peninsula held.** The room will expect the opposite |
-| 30 | `RCT/E-RC78` Najrān sent a delegation to renew its covenant | CORE | 1.5 | 56 | ⁨الکامل ج۲ ص۲۲۷⁩. While the peninsula broke, a community that was **not Muslim** came to Medina to renew its treaty — **and got it in writing.** It is the end-state `RC36` names, *"like the people of Najrān"* |
-| 31 | `ATA/E-TB10` One tribe, three answers | CORE | 2 | 58 | Banū Tamīm: some withheld, some sent the ṣadaqa to Medina, some waited. **The room met Banū Tamīm on evening 4** — the same tribe, counted honestly |
-| 32 | `ATA/E-TB13` The verse that puts the objection as politics | CORE | 2 | 60 | «⁨فواعَجَبًا ما بَالُ مُلْكِ أبي بَكْرِ⁩» — ⁨البدایہ ج۷ ص۱۸⁩. The refusal stated its own reason, and it was not theology |
-| 33 | `ATA/E-TB25` The Azd stood on both sides of the map | CORE | 2 | 62 | **The ⁨عبرت⁩ card of the whole Ridda, and the card says so of itself:** *"If only one sentence of §2 survives the cut, keep this one."* One tribe furnished a claimant in Oman and a commander against him |
+| 30 | `ATA/E-TB22` Thaqīf had been Muslim for two years, and did not break | CORE | 2 | 55.5 | «⁨وقد كانت ثقيفُ بالطائف ثَبَتوا على الإسلام، لم يفرُّوا ولا ارتدّوا⁩» — ⁨البدایہ ج۷ ص۹⁩. **The newest Muslims in the peninsula held.** The room will expect the opposite |
+| 31 | `RCT/E-RC78` Najrān sent a delegation to renew its covenant | CORE | 1.5 | 57 | ⁨الکامل ج۲ ص۲۲۷⁩. While the peninsula broke, a community that was **not Muslim** came to Medina to renew its treaty — **and got it in writing.** It is the end-state `RC36` names, *"like the people of Najrān"* |
+| 32 | `ATA/E-TB10` One tribe, three answers | CORE | 2 | 59 | Banū Tamīm: some withheld, some sent the ṣadaqa to Medina, some waited. **The room met Banū Tamīm on evening 4** — the same tribe, counted honestly |
+| 33 | `ATA/E-TB13` The verse that puts the objection as politics | CORE | 2 | 61 | «⁨فواعَجَبًا ما بَالُ مُلْكِ أبي بَكْرِ⁩» — ⁨البدایہ ج۷ ص۱۸⁩. The refusal stated its own reason, and it was not theology |
+| 34 | `ATA/E-TB25` The Azd stood on both sides of the map | CORE | 2 | 63 | **The ⁨عبرت⁩ card of the whole Ridda, and the card says so of itself:** *"If only one sentence of §2 survives the cut, keep this one."* One tribe furnished a claimant in Oman and a commander against him |
 
 ## Part VII — Medina, 12 AH: Ibn Kathīr and Ibn Masʿūd ؓ on the whole war
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 34 | `RCT/E-RC36` What Ibn Kathīr says the whole war was | CORE | 2 | 64 | **Must come after Ḥaḍramawt, not before it.** No region untouched; the armies sent as a support to believers already standing; the end-state *obedience or covenant*; and the duration «⁨أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة⁩» |
-| 35 | `RCT/E-RC81` «We nearly perished» — Ibn Masʿūd ؓ on the whole decision | CORE | 1.5 | 65.5 | ⁨الکامل ج۲ ص۲۰۱⁩, cached — «⁨لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ ﷺ مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ⁩». **On no card until now, and it is the best closing line in the material.** A Companion saying plainly how near it came |
-| 36 | `RCT/E-RC39` The men of Badr who were kept out of office | CORE | 2 | 67.5 | Abū Bakr ؓ «⁨لَا أَسْتَعْمِلُ أَهْلَ بَدْرٍ⁩» — **and ʿUmar's ؓ different view, on the same page.** A recorded difference of administrative judgement between the first two caliphs, and a very safe one for this room |
-| 37 | `RCT/E-RC43` The eleven banners — who went where | GOOD | 2 | 69.5 | **A recap, not news** — the room met the moment on evening 2 (`RC05`). The roster read back now, with every sector green |
-| 38 | `RCT/E-RC35` The captives bought back | CORE | 1.5 | 71 | **↪ Forward to ʿUmar's ؓ caliphate — frame it aloud**, the way `AS18` was framed on evening 5. «⁨إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا⁩» — the peninsula in one colour at last |
+| 35 | `RCT/E-RC36` What Ibn Kathīr says the whole war was | CORE | 2 | 65 | **Must come after Ḥaḍramawt, not before it.** No region untouched; the armies sent as a support to believers already standing; the end-state *obedience or covenant*; and the duration «⁨أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة⁩» |
+| 36 | `RCT/E-RC81` «We nearly perished» — Ibn Masʿūd ؓ on the whole decision | CORE | 1.5 | 66.5 | ⁨الکامل ج۲ ص۲۰۱⁩, cached — «⁨لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ ﷺ مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ⁩». **On no card until now, and it is the best closing line in the material.** A Companion saying plainly how near it came |
+| 37 | `RCT/E-RC39` The men of Badr who were kept out of office | CORE | 2 | 68.5 | Abū Bakr ؓ «⁨لَا أَسْتَعْمِلُ أَهْلَ بَدْرٍ⁩» — **and ʿUmar's ؓ different view, on the same page.** A recorded difference of administrative judgement between the first two caliphs, and a very safe one for this room |
+| 38 | `RCT/E-RC43` The eleven banners — who went where | GOOD | 2 | 70.5 | **A recap, not news** — the room met the moment on evening 2 (`RC05`). The roster read back now, with every sector green |
+| 39 | `RCT/E-RC35` The captives bought back | CORE | 1.5 | 72 | **↪ Forward to ʿUmar's ؓ caliphate — frame it aloud**, the way `AS18` was framed on evening 5. «⁨إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا⁩» — the peninsula in one colour at last |
 
 **✓ Checkpoint 4 — after #37 (`RC43`), with `RC35` as the last card and the close after it.** ⬜ new pair. **The second natural close, and the one that ends the Ridda.**
 - **The Line:** 11→12 AH, every lane of the Ridda lit. **The map:** Arabia in one colour.
@@ -230,7 +231,7 @@ movement in time at all. ✅ **All five now carry beats** (2026-10-07).
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 39 | `IKO/E-IKR1` ⭐ What the religious call does to ⁨عصبیہ⁩ | CORE | 2 | 73 | **ONE slide, not a block.** ⁨ابن خلدون ج۱ ص۱۹۸⁩. ⁨عبرت⁩: *"What changed in Arabia was not how many men there were, but which way they were all facing."* ⚠⚠ **#29: his name on the face, and the words *"as he reads it"*** — he never wrote this about the Ridda; joining his chapter to year 11 is the course's doing, not his |
+| 40 | `IKO/E-IKR1` ⭐ What the religious call does to ⁨عصبیہ⁩ | CORE | 2 | 74 | **ONE slide, not a block.** ⁨ابن خلدون ج۱ ص۱۹۸⁩. ⁨عبرت⁩: *"What changed in Arabia was not how many men there were, but which way they were all facing."* ⚠⚠ **#29: his name on the face, and the words *"as he reads it"*** — he never wrote this about the Ridda; joining his chapter to year 11 is the course's doing, not his |
 
 ## Held — everything below this line is NOT in the deck
 

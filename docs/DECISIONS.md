@@ -1760,3 +1760,59 @@ It corrects four things that rebuild had put on slides or maps. **Each was a det
 **The lesson is VISION D3, and it cut the other way this time:** the rules that make a slide vivid — an icon for
 every force, a caption for every click — are exactly the rules that tempt a builder to fill a silence. **Read the
 front's sequence note before scripting its maps**, not after.
+
+---
+
+## 75. The close-up builder; diagrams say so; and the rest of the Bahrayn note reaches the cards — 2026-10-08
+
+**What was asked.** Daniyal, of the system built under #73: *"did you also build something for closeup map
+builder?"* It had been half built — helpers for a march, a siege, a trench, and close-ups framed by hand.
+
+**What was found first, by looking.** The vision gate was green and most of the rendered frames had never been
+opened. Opening them found: three names running off the edge of the theatre map; flags over other men's names;
+banners standing in the sea; **Juwāthā drawn 22 km east of the site usually given for it**; **Dārīn in two different
+places on two maps**; and a Hajar close-up with al-Ḥuṭam camped at Hajar and al-ʿAlāʾ ؓ to the west of it — where
+⁨الکامل ج۲ ص۲۲۳⁩ has al-ʿAlāʾ ؓ camped *at* Hajar and coming down on al-Ḥuṭam "from the side next to Hajar".
+The collision check had passed all of it, because it estimated a banner as a circle and a letter as half an em.
+
+**What was decided.**
+
+1. **Close-ups are built, not framed** — `mapkit.closeup(slug, title, centre, radius_km, parent=)`. A town comes in
+   from the parent map at the parent's coordinates (`bring`). Names choose their own side (`settle`); a caption given
+   no position finds the free spot nearest its subject; a force that leaves takes its road with it. The whole table
+   is in `docs/VISION.md` §5.
+2. **A diagram says it is one.** Where the page gives only *sides* — the trench month at Hajar, the fort at
+   al-Nujayr, the strait at Dārīn — the close-up is made with `diagram=True`: no scale bar, the words **"a diagram —
+   not to scale"** on its face, and nothing placed by coordinates. This is §0.1's rule for a
+   `[CONVENTIONAL-ESTIMATE]` — labelled on the slide itself — applied to geography. **Reason:** a scale bar under
+   trenches forty kilometres long is a claim, and no page makes it.
+3. **One place, one spot** (M12): a town is drawn in the same place on every map of an evening. One gazetteer at
+   the head of `scenes.py`. Juwāthā is now at the mosque of Jawāthā (25.47 N, 49.68 E), 12 km from Hajar.
+   **Tārūt, where Dārīn stands, is drawn three times its size and set off the shore — on every map alike —** because
+   at these scales it would be a dot under al-Qaṭīf's own; the script says so.
+4. **The collision check uses the painter's own arithmetic**, read out of `tools/mapstudio/src/render.js`.
+5. **Three deck-level rules**, in `tools/check_vision.py`: **M2** a siege ring on a wide map owes its place a
+   close-up; **M7** a slide that tells a siege has one drawn; **M12** one place, one spot. **M10** now covers
+   lettering and flags. **F4** lets a quotation straight after another at the same place inherit its scene.
+6. **The siege of al-Nujayr has a close-up** (`s06-nujayr`, before `TSY/E-YK12`), every move one clause of
+   ⁨الکامل ج۲ ص۲۳۱⁩. The "three roads" are ⁨الطبری⁩'s alone and are **not drawn**. `TSY/E-YK11` skips its beats 5–7
+   in the runsheet so that nothing is said twice.
+7. **The Bahrayn sequence note's §0 had eighteen corrections; #74 applied four.** The rest are now on the cards
+   (`RC24`, `RC25`, `RC26`, `RC27`, `RC71`–`RC74`, `TB24`): *came down at*, never *took*; the ṣadaqa *divided out*,
+   not *held back*; *clans of Tamīm*, not *the Abnāʾ*; al-ʿAlāʾ ؓ camps **at Hajar**; **the man they made king is
+   taken on the night of the trenches, not at Dārīn**; the assault goes **over the trench**, not "from both sides";
+   the two books do **not** give the water the same depth; a doubtful word under `RC73`'s second quotation is
+   flagged. **New card `RCT/E-RC87`**: the words of the duʿāʾ at al-Dahnāʾ, from the *other* telling
+   (⁨البدایہ ج۶ ص۲۳۱⁩), under its own page and marked "in another telling" on its face.
+
+8. **A map key's label is measured, not estimated** (`series/deck2.py`). The contact sheet showed a wrapped name —
+   *Banū Muʿāwiya*, *al-Mundhir b. Sāwā ؓ* — printed over the line beneath it, on three slides. The layout had
+   guessed 0.21in a character. It now measures the label in Georgia, and an honorific never wraps alone.
+
+**Why it matters beyond this evening.** #74's lesson was *read the front's sequence note before scripting its
+maps*. This is the same lesson from the other side: **read it to the end.** A short list of eighteen was applied
+as a list of four because the first four were the ones that had been asked about.
+
+**Not done.** `S06_notes.pdf`, the home-reading book of #60, has not been made for this evening. The Ḥaḍramawt regional map is still evening 5's hand-placed scene, brought up to the rules
+(`settle`, owners for every arrow) rather than re-scripted. `PEOPLE.md` promotions; Parts IX–X.
+

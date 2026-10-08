@@ -47,7 +47,7 @@ of it on a page**, and **does it leave them with something to hold** — a line 
 | **F1** | The deck title and every part divider **names a place or a person**, or carries the source's own Arabic. Never an English abstraction. | *"the title slides will make no sense to audience … change it altogether to reflect locations or maybe use arabic"* | gate `F1` |
 | **F2** | A card about a person is headed by the person's **name** — with the ⁨لقب⁩, or a plain word or two. Never a sentence. | #68: *"obscure english sentences don't make much sense"* | `FACE_TITLE`; review |
 | **F3** | A face carries only what the room may see: no labels, ids, tiers, cross-references, URLs. | #30 | `deck2.audit` |
-| **F4** | A quotation that has no map of its own in front of it carries **one or two scene lines** — who, where, what is happening — twenty words in all. | *"maybe more detail on the slide? one or two small lines? describing the stirrup and the horse?"* | gate `F4` |
+| **F4** | A quotation that has no map of its own in front of it carries **one or two scene lines** — who, where, what is happening — twenty words in all. A quotation straight after another **at the same place** inherits its picture: the room has not moved. | *"maybe more detail on the slide? one or two small lines? describing the stirrup and the horse?"* | gate `F4` |
 | **F5** | White ground, 24pt floor, twenty body words, no bullet lists. | #21 | `deck2` |
 | **F6** | The kicker says **when and where** — never a bare *"11"*. | found by the gate, 2026-10-08 | gate `F6` |
 | **F7** | **A headline is never cut.** One that does not fit is rewritten — it does not end in an ellipsis. | the first build projected *"Khālid b. Saʿīd ؓ — a banner, and no…"* | gate `F7` |
@@ -85,24 +85,43 @@ He wants a map to tell the story the way a *Kings and Generals* or *Total War* v
 | | Rule | His words | Enforced by |
 |---|---|---|---|
 | **M1** | A part **opens on a map of the situation** before any words slide: who held the ground, how it came into Islam, what changed. | *"a map should go first to describe the situation to the audience"* | gate `M1` |
-| **M2** | **Two scales.** A theatre map for where; a **close-up** for a battle or a siege. | *"maybe a close up map? showing siege and month passing and trenches?"* | review |
+| **M2** | **Two scales.** A theatre map for where; a **close-up** for a battle or a siege. A siege ring may stand on a wide map to say *where*; the deck then owes that place a close-up that says *how*. A trench is never drawn on a wide map at all. | *"maybe a close up map? showing siege and month passing and trenches?"* | gate `M2`; `mapkit.closeup` |
 | **M3** | A force's icon **travels** with it, along its arrow. | *"it should show the beaten moving in animation towards darin"* | gate `M3`; `mapkit.march` |
 | **M4** | A force is in **one place at a time**; no icon is left where the force no longer is. | *"al jarud is still stuck at the bottom as if he is in the same place all this time"* | gate `M4`; `mapkit.march` |
 | **M5** | **Every arrow says who is moving.** | *"the arrow here what does it mean? who went to al khatt here?"* | gate `M5` |
 | **M6** | **Every force on the field has an icon — the enemy too.** | *"the enemy army should also have an icon, something to show it is there"* | `mapkit.force`; review |
-| **M7** | A **siege is drawn as a siege**; trenches, closed roads and a sea passage are each drawn. | *"there should be some animation to describe a seige"* · *"closing all paths"* · *"the sea passage should be showing"* | `mapkit.siege / trench / sail`; review |
+| **M7** | A **siege is drawn as a siege**; trenches, closed roads and a sea passage are each drawn. **A siege that is told is a siege that is drawn.** | *"there should be some animation to describe a seige"* · *"closing all paths"* · *"the sea passage should be showing"* | gate `M7`; `mapkit.siege / trench / sail` |
 | **M8** | Map lettering is legible from the back of the hall: names 15pt, captions 18pt, as they fall on the slide. | *"the text is tooooo small"* — three times | gate `M8` |
 | **M9** | **Nothing sits over the action.** No title box or legend inside the map; the slide's headline is the title. | *"al dahna journey becomes hidden behind the cartoush"* | gate `M9` |
-| **M10** | Every mark is on the stage. | found by the gate | gate `M10` |
+| **M10** | Every mark is on the stage — **and every name**: no lettering runs off the edge, and no flag is cut by it. | found by the eye, 2026-10-08: *Medina*, *al-Mundhir ؓ* and *al-Ḥuṭam* all ran off the frame | gate `M10` |
 | **M11** | **Every key names who did the thing** — never a bare *taken*, *besieged*, *settled*. | *"al Qatif, Hajr taken... 'taken by who?'"* | gate `M11` |
-| **M12** | **Every place named in a key is on the map**, or is glossed in a few words. | *"where or what is 'al Khatt'??"* | gate `M12` |
+| **M12** | **Every place named in a key is on the map**, or is glossed in a few words. **One place, one spot:** a town is drawn in the same place on every map of the evening. A diagram is exempt, and says *not to scale* on its face. | *"where or what is 'al Khatt'??"* | gate `M12` |
 | **M13** | Maps build on clicks; a moving card's map is its slide; captions fade when their move is done; a front closes on its own map before the next opens. | #58, #63, #64, #69 | build asserts; `mapkit.say` |
 | **M14** | One green for Muslim forces: `#2CB020`. | #58 | gate `M14` |
-| **M15** | **Nothing is printed over anything else.** | #64: *"some of the click click maps become too crowded"* | gate `M15` |
+| **M15** | **Nothing is printed over anything else.** | #64: *"some of the click click maps become too crowded"* | gate `M15`; `mapkit.settle`, self-placing captions |
 
 **Maps are written, not drawn.** `series/mapkit.py` gives a march, a siege, a trench, a crossing and a caption as
 helpers that satisfy the rules by construction: a march retires the icon it leaves behind in the same call; a
 caption cannot be given no size. A scene that breaks a rule cannot be saved.
+
+**The close-up builder** (`mapkit.closeup`, 2026-10-08) is the second scale of M2, and it is how every battle and
+siege is drawn from here on:
+
+| | |
+|---|---|
+| `closeup(slug, title, centre, radius_km, parent=theatre)` | a frame computed from a place and a radius — never a box found by trial. `bring("Hajar")` carries a town in **at the parent's own coordinates**, so two scales cannot disagree |
+| `closeup(…, diagram=True)` | for what the page gives only as **sides** — who lay next to whom, no distance, no bearing (the trench month at Hajar; al-Nujayr; the strait at Dārīn). No scale bar, **"a diagram — not to scale" on the face**, marks laid out with `spot(x, y)` and `near(…, px=)`. It claims an order, not a place |
+| `near("Hajar", "E", km=20)` | a camp set down beside something, instead of a typed coordinate |
+| names | every name takes the side of its mark where it covers nothing and stays on the stage (`settle`) |
+| `say("a month")` with no position | the caption finds the free spot nearest what it is about — clear of every name and mark, off the arrows where there is room |
+| `signpost("Medina")` | what lies off the frame, named on the edge it lies beyond |
+| `leave("al-Ḥuṭam")` | a force that is gone takes its road with it: an arrow nobody is on is a question |
+| an old, hand-placed scene | `settle(d)` and `settle_captions(d)` bring it up to the rule without re-drawing it |
+
+**The collision check is the painter's own arithmetic** (`tools/mapstudio/src/render.js`): the flag above a
+banner, the real width of a letter, the anchor of each label side. Its first version guessed — a banner as a
+circle, a letter as half an em — and passed three maps the eye rejected at once. **A check that is kinder than the
+painter is not a check.**
 
 **What is sourced and what is schematic** is said in each scene's script and in the notes of its slide. *Who moved,
 in what order, and what happened* is from the page. *Where* a mark stands is often schematic — the page that names
@@ -178,3 +197,8 @@ python SNN_<slug>/build.py                                   # builds, then runs
 **And then look.** The gate passed a close-up that put three forces on one spot until rule M15 was written. It
 checks what it has been taught to check. Open the rendered steps of every new map before hand-over; anything the
 eye catches that the gate did not is the next rule.
+
+It happened again the same day. With the gate green, the frames were opened for the first time: three names ran off
+the edge, flags sat on other men's names, Juwāthā was drawn 22 km from where it is, Dārīn stood in two different
+places on two maps — and the Hajar close-up had al-Ḥuṭam at Hajar, where the page puts al-ʿAlāʾ ؓ. Five of those
+are now rules (M10, M12, M15, M2, M7). The sixth cannot be: **only the sequence note knows who camped where.**

@@ -1,22 +1,22 @@
 {
  "schema": 1,
  "meta": {
-  "title": "Dārīn",
+  "title": "The flight",
   "subtitle": "",
   "urduTitle": "",
-  "kind": "diagram",
+  "kind": "closeup",
   "parent": "s06-bahrayn",
   "centre": [
-   50.2,
-   26.62
+   49.9,
+   26.0
   ],
-  "radius_km": 24,
+  "radius_km": 117,
   "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
  },
  "view": {
-  "cx": 43.474475269978825,
-  "cy": -26.62,
-  "scale": 1836.7800000000095
+  "cx": 43.21466764884349,
+  "cy": -26.0,
+  "scale": 376.7753846153842
  },
  "style": {
   "relief": true,
@@ -29,7 +29,7 @@
   "vignette": true,
   "cartouche": false,
   "legend": false,
-  "scalebar": false,
+  "scalebar": true,
   "urduLabels": false,
   "aspect": "16:9"
  },
@@ -62,16 +62,17 @@
  "underlay": null,
  "objects": [
   {
-   "id": "l_001",
-   "type": "label",
+   "id": "s_001",
+   "type": "settlement",
    "step": 1,
-   "note": "legend",
-   "lon": 50.4703215581088,
-   "lat": 26.398961007850698,
-   "text": "a diagram — not to scale",
+   "note": "place",
+   "lon": 49.588,
+   "lat": 25.383,
+   "name": "Hajar",
    "ur": "",
-   "size": 24,
-   "align": "center"
+   "tier": "city",
+   "labelPos": "right",
+   "scale": 1.5
   },
   {
    "id": "s_002",
@@ -83,7 +84,7 @@
    "name": "al-Qaṭīf",
    "ur": "",
    "tier": "town",
-   "labelPos": "above",
+   "labelPos": "left",
    "scale": 1.5
   },
   {
@@ -116,8 +117,7 @@
    "faction": "f4",
    "label": "",
    "ur": "",
-   "opacity": 0.55,
-   "until": 3
+   "opacity": 0.55
   },
   {
    "id": "s_004",
@@ -129,60 +129,66 @@
    "name": "Dārīn",
    "ur": "",
    "tier": "town",
-   "labelPos": "right",
+   "labelPos": "above",
    "scale": 1.5
   },
   {
-   "id": "l_005",
-   "type": "label",
+   "id": "a_005",
+   "type": "army",
    "step": 1,
-   "note": "name",
-   "lon": 49.885672606850235,
-   "lat": 26.40113873191128,
-   "text": "↓ Hajar",
+   "note": "force",
+   "lon": 49.8,
+   "lat": 25.62,
+   "name": "al-ʿAlāʾ ؓ",
    "ur": "",
-   "size": 24,
-   "align": "center"
+   "faction": "f1",
+   "strength": "holds the camp",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5
   },
   {
    "id": "a_006",
    "type": "army",
    "step": 1,
    "note": "force",
-   "lon": 50.29,
-   "lat": 26.715,
+   "lon": 50.66,
+   "lat": 26.8,
    "name": "the men of Dārīn",
    "ur": "",
    "faction": "f4",
-   "strength": "and the beaten",
+   "strength": "never came to Hajar",
    "unit": "mixed",
    "labelPos": "right",
-   "scale": 1.5,
-   "until": 3
+   "scale": 1.5
   },
   {
    "id": "a_007",
    "type": "arrow",
    "step": 2,
-   "note": "march:al-ʿAlāʾ ؓ",
+   "note": "march:the beaten",
    "pts": [
     [
-     49.904532250439225,
-     26.385894663487193
+     50.12,
+     25.8
     ],
     [
-     49.92339189402821,
-     26.4403377650018
+     50.42,
+     25.98
     ],
     [
-     49.96739772906918,
-     26.489336556364943
+     50.52,
+     26.22
+    ],
+    [
+     50.56,
+     26.47
     ]
    ],
-   "faction": "f1",
+   "faction": "f4",
    "label": "",
    "ur": "",
-   "dashed": false,
+   "dashed": true,
    "width": 9.0
   },
   {
@@ -190,42 +196,37 @@
    "type": "army",
    "step": 2,
    "note": "force",
-   "lon": 49.96739772906918,
-   "lat": 26.489336556364943,
-   "name": "al-ʿAlāʾ ؓ",
+   "lon": 50.56,
+   "lat": 26.47,
+   "name": "the beaten",
    "ur": "",
-   "faction": "f1",
-   "strength": "",
-   "unit": "mixed",
+   "faction": "f4",
+   "strength": "by ship",
+   "unit": "naval",
    "labelPos": "right",
    "scale": 1.5,
-   "follows": "a_007",
-   "until": 2
+   "follows": "a_007"
   },
   {
    "id": "a_009",
    "type": "arrow",
-   "step": 3,
-   "note": "march:al-ʿAlāʾ ؓ",
+   "step": 2,
+   "note": "march:the rest",
    "pts": [
     [
-     49.96739772906918,
-     26.489336556364943
+     49.45,
+     25.75
     ],
     [
-     50.04912285128811,
-     26.516558107122247
+     49.12,
+     26.0
     ],
     [
-     50.12456142564406,
-     26.554668278182472
-    ],
-    [
-     50.165,
-     26.575
+     48.78,
+     26.22
     ]
    ],
-   "faction": "f1",
+   "faction": "f4",
    "label": "",
    "ur": "",
    "dashed": true,
@@ -234,95 +235,66 @@
   {
    "id": "a_010",
    "type": "army",
-   "step": 3,
+   "step": 2,
    "note": "force",
-   "lon": 50.165,
-   "lat": 26.575,
-   "name": "al-ʿAlāʾ ؓ",
+   "lon": 48.78,
+   "lat": 26.22,
+   "name": "the rest",
    "ur": "",
-   "faction": "f1",
-   "strength": "",
-   "unit": "cavalry",
+   "faction": "f4",
+   "strength": "going home",
+   "unit": "mixed",
    "labelPos": "right",
    "scale": 1.5,
    "follows": "a_009"
   },
   {
-   "id": "l_011",
+   "id": "a_011",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 48.46,
+   "lat": 26.72,
+   "name": "ʿUtayba",
+   "ur": "",
+   "faction": "f1",
+   "strength": "on the roads",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "a_012",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 48.46,
+   "lat": 25.62,
+   "name": "al-Muthannā",
+   "ur": "",
+   "faction": "f1",
+   "strength": "on the roads",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5
+  },
+  {
+   "id": "l_013",
    "type": "label",
    "step": 3,
    "note": "say",
-   "lon": 50.41479876738283,
-   "lat": 26.4843277910256,
-   "text": "for ships: a day and a night",
+   "lon": 48.57016881125342,
+   "lat": 25.020105837389345,
+   "text": "the roads are shut",
    "ur": "",
    "size": 26,
    "align": "center",
    "until": 3
-  },
-  {
-   "id": "t_012",
-   "type": "territory",
-   "step": 4,
-   "note": "region:darin",
-   "pts": [
-    [
-     50.16,
-     26.72
-    ],
-    [
-     50.3,
-     26.74
-    ],
-    [
-     50.34,
-     26.64
-    ],
-    [
-     50.26,
-     26.57
-    ],
-    [
-     50.15,
-     26.61
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "opacity": 0.55
-  },
-  {
-   "id": "b_013",
-   "type": "battle",
-   "step": 4,
-   "note": "clash",
-   "lon": 50.3,
-   "lat": 26.72,
-   "name": "",
-   "ur": "",
-   "date": "",
-   "labelPos": "below",
-   "scale": 1.5,
-   "until": 4
-  },
-  {
-   "id": "l_014",
-   "type": "label",
-   "step": 4,
-   "note": "say",
-   "lon": 50.46665021415681,
-   "lat": 26.641123923387667,
-   "text": "Dārīn falls",
-   "ur": "",
-   "size": 26,
-   "align": "center",
-   "until": 4
   }
  ],
  "steps": {
-  "count": 4,
-  "current": 4,
+  "count": 3,
+  "current": 3,
   "mode": "upto"
  }
 }

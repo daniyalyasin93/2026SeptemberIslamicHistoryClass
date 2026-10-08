@@ -400,6 +400,33 @@ def _placeholder(s, x, y, w, h, brief, wanted):
              scaffold=True, name=SCAFFOLD + "path")
 
 
+_FONTS = {}
+
+
+def _text_inches(s, pt, bold=True):
+    """The width of a run of Georgia, as it will be set. Falls back to a generous estimate with no font."""
+    try:
+        from PIL import ImageFont
+        key = "georgiab.ttf" if bold else "georgia.ttf"
+        if key not in _FONTS:
+            _FONTS[key] = ImageFont.truetype(os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", key), 200)
+        return _FONTS[key].getlength(s) / 200.0 * pt / 72.0
+    except Exception:
+        return len(s) * pt / 72.0 * 0.66
+
+
+def _wrapped_lines(label, pt, width_in):
+    """How many lines a bold label takes in a box `width_in` wide, wrapping at spaces as PowerPoint does."""
+    lines, cur = 1, ""
+    for word in label.split(" "):
+        trial = (cur + " " + word).strip()
+        if cur and _text_inches(trial, pt) > width_in:
+            lines, cur = lines + 1, word
+        else:
+            cur = trial
+    return lines
+
+
 def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=None, map_frac=0.60,
               trim=True):
     """A map on the left, a short key down the right.
@@ -446,9 +473,11 @@ def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=No
             label, sub = (k if isinstance(k, (tuple, list)) else (k, None))
             y = CONTENT_Y + Inches(0.12) + Emu(int(i * step))
             rect(s, kx, y + Inches(0.06), Inches(0.06), Inches(0.34), fill=GOLD)
-            # 28pt Georgia bold runs about 0.21in a character: at map_frac 0.70 the column holds
-            # fourteen, and "al-Buṭāḥ → Medina" wrapped onto its own sub-line (evening 4, slide 20)
-            lines = max(1, -(-int(len(label) * 0.21 * 914400) // int(kw - Inches(0.22))))
+            # The label's lines are MEASURED. An estimate of 0.21in a character put "Banū Muʿāwiya" on one
+            # line; PowerPoint put it on two, and printed its sub-line across the second (evening 6,
+            # slides 9, 45, 47 — found on the contact sheet, 2026-10-08). An honorific never wraps alone.
+            label = label.replace(" \u0613", "\u00a0\u0613").replace(" \ufdfa", "\u00a0\ufdfa")
+            lines = _wrapped_lines(label, BODY_PT, (kw - Inches(0.22)) / 914400.0 - 0.20)
             text(s, label, kx + Inches(0.22), y, kw - Inches(0.22), Inches(0.5) * lines,
                  size=BODY_PT, color=DARK, font=EN, bold=True)
             if sub:
@@ -457,7 +486,7 @@ def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=No
                 if _count_words(sub) > 8:
                     raise DeckContractError("map key line is %d words, cap is 8: %r"
                                             % (_count_words(sub), sub))
-                drop = Inches(0.46) * lines
+                drop = Inches(0.46) + Inches(0.53) * (lines - 1)      # a second line of 28pt sets 0.53in lower
                 text(s, sub, kx + Inches(0.22), y + drop, kw - Inches(0.22),
                      max(step - drop, Inches(0.5)),
                      size=MIN_PT, color=MUTED, font=SANS, line=1.2)

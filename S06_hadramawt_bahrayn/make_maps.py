@@ -9,7 +9,7 @@
 UNLIKE EVENING 5, THIS BUILDS NO SCENES. Evening 5's make_maps.py generates its s05-* scenes from the
 gazetteer; evening 6 uses scenes that already exist and were authored in Map Studio:
 
-  s06-bahrayn, -coast, -hajar, -darin   written by scenes.py through series/mapkit.py (2026-10-08)
+  s06-bahrayn, -coast, -hajar, -flight, -darin   written by scenes.py through series/mapkit.py
   s06-kinda    evening 5's Ḥaḍramawt scene, brought up to the map rules by scenes.py
   s06-arabia   evening 5's checkpoint ground, with this evening's steps
 
@@ -37,20 +37,22 @@ SLIDES = [
     ("s06-arabia", 1, 2),             # RC80  the year opens: the two fronts not yet told
     ("s06-bahrayn", 1, 3),            # the situation: the Prophet's ﷺ letter, and Bahrayn under Islam
     ("s06-bahrayn", 3, 6),            # RC71  al-Mundhir ؓ dies, Rabīʿa turn, al-Ḥuṭam comes out
-    ("s06-bahrayn-coast", 1, 6),      # RC72  al-Qaṭīf, Hajar, al-Khaṭṭ, the force to Dārīn, Juwāthā besieged
+    ("s06-bahrayn-coast", 1, 5),      # RC72  al-Qaṭīf and Hajar, al-Khaṭṭ, the force to Dārīn, Juwāthā besieged
     ("s06-bahrayn", 6, 10),           # RC25  sixteen riders, the men who joined, into al-Dahnāʾ
-    ("s06-bahrayn-hajar", 1, 5),      # RC26  the two camps, the trenches, a month
-    ("s06-bahrayn-hajar", 5, 8),      # RC73  the noise, Ibn Ḥadhf, his uncle, and back
-    ("s06-bahrayn-hajar", 8, 10),     # RC74  the assault, and al-Ḥuṭam
-    ("s06-bahrayn-darin", 1, 3),      # RC84  the beaten take ship; the roads are closed
-    ("s06-bahrayn-darin", 3, 6),      # RC27  to the shore, into the water, Dārīn
+    ("s06-bahrayn-hajar", 1, 6),      # RC26  the line of four, the trenches, a month          (a diagram)
+    ("s06-bahrayn-hajar", 6, 9),      # RC73  the noise, Ibn Ḥadhf, his uncle, and back
+    ("s06-bahrayn-hajar", 9, 11),     # RC74  over the trench, and al-Ḥuṭam
+    ("s06-bahrayn-flight", 1, 3),     # RC84  the beaten take ship, the rest go home; the roads are shut
+    ("s06-bahrayn-darin", 1, 4),      # RC27  to the shore, into the water, Dārīn            (a diagram)
     ("s06-kinda", 1, 3), ("s06-kinda", 3, 6), ("s06-kinda", 6, 8),
     ("s06-kinda", 8, 10), ("s06-kinda", 10, 13), ("s06-kinda", 13, 16),
+    ("s06-nujayr", 1, 5),             # the siege, before YK12                              (a diagram)
     ("s06-arabia", 2, 5),             # the close
 ]
 
 # whole steps: the checkpoint maps, and every scene step by step for the notes book and for the eye
-WHOLE = ["s06-arabia", "s06-bahrayn", "s06-bahrayn-coast", "s06-bahrayn-hajar", "s06-bahrayn-darin"]
+WHOLE = ["s06-arabia", "s06-bahrayn", "s06-bahrayn-coast", "s06-bahrayn-hajar", "s06-bahrayn-flight",
+         "s06-bahrayn-darin", "s06-kinda", "s06-nujayr"]
 
 
 def main(only=None):

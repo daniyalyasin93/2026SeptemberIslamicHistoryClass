@@ -768,8 +768,7 @@ used, this one goes first.
 ---
 
 ### ATA/E-TB24 · Al-Jārūd ؓ asks his tribe five questions
-**Tier:** CORE · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** **البحرين in two colours**, a few days'
-ride apart — the rising in red, **عبد القيس** in blue.
+**Tier:** CORE · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** **البحرين in two colours** — the rising in red, **عبد القيس** in blue.
 **What happened:** In Bahrayn one side had a slogan: if Muḥammad had been a prophet, he would not
 have died. A man of ʿAbd al-Qays, al-Jārūd b. al-Muʿallā ؓ, gathered his people and answered it
 without arguing with anybody. He told them he was going to ask them about something, and that they
@@ -806,6 +805,12 @@ died. How would you answer it?"*
 مُحصرينا**». ⚠ The last word of the verse differs between البدایہ and الکامل; **read it off a page
 image before printing it** (logged in the campaign note).
 
+
+**What became of him is on a page** (`bahrayn-the-front-as-a-sequence.md` §0 item 17) — in ʿUmar's ؓ time, on the sea expedition al-ʿAlāʾ ؓ sent out against Persia, where he commanded one of the corps:
+> بِمَكَانٍ يُدْعَى طَاوُسَ فَقُتِلَ سَوَّارٌ وَالْجَارُودُ
+> — الکامل فی التاریخ ج۲ ص۳۶۲ · https://shamela.ws/book/21712/1053
+> *English:* “… at a place called Ṭāwūs; and Sawwār and al-Jārūd were killed.”
+Still no dates on any page we hold. Ibn Hishām's note, as Ibn Kathīr carries it, is that he had been a Christian before his Islam (`J2` in the same note).
 ---
 
 ### ATA/E-TB25 · The Azd stood on both sides of the map
@@ -2516,8 +2521,8 @@ from (ed. fn., البدایہ ج۷ ص۳۶). ابن خلدون ج۲ ص۵۰۳ has 
 ### RCT/E-RC24 · جُواثى under siege
 **Tier:** GOOD · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** البحرين goes red. One dot inside it —
 **جُواثى** — stays blue, with a ring around it. Nearby, **عبد القيس** stays blue too.
-**What happened:** When al-Mundhir b. Sāwā died, Bahrayn rose. They took al-Qaṭīf and Hajar, drew in
-al-Khaṭṭ, sent a force to Dārīn, and made a king of the old Lakhmid line. And they besieged the
+**What happened:** When al-Mundhir b. Sāwā died, Bahrayn rose. They came down at al-Qaṭīf and Hajar, won over
+al-Khaṭṭ, sent a force to Dārīn, and made a king of their own. And they besieged the
 Muslims in one village called Juwāthā, and starved them. One of the besieged put a message into four
 lines of verse, addressed to Abū Bakr ؓ and to the young men of Medina, and it is preserved.
 **Beats:**
@@ -2551,14 +2556,14 @@ gets visibly **thicker** at each point on the road, then crosses the **الدَ�
 **هَجَر**.
 **What happened:** Al-ʿAlāʾ b. al-Ḥaḍramī ؓ left Medina with sixteen riders and a letter. The letter
 said that every Muslim he passed on the road was to march out with him. And that is what happened.
-Thumāma b. Uthāl ؓ joined him with the Muslims of Banū Ḥanīfa. Qays b. ʿĀṣim joined him and brought
-the zakāt he had held back. ʿAmr, the Abnāʾ, Saʿd and the Rabāb joined — a body the size of the one
-he already had. A column of sixteen crossed the sand desert as an army.
+Thumāma b. Uthāl ؓ joined him with the Muslims of Banū Ḥanīfa. Qays b. ʿĀṣim had divided the ṣadaqa out among his own clans, and repented; when al-ʿAlāʾ ؓ drew near he
+brought ṣadaqa out to meet him, and marched with him. Other clans of Tamīm joined — a body the size of the
+one he already had. A column of sixteen crossed the sand desert as an army.
 **Beats:**
 1. al-ʿAlāʾ b. al-Ḥaḍramī ؓ — The man the Prophet ﷺ had sent to Bahrayn; Abū Bakr ؓ sends him now.
 2. Sixteen riders, and a letter — Every Muslim he passes is to march out with him.
 3. Thumāma b. Uthāl ؓ joins — With the Muslims of Banū Ḥanīfa.
-4. Qays b. ʿĀṣim joins, and more — With the ṣadaqa he had held back; then others of Tamīm — a force the size of his own.
+4. Qays b. ʿĀṣim joins, and more — He had divided the ṣadaqa out among his own clans, and repented; now he brings ṣadaqa out to meet him. Then other clans of Tamīm — a force the size of his own.
 5. Into al-Dahnāʾ — He takes them into the sands, and camps in the middle of it.
 6. Abū Hurayra ؓ was on this march — He went back afterwards with a guide, to look at the place.
 **Quote after beat:** 2
@@ -2652,8 +2657,8 @@ with nothing missing. **Narrate it as what the book narrates; do not build a doc
 ---
 
 ### RCT/E-RC26 · The trench month, and the nephew in the enemy camp
-**Tier:** GOOD · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** Two trench lines facing each other
-between **هَجَر** and **القَطيف**, for a month. Then the red line collapses.
+**Tier:** GOOD · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** A line of four, as the page gives the sides: Hajar, al-ʿAlāʾ ؓ, al-Ḥuṭam, ʿAbd al-Qays. Two trench
+lines facing each other, for a month. Then the far line collapses. ⚠ A diagram: the page gives sides, no distances.
 **What happened:** Both sides dug in and fought for a month, going out and coming back to their
 trenches. One night the Muslims heard uproar in the enemy camp. ʿAbdullāh b. Ḥadhf volunteered to go
 and find out what it was, and was captured. His mother was of ʿIjl — so he shouted for his uncle by
@@ -2661,12 +2666,13 @@ name, and his uncle came and recognised him, and fed him, and gave him a camel, 
 uncle was too drunk to think about it. He came back and told al-ʿAlāʾ ؓ that the whole enemy camp was
 drunk.
 **Beats:**
-1. al-Ḥuṭam holds Hajar — Every one of them has gathered to him — except the men of Dārīn.
-2. al-ʿAlāʾ ؓ camps against him — On the Hajar side.
-3. He sends for al-Jārūd ؓ — To bring ʿAbd al-Qays down on al-Ḥuṭam from the other side.
-4. Both sides dig trenches — The Muslims round themselves, and the enemy round theirs.
-5. A month — They fight by turns and go back to their trenches; a month of it.
-**Quote after beat:** 5
+1. al-ʿAlāʾ ؓ camps at Hajar — Out of al-Dahnāʾ, the army comes down at Hajar itself.
+2. He sends for al-Jārūd ؓ — To bring ʿAbd al-Qays down on al-Ḥuṭam from their own side.
+3. And comes down on him himself — From the side next to Hajar.
+4. Everyone gathers — All of them to al-Ḥuṭam, except the men of Dārīn; all the Muslims to al-ʿAlāʾ ؓ.
+5. Both sides dig trenches — The Muslims round themselves, and the enemy round theirs.
+6. A month — They fight by turns and go back to their trenches; a month of it.
+**Quote after beat:** 6
 **The statement:**
 > وَخَنْدَقَ الْمُسْلِمُونَ عَلَى أَنْفُسِهِمْ وَالْمُشْرِكُونَ، وَكَانُوا يَتَرَاوَحُونَ الْقِتَالَ وَيَرْجِعُونَ إِلَى خَنْدَقِهِمْ، فَكَانُوا كَذَلِكَ شَهْرًا
 > — الکامل فی التاریخ ج۲ ص۲۲۳ · https://shamela.ws/book/21712/914
@@ -2742,19 +2748,18 @@ when Qays b. ʿĀṣim finally did and then saw the leg, he said: «**واسوأ
 **Tier:** CORE · **When:** ۱۱ھ→۱۲ھ `[SOURCED]` · **Map:** The survivors take ship from the البحرين
 coast to **دارين** — a crossing of a day and a night by sea. Blue lines seal every land road first.
 Then a blue arrow goes **straight across the water** and comes straight back the same day.
-**What happened:** The beaten took ship for Dārīn, an anchorage a day and a night out from the shore.
+**What happened:** The beaten took ship for Dārīn — for ships, a day and a night from the shore.
 Al-ʿAlāʾ ؓ did not chase them straight away. He first wrote to the Muslims of Bakr b. Wāʾil to sit on
 every road and close the land behind him. Then he brought his men to the water's edge — where the
 ships would have been too slow — and told them what he intended.
 **Beats:**
 1. al-ʿAlāʾ ؓ comes down to the shore — With the whole army.
 2. Into the water, on horseback — He fords the strait, by Allah's leave.
-3. "Like soft sand with water over it" — Not covering the camels' pads, nor reaching the horses' knees; by ship, a day and a night.
+3. "Like soft sand with water over it" — Ibn Kathīr: not covering the camels' pads, nor reaching the horses' knees. Ibn al-Athīr: covering the pads. Give no depth. By ship: a day and a night.
 4. Dārīn falls — He fights them and overcomes them, and is back the same day.
 5. Nothing lost in the sea — But one man's nosebag — and al-ʿAlāʾ ؓ went back and brought it.
-6. The king they had wanted — Taken prisoner; and he became a Muslim. No page says he was pardoned.
-7. "Islam settled there" — The sentence the chapter closes on.
-**Quote after beat:** 7
+6. "Islam settled there" — The sentence the chapter closes on.
+**Quote after beat:** 6
 **The statement:**
 > وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ.
 > — الکامل فی التاریخ ج۲ ص۲۲۴ · https://shamela.ws/book/21712/915
@@ -2846,7 +2851,7 @@ the wound he took on the day of the Bridge (⁨سیر⁩ ⁨جراشدون ص۱�
 
 **عبرت:** He closed the roads behind the enemy before he opened one in front of himself.
 **Hands-up?** no
-**Both books describe the crossing the same way** — «يمشون على مثل رملةٍ دمثةٍ فوقها ماء لا يغمر أخفاف
+**The two books do not give the water the same depth** (⁨الکامل⁩ has it covering the camels' pads; `bahrayn-the-front-as-a-sequence.md` §0 item 9) — ⁨البدایہ⁩'s words: «يمشون على مثل رملةٍ دمثةٍ فوقها ماء لا يغمر أخفاف
 الإبل» (البدایہ ج۷ ص۴۰), out and back in a single day, with nothing lost in the water except one
 man's horse-fodder, which al-ʿAlāʾ ؓ went back and brought him. البدایہ ج۷ ص۴۰ prints the duʿāʾ they
 said going in. And afterwards: «**وَضَرَبَ الْإِسْلَامُ فِيهَا بِجِرَانِهِ**» (الکامل ج۲ ص۲۲۴).
@@ -3605,8 +3610,8 @@ the honorific; whether Daniyal says it aloud from his own knowledge is his own c
 (سیر, or الإصابة, which is outside the safe list) would settle it in one fetch.
 
 ⚠ **The pun at the end of this front is not this card's.** The captured king's own later line — "I am
-the deceived one, not the deceiver" (الکامل ج۲ ص۲۲۲) — belongs at دارين, where he is taken and becomes
-a Muslim (`ridda-campaign-the-conduct-of-the-wars.md` §12.3; البدایہ ج۷ ص۴۰, الکامل ج۲ ص۲۲۴). **And
+the deceived one, not the deceiver" (الکامل ج۲ ص۲۲۲) — belongs to the night of the trenches, where he is taken in the pursuit and becomes
+a Muslim — before the flight to Dārīn, not at it; `bahrayn-the-front-as-a-sequence.md` §0 item 1 (`ridda-campaign-the-conduct-of-the-wars.md` §12.3; البدایہ ج۷ ص۴۰, الکامل ج۲ ص۲۲۴). **And
 note the tension before anyone speaks it: it is a pun on the very name this card refuses to say.** It
 is Daniyal's decision whether to speak it at all; if he does, it is spoken as the man's own words
 about himself, after his Islam, and never as our label for him. ⚠ It is **not** on `RCT/E-RC27` as
@@ -3626,20 +3631,20 @@ Do not let the Line put a hard ۱۱ھ on the battles of this front.
 
 ### RCT/E-RC72 · al-Ḥuṭam b. Ḍubayʿa, and what he gathered
 **Tier:** CORE · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** The red on البحرين now acquires a shape,
-in the order he took it. **القَطيف** and **هَجَر** redden first — he camps there. Then **الخَطّ** on the
+in the order the page names it. **القَطيف** and **هَجَر** redden first — he camps there. Then **الخَطّ** on the
 coast. Then a short arrow crosses the water to **دارين**. Last, a ring closes around one blue dot,
 **جُواثى** — and that ring is where the next card starts. ⚠ Zones and arrows, never points: the sources
 place all of this relatively and fix no coordinate.
 **What happened:** The fighting on this front was not done by the king. It was done by al-Ḥuṭam b.
 Ḍubayʿa, of Banū Qays b. Thaʿlaba, who went out at the head of Bakr b. Wāʾil. And al-Ḥuṭam gathered
 something it would have been easy for a historian to leave out: besides the apostates, men came to him
-who had never been Muslims at all — men who had never stopped being idolaters. He came down on
-al-Qaṭīf and Hajar and took them. He drew in al-Khaṭṭ on the coast, and with it the Zuṭṭ and the
+who had never been Muslims at all — men who had never stopped being idolaters. He came down at
+al-Qaṭīf and Hajar — the page does not say he took them. His people won over al-Khaṭṭ on the coast, and with it the Zuṭṭ and the
 Sabābija who were already settled there. He sent a force across the water to the island of Dārīn. And
 he sent to Juwāthā, and shut the Muslims inside it.
 **Beats:**
 1. al-Ḥuṭam, with Bakr b. Wāʾil — He is the man who does the fighting on this front.
-2. He occupies al-Qaṭīf and Hajar — He comes down on both, and holds them.
+2. He comes down at al-Qaṭīf and Hajar — "Came down at" is the page's verb. It does not say he took them.
 3. al-Khaṭṭ is won over — A place the page names with the two peoples living in it, the Zuṭṭ and the Sabābija: drawn in, not marched on.
 4. He sends a force to Dārīn — Across the water. Remember that island: this front ends there.
 5. And he besieges Juwāthā — He sent to Juwāthā and shut the Muslims inside it.
@@ -3653,7 +3658,7 @@ he sent to Juwāthā, and shut the Muslims inside it.
 **عبرت:** The word «ridda» names this whole front, and on this front it does not fit everyone inside
 it. Some of those men had never been Muslims to leave.
 **Hands-up?** no
-**The ground he took, verbatim (الکامل ج۲ ص۲۲۲):**
+**The ground, verbatim (الکامل ج۲ ص۲۲۲):**
 > حَتَّى نَزَلَ الْقَطِيفَ وَهَجَرَ، وَاسْتَغَوَوُا الْخَطَّ وَمَنْ بِهَا مِنَ الزُّطِّ وَالسَّبَابِجَةِ، وَبَعَثَ بَعْثًا إِلَى دَارِينَ، وَبَعَثَ إِلَى جُوَاثَا فَحَصَرَ الْمُسْلِمِينَ
 > — الکامل فی التاریخ ج۲ ص۲۲۲ · https://shamela.ws/book/21712/913
 > *English:* "...until he came down upon al-Qaṭīf and Hajar, and they drew in al-Khaṭṭ and those of
@@ -3767,6 +3772,8 @@ from the platform that they are the same man.**
 them, found them drunk, came back and told him. The uncle, the mother, the words, the food and the
 camel are in الکامل ج۲ ص۲۲۳ and nowhere else we hold. **Attribute it that way if asked.**
 
+⚠ **The second quotation rests on a doubtful word.** al-Ṭabarī (corroboration only; vol. 3 p. 308, as read in `bahrayn-the-front-as-a-sequence.md` §0 item 15) reads the verb as *uqtalu* — "why am I to be killed, with the troops of ʿIjl all round me?" — which is what the scene needs. **Read it off a page image before it is spoken.**
+
 ⚠ **No honorific for either man.** No page we hold states the Companionship of ʿAbdullāh b. Ḥadhf or
 of Abjar b. Bujayr. Say both names plain.
 ```
@@ -3774,11 +3781,10 @@ of Abjar b. Bujayr. Say both names plain.
 ---
 
 ### RCT/E-RC74 · al-Ḥuṭam, and what Qays b. ʿĀṣim said over him
-**Tier:** CORE · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** The red trench line between **هَجَر**
-and **القَطيف** goes out. One red marker where the chief falls. The survivors' arrows run east to the
+**Tier:** CORE · **When:** ۱۱ھ, البحرين `[SOURCED]` · **Map:** al-Ḥuṭam's trench line goes out. One red marker where the chief falls. The survivors' arrows run east to the
 coast and stop there, pointing at **دارين** — which does not change colour yet.
-**What happened:** al-Ḥuṭam b. Ḍubayʿa of Banū Qays b. Thaʿlaba — the man who had taken al-Qaṭīf and
-Hajar, drawn in al-Khaṭṭ, sent a force to Dārīn and besieged the Muslims in Juwāthā — was asleep when
+**What happened:** al-Ḥuṭam b. Ḍubayʿa of Banū Qays b. Thaʿlaba — the man who had come down at al-Qaṭīf and
+Hajar, won over al-Khaṭṭ, sent a force to Dārīn and besieged the Muslims in Juwāthā — was asleep when
 the Muslims came over the trench. He got up confused, mounted his horse, and his stirrup-leather
 parted. He began calling for somebody to fix it. A Muslim came up in the dark and said he would: lift
 your foot. When he lifted it, the man struck with the sword and took the foot off with it. He asked
@@ -3792,7 +3798,8 @@ kill me. And Qays killed him. Then he saw the severed leg, and was sorry.
 4. "Finish me" — He asks every man who passes; each one refuses.
 5. Qays b. ʿĀṣim does — The same Qays who joined the column on the road.
 6. "What a shameful thing" — Then he sees the leg: "had I known his condition, I would not have touched him."
-7. Do not use Ibn Khaldūn here — He gives three different killers on his own pages.
+7. The man they had made king — ʿAfīf b. al-Mundhir takes him in the pursuit, that same night, and he accepts Islam. Ibn al-Athīr tells it here — before Dārīn.
+8. Do not use Ibn Khaldūn here — He gives three different killers on his own pages.
 **Quote after beat:** 6
 **The statement:**
 > واسوأتاه، لو أعلمُ ما به لم أحرِّكْهُ
@@ -4542,6 +4549,35 @@ and ordered the army to say it and ride in after him. They did.
 
 ⚠ **Eyeball the duʿāʾ against the page image before it is projected** (CLAUDE.md §1.1). ⚠ Narrated as the
 book narrates it; no ruling is built on it.
+
+---
+
+### RCT/E-RC87 · al-Dahnāʾ — the words of the duʿāʾ, in another telling
+**Tier:** GOOD · **When:** ۱۱ھ, the march to البحرين `[SOURCED]` · **Map:** n/a — a large-statement slide.
+**What happened:** The telling of the dawn prayer does not give the words he said. Another telling of the same
+march does: Sahm b. Minjāb tells it in the first person, and Ibn Kathīr carries it in another part of his book,
+among the signs. In that telling al-ʿAlāʾ ؓ prays two rakʿas, and the water is rain. The two tellings are not
+merged here: the words stand under their own page.
+**Beats:**
+1. In another telling — Sahm b. Minjāb tells this march in the first person; Ibn Kathīr carries it among the signs.
+2. Read the duʿāʾ — Slowly. Four names of Allah; then whose they are; then what they ask.
+3. "We are Your servants, and in Your path" — He says whose they are before he asks for anything.
+4. And at the sea — The same telling has one line for the crossing: "Make for us a way to Your enemy."
+5. Two tellings, not one — There: the dawn prayer, on their knees, a pool. Here: two rakʿas, and rain. Do not join them.
+**Quote after beat:** 2
+**The statement:**
+> وقال في الدعاء: يا عليمُ، يا حليمُ، ويا عليُّ، يا عظيمُ، إنا عبيدُك وفي سبيلك نقاتلُ عدوَّك، اسقنا غَيثًا نشربُ منه ونتوضَّأ، فإذا تركناه فلا تجعل لأحدٍ فيه نصيبًا غيرَنا. وقال في البحر: اجعل لنا سبيلًا إلى عدوِّك
+> — البدایہ والنہایہ ج۶ ص۲۳۱ · https://shamela.ws/book/30097/2940
+> *English:* "And he said in the supplication: O All-Knowing, O Forbearing, O Most High, O Tremendous — we are
+> Your servants, and in Your path we fight Your enemy; give us rain from which we may drink and make wuḍūʾ, and
+> when we leave it, give no one a share in it but us. And he said at the sea: Make for us a way to Your enemy."
+
+**عبرت:** He said whose servants they were before he asked for anything.
+**Hands-up?** no
+⚠ **Not the dawn telling.** These words are on a different page, through a different chain (Sahm b. Minjāb, by
+way of Ibn Abī al-Dunyā and al-Bayhaqī). The page that describes the kneeling gives no words
+(`bahrayn-the-front-as-a-sequence.md` §3.6). ⚠ **Eyeball the duʿāʾ against the page image before it is projected**
+(CLAUDE.md §1.1). ⚠ No honorific for Sahm b. Minjāb: no page we hold states his Companionship.
 
 ---
 

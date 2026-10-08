@@ -97,6 +97,11 @@ def load_deck(folder):
     return path, Presentation(path)
 
 
+def _place(kicker):
+    """The place in a kicker: "11 AH, al-Dahnāʾ — dawn" -> "al-dahnāʾ"."""
+    return re.split(r"\s+[—–-]\s+", (kicker or "").split(",", 1)[-1])[0].strip().lower() if "," in (kicker or "") else ""
+
+
 def slide_facts(s):
     f = {"headline": "", "kicker": "", "speaker": "", "scene": [], "placeholder": False, "brief_on_face": "",
          "boxes": [], "arabic": "", "has_map": False, "names": []}
@@ -195,7 +200,10 @@ def check(folder, only=None, slides=None):
             if not f["speaker"]:
                 R.add("Q1", i, "a quotation with no speaker on the face (%s)" % (f["headline"] or "no headline"))
             prev = (kinds.get(i - 1) or {}).get("kind", "")
-            if prev != "map" and not f["scene"] and kind != "words":
+            # a quotation straight after another at the same place inherits its picture: the room has not moved
+            before = facts.get(i - 1) or {}
+            same = bool(before.get("arabic")) and bool(before.get("scene") or (kinds.get(i - 2) or {}).get("kind") == "map")                 and _place(before.get("kicker")) == _place(f["kicker"]) != ""
+            if prev != "map" and not f["scene"] and kind != "words" and not same:
                 R.add("F4", i, "a quotation with no scene line and no map before it (%s)" % f["headline"])
             for t in f["boxes"]:
                 if not ARABIC.search(t) and GLOSS_WORDS.search(t):
@@ -296,6 +304,52 @@ def check(folder, only=None, slides=None):
                     if not any(p in m or m in p for m in on_map if m):
                         R.add("M12", n, "the key names %r, which is not on this map and is not glossed"
                               % part.strip())
+
+    # One place, one spot, on every map of the evening (M12). A diagram is exempt, and says so on its face.
+    used = {}
+    for scene in by_scene:
+        sp = os.path.join(SCENES, scene + ".json")
+        if os.path.exists(sp):
+            used[scene] = json.load(open(sp, encoding="utf-8"))
+    for msg in mapkit.check_places(used):
+        scene, rest = msg.split(": ", 1)
+        R.add("M12", scene, rest.split(" ", 1)[1])
+
+    def sieges(d, a=1, b=10 ** 6):
+        last = max([d.get("steps", {}).get("count", 1)] + [o.get("step", 1) for o in d.get("objects", [])])
+        return [o for o in d.get("objects", []) if o.get("note") == "siege" and o.get("pts")
+                and o.get("step", 1) <= b and o.get("until", last) >= a]
+
+    def place_of(d, o):
+        """The named place a siege mark is drawn round."""
+        lon = sum(p[0] for p in o["pts"]) / len(o["pts"])
+        lat = sum(p[1] for p in o["pts"]) / len(o["pts"])
+        near = [(abs(s["lon"] - lon) + abs(s["lat"] - lat), s["name"]) for s in d.get("objects", [])
+                if s["type"] == "settlement" and s.get("name")]
+        return min(near)[1] if near else None
+
+    def ringed(d):
+        return {place_of(d, o) for o in sieges(d) if o["type"] == "territory"} - {None}
+
+    # M2 — a siege ring on a wide map says WHERE; the deck owes the same place a close-up that says HOW
+    close = {slug: d for slug, d in used.items() if d.get("meta", {}).get("kind") in ("closeup", "diagram")}
+    for slug, d in sorted(used.items()):
+        if slug in close:
+            continue
+        for place in sorted(ringed(d)):
+            if not any(place in ringed(c) for c in close.values()):
+                R.add("M2", slug, "the siege of %s is drawn on a wide map and has no close-up of its own "
+                                  "(mapkit.closeup)" % place)
+    # M7 — a siege that is told is a siege that is drawn
+    for scene, uses in sorted(by_scene.items()):
+        d = used.get(scene)
+        for a, b, n in uses:
+            f = facts.get(n)
+            if not d or not f:
+                continue
+            said = " ".join(f["boxes"]) + " " + f.get("notes", "").split("────")[0]
+            if re.search(r"\b(besieg|siege)", said, re.I) and not sieges(d, a, b):
+                R.add("M7", n, "the slide tells a siege, and its map draws none (mapkit.siege)")
 
     # M1 — a part opens on a map (or a family tree), unless the runsheet exempts it
     exempt = set(meta.get("no_map_parts") or [])

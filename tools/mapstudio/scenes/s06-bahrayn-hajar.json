@@ -4,12 +4,19 @@
   "title": "Hajar",
   "subtitle": "",
   "urduTitle": "",
+  "kind": "diagram",
+  "parent": "s06-bahrayn",
+  "centre": [
+   49.05,
+   25.42
+  ],
+  "radius_km": 30,
   "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
  },
  "view": {
-  "cx": 43.02414206001092,
-  "cy": -25.4,
-  "scale": 1164.7058823529417
+  "cx": 42.47854605562672,
+  "cy": -25.42,
+  "scale": 1469.4239999999913
  },
  "style": {
   "relief": true,
@@ -22,7 +29,7 @@
   "vignette": true,
   "cartouche": false,
   "legend": false,
-  "scalebar": true,
+  "scalebar": false,
   "urduLabels": false,
   "aspect": "16:9"
  },
@@ -55,38 +62,291 @@
  "underlay": null,
  "objects": [
   {
-   "id": "s_001",
-   "type": "settlement",
+   "id": "l_001",
+   "type": "label",
    "step": 1,
-   "note": "place",
-   "lon": 49.588,
-   "lat": 25.383,
-   "name": "Hajar",
+   "note": "legend",
+   "lon": 49.387901947636,
+   "lat": 25.14370125981337,
+   "text": "a diagram — not to scale",
    "ur": "",
-   "tier": "city",
-   "labelPos": "above",
-   "scale": 1.5
+   "size": 24,
+   "align": "center"
   },
   {
    "id": "s_002",
    "type": "settlement",
    "step": 1,
    "note": "place",
-   "lon": 49.93,
-   "lat": 25.5,
-   "name": "Juwāthā",
+   "lon": 48.58243800268973,
+   "lat": 25.40638922462135,
+   "name": "Hajar",
    "ur": "",
-   "tier": "town",
-   "labelPos": "right",
+   "tier": "city",
+   "labelPos": "left",
    "scale": 1.5
   },
   {
-   "id": "a_003",
+   "id": "s_003",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 49.51756199731028,
+   "lat": 25.501664652271913,
+   "name": "Juwāthā",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "left",
+   "scale": 1.5
+  },
+  {
+   "id": "l_004",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 48.53921798613163,
+   "lat": 25.55610775378652,
+   "text": "← al-Dahnāʾ",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "t_005",
+   "type": "territory",
+   "step": 1,
+   "note": "siege",
+   "pts": [
+    [
+     49.57571256504299,
+     25.501664652271913
+    ],
+    [
+     49.574254608902116,
+     25.512870777333685
+    ],
+    [
+     49.5699538484883,
+     25.523514980492156
+    ],
+    [
+     49.5630259418871,
+     25.533063516954638
+    ],
+    [
+     49.55381828326392,
+     25.541037583231688
+    ],
+    [
+     49.542792583069954,
+     25.54703732634337
+    ],
+    [
+     49.530501715952255,
+     25.550761894117326
+    ],
+    [
+     49.51756199731028,
+     25.552024521172925
+    ],
+    [
+     49.50462227866831,
+     25.550761894117326
+    ],
+    [
+     49.49233141155061,
+     25.54703732634337
+    ],
+    [
+     49.48130571135664,
+     25.541037583231688
+    ],
+    [
+     49.472098052733465,
+     25.533063516954638
+    ],
+    [
+     49.46517014613226,
+     25.523514980492156
+    ],
+    [
+     49.460869385718446,
+     25.512870777333685
+    ],
+    [
+     49.45941142957757,
+     25.501664652271913
+    ],
+    [
+     49.460869385718446,
+     25.49045852721014
+    ],
+    [
+     49.46517014613226,
+     25.47981432405167
+    ],
+    [
+     49.472098052733465,
+     25.470265787589188
+    ],
+    [
+     49.48130571135664,
+     25.462291721312138
+    ],
+    [
+     49.49233141155061,
+     25.456291978200454
+    ],
+    [
+     49.50462227866831,
+     25.4525674104265
+    ],
+    [
+     49.51756199731028,
+     25.4513047833709
+    ],
+    [
+     49.530501715952255,
+     25.4525674104265
+    ],
+    [
+     49.542792583069954,
+     25.456291978200454
+    ],
+    [
+     49.55381828326392,
+     25.462291721312138
+    ],
+    [
+     49.5630259418871,
+     25.470265787589188
+    ],
+    [
+     49.5699538484883,
+     25.47981432405167
+    ],
+    [
+     49.574254608902116,
+     25.49045852721014
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "opacity": 0.1,
+   "until": 3
+  },
+  {
+   "id": "a_006",
+   "type": "arrow",
+   "step": 1,
+   "note": "siege",
+   "pts": [
+    [
+     49.63274696029513,
+     25.569909422518595
+    ],
+    [
+     49.59915134609122,
+     25.55000469786331
+    ],
+    [
+     49.57275479207385,
+     25.53436527134845
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0,
+   "until": 3
+  },
+  {
+   "id": "a_007",
+   "type": "arrow",
+   "step": 1,
+   "note": "siege",
+   "pts": [
+    [
+     49.43875972436487,
+     25.601417756350763
+    ],
+    [
+     49.46174372064061,
+     25.57232310099443
+    ],
+    [
+     49.479802574857274,
+     25.549463014643027
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0,
+   "until": 3
+  },
+  {
+   "id": "a_008",
+   "type": "arrow",
+   "step": 1,
+   "note": "siege",
+   "pts": [
+    [
+     49.40237703432543,
+     25.43341988202523
+    ],
+    [
+     49.435972648529344,
+     25.453324606680514
+    ],
+    [
+     49.46236920254671,
+     25.468964033195377
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0,
+   "until": 3
+  },
+  {
+   "id": "a_009",
+   "type": "arrow",
+   "step": 1,
+   "note": "siege",
+   "pts": [
+    [
+     49.59636427025569,
+     25.401911548193063
+    ],
+    [
+     49.57338027397995,
+     25.431006203549394
+    ],
+    [
+     49.55532141976329,
+     25.453866289900798
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 6.0,
+   "until": 3
+  },
+  {
+   "id": "a_010",
    "type": "army",
    "step": 1,
    "note": "force",
-   "lon": 49.6,
-   "lat": 25.27,
+   "lon": 49.17573095725991,
+   "lat": 25.40638922462135,
    "name": "al-Ḥuṭam",
    "ur": "",
    "faction": "f4",
@@ -94,41 +354,41 @@
    "unit": "mixed",
    "labelPos": "below",
    "scale": 1.5,
-   "until": 9
+   "until": 10
   },
   {
-   "id": "a_004",
+   "id": "a_011",
    "type": "army",
    "step": 1,
    "note": "force",
-   "lon": 50.02,
-   "lat": 25.33,
+   "lon": 49.466483795923445,
+   "lat": 25.277086858524157,
    "name": "al-Jārūd ؓ",
    "ur": "",
    "faction": "f1",
    "strength": "ʿAbd al-Qays",
    "unit": "mixed",
-   "labelPos": "below",
+   "labelPos": "above",
    "scale": 1.5,
    "until": 2
   },
   {
-   "id": "a_005",
+   "id": "a_012",
    "type": "arrow",
    "step": 2,
    "note": "march:al-ʿAlāʾ ؓ",
    "pts": [
     [
-     49.12,
-     25.2
+     48.4449197681867,
+     25.25667069545618
     ],
     [
-     49.19,
-     25.25
+     48.57065072544661,
+     25.283892246213483
     ],
     [
-     49.28,
-     25.34
+     48.69245259029214,
+     25.345140735417417
     ]
    ],
    "faction": "f1",
@@ -136,347 +396,83 @@
    "ur": "",
    "dashed": false,
    "width": 9.0
-  },
-  {
-   "id": "a_006",
-   "type": "army",
-   "step": 2,
-   "note": "force",
-   "lon": 49.28,
-   "lat": 25.34,
-   "name": "al-ʿAlāʾ ؓ",
-   "ur": "",
-   "faction": "f1",
-   "strength": "",
-   "unit": "mixed",
-   "labelPos": "below",
-   "scale": 1.5,
-   "follows": "a_005",
-   "until": 8
-  },
-  {
-   "id": "a_007",
-   "type": "arrow",
-   "step": 3,
-   "note": "march:al-Jārūd ؓ",
-   "pts": [
-    [
-     50.02,
-     25.33
-    ],
-    [
-     49.96,
-     25.3
-    ],
-    [
-     49.88,
-     25.28
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": false,
-   "width": 9.0
-  },
-  {
-   "id": "a_008",
-   "type": "army",
-   "step": 3,
-   "note": "force",
-   "lon": 49.88,
-   "lat": 25.28,
-   "name": "al-Jārūd ؓ",
-   "ur": "",
-   "faction": "f1",
-   "strength": "ʿAbd al-Qays",
-   "unit": "mixed",
-   "labelPos": "below",
-   "scale": 1.5,
-   "follows": "a_007",
-   "until": 8
-  },
-  {
-   "id": "t_009",
-   "type": "territory",
-   "step": 4,
-   "note": "trench",
-   "pts": [
-    [
-     49.453856406460545,
-     25.56
-    ],
-    [
-     49.453856406460545,
-     25.16
-    ],
-    [
-     49.42614359353945,
-     25.16
-    ],
-    [
-     49.42614359353945,
-     25.56
-    ]
-   ],
-   "faction": "f5",
-   "label": "",
-   "ur": "",
-   "opacity": 0.75
-  },
-  {
-   "id": "t_010",
-   "type": "territory",
-   "step": 4,
-   "note": "trench",
-   "pts": [
-    [
-     49.773856406460546,
-     25.56
-    ],
-    [
-     49.773856406460546,
-     25.16
-    ],
-    [
-     49.74614359353945,
-     25.16
-    ],
-    [
-     49.74614359353945,
-     25.56
-    ]
-   ],
-   "faction": "f5",
-   "label": "",
-   "ur": "",
-   "opacity": 0.75
-  },
-  {
-   "id": "l_011",
-   "type": "label",
-   "step": 4,
-   "note": "say",
-   "lon": 49.6,
-   "lat": 25.6,
-   "text": "trenches",
-   "ur": "",
-   "size": 26,
-   "align": "center",
-   "until": 4
-  },
-  {
-   "id": "l_012",
-   "type": "label",
-   "step": 5,
-   "note": "say",
-   "lon": 49.6,
-   "lat": 25.66,
-   "text": "a month",
-   "ur": "",
-   "size": 32,
-   "align": "center",
-   "until": 5
   },
   {
    "id": "a_013",
-   "type": "arrow",
-   "step": 6,
-   "note": "march:Ibn Ḥadhf",
-   "pts": [
-    [
-     49.29,
-     25.47
-    ],
-    [
-     49.35,
-     25.5
-    ],
-    [
-     49.41,
-     25.5
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": false,
-   "width": 9.0,
-   "until": 6
-  },
-  {
-   "id": "a_014",
    "type": "army",
-   "step": 6,
+   "step": 2,
    "note": "force",
-   "lon": 49.41,
-   "lat": 25.5,
-   "name": "Ibn Ḥadhf",
-   "ur": "",
-   "faction": "f1",
-   "strength": "",
-   "unit": "mixed",
-   "labelPos": "above",
-   "scale": 1.5,
-   "follows": "a_013",
-   "until": 7
-  },
-  {
-   "id": "l_015",
-   "type": "label",
-   "step": 6,
-   "note": "say",
-   "lon": 49.98,
-   "lat": 25.69,
-   "text": "a noise in the night",
-   "ur": "",
-   "size": 26,
-   "align": "center",
-   "until": 6
-  },
-  {
-   "id": "b_016",
-   "type": "battle",
-   "step": 7,
-   "note": "clash",
-   "lon": 49.44,
-   "lat": 25.5,
-   "name": "",
-   "ur": "",
-   "date": "",
-   "labelPos": "below",
-   "scale": 1.5,
-   "until": 7
-  },
-  {
-   "id": "l_017",
-   "type": "label",
-   "step": 7,
-   "note": "say",
-   "lon": 49.98,
-   "lat": 25.69,
-   "text": "taken — he calls for his uncle",
-   "ur": "",
-   "size": 26,
-   "align": "center",
-   "until": 7
-  },
-  {
-   "id": "a_018",
-   "type": "arrow",
-   "step": 8,
-   "note": "march:Ibn Ḥadhf",
-   "pts": [
-    [
-     49.41,
-     25.5
-    ],
-    [
-     49.34,
-     25.56
-    ],
-    [
-     49.27,
-     25.52
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": false,
-   "width": 9.0,
-   "until": 8
-  },
-  {
-   "id": "a_019",
-   "type": "army",
-   "step": 8,
-   "note": "force",
-   "lon": 49.27,
-   "lat": 25.52,
-   "name": "Ibn Ḥadhf",
-   "ur": "",
-   "faction": "f1",
-   "strength": "“they are drunk”",
-   "unit": "mixed",
-   "labelPos": "above",
-   "scale": 1.5,
-   "follows": "a_018",
-   "until": 8
-  },
-  {
-   "id": "a_020",
-   "type": "arrow",
-   "step": 9,
-   "note": "march:al-ʿAlāʾ ؓ",
-   "pts": [
-    [
-     49.28,
-     25.34
-    ],
-    [
-     49.39,
-     25.37
-    ],
-    [
-     49.5,
-     25.4
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": false,
-   "width": 9.0
-  },
-  {
-   "id": "a_021",
-   "type": "army",
-   "step": 9,
-   "note": "force",
-   "lon": 49.5,
-   "lat": 25.4,
+   "lon": 48.69245259029214,
+   "lat": 25.345140735417417,
    "name": "al-ʿAlāʾ ؓ",
    "ur": "",
    "faction": "f1",
    "strength": "",
    "unit": "mixed",
-   "labelPos": "left",
+   "labelPos": "right",
    "scale": 1.5,
-   "follows": "a_020"
+   "follows": "a_012",
+   "until": 3
   },
   {
-   "id": "a_022",
+   "id": "a_014",
    "type": "arrow",
-   "step": 9,
+   "step": 3,
+   "note": "letter",
+   "pts": [
+    [
+     48.69245259029214,
+     25.345140735417417
+    ],
+    [
+     49.07946819310779,
+     25.34207504519604
+    ],
+    [
+     49.466483795923445,
+     25.277086858524157
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 5.0,
+   "until": 3
+  },
+  {
+   "id": "a_015",
+   "type": "arrow",
+   "step": 3,
    "note": "march:al-Jārūd ؓ",
    "pts": [
     [
-     49.88,
-     25.28
+     49.466483795923445,
+     25.277086858524157
     ],
     [
-     49.8,
-     25.31
+     49.40361831729349,
+     25.317919184660113
     ],
     [
-     49.7,
-     25.36
+     49.33289465383479,
+     25.37236228617472
     ]
    ],
    "faction": "f1",
    "label": "",
    "ur": "",
    "dashed": false,
-   "width": 9.0
+   "width": 9.0,
+   "until": 3
   },
   {
-   "id": "a_023",
+   "id": "a_016",
    "type": "army",
-   "step": 9,
+   "step": 3,
    "note": "force",
-   "lon": 49.7,
-   "lat": 25.36,
+   "lon": 49.33289465383479,
+   "lat": 25.37236228617472,
    "name": "al-Jārūd ؓ",
    "ur": "",
    "faction": "f1",
@@ -484,39 +480,332 @@
    "unit": "mixed",
    "labelPos": "right",
    "scale": 1.5,
-   "follows": "a_022"
+   "follows": "a_015",
+   "until": 3
   },
   {
-   "id": "b_024",
-   "type": "battle",
+   "id": "a_017",
+   "type": "arrow",
+   "step": 4,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     48.69245259029214,
+     25.345140735417417
+    ],
+    [
+     48.77496353099396,
+     25.379167673864046
+    ],
+    [
+     48.849616286867025,
+     25.40638922462135
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_018",
+   "type": "army",
+   "step": 4,
+   "note": "force",
+   "lon": 48.849616286867025,
+   "lat": 25.40638922462135,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "all the Muslims",
+   "unit": "mixed",
+   "labelPos": "below",
+   "scale": 1.5,
+   "follows": "a_017",
+   "until": 9
+  },
+  {
+   "id": "l_019",
+   "type": "label",
+   "step": 4,
+   "note": "say",
+   "lon": 49.169067216525136,
+   "lat": 25.560735417415263,
+   "text": "every one gathers",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 4
+  },
+  {
+   "id": "t_020",
+   "type": "territory",
+   "step": 5,
+   "note": "trench",
+   "pts": [
+    [
+     48.97741637334437,
+     25.54249697840787
+    ],
+    [
+     48.97741637334437,
+     25.25667069545618
+    ],
+    [
+     48.94970356042327,
+     25.25667069545618
+    ],
+    [
+     48.94970356042327,
+     25.54249697840787
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "opacity": 0.75,
+   "until": 9
+  },
+  {
+   "id": "t_021",
+   "type": "territory",
+   "step": 5,
+   "note": "trench",
+   "pts": [
+    [
+     49.07171459128929,
+     25.54249697840787
+    ],
+    [
+     49.07171459128929,
+     25.25667069545618
+    ],
+    [
+     49.0440017783682,
+     25.25667069545618
+    ],
+    [
+     49.0440017783682,
+     25.54249697840787
+    ]
+   ],
+   "faction": "f4",
+   "label": "",
+   "ur": "",
+   "opacity": 0.75,
+   "until": 9
+  },
+  {
+   "id": "l_022",
+   "type": "label",
+   "step": 5,
+   "note": "say",
+   "lon": 49.01894445355681,
+   "lat": 25.593401278324027,
+   "text": "trenches",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 5
+  },
+  {
+   "id": "l_023",
+   "type": "label",
+   "step": 6,
+   "note": "say",
+   "lon": 49.00241083267713,
+   "lat": 25.588501399187713,
+   "text": "a month",
+   "ur": "",
+   "size": 32,
+   "align": "center",
+   "until": 6
+  },
+  {
+   "id": "a_024",
+   "type": "arrow",
+   "step": 7,
+   "note": "march:Ibn Ḥadhf",
+   "pts": [
+    [
+     48.89283630342512,
+     25.501664652271913
+    ],
+    [
+     48.96355996688382,
+     25.507108962423374
+    ],
+    [
+     49.02642544551377,
+     25.501664652271913
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0,
+   "until": 7
+  },
+  {
+   "id": "a_025",
+   "type": "army",
+   "step": 7,
+   "note": "force",
+   "lon": 49.02642544551377,
+   "lat": 25.501664652271913,
+   "name": "Ibn Ḥadhf",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_024",
+   "until": 8
+  },
+  {
+   "id": "l_026",
+   "type": "label",
+   "step": 7,
+   "note": "say",
+   "lon": 49.20339176785709,
+   "lat": 25.62606713923279,
+   "text": "a noise in the night",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 7
+  },
+  {
+   "id": "l_027",
+   "type": "label",
+   "step": 8,
+   "note": "say",
+   "lon": 49.21137568364309,
+   "lat": 25.62606713923279,
+   "text": "seized — he calls for his uncle",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 8
+  },
+  {
+   "id": "a_028",
+   "type": "arrow",
    "step": 9,
+   "note": "march:Ibn Ḥadhf",
+   "pts": [
+    [
+     49.02642544551377,
+     25.501664652271913
+    ],
+    [
+     48.95570178205507,
+     25.528886203029217
+    ],
+    [
+     48.87711993376763,
+     25.52208081533989
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0,
+   "until": 9
+  },
+  {
+   "id": "a_029",
+   "type": "army",
+   "step": 9,
+   "note": "force",
+   "lon": 48.87711993376763,
+   "lat": 25.52208081533989,
+   "name": "Ibn Ḥadhf",
+   "ur": "",
+   "faction": "f1",
+   "strength": "“they are drunk”",
+   "unit": "mixed",
+   "labelPos": "above",
+   "scale": 1.5,
+   "follows": "a_028",
+   "until": 9
+  },
+  {
+   "id": "a_030",
+   "type": "arrow",
+   "step": 10,
+   "note": "march:al-ʿAlāʾ ؓ",
+   "pts": [
+    [
+     48.849616286867025,
+     25.40638922462135
+    ],
+    [
+     48.96355996688382,
+     25.385973061553372
+    ],
+    [
+     49.073574554486235,
+     25.399583836932024
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_031",
+   "type": "army",
+   "step": 10,
+   "note": "force",
+   "lon": 49.073574554486235,
+   "lat": 25.399583836932024,
+   "name": "al-ʿAlāʾ ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "above",
+   "scale": 1.5,
+   "follows": "a_030"
+  },
+  {
+   "id": "b_032",
+   "type": "battle",
+   "step": 10,
    "note": "clash",
-   "lon": 49.588,
-   "lat": 25.383,
+   "lon": 49.266100082790466,
+   "lat": 25.457429632291294,
    "name": "",
    "ur": "",
    "date": "",
    "labelPos": "below",
    "scale": 1.5,
-   "until": 9
+   "until": 10
   },
   {
-   "id": "l_025",
+   "id": "l_033",
    "type": "label",
-   "step": 10,
+   "step": 11,
    "note": "say",
-   "lon": 49.6,
-   "lat": 25.2,
+   "lon": 49.31120606370746,
+   "lat": 25.413739043325823,
    "text": "al-Ḥuṭam killed",
    "ur": "",
    "size": 26,
    "align": "center",
-   "until": 10
+   "until": 11
   }
  ],
  "steps": {
-  "count": 10,
-  "current": 10,
+  "count": 11,
+  "current": 11,
   "mode": "upto"
  }
 }

@@ -12,10 +12,10 @@ Night in a sand desert. A scatter of pack-saddles, water-skins and folded tents 
 
 First light over a sand desert. In the foreground a wide, still pool of clear water lying in a hollow between dunes, catching the dawn; in the distance a line of loaded camels walking back toward it from several directions. Restrained editorial illustration, muted ochre, deep teal and bone. Flat pure-white background (#FFFFFF) with no border, so it sits on a white slide with no seam. No text, no lettering, no map. No people and no faces — landscape, animals and objects only. 16:9.
 
-## Slide 29 — al-ʿAlāʾ ؓ — the duʿāʾ  *(optional background)*
+## Slide 30 — al-ʿAlāʾ ؓ — the duʿāʾ  *(optional background)*
 
 A shallow, calm sea at dawn seen from a low sandy shore; the water is glassy and only ankle-deep far out, with a flat low island on the horizon. Hoof-prints lead from the sand into the water. Restrained editorial illustration, muted ochre, deep teal and bone. Flat pure-white background (#FFFFFF) with no border, so it sits on a white slide with no seam. No text, no lettering, no map. No people and no faces — landscape, animals and objects only. 16:9.
 
-## Slide 75 — The eleven banners, from Dhū al-Qaṣṣa  *(placeholder)*
+## Slide 77 — The eleven banners, from Dhū al-Qaṣṣa  *(placeholder)*
 
 Eleven plain cloth banners on spear-shafts, planted upright in a row on open stony ground at first light, each a different muted colour, stirring slightly in the wind; a low line of dark hills behind. Nothing else on the ground. Restrained editorial illustration, muted ochre, deep teal and bone. Flat pure-white background (#FFFFFF) with no border, so it sits on a white slide with no seam. No text, no lettering, no map. No people and no faces — landscape, animals and objects only. 16:9.

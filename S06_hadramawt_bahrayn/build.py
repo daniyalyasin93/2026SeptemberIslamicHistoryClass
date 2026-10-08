@@ -68,6 +68,7 @@ S5.FACE_TITLE.update({
     "RCT/E-RC84": "ʿUtayba and al-Muthannā — the roads",
     "RCT/E-RC85": "al-ʿAlāʾ ؓ at the shore",
     "RCT/E-RC86": "al-ʿAlāʾ ؓ — the duʿāʾ",
+    "RCT/E-RC87": "al-ʿAlāʾ ؓ at al-Dahnāʾ — the duʿāʾ",
     "RCT/E-RC27": "Dārīn",
     "RCT/E-RC75": "The monk of Hajar",
     "RCT/E-RC28": "Thumāma b. Uthāl ؓ",
@@ -103,6 +104,7 @@ S5.FACE_WHEN.update({
     "RCT/E-RC72": "11 AH, the coast of Bahrayn", "RCT/E-RC24": "11 AH, Juwāthā",
     "RCT/E-RC25": "11 AH, Medina to al-Dahnāʾ", "RCT/E-RC82": "11 AH, al-Dahnāʾ — night",
     "RCT/E-RC83": "11 AH, al-Dahnāʾ — dawn", "RCT/E-RC26": "11 AH, Hajar",
+    "RCT/E-RC87": "11 AH, al-Dahnāʾ",
     "RCT/E-RC73": "11 AH, Hajar — one night", "RCT/E-RC74": "11 AH, Hajar — that night",
     "RCT/E-RC84": "11–12 AH, the coast of Bahrayn", "RCT/E-RC85": "11–12 AH, the shore",
     "RCT/E-RC86": "11–12 AH, the shore", "RCT/E-RC27": "11–12 AH, Dārīn",
@@ -124,6 +126,7 @@ FACE_SPEAKER = {
     "RCT/E-RC25": "al-Dhahabī, from Ibn Saʿd",
     "RCT/E-RC82": "al-ʿAlāʾ b. al-Ḥaḍramī ؓ, to the army",
     "RCT/E-RC83": "Ibn Kathīr, on what al-ʿAlāʾ ؓ did at dawn",
+    "RCT/E-RC87": "al-ʿAlāʾ b. al-Ḥaḍramī ؓ — in another telling, that of Sahm b. Minjāb",
     "RCT/E-RC26": "Ibn al-Athīr, on the trench month",
     "RCT/E-RC73": "Abjar b. Bujayr, to his sister's son",
     "RCT/E-RC74": "Qays b. ʿĀṣim, standing over al-Ḥuṭam",
@@ -191,16 +194,20 @@ FACE_SCENE = {
 # the warnings that change what he SAYS. Two at most reach the top of the pane; the rest stay in BACKGROUND.
 LECTERN_WARN = {
     "RCT/E-RC71": ["Name no king — three books give his name three ways."],
-    "RCT/E-RC72": ["The page does not say where al-Khaṭṭ is. The marker is approximate."],
+    "RCT/E-RC72": ["“Came down at” — the page does not say he took them.",
+                   "The page does not say where al-Khaṭṭ is. The marker is approximate."],
     "RCT/E-RC24": ["Do not speak the fourth line of the verse — the two books differ."],
     "RCT/E-RC25": ["The page names who joined him, not his road. The road is drawn through their lands."],
     "RCT/E-RC82": ["Tell it as the book tells it — it comes through Sayf b. ʿUmar."],
     "RCT/E-RC83": ["Tell it as the book tells it — build no ruling on it."],
+    "RCT/E-RC87": ["Another telling, on another page. Do not join it to the dawn prayer."],
+    "RCT/E-RC26": ["A diagram: the page gives sides, no distances. Say “not to scale”."],
     "RCT/E-RC73": ["Do not say why they were drinking. No page does."],
     "RCT/E-RC74": ["Do not use Ibn Khaldūn on who killed him."],
     "RCT/E-RC84": ["The page says “on every road” — name no place for either man."],
     "RCT/E-RC86": ["Read the duʿāʾ slowly. It is the whole slide."],
-    "RCT/E-RC27": ["A strait, forded — not a sea that parted. Say what the page says.", "No page says the would-be king was pardoned."],
+    "RCT/E-RC27": ["A strait, forded — not a sea that parted. Say what the page says.",
+                   "The island is drawn large, and off the shore. A diagram."],
     "RCT/E-RC28": ["Skip this slide if the room is heavy."],
     "TSY/E-YK08": ["al-Basūs: say only “an old war that had started the same way”."],
     "TSY/E-YK10": ["No source ties the old kingship to the ridda. Imply nothing."],
@@ -212,7 +219,7 @@ LECTERN_WARN = {
 }
 
 # a duʿāʾ, a prayer, words of trust: each gets a slide of its own, in Arabic (VISION D1)
-IMAN = ["RCT/E-RC82", "RCT/E-RC83", "RCT/E-RC85", "RCT/E-RC86"]
+IMAN = ["RCT/E-RC82", "RCT/E-RC83", "RCT/E-RC87", "RCT/E-RC85", "RCT/E-RC86"]
 
 STYLE = ("Restrained editorial illustration, muted ochre, deep teal and bone. Flat pure-white background "
          "(#FFFFFF) with no border, so it sits on a white slide with no seam. No text, no lettering, no map. "
@@ -244,6 +251,8 @@ FACE_CUT = {
                    "There was no region", "believers were in that region"),
     "RCT/E-RC81": ("لقد قمنا بعد رسول الله", "وابنة لبون",
                    "We stood, after", "or a bint labūn"),
+    "RCT/E-RC87": ("يا عليم", "إنا عبيدك",
+                   "O All-Knowing", "we are Your servants"),
     "IKO/E-IKR1": ("أن الصبغة الدينية", "إلى الحق",
                    "the religious colouring", "towards the truth"),
 }
@@ -283,39 +292,42 @@ MAP_FOR = {
                    [(2, "11 AH. al-Mundhir ؓ dies, shortly after the Prophet ﷺ."),
                     (3, "Rabīʿa turn — all of Bahrayn but al-Jārūd ؓ and those with him."),
                     (6, "al-Ḥuṭam b. Ḍubayʿa comes out, at the head of Bakr b. Wāʾil.")]),
-    "RCT/E-RC72": ("s06-bahrayn-coast", 1, 6,
-                   [("al-Ḥuṭam", "occupies al-Qaṭīf and Hajar"), ("Juwāthā", "besieged by al-Ḥuṭam's men")],
-                   [(2, "al-Ḥuṭam comes down on al-Qaṭīf."),
-                    (2, "Then on Hajar. He holds both."),
+    "RCT/E-RC72": ("s06-bahrayn-coast", 1, 5,
+                   [("al-Ḥuṭam", "comes down at al-Qaṭīf and Hajar"), ("Juwāthā", "besieged by al-Ḥuṭam's men")],
+                   [(2, "al-Ḥuṭam comes down at al-Qaṭīf and at Hajar."),
                     (3, "al-Khaṭṭ is won over, with the Zuṭṭ and the Sabābija who live in it."),
                     (4, "He sends a force across the water, to Dārīn."),
-                    (5, "And he besieges the Muslims in Juwāthā.")]),
+                    (5, "And he sends to Juwāthā, and besieges the Muslims in it.")]),
     "RCT/E-RC25": ("s06-bahrayn", 6, 10,
                    [("al-ʿAlāʾ ؓ", "sixteen riders, then an army"), ("al-Dahnāʾ", "he camps in the middle of it")],
                    [(2, "al-ʿAlāʾ ؓ leaves Medina."),
                     (3, "Thumāma ؓ joins, with Banū Ḥanīfa."),
-                    (4, "Qays b. ʿĀṣim joins, and others of Tamīm."),
+                    (4, "Qays b. ʿĀṣim joins, and other clans of Tamīm."),
                     (5, "Into al-Dahnāʾ.")]),
-    "RCT/E-RC26": ("s06-bahrayn-hajar", 1, 5,
-                   [("al-ʿAlāʾ ؓ", "camps on the Hajar side"), ("al-Jārūd ؓ", "comes down from the other side")],
-                   [(2, "al-ʿAlāʾ ؓ camps against him, on the Hajar side."),
-                    (3, "He sends for al-Jārūd ؓ: ʿAbd al-Qays come down from the other side."),
-                    (4, "Both sides dig trenches."),
-                    (5, "A month. They fight by turns, and go back to their trenches.")]),
-    "RCT/E-RC73": ("s06-bahrayn-hajar", 5, 8,
-                   [("Ibn Ḥadhf", "goes in, is taken, comes back"), ("al-Ḥuṭam", "his camp is drunk")],
+    # the trench month is a DIAGRAM (mapkit.closeup(diagram=True)): the page gives sides, and nothing else
+    "RCT/E-RC26": ("s06-bahrayn-hajar", 1, 6,
+                   [("al-ʿAlāʾ ؓ", "camps at Hajar; comes down from that side"),
+                    ("al-Jārūd ؓ", "brings ʿAbd al-Qays down from theirs")],
+                   [(1, "al-ʿAlāʾ ؓ comes out of al-Dahnāʾ and camps at Hajar."),
+                    (2, "He sends to al-Jārūd ؓ — and ʿAbd al-Qays come down on al-Ḥuṭam from their side."),
+                    (3, "He comes down on him from the Hajar side. Every one gathers."),
+                    (5, "Both sides dig trenches."),
+                    (6, "A month. They fight by turns, and go back to their trenches.")]),
+    "RCT/E-RC73": ("s06-bahrayn-hajar", 6, 9,
+                   [("Ibn Ḥadhf", "seized by al-Ḥuṭam's men; freed by his uncle"), ("al-Ḥuṭam", "his camp is drunk")],
                    [(2, "A noise in the night. ʿAbd Allāh b. Ḥadhf goes to find out."),
-                    (3, "They take him at the trench — and he calls for his uncle."),
-                    (7, "Fed, and let go. He comes back: they are drunk.")]),
-    "RCT/E-RC74": ("s06-bahrayn-hajar", 8, 10,
-                   [("al-ʿAlāʾ ؓ", "goes in at once, from both sides"), ("al-Ḥuṭam", "killed by Qays b. ʿĀṣim")],
-                   [(1, "The Muslims go in — from both sides."),
+                    (3, "They seize him at their trench — and he calls for his uncle."),
+                    (7, "Fed, mounted, and let through. He tells al-ʿAlāʾ ؓ: they are drunk.")]),
+    "RCT/E-RC74": ("s06-bahrayn-hajar", 9, 11,
+                   [("al-ʿAlāʾ ؓ", "goes out at them, over the trench"), ("al-Ḥuṭam", "killed by Qays b. ʿĀṣim")],
+                   [(1, "The Muslims go out at them, over the trench."),
                     (5, "al-Ḥuṭam is killed. The camp is taken.")]),
-    "RCT/E-RC84": ("s06-bahrayn-darin", 1, 3,
-                   [("the beaten", "take ship for Dārīn"), ("ʿUtayba b. al-Nahhās", "and al-Muthannā close the roads")],
-                   [(2, "The beaten make for Dārīn, and take ship."),
+    "RCT/E-RC84": ("s06-bahrayn-flight", 1, 3,
+                   [("the beaten", "take ship for Dārīn; the rest go home"),
+                    ("ʿUtayba b. al-Nahhās", "and al-Muthannā b. Ḥāritha shut the roads")],
+                   [(2, "The bulk of the beaten take ship for Dārīn. The rest go home."),
                     (3, "al-ʿAlāʾ ؓ writes to the Muslims of Bakr b. Wāʾil: sit in wait on every road.")]),
-    "RCT/E-RC27": ("s06-bahrayn-darin", 3, 6,
+    "RCT/E-RC27": ("s06-bahrayn-darin", 1, 4,
                    [("al-ʿAlāʾ ؓ", "fords the strait, on horseback"), ("Dārīn", "taken by al-ʿAlāʾ ؓ, the same day")],
                    [(1, "al-ʿAlāʾ ؓ comes down to the shore."),
                     (2, "Into the water, on horseback — he fords the strait."),
@@ -331,6 +343,8 @@ _KEYS = {
 for _cid in ("TSY/E-YK07", "TSY/E-YK08", "TSY/E-YK09", "TSY/E-YK10", "TSY/E-YK19", "TSY/E-YK11"):
     _sc, _a, _b, _keys, _clicks = _K[_cid]
     MAP_FOR[_cid] = ("s06-kinda", _a, _b, _KEYS.get(_cid, _keys), _clicks)
+_sc, _a, _b, _keys, _clicks = MAP_FOR["TSY/E-YK11"]
+MAP_FOR["TSY/E-YK11"] = (_sc, _a, _b, _keys, _clicks[:2] + [(4, "Kinda run for al-Nujayr. ʿIkrima ؓ brings up the main body.")])
 
 # a map that belongs to no card: the situation, before the story (VISION M1)
 MAP_BRIDGE_BEFORE = {
@@ -344,6 +358,19 @@ MAP_BRIDGE_BEFORE = {
                     "▶ CLICK 2 — Bahrayn comes under Islam; al-Mundhir ؓ holds it for him.",
                     "3. Remember al-ʿAlāʾ ؓ. Abū Bakr ؓ sends him to Bahrayn tonight."]),
 }
+# VISION M2: the siege gets the second scale. YK11's own slide tells the road and the battle on the wide map;
+# this one tells the fort — beats 5-7 of YK11, which the runsheet skips there so that nothing is said twice.
+MAP_BRIDGE_BEFORE["TSY/E-YK12"] = (
+    "s06-nujayr", 1, 5, "al-Nujayr — the siege", "11 or 12 AH, Ḥaḍramawt",
+    [("al-Muhājir ؓ", "with Ziyād ؓ, besieges Kinda in the fort"), ("ʿIkrima ؓ", "brings up the main body")],
+    ["⚠ A diagram: the page gives no side to any commander. Say “not to scale”.",
+     "SAY",
+     "1. Kinda are inside al-Nujayr — the fort they had already repaired.",
+     "▶ CLICK 1 — al-Muhājir ؓ comes down on them, with Ziyād ؓ. The Muslims besiege the fort.",
+     "▶ CLICK 2 — ʿIkrima ؓ arrives with the main body. The siege grows hard.",
+     "▶ CLICK 3 — Raiding parties spread out through the country, after the rest.",
+     "▶ CLICK 4 — Those inside come out and fight. Many are killed — and they go back in.",
+     "2. Their spirits sank, and they feared death. Next: what al-Ashʿath did."])
 S5.MAP_FOR, S5.MAP_BRIDGE_BEFORE, S5.MAP_BRIDGE_QUOTE = MAP_FOR, MAP_BRIDGE_BEFORE, {}
 
 BRIDGE_BEFORE = {

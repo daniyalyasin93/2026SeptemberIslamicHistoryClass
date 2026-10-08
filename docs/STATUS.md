@@ -9,11 +9,11 @@
 > | `docs/VISION.md` | ✅ the house style as numbered, checkable rules, each with his words and its check |
 > | `tools/check_vision.py` | ✅ **the gate.** On the deck he reviewed it found **578 breaches of 17 rules**, reproducing his comments unprompted. After the rebuild: **none.** `build.py` runs it |
 > | `series/notes2.py` | ✅ two-tier notes: short spaced SAY cues, a drawn rule, then detail. Beats are `Cue — detail` |
-> | `series/mapkit.py` | ✅ maps written, not drawn — march / siege / trench / sail / say, rule-true by construction; a scene that breaks a rule cannot be saved. Includes a crowding check (M15) |
+> | `series/mapkit.py` | ✅ maps written, not drawn — and **the close-up builder** (`DECISIONS.md` **#75**): `closeup(centre, radius_km, parent=)`, `diagram=True` for what the page gives only as sides, names that pick their own side, captions that find free room. The collision check is the painter's own arithmetic |
 > | Parser bug | ✅ **fixed.** `build_full_deck` silently dropped every beat with no ` — `: 49 of evening 6's 288 beats never reached a slide |
-> | `S06` Parts I–II | ✅ **rebuilt**: Arabia map + the Arabic he asked for on the face · situation map (the Prophet's ﷺ letter) · theatre map + three close-ups (coast, Hajar, Dārīn) · four slides of faith (al-Dahnāʾ ×2, the shore ×2) · speakers, scene lines, kickers, briefs |
-> | `S06` deck | ✅ 41 cards, 16 maps / 44 clicks, Parts I–VIII; `IMAGE_BRIEFS.md` beside it. ⬜ **Daniyal to review from slide 1 again** — and slides 26+ for the first time |
-> | ⬜ His to confirm | (a) the letter to al-Mundhir b. Sāwā is sourced (⁨البدایہ ج۴ ص۵۱۷⁩) but **no page gives the year** — the slide says *"in the Prophet's ﷺ lifetime"*, not *8 AH*; (b) VISION **I2**: image briefs ask for places, animals and objects, never people |
+> | `S06` Parts I–II | ✅ **rebuilt twice**: theatre map · the coast · **Hajar as a diagram** (the page's line of four, two trenches, a month) · the flight · **the strait as a diagram** · five slides of faith (al-Dahnāʾ ×3, the shore ×2). All eighteen corrections of `bahrayn-the-front-as-a-sequence.md` §0 are on the cards |
+> | `S06` deck | ✅ **86 slides, 42 cards, 17 maps / 48 clicks**, Parts I–VIII; the gate holds on every rule. New: `RCT/E-RC87` (the words of the duʿāʾ) and a close-up of **al-Nujayr**. ⬜ **Daniyal to review from slide 1 again** — and slides 26+ for the first time |
+> | ⬜ His to confirm | (a) VISION **I2**: image briefs ask for places, animals and objects, never people; (b) **"a diagram — not to scale"** now stands on three map faces — say if it should move to the notes; (c) the honorific on English faces, ؓ or *R.A*; (d) whether to speak «⁨أنا المغرور، ولست بالغرور⁩» |
 > | ⬜ Still open | Parts III–VIII have had the mechanical rules applied but **not his eye**; the Ḥaḍramawt scene is evening 5's with labels and sizes fixed, not re-scripted through the kit; Parts IX–X unbuilt (two-empires note; `ISA`/`GSA` beats) |
 > | Rebuild order | `scenes.py` → `make_timeline.py` → `make_maps.py` → `build.py` (which ends on the gate) |
 
