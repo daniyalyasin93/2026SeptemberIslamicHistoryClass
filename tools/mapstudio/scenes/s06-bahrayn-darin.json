@@ -355,7 +355,7 @@
    "ur": "",
    "faction": "f1",
    "strength": "",
-   "unit": "naval",
+   "unit": "cavalry",
    "labelPos": "below",
    "scale": 1.5,
    "follows": "a_014"
@@ -367,7 +367,7 @@
    "note": "say",
    "lon": 51.5,
    "lat": 25.55,
-   "text": "by ship: a day and a night",
+   "text": "for ships, a day and a night",
    "ur": "",
    "size": 26,
    "align": "center",

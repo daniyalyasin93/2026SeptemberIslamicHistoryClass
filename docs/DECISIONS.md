@@ -1736,3 +1736,27 @@ the opening map to be titled *8 Hijri*. The embassy is on a page — ⁨البد
 page we hold gives its year.** The slide says *"in the Prophet's ﷺ lifetime"* and the note says the year is
 commonly put at 8 AH. (b) **I2** — image briefs ask for places, animals and objects, never a person or a face — is
 a default proposed for this room, not something he has said.
+
+---
+
+## 74. Four corrections from the page-cited Bahrayn sequence — 2026-10-08
+
+`docs/research/bahrayn-the-front-as-a-sequence.md` was written the same day as #73 and read after the first rebuild.
+It corrects four things that rebuild had put on slides or maps. **Each was a detail supplied where a page was silent.**
+
+1. **The year of the embassy to al-Mundhir b. Sāwā.** #73 said no page we hold gives it. One does:
+   ⁨الکامل ج۲ ص۹۱⁩ sets the envoys under **year 6**, then adds *"and it is said that his sending was in the year
+   eight"*; ⁨البدایہ ج۵ ص۱۹⁩ has *"before the conquest of Mecca"*. So Daniyal's *"8 hijri"* is the «⁨قيل⁩» view, not the
+   main one. The slide says **"before the conquest of Mecca"**; the note gives both years.
+2. **No page says a *letter* went to al-Mundhir** — every page says al-ʿAlāʾ ؓ was *sent*. The map caption now
+   reads *"sent by the Prophet ﷺ"*.
+3. **al-ʿAlāʾ ؓ forded the strait on horseback; he did not sail.** ⁨البدایہ ج۷ ص۴۰⁩: *"walking on what was like
+   soft sand with water over it."* The map had given him a ship. It is a strait forded, not a sea parted, and the
+   notes say so.
+4. **Two things on no safe-list page:** that al-Jārūd ؓ was *inside* Juwāthā (his token no longer says so), and
+   the words *"Lakhmid"* and *"al-Ḥīra"* — the page names the man's fathers, al-Nuʿmān b. al-Mundhir, and no more.
+   The cue now says *"a king of the old royal house"*.
+
+**The lesson is VISION D3, and it cut the other way this time:** the rules that make a slide vivid — an icon for
+every force, a caption for every click — are exactly the rules that tempt a builder to fill a silence. **Read the
+front's sequence note before scripting its maps**, not after.

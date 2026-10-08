@@ -50,6 +50,7 @@ of it on a page**, and **does it leave them with something to hold** — a line 
 | **F4** | A quotation that has no map of its own in front of it carries **one or two scene lines** — who, where, what is happening — twenty words in all. | *"maybe more detail on the slide? one or two small lines? describing the stirrup and the horse?"* | gate `F4` |
 | **F5** | White ground, 24pt floor, twenty body words, no bullet lists. | #21 | `deck2` |
 | **F6** | The kicker says **when and where** — never a bare *"11"*. | found by the gate, 2026-10-08 | gate `F6` |
+| **F7** | **A headline is never cut.** One that does not fit is rewritten — it does not end in an ellipsis. | the first build projected *"Khālid b. Saʿīd ؓ — a banner, and no…"* | gate `F7` |
 
 ## 3. Quotations
 
@@ -72,6 +73,7 @@ under a single slide.
 | **N4** | At most **two warnings** above SAY, one line each — only those that change what he says. | (the same complaints) | gate `N4` |
 | **N5** | **No beat is dropped.** Every numbered beat on a card reaches the notes. | the line he asked for at slide 16 was on the card; the parser had thrown it away, with 48 others | gate `N5`; parser fixed |
 | **N6** | No production apparatus in the lectern tier: no file names, card ids, decision numbers. | #59, #60 | gate `N6` |
+| **N7** | **Every slide he stops on gives him something to say** — the title and the part dividers included. | #56.3: *"the notes should carry more script to explain to me"* | gate `N7` |
 
 Beats are written **`Cue — detail`**. The cue is what he looks for; the detail is behind it, under the rule.
 The pane is built by `series/notes2.py`.
@@ -139,6 +141,20 @@ al-Khaṭṭ does not say where it is — and the slide's notes say so.
 Evening 6's first pass at D2 found, on pages already cached: *"Then rejoice — by Allah, Allah does not abandon
 those who are in a state like yours"* (⁨البدایہ ج۷ ص۳۹⁩), and *"Allah has shown you His signs on land, that you may
 take heed by them at sea"* (⁨الکامل ج۲ ص۲۲۴⁩). Both had been sitting in sub-notes under a map.
+
+## 9b. The backlog — rules nothing enforces yet
+
+`docs/VISION_AUDIT.md` is the full inventory: **105 rules** drawn from six weeks of his feedback (`DECISIONS.md`
+#20–#72 and the review of evening 6), each with his words, what enforces it today, and how a script could check
+it. **Sixty had nothing enforcing them** when it was compiled. This file's rules are the ones now enforced or
+explicitly marked *review*; the rest are the gate's backlog, and the audit's table of **conflicts between rules**
+is where to look before settling a new one. Three of those conflicts are his to settle:
+
+- **The honorific on English faces.** ؓ renders as a small detached mark; he types *R.A* himself. Put two
+  rendered examples in front of him and let him choose one form.
+- **A certainty label on a face.** `[CONVENTIONAL-ESTIMATE]` *must* be labelled on the slide (CLAUDE.md §0.1), and
+  the build's forbidden list refuses any bracketed label on a face (#30). As written, one rule fails the other.
+- **Hands-up prompts.** The worksheet was dropped (#60); the notes still carry a dozen prompts an evening.
 
 ## 10. Sourcing, and the shape of a deck
 

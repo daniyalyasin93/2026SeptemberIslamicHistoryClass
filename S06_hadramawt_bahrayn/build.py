@@ -82,7 +82,7 @@ S5.FACE_TITLE.update({
     "TSY/E-YK12": "al-Ashʿath b. Qays — and Jaḥdam",
     "TSY/E-YK14": "Abū Bakr ؓ and al-Ashʿath, at Medina",
     "POT/E-PG40": "al-Ashʿath ؓ — pardoned, and married",
-    "TSY/E-YK16": "Ṭulayḥa ؓ · ʿAmr b. Maʿdī Karib ؓ · Qays",
+    "TSY/E-YK16": "Ṭulayḥa ؓ, ʿAmr ؓ and Qays",
     "POT/E-PG41": "al-Ashʿath ؓ and Jarīr b. ʿAbd Allāh ؓ",
     "ATA/E-TB22": "Thaqīf, at al-Ṭāʾif",
     "RCT/E-RC78": "Najrān",
@@ -200,7 +200,7 @@ LECTERN_WARN = {
     "RCT/E-RC74": ["Do not use Ibn Khaldūn on who killed him."],
     "RCT/E-RC84": ["The page says “on every road” — name no place for either man."],
     "RCT/E-RC86": ["Read the duʿāʾ slowly. It is the whole slide."],
-    "RCT/E-RC27": ["No page says the would-be king was pardoned.", "The island is drawn larger than life."],
+    "RCT/E-RC27": ["A strait, forded — not a sea that parted. Say what the page says.", "No page says the would-be king was pardoned."],
     "RCT/E-RC28": ["Skip this slide if the room is heavy."],
     "TSY/E-YK08": ["al-Basūs: say only “an old war that had started the same way”."],
     "TSY/E-YK10": ["No source ties the old kingship to the ridda. Imply nothing."],
@@ -284,7 +284,7 @@ MAP_FOR = {
                     (3, "Rabīʿa turn — all of Bahrayn but al-Jārūd ؓ and those with him."),
                     (6, "al-Ḥuṭam b. Ḍubayʿa comes out, at the head of Bakr b. Wāʾil.")]),
     "RCT/E-RC72": ("s06-bahrayn-coast", 1, 6,
-                   [("al-Ḥuṭam", "occupies al-Qaṭīf and Hajar"), ("Juwāthā", "besieged by al-Ḥuṭam")],
+                   [("al-Ḥuṭam", "occupies al-Qaṭīf and Hajar"), ("Juwāthā", "besieged by al-Ḥuṭam's men")],
                    [(2, "al-Ḥuṭam comes down on al-Qaṭīf."),
                     (2, "Then on Hajar. He holds both."),
                     (3, "al-Khaṭṭ is won over, with the Zuṭṭ and the Sabābija who live in it."),
@@ -316,9 +316,9 @@ MAP_FOR = {
                    [(2, "The beaten make for Dārīn, and take ship."),
                     (3, "al-ʿAlāʾ ؓ writes to the Muslims of Bakr b. Wāʾil: sit in wait on every road.")]),
     "RCT/E-RC27": ("s06-bahrayn-darin", 3, 6,
-                   [("al-ʿAlāʾ ؓ", "rides into the sea"), ("Dārīn", "taken by al-ʿAlāʾ ؓ, the same day")],
+                   [("al-ʿAlāʾ ؓ", "fords the strait, on horseback"), ("Dārīn", "taken by al-ʿAlāʾ ؓ, the same day")],
                    [(1, "al-ʿAlāʾ ؓ comes down to the shore."),
-                    (2, "Into the water — across the gulf."),
+                    (2, "Into the water, on horseback — he fords the strait."),
                     (4, "Dārīn falls. He is back the same day.")]),
 }
 # evening 5's slices and clicks, on the rule-checked copy — with keys that name who did the thing
@@ -334,15 +334,15 @@ for _cid in ("TSY/E-YK07", "TSY/E-YK08", "TSY/E-YK09", "TSY/E-YK10", "TSY/E-YK19
 
 # a map that belongs to no card: the situation, before the story (VISION M1)
 MAP_BRIDGE_BEFORE = {
-    "RCT/E-RC71": ("s06-bahrayn", 1, 3, "Bahrayn, in the Prophet's ﷺ lifetime", "Before 11 AH",
+    "RCT/E-RC71": ("s06-bahrayn", 1, 3, "Bahrayn, in the Prophet's ﷺ lifetime", "Before the conquest of Mecca",
                    [("al-Mundhir b. Sāwā ؓ", "holds Bahrayn for the Prophet ﷺ"), ("Hajar", "its chief town")],
-                   ["⚠ The pages give no year for this letter — say “in the Prophet's ﷺ lifetime”.",
+                   ["⚠ Ibn al-Athīr: year 6 — “or, it is said, 8”. Say “before the conquest of Mecca”.",
                     "SAY",
                     "1. Bahrayn is the whole Gulf coast of Arabia — not the island.",
                     "▶ CLICK 1 — The Prophet ﷺ sends al-ʿAlāʾ b. al-Ḥaḍramī ؓ to al-Mundhir b. Sāwā.",
                     "2. al-Mundhir: of ʿAbd al-Qays, the ruler of Bahrayn.",
                     "▶ CLICK 2 — Bahrayn comes under Islam; al-Mundhir ؓ holds it for him.",
-                    "3. Remember al-ʿAlāʾ ؓ. He comes back down this road tonight."]),
+                    "3. Remember al-ʿAlāʾ ؓ. Abū Bakr ؓ sends him to Bahrayn tonight."]),
 }
 S5.MAP_FOR, S5.MAP_BRIDGE_BEFORE, S5.MAP_BRIDGE_QUOTE = MAP_FOR, MAP_BRIDGE_BEFORE, {}
 
@@ -527,7 +527,8 @@ def build():
     S5.check_face_quotes(pool)
 
     prs = D.deck()
-    D.title_slide(prs, *TITLE)
+    s = D.title_slide(prs, *TITLE)
+    D.note(s, N.plain(["SAY", "1. السلام علیکم — evening six.", "2. Tonight: Bahrayn, and then Ḥaḍramawt — the last two fronts."]))
     mark(prs, "title")
     line, mp = bookend_images()
     s = D.timeline_slide(prs, line, "Where we stopped")
@@ -544,8 +545,9 @@ def build():
     made = clicks_total = bridges = maps = words_slides = trees = checkpoints = 0
     for part, rows in parts:
         pname = part.split(" — ")[0].strip()
-        D.section_slide(prs, B.clean(pname, translit=True),
-                        B.clean(part.split(" — ", 1)[1] if " — " in part else "", translit=True) or None)
+        sub = B.clean(part.split(" — ", 1)[1] if " — " in part else "", translit=True)
+        s = D.section_slide(prs, B.clean(pname, translit=True), sub or None)
+        D.note(s, N.plain(["SAY", "1. " + (sub or pname) + "."]))
         mark(prs, "section", part=pname)
         for cid, rnote in rows:
             c = S5.face_card(pool[cid], cid)

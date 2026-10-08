@@ -2555,7 +2555,7 @@ Thumāma b. Uthāl ؓ joined him with the Muslims of Banū Ḥanīfa. Qays b. ʿ
 the zakāt he had held back. ʿAmr, the Abnāʾ, Saʿd and the Rabāb joined — a body the size of the one
 he already had. A column of sixteen crossed the sand desert as an army.
 **Beats:**
-1. al-ʿAlāʾ b. al-Ḥaḍramī ؓ — The Prophet's ﷺ own governor over Bahrayn, sent back now by Abū Bakr ؓ.
+1. al-ʿAlāʾ b. al-Ḥaḍramī ؓ — The man the Prophet ﷺ had sent to Bahrayn; Abū Bakr ؓ sends him now.
 2. Sixteen riders, and a letter — Every Muslim he passes is to march out with him.
 3. Thumāma b. Uthāl ؓ joins — With the Muslims of Banū Ḥanīfa.
 4. Qays b. ʿĀṣim joins, and more — With the ṣadaqa he had held back; then others of Tamīm — a force the size of his own.
@@ -2748,7 +2748,7 @@ every road and close the land behind him. Then he brought his men to the water's
 ships would have been too slow — and told them what he intended.
 **Beats:**
 1. al-ʿAlāʾ ؓ comes down to the shore — With the whole army.
-2. Into the water — Across the gulf, by Allah's leave.
+2. Into the water, on horseback — He fords the strait, by Allah's leave.
 3. "Like soft sand with water over it" — Not covering the camels' pads, nor reaching the horses' knees; by ship, a day and a night.
 4. Dārīn falls — He fights them and overcomes them, and is back the same day.
 5. Nothing lost in the sea — But one man's nosebag — and al-ʿAlāʾ ؓ went back and brought it.
@@ -3504,8 +3504,8 @@ we will put the kingship back. And they brought out a man of the old royal house
 1. Bahrayn was already Muslim — Under al-Mundhir b. Sāwā al-ʿAbdī ؓ, the Prophet's ﷺ own man there.
 2. Two deaths, close together — The Prophet ﷺ; and shortly after him, al-Mundhir ؓ.
 3. Rabīʿa turn — all but al-Jārūd ؓ — Rabīʿa in Bahrayn agreed on the ridda, except al-Jārūd ؓ and those who followed him.
-4. "We will restore the kingship" — In a man of the old Lakhmid house: a monarchy brought back, not a false prophet followed.
-5. Name no king — Three books give his name three ways; say only "a king of the old Lakhmid line".
+4. "We will restore the kingship" — In a son of al-Nuʿmān b. al-Mundhir's house: a monarchy brought back, not a false prophet followed.
+5. Name no king — Three books give his name three ways; say only "a king of the old royal house".
 6. al-Ḥuṭam b. Ḍubayʿa comes out — Of Banū Qays b. Thaʿlaba, at the head of Bakr b. Wāʾil.
 7. Not all of them had ever been Muslim — Men who had never been Muslims joined him: on this front the ridda was not all ridda.
 **Quote after beat:** 4

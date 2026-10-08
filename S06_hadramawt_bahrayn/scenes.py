@@ -51,7 +51,7 @@ def theatre():
 
     s.at(2, "The Prophet ﷺ sends al-ʿAlāʾ b. al-Ḥaḍramī ؓ to al-Mundhir b. Sāwā, who holds Bahrayn.")
     s.letter(MEDINA, HAJAR)
-    s.say("a letter from the Prophet ﷺ", *cap)
+    s.say("sent by the Prophet ﷺ", *cap)
 
     s.at(3, "Bahrayn comes under Islam, and al-Mundhir ؓ holds it for him.")
     s.turn("bahrayn", "f1")
@@ -92,7 +92,7 @@ def coast():
     s.place("al-Khaṭṭ", *KHATT, pos="right")
     s.region("darin", ISLAND, "f5", opacity=0.6)
     s.place("Dārīn", *DARIN, pos="right")
-    s.force("al-Jārūd ؓ", "f1", 50.0, 25.2, sub="ʿAbd al-Qays, in Juwāthā", pos="right")
+    s.force("al-Jārūd ؓ", "f1", 50.0, 25.2, sub="ʿAbd al-Qays", pos="right")
 
     s.at(2, "al-Ḥuṭam comes down on al-Qaṭīf.")
     s.march("al-Ḥuṭam", "f4", frm=(48.95, 26.9), to=(49.55, 26.38), via=[(49.25, 26.7)], sub="Bakr b. Wāʾil",
@@ -190,8 +190,10 @@ def darin():
     s.march("al-ʿAlāʾ ؓ", to=(49.95, 26.42), via=[(49.55, 26.1)], pos="left")
 
     s.at(5, "Into the water — across the gulf.")
-    s.sail("al-ʿAlāʾ ؓ", to=(50.42, 26.62), via=[(50.1, 26.5), (50.26, 26.56)], pos="below")
-    s.say("by ship: a day and a night", 51.5, 25.55)
+    # he FORDED it, on horseback — the page: "walking on what was like soft sand with water over it". Not a ship.
+    s.march("al-ʿAlāʾ ؓ", to=(50.42, 26.62), via=[(50.1, 26.5), (50.26, 26.56)], pos="below", dashed=True,
+            unit="cavalry")
+    s.say("for ships, a day and a night", 51.5, 25.55)
 
     s.at(6, "Dārīn falls. He is back the same day.")
     s.leave("the beaten")

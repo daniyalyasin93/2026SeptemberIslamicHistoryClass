@@ -181,6 +181,12 @@ def check(folder, only=None, slides=None):
         if kind == "bridge" and COMMON_NOUN.search(notes2.top_tier(f["notes"])):
             R.add("W1", i, "the bridge's spoken line uses %r — name him"
                   % COMMON_NOUN.search(notes2.top_tier(f["notes"])).group(0))
+        # F7 — a headline is never cut. One that does not fit is rewritten, not ended in an ellipsis.
+        if f["headline"].rstrip().endswith(("…", "...")):
+            R.add("F7", i, "the headline is cut off: %r" % f["headline"])
+        # N7 — every slide he stops on gives him something to say, the title and the dividers included
+        if kind in ("title", "section") and notes2.words(f["notes"]) < 3:
+            R.add("N7", i, "a %s slide with nothing to say in its notes" % kind)
         # F6 — a kicker says when AND where
         if f["kicker"] and re.fullmatch(r"[\d\s–→,.-]+", f["kicker"]):
             R.add("F6", i, "the kicker is only %r — say the year as a year, and the place" % f["kicker"])
