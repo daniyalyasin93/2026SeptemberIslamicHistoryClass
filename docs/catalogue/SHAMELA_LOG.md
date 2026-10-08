@@ -212,3 +212,12 @@ All cached from the household research notes; this is the register entry for put
 | ⁨البدایہ والنہایہ⁩ 30097 | 3212 | ⁨ج۷ ص۶۶⁩ | al-Madhār; Hurmuz had written “to Ardashīr and Shīrā”. `ISA/E-C21` |
 | ⁨البدایہ والنہایہ⁩ 30097 | 3231 | ⁨ج۷ ص۸۵⁩ | The four columns alarm the Romans; they write to Heraclius. `ISA/E-C22` |
 | ⁨البدایہ والنہایہ⁩ 30097 | 3232 | ⁨ج۷ ص۸۶⁩ | «⁨ويحكم إن هؤلاء أهل دين جديد⁩» — Heraclius's advice, and the snort. `ISA/E-C22` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 925 | ⁨ج۲ ص۲۳۴⁩ | The march to Iraq, two tellings; ʿIyāḍ b. Ghanm ؓ from the upper end; **al-Muthannā had asked leave to raid Iraq**. `ISA/E-C26`, `ISA/E-C1` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 926 | ⁨ج۲ ص۲۳۵⁩ | al-Qaʿqāʿ, *one man*; ten thousand and eight thousand; three columns to al-Ḥafīr; Hurmuz. `ISA/E-C27`, `ISA/E-C28` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 927–934 | ⁨ج۲ ص۲۳۶–۲۴۳⁩ | Fetched with the two above (the Iraq campaign of year 12); **not yet read for any card** |
+| ⁨الکامل فی التاریخ⁩ 21712 | 939 | ⁨ج۲ ص۲۴۸⁩ | The first banner for Syria: Khālid b. Saʿīd ؓ, and why it was taken back. `ISA/E-C25` (held) |
+| ⁨الکامل فی التاریخ⁩ 21712 | 940 | ⁨ج۲ ص۲۴۹⁩ | Where the letter found ʿAmr ؓ; al-Walīd given Jordan; Yazīd's ؓ force. `GSA/E-ST9`, `ISA/E-C7` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 942 | ⁨ج۲ ص۲۵۱⁩ | Shuraḥbīl ؓ put over al-Walīd's post; where the four camped. `ISA/E-C7` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3228 | ⁨ج۷ ص۸۲⁩ | Year 13 opens: why Syria — the verse, Tabūk, Usāma's ؓ army. `ISA/E-C23` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3229 | ⁨ج۷ ص۸۳⁩ | The sermon; the banners; each by a road of his own. `ISA/E-C24`, `ISA/E-C7` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3210 | ⁨ج۷ ص۶۴⁩ | The whole letter to the marzubāns; the three columns (Sayf). `ISA/E-C2`, `ISA/E-C28` |

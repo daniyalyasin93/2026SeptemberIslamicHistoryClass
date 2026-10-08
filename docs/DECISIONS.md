@@ -2073,3 +2073,43 @@ so it does not wrap at all.
 
 **Checked:** citations 668/0; cards at baseline; introductions 0 unanswered; the vision gate silent, Q6 and Q7
 included; the rendered slides 49, 69, 75–79, 83, 90, 91 looked at. **Not checked:** the slide show itself.
+
+## 81. Each campaign is told from where it began; a card is checked against its page before it is built on — 2026-10-08
+
+Daniyal, an hour before delivering: *"are you sure about the four commanders to syria? is that enough context? or is
+there more context to launching this campaign? more discussion among sahaba"* · *"where was amr bin al aas when he
+got that letter"* · *"khalid's letter … should be described in more detail in several slides maybe as the
+declaration of war on persia"* · *"we have shortened up the context on both campaigns. on persian side as well, if i
+remember correctly it started with muthana ibn haritha al shaybani. and also on both do the animations things, named
+armies moving"*.
+
+1. **The answer to "are you sure" was no.** `ISA/E-C7` said four provinces were given to four men at one sitting and
+   that the caliph walked beside each. Its pages name three provinces in the banner passage, give Jordan to al-Walīd
+   b. ʿUqba first, send the commanders one after another, and have Abū Bakr ؓ walk beside Yazīd ؓ. The card was
+   written weeks ago; beats were added to it that morning **without re-reading the page**. Corrected, with the pages
+   quoted under it. **Rule: before a card is given beats or a map, its claims are read against its cited page.**
+2. **He remembered right about al-Muthannā** (⁨الکامل ج۲ ص۲۳۴–۲۳۵⁩ — fetched for the question; it was not in the
+   cache). The Iraq campaign now opens with him.
+3. **The hinge is three parts:** VII Persia and Rome · **VIII Iraq** (`C26` al-Muthannā · `C1` the order · `C27`
+   al-Qaʿqāʿ · `C28` three columns · `C2` the letter) · **IX Syria** (`C23` why Syria · `ST9` ʿAmr ؓ · `C24` the sermon ·
+   `ST8` Yazīd ؓ · `C7` the four · `C22` Heraclius). 48 cards, 126 slides, 26 maps / 68 clicks.
+4. **Named columns on the maps.** `s06-iraq` (ten steps), `s06-syria` (six) and a close-up, `s06-syria-camps`
+   (five). At continental scale a banner with its flag and name is three degrees across: the four Syrian camps lie
+   within a hundred kilometres, so they have a close-up; and each banner stands *beside* its place. Banner
+   positions were found by search against the kit's own crowding rule, then looked at — and two were moved by eye
+   (Khālid's ؓ banner had landed on al-Madāʾin, the opposite of what its card says).
+5. **Khālid's ؓ letter is set whole, over three slides.** It was written after al-Ḥīra made its peace, so its first
+   cue says aloud that a year's fighting lies between and is another evening's. On *"the declaration of war"*: the
+   letter gives three ways — Islam, a covenant with hostages, or war. The headline keeps names; the cue for its
+   last line calls it the declaration.
+6. **`ISA/E-C25` — the first banner, and what ʿUmar ؓ said — is written and held.** It is the disagreement among
+   Companions he asked for, and it touches the pledge to Abū Bakr ؓ: his decision, and Tanzeem-e-Islami's reviewer
+   first.
+7. **Not on our pages, and not told:** the long council on Syria (it is in al-Azdī and Ibn ʿAsākir, outside the
+   four books).
+8. **He said "hurry up" twice and left to deliver.** The deck was handed over as built, with the gate green; two
+   late slides (109, 119) were mended and committed; one cosmetic fault was left rather than rewrite the deck while
+   he might be opening it: on slide 119 the key value *al-Jābiya* sits low under its name. ⬜ To mend.
+
+**Not done:** `docs/catalogue/PEOPLE.md` for the new names; the «questions the room will ask» table; a look at
+every step of the three new maps in the slide show itself.

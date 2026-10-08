@@ -399,8 +399,8 @@ stopped at **STOP B**; evening 4 (`S04_kinda_butah_yamama/`) at **STOP D**, al-Y
 (`S05_yamama_dead_oman_mahra/`) at **Checkpoint 2**, Oman and Mahra settled — 33 cards, his slide 63.
 **Evening 6 is `S06_hadramawt_bahrayn/`** — the last front, then Bahrayn; **evening 7 is the hinge**, and the
 Ridda ends on 6 (`DECISIONS.md` #70, `docs/specs/2026-10-07-evenings-6-and-7-spec.md`). **Both are in the one deck** (#72): Parts I–VI close the
-Ridda, Parts VII–VIII are the hinge (`DECISIONS.md` #78, renumbered by #80 when Daniyal cut two parts — 43 cards,
-109 slides), and there is a close after each. Card ids are unique across
+Ridda, Parts VII–IX are the hinge — Persia and Rome, the opening of Iraq, the opening of Syria (`DECISIONS.md`
+#78, #80, #81: 48 cards, 126 slides), and there is a close after each. Card ids are unique across
 pools — the 23–41 AH statements bank is `GSB`, the 11–23 AH one `GSA`.
 
 **The pace is a measured constant: 26 · 32 · 34 · 33 cards in a 45-minute slot** — ≈ 1.36 min a card
