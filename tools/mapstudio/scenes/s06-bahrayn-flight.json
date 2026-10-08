@@ -57,6 +57,18 @@
    "name": "Under a covenant",
    "ur": "",
    "color": "#5B8FD6"
+  },
+  {
+   "id": "f7",
+   "name": "Persia",
+   "ur": "",
+   "color": "#A8442F"
+  },
+  {
+   "id": "f8",
+   "name": "Rome",
+   "ur": "",
+   "color": "#6B5AA8"
   }
  ],
  "underlay": null,
@@ -142,7 +154,7 @@
    "name": "al-ʿAlāʾ ؓ",
    "ur": "",
    "faction": "f1",
-   "strength": "holds the camp",
+   "strength": "",
    "unit": "mixed",
    "labelPos": "right",
    "scale": 1.5
@@ -258,7 +270,7 @@
    "name": "ʿUtayba",
    "ur": "",
    "faction": "f1",
-   "strength": "on the roads",
+   "strength": "",
    "unit": "mixed",
    "labelPos": "right",
    "scale": 1.5
@@ -273,7 +285,7 @@
    "name": "al-Muthannā",
    "ur": "",
    "faction": "f1",
-   "strength": "on the roads",
+   "strength": "",
    "unit": "mixed",
    "labelPos": "below",
    "scale": 1.5
@@ -284,7 +296,7 @@
    "step": 3,
    "note": "say",
    "lon": 48.57016881125342,
-   "lat": 25.020105837389345,
+   "lat": 25.083804266161433,
    "text": "the roads are shut",
    "ur": "",
    "size": 26,

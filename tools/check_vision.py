@@ -127,6 +127,8 @@ def slide_facts(s):
         elif nm.startswith("person:") or nm.startswith("child:") or nm.startswith("marriage:"):
             f["tree"] = True
         elif txt:
+            if nm == "part-en":                      # a rendering, part by part: a speaker's words, not ours
+                f.setdefault("quoted", []).append(txt)
             f["boxes"].append(txt)
             if ARABIC.search(txt) and len(ARABIC.findall(txt)) > 12 and not f["arabic"]:
                 f["arabic"] = txt
@@ -181,7 +183,7 @@ def check(folder, only=None, slides=None):
                 R.add("F1", i, "the title %r names no place and no person" % body.strip()[:60])
         # W1 — a Companion is named
         for t in face:
-            if t and t[:1] not in '"“' and COMMON_NOUN.search(t):
+            if t and t[:1] not in '"“' and t not in f.get("quoted", ()) and COMMON_NOUN.search(t):
                 R.add("W1", i, "a common noun where a name belongs: %r" % COMMON_NOUN.search(t).group(0))
         if kind == "bridge" and COMMON_NOUN.search(notes2.top_tier(f["notes"])):
             R.add("W1", i, "the bridge's spoken line uses %r — name him"
@@ -195,15 +197,23 @@ def check(folder, only=None, slides=None):
         # F6 — a kicker says when AND where
         if f["kicker"] and re.fullmatch(r"[\d\s–→,.-]+", f["kicker"]):
             R.add("F6", i, "the kicker is only %r — say the year as a year, and the place" % f["kicker"])
+        # Q4 — text that does not fit is set in parts and carried over; it is never cut off with "…"
+        if f["arabic"]:
+            for box in f["boxes"]:
+                if box.rstrip('"“”').endswith("…") and not ARABIC.search(box[:6]):
+                    R.add("Q4", i, "a rendering is cut off on the face: %r — set the quotation in parts" % box[-50:])
         # Q1 / F4 / W3 — a quotation
         if f["arabic"] and not f.get("tree") and kind not in ("tree",):
             if not f["speaker"]:
                 R.add("Q1", i, "a quotation with no speaker on the face (%s)" % (f["headline"] or "no headline"))
             prev = (kinds.get(i - 1) or {}).get("kind", "")
             # a quotation straight after another at the same place inherits its picture: the room has not moved
-            before = facts.get(i - 1) or {}
-            same = bool(before.get("arabic")) and bool(before.get("scene") or (kinds.get(i - 2) or {}).get("kind") == "map")                 and _place(before.get("kicker")) == _place(f["kicker"]) != ""
-            if prev != "map" and not f["scene"] and kind != "words" and not same:
+            j = i - 1
+            while j > 1 and (kinds.get(j) or {}).get("kind") == "cont":      # back over a quotation's own later slides
+                j -= 1
+            before = facts.get(j) or {}
+            same = bool(before.get("arabic")) and bool(before.get("scene") or (kinds.get(j - 1) or {}).get("kind") == "map")                 and _place(before.get("kicker")) == _place(f["kicker"]) != ""
+            if prev != "map" and not f["scene"] and kind not in ("words", "cont") and not same:
                 R.add("F4", i, "a quotation with no scene line and no map before it (%s)" % f["headline"])
             for t in f["boxes"]:
                 if not ARABIC.search(t) and GLOSS_WORDS.search(t):
@@ -278,6 +288,8 @@ def check(folder, only=None, slides=None):
             R.add(msg.split(" ", 1)[0], scene, msg.split(" ", 1)[1])
         for msg in mapkit.check_ranges(d, sorted((a, b) for a, b, _ in uses)):
             R.add("M3", scene, msg.lstrip(": "))
+        for msg in mapkit.check_stale(d, sorted((a, b) for a, b, _ in uses)):
+            R.add("M16", scene, msg.split("M16 ", 1)[1])
         for fac in d.get("factions", []):
             if fac.get("id") == "f1" and fac.get("color", "").upper() != mapkit.GREEN:
                 R.add("M14", scene, "Muslim forces are %s; the one green is %s" % (fac.get("color"), mapkit.GREEN))
@@ -375,8 +387,12 @@ def check(folder, only=None, slides=None):
         t = json.load(open(tl, encoding="utf-8"))
         if len(t.get("lanes", [])) > 2:
             R.add("L1", "timeline", "%d strands on the Line; one or two" % len(t["lanes"]))
-        if len(t.get("events", [])) > 8:
-            R.add("L1", "timeline", "%d events on the Line; eight at most" % len(t["events"]))
+        # eight at most on any ONE Line: a render draws what has been told (its lit groups) and what was
+        # delivered on an earlier evening — never the parts not yet reached
+        for r in t.get("renders", []):
+            drawn = [e for e in t.get("events", []) if e.get("group") == "delivered" or e.get("group") in r.get("lit", [])]
+            if len(drawn) > 8:
+                R.add("L1", "timeline", "%d events on the Line %r; eight at most" % (len(drawn), r.get("name")))
 
     # I1 — one file with every brief
     if any(f["placeholder"] for f in facts.values()) and not os.path.exists(os.path.join(folder, "IMAGE_BRIEFS.md")):

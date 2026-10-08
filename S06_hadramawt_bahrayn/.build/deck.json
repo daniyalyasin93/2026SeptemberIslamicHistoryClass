@@ -68,177 +68,179 @@
    "card": "RCT/E-RC82"
   },
   "19": {
+   "kind": "cont",
+   "card": "RCT/E-RC82"
+  },
+  "20": {
+   "kind": "cont",
+   "card": "RCT/E-RC82"
+  },
+  "21": {
    "kind": "card",
    "card": "RCT/E-RC83"
   },
-  "20": {
+  "22": {
    "kind": "card",
    "card": "RCT/E-RC87"
   },
-  "21": {
-   "kind": "map",
-   "card": "RCT/E-RC26"
-  },
-  "22": {
-   "kind": "words",
-   "card": "RCT/E-RC26"
-  },
   "23": {
-   "kind": "map",
-   "card": "RCT/E-RC73"
+   "kind": "cont",
+   "card": "RCT/E-RC87"
   },
   "24": {
+   "kind": "map",
+   "card": "RCT/E-RC26"
+  },
+  "25": {
+   "kind": "words",
+   "card": "RCT/E-RC26"
+  },
+  "26": {
+   "kind": "map",
+   "card": "RCT/E-RC73"
+  },
+  "27": {
    "kind": "words",
    "card": "RCT/E-RC73"
   },
-  "25": {
-   "kind": "map",
-   "card": "RCT/E-RC74"
-  },
-  "26": {
-   "kind": "words",
-   "card": "RCT/E-RC74"
-  },
-  "27": {
-   "kind": "map",
-   "card": "RCT/E-RC84"
-  },
   "28": {
-   "kind": "words",
-   "card": "RCT/E-RC84"
+   "kind": "map",
+   "card": "RCT/E-RC74"
   },
   "29": {
-   "kind": "card",
-   "card": "RCT/E-RC85"
+   "kind": "words",
+   "card": "RCT/E-RC74"
   },
   "30": {
-   "kind": "card",
-   "card": "RCT/E-RC86"
+   "kind": "map",
+   "card": "RCT/E-RC84"
   },
   "31": {
-   "kind": "map",
-   "card": "RCT/E-RC27"
+   "kind": "words",
+   "card": "RCT/E-RC84"
   },
   "32": {
-   "kind": "words",
-   "card": "RCT/E-RC27"
+   "kind": "cont",
+   "card": "RCT/E-RC84"
   },
   "33": {
    "kind": "card",
-   "card": "RCT/E-RC75"
+   "card": "RCT/E-RC85"
   },
   "34": {
-   "kind": "card",
-   "card": "RCT/E-RC28"
+   "kind": "cont",
+   "card": "RCT/E-RC85"
   },
   "35": {
-   "kind": "checkpoint"
+   "kind": "card",
+   "card": "RCT/E-RC86"
   },
   "36": {
-   "kind": "checkpoint"
+   "kind": "cont",
+   "card": "RCT/E-RC86"
   },
   "37": {
-   "kind": "section",
-   "part": "Part III"
+   "kind": "map",
+   "card": "RCT/E-RC27"
   },
   "38": {
-   "kind": "bridge"
+   "kind": "words",
+   "card": "RCT/E-RC27"
   },
   "39": {
-   "kind": "tree"
+   "kind": "card",
+   "card": "RCT/E-RC75"
   },
   "40": {
    "kind": "card",
-   "card": "KTK/E-KD05"
+   "card": "RCT/E-RC28"
   },
   "41": {
+   "kind": "checkpoint"
+  },
+  "42": {
+   "kind": "checkpoint"
+  },
+  "43": {
+   "kind": "section",
+   "part": "Part III"
+  },
+  "44": {
+   "kind": "bridge"
+  },
+  "45": {
+   "kind": "tree"
+  },
+  "46": {
+   "kind": "card",
+   "card": "KTK/E-KD05"
+  },
+  "47": {
    "kind": "section",
    "part": "Part IV"
   },
-  "42": {
+  "48": {
    "kind": "map",
    "card": "TSY/E-YK07"
   },
-  "43": {
+  "49": {
    "kind": "words",
    "card": "TSY/E-YK07"
   },
-  "44": {
+  "50": {
    "kind": "card",
    "card": "RCT/E-RC33"
   },
-  "45": {
-   "kind": "map",
-   "card": "TSY/E-YK08"
-  },
-  "46": {
-   "kind": "words",
-   "card": "TSY/E-YK08"
-  },
-  "47": {
-   "kind": "map",
-   "card": "TSY/E-YK09"
-  },
-  "48": {
-   "kind": "words",
-   "card": "TSY/E-YK09"
-  },
-  "49": {
-   "kind": "map",
-   "card": "TSY/E-YK10"
-  },
-  "50": {
-   "kind": "words",
-   "card": "TSY/E-YK10"
-  },
   "51": {
    "kind": "map",
-   "card": "TSY/E-YK19"
+   "card": "TSY/E-YK08"
   },
   "52": {
    "kind": "words",
-   "card": "TSY/E-YK19"
+   "card": "TSY/E-YK08"
   },
   "53": {
    "kind": "map",
-   "card": "TSY/E-YK11"
+   "card": "TSY/E-YK09"
   },
   "54": {
    "kind": "words",
-   "card": "TSY/E-YK11"
+   "card": "TSY/E-YK09"
   },
   "55": {
-   "kind": "map"
+   "kind": "cont",
+   "card": "TSY/E-YK09"
   },
   "56": {
-   "kind": "card",
-   "card": "TSY/E-YK12"
+   "kind": "map",
+   "card": "TSY/E-YK10"
   },
   "57": {
-   "kind": "checkpoint"
+   "kind": "words",
+   "card": "TSY/E-YK10"
   },
   "58": {
-   "kind": "checkpoint"
+   "kind": "map",
+   "card": "TSY/E-YK19"
   },
   "59": {
-   "kind": "section",
-   "part": "Part V"
+   "kind": "words",
+   "card": "TSY/E-YK19"
   },
   "60": {
-   "kind": "card",
-   "card": "TSY/E-YK14"
+   "kind": "map",
+   "card": "TSY/E-YK11"
   },
   "61": {
-   "kind": "card",
-   "card": "POT/E-PG40"
+   "kind": "words",
+   "card": "TSY/E-YK11"
   },
   "62": {
-   "kind": "card",
-   "card": "TSY/E-YK16"
+   "kind": "map"
   },
   "63": {
    "kind": "card",
-   "card": "POT/E-PG41"
+   "card": "TSY/E-YK12"
   },
   "64": {
    "kind": "checkpoint"
@@ -248,79 +250,204 @@
   },
   "66": {
    "kind": "section",
-   "part": "Part VI"
+   "part": "Part V"
   },
   "67": {
-   "kind": "bridge"
+   "kind": "card",
+   "card": "TSY/E-YK14"
   },
   "68": {
    "kind": "card",
-   "card": "ATA/E-TB22"
+   "card": "POT/E-PG40"
   },
   "69": {
-   "kind": "card",
-   "card": "RCT/E-RC78"
+   "kind": "cont",
+   "card": "POT/E-PG40"
   },
   "70": {
    "kind": "card",
-   "card": "ATA/E-TB10"
+   "card": "TSY/E-YK16"
   },
   "71": {
-   "kind": "card",
-   "card": "ATA/E-TB13"
+   "kind": "cont",
+   "card": "TSY/E-YK16"
   },
   "72": {
    "kind": "card",
-   "card": "ATA/E-TB25"
+   "card": "POT/E-PG41"
   },
   "73": {
-   "kind": "section",
-   "part": "Part VII"
+   "kind": "checkpoint"
   },
   "74": {
-   "kind": "card",
-   "card": "RCT/E-RC36"
+   "kind": "checkpoint"
   },
   "75": {
-   "kind": "card",
-   "card": "RCT/E-RC81"
+   "kind": "section",
+   "part": "Part VI"
   },
   "76": {
-   "kind": "card",
-   "card": "RCT/E-RC39"
+   "kind": "bridge"
   },
   "77": {
    "kind": "card",
-   "card": "RCT/E-RC43"
+   "card": "ATA/E-TB22"
   },
   "78": {
    "kind": "card",
-   "card": "RCT/E-RC35"
+   "card": "RCT/E-RC78"
   },
   "79": {
-   "kind": "checkpoint"
+   "kind": "card",
+   "card": "ATA/E-TB10"
   },
   "80": {
-   "kind": "checkpoint"
+   "kind": "cont",
+   "card": "ATA/E-TB10"
   },
   "81": {
-   "kind": "section",
-   "part": "Part VIII"
+   "kind": "card",
+   "card": "ATA/E-TB13"
   },
   "82": {
    "kind": "card",
-   "card": "IKO/E-IKR1"
+   "card": "ATA/E-TB25"
   },
   "83": {
-   "kind": "close"
+   "kind": "section",
+   "part": "Part VII"
   },
   "84": {
-   "kind": "map"
+   "kind": "card",
+   "card": "RCT/E-RC36"
   },
   "85": {
-   "kind": "close"
+   "kind": "card",
+   "card": "RCT/E-RC81"
   },
   "86": {
+   "kind": "card",
+   "card": "RCT/E-RC39"
+  },
+  "87": {
+   "kind": "cont",
+   "card": "RCT/E-RC39"
+  },
+  "88": {
+   "kind": "card",
+   "card": "RCT/E-RC43"
+  },
+  "89": {
+   "kind": "card",
+   "card": "RCT/E-RC35"
+  },
+  "90": {
+   "kind": "checkpoint"
+  },
+  "91": {
+   "kind": "checkpoint"
+  },
+  "92": {
+   "kind": "section",
+   "part": "Part VIII"
+  },
+  "93": {
+   "kind": "card",
+   "card": "IKO/E-IKR1"
+  },
+  "94": {
+   "kind": "close"
+  },
+  "95": {
+   "kind": "map"
+  },
+  "96": {
+   "kind": "close"
+  },
+  "97": {
+   "kind": "close"
+  },
+  "98": {
+   "kind": "section",
+   "part": "Part IX"
+  },
+  "99": {
+   "kind": "map"
+  },
+  "100": {
+   "kind": "card",
+   "card": "ISA/E-C21"
+  },
+  "101": {
+   "kind": "cont",
+   "card": "ISA/E-C21"
+  },
+  "102": {
+   "kind": "section",
+   "part": "Part X"
+  },
+  "103": {
+   "kind": "map",
+   "card": "ISA/E-C1"
+  },
+  "104": {
+   "kind": "words",
+   "card": "ISA/E-C1"
+  },
+  "105": {
+   "kind": "cont",
+   "card": "ISA/E-C1"
+  },
+  "106": {
+   "kind": "map",
+   "card": "ISA/E-C7"
+  },
+  "107": {
+   "kind": "words",
+   "card": "ISA/E-C7"
+  },
+  "108": {
+   "kind": "card",
+   "card": "GSA/E-ST8"
+  },
+  "109": {
+   "kind": "cont",
+   "card": "GSA/E-ST8"
+  },
+  "110": {
+   "kind": "card",
+   "card": "GSA/E-ST9"
+  },
+  "111": {
+   "kind": "cont",
+   "card": "GSA/E-ST9"
+  },
+  "112": {
+   "kind": "map",
+   "card": "ISA/E-C2"
+  },
+  "113": {
+   "kind": "words",
+   "card": "ISA/E-C2"
+  },
+  "114": {
+   "kind": "card",
+   "card": "ISA/E-C22"
+  },
+  "115": {
+   "kind": "cont",
+   "card": "ISA/E-C22"
+  },
+  "116": {
+   "kind": "close"
+  },
+  "117": {
+   "kind": "close"
+  },
+  "118": {
+   "kind": "close"
+  },
+  "119": {
    "kind": "close"
   }
  },
@@ -366,7 +493,14 @@
   "RCT/E-RC39",
   "RCT/E-RC43",
   "RCT/E-RC35",
-  "IKO/E-IKR1"
+  "IKO/E-IKR1",
+  "ISA/E-C21",
+  "ISA/E-C1",
+  "ISA/E-C7",
+  "GSA/E-ST8",
+  "GSA/E-ST9",
+  "ISA/E-C2",
+  "ISA/E-C22"
  ],
  "iman": [
   "RCT/E-RC82",

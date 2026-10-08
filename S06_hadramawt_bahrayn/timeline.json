@@ -21,6 +21,12 @@
    "min_slots": 3.6
   },
   {
+   "id": "13",
+   "label": "13 AH",
+   "short": "13 AH",
+   "min_slots": 2.0
+  },
+  {
    "id": "after",
    "label": "Years later",
    "short": "Years later",
@@ -175,13 +181,45 @@
     "RCT/E-RC81"
    ],
    "note": ""
+  },
+  {
+   "id": "h1",
+   "lane": "medina",
+   "band": "12",
+   "col": 2,
+   "order": 1,
+   "group": "part6",
+   "label": "The order to Iraq",
+   "short": "The order to Iraq",
+   "when": "Muḥarram 12 AH",
+   "certainty": "SOURCED",
+   "cards": [
+    "ISA/E-C1"
+   ],
+   "note": "al-Madāʾinī's date, by his chain."
+  },
+  {
+   "id": "h2",
+   "lane": "medina",
+   "band": "13",
+   "col": 1,
+   "order": 1,
+   "group": "part6",
+   "label": "Four commanders, four roads",
+   "short": "Four commanders, four roads",
+   "when": "early 13 AH",
+   "certainty": "SOURCED",
+   "cards": [
+    "ISA/E-C7"
+   ],
+   "note": ""
   }
  ],
  "links": [],
  "not_drawn": {
   "why": "Tonight's parts not yet reached at a checkpoint are not drawn at all, so the Line never shows the room an event before it has been told.",
-  "parts": "part1-part5 light in order; the close lights all five.",
-  "held": "Parts IX and X (the two empires, and the two letters) are not on the Line — they are not built."
+  "parts": "part2-part5 light in order; the first close lights all four; the hinge close adds part6.",
+  "held": "The last render, line_s06_hinge, is the hinge close: the war in sum, the order to Iraq, the four commanders. The fronts of Parts II-IV are not redrawn on it — a Line carries eight events at most (VISION L1)."
  },
  "renders": [
   {
@@ -226,6 +264,14 @@
     "part3",
     "part4",
     "part5"
+   ]
+  },
+  {
+   "name": "line_s06_hinge",
+   "title": "Tonight on the Line",
+   "lit": [
+    "part5",
+    "part6"
    ]
   }
  ]

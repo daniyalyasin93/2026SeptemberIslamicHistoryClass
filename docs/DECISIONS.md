@@ -1816,3 +1816,111 @@ as a list of four because the first four were the ones that had been asked about
 **Not done.** `S06_notes.pdf`, the home-reading book of #60, has not been made for this evening. The Ḥaḍramawt regional map is still evening 5's hand-placed scene, brought up to the rules
 (`settle`, owners for every arrow) rather than re-scripted. `PEOPLE.md` promotions; Parts IX–X.
 
+---
+
+## 76. A quotation that does not fit is set in parts, and carried over — never cut — 2026-10-08
+
+**What Daniyal said**, of a duʿāʾ whose English had been cut off on the face with "…": *"Whenever the text is not
+fitting like for the dua. I think we could do something like one part of dua per line and the new line. Also first
+Arabic one part. Then it's translation. Then next Arabic. And so on. We can move part to next new slide."*
+
+**What it replaces.** Since evening 4 a statement slide showed the Arabic whole and **truncated its rendering** to
+the lines that were left (`deck2.statement_slide`, "cut at a clause"). On the deck he reviewed, **34 of 41
+quotation slides ended in "…"**. He delivers in Urdu from the English; a rendering that stops mid-sentence sends
+him into the notes for the rest, which is the thing #60 was meant to end.
+
+**Decided.**
+
+1. **VISION Q4: nothing on a face is cut off.** A quotation that fits one statement slide is shown as before. One
+   that does not is set **in parts** (`deck2.parts_slides`): a clause of the Arabic, its rendering directly
+   beneath, then the next clause — centred, the Arabic always the larger — over as many slides as it takes, each
+   with the same headline, speaker and source.
+2. **Where each part ends is authored, per card** (`PARTS` in the evening's `build.py`): the Arabic words and the
+   English words that close each clause, and `"|"` where a new slide starts. The parts are **lifted out of the card
+   by bytes** — nothing is retyped onto a face — and the build refuses a split that cannot find its words.
+   **Reason for authoring rather than splitting at punctuation:** an Arabic clause set over the wrong English
+   clause is a mistranslation on a projector, and no punctuation count can rule it out.
+3. **No stray clause.** A paging that leaves one clause alone on a last slide is refused unless the author asked
+   for that break (the three names in `YK16`; "so rise against your enemy" in `RC85`).
+4. **An omission stays visible.** Where a card marks words left out with "…", the mark stands at the head of the
+   part that follows it. A verse's caesura or a page turn is not an omission and does not reach the face.
+5. **The 20-word cap of #21 governs undivided body text.** A slide of parts is governed by its height — four parts
+   at most, the Arabic never under 32pt, the rendering never under the 24pt floor.
+6. **A moment of faith is shown whole** (VISION D1): the three questions at al-Dahnāʾ run over three slides; both
+   duʿāʾs over two.
+7. The build also refuses a cut key beside an image placeholder ("eleven arrows out of…", slide 77): such keys are
+   written (`FACE_KEY`).
+
+**Cost.** Twelve quotations run to a second slide and one to a third. Evening 6's deck went from 86 to 98 slides
+before Parts IX–X were added.
+
+---
+
+## 77. A label lives as long as it is being talked about — 2026-10-08
+
+**What Daniyal said**, looking at the last frames of the redrawn Ḥaḍramawt map: *"When you make a sequence in map.
+The end images of that sequence have a lot of rush of labels. Maybe the initial labels that are no longer relevant
+need to use the hide after step or similar setting. Please critically process this feedback. I might not be 100%
+right."*
+
+**Processed.** He is right about three things and the fourth is kept.
+
+| | Verdict | What changed |
+|---|---|---|
+| Names of earlier battles | **right** — "the four kings" was still on the map three slides after it was told | a battle mark goes when its own slide ends |
+| Old roads | **right** — al-Muhājir's ؓ road to Ḥaḍramawt and his road back lay on top of each other | `march()` shows the last leg only; `trail=True` for a road that is itself the story (al-ʿAlāʾ's ؓ gathering column) |
+| The second line under every banner | **right** — it repeated the slide's own key | a banner carries a name; a second line only when it is the news ("+ Banū Ḥanīfa", "an army now") |
+| Places, and banners of forces not acting | **kept** — removing a force that is still on the field is the "al-Jārūd is still stuck" complaint in reverse (M4, M6) | — |
+
+**The mechanism.** `Scene.cut()` marks where one slide ends and the next begins; everything *told* on the slide that
+is ending is retired at that step, so it stands on the next slide's opening frame and goes with its first click.
+**VISION M16** and `mapkit.check_stale` enforce it for hand-made scenes too.
+
+**One thing he could not have known, and it makes the rush look worse than it is:** PowerPoint's editing view and
+the PDF beside the deck show a map slide with **every click's layer on at once**. Captions that never share the
+screen in the slide show are all visible there. The notes book now shows the frame each slide ends on instead
+(`S06_hadramawt_bahrayn/notes_book.py`), and VISION §5 says to judge a map in the slide show or from its steps.
+
+---
+
+## 78. Parts IX and X are built — from seven pages that were already in the cache — 2026-10-08
+
+**Asked for:** *"And make part 9-10."* The runsheet had held them back for want of a page-cited note on the two
+empires (#70; spec §4).
+
+**The note** — `docs/research/the-two-empires-at-the-hinge-12-13ah.md` — fetched nothing. The cache already held
+what the hinge needs, and it is four things told in passing, not a description of two states:
+
+| | Page |
+|---|---|
+| Khālid's ؓ first letter was sent on "to Shīrā son of Kisrā, and Ardashīr son of Shīrā" | ⁨البدایہ ج۷ ص۶۴⁩ |
+| the Persian house had killed its own males in Shīrā's days; its last king was a boy who had been got away | ⁨الکامل ج۲ ص۲۸۴⁩ |
+| when the four columns set out, "it alarmed the Romans, and they feared greatly" | ⁨البدایہ ج۷ ص۸۵⁩ |
+| Heraclius told them to make peace — "these are the people of a new religion" — and they refused | ⁨البدایہ ج۷ ص۸۶⁩ · ⁨الکامل ج۲ ص۲۵۱⁩ |
+
+**Built.** Part IX opens on a map of the two empires **in outline, and saying so on its face**, then
+`ISA/E-C21` (new). Part X: `ISA/E-C1`, `C7`, `GSA/E-ST8`, `ST9`, `ISA/E-C2`, and `ISA/E-C22` (new) — the
+cliffhanger. **Nothing is taken**: the map moves three times — Khālid ؓ to the lower end of Iraq, four roads toward
+Syria, a letter to al-Madāʾin. A **second close** follows (Line · map · Tonight · Next week); the first close, after
+Part VIII, is now scripted both ways (#59).
+
+**Kept off the slides** because no page of ours carries it: every date for Shīrā, Ardashīr, Yazdagird and
+Heraclius; the earlier Roman–Persian war; either empire's borders. General histories date Shīrā's death years
+before 12 AH `[CONVENTIONAL-ESTIMATE]`; Ibn Kathīr's page has the letter sent on to him. **The lectern does not
+reconcile them.**
+
+**`ISA/E-C2` was wrong and is corrected.** It opened "Khālid ؓ had taken al-Ḥīra". Its own page says the first
+people he met chose the jizya, and *then* he wrote.
+
+**A trap found on the way, and closed.** Both statement banks — 11–23 AH and 23–41 AH — numbered their cards
+`GSA/E-ST1…`, and `pool_cards()` let the later pool win without a word. The runsheet's `GSA/E-ST8` (Abū Bakr's ؓ
+charge to Yazīd ؓ) was about to be built from a 23–41 AH card. The later pool's forty-two are now `GSB/E-ST…`;
+every outside reference (`DELIVERED.md`, `LESSONS.md`, `TIMELINE.md`) already meant the earlier pool. **Two cards
+sharing one id now stops the build.**
+
+**His answers, the same day:** *"keep the diagram even not in full scale"* — the words stay on the face; and slide
+20 (`RCT/E-RC87`, the duʿāʾ in another telling) stays.
+
+**Also made, as asked:** `S06_notes.pdf` and `S06_notes.md` (the home reading of #60), and the Ḥaḍramawt map
+re-written through `series/mapkit.py` — sixteen steps, the same slices.
+

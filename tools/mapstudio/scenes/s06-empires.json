@@ -1,0 +1,694 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "Persia and Rome",
+  "subtitle": "",
+  "urduTitle": "",
+  "kind": "theatre",
+  "parent": null,
+  "centre": null,
+  "radius_km": null,
+  "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
+ },
+ "view": {
+  "cx": 38.97114317029974,
+  "cy": -26.5,
+  "scale": 29.333333333333336
+ },
+ "style": {
+  "relief": true,
+  "reliefStrength": 0.6,
+  "rivers": true,
+  "markScale": 2.0,
+  "cartoucheScale": 2.0,
+  "graticule": false,
+  "grain": true,
+  "vignette": true,
+  "cartouche": false,
+  "legend": false,
+  "scalebar": true,
+  "urduLabels": false,
+  "aspect": "16:9"
+ },
+ "factions": [
+  {
+   "id": "f1",
+   "name": "Muslim forces",
+   "ur": "",
+   "color": "#2CB020"
+  },
+  {
+   "id": "f4",
+   "name": "In revolt",
+   "ur": "",
+   "color": "#E7A244"
+  },
+  {
+   "id": "f5",
+   "name": "Not yet told",
+   "ur": "",
+   "color": "#9AA39E"
+  },
+  {
+   "id": "f6",
+   "name": "Under a covenant",
+   "ur": "",
+   "color": "#5B8FD6"
+  },
+  {
+   "id": "f7",
+   "name": "Persia",
+   "ur": "",
+   "color": "#A8442F"
+  },
+  {
+   "id": "f8",
+   "name": "Rome",
+   "ur": "",
+   "color": "#6B5AA8"
+  }
+ ],
+ "underlay": null,
+ "objects": [
+  {
+   "id": "t_001",
+   "type": "territory",
+   "step": 1,
+   "note": "region:arabia",
+   "pts": [
+    [
+     35.0,
+     28.6
+    ],
+    [
+     37.0,
+     25.2
+    ],
+    [
+     39.0,
+     21.0
+    ],
+    [
+     42.6,
+     16.2
+    ],
+    [
+     43.4,
+     12.9
+    ],
+    [
+     45.2,
+     13.0
+    ],
+    [
+     48.6,
+     14.1
+    ],
+    [
+     52.2,
+     16.4
+    ],
+    [
+     55.4,
+     17.6
+    ],
+    [
+     58.6,
+     20.4
+    ],
+    [
+     59.7,
+     22.5
+    ],
+    [
+     56.4,
+     25.6
+    ],
+    [
+     55.3,
+     24.3
+    ],
+    [
+     51.6,
+     24.2
+    ],
+    [
+     50.7,
+     25.4
+    ],
+    [
+     50.0,
+     26.8
+    ],
+    [
+     48.6,
+     28.6
+    ],
+    [
+     47.6,
+     29.6
+    ],
+    [
+     46.2,
+     29.2
+    ],
+    [
+     43.5,
+     30.4
+    ],
+    [
+     40.0,
+     31.6
+    ],
+    [
+     37.5,
+     30.6
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "opacity": 0.22
+  },
+  {
+   "id": "t_002",
+   "type": "territory",
+   "step": 1,
+   "note": "region:persia",
+   "pts": [
+    [
+     44.0,
+     37.2
+    ],
+    [
+     48.0,
+     38.6
+    ],
+    [
+     54.0,
+     38.2
+    ],
+    [
+     61.0,
+     36.6
+    ],
+    [
+     62.5,
+     31.0
+    ],
+    [
+     61.0,
+     26.2
+    ],
+    [
+     57.2,
+     27.0
+    ],
+    [
+     54.0,
+     26.8
+    ],
+    [
+     51.4,
+     28.0
+    ],
+    [
+     50.2,
+     30.0
+    ],
+    [
+     48.4,
+     30.4
+    ],
+    [
+     47.4,
+     30.3
+    ],
+    [
+     45.4,
+     31.4
+    ],
+    [
+     43.6,
+     32.6
+    ],
+    [
+     41.6,
+     34.6
+    ],
+    [
+     42.2,
+     36.6
+    ]
+   ],
+   "faction": "f7",
+   "label": "",
+   "ur": "",
+   "opacity": 0.2
+  },
+  {
+   "id": "t_003",
+   "type": "territory",
+   "step": 1,
+   "note": "region:rome",
+   "pts": [
+    [
+     27.2,
+     40.9
+    ],
+    [
+     32.0,
+     41.8
+    ],
+    [
+     36.5,
+     41.4
+    ],
+    [
+     41.0,
+     40.4
+    ],
+    [
+     42.4,
+     38.6
+    ],
+    [
+     42.2,
+     36.8
+    ],
+    [
+     41.4,
+     34.8
+    ],
+    [
+     39.6,
+     33.2
+    ],
+    [
+     38.2,
+     32.2
+    ],
+    [
+     36.6,
+     30.4
+    ],
+    [
+     35.4,
+     29.4
+    ],
+    [
+     34.9,
+     29.5
+    ],
+    [
+     34.3,
+     31.3
+    ],
+    [
+     35.0,
+     32.8
+    ],
+    [
+     35.7,
+     34.6
+    ],
+    [
+     35.9,
+     36.2
+    ],
+    [
+     36.2,
+     36.7
+    ],
+    [
+     34.6,
+     36.6
+    ],
+    [
+     32.5,
+     36.1
+    ],
+    [
+     30.5,
+     36.3
+    ],
+    [
+     28.5,
+     36.7
+    ],
+    [
+     27.3,
+     37.4
+    ],
+    [
+     27.0,
+     39.0
+    ]
+   ],
+   "faction": "f8",
+   "label": "",
+   "ur": "",
+   "opacity": 0.2
+  },
+  {
+   "id": "l_004",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 45.5,
+   "lat": 21.2,
+   "text": "ARABIA",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_005",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 56.5,
+   "lat": 35.4,
+   "text": "PERSIA",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_006",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 33.6,
+   "lat": 38.9,
+   "text": "ROME",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_007",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 36.4,
+   "lat": 36.6,
+   "text": "Syria",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_008",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 45.9,
+   "lat": 31.6,
+   "text": "Iraq",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_009",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 28.860435656744553,
+   "lat": 12.65909090909091,
+   "text": "in outline — not borders",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "s_010",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 39.611,
+   "lat": 24.471,
+   "name": "Medina",
+   "ur": "",
+   "tier": "capital",
+   "labelPos": "left",
+   "scale": 1.5
+  },
+  {
+   "id": "s_011",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 44.58,
+   "lat": 33.09,
+   "name": "al-Madāʾin",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "above",
+   "scale": 1.5
+  },
+  {
+   "id": "s_012",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 35.22,
+   "lat": 31.78,
+   "name": "Jerusalem",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "left",
+   "scale": 1.5
+  },
+  {
+   "id": "l_013",
+   "type": "label",
+   "step": 2,
+   "note": "say",
+   "lon": 55.61904604204046,
+   "lat": 28.64090909090909,
+   "text": "killed by his own son",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 2
+  },
+  {
+   "id": "l_014",
+   "type": "label",
+   "step": 3,
+   "note": "say",
+   "lon": 27.48424256054892,
+   "lat": 36.00454545454545,
+   "text": "Heraclius",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 3
+  },
+  {
+   "id": "a_015",
+   "type": "arrow",
+   "step": 4,
+   "note": "march:Khālid ؓ",
+   "pts": [
+    [
+     46.7,
+     24.6
+    ],
+    [
+     48.0,
+     26.8
+    ],
+    [
+     48.3,
+     28.8
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0,
+   "until": 4
+  },
+  {
+   "id": "a_016",
+   "type": "army",
+   "step": 4,
+   "note": "force",
+   "lon": 48.3,
+   "lat": 28.8,
+   "name": "Khālid ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_015"
+  },
+  {
+   "id": "a_017",
+   "type": "arrow",
+   "step": 5,
+   "note": "said",
+   "pts": [
+    [
+     39.611,
+     24.471
+    ],
+    [
+     37.2,
+     27.4
+    ],
+    [
+     36.0,
+     30.2
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 6.0,
+   "until": 5
+  },
+  {
+   "id": "a_018",
+   "type": "arrow",
+   "step": 5,
+   "note": "said",
+   "pts": [
+    [
+     39.611,
+     24.471
+    ],
+    [
+     38.0,
+     27.8
+    ],
+    [
+     36.9,
+     30.9
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 6.0,
+   "until": 5
+  },
+  {
+   "id": "a_019",
+   "type": "arrow",
+   "step": 5,
+   "note": "said",
+   "pts": [
+    [
+     39.611,
+     24.471
+    ],
+    [
+     38.9,
+     28.2
+    ],
+    [
+     37.8,
+     31.5
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 6.0,
+   "until": 5
+  },
+  {
+   "id": "a_020",
+   "type": "arrow",
+   "step": 5,
+   "note": "said",
+   "pts": [
+    [
+     39.611,
+     24.471
+    ],
+    [
+     39.7,
+     28.6
+    ],
+    [
+     38.7,
+     32.2
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 6.0,
+   "until": 5
+  },
+  {
+   "id": "l_021",
+   "type": "label",
+   "step": 5,
+   "note": "say",
+   "lon": 39.86683124302314,
+   "lat": 27.822727272727274,
+   "text": "four roads",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 5
+  },
+  {
+   "id": "a_022",
+   "type": "arrow",
+   "step": 6,
+   "note": "letter",
+   "pts": [
+    [
+     48.3,
+     28.8
+    ],
+    [
+     46.44,
+     31.0938
+    ],
+    [
+     44.58,
+     33.09
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 8.0,
+   "until": 6
+  },
+  {
+   "id": "l_023",
+   "type": "label",
+   "step": 6,
+   "note": "say",
+   "lon": 48.168078386207796,
+   "lat": 37.64090909090909,
+   "text": "a letter",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 6
+  }
+ ],
+ "steps": {
+  "count": 6,
+  "current": 6,
+  "mode": "upto"
+ }
+}

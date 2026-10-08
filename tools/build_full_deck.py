@@ -175,10 +175,18 @@ RUNSHEET_ROW = re.compile(r"^\|\s*\d+\s*\|\s*`([A-Z]+/E-[A-Z]+\d+)`[^|]*\|[^|]*\
 
 def pool_cards():
     """Every card in every era pool, by full id (DECISIONS.md #33)."""
-    out = {}
+    out, where, twice = {}, {}, []
     for d in POOLS:
         for c in cards_of(os.path.join(ROOT, d, "CONTENT.md")):
+            if c["id"] in out:
+                twice.append("%s (in %s and in %s)" % (c["id"], where[c["id"]], d))
             out[c["id"]] = c
+            where[c["id"]] = d
+    if twice:
+        # 2026-10-08: both statements banks were numbered GSA/E-ST1…, and the later pool silently won. A deck
+        # asking for Abū Bakr's ؓ charge to Yazīd ؓ was about to be handed a card from the 23-41 AH pool instead.
+        raise SystemExit("two cards share one id — a deck would get whichever pool is read last:\n   "
+                         + "\n   ".join(twice[:12]))
     return out
 
 

@@ -59,6 +59,8 @@ FACTIONS = [
     {"id": "f4", "name": "In revolt", "ur": "", "color": "#E7A244"},
     {"id": "f5", "name": "Not yet told", "ur": "", "color": "#9AA39E"},
     {"id": "f6", "name": "Under a covenant", "ur": "", "color": "#5B8FD6"},
+    {"id": "f7", "name": "Persia", "ur": "", "color": "#A8442F"},
+    {"id": "f8", "name": "Rome", "ur": "", "color": "#6B5AA8"},
 ]
 
 MARK = 2.0             # style.markScale, as on every evening-4 and evening-5 scene
@@ -103,6 +105,7 @@ class Scene(object):
         self.places = {}            # place name -> (lon, lat)
         self.kind, self.parent, self.centre, self.radius_km = "theatre", None, None, None
         self._done = False
+        self.cuts = []              # the steps at which one slide ends and the next begins
 
     # ------------------------------------------------------------------ plumbing
     def _add(self, kind, role, **kw):
@@ -111,6 +114,28 @@ class Scene(object):
         o.update(kw)
         self.objs.append(o)
         return o
+
+    def cut(self):
+        """One slide ends here and the next begins (VISION M16). Everything that was TOLD on the slide that is
+        ending — its roads, its battle marks, its unnamed sites — goes when the next slide's first click comes.
+
+        Daniyal, 2026-10-08: "the end images of that sequence have a lot of rush of labels. Maybe the initial
+        labels that are no longer relevant need to use the hide after step." What stays is the ground (places,
+        regions, their names) and every force still on the field: a banner is where its force is, told or not."""
+        self.cuts.append(self.step)
+        for o in self.objs:
+            if "until" in o:
+                continue
+            role = str(o.get("note", ""))
+            if (o["type"] == "arrow" and role.startswith(("march:", "prong:", "said", "letter"))) \
+                    or o["type"] == "battle" or (o["type"] == "settlement" and role == "site"):
+                o["until"] = self.step
+        return self
+
+    def ranges(self):
+        """The slides of this scene, as (first step, last step): each begins on the step the last one ended."""
+        edges = [1] + self.cuts + [self.step]
+        return [(a, b) for a, b in zip(edges, edges[1:]) if b > a]
 
     def at(self, step, cue):
         """Move to a step. The cue is what the speaker says as the click lands; it becomes ▶ CLICK n."""
@@ -211,10 +236,12 @@ class Scene(object):
         return o
 
     def march(self, name, faction=None, to=None, frm=None, via=(), sub=None, unit=None, pos=None,
-              dashed=False, width=9.0, keep_road=True):
+              dashed=False, width=9.0, keep_road=True, trail=False):
         """A force moves, on this click. Its token travels the arrow; the token it left is retired.
 
-        A force not yet on the field may be marched in from `frm` (it comes on already moving)."""
+        A force not yet on the field may be marched in from `frm` (it comes on already moving).
+        The map shows the LAST leg a force marched: the leg before it goes as this one comes on, unless
+        trail=True — for a road that is itself the story (al-ʿAlāʾ's ؓ column, gathering as it goes)."""
         old = self.tokens.get(name)
         if old is None and frm is None:
             raise SceneError("%s: %r is not on the field — give frm=, or force() it first" % (self.slug, name))
@@ -227,6 +254,10 @@ class Scene(object):
             arrow["until"] = self.step
         if old is not None:
             old["until"] = self.step - 1
+            if not trail:
+                for o in self.objs:
+                    if o["id"] == old.get("follows") and "until" not in o:
+                        o["until"] = self.step - 1
         tok = self._add("army", "force", lon=to[0], lat=to[1], name=name, ur="", faction=fac,
                         strength=(old or {}).get("strength", "") if sub is None else sub,
                         unit=unit or (old or {}).get("unit", "mixed"),
@@ -275,16 +306,40 @@ class Scene(object):
         pts = [[a[0] + ox, a[1] + oy], [b[0] + ox, b[1] + oy], [b[0] - ox, b[1] - oy], [a[0] - ox, a[1] - oy]]
         return self._add("territory", "trench", pts=pts, faction=faction, label="", ur="", opacity=0.75)
 
-    def letter(self, a, b, faction="f1"):
+    def letter(self, a, b, faction="f1", width=5.0):
         """A letter, a request, an order: a thin dashed line that is gone on the next click."""
         mid = [(a[0] + b[0]) / 2.0, (a[1] + b[1]) / 2.0 + 0.04 * abs(a[0] - b[0])]
         return self._add("arrow", "letter", pts=[list(a), mid, list(b)], faction=faction, label="", ur="",
-                         dashed=True, width=5.0, until=self.step)
+                         dashed=True, width=width, until=self.step)
 
-    def clash(self, lon, lat, name="", pos="below"):
+    def clash(self, lon, lat, name="", pos="below", stay=False):
+        """A fight, on this click. A named battle may `stay` on the map; an unnamed mark is gone on the next."""
         o = self._add("battle", "clash", lon=lon, lat=lat, name=name, ur="", date="", labelPos=pos, scale=NAME)
-        o["until"] = self.step
+        if not stay:
+            o["until"] = self.step
         return o
+
+    def prong(self, name, pts, dashed=False, width=7.0):
+        """One arm of a move by a force that is on the map — a night strike, a raid, a column closing in. The
+        force's own banner stays where it is; the arm is gone on the next click."""
+        if name not in self.tokens:
+            raise SceneError("%s: %r is not on the field — a prong belongs to a force that is" % (self.slug, name))
+        return self._add("arrow", "prong:" + name, pts=[list(p) for p in pts], faction=self.tokens[name]["faction"],
+                         label="", ur="", dashed=dashed, width=width, until=self.step)
+
+    def flow(self, pts, faction="f1"):
+        """Something that is not a force moves — ṣadaqa, supplies. The caption of the same click says what."""
+        return self._add("arrow", "said", pts=[list(p) for p in pts], faction=faction, label="", ur="",
+                         dashed=True, width=6.0, until=self.step)
+
+    def sites(self, points, until=None):
+        """Unnamed places — camps, pastures — where the page counts them and names none."""
+        made = [self._add("settlement", "site", lon=p[0], lat=p[1], name="", ur="", tier="town", labelPos="right",
+                          scale=NAME) for p in points]
+        for o in made:
+            if until:
+                o["until"] = until
+        return made
 
     def say(self, text, lon=None, lat=None, hold=False, size=SAY, align="center", near=None):
         """A caption for this click. It fades on the next one unless held, so captions never pile up.
@@ -469,6 +524,23 @@ def check_scene(d, slug=""):
                 bad.append("M3 %r travels a 2-point arrow — the token cuts the chord; give the route 3 points"
                            % o.get("name"))
     return ["%s: %s" % (slug, b) if slug else b for b in bad]
+
+
+def check_stale(d, ranges, slug=""):
+    """M16 — a label lives as long as it is being talked about. A road, a battle mark, a caption or an unnamed
+    site that came on during one slide may stand on the next slide's opening frame, and must be gone by that
+    slide's first click. Places, regions, their names, and forces still on the field are not labels of a moment."""
+    bad, last = [], _last(d)
+    for a, b in sorted(ranges)[1:]:
+        for o in d.get("objects", []):
+            role = str(o.get("note", ""))
+            moment = (o["type"] == "arrow" and not role.startswith("siege")) or o["type"] == "battle" \
+                or (o["type"] == "label" and role == "say")            # an unnamed site is a place, not a label
+            if moment and o.get("step", 1) < a and o.get("until", last) > a:
+                what = o.get("name") or o.get("text") or ("a road" if o["type"] == "arrow" else o["type"])
+                bad.append("%s: M16 %r came on at step %d and is still on the map at step %d, a slide later — "
+                           "hide it when its own slide ends (Scene.cut)" % (slug, what, o.get("step", 1), a + 1))
+    return bad
 
 
 def check_ranges(d, ranges, slug=""):

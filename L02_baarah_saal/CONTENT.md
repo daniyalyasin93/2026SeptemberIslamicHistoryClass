@@ -7666,6 +7666,15 @@ did not say "conquer Iraq." It said: come at Iraq from its lower end. Call the p
 they answer, they are Muslims — what is yours is theirs. If they refuse, take the jizya. If they
 refuse that, fight. And then two restrictions that are easy to miss. Do not compel any man to march
 with you. And do not use any man who apostatised, even if he has come back.
+**Beats:**
+1. Khālid ؓ has just finished al-Yamāma — And a letter comes from Abū Bakr ؓ, in Medina.
+2. Not “conquer Iraq” — Come at Iraq from its lower end.
+3. Call them first — If they answer, they are Muslims: what is yours is theirs.
+4. Then the jizya; then the sword — In that order, as the order gives it.
+5. Compel no one to march — The first restraint: no man is forced to go.
+6. And use no man who turned — The second: nobody who apostatised, even if he has come back.
+7. Whose date it is — Muḥarram of year 12 is al-Madāʾinī's, by his chain. Ibn Kathīr reports it.
+**Quote after beat:** 4
 **The statement:**
 > وأن يَتألَّفَ الناسَ ويدعوهم إلى الله ﷿، فإن أجابوا وإلا أخذ منهم الجزيةَ فإن امتنعوا عن ذلك قاتلهم،
 > وأمره أن لا يُكْرِه أحدًا على المسير معه، ولا يستعينُ بمنِ ارتدّ عن الإسلام وإن كان [قد] عاد إليه
@@ -7681,11 +7690,21 @@ telling you what it thinks it is for.
 ### ISA/E-C2 · The letter to the marzubāns of Persia
 **Tier:** CORE · **When:** 12 AH `[SOURCED — البدایہ ج۷ ص۶۴]` · **Map:** a line drawn from الحيرة to
 المدائن — the first time Medina addresses the Persian court directly.
-**What happened:** Khālid ؓ had taken al-Ḥīra. Upriver from it stood al-Madāʾin — the throne of
-Persia, the iwān of Chosroes. He did not march on it. He wrote to it. The letter was short and it
+**What happened:** Khālid ؓ had come into Iraq from its lower end, and the first people he met there had
+chosen the jizya. He did not march on al-Madāʾin, where Kisrā's commanders, his marzubāns and his ministers
+sat. He wrote to it. The letter was short and it
 survives, because al-Shaʿbī says the family of Buqayla in al-Ḥīra read it out to him. It sets out
 one offer, one alternative, and one warning. Ibn Kathīr رحمہ اللہ ends the page on their reaction:
 when they read it, they were left marvelling.
+**Beats:**
+1. Khālid ؓ is in lower Iraq — The first people he met there chose the jizya.
+2. He does not march on al-Madāʾin — He writes to it: to Kisrā's commanders, his marzubāns and his ministers.
+3. How we have the letter — al-Shaʿbī: the family of Buqayla read it out to him.
+4. What he says of Persia — “Praise be to Allah, who has broken up your company, taken away your kingship and weakened your scheming.”
+5. One offer, one alternative — Islam; or hostages, and a covenant of protection.
+6. “A people who love death as you love life” — Read the line.
+7. They were left marvelling — Ibn Kathīr's own last words on it.
+**Quote after beat:** 6
 **The statement:**
 > فابعثوا إليَّ بالرُّهن واعتقدوا مني الذِّمة، و (إلا) فوالذي لا إله غيره لأبعثن إليكم قومًا يحبّون الموتَ
 > كما تحبّون أنتم الحياة
@@ -7788,13 +7807,21 @@ Sufyān ؓ Damascus, Abū ʿUbayda ؓ Homs, ʿAmr b. al-ʿĀṣ ؓ Palestine, Sh
 ordered each to take a different road. And he walked out of Medina on foot beside each of them while
 they rode, giving his instructions. Ibn Kathīr رحمہ اللہ says the four roads were not a military
 trick: the caliph was following a verse.
+**Beats:**
+1. Arabia is finished; he turns to Syria — Early in year 13.
+2. Not one army — Four commanders, each given a province before it is taken.
+3. The four — Yazīd b. Abī Sufyān ؓ Damascus; Abū ʿUbayda ؓ Ḥimṣ; ʿAmr b. al-ʿĀṣ ؓ Palestine; Shuraḥbīl b. Ḥasana ؓ Jordan.
+4. Four separate roads — He orders each of them to take a different one.
+5. On foot, beside the riders — He walks out of Medina beside each of them, giving his instructions.
+6. He was following a verse — Ibn Kathīr: Yaʿqūb's words to his sons — do not enter by one gate.
+7. Nothing is taken tonight — The provinces are named. Their taking belongs to later evenings.
+**Quote after beat:** 6
 **The statement:**
 > ﴿وَقَالَ يَابَنِيَّ لَا تَدْخُلُوا … مِنْ بَابٍ وَاحِدٍ وَادْخُلُوا مِنْ أَبْوَابٍ مُتَفَرِّقَةٍ …﴾ [يوسف: ٦٧]
-> — البدایہ والنہایہ ج۷ ص۸۳–۸۴ · https://shamela.ws/book/30097/3229 (opening words) and
-> https://shamela.ws/book/30097/3230 (the rest of the verse); the first ellipsis marks that
-> page turn, the second the rest of the verse
-> *English:* "O my sons, do not enter by one gate; enter by separate gates." — Yūsuf 67, quoted by
-> Ibn Kathīr as the precedent Abū Bakr ؓ was following.
+> — البدایہ والنہایہ ج۷ ص۸۳–۸۴ · https://shamela.ws/book/30097/3229 · https://shamela.ws/book/30097/3230
+> *English:* "O my sons, do not enter by one gate; enter by separate gates."
+
+*The verse is Yūsuf 67, quoted by Ibn Kathīr as the precedent Abū Bakr ؓ was following. It runs over a page turn: its opening words are on index 3229 and the rest on 3230. The first ellipsis marks the turn; the second, the rest of the verse.*
 **عبرت:** A plan is safer when it is not one plan.
 **Hands-up?** no
 
@@ -8061,6 +8088,93 @@ stood behind the whole army — so that any man who broke would see him and turn
 **Hands-up?** Ask: what posts would you fill before a battle? Take answers. Then read the list.
 
 ---
+
+---
+
+### ISA/E-C21 · The house that had killed its own heirs
+**Tier:** CORE · **When:** 12–13 AH, المدائن `[SOURCED — الکامل ج۲ ص۲۸۴; البدایہ ج۷ ص۶۴]` · **Map:** the Persian zone, in outline; **المدائن** on it.
+**What happened:** The room already knows how the Persian king died: the Prophet ﷺ said it in Medina the night it
+happened, and it was his own son who had done it. The books name the son: Shīrā. Ibn al-Athīr tells, in passing,
+what Shīrā then did to the rest of his father's house — he gathered the women of the house, and killed the males.
+So when the great men of Persia later quarrelled and needed a king to stand behind, they had to send for the women
+of Kisrā's house and question them for one male of the line. There was one: a boy called Yazdagird, whose mother
+had got him away in Shīrā's days and sent him to her brothers. They made him king at twenty-one. And Ibn Kathīr's
+page on Khālid's ؓ first letter names the men at the head of Persia it was sent on to: Shīrā son of Kisrā, and
+Ardashīr son of Shīrā.
+**Beats:**
+1. You know how Kisrā died — Evening 3: “my Lord has killed your lord tonight” — by his own son.
+2. The books name the son — Shīrā.
+3. What Shīrā did to his own house — He gathered its women, and killed the males. Ibn al-Athīr says it in passing.
+4. So Persia had to search for a king — Its great men sent for the women of Kisrā's house, to find one male of the line.
+5. One boy had been got away — Yazdagird. His mother had sent him to her brothers. They made him king, at twenty-one.
+6. That is the house the letter went to — Khālid's ؓ letter was sent on “to Shīrā son of Kisrā, and Ardashīr son of Shīrā”.
+7. Ibn al-Athīr tells the search a year on — Under year 13. The killing it looks back to is older.
+**Quote after beat:** 5
+**The statement:**
+> لَمْ يَبْقَ إِلَّا غُلَامٌ يُدْعَى يَزْدَجِرْدَ مِنْ وَلَدِ شَهْرَيَارَ بْنِ كِسْرَى، وَأُمُّهُ مِنْ أَهْلِ بَادُورَيَا. فَأَرْسَلُوا إِلَيْهَا وَطَلَبُوهُ مِنْهَا، وَكَانَتْ قَدْ أَنْزَلَتْهُ أَيَّامَ شِيرَى حِينَ جَمَعَهُنَّ فَقَتَلَ الذُّكُورَ، وَأَرْسَلَتْهُ إِلَى أَخْوَالِهِ، فَلَمَّا سَأَلُوهَا عَنْهُ دَلَّتْهُمْ عَلَيْهِ، فَجَاءُوا بِهِ فَمَلَّكُوهُ وَهُوَ ابْنُ إِحْدَى وَعِشْرِينَ سَنَة
+> — الکامل فی التاریخ ج۲ ص۲۸۴ · https://shamela.ws/book/21712/975
+> *English:* “None is left but a boy called Yazdagird, of the line of Shahriyār son of Kisrā; his mother is of the people of Bādūrayā.” So they sent to her and asked her for him. She had got him away in the days of Shīrā — when he gathered them and killed the males — and had sent him to his mother's brothers. When they asked her about him she led them to him; and they brought him and made him king, at twenty-one.
+
+**عبرت:** The throne they were about to face had been emptied by its own family.
+**Hands-up?** no
+**Who the letter was sent on to:**
+> فكتب إليه خالدٌ فبعث هرمزُ بكتابِ خالدٍ إلى شيرَى بن كسرى، وأردشير بن شيرَى
+> — البدایہ والنہایہ ج۷ ص۶۴ · https://shamela.ws/book/30097/3210
+> *English:* “So Khālid wrote to him; and Hurmuz sent Khālid's letter on to Shīrā son of Kisrā, and Ardashīr son of Shīrā.”
+
+⚠ **Say the names as the page's, and do not reconcile them.** General histories put Shīrā's death within months of
+his father's `[CONVENTIONAL-ESTIMATE]`; Ibn Kathīr's page, following Sayf, has the letter sent on to him in year 12.
+⚠ **Narrate and stop.** This is Persian court history told by Muslim historians. Rustam, the Bridge and
+al-Qādisiyya are later evenings — the page names Rustam and al-Fayrūzān; the slide does not.
+⚠ No dates for Shīrā, Ardashīr or Yazdagird are on any page we hold
+(`the-two-empires-at-the-hinge-12-13ah.md` §X).
+
+---
+
+### ISA/E-C22 · «The people of a new religion» — Heraclius, to the Romans
+**Tier:** CORE · **When:** 13 AH, الشام `[SOURCED — البدایہ ج۷ ص۸۵–۸۶; الکامل ج۲ ص۲۵۱]` · **Map:** n/a — a large-statement slide.
+**What happened:** When the four columns set out for Syria, Ibn Kathīr says, it alarmed the Romans and they feared
+greatly, and they wrote to Heraclius. Where he was the books give two ways: at Ḥimṣ; or on pilgrimage that year,
+at Bayt al-Maqdis. When the news reached him he told them to make peace. These, he said, are the people of a new
+religion, and no one has the strength to face them: give them half the revenue of Syria and keep your mountains;
+refuse, and they will take Syria and press you in the mountains as well. They snorted at it. He went to Ḥimṣ, and
+ordered the armies out.
+**Beats:**
+1. The four columns are on the road — And the Romans hear of it.
+2. “They feared greatly” — And they wrote to Heraclius, the emperor of the Romans.
+3. Where he was — At Ḥimṣ, it is said; or on pilgrimage that year at Bayt al-Maqdis. Ibn al-Athīr: in Jerusalem.
+4. Read what he said — “The people of a new religion; no one has the strength to face them.”
+5. His advice: make peace — Half the revenue of Syria, and the mountains remain yours.
+6. “Refuse, and they will take Syria” — And press you hard in your mountains as well.
+7. They refused — “They snorted at that”, the page says. He went to Ḥimṣ, and ordered the armies out.
+8. Stop here — What the armies did is the next evening.
+**Quote after beat:** 4
+**The statement:**
+> ويْحكم إن (هؤلاء) أهلُ دينٍ جديد، وإنهم لا قبلَ لأحدٍ بهم، فأطيعوني وصالحوهم بما تصالحونهم على نصفِ خراج الشام ويبقى لكم جبالُ الروم، وإن أنتم أبيتم ذلك أخذوا منكم الشام وضيقوا عليكم جبال الروم
+> — البدایہ والنہایہ ج۷ ص۸۶ · https://shamela.ws/book/30097/3232
+> *English:* “Woe to you — these are the people of a new religion, and no one has the strength to face them. So obey me, and make peace with them — on half the revenue of Syria, and the mountains of the Romans remain yours. If you refuse that, they will take Syria from you, and press you hard in the mountains of the Romans.”
+
+**عبرت:** He saw it, and said it, and was not listened to.
+**Hands-up?** Before the name is said: who do you think spoke these words?
+**The same, as Ibn al-Athīr has it:**
+> فَبَلَغَ الرُّومُ ذَلِكَ فَكَتَبُوا إِلَى هِرَقْلَ، وَكَانَ بِالْقُدْسِ، فَقَالَ: أَرَى أَنْ تُصَالِحُوا الْمُسْلِمِينَ، فَوَاللَّهِ لَأَنْ تُصَالِحُوهُمْ عَلَى نِصْفِ مَا يَحْصُلُ مِنَ الشَّامِ وَيَبْقَى لَكُمْ نَصِفُهُ مَعَ بِلَادِ الرُّومِ - أَحَبُّ إِلَيْكُمْ مِنْ أَنْ يَغْلِبُوكُمْ عَلَى الشَّامِ وَنِصْفِ بِلَادِ الرُّومِ. فَتَفَرَّقُوا عَنْهُ وَعَصَوْه
+> — الکامل فی التاریخ ج۲ ص۲۵۱ · https://shamela.ws/book/21712/942
+> *English:* “Word of that reached the Romans, and they wrote to Heraclius — he was in Jerusalem. He said: I think you should make peace with the Muslims. By God, to make peace with them for half of what Syria yields, and keep half of it along with the land of the Romans, is dearer to you than that they overcome you for Syria and half the land of the Romans. And they scattered from him, and disobeyed him.”
+
+**Where he was, and what they did with his advice:**
+> فيقال: إنه كان يومئذ بحمص، ويقال: [بل] كان حج عامه ذلك إلى بيت المقدس
+> — البدایہ والنہایہ ج۷ ص۸۶ · https://shamela.ws/book/30097/3232
+> *English:* “It is said that he was at Ḥimṣ that day; and it is said: rather, he had made pilgrimage that year to Bayt al-Maqdis.”
+
+> فنخروا من ذلك نخرةَ حُمُرِ الوَحْش
+> — البدایہ والنہایہ ج۷ ص۸۶ · https://shamela.ws/book/30097/3232
+> *English:* “And they snorted at that, the snort of wild asses.”
+
+⚠ **A Muslim historian's report of a Roman council** — Ibn Kathīr marks it as Sayf's telling, with others. Narrate
+it as what the book carries; build nothing on its wording.
+⚠ **Stop at “they refused”.** The deployments that follow on the same page — ninety thousand against ʿAmr ؓ, and the
+rest — are `GSA/E-ST10` and the next evening.
+⚠ Heraclius is new to the room. One breath: *the emperor of the Romans*. No dates for him are on a page we hold.
 
 ---
 
@@ -11602,6 +11716,14 @@ description: you are being tested; if you do well I will extend your post, and i
 will dismiss you. Then he warned him against the one thing that could destroy the whole enterprise —
 the pride of the old tribal order. ابن الأثير, printing it, calls it one of the best charges ever
 given to a man in office.
+**Beats:**
+1. Yazīd b. Abī Sufyān ؓ — Abū Sufyān's ؓ son and Muʿāwiya's ؓ brother: the house on last evening's family tree. He has the largest column.
+2. Abū Bakr ؓ walks him out — On foot, beside his horse.
+3. Not a speech about victory — A job description.
+4. “I have put you in office to test you” — Do well, and I extend your post; do badly, and I dismiss you.
+5. “Beware the arrogance of the Jāhiliyya” — God hates it, and hates those who carry it.
+6. Ibn al-Athīr's verdict — One of the best charges ever given to a man in office.
+**Quote after beat:** 5
 **The statement:**
 > إِنِّي قَدْ وَلَّيْتُكَ لِأَبْلُوَكَ وَأُجَرِّبَكَ وَأُخَرِّجَكَ، فَإِنْ أَحْسَنْتَ رَدَدْتُكَ إِلَى
 > عَمَلِكَ وَزِدْتُكَ، وَإِنْ أَسَأْتَ عَزَلْتُك … فَإِيَّاكَ وَعُبِّيَّةَ الْجَاهِلِيَّةِ، فَإِنَّ
@@ -11618,6 +11740,12 @@ given to a man in office.
 **What happened:** أبو بكر ؓ wrote to عمرو بن العاص ؓ offering him the Syrian command, and
 expressly left him free to keep the post he already had if he preferred it. عمرو ؓ wrote back in one
 sentence.
+**Beats:**
+1. A letter to ʿAmr b. al-ʿĀṣ ؓ — Abū Bakr ؓ offers him the Syrian command.
+2. And leaves him free — He may keep the post he already has, if he prefers it.
+3. He answers in one sentence — Read it.
+4. “Shoot the hardest” — He asks to be sent where it is hardest.
+**Quote after beat:** 3
 **The statement:**
 > إِنِّي سَهْمٌ مِنْ سِهَامِ الْإِسْلَامِ، وَأَنْتَ بَعْدَ اللَّهِ الرَّامِي بِهَا وَالْجَامِعُ لَهَا،
 > فَانْظُرْ أَشَدَّهَا وَأَخْشَاهَا وَأَفْضَلَهَا فَارْمِ بِه

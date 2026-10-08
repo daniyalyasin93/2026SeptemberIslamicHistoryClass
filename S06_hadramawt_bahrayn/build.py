@@ -165,7 +165,7 @@ FACE_SPEAKER = {
 FACE_SCENE = {
     "ATA/E-TB24": ["ʿAbd al-Qays were saying: had he been a prophet, he would not have died."],
     "RCT/E-RC24": ["Inside Juwāthā — besieged, and starving."],
-    "RCT/E-RC82": ["Night, in the sands. The camels have bolted with the food, the tents and the water."],
+    "RCT/E-RC82": ["Night, in the sands. The camels have bolted with all they had."],
     "RCT/E-RC83": ["Dawn. An army with nothing left but its clothes."],
     "RCT/E-RC74": ["al-Ḥuṭam mounts in the dark; his stirrup-leather parts.", "ʿAfīf b. al-Mundhir offers to set it right."],
     "RCT/E-RC85": ["The shore opposite Dārīn. The same men who were at al-Dahnāʾ."],
@@ -251,8 +251,8 @@ FACE_CUT = {
                    "There was no region", "believers were in that region"),
     "RCT/E-RC81": ("لقد قمنا بعد رسول الله", "وابنة لبون",
                    "We stood, after", "or a bint labūn"),
-    "RCT/E-RC87": ("يا عليم", "إنا عبيدك",
-                   "O All-Knowing", "we are Your servants"),
+    "RCT/E-RC87": ("يا عليم", "نصيبا غيرنا",
+                   "O All-Knowing", "but us"),
     "IKO/E-IKR1": ("أن الصبغة الدينية", "إلى الحق",
                    "the religious colouring", "towards the truth"),
 }
@@ -279,6 +279,173 @@ def face_cuts(pool):
     for cid, (a0, a1, e0, e1) in FACE_CUT.items():
         c = pool[cid]
         S5.FACE_QUOTE[cid] = (_cut(c["arabic"], a0, a1, True), _cut(c["english"], e0, e1, False))
+
+
+# ------------------------------------------------------------------------------- quotations in parts
+# VISION Q4. Daniyal, 2026-10-08: "Whenever the text is not fitting like for the dua … one part of dua per line
+# and the new line. Also first Arabic one part. Then its translation. Then next Arabic. And so on. We can move
+# part to next new slide."  So a rendering is NEVER cut off with "…". A quotation that does not fit one
+# statement slide is set in parts — a clause of the Arabic, its rendering beneath it — over as many slides as it
+# takes. Each entry names where every part but the last ENDS, as (Arabic words, English words); "|" starts a new
+# slide. The parts are lifted out of the card by bytes: nothing here is retyped onto a face, and the build
+# refuses a split that does not find its words, or a face whose rendering would still be cut.
+PARTS = {
+    "RCT/E-RC80": [("لقتال أهل الردة", "the people of the ridda")],
+    "RCT/E-RC71": [("على الردة", "upon the ridda"), ("ومن تبعه", "those who followed him")],
+    "ATA/E-TB24": [("كما ماتوا", "just as they died")],
+    "RCT/E-RC72": [("في بكر بن وائل", "Bakr b. Wāʾil")],
+    "RCT/E-RC24": [("أجمعينا", "young men of Medina")],
+    "RCT/E-RC25": [("ستة عشر راكبا", "sixteen riders"), ("وكتب له كتابا", "wrote him a letter")],
+    "RCT/E-RC82": [("ألستم المسلمين", "not the Muslims"), ("في سبيل الله", "the path of Allah"), "|",
+                   ("أنصار الله", "helpers of Allah"), ("بلى", "Yes"), "|"],              # then: the glad tidings
+    "RCT/E-RC83": [("وجثا الناس", "went down on theirs")],
+    "RCT/E-RC87": [("يا عظيم", "O Tremendous"), ("نقاتل عدوك", "fight Your enemy"), "|", ("ونتوضأ", "make wuḍūʾ")],
+    "RCT/E-RC26": [("والمشركون", "so did the mushrikūn"), ("إلى خندقهم", "back to their trench")],
+    "RCT/E-RC84": [("من بكر بن وائل", "firm on their Islam"), ("وغيرهما", "and others"), "|"],   # then: the order
+    "RCT/E-RC85": [("في البر", "signs on land"), ("بها في البحر", "at sea"), "|"],          # then: "so rise"
+    "RCT/E-RC86": [("يا حكيم يا كريم", "O Wise, O Generous"), ("يا حي يا محيي", "O Giver of life"), "|",
+                   ("والإكرام", "majesty and honour")],
+    "RCT/E-RC75": [("بعدها", "would transform me")],
+    "RCT/E-RC28": [("من المغنم", "from the spoils")],
+    "KTK/E-KD05": [("بن كنانة", "b. Kināna")],
+    "TSY/E-YK07": [("صلى الله عليه وسلم", "Messenger of Allah ﷺ")],
+    "RCT/E-RC33": [("يهوديا", "if you were a Jew")],
+    "TSY/E-YK08": [("وأضطهد", "wronged and trampled")],
+    "TSY/E-YK09": [("التنقل", "to change sides"), ("ليلزمون الشبهة", "a doubtful position"), "|",
+                   ("مخافة العار", "fear of the disgrace")],
+    "TSY/E-YK10": [("حول نيرانهم", "round their fires")],
+    "TSY/E-YK19": [("والسبي", "and the captives"), ("بالأشعث", "passed by al-Ashʿath")],
+    "TSY/E-YK12": [("أو أقتلك", "shall I kill you")],
+    "TSY/E-YK14": [("على من فيها", "named in it")],
+    "POT/E-PG40": [("زوجني أخته", "his sister to me"), ("غير هذه", "other than this one"), "|"],
+    "TSY/E-YK16": [("ثلاثة نفر", "suspect three men"), ("وزهدهم", "their abstinence"), "|"],      # then: the names
+    "ATA/E-TB22": [("على الإسلام", "firm upon Islam")],
+    "RCT/E-RC78": [("مع أبي بكر", "with Abū Bakr")],
+    "ATA/E-TB10": [("أيام الردة", "days of the ridda"), "|", ("ومنع الزكاة", "withheld the zakāt"),
+                   ("إلى الصديق", "to al-Ṣiddīq")],
+    "ATA/E-TB13": [("كان بيننا …", "among us")],
+    "ATA/E-TB25": [("الأزدي", "al-Azdī")],
+    "RCT/E-RC36": [("لبعض الناس", "some of its people")],
+    "RCT/E-RC81": [("بأبي بكر", "with Abū Bakr")],
+    "RCT/E-RC39": [("بصالح أعمالهم", "their good deeds"), ("ينتصر بهم", "victory through them"), "|"],
+    "IKO/E-IKR1": [("أهل العصبية", "عصبية")],
+}
+# the key beside an image placeholder: (four words at most, eight at most). Left to the builder it was the first
+# four words of the card's map line and a "…" — "eleven arrows out of…" (slide 77).
+FACE_KEY = {
+    "RCT/E-RC43": ("Dhū al-Qaṣṣa", "eleven banners, tied by Abū Bakr ؓ"),
+}
+_AFTER = re.compile(r"[\s\-–—]*[!؟?.،؛,;:\"”»]+")        # the punctuation that closes a clause stays with it.
+# An "…" is NOT closing punctuation: where the card marks an omission, the mark stays at the head of the part
+# that follows it. (A verse's caesura, or a page turn, is put inside the key, and so leaves the face.)
+_QUOTES = '"“”'
+
+
+def _ends(text, keys, arabic, cid):
+    """Cut `text` after each key, in order. Arabic keys are matched with the harakat set aside."""
+    if arabic:
+        keep, idx = [], []
+        for k, ch in enumerate(text):
+            if not _MARKS.match(ch):
+                keep.append(ch)
+                idx.append(k)
+        bare = "".join(keep)
+    out, pos, bpos = [], 0, 0
+    for key in keys:
+        if arabic:
+            i = bare.find(key, bpos)
+            if i < 0:
+                raise SystemExit("PARTS[%r]: the Arabic %r is not in the card's statement after the part before it" % (cid, key))
+            bpos = i + len(key)
+            end = idx[bpos - 1] + 1
+            while end < len(text) and _MARKS.match(text[end]):
+                end += 1
+        else:
+            i = text.find(key, pos)
+            if i < 0:
+                raise SystemExit("PARTS[%r]: the English %r is not in the card's rendering after the part before it" % (cid, key))
+            end = i + len(key)
+        m = _AFTER.match(text, end)
+        if m:
+            end = m.end()
+        out.append(text[pos:end])
+        pos = end
+        if arabic:
+            bpos = sum(1 for k in idx if k < end)
+    out.append(text[pos:])
+    return out
+
+
+def _tidy(part, arabic):
+    part = " ".join(part.split()).strip(" -–—")
+    part = part.lstrip("،؛,;").strip()
+    part = part.rstrip("،؛…" if arabic else ",;").strip()
+    if not arabic and sum(part.count(q) for q in _QUOTES) % 2:
+        for q in _QUOTES:
+            part = part.replace(q, "")
+    return part.strip()
+
+
+def parts_of(cid, c):
+    """The card's statement — or its authored excerpt — as [[(arabic, english), …], …], one list a slide."""
+    fq = S5.FACE_QUOTE.get(cid)
+    ar, en = fq if fq else (c["arabic"], c["english"])
+    en = clean(B.face(en)).strip()
+    if en[:1] in _QUOTES and en[-1:] in _QUOTES:
+        en = en[1:-1]
+    spec = PARTS[cid]
+    keys = [k for k in spec if k != "|"]
+    ars = [_tidy(x, True) for x in _ends(ar, [k[0] for k in keys], True, cid)]
+    ens = [_tidy(x, False) for x in _ends(en, [k[1] for k in keys], False, cid)]
+    for a, e in zip(ars, ens):
+        if not a or not e:
+            raise SystemExit("PARTS[%r]: an empty part — %r / %r" % (cid, a, e))
+    pairs = list(zip(ars, ens))
+    if "|" not in spec:
+        return pairs                      # paged by height
+    groups, cur, k = [], [], 0
+    for item in spec:
+        if item == "|":
+            groups.append(cur)
+            cur = []
+        else:
+            cur.append(pairs[k])
+            k += 1
+    cur.append(pairs[k])
+    groups.append(cur)
+    return [g for g in groups if g]
+
+
+def quote_slides(prs, c, cid, speaker=None, scene=None, **kw):
+    """The card's quotation on the face: whole on one slide where it fits, in parts where it does not."""
+    if cid in PARTS and c.get("arabic") and kw.get("arabic_on_face", True) and not kw.get("face_text"):
+        return D.parts_slides(prs, parts_of(cid, c), cite=B.face(B.cite_en(c["cite"])),
+                              headline=B.headline_for(B.short(B.face(c["title"]), 9)), kicker=B.kicker_for(c),
+                              speaker=speaker, scene=scene)
+    if cid in FACE_KEY:                       # an image slide's key is written, not cut out of the card
+        c = dict(c, map=FACE_KEY[cid][0], what=FACE_KEY[cid][1])
+    s = B.card_slide(prs, c, speaker=speaker, scene=scene, **kw)
+    if s is None:
+        return []
+    for sh in s.shapes:
+        txt = sh.text_frame.text.strip() if sh.has_text_frame else ""
+        if txt.rstrip(_QUOTES).endswith("…") and (sh.name or "") not in ("headline", "kicker"):
+            raise SystemExit("%s: its rendering is cut off on the face (%r). Give it PARTS[%r] — where each "
+                             "clause ends, in Arabic and in English (VISION Q4)." % (cid, txt[-60:], cid))
+    return [s]
+
+
+def continued(slides, notes_first, c, cid):
+    """Notes for a quotation that runs over more than one slide, and the marks the gate reads."""
+    if len(slides) > 1:
+        notes_first = notes_first.replace(
+            N.DETAIL, "▶ NEXT SLIDE — the same words go on (%d slides in all)\n\n%s" % (len(slides), N.DETAIL), 1)
+    D.note(slides[0], notes_first)
+    for k, s in enumerate(slides[1:], 2):
+        said = [sh.text_frame.text.strip() for sh in s.shapes if (sh.name or "").startswith("part-")]
+        D.note(s, N.plain(["READ the Arabic — the same words, continued (slide %d of %d)." % (k, len(slides)),
+                           "Each part: the Arabic, then its meaning."])
+               + "\n\n" + N.DETAIL + "\n\n" + "\n".join(said))
 
 
 # ------------------------------------------------------------------------------------------- maps
@@ -372,6 +539,87 @@ MAP_BRIDGE_BEFORE["TSY/E-YK12"] = (
      "▶ CLICK 4 — Those inside come out and fight. Many are killed — and they go back in.",
      "2. Their spirits sank, and they feared death. Next: what al-Ashʿath did."])
 S5.MAP_FOR, S5.MAP_BRIDGE_BEFORE, S5.MAP_BRIDGE_QUOTE = MAP_FOR, MAP_BRIDGE_BEFORE, {}
+
+# ------------------------------------------------------------------------------- Parts IX and X: the hinge
+# docs/research/the-two-empires-at-the-hinge-12-13ah.md. Nothing here is general-knowledge history: the two
+# zones on the map are outlines and say so, and every sentence on a face has a page of the four books under it.
+S5.FACE_TITLE.update({
+    "ISA/E-C21": "The house of Kisrā",
+    "ISA/E-C1": "Khālid ؓ — the order to Iraq",
+    "ISA/E-C7": "Syria — four commanders, four roads",
+    "GSA/E-ST8": "Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ",
+    "GSA/E-ST9": "ʿAmr b. al-ʿĀṣ ؓ — one arrow",
+    "ISA/E-C2": "Khālid ؓ — the letter to al-Madāʾin",
+    "ISA/E-C22": "Heraclius, to the Romans",
+})
+S5.FACE_WHEN.update({
+    "ISA/E-C21": "12–13 AH, al-Madāʾin", "ISA/E-C1": "Muḥarram 12 AH, al-Yamāma to Iraq",
+    "ISA/E-C7": "Early 13 AH, Medina", "GSA/E-ST8": "13 AH, leaving Medina", "GSA/E-ST9": "13 AH, Medina",
+    "ISA/E-C2": "12 AH, lower Iraq", "ISA/E-C22": "13 AH, Syria",
+})
+FACE_SPEAKER.update({
+    "ISA/E-C21": "Ibn al-Athīr, on how Persia found its last king",
+    "ISA/E-C1": "Ibn Kathīr, on what Abū Bakr ؓ ordered Khālid ؓ",
+    "ISA/E-C7": "Yaʿqūb, peace be upon him, to his sons — Sūrat Yūsuf 67",
+    "GSA/E-ST8": "Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ",
+    "GSA/E-ST9": "ʿAmr b. al-ʿĀṣ ؓ, to Abū Bakr ؓ",
+    "ISA/E-C2": "Khālid b. al-Walīd ؓ, to the marzubāns of Persia",
+    "ISA/E-C22": "Heraclius, to the Romans — as Ibn Kathīr reports it",
+})
+FACE_SCENE.update({
+    "GSA/E-ST8": ["Abū Bakr ؓ, on foot, beside Yazīd's ؓ horse."],
+    "GSA/E-ST9": ["Offered the Syrian command — and left free to keep the post he had."],
+    "ISA/E-C22": ["The four columns are on the road. The Romans write to their emperor."],
+})
+LECTERN_WARN.update({
+    "ISA/E-C21": ["Say the names as the page's. Do not reconcile them with other histories.",
+                  "Stop before Rustam and al-Qādisiyya — later evenings."],
+    "ISA/E-C1": ["Muḥarram 12 is al-Madāʾinī's date — say whose it is."],
+    "ISA/E-C7": ["The provinces are given, not taken. Nothing is taken tonight."],
+    "GSA/E-ST8": ["Abū Sufyān's ؓ son, Muʿāwiya's ؓ brother — say it plainly; nothing of what came later."],
+    "ISA/E-C2": ["Do not say he had taken al-Ḥīra. The page says its people chose the jizya."],
+    "ISA/E-C22": ["A Muslim historian's report of a Roman council. Narrate it as the book's.",
+                  "Stop at “they refused”. The armies are the next evening."],
+})
+# the verse is quoted across a page turn; the card marks the turn, the face does not carry the mark
+FACE_CUT["ISA/E-C7"] = ("وقال يابني", "متفرقة", "O my sons", "separate gates")
+PARTS.update({
+    "ISA/E-C21": [("من أهل بادوريا", "people of Bādūrayā"), ("وطلبوه منها", "asked her for him"), "|",
+                  ("إلى أخواله", "brothers")],
+    "ISA/E-C1": [("إلى الله \ufdff", "call them to God"), ("قاتلهم", "fight them"), "|",
+                 ("على المسير معه", "to march with him")],
+    "ISA/E-C7": [("لا تدخلوا …", "do not enter")],
+    "GSA/E-ST8": [("وأخرجك", "bring you out"), ("عزلتك", "I will dismiss you"), "|"],
+    "GSA/E-ST9": [("سهام الإسلام", "arrows of Islam"), ("والجامع لها", "who gathers them"), "|"],
+    "ISA/E-C2": [("مني الذمة", "protection from me"), ("لا إله غيره", "there is no god")],
+    "ISA/E-C22": [("أهل دين جديد", "a new religion"), ("لا قبل لأحد بهم", "strength to face them"), "|",
+                  ("ويبقى لكم جبال الروم", "remain yours")],
+})
+MAP_BRIDGE_BEFORE["ISA/E-C21"] = (
+    "s06-empires", 1, 3, "Persia and Rome — beyond Arabia", "12 AH, the other side of the desert",
+    [("PERSIA", "al-Madāʾin — the house of Kisrā"), ("ROME", "Heraclius — Syria is his")],
+    ["⚠ The two zones are outlines. No page we hold gives either empire's borders.",
+     "SAY",
+     "1. All of Arabia is one colour. Now look past it.",
+     "▶ CLICK 1 — Persia. You know how its king died: by his own son.",
+     "▶ CLICK 2 — Rome. Its emperor is Heraclius, and Syria is his.",
+     "2. What our books say of each, and what each was told."])
+MAP_FOR.update({
+    "ISA/E-C1": ("s06-empires", 3, 4,
+                 [("Khālid ؓ", "ordered to Iraq, from its lower end"), ("al-Madāʾin", "Persia's capital — he is not sent there")],
+                 [(2, "Khālid ؓ leaves al-Yamāma for the lower end of Iraq.")]),
+    "ISA/E-C7": ("s06-empires", 4, 5,
+                 [("Medina", "four commanders leave by four roads"), ("Syria", "four provinces given, none yet taken")],
+                 [(4, "Four commanders, four separate roads — toward Syria.")]),
+    "ISA/E-C2": ("s06-empires", 5, 6,
+                 [("Khālid ؓ", "writes to al-Madāʾin; he does not march"),
+                  ("al-Madāʾin", "Kisrā's commanders, marzubāns and ministers")],
+                 [(2, "A letter goes to al-Madāʾin — not an army.")]),
+})
+HINGE_AFTER = "ISA/E-C22"        # the second close: where the deck ends if the hinge is told
+TONIGHT2 = [("Persia", "ISA/E-C21"), ("Iraq", "ISA/E-C1"), ("Syria", "ISA/E-C7"), ("Yazīd ؓ", "GSA/E-ST8"),
+            ("Rome", "ISA/E-C22")]
+NEXT_WEEK2 = ("The emperor of the Romans told them: make peace. They refused him. What did it cost them?")
 
 BRIDGE_BEFORE = {
     "RCT/E-RC71": ("From ʿIkrima's ؓ journey, to Bahrayn", "11 AH, the Gulf coast",
@@ -523,6 +771,34 @@ def the_close(prs, pool):
            + "\n".join("%d. %s — %s" % (i, h, clean(pool[c]["ibrah"])) for i, (h, c) in enumerate(TONIGHT, 1)))
     mark(prs, "close")
     q = D.question_slide(prs, NEXT_WEEK)
+    D.note(q, N.plain(["IF YOU STOP HERE — ask it, and pause. Then a loud السلام علیکم — and the dua.",
+                       "IF YOU CARRY ON — ask it, and go straight on: Part IX is the answer."]))
+    mark(prs, "close")
+
+
+def hinge_close(prs, pool):
+    """The second close: after Parts IX-X. The Line with the two orders on it, the map with nothing taken."""
+    s = D.timeline_slide(prs, os.path.join(VIS, "line_s06_hinge.png"), "Tonight on the Line")
+    D.note(s, N.plain(["THE CLOSE — the Line", "SAY", "1. The Ridda, whole: every front, one colour.",
+                       "2. Muḥarram of year 12 — the order to Iraq.",
+                       "3. Early in year 13 — four commanders, four roads.",
+                       "4. And nothing taken yet."]))
+    mark(prs, "close")
+    m = D.map_slide(prs, os.path.join(HERE, "visuals", "maps", "s06-empires-step-06.png"), "Where we stand",
+                    keys=[("Iraq", "Khālid ؓ at its lower end; a letter"),
+                          ("Syria", "four commanders, four roads — nothing taken")],
+                    kicker="13 AH, beyond Arabia", map_frac=0.70)
+    D.note(m, N.plain(["THE CLOSE — the map", "SAY", "1. When you came in, the map ended at Arabia's edge.",
+                       "2. East: one commander, and one letter.", "3. North: four commanders, on four roads.",
+                       "4. Not a town has been taken."]))
+    mark(prs, "close")
+    s = D.lessons_slide(prs, [h for h, _ in TONIGHT2])
+    D.note(s, N.plain(["TONIGHT — say each name, then its line", "SAY"]
+                      + ["%d. %s" % (i, h) for i, (h, _) in enumerate(TONIGHT2, 1)])
+           + "\n\n" + N.DETAIL + "\n\n"
+           + "\n".join("%d. %s — %s" % (i, h, clean(pool[c]["ibrah"])) for i, (h, c) in enumerate(TONIGHT2, 1)))
+    mark(prs, "close")
+    q = D.question_slide(prs, NEXT_WEEK2)
     D.note(q, "Ask it, and pause. Then a loud السلام علیکم — and the dua. The room must know it has ended.")
     mark(prs, "close")
 
@@ -608,7 +884,9 @@ def build():
             fq = S5.FACE_QUOTE.get(cid)
             if cid in MAP_FOR:
                 sc, a, b, keys, clicks = MAP_FOR[cid]
-                words = bool(c["arabic"]) and not off_face and B.ar_len(fq[0] if fq else c["arabic"]) <= B.AR_SLIDE_MAX
+                # a statement too long for one slide used to stay in the notes; in parts, it has a face (Q4)
+                words = bool(c["arabic"]) and not off_face and (
+                    cid in PARTS or B.ar_len(fq[0] if fq else c["arabic"]) <= B.AR_SLIDE_MAX)
                 head = B.headline_for(B.short(B.face(c["title"]), 9))
                 s, n = S5.layered_map(prs, sc, a, b, head, B.kicker_for(c), keys)
                 if n != len(clicks):
@@ -620,37 +898,44 @@ def build():
                 maps += 1
                 clicks_total += n
                 if words:
-                    w = B.card_slide(prs, c, face_quote=fq, speaker=speaker,
-                                     scene=scene if cid in ("RCT/E-RC74",) else None)
-                    if w is not None:
-                        D.note(w, N.words_slide(c, speaker=speaker, clean=clean)
-                               + ("\n\n" + N.BRIEF + "\n\nOPTIONAL — a background image, if you want one:\n"
-                                  + IMAGE_BRIEF[cid] if cid in IMAGE_BRIEF else ""))
-                        mark(prs, "words", card=cid)
+                    ws = quote_slides(prs, c, cid, speaker=speaker, face_quote=fq,
+                                      scene=scene if cid in ("RCT/E-RC74",) else None)
+                    if ws:
+                        continued(ws, N.words_slide(c, speaker=speaker, clean=clean)
+                                  + ("\n\n" + N.BRIEF + "\n\nOPTIONAL — a background image, if you want one:\n"
+                                     + IMAGE_BRIEF[cid] if cid in IMAGE_BRIEF else ""), c, cid)
+                        for k in range(len(ws)):
+                            META["slides"][str(len(prs.slides) - len(ws) + 1 + k)] = dict(
+                                kind="words" if k == 0 else "cont", card=cid)
                         words_slides += 1
                 made += 1
             else:
                 face_text = B.short(c["what"].split(". ")[0].rstrip(".") + ".", 18) if off_face else None
-                s = B.card_slide(prs, c, arabic_on_face=not off_face, face_text=face_text, face_quote=fq,
-                                 speaker=speaker, scene=scene, brief=IMAGE_BRIEF.get(cid))
+                ss = quote_slides(prs, c, cid, speaker=speaker, scene=scene, arabic_on_face=not off_face,
+                                  face_text=face_text, face_quote=fq, brief=IMAGE_BRIEF.get(cid))
+                s = ss[0] if ss else None
                 if s is not None:
                     ph = has_placeholder(s)
                     if ph and cid not in IMAGE_BRIEF:
                         raise SystemExit("%s becomes an image placeholder and has no IMAGE_BRIEF — write one "
                                          "(VISION I1), or give it a FACE_QUOTE short enough for the face" % cid)
                     brief = IMAGE_BRIEF.get(cid)
-                    D.note(s, N.compose(c, skip=skip, quote_here=not ph, warn=warn, speaker=speaker, clean=clean,
-                                        brief=brief if (ph or cid in IMAN) else None))
+                    continued(ss, N.compose(c, skip=skip, quote_here=not ph, warn=warn, speaker=speaker, clean=clean,
+                                            brief=brief if (ph or cid in IMAN) else None), c, cid)
+                    first = len(prs.slides) - len(ss) + 1
                     if brief and (ph or cid in IMAN):
-                        BRIEFS.append((len(prs.slides), S5.FACE_TITLE.get(cid, c["title"]), brief,
+                        BRIEFS.append((first, S5.FACE_TITLE.get(cid, c["title"]), brief,
                                        "placeholder" if ph else "optional background"))
-                    mark(prs, "card", card=cid)
+                    for k in range(len(ss)):
+                        META["slides"][str(first + k)] = dict(kind="card" if k == 0 else "cont", card=cid)
                     made += 1
             if cid in CHECKPOINTS:
                 checkpoint(prs, CHECKPOINTS[cid])
                 checkpoints += 1
             if cid == CLOSE_AFTER:
                 the_close(prs, pool)
+            if cid == HINGE_AFTER:
+                hinge_close(prs, pool)
 
     if checkpoints != len(CHECKPOINTS):
         raise SystemExit("%d checkpoints emitted of %d" % (checkpoints, len(CHECKPOINTS)))

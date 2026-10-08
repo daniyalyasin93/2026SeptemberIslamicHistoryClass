@@ -54,6 +54,18 @@
    "name": "Under a covenant",
    "ur": "",
    "color": "#5B8FD6"
+  },
+  {
+   "id": "f7",
+   "name": "Persia",
+   "ur": "",
+   "color": "#A8442F"
+  },
+  {
+   "id": "f8",
+   "name": "Rome",
+   "ur": "",
+   "color": "#6B5AA8"
   }
  ],
  "underlay": null,
@@ -243,7 +255,7 @@
    "name": "al-Mundhir ؓ",
    "ur": "",
    "faction": "f1",
-   "strength": "holds Bahrayn",
+   "strength": "",
    "unit": "mixed",
    "labelPos": "left",
    "scale": 1.5,
@@ -308,9 +320,9 @@
    "name": "al-Jārūd ؓ",
    "ur": "",
    "faction": "f1",
-   "strength": "ʿAbd al-Qays hold",
+   "strength": "",
    "unit": "mixed",
-   "labelPos": "above",
+   "labelPos": "right",
    "scale": 1.5
   },
   {
@@ -319,7 +331,7 @@
    "step": 5,
    "note": "say",
    "lon": 51.49715909090909,
-   "lat": 28.465096966868835,
+   "lat": 26.693681368218847,
    "text": "Rabīʿa turn",
    "ur": "",
    "size": 26,
@@ -336,7 +348,7 @@
    "name": "al-Ḥuṭam",
    "ur": "",
    "faction": "f4",
-   "strength": "Bakr b. Wāʾil",
+   "strength": "",
    "unit": "mixed",
    "labelPos": "right",
    "scale": 1.5
@@ -478,7 +490,7 @@
    "faction": "f1",
    "strength": "an army now",
    "unit": "mixed",
-   "labelPos": "left",
+   "labelPos": "right",
    "scale": 1.5,
    "follows": "a_021"
   }

@@ -111,7 +111,7 @@ FORBIDDEN = [
     (r"\bTier\s*:|^\s*(?:CORE|GOOD|CUT)\b[^a-z]", "a tier tag"),   # anchored: "good." in a sentence is not a tier tag
     (r"\bE-[A-Z]{1,4}\d", "a card id"),
     (r"^\s*Card\s+\d+\b|\bCard\s+\d+\s*[·|]", "a card number"),   # our index into SPINE.md, not the room's
-    (r"\b(?:RCT|ABU|ABD|ISA|QMA|BAM|UTS|NTS|GSA|IKO|THO|AHA|ZIA|TMW)/", "a card id"),
+    (r"\b(?:RCT|ABU|ABD|ISA|QMA|BAM|UTS|NTS|GSA|GSB|IKO|THO|AHA|ZIA|TMW)/", "a card id"),
     (r"IMAGE BRIEF|IMAGE GOES HERE|placeholder|TODO|TBD|FIXME", "build scaffolding"),
     (r"\bClaude\b|\bGemini\b|\bChatGPT\b|\bAI[- ]generated\b|\bLLM\b", "an AI marker"),
     (r"\bspeaker'?s discretion\b|\bhands[- ]up\b|\[HANDS\]|\bWORKSHEET\b",
@@ -179,7 +179,7 @@ def text(slide, txt, x, y, w, h, size=BODY_PT, color=INK, font=EN, bold=False,
         if rtl:
             pPr = p._p.get_or_add_pPr()
             pPr.set("rtl", "1")
-            pPr.set("algn", "r")
+            pPr.set("algn", "ctr" if align == PP_ALIGN.CENTER else "r")
         r = p.add_run()
         r.text = para_txt
         r.font.size = Pt(size)
@@ -403,11 +403,11 @@ def _placeholder(s, x, y, w, h, brief, wanted):
 _FONTS = {}
 
 
-def _text_inches(s, pt, bold=True):
+def _text_inches(s, pt, bold=True, face=None):
     """The width of a run of Georgia, as it will be set. Falls back to a generous estimate with no font."""
     try:
         from PIL import ImageFont
-        key = "georgiab.ttf" if bold else "georgia.ttf"
+        key = face or ("georgiab.ttf" if bold else "georgia.ttf")
         if key not in _FONTS:
             _FONTS[key] = ImageFont.truetype(os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", key), 200)
         return _FONTS[key].getlength(s) / 200.0 * pt / 72.0
@@ -415,16 +415,113 @@ def _text_inches(s, pt, bold=True):
         return len(s) * pt / 72.0 * 0.66
 
 
-def _wrapped_lines(label, pt, width_in):
-    """How many lines a bold label takes in a box `width_in` wide, wrapping at spaces as PowerPoint does."""
+def _wrapped_lines(label, pt, width_in, face=None):
+    """How many lines a run takes in a box `width_in` wide, wrapping at spaces as PowerPoint does."""
     lines, cur = 1, ""
     for word in label.split(" "):
         trial = (cur + " " + word).strip()
-        if cur and _text_inches(trial, pt) > width_in:
+        if cur and _text_inches(trial, pt, face=face) > width_in:
             lines, cur = lines + 1, word
         else:
             cur = trial
     return lines
+
+
+PARTS_PER_SLIDE = 4
+# (Arabic pt, rendering pt, gap between parts in inches) — the largest setting that fits is used. The Arabic
+# stays the larger of the two at every step: it is what carries authority in this room (CLAUDE.md 1.4).
+_PART_SIZES = ((44, 28, 0.26), (44, 26, 0.18), (40, 26, 0.16), (40, 24, 0.12), (36, 24, 0.12), (36, 24, 0.07),
+               (32, 24, 0.07))
+
+
+def _fit_parts(parts, room, floor=32):
+    """The largest type and the widest gap at which these parts fit `room` inches; None if they cannot."""
+    width = CONTENT_W / 914400.0 - 0.3
+    for ar_pt, en_pt, gap in _PART_SIZES:
+        if ar_pt < floor:
+            continue
+        cpl = int(60 * 44 / ar_pt)                       # 44pt Naskh sets 60-64 unvowelled characters a line
+        rows, total = [], gap * (len(parts) - 1)
+        for ar, en in parts:
+            al = max(1, -(-_ar_len(ar) // cpl))
+            el = _wrapped_lines(en, en_pt, width, face="georgiai.ttf")
+            ah, eh = ar_pt * 1.5 / 72.0 * al + 0.04, en_pt * 1.30 / 72.0 * el + 0.06
+            rows.append((ah, eh))
+            total += ah + eh
+        if total <= room:
+            return ar_pt, en_pt, gap, rows, total
+    return None
+
+
+def parts_slides(prs, parts, cite=None, headline=None, kicker=None, speaker=None, scene=None):
+    """A quotation that does not fit one statement slide, set IN PARTS and never cut (docs/VISION.md Q4).
+
+    Daniyal, 2026-10-08, of a duʿāʾ whose rendering had been cut off with "…": "one part of dua per line and
+    the new line. Also first Arabic one part. Then its translation. Then next Arabic. And so on. We can move
+    part to next new slide."
+
+    So: a clause of the Arabic, its rendering beneath it, then the next clause — and what one slide cannot
+    hold goes on to the next, under the same headline, speaker and source. `parts` is [(arabic, english), …]
+    and is paged by height, or [[…], […]] where the author has said which parts share a slide.
+    Returns the slides."""
+    if not headline:
+        raise DeckContractError("a quotation in parts carries its headline on every slide")
+    authored = bool(parts) and isinstance(parts[0], list)
+    scene = [str(x).strip() for x in (scene or []) if x and str(x).strip()]
+    if len(scene) > 2 or sum(_count_words(x) for x in scene) > MAX_BODY_WORDS:
+        raise DeckContractError("scene lines: two at most, %d words in all; got %r" % (MAX_BODY_WORDS, scene))
+    foot = 0.52 if speaker else 0.0
+    top = CONTENT_Y + Inches(0.25)
+
+    def room(first):
+        return (H - Inches(0.78) - Inches(0.10) - top) / 914400.0 - foot - (0.5 * len(scene) if first else 0.0)
+
+    if authored:
+        groups = [list(g) for g in parts]
+    else:
+        groups, cur = [], []
+        for part in parts:
+            trial = cur + [part]
+            if cur and (len(trial) > PARTS_PER_SLIDE or _fit_parts(trial, room(not groups), floor=36) is None):
+                groups.append(cur)
+                cur = [part]
+            else:
+                cur = trial
+        groups.append(cur)
+        if len(groups) > 1 and len(groups[-1]) == 1:
+            # A slide left holding one stray clause is a paging accident, not a decision. The author decides.
+            raise DeckContractError("the last part is left alone on a slide of its own: %r — merge it into the "
+                                    "part before it, or say where the slide breaks" % groups[-1][0][1])
+
+    slides = []
+    for gi, group in enumerate(groups):
+        fit = _fit_parts(group, room(gi == 0))
+        if fit is None:
+            raise DeckContractError("%d parts do not fit one slide — break them over two: %r"
+                                    % (len(group), [en for _, en in group]))
+        ar_pt, en_pt, gap, rows, total = fit
+        s = blank(prs)
+        header(s, headline, kicker)
+        y = top
+        if gi == 0:
+            for ln in scene:
+                text(s, ln, MARGIN, y, CONTENT_W, Inches(0.5), size=MIN_PT, color=MUTED, font=SANS, name="scene")
+                y = y + Inches(0.50)
+        y = y + Emu(int(max(0.0, (room(gi == 0) - total) / 2.0) * 914400))
+        for (ar, en), (ah, eh) in zip(group, rows):
+            text(s, ar, MARGIN, y, CONTENT_W, Inches(ah), size=ar_pt, color=DARK, font=AR,
+                 align=PP_ALIGN.CENTER, rtl=True, line=1.5, name="part-ar")
+            y = y + Inches(ah)
+            text(s, en, MARGIN, y, CONTENT_W, Inches(eh), size=en_pt, color=INK, font=EN, italic=True,
+                 align=PP_ALIGN.CENTER, line=1.30, name="part-en")
+            y = y + Inches(eh) + Inches(gap)
+        if speaker:
+            text(s, "— " + str(speaker), MARGIN, H - Inches(0.78) - (Inches(0.52) if cite else Emu(0)),
+                 CONTENT_W, Inches(0.5), size=MIN_PT, color=TEAL, font=SANS, bold=True, name="speaker")
+        if cite:
+            text(s, cite, MARGIN, H - Inches(0.78), CONTENT_W, Inches(0.5), size=MIN_PT, color=MUTED, font=SANS)
+        slides.append(s)
+    return slides
 
 
 def map_slide(prs, image, headline, keys=(), caption=None, kicker=None, brief=None, map_frac=0.60,

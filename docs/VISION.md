@@ -59,6 +59,7 @@ of it on a page**, and **does it leave them with something to hold** — a line 
 | **Q1** | Every quotation **names its speaker on the face**, above the book and the page. | *"who said this?"* | gate `Q1` |
 | **Q2** | Arabic is verbatim from a cached page, lifted by bytes, never composed and never retyped. | CLAUDE.md §1.1, §1.4 | `check_citations` |
 | **Q3** | Arabic too long to project is **excerpted** at a clause — the card's own words — never replaced by a picture. | *"i would like the arabic from ibn kathir verbatim somewhere"* | `FACE_CUT`; `check_face_quotes` |
+| **Q4** | **Text that does not fit is never cut off.** It is set **in parts** — a clause of the Arabic, its rendering beneath it, then the next — and what one slide cannot hold goes on to the next, under the same headline, speaker and source. No rendering on a face ends in “…”. A moment of faith is shown whole. | *"one part of dua per line and the new line. Also first Arabic one part. Then its translation. Then next Arabic. And so on. We can move part to next new slide."* | gate `Q4`; `deck2.parts_slides`; the build refuses a face whose rendering is cut |
 
 ## 4. The notes pane — the lectern
 
@@ -99,6 +100,7 @@ He wants a map to tell the story the way a *Kings and Generals* or *Total War* v
 | **M13** | Maps build on clicks; a moving card's map is its slide; captions fade when their move is done; a front closes on its own map before the next opens. | #58, #63, #64, #69 | build asserts; `mapkit.say` |
 | **M14** | One green for Muslim forces: `#2CB020`. | #58 | gate `M14` |
 | **M15** | **Nothing is printed over anything else.** | #64: *"some of the click click maps become too crowded"* | gate `M15`; `mapkit.settle`, self-placing captions |
+| **M16** | **A label lives as long as it is being talked about.** A road, a battle mark and a caption go when their own slide ends. A banner carries a name; a second line only when that line is the news. **What stays:** places, regions, their names — and every force still on the field. | *"the end images of that sequence have a lot of rush of labels. Maybe the initial labels that are no longer relevant need to use the hide after step"* | gate `M16`; `Scene.cut()`; `march()` keeps the last leg |
 
 **Maps are written, not drawn.** `series/mapkit.py` gives a march, a siege, a trench, a crossing and a caption as
 helpers that satisfy the rules by construction: a march retires the icon it leaves behind in the same call; a
@@ -117,6 +119,10 @@ siege is drawn from here on:
 | `signpost("Medina")` | what lies off the frame, named on the edge it lies beyond |
 | `leave("al-Ḥuṭam")` | a force that is gone takes its road with it: an arrow nobody is on is a question |
 | an old, hand-placed scene | `settle(d)` and `settle_captions(d)` bring it up to the rule without re-drawing it |
+
+**A map slide outside the slide show.** PowerPoint's editing view, and the PDF beside the deck, show a map slide with **every click's layer switched on at once** — every caption of the slide on top of every other. The room never sees that picture; a reviewer scrolling the deck does. Judge a map in the slide show, or from its rendered steps. The notes book (`SNN_notes.pdf`) puts the frame each slide *ends* on in the slide's place, for that reason.
+
+**“A diagram — not to scale” stays on the face** (Daniyal, 2026-10-08: *"keep the diagram even not in full scale"*). So does “in outline — not borders” on a map whose zones no page of ours draws.
 
 **The collision check is the painter's own arithmetic** (`tools/mapstudio/src/render.js`): the flag above a
 banner, the real width of a letter, the anchor of each label side. Its first version guessed — a banner as a
@@ -147,7 +153,7 @@ al-Khaṭṭ does not say where it is — and the slide's notes say so.
 
 | | Rule | His words | Enforced by |
 |---|---|---|---|
-| **L1** | **One or two strands, eight events at most.** Anything finer belongs on a map. | *"the timeline has to be simplified, atm its too many merged. maybe a short general timeline with one or two strands would be ok"* | gate `L1` |
+| **L1** | **One or two strands, eight events at most — on any one Line.** Anything finer belongs on a map. | *"the timeline has to be simplified, atm its too many merged. maybe a short general timeline with one or two strands would be ok"* | gate `L1` |
 
 ## 9. Faith
 

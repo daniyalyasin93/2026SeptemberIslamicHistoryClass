@@ -185,6 +185,11 @@ Daniyal merges them.** `build.py` asserts these and **fails the build** on viola
 | Bullet-list slides | **do not exist** |
 | Image placeholders | real, correctly sized, editable — never flattened |
 
+**A quotation that does not fit is set in parts and carried onto the next slide — never cut off with “…”
+(`DECISIONS.md` #76).** A clause of the Arabic, its rendering beneath it, then the next clause; where each part
+ends is authored in the evening's `build.py` (`PARTS`) and lifted from the card by bytes. The 20-word cap governs
+undivided body text; a slide of parts is governed by its height.
+
 White is not a palette choice, it is a merge requirement: it is the one colour Gemini reproduces
 exactly, so a generated image drops in with no seam. `SLIDES.md` carries a paste-ready
 **`IMAGE BRIEF:`** for every visual slide.
@@ -260,6 +265,11 @@ slide. A rule he has had to repeat is a rule nothing enforces.
   where, an image placeholder carries an authored brief.
 - **Moments of faith get a slide of their own**, in Arabic; and when a page is read, look for the line that could
   be said aloud to a room.
+- **A label lives as long as it is being talked about** (#77): `Scene.cut()` between slides; a banner carries a
+  name, and a second line only when that line is the news. In the editing view and the PDF a map slide shows
+  every click at once — judge it in the slide show or from its rendered steps.
+- **Close-ups are built** (`mapkit.closeup`); where the page gives only sides it is a diagram and says
+  “not to scale” on its face (#75).
 - **Then look.** The gate checks what it has been taught. Open every new map's rendered steps before hand-over.
 
 ## 2. The fixed session shape (45 min)
@@ -373,7 +383,9 @@ row before planning any evening. Evening 2 stopped after بزاخة (37 min, ran
 stopped at **STOP B**; evening 4 (`S04_kinda_butah_yamama/`) at **STOP D**, al-Yamāma taken; evening 5
 (`S05_yamama_dead_oman_mahra/`) at **Checkpoint 2**, Oman and Mahra settled — 33 cards, his slide 63.
 **Evening 6 is `S06_hadramawt_bahrayn/`** — the last front, then Bahrayn; **evening 7 is the hinge**, and the
-Ridda ends on 6 (`DECISIONS.md` #70, `docs/specs/2026-10-07-evenings-6-and-7-spec.md`).
+Ridda ends on 6 (`DECISIONS.md` #70, `docs/specs/2026-10-07-evenings-6-and-7-spec.md`). **Both are in the one deck** (#72): Parts I–VIII close the
+Ridda, Parts IX–X are the hinge (`DECISIONS.md` #78), and there is a close after each. Card ids are unique across
+pools — the 23–41 AH statements bank is `GSB`, the 11–23 AH one `GSA`.
 
 **The pace is a measured constant: 26 · 32 · 34 · 33 cards in a 45-minute slot** — ≈ 1.36 min a card
 delivered against 1.7 budgeted. Cost every runsheet both ways and plan the close from the delivered figure.

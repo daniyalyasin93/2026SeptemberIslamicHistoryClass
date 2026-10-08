@@ -62,7 +62,8 @@ def theatre():
 
     s.at(3, "Bahrayn comes under Islam, and al-Mundhir ؓ holds it for him.")
     s.turn("bahrayn", "f1")
-    s.force("al-Mundhir ؓ", "f1", 50.05, 26.1, sub="holds Bahrayn")
+    s.force("al-Mundhir ؓ", "f1", 50.05, 26.1)
+    s.cut()
 
     s.at(4, "11 AH. The Prophet ﷺ dies — and shortly after him, al-Mundhir ؓ.")
     s.leave("al-Mundhir ؓ")
@@ -70,23 +71,24 @@ def theatre():
 
     s.at(5, "Rabīʿa turn. al-Jārūd ؓ brings his own tribe, ʿAbd al-Qays, back — and they hold.")
     s.turn("bahrayn", "f4")
-    s.force("al-Jārūd ؓ", "f1", 50.15, 24.6, sub="ʿAbd al-Qays hold")
+    s.force("al-Jārūd ؓ", "f1", 50.15, 24.6)
     s.say("Rabīʿa turn", near=(51.5, 26.6))
 
     s.at(6, "al-Ḥuṭam b. Ḍubayʿa comes out, at the head of Bakr b. Wāʾil.")
-    s.force("al-Ḥuṭam", "f4", 48.3, 28.25, sub="Bakr b. Wāʾil")
+    s.force("al-Ḥuṭam", "f4", 48.3, 28.25)
+    s.cut()
 
     s.at(7, "al-ʿAlāʾ ؓ leaves Medina — sixteen riders, and a letter.")
     s.force("al-ʿAlāʾ ؓ", "f1", 40.9, 23.3, sub="sixteen riders")
 
     s.at(8, "Thumāma b. Uthāl ؓ joins him, with the Muslims of Banū Ḥanīfa.")
-    s.march("al-ʿAlāʾ ؓ", to=(45.6, 23.6), via=[(43.2, 23.7)], sub="+ Banū Ḥanīfa")
+    s.march("al-ʿAlāʾ ؓ", to=(45.6, 23.6), via=[(43.2, 23.7)], sub="+ Banū Ḥanīfa", trail=True)
 
     s.at(9, "Qays b. ʿĀṣim joins, and other clans of Tamīm — a force the size of his own.")
-    s.march("al-ʿAlāʾ ؓ", to=(46.9, 24.3), via=[(46.3, 23.8)], sub="+ clans of Tamīm")
+    s.march("al-ʿAlāʾ ؓ", to=(46.9, 24.3), via=[(46.3, 23.8)], sub="+ clans of Tamīm", trail=True)
 
     s.at(10, "Into al-Dahnāʾ. He camps in the middle of it.")
-    s.march("al-ʿAlāʾ ؓ", to=(47.5, 26.5), via=[(47.2, 25.4)], sub="an army now")
+    s.march("al-ʿAlāʾ ؓ", to=(47.5, 26.5), via=[(47.2, 25.4)], sub="an army now", trail=True)
     return s
 
 
@@ -99,19 +101,17 @@ def coast(t):
     s.place("al-Khaṭṭ", *KHATT)
     s.island(ISLAND, "Dārīn", *DARIN, pos="above")
     # his tribe's own ground is all the page gives: beside Juwāthā, and the face says neither inside nor out
-    s.force("al-Jārūd ؓ", "f1", 50.02, 25.33, sub="ʿAbd al-Qays")
+    s.force("al-Jārūd ؓ", "f1", 50.02, 25.33)
 
     s.at(2, "al-Ḥuṭam comes down at al-Qaṭīf and at Hajar.")
-    s.march("al-Ḥuṭam", "f4", frm=(49.35, 26.98), to=(49.47, 25.86), via=[(49.80, 26.52), (49.62, 26.15)],
-            sub="Bakr b. Wāʾil")
+    s.march("al-Ḥuṭam", "f4", frm=(49.35, 26.98), to=(49.47, 25.86), via=[(49.80, 26.52), (49.62, 26.15)], sub="")
 
     s.at(3, "al-Khaṭṭ is won over, with the Zuṭṭ and the Sabābija who live in it.")
     s.region("khatt", [(49.98, 26.28), (50.22, 26.28), (50.22, 26.04), (49.98, 26.04)], "f4", opacity=0.34)
     s.say("al-Khaṭṭ is won over", near=(50.75, 26.05))
 
     s.at(4, "He sends a force across the water, to Dārīn.")
-    s.sail("his force", to=(50.56, 26.47), frm=(49.97, 26.40), via=[(50.25, 26.36)], faction="f4",
-           sub="sent to Dārīn")
+    s.sail("al-Ḥuṭam's force", to=(50.56, 26.47), frm=(49.97, 26.40), via=[(50.25, 26.36)], faction="f4", sub="")
 
     s.at(5, "And he sends to Juwāthā, and besieges the Muslims in it.")
     s.siege(JUWATHA[0], JUWATHA[1], "f4", r=0.06, arms=4, turn=0.26)
@@ -133,7 +133,7 @@ def hajar(t):
     s.place("Juwāthā", *at(1395, 330))
     s.name("← al-Dahnāʾ", *at(150, 250))
     ring = s.siege(*at(1395, 330), faction="f4", r=74 / s.view["scale"], arms=4, turn=0.6)
-    s.force("al-Ḥuṭam", "f4", *at(960, 470), sub="Bakr b. Wāʾil")
+    s.force("al-Ḥuṭam", "f4", *at(960, 470))
     s.force("al-Jārūd ؓ", "f1", *at(1330, 660), sub="ʿAbd al-Qays")
 
     s.at(2, "al-ʿAlāʾ ؓ comes out of al-Dahnāʾ and camps at Hajar.")
@@ -157,6 +157,7 @@ def hajar(t):
     s.at(6, "A month. They fight by turns, and go back to their trenches.")
     s.say("a month", near=at(750, 200), size=32)
 
+    s.cut()
     s.at(7, "A noise in the night. ʿAbd Allāh b. Ḥadhf goes to find out.")
     s.march("Ibn Ḥadhf", "f1", frm=at(600, 330), to=at(770, 330), via=[at(690, 322)], sub="", keep_road=False)
     s.say("a noise in the night", near=at(1000, 250))
@@ -167,6 +168,7 @@ def hajar(t):
     s.at(9, "Fed, mounted, and let through. He tells al-ʿAlāʾ ؓ: they are drunk.")
     s.march("Ibn Ḥadhf", to=at(580, 300), via=[at(680, 290)], sub="“they are drunk”", keep_road=False)
 
+    s.cut()
     s.at(10, "The Muslims go out at them, over the trench.")
     s.leave("Ibn Ḥadhf")
     theirs["until"] = 9
@@ -190,7 +192,7 @@ def flight(t):
     s.place("al-Qaṭīf", *QATIF, pos="left")
     s.region("darin", ISLAND, "f4", opacity=0.55)
     s.place("Dārīn", *DARIN, pos="above")
-    s.force("al-ʿAlāʾ ؓ", "f1", 49.80, 25.62, sub="holds the camp")
+    s.force("al-ʿAlāʾ ؓ", "f1", 49.80, 25.62)
     s.force("the men of Dārīn", "f4", 50.66, 26.80, sub="never came to Hajar")
 
     s.at(2, "The bulk of the beaten take ship for Dārīn. The rest go home, to their own tribes' lands.")
@@ -201,8 +203,8 @@ def flight(t):
 
     s.at(3, "al-ʿAlāʾ ؓ writes to the Muslims of Bakr b. Wāʾil: sit in wait on every road.")
     # the banners carry the short name; the slide's key and the notes carry each man's name in full
-    s.force("ʿUtayba", "f1", 48.46, 26.72, sub="on the roads")
-    s.force("al-Muthannā", "f1", 48.46, 25.62, sub="on the roads")
+    s.force("ʿUtayba", "f1", 48.46, 26.72)
+    s.force("al-Muthannā", "f1", 48.46, 25.62)
     s.say("the roads are shut", near=(48.6, 25.1))
     return s
 
@@ -284,39 +286,101 @@ def arabia():
     return d
 
 
-def kinda():
-    """Evening 5's Ḥaḍramawt scene, brought up to the map rules: no in-map box, names that can be read."""
-    d = json.load(open(os.path.join(SCENES, "s05-10-kinda.json"), encoding="utf-8"))
-    d["style"] = dict(d["style"], cartouche=False, legend=False)
-    d.setdefault("meta", {})["kind"] = "theatre"
-    # M5, every arrow says who is moving. Evening 5 drew thirteen arrows and gave four an owner. The ṣadaqa
-    # arrows are a flow, and the caption of their click says so; every other one is a prong of a force that
-    # is standing on the map when it is drawn.
-    ziyad, ashath, muhajir = "Ziyād b. Labīd ؓ", "al-Ashʿath b. Qays", "al-Muhājir ؓ"
-    his = {"r_0097": ziyad, "r_0099": ziyad, "r_0100": ziyad, "r_0101": ziyad, "r_0102": ziyad, "r_0103": ziyad,
-           "r_0105": ashath, "r_0107": muhajir}
-    ends = {"r_0106": [49.22, 15.66],            # al-Muhājir ؓ comes up BESIDE Ziyād ؓ, not onto his banner
-            "r_0108": [47.86, 16.14]}            # and ʿIkrima ؓ clear of al-Nujayr's name
-    for o in d["objects"]:
-        if o["type"] in ("settlement", "army", "battle"):
-            o["scale"] = max(o.get("scale") or 1.0, NAME)
-        if o["type"] == "label":
-            o["size"] = max(o.get("size") or 0, 24)
-        if o["type"] == "arrow":
-            if o["id"] in ("r_0095", "r_0096"):
-                o["note"] = "said"
-            elif o["id"] in his:
-                o["note"] = "prong:" + his[o["id"]]
-            if o["id"] in ends:
-                o["pts"][-1] = list(ends[o["id"]])
-        if o["id"] == "t_0137":
-            o["note"] = "siege"                  # the ring round al-Nujayr: it says where; s06-nujayr says how
-        if o["type"] == "army" and o.get("follows") in ends:
-            o["lon"], o["lat"] = ends[o["follows"]]
-    settle(d)                                        # names take the side where they cover nothing (M15)
-    settle_captions(d, "s06-kinda")                  # and a caption that is on something moves off it
-    settle(d)
-    return d
+KINDA = [(46.3, 17.2), (48.4, 17.1), (48.5, 15.3), (47.6, 14.8), (46.2, 15.1)]
+HADRAMAWT = [(48.55, 17.2), (51.1, 17.3), (51.2, 15.4), (49.9, 14.7), (48.6, 15.25)]
+PASTURES = [(46.85, 16.60), (47.30, 16.82), (47.78, 16.62), (47.02, 16.12), (47.58, 16.16)]
+
+
+def hadramawt():
+    """Ḥaḍramawt and Kinda, from the quarrel over the ṣadaqa to the walls of al-Nujayr — sixteen steps, the
+    same sixteen evening 5 drew by hand, now written: every banner travels its road, every arrow has an owner.
+
+    WHAT IS SCHEMATIC. The two countries are zones, not borders. The five pastures, the field of Maḥjar
+    al-Zurqān and the fort of al-Nujayr are sites the page names and does not place: evening 5's approximate
+    positions are kept. Nobody's camp is on a page."""
+    s = Scene("s06-kinda", "Ḥaḍramawt and Kinda", box=(45.6, 51.6, 14.5, 17.4))
+    s.name("Kinda", 46.80, 16.98)
+    s.name("Ḥaḍramawt", 50.45, 16.98)
+    s.region("kinda", KINDA, "f5")
+    s.region("hadramawt", HADRAMAWT, "f5")
+    s.force("Ziyād b. Labīd ؓ", "f1", 49.90, 15.60)
+
+    s.at(2, "The arrangement: ṣadaqa carried both ways.")
+    s.flow([(50.0, 16.75), (48.5, 17.0), (47.4, 16.75)])
+    s.flow([(47.4, 15.75), (48.5, 15.52), (50.0, 15.8)])
+    s.say("ṣadaqa, both ways", near=(48.5, 16.3))
+
+    s.at(3, "“Carry it yourselves” — and it was not carried.")
+    s.say("not carried", near=(48.5, 16.3))
+
+    s.cut()
+    s.at(4, "Two great camps face each other.")
+    s.march("Ziyād b. Labīd ؓ", to=(49.05, 16.05), via=[(49.5, 15.8)], sub="")
+    s.force("Banū Muʿāwiya", "f4", 47.55, 16.20)
+
+    s.at(5, "A strike by night.")
+    s.prong("Ziyād b. Labīd ؓ", [(48.80, 16.12), (48.30, 16.28), (47.92, 16.26)])
+    s.say("by night", near=(48.35, 16.75))
+
+    s.at(6, "Kinda roused: no ṣadaqa.")
+    s.turn("kinda", "f4", opacity=0.34)
+    s.say("no ṣadaqa", near=(47.0, 15.5))
+
+    s.cut()
+    s.at(7, "Each chief takes his own pasture as a stronghold.")
+    s.leave("Banū Muʿāwiya")
+    s.sites(PASTURES, until=9)
+    s.say("their pastures, as strongholds", near=(47.3, 15.4))
+
+    s.at(8, "One man and his son walk out, to Ziyād's ؓ camp.")
+    s.march("Shuraḥbīl and his son", "f1", frm=(47.78, 16.62), to=(48.50, 16.52), via=[(48.15, 16.62)], sub="",
+            keep_road=False)
+
+    s.cut()
+    s.at(9, "They ring the pastures in the dark — from five sides.")
+    s.leave("Shuraḥbīl and his son")
+    for a, m, z in [((47.30, 17.03), (47.30, 16.77), (47.30, 16.55)), ((48.02, 16.61), (47.70, 16.54), (47.43, 16.48)),
+                    ((47.80, 15.95), (47.57, 16.18), (47.39, 16.36)), ((46.80, 15.95), (47.02, 16.18), (47.21, 16.36)),
+                    ((46.56, 16.59), (46.89, 16.53), (47.17, 16.48))]:
+        s.prong("Ziyād b. Labīd ؓ", [a, m, z])
+    s.say("from five sides", near=(47.3, 15.4))
+
+    s.at(10, "The four kings are killed.")
+    s.clash(47.30, 16.45, name="the four kings", pos="above", stay=True)
+
+    s.cut()
+    s.at(11, "The column turns for home.")
+    s.march("the column", "f1", frm=(47.45, 16.25), to=(48.28, 15.66), via=[(47.90, 15.92)],
+            sub="property, and captives", keep_road=False)
+
+    s.at(12, "Its road passes one man: al-Ashʿath b. Qays.")
+    s.force("al-Ashʿath b. Qays", "f4", 48.62, 15.22)
+
+    s.at(13, "He takes the captives back.")
+    s.leave("the column")
+    s.prong("al-Ashʿath b. Qays", [(48.58, 15.36), (48.46, 15.52), (48.33, 15.63)])
+    s.say("the captives taken back", near=(48.3, 15.9))
+
+    s.cut()
+    s.at(14, "al-Muhājir ؓ rides ahead with the fastest men.")
+    s.march("al-Muhājir ؓ", "f1", frm=(45.2, 15.25), to=(49.78, 15.42), via=[(46.6, 14.98), (48.5, 14.85)], sub="")
+    s.say("from Ṣanʿāʾ", near=(46.4, 15.6))
+
+    s.at(15, "Maḥjar al-Zurqān: Kinda breaks, and runs.")
+    s.leave("al-Ashʿath b. Qays")
+    s.leave("Ziyād b. Labīd ؓ")              # he marches with al-Muhājir ؓ now: one banner, and it says so
+    s.force("Kinda", "f4", 46.75, 15.45, sub="")
+    s.march("al-Muhājir ؓ", to=(47.55, 15.25), via=[(48.8, 15.2)], sub="with Ziyād ؓ")
+    s.clash(47.05, 15.05, name="Maḥjar al-Zurqān", pos="below")
+
+    s.at(16, "Kinda run for al-Nujayr. ʿIkrima ؓ brings up the main body.")
+    s.place("al-Nujayr", *NUJAYR, tier="fort", pos="below")
+    s.siege(48.42, 15.78, "f1", r=0.42, arms=0)
+    s.march("Kinda", to=(48.62, 15.92), via=[(47.7, 15.78)], sub="")
+    s.march("al-Muhājir ؓ", to=(48.95, 15.38), via=[(48.4, 15.22)], sub="")
+    s.march("ʿIkrima ؓ", "f1", frm=(45.2, 15.05), to=(47.45, 15.42), via=[(46.3, 14.85), (46.95, 15.1)],
+            sub="", dashed=True)
+    return s
 
 
 NUJAYR = (48.30, 15.70)          # "a strong fort in the Yemen" is all the page says: evening 5's approximate site
@@ -330,7 +394,7 @@ def nujayr():
     s = closeup("s06-nujayr", "al-Nujayr", NUJAYR, 26, diagram=True, relief=0.25)
     at = s.spot
     s.place("al-Nujayr", *at(800, 420), tier="fort", pos="above")
-    s.force("Kinda", "f4", *at(905, 455), sub="inside the fort")
+    s.force("Kinda", "f4", *at(905, 455))
 
     s.at(2, "al-Muhājir ؓ comes down on them, with Ziyād ؓ. The Muslims besiege the fort.")
     ring = s.siege(*at(820, 440), faction="f1", r=190 / s.view["scale"], arms=0)
@@ -338,17 +402,13 @@ def nujayr():
     s.march("Ziyād b. Labīd ؓ", "f1", frm=at(1560, 250), to=at(1230, 300), via=[at(1400, 260)], sub="")
 
     s.at(3, "ʿIkrima ؓ arrives with the main body. The siege grows hard.")
-    s.march("ʿIkrima ؓ", "f1", frm=at(60, 800), to=at(560, 700), via=[at(300, 780)], sub="the main body")
+    s.march("ʿIkrima ؓ", "f1", frm=at(60, 800), to=at(560, 700), via=[at(300, 780)], sub="")
     s.say("the siege grows hard", near=at(1150, 640))
 
     s.at(4, "Raiding parties spread out through the country, after the rest.")
-    for k, (x, y) in enumerate([(120, 120), (1500, 520), (980, 860)]):
-        o = s._add("arrow", "prong:al-Muhājir ؓ", pts=[list(at(430, 330)) if k == 0 else list(at(1230, 300)) if k == 1
-                                                         else list(at(560, 700)),
-                                                         list(at((x + 800) / 2, (y + 440) / 2 + (60 if k == 2 else -40))),
-                                                         list(at(x, y))],
-                   faction="f1", label="", ur="", dashed=True, width=6.0)
-        o["until"] = s.step
+    for frm, mid, to in (((430, 330), (270, 190), (120, 120)), ((1230, 300), (1380, 440), (1500, 520)),
+                         ((560, 700), (800, 800), (980, 860))):
+        s.prong("al-Muhājir ؓ", [at(*frm), at(*mid), at(*to)], dashed=True, width=6.0)
     s.say("raiding parties", near=at(1300, 120))
 
     s.at(5, "Those inside come out and fight. Many are killed — and they go back to their fort.")
@@ -357,14 +417,71 @@ def nujayr():
     return s
 
 
+ARABIA = [(35.0, 28.6), (37.0, 25.2), (39.0, 21.0), (42.6, 16.2), (43.4, 12.9), (45.2, 13.0), (48.6, 14.1),
+          (52.2, 16.4), (55.4, 17.6), (58.6, 20.4), (59.7, 22.5), (56.4, 25.6), (55.3, 24.3), (51.6, 24.2),
+          (50.7, 25.4), (50.0, 26.8), (48.6, 28.6), (47.6, 29.6), (46.2, 29.2), (43.5, 30.4), (40.0, 31.6), (37.5, 30.6)]
+PERSIA = [(44.0, 37.2), (48.0, 38.6), (54.0, 38.2), (61.0, 36.6), (62.5, 31.0), (61.0, 26.2), (57.2, 27.0),
+          (54.0, 26.8), (51.4, 28.0), (50.2, 30.0), (48.4, 30.4), (47.4, 30.3), (45.4, 31.4), (43.6, 32.6),
+          (41.6, 34.6), (42.2, 36.6)]
+ROME = [(27.2, 40.9), (32.0, 41.8), (36.5, 41.4), (41.0, 40.4), (42.4, 38.6), (42.2, 36.8), (41.4, 34.8),
+        (39.6, 33.2), (38.2, 32.2), (36.6, 30.4), (35.4, 29.4), (34.9, 29.5), (34.3, 31.3), (35.0, 32.8),
+        (35.7, 34.6), (35.9, 36.2), (36.2, 36.7), (34.6, 36.6), (32.5, 36.1), (30.5, 36.3), (28.5, 36.7),
+        (27.3, 37.4), (27.0, 39.0)]
+MADAIN, JERUSALEM = (44.58, 33.09), (35.22, 31.78)
+
+
+def empires():
+    """The other side of the desert: Persia and Rome, and the first two moves toward them. Nothing is taken.
+
+    WHAT IS SCHEMATIC, and the face says so: both zones. No page we hold gives either empire's extent
+    (docs/research/the-two-empires-at-the-hinge-12-13ah.md, X); they are outlines for the eye. The three
+    towns are where they are. The four roads are four roads because the page says four; it names none."""
+    s = Scene("s06-empires", "Persia and Rome", box=(27, 63, 13, 40), relief=0.6)
+    s.region("arabia", ARABIA, "f1", opacity=0.22)
+    s.region("persia", PERSIA, "f7", opacity=0.20)
+    s.region("rome", ROME, "f8", opacity=0.20)
+    s.name("ARABIA", 45.5, 21.2)
+    s.name("PERSIA", 56.5, 35.4)
+    s.name("ROME", 33.6, 38.9)
+    s.name("Syria", 36.4, 36.6)
+    s.name("Iraq", 45.9, 31.6)
+    s.name("in outline — not borders", *s.spot(390, 856))
+    s.place("Medina", *MEDINA, tier="capital", pos="below")
+    s.place("al-Madāʾin", *MADAIN, tier="city", pos="above")
+    s.place("Jerusalem", *JERUSALEM, tier="city", pos="left")
+
+    s.at(2, "Persia. You know how its king died: by his own son.")
+    s.say("killed by his own son", near=(55.5, 30.5))
+
+    s.at(3, "Rome. Its emperor is Heraclius, and Syria is his.")
+    s.say("Heraclius", near=(33.5, 36.6))
+
+    s.cut()
+    s.at(4, "Khālid ؓ leaves al-Yamāma for the lower end of Iraq.")
+    s.march("Khālid ؓ", "f1", frm=(46.7, 24.6), to=(48.3, 28.8), via=[(48.0, 26.8)])
+
+    s.cut()
+    s.at(5, "Four commanders, four separate roads — toward Syria.")
+    for via, to in (((37.2, 27.4), (36.0, 30.2)), ((38.0, 27.8), (36.9, 30.9)), ((38.9, 28.2), (37.8, 31.5)),
+                    ((39.7, 28.6), (38.7, 32.2))):
+        s.flow([MEDINA, via, to])
+    s.say("four roads", near=(41.6, 28.6))
+
+    s.cut()
+    s.at(6, "A letter goes to al-Madāʾin — not an army.")
+    s.letter(s.where("Khālid ؓ"), MADAIN, width=8.0)
+    s.say("a letter", near=(47.6, 32.4))
+    return s
+
+
 def main(draft=False):
     t = theatre()
     made, files = [], {}
-    for s in (t, coast(t), hajar(t), flight(t), strait(t), nujayr()):
+    for s in (t, coast(t), hajar(t), flight(t), strait(t), hadramawt(), nujayr(), empires()):
         s.save(draft=draft)
         files[s.slug] = s.data()
         made.append((s.slug, s.step, s))
-    for slug, d in (("s06-arabia", arabia()), ("s06-kinda", kinda())):
+    for slug, d in (("s06-arabia", arabia()),):
         with open(os.path.join(SCENES, slug + ".json"), "w", encoding="utf-8") as f:
             json.dump(d, f, ensure_ascii=False, indent=1)
         files[slug] = d

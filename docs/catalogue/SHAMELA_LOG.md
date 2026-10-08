@@ -207,3 +207,8 @@ All cached from the household research notes; this is the register entry for put
 | ⁨الکامل فی التاریخ⁩ 21712 | 917 | ⁨ج۲ ص۲۲۶⁩ | The appointments behind §9.1's four actions — ʿAttāb b. Asīd ؓ and the rest. `RCT/E-RC77` |
 | ⁨الکامل فی التاریخ⁩ 21712 | 918 | ⁨ج۲ ص۲۲۷⁩ | **The four coastal and highland sub-fronts, single-source**; and Najrān's delegation renewing its covenant — «⁨أَرْسَلُوا وَفْدًا لِيُجَدِّدُوا عَهْدَهُمْ⁩». `RCT/E-RC77`; ⬜ Najrān still needs `RC78` |
 | ⁨سیر أعلام النبلاء⁩ 10906 | 1690 | ⁨ج۱ ص۲۶۴⁩ | al-ʿAlāʾ b. al-Ḥaḍramī ؓ — his notice, and the sixteen riders. `RCT/E-RC25` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 942 | ⁨ج۲ ص۲۵۱⁩ | Heraclius, in Jerusalem, tells the Romans to make peace for half of Syria; they refuse. `ISA/E-C22` |
+| ⁨الکامل فی التاریخ⁩ 21712 | 975 | ⁨ج۲ ص۲۸۴⁩ | The search for a king among the women of Kisrā's house; Yazdagird, hidden in Shīrā's days. `ISA/E-C21` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3212 | ⁨ج۷ ص۶۶⁩ | al-Madhār; Hurmuz had written “to Ardashīr and Shīrā”. `ISA/E-C21` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3231 | ⁨ج۷ ص۸۵⁩ | The four columns alarm the Romans; they write to Heraclius. `ISA/E-C22` |
+| ⁨البدایہ والنہایہ⁩ 30097 | 3232 | ⁨ج۷ ص۸۶⁩ | «⁨ويحكم إن هؤلاء أهل دين جديد⁩» — Heraclius's advice, and the snort. `ISA/E-C22` |

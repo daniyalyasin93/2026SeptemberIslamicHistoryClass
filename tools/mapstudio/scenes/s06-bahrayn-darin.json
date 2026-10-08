@@ -57,6 +57,18 @@
    "name": "Under a covenant",
    "ur": "",
    "color": "#5B8FD6"
+  },
+  {
+   "id": "f7",
+   "name": "Persia",
+   "ur": "",
+   "color": "#A8442F"
+  },
+  {
+   "id": "f8",
+   "name": "Rome",
+   "ur": "",
+   "color": "#6B5AA8"
   }
  ],
  "underlay": null,
@@ -183,7 +195,8 @@
    "label": "",
    "ur": "",
    "dashed": false,
-   "width": 9.0
+   "width": 9.0,
+   "until": 2
   },
   {
    "id": "a_008",

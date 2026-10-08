@@ -24085,7 +24085,7 @@ none in the sources we use
 
 *Source note: [`great-statements-and-dialogues-23-40ah.md`](../docs/research/great-statements-and-dialogues-23-40ah.md) — read it for the pages behind these cards.*
 
-### GSA/E-ST1 · The answer to a man who told him he would be killed
+### GSB/E-ST1 · The answer to a man who told him he would be killed
 **Tier:** CORE · **When:** 35 AH, المدینہ `[SOURCED]` · **Map:** المدینہ lights; nothing else moves.
 
 **What happened:** Before the siege closed, a man came to عثمان ؓ and told him plainly what was
@@ -24104,7 +24104,7 @@ of عثمان ؓ's reply is four words.
 
 ---
 
-### GSA/E-ST2 · The mosque he had bought, and was kept out of
+### GSB/E-ST2 · The mosque he had bought, and was kept out of
 **Tier:** GOOD · **When:** ذو القعدة 35 AH `[SOURCED]` · **Map:** the Prophet's mosque and the house, side by side.
 
 **What happened:** The men besieging the house would not let عثمان ؓ into the mosque to pray. He
@@ -24123,7 +24123,7 @@ point. He turned away and called God to witness three times.
 
 ---
 
-### GSA/E-ST3 · Three words, three times, and then he turned away
+### GSB/E-ST3 · Three words, three times, and then he turned away
 **Tier:** CORE · **When:** ذو القعدة 35 AH `[SOURCED]` · **Map:** no map — a statement slide.
 
 **What happened:** Having asked the crowd whether they remembered the well of رومة, and the army he
@@ -24142,7 +24142,7 @@ case for the defence is closed and handed over.
 
 ---
 
-### GSA/E-ST4 · I will not be the first to shed Muslim blood
+### GSB/E-ST4 · I will not be the first to shed Muslim blood
 **Tier:** CORE · **When:** ذو الحجة 35 AH, the house under siege `[SOURCED]` · **Map:** المدینہ, the house marked.
 
 **What happened:** عثمان ؓ had men inside the house and more outside it who would have fought for
@@ -24162,7 +24162,7 @@ who were defending him from any obligation to fight.
 
 ---
 
-### GSA/E-ST5 · The order that emptied his own defence
+### GSB/E-ST5 · The order that emptied his own defence
 **Tier:** CORE · **When:** ذو الحجة 35 AH `[SOURCED]` · **Map:** the house.
 
 **What happened:** ابن الأثیر preserves the sentence that made the defence of the house collapse.
@@ -24180,7 +24180,7 @@ inside. Anyone who fought was told in advance that he fought on his own account.
 
 ---
 
-### GSA/E-ST6 · The three refusals
+### GSB/E-ST6 · The three refusals
 **Tier:** GOOD · **When:** ذو الحجة 35 AH `[SOURCED]` · **Map:** المدینہ with الشام marked to the north.
 
 **What happened:** Three ways out were put to عثمان ؓ and he refused each in turn. He would not
@@ -24199,7 +24199,7 @@ not fight. ابن كثير sets the three out on one page.
 
 ---
 
-### GSA/E-ST7 · The charge he said he was keeping
+### GSB/E-ST7 · The charge he said he was keeping
 **Tier:** CORE · **When:** the siege `[SOURCED]` · **Map:** no map.
 
 **What happened:** The men in the house asked him directly whether he would fight, and he said no,
@@ -24218,7 +24218,7 @@ later, is shorter still.
 
 ---
 
-### GSA/E-ST8 · The shirt, told three times
+### GSB/E-ST8 · The shirt, told three times
 **Tier:** CORE · **When:** in the Prophet's ﷺ lifetime; delivered in the 35 AH block `[SOURCED]` · **Map:** no map.
 
 **What happened:** ابن كثير carries the report that the Prophet ﷺ told عثمان ؓ that God might
@@ -24237,7 +24237,7 @@ months of siege follows from this one report, and the room cannot understand his
 
 ---
 
-### GSA/E-ST9 · Break your fast with me tomorrow
+### GSB/E-ST9 · Break your fast with me tomorrow
 **Tier:** GOOD · **When:** the night of 17–18 ذو الحجة 35 AH `[SOURCED]` · **Map:** the house.
 
 **What happened:** On the last night, عثمان ؓ dreamt that he came in upon the Prophet ﷺ with
@@ -24256,7 +24256,7 @@ was killed that same day.
 
 ---
 
-### GSA/E-ST10 · The first hand that wrote out the مفصّل
+### GSB/E-ST10 · The first hand that wrote out the مفصّل
 **Tier:** CORE · **When:** 18 ذو الحجة 35 AH `[SOURCED]` · **Map:** the house, closing.
 
 **What happened:** When the sword came down, عثمان ؓ put up his hand and it was cut. الذهبي
@@ -24275,7 +24275,7 @@ gathered the مصحف died with the copy he had made open in front of him.
 
 ---
 
-### GSA/E-ST11 · What he actually said about the pasture
+### GSB/E-ST11 · What he actually said about the pasture
 **Tier:** GOOD · **When:** 34–35 AH, المدینہ `[SOURCED]` · **Map:** no map.
 
 **What happened:** Two complaints against عثمان ؓ were repeated in every city: the reserved
@@ -24294,7 +24294,7 @@ nothing was reserved that had not been reserved before him.
 
 ---
 
-### GSA/E-ST12 · What he actually said about the مصحف
+### GSB/E-ST12 · What he actually said about the مصحف
 **Tier:** CORE · **When:** 30 AH `[SOURCED]` · **Map:** the four garrison cities lit at once.
 
 **What happened:** The second standing complaint was that he had burned copies of the Qurʾān.
@@ -24314,7 +24314,7 @@ the tongue it came down in.
 
 ---
 
-### GSA/E-ST13 · علي ؓ on the same decision
+### GSB/E-ST13 · علي ؓ on the same decision
 **Tier:** CORE · **When:** 30 AH `[SOURCED]` · **Map:** no map.
 
 **What happened:** The man most often set against عثمان ؓ is recorded, on the same page as the
@@ -24332,7 +24332,7 @@ comment on it.
 
 ---
 
-### GSA/E-ST14 · Say nothing of عثمان but good
+### GSB/E-ST14 · Say nothing of عثمان but good
 **Tier:** CORE · **When:** 30–32 AH, الربذة `[SOURCED]` · **Map:** الربذة marked east of المدینہ.
 
 **What happened:** أبو ذر ؓ is the name most often produced as evidence against عثمان ؓ. He
@@ -24352,7 +24352,7 @@ page.
 
 ---
 
-### GSA/E-ST15 · The visit, and the stipend refused
+### GSB/E-ST15 · The visit, and the stipend refused
 **Tier:** CORE · **When:** 32 AH, المدینہ `[SOURCED]` · **Map:** no map.
 
 **What happened:** عبد الله بن مسعود ؓ came back from العراق, buried أبو ذر ؓ at الربذة on the
@@ -24371,7 +24371,7 @@ told it would go to his daughters, he said he had told them to recite سورة �
 
 ---
 
-### GSA/E-ST16 · Do not become parties
+### GSB/E-ST16 · Do not become parties
 **Tier:** CORE · **When:** 35 AH, the منبر at المدینہ `[SOURCED]` · **Map:** no map — closing statement slide.
 
 **What happened:** ابن كثير preserves a line from عثمان ؓ's addresses that reads, after the event,
@@ -24389,7 +24389,7 @@ hold together and not to break into parties. Within the year it had broken into 
 
 ---
 
-### GSA/E-ST17 · Do not unsheathe the sword of God among yourselves
+### GSB/E-ST17 · Do not unsheathe the sword of God among yourselves
 **Tier:** CORE · **When:** ذو الحجة 35 AH `[SOURCED]` · **Map:** المدینہ.
 
 **What happened:** As the siege reached its last days, a voice was raised in المدینہ warning what
@@ -24407,7 +24407,7 @@ session — الجمل, صفين, النهروان, الكوفة, مصر — is 
 
 ---
 
-### GSA/E-ST18 · The besiegers' own reasoning
+### GSB/E-ST18 · The besiegers' own reasoning
 **Tier:** GOOD · **When:** ذو الحجة 35 AH `[SOURCED]` · **Map:** no map.
 
 **What happened:** ابن الأثیر records what the men outside the house said to one another as the
@@ -24426,7 +24426,7 @@ sentence and does not comment on it.
 
 ---
 
-### GSA/E-ST19 · Persia and Rome do not do this
+### GSB/E-ST19 · Persia and Rome do not do this
 **Tier:** GOOD · **When:** ذو الحجة 35 AH `[SOURCED]` · **Map:** no map.
 
 **What happened:** Water was cut off from the house. A Companion called out to the besiegers that
@@ -24445,7 +24445,7 @@ household kept getting water in when the guards were not looking.
 
 ---
 
-### GSA/E-ST20 · Milk, or blood
+### GSB/E-ST20 · Milk, or blood
 **Tier:** CORE · **When:** after 35 AH, البصرة `[SOURCED]` · **Map:** no map — closing عبرت slide.
 
 **What happened:** A generation later, الحسن البصري was asked about the killing of عثمان ؓ and
@@ -24463,7 +24463,7 @@ any of our sources of what the ummah actually got out of that afternoon.
 
 ---
 
-### GSA/E-ST21 · The first of the trials, and the last
+### GSB/E-ST21 · The first of the trials, and the last
 **Tier:** CORE · **When:** 35 AH `[SOURCED]` · **Map:** the Line, with 35 AH lit.
 
 **What happened:** حذيفة بن اليمان ؓ — the Companion the Prophet ﷺ had told about the hypocrites,
@@ -24482,7 +24482,7 @@ and the man the others went to when they wanted to know what was coming — put 
 
 ---
 
-### GSA/E-ST22 · A better minister than a commander
+### GSB/E-ST22 · A better minister than a commander
 **Tier:** CORE · **When:** ذو الحجة 35 AH, المدینہ `[SOURCED]` · **Map:** المدینہ.
 
 **What happened:** With عثمان ؓ dead and the city in the hands of the men who had killed him, the
@@ -24501,7 +24501,7 @@ the people followed.
 
 ---
 
-### GSA/E-ST23 · Leave him — I am his guarantor
+### GSB/E-ST23 · Leave him — I am his guarantor
 **Tier:** GOOD · **When:** ذو الحجة 35 AH `[SOURCED]` · **Map:** no map.
 
 **What happened:** A man was brought who would not give the bayʿa. الأشتر — the commander who had
@@ -24519,7 +24519,7 @@ words, and it sets the standard the whole caliphate is measured against afterwar
 
 ---
 
-### GSA/E-ST24 · I declare myself free of his blood
+### GSB/E-ST24 · I declare myself free of his blood
 **Tier:** CORE · **When:** 35–36 AH, المدینہ `[SOURCED]` · **Map:** المدینہ.
 
 **What happened:** The charge that followed علي ؓ for the rest of his life was that he had had a
@@ -24539,7 +24539,7 @@ overpowered.
 
 ---
 
-### GSA/E-ST25 · I did not kill and I did not command
+### GSB/E-ST25 · I did not kill and I did not command
 **Tier:** CORE · **When:** 36 AH `[SOURCED]` · **Map:** no map — statement slide.
 
 **What happened:** ابن كثير gives, on the same page as the public oath, the sentence in which
@@ -24558,7 +24558,7 @@ seven words.
 
 ---
 
-### GSA/E-ST26 · What he hoped for both armies
+### GSB/E-ST26 · What he hoped for both armies
 **Tier:** CORE · **When:** جمادى الآخرة 36 AH, outside البصرة `[SOURCED]` · **Map:** البصرة, the two camps.
 
 **What happened:** On the night before الجمل, with the two camps in sight of each other, علي ؓ was
@@ -24576,7 +24576,7 @@ he said what he hoped would happen to the men who died on either side of the fie
 
 ---
 
-### GSA/E-ST27 · What brought you to this land?
+### GSB/E-ST27 · What brought you to this land?
 **Tier:** CORE · **When:** جمادى الآخرة 36 AH `[SOURCED]` · **Map:** البصرة.
 
 **What happened:** علي ؓ sent an envoy into the other camp to ask each of the three principals, in
@@ -24595,7 +24595,7 @@ passed the best of nights.
 
 ---
 
-### GSA/E-ST28 · The night the settlement nearly held
+### GSB/E-ST28 · The night the settlement nearly held
 **Tier:** CORE · **When:** the night before الجمل `[SOURCED]` · **Map:** البصرة, the two camps at rest.
 
 **What happened:** Terms were agreed and علي ؓ announced that he would move on in the morning and
@@ -24614,7 +24614,7 @@ the morning, they would start the fighting themselves and not let anybody talk.
 
 ---
 
-### GSA/E-ST29 · Hold back, hold back — and no one heard
+### GSB/E-ST29 · Hold back, hold back — and no one heard
 **Tier:** CORE · **When:** جمادى الآخرة 36 AH `[SOURCED]` · **Map:** البصرة, the two camps closing.
 
 **What happened:** When the fighting began at dawn, both commanders tried to stop it. ابن كثير
@@ -24632,7 +24632,7 @@ what happened to the call.
 
 ---
 
-### GSA/E-ST30 · The people know I am no coward
+### GSB/E-ST30 · The people know I am no coward
 **Tier:** CORE · **When:** جمادى الآخرة 36 AH `[SOURCED]` · **Map:** البصرة, and the road out of it.
 
 **What happened:** علي ؓ called الزبير ؓ out between the lines and reminded him of something he had
@@ -24651,7 +24651,7 @@ in the battle at all.
 
 ---
 
-### GSA/E-ST31 · Leaving what I fear the consequences of
+### GSB/E-ST31 · Leaving what I fear the consequences of
 **Tier:** GOOD · **When:** جمادى الآخرة 36 AH `[SOURCED]` · **Map:** no map — statement slide.
 
 **What happened:** الذهبي prints, immediately after الزبير ؓ's explanation, the line of verse he
@@ -24669,7 +24669,7 @@ principle offered by a participant about his own conduct.
 
 ---
 
-### GSA/E-ST32 · Two men, one killer, the same answer
+### GSB/E-ST32 · Two men, one killer, the same answer
 **Tier:** CORE · **When:** جمادى الآخرة 36 AH and afterwards `[SOURCED]` · **Map:** وادي السباع marked outside البصرة.
 
 **What happened:** ابن جرموز killed الزبير ؓ on the road after he had left the battle, and then
@@ -24692,7 +24692,7 @@ war said the same thing about the same killer.
 
 ---
 
-### GSA/E-ST33 · We temporised in the affair of عثمان
+### GSB/E-ST33 · We temporised in the affair of عثمان
 **Tier:** CORE · **When:** the morning of الجمل `[SOURCED]` · **Map:** البصرة.
 
 **What happened:** طلحة ؓ said two things on the morning of the battle that الذهبي preserves. To
@@ -24711,7 +24711,7 @@ take the debt out of him that day. He was killed by an arrow within hours.
 
 ---
 
-### GSA/E-ST34 · Yesterday one hand, today two mountains of iron
+### GSB/E-ST34 · Yesterday one hand, today two mountains of iron
 **Tier:** GOOD · **When:** the morning of الجمل `[SOURCED]` · **Map:** no map — statement slide.
 
 **What happened:** علقمة reproached طلحة ؓ for being where he was. الذهبي gives the answer, and
@@ -24730,7 +24730,7 @@ our sources contains, and it is by a man standing in it.
 
 ---
 
-### GSA/E-ST35 · You have won, so be gentle
+### GSB/E-ST35 · You have won, so be gentle
 **Tier:** CORE · **When:** the evening of الجمل, 36 AH `[SOURCED]` · **Map:** البصرة.
 
 **What happened:** When the fighting stopped, علي ؓ came to أم المؤمنين عائشة ؓ. الذهبي records
@@ -24749,7 +24749,7 @@ afterwards is on the same run of البدایہ's pages.
 
 ---
 
-### GSA/E-ST36 · She is the wife of your Prophet ﷺ in this world and the next
+### GSB/E-ST36 · She is the wife of your Prophet ﷺ in this world and the next
 **Tier:** CORE · **When:** after الجمل `[SOURCED]` · **Map:** no map — statement slide.
 
 **What happened:** Someone reported to علي ؓ what أم المؤمنين ؓ had said about their quarrel — that
@@ -24768,7 +24768,7 @@ hear from him rather than from us.
 
 ---
 
-### GSA/E-ST37 · He prayed over the slain of both parties
+### GSB/E-ST37 · He prayed over the slain of both parties
 **Tier:** CORE · **When:** after الجمل, 36 AH `[SOURCED]` · **Map:** البصرة.
 
 **What happened:** علي ؓ had his crier forbid three things — no pursuit of a man in flight, no
@@ -24787,7 +24787,7 @@ stars. Then he stayed outside البصرة for three days and prayed over the de
 
 ---
 
-### GSA/E-ST38 · Hard on me to see you under the stars
+### GSB/E-ST38 · Hard on me to see you under the stars
 **Tier:** GOOD · **When:** the evening of الجمل `[SOURCED]` · **Map:** the field outside البصرة.
 
 **What happened:** Among the dead علي ؓ found طلحة ؓ — one of the ten, his own companion of
@@ -24805,7 +24805,7 @@ account for. ابن كثير gives what he said over the body.
 
 ---
 
-### GSA/E-ST39 · My pillow
+### GSB/E-ST39 · My pillow
 **Tier:** GOOD · **When:** الجمل, 36 AH `[SOURCED]` · **Map:** no map.
 
 **What happened:** A man came on طلحة ؓ dying, propped against another man, and asked him who had
@@ -24824,7 +24824,7 @@ his own view someone else shot it.
 
 ---
 
-### GSA/E-ST40 · Not one in a hundred was there
+### GSB/E-ST40 · Not one in a hundred was there
 **Tier:** CORE · **When:** 36–37 AH `[SOURCED]` · **Map:** the Line, with the whole Companion generation marked.
 
 **What happened:** ابن كثير states plainly, and twice, how many of the Companions actually took part
@@ -24844,7 +24844,7 @@ thirty of the men who knew him ﷺ.
 
 ---
 
-### GSA/E-ST41 · Neither my she-camel nor my he-camel
+### GSB/E-ST41 · Neither my she-camel nor my he-camel
 **Tier:** CORE · **When:** 36–37 AH, البصرة `[SOURCED]` · **Map:** البصرة, a third marker beside the two camps.
 
 **What happened:** When the call to join one side or the other went round البصرة, الأحنف بن قيس
@@ -24863,7 +24863,7 @@ those, and a third that stood out.
 
 ---
 
-### GSA/E-ST42 · I held my hand back, and I did not regret it
+### GSB/E-ST42 · I held my hand back, and I did not regret it
 **Tier:** CORE · **When:** 36–40 AH and long afterwards `[SOURCED]` · **Map:** المدینہ.
 
 **What happened:** عبد الله بن عمر ؓ was not a quietist by temperament — the same ترجمة records him
@@ -24882,7 +24882,7 @@ why it is worth a slide: he keeps his own choice and praises the other side in t
 
 ---
 
-### GSA/E-ST43 · The God-fearing, the self-sufficient, the obscure
+### GSB/E-ST43 · The God-fearing, the self-sufficient, the obscure
 **Tier:** GOOD · **When:** 35–36 AH, outside المدینہ `[SOURCED]` · **Map:** no map.
 
 **What happened:** سعد بن أبي وقاص ؓ — the conqueror of القادسية, one of the six of the شورى, one
@@ -24901,7 +24901,7 @@ whether he was content to be a bedouin while the people were contending over the
 
 ---
 
-### GSA/E-ST44 · Do not fall upon my brothers
+### GSB/E-ST44 · Do not fall upon my brothers
 **Tier:** CORE · **When:** 36–50 AH `[SOURCED]` · **Map:** no map — guardrail slide.
 
 **What happened:** A man in سعد ؓ's hearing made a habit of abusing طلحة, الزبير, عثمان and
@@ -24919,7 +24919,7 @@ for a sign in the man that would be a lesson to the people.
 
 ---
 
-### GSA/E-ST45 · Not fair dealing that we are watered and they thirsty
+### GSB/E-ST45 · Not fair dealing that we are watered and they thirsty
 **Tier:** CORE · **When:** ذو الحجة 36 AH, صفين `[SOURCED]` · **Map:** صفين, the Euphrates, the single watering place.
 
 **What happened:** معاوية ؓ's army reached صفين first and took the only watering place on that
@@ -24939,7 +24939,7 @@ fair dealing.
 
 ---
 
-### GSA/E-ST46 · The palm-fronds of هجر
+### GSB/E-ST46 · The palm-fronds of هجر
 **Tier:** CORE · **When:** صفر 37 AH, صفين `[SOURCED]` · **Map:** صفين on the Euphrates, and هجر at the far end of Arabia.
 
 **What happened:** عمار بن ياسر ؓ was an old man at صفين, tall and dark, holding a spear with a
@@ -24958,7 +24958,7 @@ Messenger of God ﷺ had told him it would be the last thing he drank. He was ki
 
 ---
 
-### GSA/E-ST47 · Today I meet the loved ones
+### GSB/E-ST47 · Today I meet the loved ones
 **Tier:** CORE · **When:** صفر 37 AH `[SOURCED]` · **Map:** صفين.
 
 **What happened:** The last thing عمار ؓ is reported to have done was to get علي ؓ's one-eyed
@@ -24982,7 +24982,7 @@ words, and was answered.
 
 ---
 
-### GSA/E-ST48 · Naming both parties Muslims
+### GSB/E-ST48 · Naming both parties Muslims
 **Tier:** CORE · **When:** صفر 37 AH — the guardrail slide `[SOURCED]` · **Map:** no map.
 
 **What happened:** The hadith that the transgressing party would kill عمار ؓ is in the two
@@ -25003,7 +25003,7 @@ speaker says exactly that much and stops.
 
 ---
 
-### GSA/E-ST49 · Their claim is one
+### GSB/E-ST49 · Their claim is one
 **Tier:** CORE · **When:** صفر 37 AH `[SOURCED]` · **Map:** صفين, the two lines.
 
 **What happened:** ابن كثير arranges the prophetic material about this war into a chapter of its
@@ -25022,7 +25022,7 @@ same قبلة, and recited the same Book.
 
 ---
 
-### GSA/E-ST50 · Deception, cunning, and stratagem
+### GSB/E-ST50 · Deception, cunning, and stratagem
 **Tier:** CORE · **When:** صفر 37 AH, صفين `[SOURCED]` · **Map:** صفين.
 
 **What happened:** When the مصاحف went up on the spears, علي ؓ told his army plainly what he
@@ -25042,7 +25042,7 @@ its own certainty, citing الحديبية.
 
 ---
 
-### GSA/E-ST51 · Distrust your own opinion
+### GSB/E-ST51 · Distrust your own opinion
 **Tier:** CORE · **When:** صفر 37 AH `[SOURCED]` · **Map:** no map — statement slide.
 
 **What happened:** سهل بن حنيف ؓ — a Companion of بدر — stood up in front of the army at the moment
@@ -25061,7 +25061,7 @@ the time.
 
 ---
 
-### GSA/E-ST52 · Do you make men judges in the religion of God?
+### GSB/E-ST52 · Do you make men judges in the religion of God?
 **Tier:** CORE · **When:** صفر 37 AH, on the road back `[SOURCED]` · **Map:** صفين → حروراء → الكوفة.
 
 **What happened:** The shout that names the movement was raised on the road back from صفين and came
@@ -25080,7 +25080,7 @@ by, and gone off to make a judgement in the religion of God.
 
 ---
 
-### GSA/E-ST53 · It is men who speak by it
+### GSB/E-ST53 · It is men who speak by it
 **Tier:** CORE · **When:** 37 AH, حروراء `[SOURCED]` · **Map:** حروراء outside الكوفة.
 
 **What happened:** علي ؓ answered the slogan with an argument rather than an assertion. ابن الأثیر
@@ -25100,7 +25100,7 @@ who spoke by it.
 
 ---
 
-### GSA/E-ST54 · Four thousand came back
+### GSB/E-ST54 · Four thousand came back
 **Tier:** GOOD · **When:** 37 AH, حروراء `[SOURCED]` · **Map:** حروراء → الكوفة.
 
 **What happened:** علي ؓ sent عبد الله بن عباس ؓ out to argue with them and told him not to answer
@@ -25120,7 +25120,7 @@ first.
 
 ---
 
-### GSA/E-ST55 · Whoever comes to this banner is safe
+### GSB/E-ST55 · Whoever comes to this banner is safe
 **Tier:** CORE · **When:** صفر 38 AH, النهروان `[SOURCED]` · **Map:** النهروان, east of المدائن.
 
 **What happened:** At النهروان, with the two lines drawn, علي ؓ offered safe-conduct twice over:
@@ -25139,7 +25139,7 @@ four hundred wounded handed back to their own tribes to be treated.
 
 ---
 
-### GSA/E-ST56 · Had you killed a chicken over it
+### GSB/E-ST56 · Had you killed a chicken over it
 **Tier:** CORE · **When:** صفر 38 AH, النهروان `[SOURCED]` · **Map:** النهروان.
 
 **What happened:** Before the fighting, علي ؓ put to them what they had already done — they had
@@ -25157,7 +25157,7 @@ the sentence he used, and it works by being deliberately small.
 
 ---
 
-### GSA/E-ST57 · Our brothers who transgressed against us
+### GSB/E-ST57 · Our brothers who transgressed against us
 **Tier:** CORE · **When:** after النهروان, 38 AH `[SOURCED]` · **Map:** no map — statement slide.
 
 **What happened:** After the battle علي ؓ was asked what the dead had been — idolaters, or
@@ -25175,7 +25175,7 @@ and they had been fought for the transgression and for nothing else.
 
 ---
 
-### GSA/E-ST58 · What shall I say to my Lord?
+### GSB/E-ST58 · What shall I say to my Lord?
 **Tier:** GOOD · **When:** 37–40 AH `[SOURCED]` · **Map:** الكوفة and البصرة marked.
 
 **What happened:** معاوية ؓ wrote to أبو موسى الأشعري ؓ in his own hand, offering الكوفة for one
@@ -25195,7 +25195,7 @@ nothing else.
 
 ---
 
-### GSA/E-ST59 · No settled state of affairs came out of it
+### GSB/E-ST59 · No settled state of affairs came out of it
 **Tier:** CORE · **When:** رمضان 37 or شعبان 38 AH, دومة الجندل `[SOURCED]` · **Map:** دومة الجندل, between the two camps.
 
 **What happened:** The arbitration is the part of this window the room already "knows", and the
@@ -25215,7 +25215,7 @@ we use.
 
 ---
 
-### GSA/E-ST60 · Weary of them, and they of me
+### GSB/E-ST60 · Weary of them, and they of me
 **Tier:** CORE · **When:** 39–40 AH, الكوفة `[SOURCED]` · **Map:** الكوفة, with مصر and الشام lost.
 
 **What happened:** In the last year, with مصر gone, raiding parties reaching into العراق and his
@@ -25233,7 +25233,7 @@ verdict on four years of trying to hold a community together.
 
 ---
 
-### GSA/E-ST61 · Imprison him, and treat his captivity well
+### GSB/E-ST61 · Imprison him, and treat his captivity well
 **Tier:** CORE · **When:** رمضان 40 AH, الكوفة `[SOURCED]` · **Map:** الكوفة, the mosque.
 
 **What happened:** علي ؓ was struck on his way into the mosque at dawn and lived two days. The
@@ -25253,7 +25253,7 @@ God ﷺ had left them.
 
 ---
 
-### GSA/E-ST62 · God knows whether we were right or wrong
+### GSB/E-ST62 · God knows whether we were right or wrong
 **Tier:** CORE · **When:** 35–40 AH `[SOURCED]` · **Map:** no map — the guardrail slide.
 
 **What happened:** الذهبي records علي ؓ giving his own account of how he came to the caliphate.
@@ -25273,7 +25273,7 @@ goes to excess.
 
 ---
 
-### GSA/E-ST63 · Two men are destroyed on my account
+### GSB/E-ST63 · Two men are destroyed on my account
 **Tier:** CORE · **When:** 35–40 AH `[SOURCED]` · **Map:** no map — QA slide.
 
 **What happened:** الذهبي preserves a sentence of علي ؓ's that names exactly the two failures this
@@ -25291,7 +25291,7 @@ exaggerates. Both destroy themselves, and both do it in his name.
 
 ---
 
-### GSA/E-ST64 · I disliked to kill you over a kingdom
+### GSB/E-ST64 · I disliked to kill you over a kingdom
 **Tier:** CORE · **When:** ربيع الأول 41 AH `[SOURCED]` · **Map:** الكوفة → المدائن → الشام; the map goes quiet.
 
 **What happened:** الحسن ؓ took the bayʿa at الكوفة on the day his father died, on one condition —
@@ -25313,7 +25313,7 @@ The editor notes a break in the chain of this report (سیر ج۳ ص۲۷۲); say
 
 ---
 
-### GSA/E-ST65 · The Year of the Community
+### GSB/E-ST65 · The Year of the Community
 **Tier:** CORE · **When:** 41 AH `[SOURCED]` · **Map:** the closing map — one authority, from خراسان to إفريقية.
 
 **What happened:** The Prophet ﷺ had said, on the منبر with the boy beside him, that this son of his
@@ -25333,7 +25333,7 @@ fighting stopped got a name.
 
 ---
 
-### GSA/E-ST66 · The first of the kings of Islam, and the best of them
+### GSB/E-ST66 · The first of the kings of Islam, and the best of them
 **Tier:** GOOD · **When:** 41 AH — the hand-off to session 4 `[SOURCED]` · **Map:** the Line, with 41 AH marked as a hinge.
 
 **What happened:** ابن كثير himself draws the line between the caliphate and what follows it, and
