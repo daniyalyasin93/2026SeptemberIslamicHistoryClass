@@ -20,7 +20,8 @@ WHAT THIS EVENING SUPPLIES is everything Daniyal's review of 2026-10-08 made a r
 The notes are series/notes2.py's two tiers — short cues first, the detail under a rule. The build ends by
 running tools/check_vision.py and prints every breach; a deck with breaches is not ready to be shown.
 
-WHERE THIS DECK STOPS. Parts I-VI close the Ridda; Parts VII-VIII are the hinge (RUNSHEET.md, above '## Held').
+WHERE THIS DECK STOPS. Parts I-VI close the Ridda; Parts VII-IX are the hinge — Persia and Rome, then the
+opening of Iraq, then the opening of Syria (RUNSHEET.md, above '## Held').
 """
 import importlib.util
 import json
@@ -541,35 +542,48 @@ MAP_BRIDGE_BEFORE["TSY/E-YK12"] = (
      "2. Their spirits sank, and they feared death. Next: what al-Ashʿath did."])
 S5.MAP_FOR, S5.MAP_BRIDGE_BEFORE, S5.MAP_BRIDGE_QUOTE = MAP_FOR, MAP_BRIDGE_BEFORE, {}
 
-# ------------------------------------------------------------------------------- Parts VII and VIII: the hinge
-# docs/research/the-two-empires-at-the-hinge-12-13ah.md. Nothing here is general-knowledge history: the two
-# zones on the map are outlines and say so, and every sentence on a face has a page of the four books under it.
+# ------------------------------------------------------------------------------- Parts VII to IX: the hinge
+# docs/research/the-two-empires-at-the-hinge-12-13ah.md and the-openings-of-iraq-and-syria-12-13ah.md. Nothing
+# here is general-knowledge history: the zones on the maps are outlines and say so, the roads are in outline and
+# say so, and every sentence on a face has a page of the four books under it.
 S5.FACE_TITLE.update({
     "ISA/E-C21": "The house of Kisrā",
+    "ISA/E-C26": "al-Muthannā b. Ḥāritha al-Shaybānī",
     "ISA/E-C1": "Khālid ؓ — the order to Iraq",
-    "ISA/E-C7": "Syria — four commanders, four roads",
-    "GSA/E-ST8": "Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ",
-    "GSA/E-ST9": "ʿAmr b. al-ʿĀṣ ؓ — one arrow",
+    "ISA/E-C27": "al-Qaʿqāʿ b. ʿAmr — the reinforcement",
+    "ISA/E-C28": "Khālid ؓ — three columns, to al-Ḥafīr",
     "ISA/E-C2": "Khālid ؓ — the letter to al-Madāʾin",
+    "ISA/E-C23": "Syria — the verse, and the Prophet's ﷺ road",
+    "GSA/E-ST9": "ʿAmr b. al-ʿĀṣ ؓ — one arrow",
+    "ISA/E-C24": "Abū Bakr ؓ — to the armies",
+    "GSA/E-ST8": "Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ",
+    "ISA/E-C7": "Syria — four commanders, four roads",
     "ISA/E-C22": "Heraclius, to the Romans",
 })
 S5.FACE_WHEN.update({
-    "ISA/E-C21": "12–13 AH, al-Madāʾin", "ISA/E-C1": "Muḥarram 12 AH, al-Yamāma to Iraq",
-    "ISA/E-C7": "Early 13 AH, Medina", "GSA/E-ST8": "13 AH, leaving Medina", "GSA/E-ST9": "13 AH, Medina",
-    "ISA/E-C2": "12 AH, lower Iraq", "ISA/E-C22": "13 AH, Syria",
+    "ISA/E-C21": "12–13 AH, al-Madāʾin", "ISA/E-C26": "12 AH, the Iraq frontier",
+    "ISA/E-C1": "Muḥarram 12 AH, al-Yamāma to Iraq", "ISA/E-C27": "12 AH, Medina",
+    "ISA/E-C28": "12 AH, al-Yamāma to al-Ḥafīr", "ISA/E-C2": "12 AH, al-Ḥīra",
+    "ISA/E-C23": "Early 13 AH, Medina", "GSA/E-ST9": "13 AH, Quḍāʿa to Medina", "ISA/E-C24": "Early 13 AH, Medina",
+    "GSA/E-ST8": "13 AH, leaving Medina", "ISA/E-C7": "Early 13 AH, Syria", "ISA/E-C22": "13 AH, Syria",
 })
 FACE_SPEAKER.update({
     "ISA/E-C21": "Ibn al-Athīr, on how Persia found its last king",
+    "ISA/E-C26": "Ibn al-Athīr, on al-Muthannā",
     "ISA/E-C1": "Ibn Kathīr, on what Abū Bakr ؓ ordered Khālid ؓ",
-    "ISA/E-C7": "Yaʿqūb, peace be upon him, to his sons — Sūrat Yūsuf 67",
-    "GSA/E-ST8": "Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ",
-    "GSA/E-ST9": "ʿAmr b. al-ʿĀṣ ؓ, to Abū Bakr ؓ",
+    "ISA/E-C27": "Ibn al-Athīr, on what Abū Bakr ؓ answered",
+    "ISA/E-C28": "Ibn al-Athīr, on how Khālid ؓ came to Iraq",
     "ISA/E-C2": "Khālid b. al-Walīd ؓ, to the marzubāns of Persia",
+    "ISA/E-C23": "Ibn Kathīr, on why Abū Bakr ؓ turned to Syria",
+    "GSA/E-ST9": "ʿAmr b. al-ʿĀṣ ؓ, to Abū Bakr ؓ",
+    "ISA/E-C24": "Abū Bakr ؓ, to the armies gathered at Medina",
+    "GSA/E-ST8": "Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ",
+    "ISA/E-C7": "Yaʿqūb, peace be upon him, to his sons — Sūrat Yūsuf 67",
     "ISA/E-C22": "Heraclius, to the Romans — as Ibn Kathīr reports it",
 })
 FACE_SCENE.update({
-    "GSA/E-ST8": ["Abū Bakr ؓ, on foot, beside Yazīd's ؓ horse."],
-    "GSA/E-ST9": ["Offered the Syrian command — and left free to keep the post he had."],
+    "ISA/E-C27": ["Khālid ؓ has written to Medina for more men."],
+    "ISA/E-C24": ["The armies have gathered at Medina. Abū Bakr ؓ stands, and speaks."],
     "ISA/E-C22": ["The four columns are on the road. The Romans write to their emperor."],
     "ISA/E-C21": ["Shīrā, Kisrā's son, had killed the males of his own house.",
                   "Persia's great men ask its women for one heir."],
@@ -577,10 +591,14 @@ FACE_SCENE.update({
 LECTERN_WARN.update({
     "ISA/E-C21": ["Say the names as the page's. Do not reconcile them with other histories.",
                   "Stop before Rustam and al-Qādisiyya — later evenings."],
+    "ISA/E-C26": ["No honorific is written for al-Muthannā on our pages. Name him plainly."],
     "ISA/E-C1": ["Muḥarram 12 is al-Madāʾinī's date — say whose it is."],
-    "ISA/E-C7": ["The provinces are given, not taken. Nothing is taken tonight."],
+    "ISA/E-C27": ["Name al-Qaʿqāʿ and al-Muthannā; leave the other three unnamed."],
+    "ISA/E-C28": ["Stop before the fight. al-Ḥafīr is named, not placed."],
+    "ISA/E-C2": ["A year's fighting lies before this letter. Say so; do not tell it."],
+    "ISA/E-C23": ["These are Ibn Kathīr's grounds. Say “Ibn Kathīr says”."],
+    "ISA/E-C7": ["The provinces are named, not taken. Nothing is taken tonight."],
     "GSA/E-ST8": ["Abū Sufyān's ؓ son, Muʿāwiya's ؓ brother — say it plainly; nothing of what came later."],
-    "ISA/E-C2": ["Do not say he had taken al-Ḥīra. The page says its people chose the jizya."],
     "ISA/E-C22": ["A Muslim historian's report of a Roman council. Narrate it as the book's.",
                   "Stop at “they refused”. The armies are the next evening."],
 })
@@ -594,7 +612,15 @@ PARTS.update({
     "ISA/E-C7": [("لا تدخلوا …", "do not enter")],
     "GSA/E-ST8": [("وأخرجك", "bring you out"), ("عزلتك", "I will dismiss you"), "|"],
     "GSA/E-ST9": [("سهام الإسلام", "arrows of Islam"), ("والجامع لها", "who gathers them"), "|"],
-    "ISA/E-C2": [("مني الذمة", "protection from me"), ("لا إله غيره", "there is no god")],
+    # the whole letter, over three slides: what he tells Persia · who is a Muslim · the demand, and the last line
+    "ISA/E-C2": [("اتبع الهدى", "follows the guidance"), ("ووهن كيدكم", "weakened your scheming"), "|",
+                 ("وعليه ما علينا", "is upon him"), "|", ("مني الذمة", "protection from me")],
+    "ISA/E-C26": [("أن يغزو بالعراق", "to raid in Iraq")],
+    "ISA/E-C27": [("التميمي", "al-Tamīmī"), ("برجل واحد", "with one man"), "|"],   # then the answer, alone
+    "ISA/E-C28": [("على طريق واحد", "by one road"), "|", ("وجاء خالد بعدهما", "after the two of them")],
+    "ISA/E-C23": [("مرجعه من الحج", "return from the ḥajj"), ("[التوبة: ١٢٣]", "who are near you"), "|"],
+    "ISA/E-C24": [("فإن القصد أبلغ", "carries furthest"), ("لا إيمان له", "has no faith"), "|",
+                  ("لا نية له", "has no intention")],
     "ISA/E-C22": [("أهل دين جديد", "a new religion"), ("لا قبل لأحد بهم", "strength to face them"), "|",
                   ("ويبقى لكم جبال الروم", "remain yours")],
 })
@@ -608,20 +634,48 @@ MAP_BRIDGE_BEFORE["ISA/E-C21"] = (
      "▶ CLICK 2 — Rome. Its emperor is Heraclius, and Syria is his.",
      "2. What our books say of each, and what each was told."])
 MAP_FOR.update({
-    "ISA/E-C1": ("s06-empires", 3, 4,
-                 [("Khālid ؓ", "ordered to Iraq, from its lower end"), ("al-Madāʾin", "Persia's capital — he is not sent there")],
-                 [(2, "Khālid ؓ leaves al-Yamāma for the lower end of Iraq.")]),
-    "ISA/E-C7": ("s06-empires", 4, 5,
-                 [("Medina", "four commanders leave by four roads"), ("Syria", "four provinces given, none yet taken")],
-                 [(4, "Four commanders, four separate roads — toward Syria.")]),
-    "ISA/E-C2": ("s06-empires", 5, 6,
-                 [("Khālid ؓ", "writes to al-Madāʾin; he does not march"),
-                  ("al-Madāʾin", "Kisrā's commanders, marzubāns and ministers")],
-                 [(2, "A letter goes to al-Madāʾin — not an army.")]),
+    # ---- Iraq: one map, ten steps. Named columns; nothing is fought on it.
+    "ISA/E-C26": ("s06-iraq", 1, 2,
+                  [("al-Muthannā", "raiding in Iraq, with Abū Bakr's ؓ leave"), ("al-Madāʾin", "the Persian capital")],
+                  [(2, "al-Muthannā b. Ḥāritha is already here — raiding the edge of the Sawād, with Abū Bakr's ؓ leave.")]),
+    "ISA/E-C1": ("s06-iraq", 2, 4,
+                 [("Khālid ؓ", "ordered to Iraq, from its lower end"), ("al-Ubulla", "Abū Bakr ؓ: begin here")],
+                 [(1, "The order reaches Khālid ؓ at al-Yamāma: to Iraq, from its lower end — beginning with al-Ubulla."),
+                  (3, "And ʿIyāḍ b. Ghanm ؓ is ordered in from the upper end — to meet him.")]),
+    "ISA/E-C28": ("s06-iraq", 4, 8,
+                  [("al-Ḥafīr", "where the three columns are to meet"), ("Hurmuz", "holds Persia's strongest frontier")],
+                  [(3, "al-Muthannā first — toward al-Ḥafīr."),
+                   (4, "Then ʿAdī b. Ḥātim ؓ, by a road of his own."),
+                   (5, "Khālid ؓ last. All three are to meet at al-Ḥafīr."),
+                   (6, "Hurmuz writes to his king, and hurries to meet them.")]),
+    "ISA/E-C2": ("s06-iraq", 8, 10,
+                 [("Khālid ؓ", "at al-Ḥīra: he writes, and does not march"),
+                  ("al-Madāʾin", "Kisrā's commanders, governors and ministers")],
+                 [(2, "A year on: Khālid ؓ is at al-Ḥīra."),
+                  (3, "He writes to al-Madāʾin.")]),
+    # ---- Syria: the wide map for the roads out of Medina, then a close-up for where the four camped.
+    "ISA/E-C23": ("s06-syria", 1, 3,
+                  [("Tabūk", "the Prophet ﷺ led the Muslims here himself"), ("SYRIA", "Usāma's ؓ army: sent toward its borders")],
+                  [(4, "Tabūk: the Prophet ﷺ led the Muslims this far toward Syria himself, in fierce heat."),
+                   (5, "And before he died, he sent Usāma b. Zayd ؓ toward these borders.")]),
+    "GSA/E-ST9": ("s06-syria", 3, 5,
+                  [("ʿAmr ؓ", "among Quḍāʿa, collecting the ṣadaqa"), ("Medina", "Abū Bakr ؓ writes: Syria, if you will")],
+                  [(1, "A letter from Medina finds ʿAmr b. al-ʿĀṣ ؓ among Quḍāʿa, collecting the ṣadaqa."),
+                   (6, "He names a deputy, and comes to Medina.")]),
+    "GSA/E-ST8": ("s06-syria", 5, 6,
+                  [("Yazīd ؓ", "rides out first, by Tabūk"), ("Medina", "Abū Bakr ؓ walks beside him, on foot")],
+                  [(2, "Yazīd b. Abī Sufyān ؓ rides out first, by Tabūk — and Abū Bakr ؓ walks beside him.")]),
+    "ISA/E-C7": ("s06-syria-camps", 1, 5,
+                 [("Yazīd ؓ", "al-Balqāʾ — Damascus is named for him"), ("Shuraḥbīl ؓ", "Jordan; some say Buṣrā"),
+                  ("Abū ʿUbayda ؓ", "al-Jābiya — Ḥimṣ is named for him"), ("ʿAmr ؓ", "al-ʿAraba: Palestine")],
+                 [(2, "Yazīd ؓ, first: al-Balqāʾ."),
+                  (3, "Shuraḥbīl ؓ, after him: Jordan."),
+                  (4, "Abū ʿUbayda ؓ: al-Jābiya."),
+                  (5, "ʿAmr ؓ: al-ʿAraba — Palestine.")]),
 })
 HINGE_AFTER = "ISA/E-C22"        # the second close: where the deck ends if the hinge is told
-TONIGHT2 = [("Persia", "ISA/E-C21"), ("Iraq", "ISA/E-C1"), ("Syria", "ISA/E-C7"), ("Yazīd ؓ", "GSA/E-ST8"),
-            ("Rome", "ISA/E-C22")]
+TONIGHT2 = [("Persia", "ISA/E-C21"), ("al-Muthannā", "ISA/E-C26"), ("Khālid's ؓ letter", "ISA/E-C2"),
+            ("Syria", "ISA/E-C23"), ("Yazīd ؓ", "GSA/E-ST8"), ("Rome", "ISA/E-C22")]
 NEXT_WEEK2 = ("The emperor of the Romans told them: make peace. They refused him. What did it cost them?")
 
 BRIDGE_BEFORE = {
@@ -764,7 +818,7 @@ def the_close(prs, pool):
 
 
 def hinge_close(prs, pool):
-    """The second close: after Parts VII-VIII. The Line with the two orders on it, the map with nothing taken."""
+    """The second close: after Parts VII-IX. The Line with the two orders on it, the map with nothing taken."""
     s = D.timeline_slide(prs, os.path.join(VIS, "line_s06_hinge.png"), "Tonight on the Line")
     D.note(s, N.plain(["THE CLOSE — the Line", "SAY", "1. The Ridda, whole: every front, one colour.",
                        "2. Muḥarram of year 12 — the order to Iraq.",

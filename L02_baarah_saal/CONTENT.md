@@ -7676,13 +7676,14 @@ refuse that, fight. And then two restrictions that are easy to miss. Do not comp
 with you. And do not use any man who apostatised, even if he has come back.
 **Beats:**
 1. Khālid ؓ has just finished al-Yamāma — And a letter comes from Abū Bakr ؓ, in Medina.
-2. Not “conquer Iraq” — Come at Iraq from its lower end.
-3. Call them first — If they answer, they are Muslims: what is yours is theirs.
-4. Then the jizya; then the sword — In that order, as the order gives it.
-5. Compel no one to march — The first restraint: no man is forced to go.
-6. And use no man who turned — The second: nobody who apostatised, even if he has come back.
-7. Whose date it is — Muḥarram of year 12 is al-Madāʾinī's, by his chain. Ibn Kathīr reports it.
-**Quote after beat:** 4
+2. Not “conquer Iraq” — Come at Iraq from its lower end: begin with al-Ubulla, “the frontier of India”.
+3. And a second commander, from the other end — ʿIyāḍ b. Ghanm ؓ is to enter Iraq from its upper end, and meet him. Ibn al-Athīr.
+4. Call them first — If they answer, they are Muslims: what is yours is theirs.
+5. Then the jizya; then the sword — In that order, as the order gives it.
+6. Compel no one to march — The first restraint: no man is forced to go.
+7. And use no man who turned — The second: nobody who apostatised, even if he has come back.
+8. Whose date it is — Muḥarram of year 12 is al-Madāʾinī's, by his chain. Ibn Kathīr reports it.
+**Quote after beat:** 5
 **The statement:**
 > وأن يَتألَّفَ الناسَ ويدعوهم إلى الله ﷿، فإن أجابوا وإلا أخذ منهم الجزيةَ فإن امتنعوا عن ذلك قاتلهم،
 > وأمره أن لا يُكْرِه أحدًا على المسير معه، ولا يستعينُ بمنِ ارتدّ عن الإسلام وإن كان [قد] عاد إليه
@@ -7694,34 +7695,54 @@ with you. And do not use any man who apostatised, even if he has come back.
 **عبرت:** A state that has just won a civil war and still refuses to conscript the defeated is
 telling you what it thinks it is for.
 **Hands-up?** no
+**The second commander** `[SOURCED — الکامل ج۲ ص۲۳۴]` — Ibn al-Athīr, in the telling that begins *“and it is
+said”*: Abū Bakr ؓ ordered Khālid ؓ to begin with al-Ubulla, and wrote to ʿIyāḍ b. Ghanm ؓ to make for Iraq, enter
+it from its upper end, and march until he met Khālid ؓ. Where ʿIyāḍ ؓ set out from is on no page we hold.
 
 ### ISA/E-C2 · The letter to the marzubāns of Persia
-**Tier:** CORE · **When:** 12 AH `[SOURCED — البدایہ ج۷ ص۶۴]` · **Map:** a line drawn from الحيرة to
-المدائن — the first time Medina addresses the Persian court directly.
-**What happened:** Khālid ؓ had come into Iraq from its lower end, and the first people he met there had
-chosen the jizya. He did not march on al-Madāʾin, where Kisrā's commanders, his marzubāns and his ministers
-sat. He wrote to it. The letter was short and it
-survives, because al-Shaʿbī says the family of Buqayla in al-Ḥīra read it out to him. It sets out
-one offer, one alternative, and one warning. Ibn Kathīr رحمہ اللہ ends the page on their reaction:
-when they read it, they were left marvelling.
+**Tier:** CORE · **When:** 12 AH, from al-Ḥīra `[SOURCED — البدایہ ج۷ ص۶۳–۶۴]` · **Map:** a line drawn from الحيرة to
+المدائن — the first time the Persian court is addressed directly.
+**What happened:** Between the last slide and this one lies a year of fighting in lower Iraq, and it is another
+evening's. Tonight, only what Khālid ؓ wrote at the end of it. The country below the Persian capital had made its
+peace — the people of al-Ḥīra chose the jizya, the first taken from Iraq — and he did not march on al-Madāʾin,
+where Kisrā's commanders, his marzubāns and his ministers sat. He wrote to it. The letter survives because
+al-Shaʿbī says the family of Buqayla in al-Ḥīra read it out to him. It opens with peace, on a condition. It tells
+Persia what has happened to it. It says who is a Muslim, and what he then shares. It asks for hostages and a
+covenant. And it ends on the line everyone remembers. Ibn Kathīr رحمہ اللہ closes on their reaction: when they
+read it, they were left marvelling.
 **Beats:**
-1. Khālid ؓ is in lower Iraq — The first people he met there chose the jizya.
-2. He does not march on al-Madāʾin — He writes to it: to Kisrā's commanders, his marzubāns and his ministers.
-3. How we have the letter — al-Shaʿbī: the family of Buqayla read it out to him.
-4. What he says of Persia — “Praise be to Allah, who has broken up your company, taken away your kingship and weakened your scheming.”
-5. One offer, one alternative — Islam; or hostages, and a covenant of protection.
-6. “A people who love death as you love life” — Read the line.
-7. They were left marvelling — Ibn Kathīr's own last words on it.
-**Quote after beat:** 6
+1. A year's fighting lies between — Lower Iraq, 12 AH: another evening's. Tonight, only what he wrote at the end of it.
+2. al-Ḥīra has chosen the jizya — The first taken from Iraq. The country below the capital has made its peace.
+3. He does not march on al-Madāʾin — He writes to it: to Kisrā's commanders, his frontier governors — the marzubāns — and his ministers.
+4. How we have the letter — al-Shaʿbī: the family of Buqayla, in al-Ḥīra, read it out to him.
+5. Peace — on a condition — “Peace be upon whoever follows the guidance.”
+6. What he tells Persia of itself — Allah has broken up your company, taken your kingship, weakened your scheming.
+7. The first way: Islam — Pray as we pray, face our qibla, eat what we slaughter: what is ours is his.
+8. The second way: a covenant — Hostages, and protection.
+9. The third is the declaration — “A people who love death as you love life.” Read the line.
+10. They were left marvelling — Ibn Kathīr's own last words on it.
+**Quote after beat:** 9
 **The statement:**
-> فابعثوا إليَّ بالرُّهن واعتقدوا مني الذِّمة، و (إلا) فوالذي لا إله غيره لأبعثن إليكم قومًا يحبّون الموتَ
-> كما تحبّون أنتم الحياة
+> من خالد بن الوليد إلى مرازبة أهل فارس: سلامٌ على من اتَّبع الهُدى، أما بعد فالحمد لله الذي فض خدمتكم وسلبَ مُلْككم ووهنَ كيدكَم، وإنَّ منْ صلَّى صلاتنا واستقبل قبلتنا وأكلَ ذبيحتنا فذلك المسلمُ الذي له ما لنا وعليه ما علينا، أما بعد فإذا جاءكم كتابي فابعثوا إليَّ بالرُّهن واعتقدوا مني الذِّمة، و (إلا) فوالذي لا إله غيره لأبعثن إليكم قومًا يحبّون الموتَ كما تحبّون أنتم الحياة
 > — البدایہ والنہایہ ج۷ ص۶۴ · https://shamela.ws/book/30097/3210
-> *English:* "…so send me hostages and take a covenant of protection from me. Otherwise — by Him
-> beside whom there is no god — I shall send against you a people who love death as you love life."
+> *English:* "From Khālid b. al-Walīd to the frontier governors of the people of Persia: peace be upon whoever
+> follows the guidance. To proceed: praise be to Allah, who has broken up your company, taken away your kingship
+> and weakened your scheming. Whoever prays our prayer, faces our qibla and eats what we slaughter — that is the
+> Muslim: what is ours is his, and what is upon us is upon him. To proceed: when my letter reaches you, send me
+> hostages and take a covenant of protection from me. Otherwise — by Him beside whom there is no god — I shall
+> send against you a people who love death as you love life."
 **عبرت:** A man who has made peace with his own death is very difficult to bargain with.
-**Hands-up?** Ask the room: how far is Medina from the Persian capital? Then tell them a letter went,
-before an army did.
+**Hands-up?** Ask the room: how far is Medina from the Persian capital? Then tell them: a letter reached it
+before any army did.
+⚠ **The books tell the opening of Iraq two ways.** In the short telling — Ibn Isḥāq's, which both books give
+first — Khālid ؓ comes, the villages and al-Ḥīra make peace, and he writes this letter. In Sayf's longer telling
+there are battles first, beginning with Hurmuz. This card follows the first, and says aloud that the fighting is
+another evening's.
+⚠ **This is not the letter Hurmuz sent on to Shīrā.** That was an earlier one, to Hurmuz himself; the page
+mentions it and does not quote it (البدایہ ج۷ ص۶۴).
+⚠ *Marzubān* is the page's word — a Persian frontier governor. The face says *frontier governors*.
+⚠ **It is an ultimatum with three ways out** — Islam; a covenant with hostages; or war — in the order Abū Bakr's ؓ
+order to Khālid ؓ gives them. Its last line is the declaration; do not tell the whole letter as one.
 
 ### ISA/E-C3 · The poison cup at al-Ḥīra
 **Tier:** GOOD · **When:** 12 AH `[SOURCED — البدایہ ج۷ ص۷۰; also سیر ج۱ ص۳۷۶, where the chain is
@@ -7806,24 +7827,26 @@ through the night, hard, and came up to it at first light. Khālid ؓ said one s
 **Hands-up?** no
 
 ### ISA/E-C7 · Four commanders, four roads
-**Tier:** CORE · **When:** early 13 AH `[SOURCED — البدایہ ج۷ ص۸۳–۸۴]` · **Map:** four arrows leave
-Medina at once, on four separate roads, and four sectors of Syria light up — Damascus, Homs,
-Palestine, Jordan.
-**What happened:** Abū Bakr ؓ finished with Arabia and turned to Syria. He did not send one army. He
-appointed four commanders and gave each of them a province before it was taken: Yazīd b. Abī
-Sufyān ؓ Damascus, Abū ʿUbayda ؓ Homs, ʿAmr b. al-ʿĀṣ ؓ Palestine, Shuraḥbīl b. Ḥasana ؓ Jordan. He
-ordered each to take a different road. And he walked out of Medina on foot beside each of them while
-they rode, giving his instructions. Ibn Kathīr رحمہ اللہ says the four roads were not a military
-trick: the caliph was following a verse.
+**Tier:** CORE · **When:** early 13 AH `[SOURCED — البدایہ ج۷ ص۸۳–۸۵; الکامل ج۲ ص۲۴۹–۲۵۱]` · **Map:** four named
+columns leave Medina one after another, each by a road of its own, and camp where the pages camp them —
+al-Balqāʾ, Jordan, al-Jābiya, Palestine.
+**What happened:** Abū Bakr ؓ did not send one army to Syria, and he did not send them all at once. Yazīd b. Abī
+Sufyān ؓ went first, with the largest force — the bulk of those who had volunteered, and the men of Mecca with
+him; Damascus was named for him. Ḥimṣ was named for Abū ʿUbayda ؓ, and Palestine for ʿAmr b. al-ʿĀṣ ؓ. Jordan was
+given first to al-Walīd b. ʿUqba ؓ; then Shuraḥbīl b. Ḥasana ؓ, who had come to Medina from Khālid ؓ in Iraq, was
+put over that post and sent after Yazīd ؓ. Each commander was ordered to take a road that was not the other's.
+Ibn Kathīr رحمہ اللہ says this was not only a calculation: the caliph was following a verse. And the books say
+where each of them camped.
 **Beats:**
-1. Arabia is finished; he turns to Syria — Early in year 13.
-2. Not one army — Four commanders, each given a province before it is taken.
-3. The four — Yazīd b. Abī Sufyān ؓ Damascus; Abū ʿUbayda ؓ Ḥimṣ; ʿAmr b. al-ʿĀṣ ؓ Palestine; Shuraḥbīl b. Ḥasana ؓ Jordan.
-4. Four separate roads — He orders each of them to take a different one.
-5. On foot, beside the riders — He walks out of Medina beside each of them, giving his instructions.
-6. He was following a verse — Ibn Kathīr: Yaʿqūb's words to his sons — do not enter by one gate.
-7. Nothing is taken tonight — The provinces are named. Their taking belongs to later evenings.
-**Quote after beat:** 6
+1. Not one army, and not all at once — Early in year 13: al-Madāʾinī's date.
+2. Yazīd b. Abī Sufyān ؓ goes first — The largest force: the volunteers, and the men of Mecca. Damascus is named for him. His road is by Tabūk.
+3. Shuraḥbīl b. Ḥasana ؓ, after him — He has come from Khālid ؓ in Iraq. Jordan — the post first named for al-Walīd b. ʿUqba ؓ.
+4. Abū ʿUbayda ؓ — Ḥimṣ is named for him. He camps at al-Jābiya.
+5. ʿAmr b. al-ʿĀṣ ؓ — Palestine.
+6. Each by a road of his own — Ordered so: a road that is not the other's.
+7. He was following a verse — Ibn Kathīr: Yaʿqūb's words to his sons — do not enter by one gate.
+8. Nothing is taken tonight — The provinces are named. Their taking belongs to later evenings.
+**Quote after beat:** 7
 **The statement:**
 > ﴿وَقَالَ يَابَنِيَّ لَا تَدْخُلُوا … مِنْ بَابٍ وَاحِدٍ وَادْخُلُوا مِنْ أَبْوَابٍ مُتَفَرِّقَةٍ …﴾ [يوسف: ٦٧]
 > — البدایہ والنہایہ ج۷ ص۸۳–۸۴ · https://shamela.ws/book/30097/3229 · https://shamela.ws/book/30097/3230
@@ -7832,6 +7855,28 @@ trick: the caliph was following a verse.
 *The verse is Yūsuf 67, quoted by Ibn Kathīr as the precedent Abū Bakr ؓ was following. It runs over a page turn: its opening words are on index 3229 and the rest on 3230. The first ellipsis marks the turn; the second, the rest of the verse.*
 **عبرت:** A plan is safer when it is not one plan.
 **Hands-up?** no
+**Each by a road of his own — Ibn Kathīr's words:**
+> وأمر كلَّ أميرٍ أن يسلكَ طريقًا غير طريق الآخر، لما لحظ في ذلك من المصالح
+> — البدایہ والنہایہ ج۷ ص۸۳ · https://shamela.ws/book/30097/3229
+> *English:* "And he ordered each commander to take a road other than the other's, for the benefits he saw in that."
+**Where each of them camped:**
+> فَلَمَّا وَصَلَ الْأُمَرَاءُ إِلَى الشَّامِ نَزَلَ أَبُو عُبَيْدَةَ الْجَابِيَةَ، وَنَزَلَ يَزِيدُ الْبَلْقَاءَ، وَنَزَلَ شُرَحْبِيلُ الْأُرْدُنَّ، وَقِيلَ: بُصْرَى، وَنَزَلَ عَمْرُو بْنُ الْعَاصِ الْعَرَبَةَ
+> — الکامل فی التاریخ ج۲ ص۲۵۱ · https://shamela.ws/book/21712/942
+> *English:* "When the commanders reached Syria, Abū ʿUbayda camped at al-Jābiya, Yazīd at al-Balqāʾ, Shuraḥbīl in
+> Jordan — and it is said: at Buṣrā — and ʿAmr b. al-ʿĀṣ at al-ʿAraba."
+**How Shuraḥbīl ؓ came to Jordan:**
+> وَكَانَ قَدْ قَدِمَ شُرَحْبِيلُ بْنُ حَسَنَةَ مِنْ عِنْدِ خَالِدِ بْنِ الْوَلِيدِ إِلَى أَبِي بَكْرٍ وَافِدًا، فَأَمَرَهُ أَبُو بَكْرٍ بِالشَّامِ وَنَدَبَ مَعَهُ النَّاسَ، وَاسْتَعْمَلَهُ عَلَى عَمَلِ الْوَلِيدِ بْنِ عُقْبَةَ
+> — الکامل فی التاریخ ج۲ ص۲۵۱ · https://shamela.ws/book/21712/942
+> *English:* "Shuraḥbīl b. Ḥasana had come from Khālid b. al-Walīd to Abū Bakr as an envoy. Abū Bakr appointed him
+> to Syria, called the people out with him, and put him over the post of al-Walīd b. ʿUqba."
+⚠ **What this card used to say, and the pages do not:** that four provinces were given to four men at one
+sitting, and that the caliph walked out beside each of them. The pages name three provinces in the banner
+passage; give Jordan to al-Walīd ؓ first; send the commanders one after another; and say he walked beside
+Yazīd ؓ (and, in one reading, Abū ʿUbayda ؓ). Corrected 2026-10-08, when Daniyal asked *“are you sure?”*
+⚠ **The first banner was a fifth man's** — Khālid b. Saʿīd b. al-ʿĀṣ ؓ. That is `ISA/E-C25`, and it is held.
+⚠ **The roads are not named**, except Yazīd's ؓ: by Tabūk (البدایہ ج۷ ص۸۴). The map draws the others in outline.
+⚠ **Muʿāwiya ؓ** was sent later, behind his brother, with those who gathered afterwards (البدایہ ج۷ ص۸۵). Not
+tonight's.
 
 ### ISA/E-C8 · The spy's report
 **Tier:** CORE · **When:** أجنادين, 2 nights remaining of جمادى الأولى 13 AH `[SOURCED — الکامل
@@ -8192,6 +8237,225 @@ it as what the book carries; build nothing on its wording.
 ⚠ **Stop at “they refused”.** The deployments that follow on the same page — ninety thousand against ʿAmr ؓ, and the
 rest — are `GSA/E-ST10` and the next evening.
 ⚠ Heraclius is new to the room. One breath: *the emperor of the Romans*. No dates for him are on a page we hold.
+
+---
+
+### ISA/E-C23 · Why Syria — the grounds Ibn Kathīr gives
+**Tier:** CORE · **When:** the opening of 13 AH `[SOURCED — البدایہ ج۷ ص۸۲]` · **Map:** from Medina north: Tabūk, and
+the borders of Syria — the road the Prophet ﷺ had already taken.
+**What happened:** Ibn Kathīr opens the year 13 with Abū Bakr ؓ already resolved: he is back from the ḥajj, and he
+means to gather the armies and send them to Syria. And Ibn Kathīr says on what grounds. A verse — fight those of
+the disbelievers who are near you — and a second with it. And the Prophet's ﷺ own example: he had gathered the
+Muslims to march on Syria himself, in the year of Tabūk, reached it in fierce heat and hardship, and returned;
+and before he died he had sent Usāma b. Zayd ؓ toward its borders. So when Abū Bakr ؓ had finished with Arabia he
+stretched out his right hand to Iraq, and sent Khālid ؓ; then he meant to send to Syria as he had to Iraq — and he
+began to gather the commanders, from the scattered places of Arabia where they were.
+**Beats:**
+1. The year 13 opens — Abū Bakr ؓ is back from the ḥajj, and resolved: the armies are to be gathered, and sent to Syria.
+2. Ibn Kathīr says on what grounds — A verse, and an example.
+3. “Those who are near you” — al-Tawba 123. Read it.
+4. The Prophet's ﷺ own road — Tabūk: he led the Muslims toward Syria himself, in fierce heat, and returned.
+5. And Usāma's ؓ army — Sent toward the borders of Syria before he died. The room met it on evening 2.
+6. First Iraq, then Syria — Arabia finished, he stretched out his right hand to Iraq; then Syria, as he had Iraq.
+7. He gathers the commanders — From the scattered places of Arabia where they were posted.
+**Quote after beat:** 3
+**The statement:**
+> استُهلَّتْ هذه السنة والصدِّيقُ عازم على جمع الجنود ليبعثَهم إلى الشام، وذلك بعد مرجعه من الحج … ﴿يَاأَيُّهَا الَّذِينَ آمَنُوا قَاتِلُوا الَّذِينَ يَلُونَكُمْ مِنَ الْكُفَّارِ …﴾ [التوبة: ١٢٣] … واقتداءً برسول الله ﷺ فإنه جمعَ المسلمين لغزو الشّام - وذلك عام تبوكَ - حتّى وَصلها في حرٍّ شديد وجهد، فرجع عامَهُ ذلك، ثم بعثَ قبل موته أسامةَ بن زيدٍ مولاه ليغزوَ تخوم الشام
+> — البدایہ والنہایہ ج۷ ص۸۲ · https://shamela.ws/book/30097/3228
+> *English:* "This year opened with al-Ṣiddīq resolved to gather the armies and send them to Syria, after his
+> return from the ḥajj … “O you who believe, fight those of the disbelievers who are near you” … and following the
+> Messenger of Allah ﷺ: for he had gathered the Muslims to march on Syria — that was the year of Tabūk — until he
+> reached it in fierce heat and hardship, and returned that year; then before his death he sent Usāma b. Zayd,
+> his freedman, to raid the borders of Syria."
+**عبرت:** He did not open a new road. He took up one the Prophet ﷺ had already set out on.
+**Hands-up?** no
+⚠ **These are Ibn Kathīr's grounds, in his words.** Say *“Ibn Kathīr says”*. The second verse he cites is
+al-Tawba 29; the face carries the first.
+⚠ **The long council** — the senior Companions each giving his view on Syria — is on no page we hold. It is in
+books outside the four this course reads from. Do not tell it.
+
+---
+
+### ISA/E-C24 · The sermon to the armies
+**Tier:** GOOD · **When:** early 13 AH, Medina `[SOURCED — البدایہ ج۷ ص۸۳]` · **Map:** n/a — a large-statement slide.
+**What happened:** When the armies he wanted had gathered around him, Abū Bakr ؓ stood among the people and spoke.
+He praised Allah, and then urged them to jihād. Ibn Kathīr gives the words. They are short, and they are about
+the man before they are about the march: whoever works for Allah, Allah is enough for him; hold to earnestness
+and the middle course; there is no deed for one who has no intention. And then: the Book of Allah holds a reward
+for striving in His way that a Muslim should love to be singled out for.
+**Beats:**
+1. The armies have gathered — Around Abū Bakr ؓ, at Medina.
+2. He stands and speaks — Praise of Allah first; then he urges them to jihād.
+3. “Whoever works for Allah” — “Allah is enough for him.” Read the line.
+4. Earnestness, and the middle course — “For the middle course carries furthest.”
+5. No deed without intention — “No deed for one who has no intention.”
+6. The reward in the Book — One a Muslim should love to be singled out for.
+**Quote after beat:** 3
+**The statement:**
+> ومن عملَ للّه كفاهُ اللهُ، عليكم بالجدِّ والقصد فإنَّ القصدَ أبلغُ، ألا إنه لا دينَ لأحدٍ لا إيمانَ له … ولا عملَ لمن لا نيَّة له، ألا وإن في كتابِ الله من الثواب على الجهادِ في سبيل الله لما ينبغي للمسلم أن يحبَّ أن يُخصَّ به
+> — البدایہ والنہایہ ج۷ ص۸۳ · https://shamela.ws/book/30097/3229
+> *English:* "Whoever works for Allah, Allah is enough for him. Hold to earnestness and to the middle course, for
+> the middle course carries furthest. There is no religion for one who has no faith … and no deed for one who has
+> no intention. And in the Book of Allah there is a reward for striving in the way of Allah that a Muslim should
+> love to be singled out for."
+**عبرت:** Before the armies were told where to go, they were told what to be.
+**Hands-up?** no
+⚠ **One clause is left out, and marked.** Between the two halves the page has a word its editor flags as
+doubtful; the face skips it rather than choose a reading.
+
+---
+
+### ISA/E-C25 · The first banner — Khālid b. Saʿīd ؓ, and what ʿUmar ؓ said
+**Tier:** GOOD — ⚠ **HELD. Not in any deck until Daniyal says so** · **When:** 13 AH `[SOURCED — الکامل ج۲ ص۲۴۸–۲۵۱; البدایہ ج۷ ص۸۳، ص۸۵]` · **Map:** Taymāʾ, between Medina and Syria.
+**What happened:** The first banner for Syria was not tied for any of the four. It was tied for Khālid b. Saʿīd b.
+al-ʿĀṣ ؓ — and it was taken back before he set out. Ibn al-Athīr gives the cause. Khālid had held back his pledge
+to Abū Bakr ؓ for two months; and he had said to ʿAlī ؓ: have you been overcome in it, Banū ʿAbd Manāf? ʿAlī ؓ
+answered him with a question: is it a contest you see, or a caliphate? Abū Bakr ؓ bore him no grudge for it.
+ʿUmar ؓ held it against him; and when the banner was tied, he kept at Abū Bakr ؓ until Khālid was moved from the
+command and posted at Taymāʾ, as a support for the Muslims — to stay until ordered, to call the Arabs around him,
+and to fight only those who fought him. He did not stay. He advanced, was drawn on by a Roman commander, and at
+Marj al-Ṣuffar his son was killed and he fled as far as Dhū al-Marwa. When Abū Bakr ؓ at last let him enter
+Medina, he said: ʿUmar knew Khālid better.
+**Beats:**
+1. The first banner was a fifth man's — Khālid b. Saʿīd b. al-ʿĀṣ ؓ. The room met him among the eleven banners.
+2. Taken back before he set out — Ibn al-Athīr gives the cause.
+3. He had held back his pledge — Two months. And he had spoken of it to ʿAlī ؓ.
+4. ʿAlī's ؓ answer — “Is it a contest you see, or a caliphate?”
+5. Abū Bakr ؓ bore no grudge — He gave him the first banner.
+6. ʿUmar ؓ held it against him — And kept at Abū Bakr ؓ until he was moved: to Taymāʾ, as a support.
+7. He did not stay — He advanced, and was beaten at Marj al-Ṣuffar. His son was killed.
+8. “ʿUmar knew Khālid better” — Abū Bakr's ؓ own words, afterwards.
+**Quote after beat:** 6
+**The statement:**
+> فَأَمَّا أَبُو بَكْرٍ فَلَمْ يُحْقِدْهَا عَلَيْهِ، وَأَمَّا عُمَرُ فَاضْطَغَنَهَا عَلَيْهِ، فَلَمَّا وَلَّاهُ أَبُو بَكْرٍ لَمْ يَزَلْ بِهِ عُمَرُ حَتَّى عَزَلَهُ عَنِ الْإِمَارَةِ، وَجَعَلَهُ رِدْءًا لِلْمُسْلِمِينَ بِتَيْمَاءَ
+> — الکامل فی التاریخ ج۲ ص۲۴۸ · https://shamela.ws/book/21712/939
+> *English:* "As for Abū Bakr, he bore him no grudge for it; as for ʿUmar, he held it against him. So when Abū Bakr
+> appointed him, ʿUmar kept at him until he removed him from the command, and made him a support for the Muslims
+> at Taymāʾ."
+**عبرت:** The caliph who had been argued out of his first choice was the one who said, afterwards, whose
+judgement had been the better.
+**Hands-up?** no
+**The cause, as Ibn al-Athīr gives it:**
+> وَكَانَ سَبَبُ عَزْلِهِ أَنَّهُ تَرَبَّصَ بِبَيْعَةِ أَبِي بَكْرٍ شَهْرَيْنِ، وَلَقِيَ عَلِيَّ بْنَ أَبِي طَالِبٍ وَعُثْمَانَ بْنَ عَفَّانَ فَقَالَ: يَا أَبَا الْحَسَنِ، يَا بَنِي عَبْدِ مَنَافٍ، أَغُلِبْتُمْ عَلَيْهَا؟ فَقَالَ عَلِيٌّ: أَمُغَالَبَةً تَرَى أَمْ خِلَافَةً
+> — الکامل فی التاریخ ج۲ ص۲۴۸ · https://shamela.ws/book/21712/939
+> *English:* "The cause of his removal was that he had held back from the pledge to Abū Bakr for two months, and
+> had met ʿAlī b. Abī Ṭālib and ʿUthmān b. ʿAffān and said: 'Abū al-Ḥasan — Banū ʿAbd Manāf — have you been overcome
+> in it?' ʿAlī said: 'Is it a contest you see, or a caliphate?'"
+**What Abū Bakr ؓ said at the end:**
+> ثم أذن الصديق لخالد بن سعيد في الدخول إلى المدينة وقال: كان عمر أعلم بخالد
+> — البدایہ والنہایہ ج۷ ص۸۵ · https://shamela.ws/book/30097/3231
+> *English:* "Then al-Ṣiddīq gave Khālid b. Saʿīd leave to enter Medina, and said: 'ʿUmar knew Khālid better.'"
+⚠⚠ **This card touches the pledge to Abū Bakr ؓ.** It is narrated by the historians, and ʿAlī's ؓ own answer is
+the line in it: he refuses the word *contest*. Narrate, stop, adjudicate nothing (CLAUDE.md §1.6). **It goes
+before Tanzeem-e-Islami's reviewer before it goes on a slide.**
+⚠ Ibn Kathīr's page has harsher words from ʿUmar ؓ to Khālid, and a silk robe torn from him (البدایہ ج۷ ص۸۳).
+They are not on this card, and are not for the lectern.
+⚠ Whether Khālid ؓ himself or his son fell at Marj al-Ṣuffar the books give both ways; this card follows the
+telling in which the son fell.
+
+---
+
+### ISA/E-C26 · al-Muthannā b. Ḥāritha — the man who was already there
+**Tier:** CORE · **When:** 12 AH, before Khālid ؓ comes `[SOURCED — الکامل ج۲ ص۲۳۴–۲۳۵; البدایہ ج۷ ص۶۲]` · **Map:** the
+Iraq frontier — al-Muthannā's banner on the edge of the Sawād, before any other.
+**What happened:** The war with Persia does not begin with an order from Medina. It begins with a man who was
+already there. Ibn al-Athīr says it in one sentence: al-Muthannā b. Ḥāritha al-Shaybānī had asked Abū Bakr ؓ for
+leave to raid in Iraq, Abū Bakr ؓ gave it, and he was raiding the Persians before Khālid ؓ ever came. The room has
+met him: he is the man who closed the roads behind the beaten army in Bahrayn. Al-Madāʾinī has him holding the
+country of Kūfa when Khālid ؓ sets out; and when the order to Iraq is written, he and three others on the
+frontier are told to join Khālid ؓ at al-Ubulla. He had eight thousand with him.
+**Beats:**
+1. It does not begin in Medina — It begins with a man who is already on the Persian frontier.
+2. You have met him — al-Muthannā b. Ḥāritha al-Shaybānī: he closed the roads behind the beaten army in Bahrayn.
+3. He had asked leave to raid Iraq — And Abū Bakr ؓ gave it. Ibn al-Athīr: he was raiding them before Khālid ؓ came.
+4. Eight thousand with him — With al-Muthannā and his companions, when the armies join.
+5. Then the caliph writes to him — Join Khālid ؓ at al-Ubulla. The frontier raid becomes a campaign.
+**Quote after beat:** 3
+**The statement:**
+> وَكَانَ الْمُثَنَّى بْنُ حَارِثَةَ الشَّيْبَانِيُّ قَدِ اسْتَأْذَنَ أَبَا بَكْرٍ أَنْ يَغْزُوَ بِالْعِرَاقِ فَأَذِنَ لَهُ
+> — الکامل فی التاریخ ج۲ ص۲۳۴ · https://shamela.ws/book/21712/925
+> *English:* "Al-Muthannā b. Ḥāritha al-Shaybānī had asked Abū Bakr for leave to raid in Iraq, and he gave it to him."
+**عبرت:** The order from the capital found a man already doing the work.
+**Hands-up?** no
+⚠ **The sentence runs over the page:** *“…and he was raiding them before Khālid came”* is on the next (الکامل ج۲ ص۲۳۵).
+⚠ **No honorific is written for him here.** Whether al-Muthannā met the Prophet ﷺ is on no page we hold; the pool
+names him plainly, as `RCT/E-RC27` does.
+⚠ ***Kūfa* is al-Madāʾinī's word for the country** (البدایہ ج۷ ص۶۲). Say *the country of Kūfa*, or *the edge of
+the Sawād*; do not point at a town.
+
+---
+
+### ISA/E-C27 · «An army with a man like this in it is not beaten» — al-Qaʿqāʿ b. ʿAmr
+**Tier:** CORE · **When:** 12 AH `[SOURCED — الکامل ج۲ ص۲۳۵; البدایہ ج۷ ص۶۵]` · **Map:** n/a — a large-statement slide.
+**What happened:** The order carried a condition: call out those who fought the men of the ridda, and let no man
+who had himself turned march with you. That made the army smaller than it might have been, and Khālid ؓ wrote to
+Medina for more men. Abū Bakr ؓ sent him one — al-Qaʿqāʿ b. ʿAmr, of Tamīm. Someone said to him: do you reinforce
+him with one man? He answered: an army with the like of this man in it is not beaten. And he wrote to al-Muthannā
+and three others on the frontier to join Khālid ؓ. When the count was made, Khālid ؓ had ten thousand fighters,
+and al-Muthannā and his companions eight thousand.
+**Beats:**
+1. The order had a condition — Only those who fought the ridda; no man who had himself turned.
+2. So Khālid ؓ asks for more men — He writes to Medina.
+3. Abū Bakr ؓ sends him one — al-Qaʿqāʿ b. ʿAmr, of Tamīm.
+4. “With one man?” — Somebody asks it aloud.
+5. “An army with the like of him is not beaten” — Read the line.
+6. And the frontier is told to join — al-Muthannā and three others: to Khālid ؓ, at al-Ubulla.
+7. Eighteen thousand — Ten thousand with Khālid ؓ; eight thousand with al-Muthannā.
+**Quote after beat:** 5
+**The statement:**
+> فَأَمَدَّ خَالِدًا بِالْقَعْقَاعِ بْنِ عَمْرٍو التَّمِيمِيِّ، فَقِيلَ لَهُ: أَتُمِدُّهُ بِرَجُلٍ وَاحِدٍ؟ فَقَالَ: لَا يُهْزَمُ جَيْشٌ فِيهِمْ مِثْلُ هَذَا
+> — الکامل فی التاریخ ج۲ ص۲۳۵ · https://shamela.ws/book/21712/926
+> *English:* "So he reinforced Khālid with al-Qaʿqāʿ b. ʿAmr al-Tamīmī. It was said to him: “Do you reinforce him
+> with one man?” He said: “An army with the like of this man in it is not beaten.”"
+**عبرت:** He kept the men who had turned out of it, and counted one proven man as a reinforcement.
+**Hands-up?** Before beat 5: *"He asked for reinforcements and was sent one man. What would you say to the caliph?"*
+**The count:**
+> فَقَدِمَ خَالِدٌ وَمَعَهُ عَشَرَةُ آلَافِ مُقَاتِلٍ، وَكَانَ مَعَ الْمُثَنَّى وَأَصْحَابِهِ ثَمَانِيَةُ آلَافٍ
+> — الکامل فی التاریخ ج۲ ص۲۳۵ · https://shamela.ws/book/21712/926
+> *English:* "Khālid came with ten thousand fighters, and with al-Muthannā and his companions were eight thousand."
+⚠ **The three with al-Muthannā** are named on the page — Ḥarmala, Maʿdhūr and Salmā — and nothing more is said of
+them here. Name al-Muthannā; leave the three.
+⚠ **Eighteen thousand** is also Ibn Kathīr's own total (البدایہ ج۷ ص۶۵).
+
+---
+
+### ISA/E-C28 · Three columns, three roads — to al-Ḥafīr
+**Tier:** CORE · **When:** 12 AH `[SOURCED — الکامل ج۲ ص۲۳۵; البدایہ ج۷ ص۶۴]` · **Map:** three named columns close on
+al-Ḥafīr by three roads; Hurmuz on the frontier beyond it.
+**What happened:** Khālid ؓ did not bring his army to Iraq as one body. He divided it in three, and sent each part
+by a road of its own. Al-Muthannā went first, two days ahead. ʿAdī b. Ḥātim ؓ came next. Khālid ؓ came last. He
+gave them all one place to meet — al-Ḥafīr — and one purpose: to strike their enemy together. The enemy on that
+frontier was Hurmuz. The books call his frontier the strongest Persia had; its lord fought the Arabs by land and
+India by sea. Hurmuz heard they were coming, wrote to his king, and hurried to meet them. What happened when they
+met is another evening.
+**Beats:**
+1. Not one body — Khālid ؓ divides the army in three.
+2. And not one road — Each part by a road of its own.
+3. al-Muthannā first — Two days ahead.
+4. Then ʿAdī b. Ḥātim ؓ — A day behind; Ibn Kathīr names ʿĀṣim b. ʿAmr beside him.
+5. Khālid ؓ last — And one meeting-place for all of them: al-Ḥafīr.
+6. Who was waiting — Hurmuz: lord of the strongest of Persia's frontiers. He fought the Arabs by land, and India by sea.
+7. Hurmuz writes to his king — And hurries to meet them.
+8. We stop here — What happened when they met is another evening.
+**Quote after beat:** 5
+**The statement:**
+> وَلَمَّا قَدِمَ خَالِدٌ فَرَّقَ جُنْدَهُ ثَلَاثَ فِرَقٍ، وَلَمْ يَحْمِلْهُمْ عَلَى طَرِيقٍ وَاحِدٍ، عَلَى مُقَدِّمَتِهِ الْمُثَنَّى وَبَعْدَهُ عَدِيُّ بْنُ حَاتِمٍ، وَجَاءَ خَالِدٌ بَعْدَهُمَا، وَوَعَدَهُمَا الْحَفِيرَ لِيُصَادِمُوا عَدُوَّهُمْ
+> — الکامل فی التاریخ ج۲ ص۲۳۵ · https://shamela.ws/book/21712/926
+> *English:* "When Khālid came, he divided his army into three divisions and did not send them by one road:
+> al-Muthannā over his vanguard, and after him ʿAdī b. Ḥātim; and Khālid came after the two of them. And he set
+> al-Ḥafīr as their meeting-place, to strike their enemy."
+**عبرت:** Three roads and one meeting-place — a year later the caliph will send four.
+**Hands-up?** no
+**The man on that frontier:**
+> فَكَانَ صَاحِبَهُ أُسْوَارُ اسْمُهُ هُرْمُزُ، فَكَانَ يُحَارِبُ الْعَرَبَ فِي الْبَرِّ وَالْهِنْدَ فِي الْبَحْرِ
+> — الکامل فی التاریخ ج۲ ص۲۳۵ · https://shamela.ws/book/21712/926
+> *English:* "Its lord was a knight called Hurmuz; he fought the Arabs by land, and India by sea."
+⚠ **al-Ḥafīr is named, not placed.** No page we hold says where it lay; the map sets it near the head of the
+Gulf `[CONVENTIONAL-ESTIMATE]`. Do not point at it as a known spot.
+⚠ **Where al-Muthannā set out from is told two ways.** Ibn Kathīr has Khālid ؓ send him ahead, two days before,
+on leaving al-Yamāma (البدایہ ج۷ ص۶۴); Ibn al-Athīr has him called down from the frontier to join. The map follows
+Ibn al-Athīr. Ibn Kathīr's page also names a guide for each column; they are not needed aloud.
+⚠ **Stop before the fight.** Hurmuz, the chains and the duel are the next page — and a later evening.
 
 ---
 
@@ -11753,16 +12017,19 @@ given to a man in office.
 ---
 
 ### GSA/E-ST9 · «I am one arrow — shoot me where it is hardest»
-**Tier:** GOOD · **When:** ۱۳ھ `[SOURCED]` · **Map:** n/a
-**What happened:** أبو بكر ؓ wrote to عمرو بن العاص ؓ offering him the Syrian command, and
-expressly left him free to keep the post he already had if he preferred it. عمرو ؓ wrote back in one
-sentence.
+**Tier:** GOOD · **When:** ۱۳ھ `[SOURCED — الکامل ج۲ ص۲۴۹; البدایہ ج۷ ص۸۲–۸۳]` · **Map:** n/a
+**What happened:** The letter found عمرو بن العاص ؓ at his post, collecting the ṣadaqa of Quḍāʿa — the post
+the Prophet ﷺ had given him before sending him to Oman, and had promised him again; أبو بكر ؓ had kept that
+promise. Now he wrote offering him the Syrian command, and expressly left him free to keep the post he had if he
+preferred it. عمرو ؓ wrote back in one sentence; then he named a deputy, and came to Medina.
 **Beats:**
-1. A letter to ʿAmr b. al-ʿĀṣ ؓ — Abū Bakr ؓ offers him the Syrian command.
-2. And leaves him free — He may keep the post he already has, if he prefers it.
-3. He answers in one sentence — Read it.
-4. “Shoot the hardest” — He asks to be sent where it is hardest.
-**Quote after beat:** 3
+1. The letter finds ʿAmr b. al-ʿĀṣ ؓ at his post — Collecting the ṣadaqa of Quḍāʿa: the post the Prophet ﷺ gave him, and promised him again.
+2. Abū Bakr ؓ offers him Syria — “I would like to free you for what is better for you, in this world and the next.”
+3. And leaves him free — “Unless what you are in is dearer to you.”
+4. He answers in one sentence — Read it.
+5. “Shoot the hardest” — He asks to be sent where it is hardest.
+6. He names a deputy, and comes to Medina — With al-Walīd b. ʿUqba ؓ, who had been written to in the same words.
+**Quote after beat:** 4
 **The statement:**
 > إِنِّي سَهْمٌ مِنْ سِهَامِ الْإِسْلَامِ، وَأَنْتَ بَعْدَ اللَّهِ الرَّامِي بِهَا وَالْجَامِعُ لَهَا،
 > فَانْظُرْ أَشَدَّهَا وَأَخْشَاهَا وَأَفْضَلَهَا فَارْمِ بِه
@@ -11770,6 +12037,20 @@ sentence.
 > *English:* "I am one arrow of the arrows of Islam, and you — after God — are the one who shoots them and the one who gathers them. So look for the hardest of them, and the most feared, and the best, and shoot it."
 **عبرت:** A man who lets himself be aimed by someone else has settled the question of who he is working for.
 **Hands-up?** no.
+**Where the letter found him:**
+> وَكَانَ أَبُو بَكْرٍ قَدْ رَدَّ عَمْرَو بْنَ الْعَاصِ إِلَى عَمَلِهِ الَّذِي كَانَ رَسُولُ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - وَلَّاهُ إِيَّاهُ مِنْ صَدَقَاتِ سَعْدِ هُذَيْمٍ وَعُذْرَةَ وَغَيْرِهِمْ قَبْلَ ذَهَابِهِ إِلَى عُمَانَ
+> — الکامل فی التاریخ ج۲ ص۲۴۹ · https://shamela.ws/book/21712/940
+> *English:* "Abū Bakr had returned ʿAmr b. al-ʿĀṣ to the post the Messenger of Allah ﷺ had appointed him to — the
+> ṣadaqāt of Saʿd Hudhaym, ʿUdhra and others — before his going to Oman."
+**What Abū Bakr ؓ wrote to him:**
+> إِنِّي كُنْتُ قَدْ رَدَدْتُكَ عَلَى الْعَمَلِ الَّذِي وَلَّاكَ رَسُولُ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - مَرَّةً، وَوَعَدَكَ بِهِ أُخْرَى؛ إِنْجَازًا لِمَوَاعِيدِ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - وَقَدْ وَلَيْتَهُ، وَقَدْ أَحْبَبْتُ أَنْ أُفْرِغَكَ لِمَا هُوَ خَيْرٌ لَكَ فِي الدُّنْيَا وَالْآخِرَةِ، إِلَّا أَنْ يَكُونَ الَّذِي أَنْتَ فِيهِ أَحَبَّ إِلَيْكَ
+> — الکامل فی التاریخ ج۲ ص۲۴۹ · https://shamela.ws/book/21712/940
+> *English:* "I had returned you to the post the Messenger of Allah ﷺ appointed you to once, and promised you
+> again, to keep the promises of the Messenger of Allah ﷺ; and you have held it. Now I would like to free you
+> for what is better for you in this world and the next — unless what you are in is dearer to you."
+⚠ **The pages name tribes, not a town.** Ibn Kathīr says *the ṣadaqāt of Quḍāʿa* (البدایہ ج۷ ص۸۲); Ibn al-Athīr,
+*Saʿd Hudhaym and ʿUdhra*. That their country lies in the north-west, between Medina and Syria, is general
+knowledge `[STANDARD]` (to verify) — the map sets him there in outline.
 
 ---
 

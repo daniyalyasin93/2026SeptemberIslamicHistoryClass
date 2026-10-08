@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "meta": {
-  "title": "Persia and Rome",
+  "title": "Syria",
   "subtitle": "",
   "urduTitle": "",
   "kind": "theatre",
@@ -11,13 +11,13 @@
   "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
  },
  "view": {
-  "cx": 38.97114317029974,
-  "cy": -26.5,
-  "scale": 29.333333333333336
+  "cx": 32.908965343808674,
+  "cy": -29.6,
+  "scale": 66.0
  },
  "style": {
   "relief": true,
-  "reliefStrength": 0.6,
+  "reliefStrength": 0.5,
   "rivers": true,
   "markScale": 2.0,
   "cartoucheScale": 2.0,
@@ -168,86 +168,10 @@
    "faction": "f1",
    "label": "",
    "ur": "",
-   "opacity": 0.22
+   "opacity": 0.18
   },
   {
    "id": "t_002",
-   "type": "territory",
-   "step": 1,
-   "note": "region:persia",
-   "pts": [
-    [
-     44.0,
-     37.2
-    ],
-    [
-     48.0,
-     38.6
-    ],
-    [
-     54.0,
-     38.2
-    ],
-    [
-     61.0,
-     36.6
-    ],
-    [
-     62.5,
-     31.0
-    ],
-    [
-     61.0,
-     26.2
-    ],
-    [
-     57.2,
-     27.0
-    ],
-    [
-     54.0,
-     26.8
-    ],
-    [
-     51.4,
-     28.0
-    ],
-    [
-     50.2,
-     30.0
-    ],
-    [
-     48.4,
-     30.4
-    ],
-    [
-     47.4,
-     30.3
-    ],
-    [
-     45.4,
-     31.4
-    ],
-    [
-     43.6,
-     32.6
-    ],
-    [
-     41.6,
-     34.6
-    ],
-    [
-     42.2,
-     36.6
-    ]
-   ],
-   "faction": "f7",
-   "label": "",
-   "ur": "",
-   "opacity": 0.2
-  },
-  {
-   "id": "t_003",
    "type": "territory",
    "step": 1,
    "note": "region:rome",
@@ -348,82 +272,10 @@
    "faction": "f8",
    "label": "",
    "ur": "",
-   "opacity": 0.2
+   "opacity": 0.18
   },
   {
-   "id": "l_004",
-   "type": "label",
-   "step": 1,
-   "note": "name",
-   "lon": 45.5,
-   "lat": 21.2,
-   "text": "ARABIA",
-   "ur": "",
-   "size": 24,
-   "align": "center"
-  },
-  {
-   "id": "l_005",
-   "type": "label",
-   "step": 1,
-   "note": "name",
-   "lon": 56.5,
-   "lat": 35.4,
-   "text": "PERSIA",
-   "ur": "",
-   "size": 24,
-   "align": "center"
-  },
-  {
-   "id": "l_006",
-   "type": "label",
-   "step": 1,
-   "note": "name",
-   "lon": 33.6,
-   "lat": 38.9,
-   "text": "ROME",
-   "ur": "",
-   "size": 24,
-   "align": "center"
-  },
-  {
-   "id": "l_007",
-   "type": "label",
-   "step": 1,
-   "note": "name",
-   "lon": 36.4,
-   "lat": 36.6,
-   "text": "Syria",
-   "ur": "",
-   "size": 24,
-   "align": "center"
-  },
-  {
-   "id": "l_008",
-   "type": "label",
-   "step": 1,
-   "note": "name",
-   "lon": 44.0,
-   "lat": 31.3,
-   "text": "Iraq",
-   "ur": "",
-   "size": 24,
-   "align": "center"
-  },
-  {
-   "id": "l_009",
-   "type": "label",
-   "step": 1,
-   "note": "name",
-   "lon": 28.860435656744553,
-   "lat": 12.65909090909091,
-   "text": "in outline — not borders",
-   "ur": "",
-   "size": 24,
-   "align": "center"
-  },
-  {
-   "id": "s_010",
+   "id": "s_003",
    "type": "settlement",
    "step": 1,
    "note": "place",
@@ -436,20 +288,20 @@
    "scale": 1.5
   },
   {
-   "id": "s_011",
+   "id": "s_004",
    "type": "settlement",
    "step": 1,
    "note": "place",
-   "lon": 44.58,
-   "lat": 33.09,
-   "name": "al-Madāʾin",
+   "lon": 36.57,
+   "lat": 28.38,
+   "name": "Tabūk",
    "ur": "",
-   "tier": "city",
-   "labelPos": "above",
+   "tier": "town",
+   "labelPos": "left",
    "scale": 1.5
   },
   {
-   "id": "s_012",
+   "id": "s_005",
    "type": "settlement",
    "step": 1,
    "note": "place",
@@ -462,48 +314,131 @@
    "scale": 1.5
   },
   {
-   "id": "l_013",
+   "id": "s_006",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 36.29,
+   "lat": 33.51,
+   "name": "Damascus",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "l_007",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 40.5,
+   "lat": 34.6,
+   "text": "SYRIA",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_008",
    "type": "label",
    "step": 2,
    "note": "say",
-   "lon": 55.61904604204046,
-   "lat": 28.64090909090909,
-   "text": "killed by his own son",
+   "lon": 34.35254593573779,
+   "lat": 27.27878787878788,
+   "text": "the year of Tabūk",
    "ur": "",
    "size": 26,
    "align": "center",
    "until": 2
   },
   {
-   "id": "l_014",
+   "id": "l_009",
    "type": "label",
    "step": 3,
    "note": "say",
-   "lon": 27.48424256054892,
-   "lat": 36.00454545454545,
-   "text": "Heraclius",
+   "lon": 38.83698293569793,
+   "lat": 30.551515151515154,
+   "text": "Usāma's ؓ army",
    "ur": "",
    "size": 26,
    "align": "center",
    "until": 3
   },
   {
-   "id": "a_015",
+   "id": "l_010",
+   "type": "label",
+   "step": 4,
+   "note": "name",
+   "lon": 36.6,
+   "lat": 27.3,
+   "text": "Quḍāʿa",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "a_011",
+   "type": "army",
+   "step": 4,
+   "note": "force",
+   "lon": 39.0,
+   "lat": 27.3,
+   "name": "ʿAmr ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "until": 4
+  },
+  {
+   "id": "a_012",
    "type": "arrow",
    "step": 4,
-   "note": "march:Khālid ؓ",
+   "note": "letter",
    "pts": [
     [
-     46.7,
-     24.6
+     39.611,
+     24.471
     ],
     [
-     48.0,
+     39.5055,
+     25.64394
+    ],
+    [
+     39.4,
      26.8
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 5.0,
+   "until": 4
+  },
+  {
+   "id": "a_013",
+   "type": "arrow",
+   "step": 5,
+   "note": "march:ʿAmr ؓ",
+   "pts": [
+    [
+     39.0,
+     27.3
     ],
     [
-     48.3,
-     28.8
+     40.03144794813844,
+     26.937729203107665
+    ],
+    [
+     40.74086876888307,
+     26.113637521864597
+    ],
+    [
+     41.2,
+     25.4
     ]
    ],
    "faction": "f1",
@@ -511,16 +446,61 @@
    "ur": "",
    "dashed": false,
    "width": 9.0,
-   "until": 4
+   "until": 5
+  },
+  {
+   "id": "a_014",
+   "type": "army",
+   "step": 5,
+   "note": "force",
+   "lon": 41.2,
+   "lat": 25.4,
+   "name": "ʿAmr ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_013"
+  },
+  {
+   "id": "a_015",
+   "type": "arrow",
+   "step": 6,
+   "note": "march:Yazīd ؓ",
+   "pts": [
+    [
+     39.311,
+     25.071
+    ],
+    [
+     38.1,
+     26.8
+    ],
+    [
+     37.02,
+     28.23
+    ],
+    [
+     37.2,
+     29.2
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
   },
   {
    "id": "a_016",
    "type": "army",
-   "step": 4,
+   "step": 6,
    "note": "force",
-   "lon": 48.3,
-   "lat": 28.8,
-   "name": "Khālid ؓ",
+   "lon": 37.2,
+   "lat": 29.2,
+   "name": "Yazīd ؓ",
    "ur": "",
    "faction": "f1",
    "strength": "",
@@ -528,162 +508,6 @@
    "labelPos": "right",
    "scale": 1.5,
    "follows": "a_015"
-  },
-  {
-   "id": "a_017",
-   "type": "arrow",
-   "step": 5,
-   "note": "letter",
-   "pts": [
-    [
-     48.3,
-     28.8
-    ],
-    [
-     46.44,
-     31.0938
-    ],
-    [
-     44.58,
-     33.09
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": true,
-   "width": 8.0,
-   "until": 5
-  },
-  {
-   "id": "l_018",
-   "type": "label",
-   "step": 5,
-   "note": "say",
-   "lon": 48.168078386207796,
-   "lat": 37.64090909090909,
-   "text": "a letter",
-   "ur": "",
-   "size": 26,
-   "align": "center",
-   "until": 5
-  },
-  {
-   "id": "a_019",
-   "type": "arrow",
-   "step": 6,
-   "note": "said",
-   "pts": [
-    [
-     39.611,
-     24.471
-    ],
-    [
-     37.2,
-     27.4
-    ],
-    [
-     36.0,
-     30.2
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": true,
-   "width": 6.0,
-   "until": 6
-  },
-  {
-   "id": "a_020",
-   "type": "arrow",
-   "step": 6,
-   "note": "said",
-   "pts": [
-    [
-     39.611,
-     24.471
-    ],
-    [
-     38.0,
-     27.8
-    ],
-    [
-     36.9,
-     30.9
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": true,
-   "width": 6.0,
-   "until": 6
-  },
-  {
-   "id": "a_021",
-   "type": "arrow",
-   "step": 6,
-   "note": "said",
-   "pts": [
-    [
-     39.611,
-     24.471
-    ],
-    [
-     38.9,
-     28.2
-    ],
-    [
-     37.8,
-     31.5
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": true,
-   "width": 6.0,
-   "until": 6
-  },
-  {
-   "id": "a_022",
-   "type": "arrow",
-   "step": 6,
-   "note": "said",
-   "pts": [
-    [
-     39.611,
-     24.471
-    ],
-    [
-     39.7,
-     28.6
-    ],
-    [
-     38.7,
-     32.2
-    ]
-   ],
-   "faction": "f1",
-   "label": "",
-   "ur": "",
-   "dashed": true,
-   "width": 6.0,
-   "until": 6
-  },
-  {
-   "id": "l_023",
-   "type": "label",
-   "step": 6,
-   "note": "say",
-   "lon": 39.86683124302314,
-   "lat": 27.822727272727274,
-   "text": "four roads",
-   "ur": "",
-   "size": 26,
-   "align": "center",
-   "until": 6
   }
  ],
  "steps": {

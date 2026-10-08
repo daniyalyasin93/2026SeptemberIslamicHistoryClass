@@ -444,7 +444,7 @@ def empires():
     s.name("PERSIA", 56.5, 35.4)
     s.name("ROME", 33.6, 38.9)
     s.name("Syria", 36.4, 36.6)
-    s.name("Iraq", 45.9, 31.6)
+    s.name("Iraq", 44.0, 31.3)
     s.name("in outline — not borders", *s.spot(390, 856))
     s.place("Medina", *MEDINA, tier="capital", pos="below")
     s.place("al-Madāʾin", *MADAIN, tier="city", pos="above")
@@ -461,23 +461,189 @@ def empires():
     s.march("Khālid ؓ", "f1", frm=(46.7, 24.6), to=(48.3, 28.8), via=[(48.0, 26.8)])
 
     s.cut()
-    s.at(5, "Four commanders, four separate roads — toward Syria.")
+    s.at(5, "A letter goes to al-Madāʾin — before any army does.")
+    s.letter(s.where("Khālid ؓ"), MADAIN, width=8.0)
+    s.say("a letter", near=(47.6, 32.4))
+
+    # Iraq first, then Syria: the order of the years (12, then 13), and the order Daniyal's rule asks for — the
+    # story changes direction as seldom as it can. Until 2026-10-08 the roads were drawn before the letter.
+    s.cut()
+    s.at(6, "Then Syria: four commanders, each by a road of his own.")
     for via, to in (((37.2, 27.4), (36.0, 30.2)), ((38.0, 27.8), (36.9, 30.9)), ((38.9, 28.2), (37.8, 31.5)),
                     ((39.7, 28.6), (38.7, 32.2))):
         s.flow([MEDINA, via, to])
     s.say("four roads", near=(41.6, 28.6))
-
-    s.cut()
-    s.at(6, "A letter goes to al-Madāʾin — not an army.")
-    s.letter(s.where("Khālid ؓ"), MADAIN, width=8.0)
-    s.say("a letter", near=(47.6, 32.4))
     return s
 
+
+# The two fronts beyond Arabia. Every town here is where general geography puts it  [CONVENTIONAL-ESTIMATE];
+# what a page names and does not place is said so in the card (al-Ḥafīr; the country of Quḍāʿa).
+YAMAMA = (46.7, 24.6)
+UBULLA = (47.80, 30.52)
+HAFIR = (47.30, 30.05)          # named on الکامل ج۲ ص۲۳۵ and البدایہ ج۷ ص۶۴; placed by no page we hold
+HIRA = (44.45, 31.89)
+TABUK = (36.57, 28.38)
+DAMASCUS = (36.29, 33.51)
+HIMS = (36.72, 34.73)
+
+
+# Where each banner and each loose name stands. At this scale a banner with its flag and its name is three
+# degrees across, so none of them can stand ON the place it is about: each stands beside it, on land, where it
+# covers nothing. The positions were found by search against the kit's own crowding rule, not by eye.
+IRAQ_AT = {
+    "muthanna_raiding": (41.6, 29.2), "khalid_yamama": (47.0, 25.2),
+    "muthanna": (45.29, 29.02), "adi": (44.52, 27.48), "khalid": (47.6, 27.3), "hurmuz": (50.3, 32.2),
+    "khalid_hira": (42.21, 31.42),
+    "n_yamama": (45.4, 24.0), "n_persia": (54.6, 30.6), "n_hafir": (47.84, 29.76), "c_iyad": (37.5, 33.3),
+}
+SYRIA_AT = {
+    "amr_qudaa": (39.0, 27.3), "amr_medina": (41.2, 25.4), "yazid_out": (37.2, 29.2),
+    "n_syria": (40.5, 34.6), "n_qudaa": (36.6, 27.3), "c_tabuk": (34.6, 27.4), "c_usama": (38.6, 30.6),
+}
+CAMPS_AT = {
+    "yazid": (35.93, 31.39), "shurahbil": (35.3, 32.55), "ubayda": (36.6, 32.5), "amr": (34.95, 30.48),
+}
+
+
+def _road(a, b, bow):
+    """Three points from a to b, bowed sideways by `bow` degrees — a road of its own, not a chord."""
+    dx, dy = b[0] - a[0], b[1] - a[1]
+    n = (dx * dx + dy * dy) ** 0.5 or 1.0
+    ox, oy = -dy / n * bow, dx / n * bow
+    return [(a[0] + dx * 0.35 + ox, a[1] + dy * 0.35 + oy), (a[0] + dx * 0.72 + ox * 0.6, a[1] + dy * 0.72 + oy * 0.6)]
+
+
+def iraq(at=None):
+    """The opening of Iraq: the man already on the frontier, the order, three columns and one meeting-place —
+    and, a year on, the letter. Nothing is fought here: the scene stops where the columns close, and says so.
+
+    WHAT IS SCHEMATIC. The three roads (the pages say three, and name none); where each column halts, which is
+    beside al-Ḥafīr and not on it; al-Muthannā's raid, which the page gives as a fact and not as a place.
+    al-Ḥafīr is named by both books and placed by neither: it is a name on this map, and has no dot."""
+    P = dict(IRAQ_AT, **(at or {}))
+    s = Scene("s06-iraq", "Iraq", box=(38.4, 54.0, 23.2, 34.4), relief=0.5)
+    s.region("arabia", ARABIA, "f1", opacity=0.18)
+    s.region("persia", PERSIA, "f7", opacity=0.18)
+    s.place("Medina", *MEDINA, tier="capital", pos="below")
+    s.place("al-Madāʾin", *MADAIN, tier="city", pos="above")
+    s.place("al-Ḥīra", *HIRA, tier="town", pos="left")
+    s.place("al-Ubulla", *UBULLA, tier="town", pos="right")
+    s.name("al-Yamāma", *P["n_yamama"])
+    s.name("PERSIA", *P["n_persia"])
+    s.name("roads in outline", *s.spot(250, 856))
+
+    s.at(2, "al-Muthannā b. Ḥāritha is already here — raiding the edge of the Sawād, with Abū Bakr's ؓ leave.")
+    m = P["muthanna_raiding"]
+    s.force("al-Muthannā", "f1", m[0], m[1], pos="left")
+    s.prong("al-Muthannā", [(m[0] + 0.8, m[1] + 0.5), (m[0] + 1.8, m[1] + 1.3), (44.0, 31.3)])
+
+    s.cut()
+    s.at(3, "The order reaches Khālid ؓ at al-Yamāma: to Iraq, from its lower end — beginning with al-Ubulla.")
+    k = P["khalid_yamama"]
+    s.force("Khālid ؓ", "f1", k[0], k[1], pos="right")
+    s.letter(MEDINA, (k[0] - 0.9, k[1]))
+    s.at(4, "And ʿIyāḍ b. Ghanm ؓ is ordered in from the upper end — to meet him.")
+    s.say("ʿIyāḍ b. Ghanm ؓ", near=P["c_iyad"])
+
+    s.cut()
+    s.at(5, "al-Muthannā first, two days ahead — toward al-Ḥafīr.")
+    s.name("al-Ḥafīr", *P["n_hafir"])
+    s.march("al-Muthannā", to=P["muthanna"], via=_road(m, P["muthanna"], -0.5))
+    s.at(6, "Then ʿAdī b. Ḥātim ؓ — a day behind, by a road of his own.")
+    s.march("ʿAdī ؓ", "f1", frm=(k[0] - 1.0, k[1] + 0.5), to=P["adi"], via=_road((k[0] - 1.0, k[1] + 0.5), P["adi"], 0.5),
+            pos="left")
+    s.at(7, "Khālid ؓ last. One meeting-place for all three: al-Ḥafīr.")
+    s.march("Khālid ؓ", to=P["khalid"], via=_road(k, P["khalid"], -0.5))
+    s.at(8, "Hurmuz, lord of that frontier, writes to his king — and hurries to meet them.")
+    h = P["hurmuz"]
+    s.force("Hurmuz", "f7", h[0], h[1], pos="right")
+    s.letter((h[0] - 0.9, h[1] + 0.2), MADAIN, faction="f7")
+
+    s.cut()
+    s.at(9, "A year later — the fighting is another evening's. Khālid ؓ is at al-Ḥīra; it has chosen the jizya.")
+    s.leave("Hurmuz")
+    s.leave("al-Muthannā")
+    s.leave("ʿAdī ؓ")
+    s.march("Khālid ؓ", to=P["khalid_hira"], via=_road(P["khalid"], P["khalid_hira"], 0.6))
+    s.at(10, "He writes to al-Madāʾin — to Kisrā's commanders, his frontier governors and his ministers.")
+    s.letter(s.where("Khālid ؓ"), MADAIN, width=8.0)
+    return s
+
+
+def syria(at=None):
+    """The opening of Syria, wide: the road the Prophet ﷺ had taken, the letter that found ʿAmr ؓ, and the first
+    of the four riding out of Medina. Where the four camped is the close-up's business (syria_camps).
+
+    WHAT IS SCHEMATIC. The country of Quḍāʿa — the page names the tribes and no place. Yazīd's ؓ road is the one
+    road a page names: by Tabūk."""
+    P = dict(SYRIA_AT, **(at or {}))
+    s = Scene("s06-syria", "Syria", box=(31.0, 45.0, 23.6, 35.6), relief=0.5)
+    s.region("arabia", ARABIA, "f1", opacity=0.18)
+    s.region("rome", ROME, "f8", opacity=0.18)
+    s.place("Medina", *MEDINA, tier="capital", pos="below")
+    s.place("Tabūk", *TABUK, tier="town", pos="right")
+    s.place("Jerusalem", *JERUSALEM, tier="city", pos="left")
+    s.place("Damascus", *DAMASCUS, tier="city", pos="right")
+    s.name("SYRIA", *P["n_syria"])
+
+    s.at(2, "Tabūk: the Prophet ﷺ led the Muslims this far toward Syria himself, in fierce heat.")
+    s.say("the year of Tabūk", near=P["c_tabuk"])
+    s.at(3, "And before he died, he sent Usāma b. Zayd ؓ toward these borders.")
+    s.say("Usāma's ؓ army", near=P["c_usama"])
+
+    s.cut()
+    s.at(4, "A letter from Medina finds ʿAmr b. al-ʿĀṣ ؓ among Quḍāʿa, collecting the ṣadaqa.")
+    s.name("Quḍāʿa", *P["n_qudaa"])
+    q = P["amr_qudaa"]
+    s.force("ʿAmr ؓ", "f1", q[0], q[1], pos="right")
+    s.letter(MEDINA, (q[0] + 0.4, q[1] - 0.5))
+    s.at(5, "He names a deputy, and comes to Medina.")
+    s.march("ʿAmr ؓ", to=P["amr_medina"], via=_road(q, P["amr_medina"], 0.4))
+
+    s.cut()
+    out = (MEDINA[0] - 0.3, MEDINA[1] + 0.6)
+    s.at(6, "Yazīd b. Abī Sufyān ؓ rides out first, by Tabūk — and Abū Bakr ؓ walks beside him.")
+    s.march("Yazīd ؓ", "f1", frm=out, to=P["yazid_out"], via=[(38.1, 26.8), (TABUK[0] + 0.45, TABUK[1] - 0.15)])
+    return s
+
+
+def syria_camps(parent, at=None):
+    """Where the four camped — the second scale. Each banner comes up from the south by a road of its own and
+    halts beside the camp the page names for it: al-Balqāʾ, Jordan (or Buṣrā), al-Jābiya, al-ʿAraba.
+
+    WHAT IS SCHEMATIC. The roads, and the exact spot of each banner: a banner and its name are sixty kilometres
+    across even here, and al-Jābiya, Jordan and Buṣrā lie within a hundred of each other. Each stands inside the
+    country the page names, clear of its neighbours."""
+    P = dict(CAMPS_AT, **(at or {}))
+    c = closeup("s06-syria-camps", "Syria — where they camped", (36.0, 31.9), 250, parent=parent, relief=0.45)
+    c.region("rome", ROME, "f8", opacity=0.16)
+    c.bring("Jerusalem", tier="city", pos="left")
+    c.bring("Damascus", tier="city", pos="right")
+    c.signpost("Medina")
+
+    def up(name, key, via, cue, pos):
+        c.at(c.step + 1, cue)
+        c.march(name, "f1", frm=via[0], to=P[key], via=via[1:], pos=pos)
+
+    # Yazīd first; Shuraḥbīl "followed him"; then Abū ʿUbayda (Ibn Isḥāq, البدایہ ج۷ ص۸۴). The banner beside
+    # al-Jābiya stands east of it, and Shuraḥbīl's in the Jordan country west of it — so that no road has to
+    # cross another man's banner to reach its own.
+    up("Yazīd ؓ", "yazid", [(36.5, 29.9), (36.45, 30.5), (36.15, 31.0)],
+       "Yazīd b. Abī Sufyān ؓ, first — he camps at al-Balqāʾ. Damascus is named for him.", "right")
+    up("Shuraḥbīl ؓ", "shurahbil", [(35.85, 29.8), (35.55, 30.9), (35.45, 31.9)],
+       "Shuraḥbīl b. Ḥasana ؓ, after him — Jordan; some say Buṣrā.", "left")
+    up("Abū ʿUbayda ؓ", "ubayda", [(37.7, 30.0), (37.45, 31.2), (37.05, 32.0)],
+       "Abū ʿUbayda ؓ — he camps at al-Jābiya. Ḥimṣ is named for him.", "right")
+    up("ʿAmr ؓ", "amr", [(35.75, 29.5), (35.45, 29.75), (35.15, 30.1)],
+       "ʿAmr b. al-ʿĀṣ ؓ — al-ʿAraba: Palestine.", "left")
+    return c
 
 def main(draft=False):
     t = theatre()
     made, files = [], {}
-    for s in (t, coast(t), hajar(t), flight(t), strait(t), hadramawt(), nujayr(), empires()):
+    sy = syria()
+    for s in (t, coast(t), hajar(t), flight(t), strait(t), hadramawt(), nujayr(), empires(), iraq(), sy,
+              syria_camps(sy)):
         s.save(draft=draft)
         files[s.slug] = s.data()
         made.append((s.slug, s.step, s))

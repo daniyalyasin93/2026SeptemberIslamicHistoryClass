@@ -1,0 +1,404 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "Syria — where they camped",
+  "subtitle": "",
+  "urduTitle": "",
+  "kind": "closeup",
+  "parent": "s06-syria",
+  "centre": [
+   36.0,
+   31.9
+  ],
+  "radius_km": 250,
+  "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
+ },
+ "view": {
+  "cx": 31.176914536239792,
+  "cy": -31.9,
+  "scale": 176.33087999999998
+ },
+ "style": {
+  "relief": true,
+  "reliefStrength": 0.45,
+  "rivers": true,
+  "markScale": 2.0,
+  "cartoucheScale": 2.0,
+  "graticule": false,
+  "grain": true,
+  "vignette": true,
+  "cartouche": false,
+  "legend": false,
+  "scalebar": true,
+  "urduLabels": false,
+  "aspect": "16:9"
+ },
+ "factions": [
+  {
+   "id": "f1",
+   "name": "Muslim forces",
+   "ur": "",
+   "color": "#2CB020"
+  },
+  {
+   "id": "f4",
+   "name": "In revolt",
+   "ur": "",
+   "color": "#E7A244"
+  },
+  {
+   "id": "f5",
+   "name": "Not yet told",
+   "ur": "",
+   "color": "#9AA39E"
+  },
+  {
+   "id": "f6",
+   "name": "Under a covenant",
+   "ur": "",
+   "color": "#5B8FD6"
+  },
+  {
+   "id": "f7",
+   "name": "Persia",
+   "ur": "",
+   "color": "#A8442F"
+  },
+  {
+   "id": "f8",
+   "name": "Rome",
+   "ur": "",
+   "color": "#6B5AA8"
+  }
+ ],
+ "underlay": null,
+ "objects": [
+  {
+   "id": "t_001",
+   "type": "territory",
+   "step": 1,
+   "note": "region:rome",
+   "pts": [
+    [
+     27.2,
+     40.9
+    ],
+    [
+     32.0,
+     41.8
+    ],
+    [
+     36.5,
+     41.4
+    ],
+    [
+     41.0,
+     40.4
+    ],
+    [
+     42.4,
+     38.6
+    ],
+    [
+     42.2,
+     36.8
+    ],
+    [
+     41.4,
+     34.8
+    ],
+    [
+     39.6,
+     33.2
+    ],
+    [
+     38.2,
+     32.2
+    ],
+    [
+     36.6,
+     30.4
+    ],
+    [
+     35.4,
+     29.4
+    ],
+    [
+     34.9,
+     29.5
+    ],
+    [
+     34.3,
+     31.3
+    ],
+    [
+     35.0,
+     32.8
+    ],
+    [
+     35.7,
+     34.6
+    ],
+    [
+     35.9,
+     36.2
+    ],
+    [
+     36.2,
+     36.7
+    ],
+    [
+     34.6,
+     36.6
+    ],
+    [
+     32.5,
+     36.1
+    ],
+    [
+     30.5,
+     36.3
+    ],
+    [
+     28.5,
+     36.7
+    ],
+    [
+     27.3,
+     37.4
+    ],
+    [
+     27.0,
+     39.0
+    ]
+   ],
+   "faction": "f8",
+   "label": "",
+   "ur": "",
+   "opacity": 0.16
+  },
+  {
+   "id": "s_002",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 35.22,
+   "lat": 31.78,
+   "name": "Jerusalem",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "left",
+   "scale": 1.5
+  },
+  {
+   "id": "s_003",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 36.29,
+   "lat": 33.51,
+   "name": "Damascus",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "l_004",
+   "type": "label",
+   "step": 1,
+   "note": "signpost",
+   "lon": 37.07506163110791,
+   "lat": 29.688249000969087,
+   "text": "↓ Medina",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "a_005",
+   "type": "arrow",
+   "step": 2,
+   "note": "march:Yazīd ؓ",
+   "pts": [
+    [
+     36.5,
+     29.9
+    ],
+    [
+     36.45,
+     30.5
+    ],
+    [
+     36.15,
+     31.0
+    ],
+    [
+     35.93,
+     31.39
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_006",
+   "type": "army",
+   "step": 2,
+   "note": "force",
+   "lon": 35.93,
+   "lat": 31.39,
+   "name": "Yazīd ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_005"
+  },
+  {
+   "id": "a_007",
+   "type": "arrow",
+   "step": 3,
+   "note": "march:Shuraḥbīl ؓ",
+   "pts": [
+    [
+     35.85,
+     29.8
+    ],
+    [
+     35.55,
+     30.9
+    ],
+    [
+     35.45,
+     31.9
+    ],
+    [
+     35.3,
+     32.55
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_008",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 35.3,
+   "lat": 32.55,
+   "name": "Shuraḥbīl ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_007"
+  },
+  {
+   "id": "a_009",
+   "type": "arrow",
+   "step": 4,
+   "note": "march:Abū ʿUbayda ؓ",
+   "pts": [
+    [
+     37.7,
+     30.0
+    ],
+    [
+     37.45,
+     31.2
+    ],
+    [
+     37.05,
+     32.0
+    ],
+    [
+     36.6,
+     32.5
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_010",
+   "type": "army",
+   "step": 4,
+   "note": "force",
+   "lon": 36.6,
+   "lat": 32.5,
+   "name": "Abū ʿUbayda ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_009"
+  },
+  {
+   "id": "a_011",
+   "type": "arrow",
+   "step": 5,
+   "note": "march:ʿAmr ؓ",
+   "pts": [
+    [
+     35.75,
+     29.5
+    ],
+    [
+     35.45,
+     29.75
+    ],
+    [
+     35.15,
+     30.1
+    ],
+    [
+     34.95,
+     30.48
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_012",
+   "type": "army",
+   "step": 5,
+   "note": "force",
+   "lon": 34.95,
+   "lat": 30.48,
+   "name": "ʿAmr ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_011"
+  }
+ ],
+ "steps": {
+  "count": 5,
+  "current": 5,
+  "mode": "upto"
+ }
+}

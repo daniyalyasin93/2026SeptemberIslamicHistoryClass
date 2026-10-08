@@ -49,14 +49,20 @@ SLIDES = [
     ("s06-nujayr", 1, 5),             # the siege, before YK12                              (a diagram)
     ("s06-arabia", 2, 5),             # the close
     ("s06-empires", 1, 3),            # Part VII opens: the two zones, Persia, Rome
-    ("s06-empires", 3, 4),            # ISA/E-C1  the order to Iraq
-    ("s06-empires", 4, 5),            # ISA/E-C7  four commanders, four roads
-    ("s06-empires", 5, 6),            # ISA/E-C2  a letter to al-Madāʾin
+    ("s06-iraq", 1, 2),               # ISA/E-C26 al-Muthannā, already raiding
+    ("s06-iraq", 2, 4),               # ISA/E-C1  the order to Khālid ؓ; ʿIyāḍ ؓ from the upper end
+    ("s06-iraq", 4, 8),               # ISA/E-C28 three columns to al-Ḥafīr; Hurmuz
+    ("s06-iraq", 8, 10),              # ISA/E-C2  a year on: al-Ḥīra, and the letter to al-Madāʾin
+    ("s06-syria", 1, 3),              # ISA/E-C23 Tabūk, and Usāma's ؓ army
+    ("s06-syria", 3, 5),              # GSA/E-ST9 the letter finds ʿAmr ؓ among Quḍāʿa; he comes to Medina
+    ("s06-syria", 5, 6),              # GSA/E-ST8 Yazīd ؓ rides out by Tabūk
+    ("s06-syria-camps", 1, 5),        # ISA/E-C7  the four, one after another, to where they camped
 ]
 
 # whole steps: the checkpoint maps, and every scene step by step for the notes book and for the eye
 WHOLE = ["s06-arabia", "s06-bahrayn", "s06-bahrayn-coast", "s06-bahrayn-hajar", "s06-bahrayn-flight",
-         "s06-bahrayn-darin", "s06-kinda", "s06-nujayr", "s06-empires"]
+         "s06-bahrayn-darin", "s06-kinda", "s06-nujayr", "s06-empires", "s06-iraq", "s06-syria",
+         "s06-syria-camps"]
 
 
 def main(only=None):

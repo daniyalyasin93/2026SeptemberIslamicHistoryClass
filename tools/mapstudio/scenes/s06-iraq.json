@@ -1,0 +1,706 @@
+{
+ "schema": 1,
+ "meta": {
+  "title": "Iraq",
+  "subtitle": "",
+  "urduTitle": "",
+  "kind": "theatre",
+  "parent": null,
+  "centre": null,
+  "radius_km": null,
+  "note": "Written by series/mapkit.py. Edit the script that made it, not this file: regenerating overwrites a hand nudge."
+ },
+ "view": {
+  "cx": 40.01037365484107,
+  "cy": -28.799999999999997,
+  "scale": 70.71428571428572
+ },
+ "style": {
+  "relief": true,
+  "reliefStrength": 0.5,
+  "rivers": true,
+  "markScale": 2.0,
+  "cartoucheScale": 2.0,
+  "graticule": false,
+  "grain": true,
+  "vignette": true,
+  "cartouche": false,
+  "legend": false,
+  "scalebar": true,
+  "urduLabels": false,
+  "aspect": "16:9"
+ },
+ "factions": [
+  {
+   "id": "f1",
+   "name": "Muslim forces",
+   "ur": "",
+   "color": "#2CB020"
+  },
+  {
+   "id": "f4",
+   "name": "In revolt",
+   "ur": "",
+   "color": "#E7A244"
+  },
+  {
+   "id": "f5",
+   "name": "Not yet told",
+   "ur": "",
+   "color": "#9AA39E"
+  },
+  {
+   "id": "f6",
+   "name": "Under a covenant",
+   "ur": "",
+   "color": "#5B8FD6"
+  },
+  {
+   "id": "f7",
+   "name": "Persia",
+   "ur": "",
+   "color": "#A8442F"
+  },
+  {
+   "id": "f8",
+   "name": "Rome",
+   "ur": "",
+   "color": "#6B5AA8"
+  }
+ ],
+ "underlay": null,
+ "objects": [
+  {
+   "id": "t_001",
+   "type": "territory",
+   "step": 1,
+   "note": "region:arabia",
+   "pts": [
+    [
+     35.0,
+     28.6
+    ],
+    [
+     37.0,
+     25.2
+    ],
+    [
+     39.0,
+     21.0
+    ],
+    [
+     42.6,
+     16.2
+    ],
+    [
+     43.4,
+     12.9
+    ],
+    [
+     45.2,
+     13.0
+    ],
+    [
+     48.6,
+     14.1
+    ],
+    [
+     52.2,
+     16.4
+    ],
+    [
+     55.4,
+     17.6
+    ],
+    [
+     58.6,
+     20.4
+    ],
+    [
+     59.7,
+     22.5
+    ],
+    [
+     56.4,
+     25.6
+    ],
+    [
+     55.3,
+     24.3
+    ],
+    [
+     51.6,
+     24.2
+    ],
+    [
+     50.7,
+     25.4
+    ],
+    [
+     50.0,
+     26.8
+    ],
+    [
+     48.6,
+     28.6
+    ],
+    [
+     47.6,
+     29.6
+    ],
+    [
+     46.2,
+     29.2
+    ],
+    [
+     43.5,
+     30.4
+    ],
+    [
+     40.0,
+     31.6
+    ],
+    [
+     37.5,
+     30.6
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "opacity": 0.18
+  },
+  {
+   "id": "t_002",
+   "type": "territory",
+   "step": 1,
+   "note": "region:persia",
+   "pts": [
+    [
+     44.0,
+     37.2
+    ],
+    [
+     48.0,
+     38.6
+    ],
+    [
+     54.0,
+     38.2
+    ],
+    [
+     61.0,
+     36.6
+    ],
+    [
+     62.5,
+     31.0
+    ],
+    [
+     61.0,
+     26.2
+    ],
+    [
+     57.2,
+     27.0
+    ],
+    [
+     54.0,
+     26.8
+    ],
+    [
+     51.4,
+     28.0
+    ],
+    [
+     50.2,
+     30.0
+    ],
+    [
+     48.4,
+     30.4
+    ],
+    [
+     47.4,
+     30.3
+    ],
+    [
+     45.4,
+     31.4
+    ],
+    [
+     43.6,
+     32.6
+    ],
+    [
+     41.6,
+     34.6
+    ],
+    [
+     42.2,
+     36.6
+    ]
+   ],
+   "faction": "f7",
+   "label": "",
+   "ur": "",
+   "opacity": 0.18
+  },
+  {
+   "id": "s_003",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 39.611,
+   "lat": 24.471,
+   "name": "Medina",
+   "ur": "",
+   "tier": "capital",
+   "labelPos": "left",
+   "scale": 1.5
+  },
+  {
+   "id": "s_004",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 44.58,
+   "lat": 33.09,
+   "name": "al-Madāʾin",
+   "ur": "",
+   "tier": "city",
+   "labelPos": "above",
+   "scale": 1.5
+  },
+  {
+   "id": "s_005",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 44.45,
+   "lat": 31.89,
+   "name": "al-Ḥīra",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "s_006",
+   "type": "settlement",
+   "step": 1,
+   "note": "place",
+   "lon": 47.8,
+   "lat": 30.52,
+   "name": "al-Ubulla",
+   "ur": "",
+   "tier": "town",
+   "labelPos": "right",
+   "scale": 1.5
+  },
+  {
+   "id": "l_007",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 45.4,
+   "lat": 24.0,
+   "text": "al-Yamāma",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_008",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 54.6,
+   "lat": 30.6,
+   "text": "PERSIA",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "l_009",
+   "type": "label",
+   "step": 1,
+   "note": "name",
+   "lon": 37.21899581260582,
+   "lat": 23.058585858585857,
+   "text": "roads in outline",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "a_010",
+   "type": "army",
+   "step": 2,
+   "note": "force",
+   "lon": 41.6,
+   "lat": 29.2,
+   "name": "al-Muthannā",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "until": 4
+  },
+  {
+   "id": "a_011",
+   "type": "arrow",
+   "step": 2,
+   "note": "prong:al-Muthannā",
+   "pts": [
+    [
+     42.4,
+     29.7
+    ],
+    [
+     43.4,
+     30.5
+    ],
+    [
+     44.0,
+     31.3
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 7.0,
+   "until": 2
+  },
+  {
+   "id": "a_012",
+   "type": "army",
+   "step": 3,
+   "note": "force",
+   "lon": 47.0,
+   "lat": 25.2,
+   "name": "Khālid ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "until": 6
+  },
+  {
+   "id": "a_013",
+   "type": "arrow",
+   "step": 3,
+   "note": "letter",
+   "pts": [
+    [
+     39.611,
+     24.471
+    ],
+    [
+     42.8555,
+     25.09506
+    ],
+    [
+     46.1,
+     25.2
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 5.0,
+   "until": 3
+  },
+  {
+   "id": "l_014",
+   "type": "label",
+   "step": 4,
+   "note": "say",
+   "lon": 37.659228308773365,
+   "lat": 33.42141414141414,
+   "text": "ʿIyāḍ b. Ghanm ؓ",
+   "ur": "",
+   "size": 26,
+   "align": "center",
+   "until": 4
+  },
+  {
+   "id": "l_015",
+   "type": "label",
+   "step": 5,
+   "note": "name",
+   "lon": 47.84,
+   "lat": 29.76,
+   "text": "al-Ḥafīr",
+   "ur": "",
+   "size": 24,
+   "align": "center"
+  },
+  {
+   "id": "a_016",
+   "type": "arrow",
+   "step": 5,
+   "note": "march:al-Muthannā",
+   "pts": [
+    [
+     41.6,
+     29.2
+    ],
+    [
+     42.8671387231433,
+     28.637593824437552
+    ],
+    [
+     44.242183233885974,
+     28.77075629466253
+    ],
+    [
+     45.29,
+     29.02
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0,
+   "until": 8
+  },
+  {
+   "id": "a_017",
+   "type": "army",
+   "step": 5,
+   "note": "force",
+   "lon": 45.29,
+   "lat": 29.02,
+   "name": "al-Muthannā",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_016",
+   "until": 8
+  },
+  {
+   "id": "a_018",
+   "type": "arrow",
+   "step": 6,
+   "note": "march:ʿAdī ؓ",
+   "pts": [
+    [
+     46.0,
+     25.7
+    ],
+    [
+     45.097535511137586,
+     26.003332896900915
+    ],
+    [
+     44.70372130668255,
+     26.789799738140548
+    ],
+    [
+     44.52,
+     27.48
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0,
+   "until": 8
+  },
+  {
+   "id": "a_019",
+   "type": "army",
+   "step": 6,
+   "note": "force",
+   "lon": 44.52,
+   "lat": 27.48,
+   "name": "ʿAdī ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_018",
+   "until": 8
+  },
+  {
+   "id": "a_020",
+   "type": "arrow",
+   "step": 7,
+   "note": "march:Khālid ؓ",
+   "pts": [
+    [
+     47.0,
+     25.2
+    ],
+    [
+     47.690761973820415,
+     25.79763943605131
+    ],
+    [
+     47.72045718429225,
+     26.629583661630786
+    ],
+    [
+     47.6,
+     27.3
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0,
+   "until": 8
+  },
+  {
+   "id": "a_021",
+   "type": "army",
+   "step": 7,
+   "note": "force",
+   "lon": 47.6,
+   "lat": 27.3,
+   "name": "Khālid ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "follows": "a_020",
+   "until": 8
+  },
+  {
+   "id": "a_022",
+   "type": "army",
+   "step": 8,
+   "note": "force",
+   "lon": 50.3,
+   "lat": 32.2,
+   "name": "Hurmuz",
+   "ur": "",
+   "faction": "f7",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "right",
+   "scale": 1.5,
+   "until": 8
+  },
+  {
+   "id": "a_023",
+   "type": "arrow",
+   "step": 8,
+   "note": "letter",
+   "pts": [
+    [
+     49.4,
+     32.400000000000006
+    ],
+    [
+     46.989999999999995,
+     32.9378
+    ],
+    [
+     44.58,
+     33.09
+    ]
+   ],
+   "faction": "f7",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 5.0,
+   "until": 8
+  },
+  {
+   "id": "a_024",
+   "type": "arrow",
+   "step": 9,
+   "note": "march:Khālid ؓ",
+   "pts": [
+    [
+     47.6,
+     27.3
+    ],
+    [
+     45.34912842412976,
+     28.26531000147073
+    ],
+    [
+     43.50057705447786,
+     29.980386000882437
+    ],
+    [
+     42.21,
+     31.42
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": false,
+   "width": 9.0
+  },
+  {
+   "id": "a_025",
+   "type": "army",
+   "step": 9,
+   "note": "force",
+   "lon": 42.21,
+   "lat": 31.42,
+   "name": "Khālid ؓ",
+   "ur": "",
+   "faction": "f1",
+   "strength": "",
+   "unit": "mixed",
+   "labelPos": "left",
+   "scale": 1.5,
+   "follows": "a_024"
+  },
+  {
+   "id": "a_026",
+   "type": "arrow",
+   "step": 10,
+   "note": "letter",
+   "pts": [
+    [
+     42.21,
+     31.42
+    ],
+    [
+     43.394999999999996,
+     32.3498
+    ],
+    [
+     44.58,
+     33.09
+    ]
+   ],
+   "faction": "f1",
+   "label": "",
+   "ur": "",
+   "dashed": true,
+   "width": 8.0,
+   "until": 10
+  }
+ ],
+ "steps": {
+  "count": 10,
+  "current": 10,
+  "mode": "upto"
+ }
+}
