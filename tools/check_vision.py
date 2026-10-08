@@ -56,6 +56,12 @@ APPARATUS = re.compile(r"`|\.md\b|\bDECISIONS\b|(?<![\w/])#\d+\b|§\s*\d|\b[A-Z]
 DEPICTS = re.compile(r"\b(?:portrait|his face|her face|their faces|depict(?:ing)? (?:the )?(?:Prophet|Companion)|"
                      r"a man's face|close-up of a (?:man|woman))", re.I)
 
+# Q6 — Arabic words this room uses as its own, which a rendering may therefore keep (folded as norm() folds)
+ROOM_WORDS = {"zakat", "sadaqa", "jizya", "dua", "wudu", "mushrikun", "mushrik", "ridda", "hijra", "sura", "aya",
+              "imam", "qibla", "jihad", "iman", "umma", "sunna", "hadith", "khalifa", "amir", "baya", "dhimma",
+              "fitna", "salam", "salat", "hajj", "umra", "qadi", "shaykh", "kafir", "munafiq", "sahaba", "ansar",
+              "muhajirun", "taqwa", "tawba", "shahada", "shahid", "din", "dunya", "akhira", "ibn", "bint", "banu"}
+
 STOP = {"the", "and", "from", "with", "then", "his", "her", "their", "for", "not", "all", "one", "two", "who",
         "right", "left", "front", "last", "first", "road", "army", "men", "side", "other", "still", "come"}
 PLAIN_PLACES = {"medina", "mecca", "yemen", "oman", "bahrayn", "arabia", "iraq", "persia", "rome", "syria",
@@ -394,6 +400,20 @@ def check(folder, only=None, slides=None):
             drawn = [e for e in t.get("events", []) if e.get("group") == "delivered" or e.get("group") in r.get("lit", [])]
             if len(drawn) > 8:
                 R.add("L1", "timeline", "%d events on the Line %r; eight at most" % (len(drawn), r.get("name")))
+
+    # Q6 — a rendering renders. An Arabic word left standing in the English under a quotation is a word nobody
+    # translated: "We had agreed not to fight over a bint makhāḍ or a bint labūn" stopped the speaker himself.
+    # A name stays (it is capitalised, or begins al-); so does a word this room already owns.
+    for i, f in facts.items():
+        if not f["arabic"]:
+            continue
+        for box in list(f.get("quoted", ())) + [b for b in f["boxes"] if b[:1] in '"“']:
+            for w in re.findall(r"[A-Za-zĀ-ſḀ-ỿʿʾ’'-]+", box):
+                w = w.strip("'’-")
+                if w and w[0].islower() and not w.startswith("al-") and TRANSLIT.search(w) \
+                        and norm(w) not in ROOM_WORDS:
+                    R.add("Q6", i, "an Arabic word left untranslated in a rendering: %r — render it, and gloss it "
+                                   "in the notes (or add it to ROOM_WORDS if this room owns it)" % w)
 
     # Q5 — every Arabic character on a face, and in its notes, has a glyph in a font that is here. One that has
     # none is a box on the projector, and PowerPoint un-joins every letter of the line it stands in.

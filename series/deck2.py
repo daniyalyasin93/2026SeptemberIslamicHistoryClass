@@ -439,6 +439,7 @@ PARTS_PER_SLIDE = 4
 # stays the larger of the two at every step: it is what carries authority in this room (CLAUDE.md 1.4).
 _PART_SIZES = ((44, 28, 0.26), (44, 26, 0.18), (40, 26, 0.16), (40, 24, 0.12), (36, 24, 0.12), (36, 24, 0.07),
                (32, 24, 0.07))
+_AR_WRAP = 1.2      # the pitch of a second line of Traditional Arabic, in units of (size × line spacing)
 
 
 def _fit_parts(parts, room, floor=32):
@@ -452,7 +453,12 @@ def _fit_parts(parts, room, floor=32):
         for ar, en in parts:
             al = max(1, -(-_ar_len(ar) // cpl))
             el = _wrapped_lines(en, en_pt, width, face="georgiai.ttf")
-            ah, eh = ar_pt * 1.5 / 72.0 * al + 0.04, en_pt * 1.30 / 72.0 * el + 0.06
+            # A WRAPPED line of Traditional Arabic sits lower than size × spacing says: PowerPoint sets it by
+            # the font's own tall line, about 1.2 × that. Counted as one plain line each, a two-line clause was
+            # given 0.3in too little and its second line was set on top of its own rendering (Ibn Masʿūd's ؓ
+            # words, 2026-10-08 — measured on the rendered slide).
+            ah = ar_pt * 1.5 / 72.0 * (1 + _AR_WRAP * (al - 1)) + 0.04
+            eh = en_pt * 1.30 / 72.0 * el + 0.06
             rows.append((ah, eh))
             total += ah + eh
         if total <= room:

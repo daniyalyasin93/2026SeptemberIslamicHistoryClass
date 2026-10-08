@@ -3257,7 +3257,7 @@ while Muslim tribes were breaking theirs.
 2. No region untouched — There was no part of Arabia in which some people did not turn.
 3. Armies sent to support believers — Abū Bakr ؓ sent commanders to help whichever believers were already standing in each region — not to subdue it.
 4. The fifth went to Medina — And was spent among the people.
-5. Obedience, or covenant — Until nobody was left but people in obedience and people under a covenant, "like the people of Najrān".
+5. Obedience, or covenant — Until nobody was left but people in obedience and people under a covenant, "like the people of Najrān" — who were not Muslim, and who had sent to Medina in those same months to renew theirs.
 6. The end of 11, the start of 12 — His own words for how long it took: two years, not a generation.
 **Quote after beat:** 2
 **The statement:**
@@ -4367,35 +4367,43 @@ subject and a different evening; tonight Najrān is one line in a campaign chapt
 **What happened:** Ibn al-Athīr opens his whole account of the Ridda not with an event but with a
 Companion's verdict on it. ʿAbd Allāh b. Masʿūd ؓ says that after the Messenger of Allah ﷺ they stood in a
 position in which they nearly perished, had Allah not favoured them with Abū Bakr ؓ. And then he says what
-the position was: **they had agreed among themselves not to fight** over a young she-camel — a bint makhāḍ
-and a bint labūn — but to live off the Arab settlements and worship Allah until certainty came to them.
+the position was: **they had agreed among themselves not to fight** over the zakāt — over two young she-camels, a yearling
+and a two-year-old — but to live off the Arab towns and worship Allah until the certainty came to them.
 Then Allah resolved for Abū Bakr ؓ to fight them; and he accepted nothing from them but the humiliating
 terms or the war that drives out.
 **Beats:**
 1. Ibn al-Athīr opens with a verdict — Before any event of the Ridda, he quotes a Companion looking back.
 2. ʿAbd Allāh b. Masʿūd ؓ is speaking — The room knows him; no introduction.
 3. "We nearly perished" — "We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished — had Allah not favoured us with Abū Bakr."
-4. They had agreed not to fight — Over a young she-camel: a bint makhāḍ and a bint labūn.
-5. To live quietly and worship — To live off the Arab settlements and worship Allah until certainty came.
+4. They had agreed not to fight — All of them, over the zakāt: two young she-camels. A few camels, they had said, are not worth a war.
+5. To keep to their towns — To live off the Arab towns, and worship Allah until the certainty came: until death.
 6. The consensus went the other way — Say it plainly; a Companion is the one who records it.
-7. Then Allah resolved Abū Bakr ؓ — "Then Allah resolved for Abū Bakr to fight them."
-8. The two terms of evening 2 — He accepted nothing but the humiliating terms or the war that drives out; the loop closes on the words it opened with.
+7. Then Allah resolved Abū Bakr ؓ — "Then Allah gave Abū Bakr the resolve to fight them."
+8. The two terms of evening 2 — He accepted nothing but the humiliating terms or the war that drives out; the loop closes on the words it opened with. The page says what each was: their dead in the Fire and ours in the Garden, blood-money for ours, what they took returned — or out of their lands.
 **Quote after beat:** 3
 **The statement:**
-> لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ، أَجْمَعْنَا عَلَى أَنْ لَا نُقَاتِلَ عَلَى ابْنَةِ مَخَاضٍ وَابْنَةِ لَبُونٍ، وَأَنْ نَأْكُلَ قُرًى عَرَبِيَّةً، وَنَعْبُدَ اللَّهَ حَتَّى يَأْتِيَنَا الْيَقِين
+> لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ، أَجْمَعْنَا عَلَى أَنْ لَا نُقَاتِلَ عَلَى ابْنَةِ مَخَاضٍ وَابْنَةِ لَبُونٍ، وَأَنْ نَأْكُلَ قُرًى عَرَبِيَّةً، وَنَعْبُدَ اللَّهَ حَتَّى يَأْتِيَنَا الْيَقِينُ، فَعَزَمَ اللَّهُ لِأَبِي بَكْرٍ عَلَى قِتَالِهِمْ، فَوَاللَّهِ مَا رَضِيَ مِنْهُمْ إِلَّا بِالْخُطَّةِ الْمُخْزِيَةِ أَوِ الْحَرْبِ الْمُجْلِيَةِ
 > — الکامل فی التاریخ ج۲ ص۲۰۱ · https://shamela.ws/book/21712/892
 > *English:* "We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished, had
-> Allah not favoured us with Abū Bakr. We had agreed not to fight over a bint makhāḍ or a bint labūn, and
-> to live off the Arab settlements, and to worship Allah until certainty came to us."
-
-**And how it ends, on the same page:**
-> فَعَزَمَ اللَّهُ لِأَبِي بَكْرٍ عَلَى قِتَالِهِمْ، فَوَاللَّهِ مَا رَضِيَ مِنْهُمْ إِلَّا بِالْخُطَّةِ الْمُخْزِيَةِ أَوِ الْحَرْبِ الْمُجْلِيَة
-> — الکامل فی التاریخ ج۲ ص۲۰۱ · https://shamela.ws/book/21712/892
-> *English:* "Then Allah resolved for Abū Bakr to fight them; and by Allah, he accepted nothing from them
-> but the humiliating terms or the war that drives out."
+> Allah not favoured us with Abū Bakr. We had all agreed not to fight over a yearling she-camel or a
+> two-year-old, and to live off the Arab towns, and to worship Allah until the certainty came to us. Then
+> Allah gave Abū Bakr the resolve to fight them; and by Allah, he accepted nothing from them but the
+> humiliating terms, or the war that drives out."
 
 **عبرت:** A Companion, looking back, says plainly that the right answer was not the one they had all agreed on.
 **Hands-up?** Before beat 4: *"He says they had already agreed on something. What do you think they had agreed?"*
+**What each of the two terms was — the page says it, straight after:**
+> فَأَمَّا الْخُطَّةُ الْمُخْزِيَةُ أَنْ يُقِرُّوا بِأَنَّ مَنْ قُتِلَ مِنْهُمْ فِي النَّارِ، وَمَنْ قُتِلَ مِنَّا فِي الْجَنَّةِ، وَأَنْ يَدُوا قَتْلَانَا وَنَغْنَمَ مَا أَخَذْنَا مِنْهُمْ، وَأَنَّ مَا أَخَذُوا مِنَّا مَرْدُودٌ عَلَيْنَا. وَأَمَّا الْحَرْبُ الْمُجْلِيَةُ فَأَنْ يُخْرَجُوا مِنْ دِيَارِهِمْ
+> — الکامل فی التاریخ ج۲ ص۲۰۱ · https://shamela.ws/book/21712/892
+> *English:* "As for the humiliating terms: that they acknowledge that those of them who were killed are in
+> the Fire and those of us who were killed are in the Garden; that they pay the blood-money of our dead; that
+> what we took from them is ours as spoil, and what they took from us is returned to us. And as for the war
+> that drives out: that they be driven from their lands."
+**The words in it.** `[STANDARD]` (to verify) — the Arabic names two camels: a *bint makhāḍ*, a she-camel in
+her second year, and a *bint labūn*, one in her third. They are the young animals of the zakāt schedule, so
+*"not to fight over"* them means: not to go to war over the zakāt. *"Until the certainty came to us"* is the
+wording of Sūrat al-Ḥijr, verse 99; the certainty is death. *"To live off the Arab towns"* is literal, and the
+page does not gloss it — its next paragraph says every tribe turned *"except Quraysh and Thaqīf"*, the towns.
 ⚠ **Ibn al-Athīr prints this at the head of the chapter with no isnād.** Narrate it as what the book
 carries — *"Ibn al-Athīr opens his account by quoting Ibn Masʿūd ؓ"* — and build no ruling on it.
 ⚠ **This is not a ⁨مشاجرات⁩ card.** It is a Companion praising Abū Bakr ؓ for a decision, and nothing in it
@@ -8104,9 +8112,9 @@ Ardashīr son of Shīrā.
 **Beats:**
 1. You know how Kisrā died — Evening 3: “my Lord has killed your lord tonight” — by his own son.
 2. The books name the son — Shīrā.
-3. What Shīrā did to his own house — He gathered its women, and killed the males. Ibn al-Athīr says it in passing.
+3. What Shīrā did to his own house — He took the throne; and he gathered the women of the house, and killed its males. Ibn al-Athīr says it in passing.
 4. So Persia had to search for a king — Its great men sent for the women of Kisrā's house, to find one male of the line.
-5. One boy had been got away — Yazdagird. His mother had sent him to her brothers. They made him king, at twenty-one.
+5. One boy had been got away — Yazdagird: Kisrā's grandson, through another son, Shahriyār. His mother had sent him to her brothers. They made him king, at twenty-one.
 6. That is the house the letter went to — Khālid's ؓ letter was sent on “to Shīrā son of Kisrā, and Ardashīr son of Shīrā”.
 7. Ibn al-Athīr tells the search a year on — Under year 13. The killing it looks back to is older.
 **Quote after beat:** 5
@@ -8117,11 +8125,20 @@ Ardashīr son of Shīrā.
 
 **عبرت:** The throne they were about to face had been emptied by its own family.
 **Hands-up?** no
+**Who is who — only what the pages we hold say.** `[SOURCED — البدایہ ج۷ ص۱۳، ص۶۴; الکامل ج۲ ص۲۸۴]`
+**Kisrā** — the king the Prophet ﷺ wrote to; killed by his own sons, the night the Prophet ﷺ said so in Medina
+(evening 3). **Shīrā** — his son, who took the throne after him; the page of evening 3 spells him Shīrawayh.
+In his days the women of the house were gathered and its males killed. **Shahriyār** — another son of Kisrā, so
+Shīrā's brother; the page names him only as the boy's father and does not say how he died. **Ardashīr** —
+Shīrā's son. **Būrān** — Kisrā's daughter; the great men ask her for the list of the women of the house.
+**Yazdagird** — Shahriyār's son, Kisrā's grandson: the one male left, hidden by his mother with her brothers.
+**Rustam and al-Fayrūzān** — the two great men whose quarrel forced the search; later evenings.
+⚠ **Who killed whom:** his sons killed Kisrā, and Shīrā the males of the house. No page we hold says how Shīrā
+or Ardashīr ended, and none gives a date for any of them.
 **Who the letter was sent on to:**
 > فكتب إليه خالدٌ فبعث هرمزُ بكتابِ خالدٍ إلى شيرَى بن كسرى، وأردشير بن شيرَى
 > — البدایہ والنہایہ ج۷ ص۶۴ · https://shamela.ws/book/30097/3210
 > *English:* “So Khālid wrote to him; and Hurmuz sent Khālid's letter on to Shīrā son of Kisrā, and Ardashīr son of Shīrā.”
-
 ⚠ **Say the names as the page's, and do not reconcile them.** General histories put Shīrā's death within months of
 his father's `[CONVENTIONAL-ESTIMATE]`; Ibn Kathīr's page, following Sayf, has the letter sent on to him in year 12.
 ⚠ **Narrate and stop.** This is Persian court history told by Muslim historians. Rustam, the Bridge and

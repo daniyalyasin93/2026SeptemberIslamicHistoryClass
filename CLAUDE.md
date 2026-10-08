@@ -281,6 +281,9 @@ slide. A rule he has had to repeat is a rule nothing enforces.
 - **Close-ups are built** (`mapkit.closeup`); where the page gives only sides it is a diagram and says
   “not to scale” on its face (#75).
 - **Every Arabic character on a face has a glyph** (#79, gate `Q5`): an honorific ligature is set as its words.
+- **A rendering renders** (#80, gate `Q6`): no Arabic word is left standing in the English under a quotation
+  unless it is a name or a word the room owns. **A name in a quotation is a name on stage** — the introductions
+  check reads the statement's rendering too. When he says he cannot follow a slide, answer from the page first.
 - **Then look.** The gate checks what it has been taught. Open every new map's rendered steps before hand-over.
 
 ## 2. The fixed session shape (45 min)
@@ -336,7 +339,8 @@ python tools/check_introductions.py SNN_<slug>      # exits non-zero while a row
 
 It walks `RUNSHEET.md` in running order and reports every proper name appearing for the first time in
 the series — in no card listed in `docs/catalogue/DELIVERED.md`, and in no earlier card of this
-evening. **The runsheet answers every row** in a `## Introductions checked` table, and
+evening. It reads a card's title, narrative, beats **and the rendering of its statement** (#80): a name
+inside a projected quotation is a name on stage. **The runsheet answers every row** in a `## Introductions checked` table, and
 **"no notice needed" is a valid answer** — the rule is that somebody looked, not that every name gets
 a paragraph.
 
@@ -394,8 +398,9 @@ row before planning any evening. Evening 2 stopped after بزاخة (37 min, ran
 stopped at **STOP B**; evening 4 (`S04_kinda_butah_yamama/`) at **STOP D**, al-Yamāma taken; evening 5
 (`S05_yamama_dead_oman_mahra/`) at **Checkpoint 2**, Oman and Mahra settled — 33 cards, his slide 63.
 **Evening 6 is `S06_hadramawt_bahrayn/`** — the last front, then Bahrayn; **evening 7 is the hinge**, and the
-Ridda ends on 6 (`DECISIONS.md` #70, `docs/specs/2026-10-07-evenings-6-and-7-spec.md`). **Both are in the one deck** (#72): Parts I–VIII close the
-Ridda, Parts IX–X are the hinge (`DECISIONS.md` #78), and there is a close after each. Card ids are unique across
+Ridda ends on 6 (`DECISIONS.md` #70, `docs/specs/2026-10-07-evenings-6-and-7-spec.md`). **Both are in the one deck** (#72): Parts I–VI close the
+Ridda, Parts VII–VIII are the hinge (`DECISIONS.md` #78, renumbered by #80 when Daniyal cut two parts — 43 cards,
+109 slides), and there is a close after each. Card ids are unique across
 pools — the 23–41 AH statements bank is `GSB`, the 11–23 AH one `GSA`.
 
 **The pace is a measured constant: 26 · 32 · 34 · 33 cards in a 45-minute slot** — ≈ 1.36 min a card

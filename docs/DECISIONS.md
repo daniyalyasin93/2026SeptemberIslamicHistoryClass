@@ -2007,3 +2007,69 @@ CLAUDE.md §1.2, so it is his.
 **Checked:** the gate was run on the deck as it stood and named slide 104 and the notes of 103 and 104 — nothing
 else in 119 slides; after the rebuild it is silent, and the rendered slide was looked at. The rebuild changed that
 one face and those two notes. **Not checked:** the slide show itself; the export is the same text engine.
+
+## 80. Part VI and Part VIII are cut; a rendering renders; a name in a quotation is a name on stage — 2026-10-08
+
+Four messages from Daniyal, reviewing the deck the same afternoon:
+
+- *"i think we should remove part vi"* — *Thaqīf, Najrān, the Azd: who did not break away* (five cards);
+- *"also remove section viii"* — Ibn Khaldūn's one slide;
+- *"can you explain the full quote in slide 85 of ibn masud? i don't quite understand"*;
+- *"i don't fully understand who is shira, and who is shahryar in slide 100, and who killed who at what time and
+  who survived in the sassanian royal dynasty"*.
+
+**The cuts.**
+
+1. `ATA/E-TB22`, `RCT/E-RC78`, `ATA/E-TB10`, `ATA/E-TB13`, `ATA/E-TB25` and `IKO/E-IKR1` leave the runsheet. They stay
+   in the pool and are listed under its *Held* heading with his words. With the three he cut that morning
+   (*"6-8 are unnecessary"*), every card he has taken out of this evening is framing, retrospect or analysis.
+   **None was story.**
+2. **The parts move up:** the old VII is **VI**, IX is **VII**, X is **VIII**. The deck is Parts I–VI (the Ridda,
+   36 cards) and VII–VIII (the hinge, 7 cards): **43 cards, 109 slides.** ⚠ #72, #78 and the evenings-6-and-7 spec
+   use the old numbers.
+3. **The first close follows `RCT/E-RC35`, and checkpoint 4 is gone.** It stood after `RC35` with Ibn Khaldūn's
+   slide between it and the close; with that slide cut, a checkpoint beside the close would show the same Line
+   and the same map twice.
+4. **One thing the cut part was holding up.** `RC36` ends on *"like the people of Najrān"*, and the card that told
+   who they were is gone. Its beat now says it: not Muslim, and renewing their covenant in those same months.
+5. **Said to him, and left as he decided:** `ATA/E-TB25` says of itself *"if only one sentence of §2 survives the
+   cut, keep this one"*. It is not in the deck. One runsheet row puts it back.
+
+**Slide 85 — Ibn Masʿūd ؓ.** The face read *"We had agreed not to fight over a bint makhāḍ or a bint labūn"* and
+stopped. Two Arabic words nobody had translated, and a quotation cut before its point.
+
+6. **A rendering renders (`VISION` Q6, gate `Q6`).** The card now says *a yearling she-camel or a two-year-old*.
+   The gate reads every rendering on a face for an Arabic word that is neither a name nor one of the room's own
+   (`ROOM_WORDS`). Run on the deck he saw, it names slide 85 and nothing else.
+7. **The quotation runs to its end**, over three slides, one thought each: the verdict · what they had all agreed ·
+   what Abū Bakr ؓ did. Lifted from the cached page by bytes (⁨الکامل ج۲ ص۲۰۱⁩). The page's own definition of the
+   two terms — the humiliating terms, the war that drives out — is in the notes, in Arabic and English.
+8. **What is ours and what is the page's.** The camel ages and the reading of *the certainty* as death are
+   labelled `[STANDARD]` (to verify): they are on no page we hold. *"To live off the Arab towns"* is literal; the
+   page does not gloss it, and the card says so.
+
+**Slide 100 — the house of Kisrā.**
+
+9. **A name in a quotation is a name on stage (`VISION` Q7).** `check_introductions.card_text` read a card's
+   title, narrative and beats — never its statement. So *"Yazdagird, of the line of Shahriyār son of Kisrā"* put
+   Shahriyār on a slide, the gate passed, and the speaker had to ask who he was. The statement's rendering is read
+   now. It found two real strangers — Shahriyār, Bādūrayā — both answered in the runsheet, and the Names of Allah
+   in two duʿāʾs, which the tool now knows.
+10. **The card introduces him and the notes carry a who-is-who**, drawn only from the three pages held (⁨البدایہ
+    ج۷ ص۱۳⁩, ⁨ص۶۴⁩; ⁨الکامل ج۲ ص۲۸۴⁩): Kisrā, Shīrā (spelled Shīrawayh on the first), Shahriyār, Ardashīr, Būrān,
+    Yazdagird — and *who killed whom*: his sons killed Kisrā; Shīrā, the males of the house. **No page we hold
+    says how Shīrā or Ardashīr ended, or dates any of them.** Two scene lines on the face say who is speaking of
+    whom before the words begin.
+11. **Not in the deck:** the outline general histories give (Kisrā killed in 628 CE; Shīrā dead within months; the
+    boy Ardashīr killed by a general, Shahrbarāz — not Shahriyār; Yazdagird crowned in 632 CE). It was given to
+    Daniyal in conversation, labelled as not from our pages. Two of our pages do not fit it — the letter sent on to
+    Shīrā in year 12, and Yazdagird at twenty-one — and the card's rule stands: the names as the page gives them.
+12. **Offered, not built:** a family-tree slide for the house. He is cutting; it is his to ask for.
+
+**Found by looking.** With the gate green, slide 77's Arabic ran to a second line and that line was set on top of
+its own rendering. `deck2._fit_parts` counted a wrapped line of Traditional Arabic as size × spacing; PowerPoint
+sets it about 1.2 times lower (measured on the render: `_AR_WRAP`). The clause is also authored as two parts now,
+so it does not wrap at all.
+
+**Checked:** citations 668/0; cards at baseline; introductions 0 unanswered; the vision gate silent, Q6 and Q7
+included; the rendered slides 49, 69, 75–79, 83, 90, 91 looked at. **Not checked:** the slide show itself.

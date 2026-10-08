@@ -48,7 +48,7 @@ SLIDES = [
     ("s06-kinda", 8, 10), ("s06-kinda", 10, 13), ("s06-kinda", 13, 16),
     ("s06-nujayr", 1, 5),             # the siege, before YK12                              (a diagram)
     ("s06-arabia", 2, 5),             # the close
-    ("s06-empires", 1, 3),            # Part IX opens: the two zones, Persia, Rome
+    ("s06-empires", 1, 3),            # Part VII opens: the two zones, Persia, Rome
     ("s06-empires", 3, 4),            # ISA/E-C1  the order to Iraq
     ("s06-empires", 4, 5),            # ISA/E-C7  four commanders, four roads
     ("s06-empires", 5, 6),            # ISA/E-C2  a letter to al-Madāʾin

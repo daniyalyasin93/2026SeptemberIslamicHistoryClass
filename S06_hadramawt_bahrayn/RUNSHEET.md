@@ -18,11 +18,10 @@ this sheet changed direction four times. **This order changes direction once.**
   IV   11–12 AH       Ḥaḍramawt and Kinda — the last front
   V    12 AH → later  Medina: the judgement, then the two forward references
   ---------------------------------------------------------------- evening 6 ends here if it must
-  VI   11 AH          who did NOT break away — the same moment, sideways; no movement in time
-  VII  12 AH          the last word, closing on one framed look ahead to ʿUmar's ؓ caliphate
-  VIII  —             why it did not break again (Ibn Khaldūn; no date at all)
-  IX   602–628 →11    the other side of the desert — ONE announced turn outward
-  X    12 → early 13  two letters leave Medina, and the cliffhanger
+  VI   12 AH          the last word on the whole war, closing on one framed look ahead to ʿUmar's ؓ caliphate
+  ---------------------------------------------------------------- the first close: the Ridda ends
+  VII  602–628 →11    the other side of the desert — ONE announced turn outward
+  VIII 12 → early 13  two letters leave Medina, and the cliffhanger
 ```
 
 Three rules got it there:
@@ -33,16 +32,17 @@ Three rules got it there:
    the "meanwhile" reversal entirely** — the first draft told Ḥaḍramawt and then went back to Bahrayn.
 2. **Forward references go last.** `YK16` (al-Qādisiyya, Nahāwand) and `PG41` (years later, at a funeral) sat
    mid-evening in the draft and dragged the room forward and then back. They now end it.
-3. **Retrospective material sits in a retrospective part, not scattered through the fronts.** `TB22`,
-   `TB25`, `TB10`, `TB13` and `RC78` are all 11 AH, so dropped among the fronts they were the worst jump
-   in the evening. They are now **Part VI**, where the evening deliberately stops moving forward and looks
-   at one moment sideways — which is also where `RC36`'s *"like the people of Najrān"* pays off.
-4. **Two announced turns, and only two.** Part III steps back to 10 AH; Part IX turns the map outward to
+3. **The retrospective is one part, and a short one.** Two parts stood here and **Daniyal cut both on
+   2026-10-08**: *"i think we should remove part vi"* — the five 11 AH cards on who did *not* break away
+   (`TB22`, `RC78`, `TB10`, `TB13`, `TB25`) — and *"also remove section viii"*, Ibn Khaldūn's one slide. They are
+   listed under *Held* and stay in the pool. What the room still needs from them is one half-line, and
+   `RC36` now carries it: who the people of Najrān were.
+4. **Two announced turns, and only two.** Part III steps back to 10 AH; Part VII turns the map outward to
    the two empires. Each is said aloud before it happens. Everything else runs forward.
 
 | | |
 |---|---|
-| Material | **41 cards built (Parts I–VIII)** at his measured 1.36 min a card — **two evenings in one file** (Daniyal, 2026-10-07: *"build the material for both this session and next in one slide pptx, I will decide where to stop based on available time"*) |
+| Material | **43 cards (Parts I–VIII)** — 36 to the end of the Ridda, 7 beyond it. At his measured 1.36 min a card that is ≈ 49 min and ≈ 10 min: **two evenings in one file** (Daniyal, 2026-10-07: *"build the material for both this session and next in one slide pptx, I will decide where to stop based on available time"*) |
 | Shape | one slide per card (#39) · a moving card's map **is** its slide (#63) · captions fade (#64) · **each front closes on its own map before the next opens (#69)** · lectern = the notes (#60) |
 | Research | **none needed.** Every page is cached: 30097/3184–3187, 3207 · 21712/912–915 · 10906/1688–1690 |
 
@@ -51,12 +51,14 @@ Three rules got it there:
 
 | Stop | After | The evening it makes | What is left |
 |---|---|---|---|
-| **Checkpoint 1** | #17, Thumāma ؓ | Bahrayn whole — **17 cards, ≈ 30 min budgeted.** A complete evening on its own | Kinda and Ḥaḍramawt, and all of evening 7 |
-| **Checkpoint 2** | #26, al-Nujayr | + Ḥaḍramawt to the fort — **26 cards** | the judgement at Medina, and evening 7 |
-| **Checkpoint 3** | #30, `PG41` | **the natural evening 6 — 30 cards.** The fighting ends and al-Ashʿath ؓ comes back | the retrospective and the turn outward |
-| **Checkpoint 4** | #40, `RC35` | **+ the war looked back on — 40 cards.** Arabia in one colour | Ibn Khaldūn's one slide; then Parts IX–X |
-| *the first close* | `IKR1` | the Ridda, whole — Parts I–VIII. Its last slide is scripted both ways: stop, or carry on | Parts IX–X |
-| *the second close* | `ISA/E-C22` | **everything — 49 cards.** The two empires, two orders out of Medina, and Heraclius's advice refused | — |
+| **Checkpoint 1** | #18, Thumāma ؓ | Bahrayn whole — **18 cards, ≈ 30 min budgeted.** A complete evening on its own | Kinda and Ḥaḍramawt, and the rest |
+| **Checkpoint 2** | #27, al-Nujayr | + Ḥaḍramawt to the fort — **27 cards** | the judgement at Medina, and the rest |
+| **Checkpoint 3** | #31, `PG41` | **the natural evening 6 — 31 cards.** The fighting ends and al-Ashʿath ؓ comes back | the war looked back on, and the turn outward |
+| *the first close* | #36, `RC35` | **the Ridda, whole — Parts I–VI, 36 cards.** Arabia in one colour. Its last slide is scripted both ways: stop, or carry on | Parts VII–VIII |
+| *the second close* | #43, `ISA/E-C22` | **everything — 43 cards.** The two empires, two orders out of Medina, and Heraclius's advice refused | — |
+
+**Checkpoint 4 is gone.** It stood after `RC35` with Ibn Khaldūn's slide between it and the close; with that slide
+cut, the close itself follows `RC35`, and a checkpoint beside it would show the same Line and the same map twice.
 
 ⚠ **Bahrayn is now longer than it was** — seventeen cards, sixteen maps' worth of clicks, four slides of faith — because
 Daniyal asked for it to be told properly (2026-10-08). At his pace **Checkpoint 1 or 2 is the likely end of the
@@ -121,7 +123,7 @@ Prophet ﷺ died — a delegation came to Medina."*
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 17 | `KTK/E-KD05` "We are the sons of Ākil al-Murār" | GOOD | 2.5 | 32 | ⚠ **Say the flashback aloud.** The date is standard, not page-cited: *"in the year of the delegations"*. The room meets al-Ashʿath b. Qays here, at the head of his people, in kohl and silk. **Tree D (Kinda) opens the part** |
+| 19 | `KTK/E-KD05` "We are the sons of Ākil al-Murār" | GOOD | 2.5 | 33.5 | ⚠ **Say the flashback aloud.** The date is standard, not page-cited: *"in the year of the delegations"*. The room meets al-Ashʿath b. Qays here, at the head of his people, in kohl and silk. **Tree D (Kinda) opens the part** |
 
 ## Part IV — Ḥaḍramawt: the last front (11→12 AH)
 
@@ -129,14 +131,14 @@ Prophet ﷺ died — a delegation came to Medina."*
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 18 | `TSY/E-YK07` The promise about the camels | CORE | 2 | 34 | **Ziyād b. Labīd's ؓ notice in one breath first** |
-| 19 | `RCT/E-RC33` The she-camel called Shadhra | CORE | 2 | 36 | SKIP BEATS 1 — #17 told the arrangement |
-| 20 | `TSY/E-YK08` "The humbled man…" | CORE | 2 | 38 | ⚠ **⁨البسوس⁩ has no page here** — say only *"an old war that had started the same way"* |
-| 21 | `TSY/E-YK09` Free men do not change sides | CORE | 2 | 40 | Shuraḥbīl b. al-Simṭ **and his son** |
-| 22 | `TSY/E-YK10` Round their fires | CORE | 2 | 42 | **No source ties the old kingship to the ridda** — imply nothing. SKIP BEATS 7,8 |
-| 23 | `TSY/E-YK19` al-Ashʿath b. Qays comes into it | CORE | 1.5 | 43.5 | **Never cut.** Where the war becomes his |
-| 24 | `TSY/E-YK11` The fort they had already repaired | GOOD | 1 | 44.5 | **The road that began at al-Yamāma ends here.** SKIP BEATS 5,6,7 — the close-up of al-Nujayr, on the next slide, tells them |
-| 25 | `TSY/E-YK12` The knife at the writing | CORE | 2 | 46.5 | ⚠ **Say "11 or 12 AH"** — ⁨الکامل⁩ and ⁨سیر⁩ differ. ⚠ `YK13`'s second telling exists if a slip asks |
+| 20 | `TSY/E-YK07` The promise about the camels | CORE | 2 | 35.5 | **Ziyād b. Labīd's ؓ notice in one breath first** |
+| 21 | `RCT/E-RC33` The she-camel called Shadhra | CORE | 2 | 37.5 | SKIP BEATS 1 — #17 told the arrangement |
+| 22 | `TSY/E-YK08` "The humbled man…" | CORE | 2 | 39.5 | ⚠ **⁨البسوس⁩ has no page here** — say only *"an old war that had started the same way"* |
+| 23 | `TSY/E-YK09` Free men do not change sides | CORE | 2 | 41.5 | Shuraḥbīl b. al-Simṭ **and his son** |
+| 24 | `TSY/E-YK10` Round their fires | CORE | 2 | 43.5 | **No source ties the old kingship to the ridda** — imply nothing. SKIP BEATS 7,8 |
+| 25 | `TSY/E-YK19` al-Ashʿath b. Qays comes into it | CORE | 1.5 | 45 | **Never cut.** Where the war becomes his |
+| 26 | `TSY/E-YK11` The fort they had already repaired | GOOD | 1 | 46 | **The road that began at al-Yamāma ends here.** SKIP BEATS 5,6,7 — the close-up of al-Nujayr, on the next slide, tells them |
+| 27 | `TSY/E-YK12` The knife at the writing | CORE | 2 | 48 | ⚠ **Say "11 or 12 AH"** — ⁨الکامل⁩ and ⁨سیر⁩ differ. ⚠ `YK13`'s second telling exists if a slip asks |
 
 **✓ Checkpoint 2 — after #24.** The pair exists as evening 5's slides 81–82. Line: Ḥaḍramawt lit to
 al-Nujayr. Map: every front settled; one man on the road to Medina in bonds. ⏱ Past 0:40 → close here.
@@ -149,10 +151,10 @@ week: what Abū Bakr ؓ did with him."*
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 26 | `TSY/E-YK14` "What do you think I will do with you?" | CORE | 2.5 | 49 | Spare [HANDS]: ask the room before the answer. ⚠ Ten or seventy — the books differ |
-| 27 | `POT/E-PG40` The wedding feast in the camel market | CORE | 1.5 | 50.5 | ⚠ **Do not name Abū Bakr's ؓ sister** — the books differ. SKIP BEATS 1–4 |
-| 28 | `TSY/E-YK16` "We suspected three men" | CORE | 2 | 52.5 | **↪ Forward, framed by beat 1** — al-Qādisiyya and Nahāwand are evenings ahead |
-| 29 | `POT/E-PG41` This man did not apostatise, and I did | CORE | 1 | 53.5 | **↪ Years later, at a funeral.** Closes on a man who came back — and on his own sentence about himself |
+| 28 | `TSY/E-YK14` "What do you think I will do with you?" | CORE | 2.5 | 50.5 | Spare [HANDS]: ask the room before the answer. ⚠ Ten or seventy — the books differ |
+| 29 | `POT/E-PG40` The wedding feast in the camel market | CORE | 1.5 | 52 | ⚠ **Do not name Abū Bakr's ؓ sister** — the books differ. SKIP BEATS 1–4 |
+| 30 | `TSY/E-YK16` "We suspected three men" | CORE | 2 | 54 | **↪ Forward, framed by beat 1** — al-Qādisiyya and Nahāwand are evenings ahead |
+| 31 | `POT/E-PG41` This man did not apostatise, and I did | CORE | 1 | 55 | **↪ Years later, at a funeral.** Closes on a man who came back — and on his own sentence about himself |
 
 ### The close — the spoken script (the slides come from `build.py`, not from a table)
 
@@ -200,67 +202,45 @@ titles stay as written; the face is set in `build.py` `FACE_TITLE`.
 
 **Rebuild order:** `make_timeline.py` → `make_maps.py` → `build.py` → `notes_book.py`.
 
-## Part VI — Thaqīf, Najrān, the Azd: who did not break away (11 AH)
-
-**The evening turns.** Everything so far has been fronts; this is the same moment looked at sideways — no
-movement in time at all. ✅ **All five now carry beats** (2026-10-07).
+## Part VI — Medina, 12 AH: Ibn Kathīr and Ibn Masʿūd ؓ on the whole war
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 30 | `ATA/E-TB22` Thaqīf had been Muslim for two years, and did not break | CORE | 2 | 55.5 | «⁨وقد كانت ثقيفُ بالطائف ثَبَتوا على الإسلام، لم يفرُّوا ولا ارتدّوا⁩» — ⁨البدایہ ج۷ ص۹⁩. **The newest Muslims in the peninsula held.** The room will expect the opposite |
-| 31 | `RCT/E-RC78` Najrān sent a delegation to renew its covenant | CORE | 1.5 | 57 | ⁨الکامل ج۲ ص۲۲۷⁩. While the peninsula broke, a community that was **not Muslim** came to Medina to renew its treaty — **and got it in writing.** It is the end-state `RC36` names, *"like the people of Najrān"* |
-| 32 | `ATA/E-TB10` One tribe, three answers | CORE | 2 | 59 | Banū Tamīm: some withheld, some sent the ṣadaqa to Medina, some waited. **The room met Banū Tamīm on evening 4** — the same tribe, counted honestly |
-| 33 | `ATA/E-TB13` The verse that puts the objection as politics | CORE | 2 | 61 | «⁨فواعَجَبًا ما بَالُ مُلْكِ أبي بَكْرِ⁩» — ⁨البدایہ ج۷ ص۱۸⁩. The refusal stated its own reason, and it was not theology |
-| 34 | `ATA/E-TB25` The Azd stood on both sides of the map | CORE | 2 | 63 | **The ⁨عبرت⁩ card of the whole Ridda, and the card says so of itself:** *"If only one sentence of §2 survives the cut, keep this one."* One tribe furnished a claimant in Oman and a commander against him |
+| 32 | `RCT/E-RC36` What Ibn Kathīr says the whole war was | CORE | 2 | 57 | **Must come after Ḥaḍramawt, not before it.** No region untouched; the armies sent as a support to believers already standing; the end-state *obedience or covenant*; and the duration «⁨أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة⁩» |
+| 33 | `RCT/E-RC81` «We nearly perished» — Ibn Masʿūd ؓ on the whole decision | CORE | 1.5 | 58.5 | ⁨الکامل ج۲ ص۲۰۱⁩, cached — «⁨لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ ﷺ مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ⁩». **On no card until now, and it is the best closing line in the material.** A Companion saying plainly how near it came |
+| 34 | `RCT/E-RC39` The men of Badr who were kept out of office | CORE | 2 | 60.5 | Abū Bakr ؓ «⁨لَا أَسْتَعْمِلُ أَهْلَ بَدْرٍ⁩» — **and ʿUmar's ؓ different view, on the same page.** A recorded difference of administrative judgement between the first two caliphs, and a very safe one for this room |
+| 35 | `RCT/E-RC43` The eleven banners — who went where | GOOD | 2 | 62.5 | **A recap, not news** — the room met the moment on evening 2 (`RC05`). The roster read back now, with every sector green |
+| 36 | `RCT/E-RC35` The captives bought back | CORE | 1.5 | 64 | **↪ Forward to ʿUmar's ؓ caliphate — frame it aloud**, the way `AS18` was framed on evening 5. «⁨إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا⁩» — the peninsula in one colour at last |
 
-## Part VII — Medina, 12 AH: Ibn Kathīr and Ibn Masʿūd ؓ on the whole war
+**The first close follows `RC35`** — Line · map · «Tonight» · «Next week», its last slide scripted both ways. The Line: 11→12 AH, every lane of the Ridda lit. The map: Arabia in one colour.
 
-| # | Card | Tier | Min | Σ | Note |
-|---|---|---|---|---|---|
-| 35 | `RCT/E-RC36` What Ibn Kathīr says the whole war was | CORE | 2 | 65 | **Must come after Ḥaḍramawt, not before it.** No region untouched; the armies sent as a support to believers already standing; the end-state *obedience or covenant*; and the duration «⁨أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة⁩» |
-| 36 | `RCT/E-RC81` «We nearly perished» — Ibn Masʿūd ؓ on the whole decision | CORE | 1.5 | 66.5 | ⁨الکامل ج۲ ص۲۰۱⁩, cached — «⁨لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ ﷺ مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ⁩». **On no card until now, and it is the best closing line in the material.** A Companion saying plainly how near it came |
-| 37 | `RCT/E-RC39` The men of Badr who were kept out of office | CORE | 2 | 68.5 | Abū Bakr ؓ «⁨لَا أَسْتَعْمِلُ أَهْلَ بَدْرٍ⁩» — **and ʿUmar's ؓ different view, on the same page.** A recorded difference of administrative judgement between the first two caliphs, and a very safe one for this room |
-| 38 | `RCT/E-RC43` The eleven banners — who went where | GOOD | 2 | 70.5 | **A recap, not news** — the room met the moment on evening 2 (`RC05`). The roster read back now, with every sector green |
-| 39 | `RCT/E-RC35` The captives bought back | CORE | 1.5 | 72 | **↪ Forward to ʿUmar's ؓ caliphate — frame it aloud**, the way `AS18` was framed on evening 5. «⁨إِنَّهُ لَقَبِيحٌ بِالْعَرَبِ أَنْ يَمْلِكَ بَعْضُهُمْ بَعْضًا⁩» — the peninsula in one colour at last |
-
-**✓ Checkpoint 4 — after #37 (`RC43`), with `RC35` as the last card and the close after it.** ⬜ new pair. **The second natural close, and the one that ends the Ridda.**
-- **The Line:** 11→12 AH, every lane of the Ridda lit. **The map:** Arabia in one colour.
-- **Out of time:** *"Two years after the Prophet ﷺ died, every man in Arabia was on the same side. Next week:
-  there were two empires on the other side of the desert — did either of them know?"*
-
-## Part VIII — Ibn Khaldūn: why Arabia did not break again
-
-| # | Card | Tier | Min | Σ | Note |
-|---|---|---|---|---|---|
-| 40 | `IKO/E-IKR1` ⭐ What the religious call does to ⁨عصبیہ⁩ | CORE | 2 | 74 | **ONE slide, not a block.** ⁨ابن خلدون ج۱ ص۱۹۸⁩. ⁨عبرت⁩: *"What changed in Arabia was not how many men there were, but which way they were all facing."* ⚠⚠ **#29: his name on the face, and the words *"as he reads it"*** — he never wrote this about the Ridda; joining his chapter to year 11 is the course's doing, not his |
-
-## Part IX — Persia and Rome: the other side of the desert (12 AH)
+## Part VII — Persia and Rome: the other side of the desert (12 AH)
 
 Built 2026-10-08 from `docs/research/the-two-empires-at-the-hinge-12-13ah.md` — seven pages, all already in the
 cache. The part opens on its map (the two zones in outline; Persia; Rome), then one card.
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 41 | `ISA/E-C21` The house that had killed its own heirs | CORE | 2 | 76 | ⁨الکامل ج۲ ص۲۸۴⁩. **A callback first** — the room knows how Kisrā died (evening 3). ⚠ Say the names as the page's; do not reconcile them |
+| 37 | `ISA/E-C21` The house that had killed its own heirs | CORE | 2 | 66 | ⁨الکامل ج۲ ص۲۸۴⁩. **A callback first** — the room knows how Kisrā died (evening 3). ⚠ Say the names as the page's; do not reconcile them |
 
-## Part X — Medina, Iraq and Syria: two letters leave, and what each empire heard (12–13 AH)
+## Part VIII — Medina, Iraq and Syria: two letters leave, and what each empire heard (12–13 AH)
 
 The map moves three times and takes nothing: Khālid ؓ to the lower end of Iraq · four roads toward Syria · a
 letter to al-Madāʾin. The last card is the cliffhanger; a second close follows it (Line · map · Tonight · Next week).
 
 | # | Card | Tier | Min | Σ | Note |
 |---|---|---|---|---|---|
-| 42 | `ISA/E-C1` The order to Iraq | CORE | 2 | 78 | ⁨البدایہ ج۷ ص۶۲⁩. Not *conquer Iraq* — come at it from its lower end. Two restraints: compel no one; use no man who turned. ⚠ Muḥarram 12 is al-Madāʾinī's date |
-| 43 | `ISA/E-C7` Four commanders, four roads | CORE | 2 | 80 | ⁨البدایہ ج۷ ص۸۳–۸۴⁩. **Four provinces given before they are taken.** Nothing is taken tonight |
-| 44 | `GSA/E-ST8` The charge to Yazīd b. Abī Sufyān ؓ | CORE | 2 | 82 | ⁨الکامل ج۲ ص۲۴۹⁩. ⚠ Abū Sufyān's ؓ son, Muʿāwiya's ؓ brother — say it plainly, and nothing of what came later |
-| 45 | `GSA/E-ST9` «I am one arrow — shoot me where it is hardest» | GOOD | 1.5 | 83.5 | ʿAmr b. al-ʿĀṣ ؓ, in one sentence. Cut first if short |
-| 46 | `ISA/E-C2` The letter to the marzubāns of Persia | CORE | 2 | 85.5 | ⁨البدایہ ج۷ ص۶۴⁩. A letter, not an army. Its opening sentence was corrected 2026-10-08: the page says the first people he met *chose the jizya* |
-| 47 | `ISA/E-C22` «The people of a new religion» — Heraclius, to the Romans | CORE | 2 | 87.5 | ⁨البدایہ ج۷ ص۸۵–۸۶⁩. **THE CLIFFHANGER.** ⚠ Stop at *they refused*. The armies are the next evening |
+| 38 | `ISA/E-C1` The order to Iraq | CORE | 2 | 68 | ⁨البدایہ ج۷ ص۶۲⁩. Not *conquer Iraq* — come at it from its lower end. Two restraints: compel no one; use no man who turned. ⚠ Muḥarram 12 is al-Madāʾinī's date |
+| 39 | `ISA/E-C7` Four commanders, four roads | CORE | 2 | 70 | ⁨البدایہ ج۷ ص۸۳–۸۴⁩. **Four provinces given before they are taken.** Nothing is taken tonight |
+| 40 | `GSA/E-ST8` The charge to Yazīd b. Abī Sufyān ؓ | CORE | 2 | 72 | ⁨الکامل ج۲ ص۲۴۹⁩. ⚠ Abū Sufyān's ؓ son, Muʿāwiya's ؓ brother — say it plainly, and nothing of what came later |
+| 41 | `GSA/E-ST9` «I am one arrow — shoot me where it is hardest» | GOOD | 1.5 | 73.5 | ʿAmr b. al-ʿĀṣ ؓ, in one sentence. Cut first if short |
+| 42 | `ISA/E-C2` The letter to the marzubāns of Persia | CORE | 2 | 75.5 | ⁨البدایہ ج۷ ص۶۴⁩. A letter, not an army. Its opening sentence was corrected 2026-10-08: the page says the first people he met *chose the jizya* |
+| 43 | `ISA/E-C22` «The people of a new religion» — Heraclius, to the Romans | CORE | 2 | 77.5 | ⁨البدایہ ج۷ ص۸۵–۸۶⁩. **THE CLIFFHANGER.** ⚠ Stop at *they refused*. The armies are the next evening |
 
 ## Held — everything below this line is NOT in the deck
 
 ⚠ **This heading is load-bearing.** `build_full_deck.runsheet()` ends a part only at the next `## `
-heading — a `###` does not close one. Without this line, Part VIII swallows every table below it and
+heading — a `###` does not close one. Without this line, the last part swallows every table below it and
 the unbuilt futūḥ cards walk into the deck. (Found the hard way, 2026-10-07: the first S06 build
 carried `ISA/E-C1`, `C7` and `C2` onto slides with no beats behind them.)
 
@@ -273,7 +253,29 @@ carried `ISA/E-C1`, `C7` and `C2` onto slides with no beats behind them.)
 | — | `RCT/E-RC77` Four places you have not heard of | GOOD | 2 | — | ✂ in the pool |
 
 
-### Parts IX and X — ✅ BUILT 2026-10-08 (they are above the Held line now)
+### Cut by Daniyal, 2026-10-08 — *"i think we should remove part vi"*
+
+The part was *Thaqīf, Najrān, the Azd: who did not break away (11 AH)* — the same months looked at sideways.
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| — | `ATA/E-TB22` Thaqīf had been Muslim for two years, and did not break | CORE | 2 | — | ✂ in the pool |
+| — | `RCT/E-RC78` Najrān sent a delegation to renew its covenant | CORE | 1.5 | — | ✂ in the pool |
+| — | `ATA/E-TB10` One tribe, three answers | CORE | 2 | — | ✂ in the pool |
+| — | `ATA/E-TB13` The verse that puts the objection as politics | CORE | 2 | — | ✂ in the pool |
+| — | `ATA/E-TB25` The Azd stood on both sides of the map | CORE | 2 | — | ✂ in the pool |
+
+⚠ `ATA/E-TB25` says of itself: *"If only one sentence of §2 survives the cut, keep this one."* It is the pool's own pick for the lesson of the whole Ridda — one tribe furnished a claimant in Oman and a commander against him. Not in the deck; one runsheet row puts it back.
+
+### Cut by Daniyal, 2026-10-08 — *"also remove section viii"*
+
+The part was *Ibn Khaldūn: why Arabia did not break again* — one slide.
+
+| # | Card | Tier | Min | Σ | Note |
+|---|---|---|---|---|---|
+| — | `IKO/E-IKR1` ⭐ What the religious call does to ⁨عصبیہ⁩ | CORE | 2 | — | ✂ in the pool |
+
+### The hinge — ✅ BUILT 2026-10-08 (above the Held line: now Parts VII and VIII)
 
 ⚠⚠ **DO NOT CROSS.** `ISA/E-C9` onward is al-Yarmūk. **`ISA/E-C12` carries the death of Abū Bakr ؓ** and
 Khālid's ؓ removal — crossing it ends the whole Abū Bakr arc in passing. `GSA/E-ST10` and `ST35` have
@@ -283,7 +285,7 @@ fighting but **names and dates a coming battle** — use it only if the next eve
 
 ## ⬜ To do, in order
 
-1. ✅ **Beats** — every card in the deck has them, Parts IX–X included.
+1. ✅ **Beats** — every card in the deck has them, Parts VII–VIII included.
 2. ⬜ **Eyeball by page image** before projection: the Juwāthā verse's last hemistich; the two duʿāʾs
    (⁨البدایہ ج۷ ص۴۰⁩, ⁨ج۶ ص۲۳۱⁩); Heraclius's words (⁨ج۷ ص۸۶⁩); the doubtful word under `RC73`'s second quotation.
 3. ✅ `docs/catalogue/SHAMELA_LOG.md` — Bahrayn and the hinge pages are logged.
@@ -292,7 +294,7 @@ fighting but **names and dates a coming battle** — use it only if the next eve
 5. ✅ Faces, speakers, scene lines, and `PARTS` for every quotation that does not fit one slide.
 6. ✅ Maps — written through `series/mapkit.py` (`scenes.py`), Ḥaḍramawt included. `make_maps.py`, then `build.py`.
 7. ✅ `python tools/check_introductions.py S06_hadramawt_bahrayn` — every row below is answered.
-8. ⬜ The `## Questions the room will ask` table (#61) — Parts IX–X will draw slips about Persia and Rome.
+8. ⬜ The `## Questions the room will ask` table (#61) — Parts VII–VIII will draw slips about Persia and Rome.
 9. ✅ `python S06_hadramawt_bahrayn/notes_book.py` → `S06_notes.pdf`, `S06_notes.md`.
 
 ## Introductions checked
@@ -321,8 +323,8 @@ Every proper name `tools/check_introductions.py` finds appearing for the first t
 | Khuzāʿa | Part I · `RCT/E-RC77` | A TRIBE. Met on evening 1 in the Mecca material; here only as one of three named in §9.1. |
 | Jundub | Part I · `RCT/E-RC77` | Jundub b. Salmā — **a name with a battle and nothing else.** ⁨الکامل ج۲ ص۲۲۷⁩ gives him al-Abāriq and his escape home, and no date and no end. The card says so. |
 | al-Abāriq | Part I · `RCT/E-RC77` | A PLACE — where Khālid b. ʿAttāb met Jundub b. Salmā. ⁨الکامل⁩ alone names it. |
-| Shanūʾa | Part I · `RCT/E-RC77` | A BRANCH OF AZD (⁨أزد شنوءة⁩). Named as the page names it; the Azd are met properly on evening 7 (`TB25`). |
-| Azd | Part I · `RCT/E-RC77` | A TRIBE the room already knows — Laqīṭ al-Azdī of Oman was evening 5 (`RC70`). **Evening 7's `TB25` is the card that does the Azd properly.** |
+| Shanūʾa | Part I · `RCT/E-RC77` | A BRANCH OF AZD (⁨أزد شنوءة⁩). Named as the page names it; `TB25`, the card that did the Azd properly, was cut with its part on 2026-10-08. |
+| Azd | Part I · `RCT/E-RC77` | A TRIBE the room already knows — Laqīṭ al-Azdī of Oman was evening 5 (`RC70`). (`TB25`, which did the Azd properly, was cut with its part on 2026-10-08.) |
 | Khathʿam | Part I · `RCT/E-RC77` | A TRIBE in §9.1. Named on the card. |
 | Ḥumayḍa | Part I · `RCT/E-RC77` | Ḥumayḍa b. al-Nuʿmān — as Jundub: a name, an action, and a flight into open country. Nothing further is recorded. |
 | al-Aʿlāb | Part I · `RCT/E-RC77` | A PLACE in ⁨الكامل⁩'s §9.1 account. Named once, as the page names it. |
@@ -382,39 +384,38 @@ Every proper name `tools/check_introductions.py` finds appearing for the first t
 | Maḥjar | Part IV · `TSY/E-YK11` | A PLACE — ⁨مَحْجَر الزُّرقان⁩, where Kinda broke. One place-name, said once; the map carries it. |
 | al-Zurqān | Part IV · `TSY/E-YK11` | Part of ⁨مَحْجَر الزُّرقان⁩ — see that row. |
 | al-Nujayr | Part IV · `TSY/E-YK11` | A PLACE — the fort of the last siege. **The room has heard it promised three evenings running**; tonight it arrives. |
-| Objective | Part VII · `RCT/E-RC43` | NOT A NAME — the word in the card’s own prose. The extractor caught a capitalised common word. |
-| Khaldūn | Part VIII · `IKO/E-IKR1` | ⬜ **Needs one line, and #29 makes it mandatory.** Ibn Khaldūn رحمہ اللہ (732–808 AH / 1332–1406 CE) — a historian writing **seven centuries after** these events, whose *Muqaddima* asks why peoples rise and fall. He is on this slide **as a reader of the event, never as a witness to it**, and the face must say so. |
-| Yazīd | Part X · `ISA/E-C7` | ✅ **His notice is beat 1 of `GSA/E-ST8`, the next card and a CORE one** — Yazīd b. Abī Sufyān ؓ, given Damascus before it was taken. ⚠⚠ **He is Abū Sufyān’s ؓ son and Muʿāwiya’s ؓ brother, and the room met that house on evening 5’s Tree B.** Say the connection plainly — it is a callback, not a new house — and say nothing about what came later (#67.4). |
-| Damascus | Part X · `ISA/E-C7` | A PLACE, and the room knows it. **Named here as a province given before it was taken** — that is the whole point of the card. ⚠ Its capture is `ISA/E-C13`, 14 AH, and is **not crossed** in this deck. |
-| Homs | Part X · `ISA/E-C7` | A PLACE — Abū ʿUbayda’s ؓ province on the same list. Named, not explained. |
-| Palestine | Part X · `ISA/E-C7` | A PLACE — ʿAmr b. al-ʿĀṣ’s ؓ province on the same list. Named, not explained. |
-| Jordan | Part X · `ISA/E-C7` | A PLACE — Shuraḥbīl b. Ḥasana’s ؓ province on the same list. ⚠ **The room met Shuraḥbīl ؓ on evening 4** (`RC53`, he went too early at al-Yamāma) — a callback. |
-| Shīrā | Part IX · `ISA/E-C21` | The son who killed Kisrā. **The room heard the deed on evening 3 (`AAA/E-AW02`) and never the name.** Named in beat 2, on the page's authority. ⚠ No dates on any page we hold; none is said. |
-| Ardashīr | Part IX · `ISA/E-C21` | Shīrā's son — named once, in beat 6, because the page names him as one of the two the letter was sent on to. No notice needed: he does nothing else tonight. |
-| Yazdagird | Part IX · `ISA/E-C21` | The boy who was got away and made king at twenty-one — the card itself introduces him (beat 5). ⚠ **A forward reference too:** he is the king of al-Qādisiyya and Nahāwand. Say “the last king”, and stop. |
-| Muḥarram | Part X · `ISA/E-C1` | NOT A PERSON — the month. |
-| al-Madāʾinī | Part X · `ISA/E-C1` | A historian, named once as the owner of a date (“by his chain”). No notice needed. ⚠ Two slides on comes **al-Madāʾin**, the city — say “the historian al-Madāʾinī”. |
-| Ḥimṣ | Part X · `ISA/E-C7` | A PLACE — Abū ʿUbayda’s ؓ province; the town the row above calls Homs. Also where Heraclius is said to have been (`ISA/E-C22`). Named, not explained. |
-| Yaʿqūb | Part X · `ISA/E-C7` | The prophet Yaʿqūb, peace be upon him. The room knows Sūrat Yūsuf. No notice needed. |
-| al-Madāʾin | Part X · `ISA/E-C2` | A PLACE — the Persian capital. **On the map from Part IX’s first slide**, and glossed in the card: where Kisrā’s commanders, his marzubāns and his ministers sat. ⚠ A forward reference: its fall is a later evening. |
-| Buqayla | Part X · `ISA/E-C2` | A family of al-Ḥīra, named once as the people who read the letter out to al-Shaʿbī. No notice needed. |
-| al-Ḥīra | Part X · `ISA/E-C2` | A PLACE in lower Iraq, named once as where that family lived. ⚠ **Not on tonight’s map and not told** — its taking is `ISA/E-C3`, a later evening. Say “a town of lower Iraq”. |
-| marzubān | Part X · `ISA/E-C2` | A TERM — a Persian frontier governor. The card’s own title uses it. Gloss it the first time it is said: “the governors of Persia”. |
-| Romans | Part X · `ISA/E-C22` | NOT A PERSON — a people; the room has had the word since evening 1. |
-| Heraclius | Part X · `ISA/E-C22` | ✅ **Introduced in one breath on Part IX’s map** (“its emperor is Heraclius, and Syria is his”) and again in beat 2 (“the emperor of the Romans”). No dates for him are on a page we hold; none is said. |
-| Bayt | Part X · `ISA/E-C22` | Half of a place-name — Bayt al-Maqdis. See Jerusalem. |
-| al-Maqdis | Part X · `ISA/E-C22` | The other half. See Jerusalem. |
-| Jerusalem | Part X · `ISA/E-C22` | A PLACE — Bayt al-Maqdis; **on the map from Part IX**. ⚠ Its taking is the `BAM` cards, a later evening. |
-| Frame | Part VI · `RCT/E-RC78` | NOT A NAME — the first word of a beat instruction. |
-| Lighter | Part VII · `RCT/E-RC35` | NOT A NAME — the first word of a beat. |
-| Syrian | Part VII · `RCT/E-RC43` | NOT A NAME — the adjective in *"the Syrian marches"*. |
-| Ridda | Part VII · `RCT/E-RC81` | NOT A NAME — the word ‘Ridda’ capitalised in the card’s prose. |
-| DECISIONS | Part VIII · `IKO/E-IKR1` | NOT A NAME — a build cross-reference that had leaked into a beat. **Removed from the card.** |
-| Joining | Part VIII · `IKO/E-IKR1` | NOT A NAME — the first word of a sentence in a warning. |
-| Masʿūd | Part VII · `RCT/E-RC81` | ʿAbd Allāh b. Masʿūd ؓ — **no notice needed, the room knows him**, and beat 2 says so. ⚠ He speaks here only in praise of Abū Bakr ؓ for a decision; **nothing in the card judges anyone**, and it is not ⁨مشاجرات⁩ material. Keep it there. |
+| Objective | Part VI · `RCT/E-RC43` | NOT A NAME — the word in the card’s own prose. The extractor caught a capitalised common word. |
+| Yazīd | Part VIII · `ISA/E-C7` | ✅ **His notice is beat 1 of `GSA/E-ST8`, the next card and a CORE one** — Yazīd b. Abī Sufyān ؓ, given Damascus before it was taken. ⚠⚠ **He is Abū Sufyān’s ؓ son and Muʿāwiya’s ؓ brother, and the room met that house on evening 5’s Tree B.** Say the connection plainly — it is a callback, not a new house — and say nothing about what came later (#67.4). |
+| Damascus | Part VIII · `ISA/E-C7` | A PLACE, and the room knows it. **Named here as a province given before it was taken** — that is the whole point of the card. ⚠ Its capture is `ISA/E-C13`, 14 AH, and is **not crossed** in this deck. |
+| Homs | Part VIII · `ISA/E-C7` | A PLACE — Abū ʿUbayda’s ؓ province on the same list. Named, not explained. |
+| Palestine | Part VIII · `ISA/E-C7` | A PLACE — ʿAmr b. al-ʿĀṣ’s ؓ province on the same list. Named, not explained. |
+| Jordan | Part VIII · `ISA/E-C7` | A PLACE — Shuraḥbīl b. Ḥasana’s ؓ province on the same list. ⚠ **The room met Shuraḥbīl ؓ on evening 4** (`RC53`, he went too early at al-Yamāma) — a callback. |
+| Shīrā | Part VII · `ISA/E-C21` | The son who killed Kisrā. **The room heard the deed on evening 3 (`AAA/E-AW02`) and never the name.** Named in beat 2, on the page's authority. ⚠ No dates on any page we hold; none is said. |
+| Ardashīr | Part VII · `ISA/E-C21` | Shīrā's son — named once, in beat 6, because the page names him as one of the two the letter was sent on to. No notice needed: he does nothing else tonight. |
+| Yazdagird | Part VII · `ISA/E-C21` | The boy who was got away and made king at twenty-one — the card itself introduces him (beat 5). ⚠ **A forward reference too:** he is the king of al-Qādisiyya and Nahāwand. Say “the last king”, and stop. |
+| Muḥarram | Part VIII · `ISA/E-C1` | NOT A PERSON — the month. |
+| al-Madāʾinī | Part VIII · `ISA/E-C1` | A historian, named once as the owner of a date (“by his chain”). No notice needed. ⚠ Two slides on comes **al-Madāʾin**, the city — say “the historian al-Madāʾinī”. |
+| Ḥimṣ | Part VIII · `ISA/E-C7` | A PLACE — Abū ʿUbayda’s ؓ province; the town the row above calls Homs. Also where Heraclius is said to have been (`ISA/E-C22`). Named, not explained. |
+| Yaʿqūb | Part VIII · `ISA/E-C7` | The prophet Yaʿqūb, peace be upon him. The room knows Sūrat Yūsuf. No notice needed. |
+| al-Madāʾin | Part VIII · `ISA/E-C2` | A PLACE — the Persian capital. **On the map from Part VII’s first slide**, and glossed in the card: where Kisrā’s commanders, his marzubāns and his ministers sat. ⚠ A forward reference: its fall is a later evening. |
+| Buqayla | Part VIII · `ISA/E-C2` | A family of al-Ḥīra, named once as the people who read the letter out to al-Shaʿbī. No notice needed. |
+| al-Ḥīra | Part VIII · `ISA/E-C2` | A PLACE in lower Iraq, named once as where that family lived. ⚠ **Not on tonight’s map and not told** — its taking is `ISA/E-C3`, a later evening. Say “a town of lower Iraq”. |
+| marzubān | Part VIII · `ISA/E-C2` | A TERM — a Persian frontier governor. The card’s own title uses it. Gloss it the first time it is said: “the governors of Persia”. |
+| Romans | Part VIII · `ISA/E-C22` | NOT A PERSON — a people; the room has had the word since evening 1. |
+| Heraclius | Part VIII · `ISA/E-C22` | ✅ **Introduced in one breath on Part VII’s map** (“its emperor is Heraclius, and Syria is his”) and again in beat 2 (“the emperor of the Romans”). No dates for him are on a page we hold; none is said. |
+| Bayt | Part VIII · `ISA/E-C22` | Half of a place-name — Bayt al-Maqdis. See Jerusalem. |
+| al-Maqdis | Part VIII · `ISA/E-C22` | The other half. See Jerusalem. |
+| Jerusalem | Part VIII · `ISA/E-C22` | A PLACE — Bayt al-Maqdis; **on the map from Part VII**. ⚠ Its taking is the `BAM` cards, a later evening. |
+| Lighter | Part VI · `RCT/E-RC35` | NOT A NAME — the first word of a beat. |
+| Syrian | Part VI · `RCT/E-RC43` | NOT A NAME — the adjective in *"the Syrian marches"*. |
+| Ridda | Part VI · `RCT/E-RC81` | NOT A NAME — the word ‘Ridda’ capitalised in the card’s prose. |
+| Masʿūd | Part VI · `RCT/E-RC81` | ʿAbd Allāh b. Masʿūd ؓ — **no notice needed, the room knows him**, and beat 2 says so. ⚠ He speaks here only in praise of Abū Bakr ؓ for a decision; **nothing in the card judges anyone**, and it is not ⁨مشاجرات⁩ material. Keep it there. |
 | Ḥadhf | Part II · `RCT/E-RC24` | ʿAbd Allāh b. Ḥadhf — named on the face as the speaker of the verses, one of the besieged. ⚠ The books name a man of this name again at the trench (`RC73`) and **do not say whether he is the same**; do not assert it. |
 | Abjarāh | Part II · `RCT/E-RC73` | NOT A NAME — the cry «Yā Abjarāh!», calling his uncle Abjar b. Bujayr, who is answered in the row below. |
 | Jaḥdam | Part IV · `TSY/E-YK12` | **No notice needed** — a man with a knife, and that is all the books give. He is the whole reason al-Ashʿath forgot to write his own name in, so he is named once and never again. |
 | Rustam | Part V · `TSY/E-YK16` | ⬜ **A FORWARD REFERENCE, and `YK16` beat 1 frames it aloud** — al-Qādisiyya is an evening not yet reached. He is named, not explained. |
 | Yarmūk | Part V · `TSY/E-YK16` | ⬜ **A FORWARD REFERENCE**, framed the same way by `YK16` beat 1. ⚠ Its own year is disputed in the books; say nothing that fixes it. |
 | Jābir | Part V · `TSY/E-YK16` | Jābir b. ʿAbd Allāh ؓ — **no notice needed**, the room knows him. `YK16` records what Ibn Kathīr reports him swearing about the army at al-Qādisiyya. ⚠ The saying comes through ⁨سيف بن عمر⁩: say *"Ibn Kathīr records that…"*. |
+| Khaldūn | Part II · `RCT/E-RC74` | NOT SAID ALOUD — a warning to the speaker inside a beat (*do not use Ibn Khaldūn here*). His own slide, `IKO/E-IKR1`, was cut on 2026-10-08; he is not named to the room in this deck. |
+| Shahriyār | Part VII · `ISA/E-C21` | ✅ **Introduced in beat 5** — *"Kisrā's grandson, through another son, Shahriyār"*. Another son of Kisrā, so Shīrā's brother; the page names him only as the boy's father and does not say how he died. He reached the slide inside the quotation with no introduction until Daniyal asked who he was (2026-10-08). ⚠ Not Shahrbarāz, who is on no page we hold. |
+| Bādūrayā | Part VII · `ISA/E-C21` | A PLACE — where the boy's mother came from; named once, inside the quotation, as the page names it. Not located on any page we hold. No notice needed. |

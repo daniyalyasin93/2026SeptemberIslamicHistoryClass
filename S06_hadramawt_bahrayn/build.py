@@ -20,7 +20,7 @@ WHAT THIS EVENING SUPPLIES is everything Daniyal's review of 2026-10-08 made a r
 The notes are series/notes2.py's two tiers — short cues first, the detail under a rule. The build ends by
 running tools/check_vision.py and prints every breach; a deck with breaches is not ready to be shown.
 
-WHERE THIS DECK STOPS. Parts I-VIII. Parts IX and X sit under the '## Held' heading in RUNSHEET.md.
+WHERE THIS DECK STOPS. Parts I-VI close the Ridda; Parts VII-VIII are the hinge (RUNSHEET.md, above '## Held').
 """
 import importlib.util
 import json
@@ -249,8 +249,6 @@ FACE_CUT = {
                    "This year began", "roving the land right and left"),
     "RCT/E-RC36": ("ما من ناحية من جزيرة العرب", "من المؤمنين",
                    "There was no region", "believers were in that region"),
-    "RCT/E-RC81": ("لقد قمنا بعد رسول الله", "وابنة لبون",
-                   "We stood, after", "or a bint labūn"),
     "RCT/E-RC87": ("يا عليم", "نصيبا غيرنا",
                    "O All-Knowing", "but us"),
     "IKO/E-IKR1": ("أن الصبغة الدينية", "إلى الحق",
@@ -326,7 +324,10 @@ PARTS = {
     "ATA/E-TB13": [("كان بيننا …", "among us")],
     "ATA/E-TB25": [("الأزدي", "al-Azdī")],
     "RCT/E-RC36": [("لبعض الناس", "some of its people")],
-    "RCT/E-RC81": [("بأبي بكر", "with Abū Bakr")],
+    # three slides, one thought each: the verdict · what they had all agreed · what Abū Bakr ؓ did
+    "RCT/E-RC81": [("كدنا نهلك فيه", "we nearly perished"), ("بأبي بكر", "with Abū Bakr"), "|",
+                   ("وابنة لبون", "or a two-year-old"), ("يأتينا اليقين", "certainty came to us"), "|",
+                   ("على قتالهم", "to fight them")],
     "RCT/E-RC39": [("بصالح أعمالهم", "their good deeds"), ("ينتصر بهم", "victory through them"), "|"],
     "IKO/E-IKR1": [("أهل العصبية", "عصبية")],
 }
@@ -540,7 +541,7 @@ MAP_BRIDGE_BEFORE["TSY/E-YK12"] = (
      "2. Their spirits sank, and they feared death. Next: what al-Ashʿath did."])
 S5.MAP_FOR, S5.MAP_BRIDGE_BEFORE, S5.MAP_BRIDGE_QUOTE = MAP_FOR, MAP_BRIDGE_BEFORE, {}
 
-# ------------------------------------------------------------------------------- Parts IX and X: the hinge
+# ------------------------------------------------------------------------------- Parts VII and VIII: the hinge
 # docs/research/the-two-empires-at-the-hinge-12-13ah.md. Nothing here is general-knowledge history: the two
 # zones on the map are outlines and say so, and every sentence on a face has a page of the four books under it.
 S5.FACE_TITLE.update({
@@ -570,6 +571,8 @@ FACE_SCENE.update({
     "GSA/E-ST8": ["Abū Bakr ؓ, on foot, beside Yazīd's ؓ horse."],
     "GSA/E-ST9": ["Offered the Syrian command — and left free to keep the post he had."],
     "ISA/E-C22": ["The four columns are on the road. The Romans write to their emperor."],
+    "ISA/E-C21": ["Shīrā, Kisrā's son, had killed the males of his own house.",
+                  "Persia's great men ask its women for one heir."],
 })
 LECTERN_WARN.update({
     "ISA/E-C21": ["Say the names as the page's. Do not reconcile them with other histories.",
@@ -638,14 +641,6 @@ BRIDGE_BEFORE = {
                     "1. One step back — and this is the only one tonight.",
                     "2. Two years before the Prophet ﷺ died: the delegation of Kinda, at Medina.",
                     "3. At its head, al-Ashʿath b. Qays. The last front is his."]),
-    "ATA/E-TB22": ("Thaqīf, Najrān, the Azd", "11 AH — the same months",
-                   [("So far", "Bahrayn, then Ḥaḍramawt: front after front"),
-                    ("Now", "the same months — al-Ṭāʾif, Najrān, Oman"),
-                    ("The question", "who did not break — and why?")],
-                   ["SAY",
-                    "1. So far tonight, every slide has been a front.",
-                    "2. Now the same months, from the side: who did not break at all.",
-                    "3. Some of them are the people you would least expect."]),
 }
 S5.BRIDGE_BEFORE = BRIDGE_BEFORE
 S5.TREES = TREES = {"KTK/E-KD05": S5.TREES["KTK/E-KD05"]}
@@ -676,17 +671,11 @@ CHECKPOINTS = {
         carry="The fighting is over. Now: what do the books say the whole of it was?",
         end="Two years after the Prophet ﷺ died, all of Arabia was on one side. Next week: what the books "
             "say the whole of it was."),
-    "RCT/E-RC35": dict(
-        n=4, line="line_s06_cp4.png", scene=("s06-arabia", 5),
-        keys=[("Dhū al-Qaṣṣa", "eleven banners, sent by Abū Bakr ؓ"), ("Arabia", "every sector settled")],
-        say=["Both fronts — and then the whole war, seen from its end.",
-             "Eleven banners left one sitting. Every sector is this colour now."],
-        clock="Past 0:52 here — close here. This is the last checkpoint built.",
-        carry="One question is left: why did it not break again?",
-        end="There were two empires on the other side of that desert. Next week: did either of them know?"),
 }
 S5.CHECKPOINTS = CHECKPOINTS
-CLOSE_AFTER = "IKO/E-IKR1"      # the last card: the close never comes before a card
+CLOSE_AFTER = "RCT/E-RC35"      # the last card of the Ridda: the close never comes before a card.
+# (A fourth checkpoint stood here with Ibn Khaldūn's slide after it. Daniyal cut that slide on 2026-10-08, and a
+# checkpoint beside the close would show the same Line and the same map twice.)
 TONIGHT = [("Bahrayn", "RCT/E-RC27"), ("al-Dahnāʾ", "RCT/E-RC82"), ("Ḥaḍramawt", "TSY/E-YK12"),
            ("al-Ashʿath ؓ", "POT/E-PG41"), ("Ibn Masʿūd ؓ, on the war", "RCT/E-RC81")]
 NEXT_WEEK = ("Two years after the Prophet ﷺ died, all of Arabia was on one side. There were two empires on "
@@ -695,9 +684,7 @@ NEXT_WEEK = ("Two years after the Prophet ﷺ died, all of Arabia was on one sid
 # a part opens on a map of the situation (VISION M1) — unless it has no ground to show, and says why
 NO_MAP_PARTS = {
     "Part V": "the judgement at Medina: a room, not a field",
-    "Part VI": "three places at once, each with its own slide",
-    "Part VII": "the war looked back on; there is nothing to move",
-    "Part VIII": "one historian's reading",
+    "Part VI": "the war looked back on; there is nothing to move",
 }
 
 META = {"slides": {}, "cards": [], "iman": IMAN, "no_map_parts": sorted(NO_MAP_PARTS)}
@@ -772,12 +759,12 @@ def the_close(prs, pool):
     mark(prs, "close")
     q = D.question_slide(prs, NEXT_WEEK)
     D.note(q, N.plain(["IF YOU STOP HERE — ask it, and pause. Then a loud السلام علیکم — and the dua.",
-                       "IF YOU CARRY ON — ask it, and go straight on: Part IX is the answer."]))
+                       "IF YOU CARRY ON — ask it, and go straight on: Part VII is the answer."]))
     mark(prs, "close")
 
 
 def hinge_close(prs, pool):
-    """The second close: after Parts IX-X. The Line with the two orders on it, the map with nothing taken."""
+    """The second close: after Parts VII-VIII. The Line with the two orders on it, the map with nothing taken."""
     s = D.timeline_slide(prs, os.path.join(VIS, "line_s06_hinge.png"), "Tonight on the Line")
     D.note(s, N.plain(["THE CLOSE — the Line", "SAY", "1. The Ridda, whole: every front, one colour.",
                        "2. Muḥarram of year 12 — the order to Iraq.",

@@ -3154,300 +3154,9 @@ Then a loud السلام علیکم, and the dua. Next week opens on these two s
 
 SAY  
 
-1. Thaqīf, Najrān, the Azd: who did not break away (11 AH).
-
-## Slide 76 — Thaqīf, Najrān, the Azd
-
-*11 AH — the same months*
-
-BRIDGE  
-
-SAY  
-
-1. So far tonight, every slide has been a front.  
-
-2. Now the same months, from the side: who did not break at all.  
-
-3. Some of them are the people you would least expect.
-
-## Slide 77 — Thaqīf, at al-Ṭāʾif
-
-*11 AH, al-Ṭāʾif*
-
-SAY  
-
-1. Thaqīf: Muslim for only two years  
-
-2. They did not flee, they did not turn  
-
-   ↑ read the Arabic on the slide  
-
-3. One young man stood among them  
-
-4. Three caliphs left him there  
-
-5. So it was not about how long  
-
-LESSON — The newest Muslims in the peninsula held, and what was standing among them was a man the Prophet ﷺ had chosen and Abū Bakr ؓ left exactly where he was.  
-
-ASK — Before beat 1: "Who do you think held firmer that year — the oldest Muslims in Arabia, or the newest?" newest?"  
-
----
-
-**DETAIL — only if you need it**
-
-1. Thaqīf: Muslim for only two years — They came into Islam in the year 9, two years before all this.  
-2. They did not flee, they did not turn — Ibn Kathīr's own words; read them off the slide.  
-3. One young man stood among them — ʿUthmān b. Abī al-ʿĀṣ ؓ, whom the Prophet ﷺ put over them for his intelligence and his eagerness for good — the youngest man in the delegation.  
-4. Three caliphs left him there — Abū Bakr ؓ confirmed him over al-Ṭāʾif, and ʿUmar ؓ after him.  
-5. So it was not about how long — Tribes inside Islam far longer broke; the newest Muslims in the peninsula held.  
-
-> وقد كانت ثقيفُ بالطائف ثَبَتوا على الإسلام، لم يفرُّوا ولا ارتدّوا
-
-"Thaqīf at Ṭāʾif had stood firm upon Islam: they did not flee and they did not apostatise."  
-— Ibn Kathīr, on Thaqīf · البدایہ والنہایہ ج۷ ص۹  
-
----
-
-**BACKGROUND — for home, not for the lectern**
-
-The man, from سیر أعلام النبلاء ج2 ص374 (https://shamela.ws/book/10906/2354), الذہبی رحمہ اللہ  
-on عثمان بن أبي العاص ؓ الثقفي الطائفي:  
-
-> قَدِمَ فِي وَفْدِ ثَقِيْفٍ عَلَى النَّبِيِّ ﷺ فِي سَنَةِ تِسْعٍ، فَأَسْلَمُوا، وَأَمَّرَهُ عَلَيْهِم لِمَا رَأَى مِنْ عَقْلِهِ وَحِرْصِهِ عَلَى الخَيْرِ وَالدِّيْنِ، وَكَانَ أَصْغَرَ الوَفْدِ سِنّاً. ثُمَّ أَقَرَّهُ أَبُو بَكْرٍ عَلَى الطَّائِفِ، ثُمَّ عُمَرُ
-
-> English: "He came in the delegation of Thaqīf to the Prophet ﷺ in the year 9, and they became
-
-> Muslim; and he put him in command over them for what he saw of his intelligence and his eagerness
-
-> for good and for religion — and he was the youngest of the delegation in years. Then Abū Bakr
-
-> confirmed him over Ṭāʾif, and then ʿUmar." ⚠ The famous line often attributed to عثمان بن أبي العاص ؓ — that Thaqīf were the last to enter
-
-Islam and would not be the first to leave it — could not be found on any page fetched in this pass.  
-It is not at سیر ج2 ص374–375 and not at البدایہ ج7 ص9. Do not use it. (to verify)
-
-## Slide 78 — Najrān
-
-*11–12 AH, Najrān*
-
-SAY  
-
-1. Not everyone in Arabia was Muslim  
-
-2. Najrān held the Prophet's ﷺ covenant  
-
-3. They sent to renew it  
-
-4. Abū Bakr ؓ wrote it down  
-
-   ↑ read the Arabic on the slide  
-
-5. No date and no names on the page  
-
-6. Ibn Kathīr names them again  
-
-LESSON — The war ended with the peninsula in two conditions, not one — and the book names the second condition with a community that never left.  
-
----
-
-**DETAIL — only if you need it**
-
-1. Not everyone in Arabia was Muslim — And not every community that was not Muslim rose.  
-2. Najrān held the Prophet's ﷺ covenant — A Christian community, under a covenant he ﷺ had given them himself.  
-3. They sent to renew it — While Muslim tribes were breaking theirs, Najrān sent a delegation to Medina to renew its own.  
-4. Abū Bakr ؓ wrote it down — He wrote them a document to that effect.  
-5. No date and no names on the page — Ibn al-Athīr gives one sentence; supply nothing more.  
-6. Ibn Kathīr names them again — When he sums the war up, the peninsula ends in obedience or covenant, "like the people of Najrān".  
-
-> أَرْسَلُوا وَفْدًا لِيُجَدِّدُوا عَهْدَهُمْ مَعَ أَبِي بَكْرٍ، فَكَتَبَ بِذَلِكَ كِتَابًا
-
-"They sent a delegation to renew their covenant with Abū Bakr, and he wrote a document to that effect."  
-— Ibn al-Athīr, on Najrān · الکامل فی التاریخ ج۲ ص۲۲۷  
-
----
-
-**BACKGROUND — for home, not for the lectern**
-
-⚠ Do not open the Najrān delegation of the Prophet's ﷺ lifetime, or the مباهلة. That is a different  
-subject and a different evening; tonight Najrān is one line in a campaign chapter.  
-⚠ Single-source. البدایہ carries Najrān in RC36's summing-up but not this delegation. Say  
-"Ibn al-Athīr records…".
-
-## Slide 79 — Banū Tamīm — three answers
-
-*11 AH, Banū Tamīm*
-
-SAY  
-
-1. Banū Tamīm: not one answer  
-
-   ↑ read the Arabic on the slide  
-
-2. Some withheld the zakāt  
-
-3. Some sent it to Abū Bakr ؓ  
-
-4. Some waited  
-
-5. The tribe of al-Buṭāḥ  
-
-6. No tribe is one colour  
-
-LESSON — The honest map has three colours inside one tribe, and the sentence that licenses it is the book's own.  
-
-ASK — Before showing it: "One tribe. How many different answers can it give at the same moment?"  
-
-▶ NEXT SLIDE — the same words go on (2 slides in all)  
-
----
-
-**DETAIL — only if you need it**
-
-1. Banū Tamīm: not one answer — The book stops its own narrative to say what they did, and it is three things.  
-2. Some withheld the zakāt — Some of them turned.  
-3. Some sent it to Abū Bakr ؓ — The ṣadaqa money went in to Medina.  
-4. Some waited — They held back to see how the matter would go.  
-5. The tribe of al-Buṭāḥ — The room met Banū Tamīm on evening 4; this is that tribe, counted honestly.  
-6. No tribe is one colour — A map that shades Banū Tamīm a single colour is contradicted by the book it is drawn from.  
-
-> كانت بنو تميم قد اختلفتْ أراؤُهم أيام الرِّدَّة، فمنهم من ارتدَّ ومنعَ الزكاة، ومنهم منْ بعثَ بأموالِ الصَّدقات إلى الصدِّيق، ومنهم من توقف لينظر في أمره.
-
-"The views of Banū Tamīm differed in the days of the ridda: some of them apostatised and withheld the zakāt; some of them sent the ṣadaqa monies to al-Ṣiddīq; and some of them held back to see how the matter would go."  
-— Ibn Kathīr, on Banū Tamīm · البدایہ والنہایہ ج۷ ص۲۸  
-
----
-
-**BACKGROUND — for home, not for the lectern**
-
-Cross-reference: , and adds only the collectors' names and the mechanism.
-
-## Slide 80 — Banū Tamīm — three answers
-
-*11 AH, Banū Tamīm*
-
-READ the Arabic — the same words, continued (slide 2 of 2).  
-
-Each part: the Arabic, then its meaning.  
-
----
-
-**DETAIL — only if you need it**
-
-> فمنهم من ارتدَّ ومنعَ الزكاة
-
-some of them apostatised and withheld the zakāt  
-
-> ومنهم منْ بعثَ بأموالِ الصَّدقات إلى الصدِّيق
-
-some of them sent the ṣadaqa monies to al-Ṣiddīq  
-
-> ومنهم من توقف لينظر في أمره.
-
-and some of them held back to see how the matter would go.
-
-## Slide 81 — The verse of the men who refused
-
-*11 AH, the tribes*
-
-SAY  
-
-1. The other side, in its own words  
-
-2. "What is this rule of Abū Bakr?"  
-
-   ↑ read the Arabic on the slide  
-
-3. The longer version  
-
-4. Not the prayer, not the Prophet ﷺ  
-
-5. Only: who is obeyed now  
-
-LESSON — The refusal stated itself in the language of who should rule, and the answer it was given was in the language of what is owed.  
-
----
-
-**DETAIL — only if you need it**
-
-1. The other side, in its own words — The book twice prints a verse from the men who refused.  
-2. "What is this rule of Abū Bakr?" — "We obeyed the Messenger of Allah while he was among us — so what is this about the rule of Abū Bakr?"  
-3. The longer version — At ج7 ص20 it asks whether it is to be left to Bakr after him, and calls that a thing that breaks the back.  
-4. Not the prayer, not the Prophet ﷺ — Nothing in the lines denies either.  
-5. Only: who is obeyed now — That is what the verse objects to. Say it and stop; it is not a verdict on anyone.  
-
-> أطعنَا رسولَ اللهِ إذْ كانَ بَيْننا … فواعَجَبًا ما بَالُ مُلْكِ أبي بَكْرِ
-
-"We obeyed the Messenger of Allah while he was among us — so how strange: what is this about the rule of Abū Bakr?"  
-— A verse of the tribes that refused, as Ibn Kathīr records it · البدایہ والنہایہ ج۷ ص۱۸ (and again ج۷ ص۲۰ ·  
-
----
-
-**BACKGROUND — for home, not for the lectern**
-
-The four-line version at ج7 ص20 (https://shamela.ws/book/30097/3166) adds:  
-«أيورثنا بَكْرًا إذا ماتَ بعدَه … وتِلكَ لَعمرُ الله قاصِمَةُ الظَّهرِ» — "Is he to leave us to Bakr as  
-an inheritance when he dies? That, by God's life, breaks the back."  
-⚠ Say whose words these are before reading them. They are a rebel's verse, printed by the book as  
-the objection that was being made against the caliphate — not as a description of it. Pair this card  
-with and so the room hears the objection and the answer in the same minute, and do not  
-leave the verse standing alone at the end of a block.
-
-## Slide 82 — The Azd — Medina, and Oman
-
-*11 AH, Oman and Medina*
-
-SAY  
-
-1. One tribe, two ends of the map  
-
-2. The Anṣār are of al-Azd  
-
-3. In Oman: behind Laqīṭ  
-
-   ↑ read the Arabic on the slide  
-
-4. At al-Yamāma: under Thābit b. Qays ؓ  
-
-5. Same descent, opposite choices  
-
-6. About that year only  
-
-LESSON — Descent explains the vocabulary people used that year. It does not predict where any of them stood.  
-
-ASK — Before telling it: "The Anṣār of Medina, and the tribe that rose in Oman — how are the two related?"  
-
----
-
-**DETAIL — only if you need it**
-
-1. One tribe, two ends of the map — The fact that stops a genealogy from turning into a theory.  
-2. The Anṣār are of al-Azd — And so are the Azd of Oman.  
-3. In Oman: behind Laqīṭ — The Azd of Oman rose behind Laqīṭ b. Mālik al-Azdī, whom the room met last week.  
-4. At al-Yamāma: under Thābit b. Qays ؓ — The Azd of Medina carried the Anṣār's banner; he dug his feet in to his shins and died standing.  
-5. Same descent, opposite choices — In the same year.  
-6. About that year only — It says nothing about anyone alive; do not let it.  
-
-> فنبغَ فيهم رجلٌ يقالَ له: ذو التاج لَقيطُ بن مالك الأَزدي، وكان يُسَمَّى في الجاهلية الجُلَنْدَى، فادّعى النُّبوَّة أيضًا
-
-"There arose among them a man called Dhū al-Tāj, Laqīṭ b. Mālik al-Azdī — who used to be called al-Julandā in the Jāhiliyya — and he too claimed prophethood."  
-— Ibn Kathīr, on Oman · البدایہ والنہایہ ج۷ ص۴۱  
-
----
-
-**BACKGROUND — for home, not for the lectern**
-
-This عبرت line is the safest and truest thing the speaker can say about the whole عدنان/قحطان  
-strand, and it is what keeps the fault-line slides from becoming an ethnic theory. If only one  
-sentence of survives the cut, keep this one.
-
-## Slide 83 — Part VII
-
-SAY  
-
 1. Medina, 12 AH: Ibn Kathīr and Ibn Masʿūd ؓ on the whole war.
 
-## Slide 84 — Ibn Kathīr, on the whole war
+## Slide 76 — Ibn Kathīr, on the whole war
 
 *12 AH, the whole peninsula*
 
@@ -3477,7 +3186,7 @@ LESSON — The armies were sent to hold up people who were already standing, and
 2. No region untouched — There was no part of Arabia in which some people did not turn.  
 3. Armies sent to support believers — Abū Bakr ؓ sent commanders to help whichever believers were already standing in each region — not to subdue it.  
 4. The fifth went to Medina — And was spent among the people.  
-5. Obedience, or covenant — Until nobody was left but people in obedience and people under a covenant, "like the people of Najrān".  
+5. Obedience, or covenant — Until nobody was left but people in obedience and people under a covenant, "like the people of Najrān" — who were not Muslim, and who had sent to Medina in those same months to renew theirs.  
 6. The end of 11, the start of 12 — His own words for how long it took: two years, not a generation.  
 
 > ما من ناحية من جزيرة العرب إلا وحصلَ في أهلها ردَّةٌ لبعض الناس، فبعثَ الصدِّيقُ إليهم جيوشًا وأمراء يكونون عونًا لمن في تلك الناحية من المؤمنين … ولم يزل الأمر كذلك حتى لم يبق بجزيرة العرب إلَّا أهل طاعة للّه ولرسوله، وأهل ذمة من الصديق، كأهل نجران وما جرى مجراهم ولله الحمد. وعامة ما وقع من هذه الحروب كان في أواخر سنة إحدى عشرة وأوائل سنة ثنتي عشرة.
@@ -3485,7 +3194,7 @@ LESSON — The armies were sent to hold up people who were already standing, and
 "There was no region of the Arabian peninsula in which apostasy did not occur among some of its people; so al-Ṣiddīq sent them armies and commanders to be a support to whichever believers were in that region … And matters continued so until there remained in the peninsula none but people obedient to Allah and His Messenger, and people under al-Ṣiddīq's protection, such as the people of Najrān. The general run of these wars was in the last part of the year 11 and the first part of the year 12."  
 — Ibn Kathīr, summing up the war · البدایہ والنہایہ ج۷ ص۴۳
 
-## Slide 85 — ʿAbd Allāh b. Masʿūd ؓ
+## Slide 77 — ʿAbd Allāh b. Masʿūd ؓ
 
 *11 AH, Medina*
 
@@ -3503,7 +3212,7 @@ SAY
 
 4. They had agreed not to fight  
 
-5. To live quietly and worship  
+5. To keep to their towns  
 
 6. The consensus went the other way  
 
@@ -3515,6 +3224,8 @@ LESSON — A Companion, looking back, says plainly that the right answer was not
 
 ASK — Before beat 4: "He says they had already agreed on something. What do you think they had agreed?"  
 
+▶ NEXT SLIDE — the same words go on (3 slides in all)  
+
 ---
 
 **DETAIL — only if you need it**
@@ -3522,27 +3233,86 @@ ASK — Before beat 4: "He says they had already agreed on something. What do yo
 1. Ibn al-Athīr opens with a verdict — Before any event of the Ridda, he quotes a Companion looking back.  
 2. ʿAbd Allāh b. Masʿūd ؓ is speaking — The room knows him; no introduction.  
 3. "We nearly perished" — "We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished — had Allah not favoured us with Abū Bakr."  
-4. They had agreed not to fight — Over a young she-camel: a bint makhāḍ and a bint labūn.  
-5. To live quietly and worship — To live off the Arab settlements and worship Allah until certainty came.  
+4. They had agreed not to fight — All of them, over the zakāt: two young she-camels. A few camels, they had said, are not worth a war.  
+5. To keep to their towns — To live off the Arab towns, and worship Allah until the certainty came: until death.  
 6. The consensus went the other way — Say it plainly; a Companion is the one who records it.  
-7. Then Allah resolved Abū Bakr ؓ — "Then Allah resolved for Abū Bakr to fight them."  
-8. The two terms of evening 2 — He accepted nothing but the humiliating terms or the war that drives out; the loop closes on the words it opened with.  
+7. Then Allah resolved Abū Bakr ؓ — "Then Allah gave Abū Bakr the resolve to fight them."  
+8. The two terms of evening 2 — He accepted nothing but the humiliating terms or the war that drives out; the loop closes on the words it opened with. The page says what each was: their dead in the Fire and ours in the Garden, blood-money for ours, what they took returned — or out of their lands.  
 
-> لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ، أَجْمَعْنَا عَلَى أَنْ لَا نُقَاتِلَ عَلَى ابْنَةِ مَخَاضٍ وَابْنَةِ لَبُونٍ، وَأَنْ نَأْكُلَ قُرًى عَرَبِيَّةً، وَنَعْبُدَ اللَّهَ حَتَّى يَأْتِيَنَا الْيَقِين
+> لَقَدْ قُمْنَا بَعْدَ رَسُولِ اللَّهِ - صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ - مَقَامًا كِدْنَا نَهْلِكُ فِيهِ، لَوْلَا أَنَّ اللَّهَ مَنَّ عَلَيْنَا بِأَبِي بَكْرٍ، أَجْمَعْنَا عَلَى أَنْ لَا نُقَاتِلَ عَلَى ابْنَةِ مَخَاضٍ وَابْنَةِ لَبُونٍ، وَأَنْ نَأْكُلَ قُرًى عَرَبِيَّةً، وَنَعْبُدَ اللَّهَ حَتَّى يَأْتِيَنَا الْيَقِينُ، فَعَزَمَ اللَّهُ لِأَبِي بَكْرٍ عَلَى قِتَالِهِمْ، فَوَاللَّهِ مَا رَضِيَ مِنْهُمْ إِلَّا بِالْخُطَّةِ الْمُخْزِيَةِ أَوِ الْحَرْبِ الْمُجْلِيَةِ
 
-"We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished, had Allah not favoured us with Abū Bakr. We had agreed not to fight over a bint makhāḍ or a bint labūn, and to live off the Arab settlements, and to worship Allah until certainty came to us."  
+"We stood, after the Messenger of Allah ﷺ, in a position in which we nearly perished, had Allah not favoured us with Abū Bakr. We had all agreed not to fight over a yearling she-camel or a two-year-old, and to live off the Arab towns, and to worship Allah until the certainty came to us. Then Allah gave Abū Bakr the resolve to fight them; and by Allah, he accepted nothing from them but the humiliating terms, or the war that drives out."  
 — ʿAbd Allāh b. Masʿūd ؓ · الکامل فی التاریخ ج۲ ص۲۰۱  
 
 ---
 
 **BACKGROUND — for home, not for the lectern**
 
+What each of the two terms was — the page says it, straight after:  
+
+> فَأَمَّا الْخُطَّةُ الْمُخْزِيَةُ أَنْ يُقِرُّوا بِأَنَّ مَنْ قُتِلَ مِنْهُمْ فِي النَّارِ، وَمَنْ قُتِلَ مِنَّا فِي الْجَنَّةِ، وَأَنْ يَدُوا قَتْلَانَا وَنَغْنَمَ مَا أَخَذْنَا مِنْهُمْ، وَأَنَّ مَا أَخَذُوا مِنَّا مَرْدُودٌ عَلَيْنَا. وَأَمَّا الْحَرْبُ الْمُجْلِيَةُ فَأَنْ يُخْرَجُوا مِنْ دِيَارِهِمْ
+
+> — الکامل فی التاریخ ج2 ص201 · https://shamela.ws/book/21712/892
+
+> English: "As for the humiliating terms: that they acknowledge that those of them who were killed are in
+
+> the Fire and those of us who were killed are in the Garden; that they pay the blood-money of our dead; that
+
+> what we took from them is ours as spoil, and what they took from us is returned to us. And as for the war
+
+> that drives out: that they be driven from their lands."
+
+The words in it. [STANDARD] (to verify) — the Arabic names two camels: a bint makhāḍ, a she-camel in  
+her second year, and a bint labūn, one in her third. They are the young animals of the zakāt schedule, so  
+"not to fight over" them means: not to go to war over the zakāt. "Until the certainty came to us" is the  
+wording of Sūrat al-Ḥijr, verse 99; the certainty is death. "To live off the Arab towns" is literal, and the  
+page does not gloss it — its next paragraph says every tribe turned "except Quraysh and Thaqīf", the towns.  
 ⚠ Ibn al-Athīr prints this at the head of the chapter with no isnād. Narrate it as what the book  
 carries — "Ibn al-Athīr opens his account by quoting Ibn Masʿūd ؓ" — and build no ruling on it.  
 ⚠ This is not a مشاجرات card. It is a Companion praising Abū Bakr ؓ for a decision, and nothing in it  
 judges anyone. Keep it there.
 
-## Slide 86 — Abū Bakr ؓ, and the men of Badr
+## Slide 78 — ʿAbd Allāh b. Masʿūd ؓ
+
+*11 AH, Medina*
+
+READ the Arabic — the same words, continued (slide 2 of 3).  
+
+Each part: the Arabic, then its meaning.  
+
+---
+
+**DETAIL — only if you need it**
+
+> أَجْمَعْنَا عَلَى أَنْ لَا نُقَاتِلَ عَلَى ابْنَةِ مَخَاضٍ وَابْنَةِ لَبُونٍ
+
+We had all agreed not to fight over a yearling she-camel or a two-year-old  
+
+> وَأَنْ نَأْكُلَ قُرًى عَرَبِيَّةً، وَنَعْبُدَ اللَّهَ حَتَّى يَأْتِيَنَا الْيَقِينُ
+
+and to live off the Arab towns, and to worship Allah until the certainty came to us.
+
+## Slide 79 — ʿAbd Allāh b. Masʿūd ؓ
+
+*11 AH, Medina*
+
+READ the Arabic — the same words, continued (slide 3 of 3).  
+
+Each part: the Arabic, then its meaning.  
+
+---
+
+**DETAIL — only if you need it**
+
+> فَعَزَمَ اللَّهُ لِأَبِي بَكْرٍ عَلَى قِتَالِهِمْ
+
+Then Allah gave Abū Bakr the resolve to fight them  
+
+> فَوَاللَّهِ مَا رَضِيَ مِنْهُمْ إِلَّا بِالْخُطَّةِ الْمُخْزِيَةِ أَوِ الْحَرْبِ الْمُجْلِيَةِ
+
+and by Allah, he accepted nothing from them but the humiliating terms, or the war that drives out.
+
+## Slide 80 — Abū Bakr ؓ, and the men of Badr
 
 *11 AH, Medina*
 
@@ -3591,7 +3361,7 @@ LESSON — Two men who agreed about the war disagreed about who should run it, a
 This is the safest possible demonstration of how the sources handle disagreement — a real  
 difference of judgement between the first two caliphs, recorded plainly, with nothing at stake.
 
-## Slide 87 — Abū Bakr ؓ, and the men of Badr
+## Slide 81 — Abū Bakr ؓ, and the men of Badr
 
 *11 AH, Medina*
 
@@ -3607,7 +3377,7 @@ Each part: the Arabic, then its meaning.
 
 And ʿUmar held that they should be employed over the troops and otherwise.
 
-## Slide 88 — The eleven banners, from Dhū al-Qaṣṣa
+## Slide 82 — The eleven banners, from Dhū al-Qaṣṣa
 
 *11 AH, Dhū al-Qaṣṣa*
 
@@ -3646,7 +3416,7 @@ ASK — Before the table: "Medina is one town. How many armies would you send ou
 
 Eleven plain cloth banners on spear-shafts, planted upright in a row on open stony ground at first light, each a different muted colour, stirring slightly in the wind; a low line of dark hills behind. Nothing else on the ground. Restrained editorial illustration, muted ochre, deep teal and bone. Flat pure-white background (#FFFFFF) with no border, so it sits on a white slide with no seam. No text, no lettering, no map. No people and no faces — landscape, animals and objects only. 16:9.
 
-## Slide 89 — ʿUmar ؓ — the captives bought back
+## Slide 83 — ʿUmar ؓ — the captives bought back
 
 *ʿUmar's ؓ caliphate, Medina*
 
@@ -3684,98 +3454,7 @@ LESSON — The war's last act was the state buying back the people its own victo
 "It is a shameful thing for the Arabs that some of them should own others."  
 — ʿUmar ؓ, as caliph · الکامل فی التاریخ ج۲ ص۲۳۲ (the ransom terms run on to ج۲ ص۲۳۳
 
-## Slide 90 — Where we stand
-
-*So far tonight*
-
-CHECKPOINT 4 — the Line  
-
-SAY  
-
-1. Both fronts — and then the whole war, seen from its end.  
-
-(Next slide: the map. The time check is there.)
-
-## Slide 91 — Where we stand
-
-*So far tonight*
-
-CHECKPOINT 4 — the map  
-
-SAY  
-
-1. Eleven banners left one sitting. Every sector is this colour now.  
-
-⏱ Past 0:52 here — close here. This is the last checkpoint built.  
-
-CARRY ON — “One question is left: why did it not break again?”  
-
----
-
-**DETAIL — only if you need it**
-
-OUT OF TIME — this is your ending. Stay on this map, and say:  
-
-“There were two empires on the other side of that desert. Next week: did either of them know?”  
-
-Then a loud السلام علیکم, and the dua. Next week opens on these two slides.
-
-## Slide 92 — Part VIII
-
-SAY  
-
-1. Ibn Khaldūn: why Arabia did not break again.
-
-## Slide 93 — Ibn Khaldūn — as he reads it
-
-*Seven centuries later*
-
-⚠ Say his name, and “as he reads it”. He never wrote this about the Ridda.  
-
-SAY  
-
-1. Ibn Khaldūn: a reader, not a witness  
-
-2. His question  
-
-3. Not more men  
-
-4. The call removes rivalry  
-
-   ↑ read the Arabic on the slide  
-
-5. One direction  
-
-6. "As Ibn Khaldūn reads it"  
-
-LESSON — What changed in Arabia was not how many men there were, but which way they were all facing.  
-
-ASK — Before beat 3: "What would you need, to turn that map into one army? More men?" Take two answers, then read him. had changed?"  
-
----
-
-**DETAIL — only if you need it**
-
-1. Ibn Khaldūn: a reader, not a witness — رحمہ اللہ; he wrote seven centuries after these events, and his book asks why peoples rise and fall.  
-2. His question — How does a peninsula that has just fragmented move against two empires within two years?  
-3. Not more men — His answer multiplies nobody's numbers.  
-4. The call removes rivalry — A religious call takes away the envy among people bound by kin, and points them all one way.  
-5. One direction — Then nothing stands in front of them: the object is equal in every eye, and they will die for it.  
-6. "As Ibn Khaldūn reads it" — He never wrote this about the Ridda; joining his chapter to the year 11 is this course's doing, not his.  
-
-> والسّبب في ذلك … أنّ الصّبغة الدّينيّة تذهب بالتنافس والتّحاسد الّذي في أهل العصبيّة وتفرد الوجهة إلى الحقّ فإذا حصل لهم الاستبصار في أمرهم لم يقف لهم شيء لأنّ الوجهة واحدة والمطلوب متساو عندهم وهم مستميتون عليه
-
-"The reason for it … is that the religious colouring takes away the rivalry and mutual envy that are in people of عصبية, and makes their direction single, towards the truth. Then, once clear sight in their affair is theirs, nothing stands in their way — because the direction is one, the object is equal in all their eyes, and they will die for it."  
-— Ibn Khaldūn — as he reads it · تاریخ ابن خلدون ج۱ ص۱۹۸  
-
----
-
-**BACKGROUND — for home, not for the lectern**
-
-⚠ The slide must carry his name and the words "as he reads it". He never wrote this about the  
-ridda; joining his chapter to the year eleven is our doing .
-
-## Slide 94 — Tonight on the Line
+## Slide 84 — Tonight on the Line
 
 THE CLOSE — the Line  
 
@@ -3789,7 +3468,7 @@ SAY
 
 4. And the whole war — Ibn Kathīr, and Ibn Masʿūd ؓ.
 
-## Slide 95 — Where we stand
+## Slide 85 — Where we stand
 
 *12 AH, Arabia*
 
@@ -3807,7 +3486,7 @@ SAY
 
 ▶ CLICK 3 — The peninsula, in one colour.
 
-## Slide 96 — Tonight
+## Slide 86 — Tonight
 
 TONIGHT — say each name, then its line  
 
@@ -3833,19 +3512,19 @@ SAY
 4. al-Ashʿath ؓ — A man who will say the worst thing about himself out loud has taken its power away from everybody else.  
 5. Ibn Masʿūd ؓ, on the war — A Companion, looking back, says plainly that the right answer was not the one they had all agreed on.
 
-## Slide 97 — Next week
+## Slide 87 — Next week
 
 IF YOU STOP HERE — ask it, and pause. Then a loud السلام علیکم — and the dua.  
 
-IF YOU CARRY ON — ask it, and go straight on: Part IX is the answer.
+IF YOU CARRY ON — ask it, and go straight on: Part VII is the answer.
 
-## Slide 98 — Part IX
+## Slide 88 — Part VII
 
 SAY  
 
 1. Persia and Rome: the other side of the desert (12 AH).
 
-## Slide 99 — Persia and Rome — beyond Arabia
+## Slide 89 — Persia and Rome — beyond Arabia
 
 *12 AH, the other side of the desert*
 
@@ -3863,7 +3542,7 @@ SAY
 
 2. What our books say of each, and what each was told.
 
-## Slide 100 — The house of Kisrā
+## Slide 90 — The house of Kisrā
 
 *12–13 AH, al-Madāʾin*
 
@@ -3899,9 +3578,9 @@ LESSON — The throne they were about to face had been emptied by its own family
 
 1. You know how Kisrā died — Evening 3: “my Lord has killed your lord tonight” — by his own son.  
 2. The books name the son — Shīrā.  
-3. What Shīrā did to his own house — He gathered its women, and killed the males. Ibn al-Athīr says it in passing.  
+3. What Shīrā did to his own house — He took the throne; and he gathered the women of the house, and killed its males. Ibn al-Athīr says it in passing.  
 4. So Persia had to search for a king — Its great men sent for the women of Kisrā's house, to find one male of the line.  
-5. One boy had been got away — Yazdagird. His mother had sent him to her brothers. They made him king, at twenty-one.  
+5. One boy had been got away — Yazdagird: Kisrā's grandson, through another son, Shahriyār. His mother had sent him to her brothers. They made him king, at twenty-one.  
 6. That is the house the letter went to — Khālid's ؓ letter was sent on “to Shīrā son of Kisrā, and Ardashīr son of Shīrā”.  
 7. Ibn al-Athīr tells the search a year on — Under year 13. The killing it looks back to is older.  
 
@@ -3914,21 +3593,32 @@ LESSON — The throne they were about to face had been emptied by its own family
 
 **BACKGROUND — for home, not for the lectern**
 
+Who is who — only what the pages we hold say. [SOURCED — البدایہ ج7 ص13، ص64; الکامل ج2 ص284]  
+Kisrā — the king the Prophet ﷺ wrote to; killed by his own sons, the night the Prophet ﷺ said so in Medina  
+(evening 3). Shīrā — his son, who took the throne after him; the page of evening 3 spells him Shīrawayh.  
+In his days the women of the house were gathered and its males killed. Shahriyār — another son of Kisrā, so  
+Shīrā's brother; the page names him only as the boy's father and does not say how he died. Ardashīr —  
+Shīrā's son. Būrān — Kisrā's daughter; the great men ask her for the list of the women of the house.  
+Yazdagird — Shahriyār's son, Kisrā's grandson: the one male left, hidden by his mother with her brothers.  
+Rustam and al-Fayrūzān — the two great men whose quarrel forced the search; later evenings.  
+⚠ Who killed whom: his sons killed Kisrā, and Shīrā the males of the house. No page we hold says how Shīrā  
+or Ardashīr ended, and none gives a date for any of them.  
 Who the letter was sent on to:  
 
 > فكتب إليه خالدٌ فبعث هرمزُ بكتابِ خالدٍ إلى شيرَى بن كسرى، وأردشير بن شيرَى
 
 > — البدایہ والنہایہ ج7 ص64 · https://shamela.ws/book/30097/3210
 
-> English: “So Khālid wrote to him; and Hurmuz sent Khālid's letter on to Shīrā son of Kisrā, and Ardashīr son of Shīrā.” ⚠ Say the names as the page's, and do not reconcile them. General histories put Shīrā's death within months of
+> English: “So Khālid wrote to him; and Hurmuz sent Khālid's letter on to Shīrā son of Kisrā, and Ardashīr son of Shīrā.”
 
+⚠ Say the names as the page's, and do not reconcile them. General histories put Shīrā's death within months of  
 his father's [CONVENTIONAL-ESTIMATE]; Ibn Kathīr's page, following Sayf, has the letter sent on to him in year 12.  
 ⚠ Narrate and stop. This is Persian court history told by Muslim historians. Rustam, the Bridge and  
 al-Qādisiyya are later evenings — the page names Rustam and al-Fayrūzān; the slide does not.  
 ⚠ No dates for Shīrā, Ardashīr or Yazdagird are on any page we hold  
 .
 
-## Slide 101 — The house of Kisrā
+## Slide 91 — The house of Kisrā
 
 *12–13 AH, al-Madāʾin*
 
@@ -3948,13 +3638,13 @@ She had got him away in the days of Shīrā — when he gathered them and killed
 
 When they asked her about him she led them to him; and they brought him and made him king, at twenty-one.
 
-## Slide 102 — Part X
+## Slide 92 — Part VIII
 
 SAY  
 
 1. Medina, Iraq and Syria: two letters leave, and what each empire heard (12–13 AH).
 
-## Slide 103 — Khālid ؓ — the order to Iraq
+## Slide 93 — Khālid ؓ — the order to Iraq
 
 *Muḥarram 12 AH, al-Yamāma to Iraq*
 
@@ -3999,7 +3689,7 @@ SAY
 "…that he should win the people over and call them to God; if they answered, well, and if not, take the jizya from them; and if they refused that, fight them. And he ordered him not to compel anyone to march with him, and not to make use of any man who had apostatised from Islam, even if he had returned to it."  
 — Ibn Kathīr, on what Abū Bakr ؓ ordered Khālid ؓ · البدایہ والنہایہ ج۷ ص۶۲
 
-## Slide 104 — Khālid ؓ — the order to Iraq
+## Slide 94 — Khālid ؓ — the order to Iraq
 
 *Muḥarram 12 AH, al-Yamāma to Iraq*
 
@@ -4021,7 +3711,7 @@ LESSON — A state that has just won a civil war and still refuses to conscript 
 
 > — البدایہ والنہایہ ج۷ ص۶۲
 
-## Slide 105 — Khālid ؓ — the order to Iraq
+## Slide 95 — Khālid ؓ — the order to Iraq
 
 *Muḥarram 12 AH, al-Yamāma to Iraq*
 
@@ -4041,7 +3731,7 @@ And he ordered him not to compel anyone to march with him
 
 and not to make use of any man who had apostatised from Islam, even if he had returned to it.
 
-## Slide 106 — Syria — four commanders, four roads
+## Slide 96 — Syria — four commanders, four roads
 
 *Early 13 AH, Medina*
 
@@ -4086,7 +3776,7 @@ SAY
 "O my sons, do not enter by one gate; enter by separate gates."  
 — Yaʿqūb, peace be upon him, to his sons — Sūrat Yūsuf 67 · البدایہ والنہایہ ج۷ ص۸۳–۸۴
 
-## Slide 107 — Syria — four commanders, four roads
+## Slide 97 — Syria — four commanders, four roads
 
 *Early 13 AH, Medina*
 
@@ -4106,7 +3796,7 @@ LESSON — A plan is safer when it is not one plan.
 
 > — البدایہ والنہایہ ج۷ ص۸۳–۸۴
 
-## Slide 108 — Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ
+## Slide 98 — Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ
 
 *13 AH, leaving Medina*
 
@@ -4148,7 +3838,7 @@ LESSON — An appointment is a trial, not a reward, and saying so at the start i
 "I have put you in office to test you, to try you and to bring you out. If you do well I will return you to your post and add to it; and if you do badly I will dismiss you … And beware the arrogance of the Jāhiliyya — God hates it, and hates those who carry it."  
 — Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ · الکامل فی التاریخ ج۲ ص۲۴۹
 
-## Slide 109 — Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ
+## Slide 99 — Abū Bakr ؓ, to Yazīd b. Abī Sufyān ؓ
 
 *13 AH, leaving Medina*
 
@@ -4164,7 +3854,7 @@ Each part: the Arabic, then its meaning.
 
 … And beware the arrogance of the Jāhiliyya — God hates it, and hates those who carry it.
 
-## Slide 110 — ʿAmr b. al-ʿĀṣ ؓ — one arrow
+## Slide 100 — ʿAmr b. al-ʿĀṣ ؓ — one arrow
 
 *13 AH, Medina*
 
@@ -4198,7 +3888,7 @@ LESSON — A man who lets himself be aimed by someone else has settled the quest
 "I am one arrow of the arrows of Islam, and you — after God — are the one who shoots them and the one who gathers them. So look for the hardest of them, and the most feared, and the best, and shoot it."  
 — ʿAmr b. al-ʿĀṣ ؓ, to Abū Bakr ؓ · الکامل فی التاریخ ج۲ ص۲۴۹
 
-## Slide 111 — ʿAmr b. al-ʿĀṣ ؓ — one arrow
+## Slide 101 — ʿAmr b. al-ʿĀṣ ؓ — one arrow
 
 *13 AH, Medina*
 
@@ -4214,7 +3904,7 @@ Each part: the Arabic, then its meaning.
 
 So look for the hardest of them, and the most feared, and the best, and shoot it.
 
-## Slide 112 — Khālid ؓ — the letter to al-Madāʾin
+## Slide 102 — Khālid ؓ — the letter to al-Madāʾin
 
 *12 AH, lower Iraq*
 
@@ -4261,7 +3951,7 @@ ASK — Ask the room: how far is Medina from the Persian capital? Then tell them
 "…so send me hostages and take a covenant of protection from me. Otherwise — by Him beside whom there is no god — I shall send against you a people who love death as you love life."  
 — Khālid b. al-Walīd ؓ, to the marzubāns of Persia · البدایہ والنہایہ ج۷ ص۶۴
 
-## Slide 113 — Khālid ؓ — the letter to al-Madāʾin
+## Slide 103 — Khālid ؓ — the letter to al-Madāʾin
 
 *12 AH, lower Iraq*
 
@@ -4281,7 +3971,7 @@ LESSON — A man who has made peace with his own death is very difficult to barg
 
 > — البدایہ والنہایہ ج۷ ص۶۴
 
-## Slide 114 — Heraclius, to the Romans
+## Slide 104 — Heraclius, to the Romans
 
 *13 AH, Syria*
 
@@ -4362,7 +4052,7 @@ it as what the book carries; build nothing on its wording.
 rest — are and the next evening.  
 ⚠ Heraclius is new to the room. One breath: the emperor of the Romans. No dates for him are on a page we hold. ## القادسية, the embassy to رستم, and المدائن Source note: [) — read it for the pages behind these cards.
 
-## Slide 115 — Heraclius, to the Romans
+## Slide 105 — Heraclius, to the Romans
 
 *13 AH, Syria*
 
@@ -4382,7 +4072,7 @@ So obey me, and make peace with them — on half the revenue of Syria, and the m
 
 If you refuse that, they will take Syria from you, and press you hard in the mountains of the Romans.
 
-## Slide 116 — Tonight on the Line
+## Slide 106 — Tonight on the Line
 
 THE CLOSE — the Line  
 
@@ -4396,7 +4086,7 @@ SAY
 
 4. And nothing taken yet.
 
-## Slide 117 — Where we stand
+## Slide 107 — Where we stand
 
 *13 AH, beyond Arabia*
 
@@ -4412,7 +4102,7 @@ SAY
 
 4. Not a town has been taken.
 
-## Slide 118 — Tonight
+## Slide 108 — Tonight
 
 TONIGHT — say each name, then its line  
 
@@ -4438,6 +4128,6 @@ SAY
 4. Yazīd ؓ — An appointment is a trial, not a reward, and saying so at the start is what makes the dismissal fair later.  
 5. Rome — He saw it, and said it, and was not listened to.
 
-## Slide 119 — Next week
+## Slide 109 — Next week
 
 Ask it, and pause. Then a loud السلام علیکم — and the dua. The room must know it has ended.

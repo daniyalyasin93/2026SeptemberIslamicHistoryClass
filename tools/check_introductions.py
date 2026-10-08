@@ -80,6 +80,10 @@ He Him His She Her They Them Their We Us Our You Your It Its I Me My Who Whom Wh
 The A An That This These Those There And But So Then When While Where What If As At By For From In Into To Of
 Commander Believers Grant Enough Lift Separate Disperse Today Yesterday Before After Most Both
 Siyar Kamil Kāmil Bidāya Bidaya Nihāya Bukhārī Bukhari Muslim Ṭabarī Tabari Shamela""".split())
+# The Names of Allah as a rendering writes them — "O All-Knowing, O Forbearing". A duʿāʾ's English is read now
+# (card_text), and the One it addresses is not a stranger to the room.
+STOP |= set("""Knowing All-Knowing Forbearing High Tremendous Merciful Wise Generous Eternal Living Giver
+Sustainer Mighty Hearing Seeing Forgiving Compassionate Exalted Majestic Bountiful Gracious Jew""".split())
 STOPF = None       # filled below, folded once
 
 
@@ -151,10 +155,15 @@ def name_tokens(text):
 
 
 def card_text(c):
-    """Title, narrative and beats — each on its own line, so that a beat's face line counts as a
-    sentence start and its opening capital proves nothing."""
+    """Title, narrative, beats — and the rendering of the statement, because that is what is projected.
+
+    Each on its own line, so that a beat's face line counts as a sentence start and its opening capital
+    proves nothing. Until 2026-10-08 the statement was not read at all: «Yazdagird, of the line of Shahriyār
+    son of Kisrā» put Shahriyār on a slide inside a quotation, the check passed, and Daniyal had to ask who
+    he was. A name in a quotation is a name on stage."""
     return "\n".join([c.get("title") or "", c.get("what") or ""] +
-                     ["%s\n%s" % (h, t) for h, t in (c.get("beats") or [])])
+                     ["%s\n%s" % (h, t) for h, t in (c.get("beats") or [])] +
+                     [c.get("english") or ""])
 
 
 def delivered_ids():
