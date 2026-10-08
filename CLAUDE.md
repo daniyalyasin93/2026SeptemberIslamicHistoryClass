@@ -190,6 +190,12 @@ Daniyal merges them.** `build.py` asserts these and **fails the build** on viola
 ends is authored in the evening's `build.py` (`PARTS`) and lifted from the card by bytes. The 20-word cap governs
 undivided body text; a slide of parts is governed by its height.
 
+**A character the font cannot draw never reaches a face (`DECISIONS.md` #79).** Shamela types the page's
+calligraphic honorifics — ﷿ ﵁ ﵃ — as single characters that no font on this machine has; PowerPoint draws a box
+and un-joins the whole line. `series/glyphs.py` sets each as the words it is the ligature of (a closed table,
+checked against the Unicode names; the pool keeps the page's bytes) and `deck2.audit()` refuses to write a deck
+with any Arabic character its font lacks. A new ligature gets a row there — never a hand-cut in a `build.py`.
+
 White is not a palette choice, it is a merge requirement: it is the one colour Gemini reproduces
 exactly, so a generated image drops in with no seam. `SLIDES.md` carries a paste-ready
 **`IMAGE BRIEF:`** for every visual slide.
@@ -213,6 +219,10 @@ its last commit, **do not rebuild over it** — copy it aside, commit it as his 
 place (python-pptx; the headline and kicker boxes are named) or write the rebuild beside it as `SNN_NEW.pptx`.
 A rebuild on 2026-10-01 destroyed half an hour of his hand-finishing. `S05/build.py` refuses to overwrite a deck
 whose hash is neither the commit's nor its own last output; the rule is older than the check.
+**And his PowerPoint is his (#79):** `deck2.save()` never writes to a deck that has a `~$` file beside it, and
+`series/preview.py` exports from a temporary copy and never quits a PowerPoint it did not start. Drive PowerPoint
+only through `preview.py` — a bare `$app.Quit()` closes every deck he has open, saved or not. A deck he has
+edited is mended with `python series/glyphs.py --fix`, in place.
 
 **Face headlines are names, not sentences (#68).** Daniyal delivers mostly in Urdu with some English. A card
 about a person is headed by the person's name — with the ⁨لقب⁩, or a plain word or two (*at Badr*, *the banner*)
@@ -270,6 +280,7 @@ slide. A rule he has had to repeat is a rule nothing enforces.
   every click at once — judge it in the slide show or from its rendered steps.
 - **Close-ups are built** (`mapkit.closeup`); where the page gives only sides it is a diagram and says
   “not to scale” on its face (#75).
+- **Every Arabic character on a face has a glyph** (#79, gate `Q5`): an honorific ligature is set as its words.
 - **Then look.** The gate checks what it has been taught. Open every new map's rendered steps before hand-over.
 
 ## 2. The fixed session shape (45 min)

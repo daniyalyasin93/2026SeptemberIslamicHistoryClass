@@ -60,6 +60,7 @@ of it on a page**, and **does it leave them with something to hold** — a line 
 | **Q2** | Arabic is verbatim from a cached page, lifted by bytes, never composed and never retyped. | CLAUDE.md §1.1, §1.4 | `check_citations` |
 | **Q3** | Arabic too long to project is **excerpted** at a clause — the card's own words — never replaced by a picture. | *"i would like the arabic from ibn kathir verbatim somewhere"* | `FACE_CUT`; `check_face_quotes` |
 | **Q4** | **Text that does not fit is never cut off.** It is set **in parts** — a clause of the Arabic, its rendering beneath it, then the next — and what one slide cannot hold goes on to the next, under the same headline, speaker and source. No rendering on a face ends in “…”. A moment of faith is shown whole. | *"one part of dua per line and the new line. Also first Arabic one part. Then its translation. Then next Arabic. And so on. We can move part to next new slide."* | gate `Q4`; `deck2.parts_slides`; the build refuses a face whose rendering is cut |
+| **Q5** | **Every Arabic character on a face can be drawn by the font it is set in.** An honorific the page prints as one calligraphic sort — ﷿ ﵁ ﵃ — reaches us as a single character that no font on this machine has. PowerPoint draws an empty box, and un-joins every letter of the line the box stands in. Such a ligature is set as **the words it is the ligature of**; the card keeps the page's bytes. Any other character without a glyph stops the build. | *"there seems to be some errors in arabic on slide 104"* | gate `Q5`; `series/glyphs.py`; `deck2.audit` refuses to write the deck |
 
 ## 4. The notes pane — the lectern
 
@@ -176,7 +177,12 @@ explicitly marked *review*; the rest are the gate's backlog, and the audit's tab
 is where to look before settling a new one. Three of those conflicts are his to settle:
 
 - **The honorific on English faces.** ؓ renders as a small detached mark; he types *R.A* himself. Put two
-  rendered examples in front of him and let him choose one form.
+  rendered examples in front of him and let him choose one form. **Done 2026-10-08:**
+  `docs/honorific-on-english-faces.png` — slide 104's own headline and speaker line as the sign, as *R.A* and
+  as *(RA)*. And the mark is worse than detached: beside a Latin name PowerPoint draws it **on a dotted
+  circle**, whatever it is given to stand on — a space, a no-break space, a tatweel, a zero-width joiner, a
+  run of its own were all rendered and looked at (`DECISIONS.md` #79). There is no clean way to keep the
+  sign on an English face; the choice is his.
 - **A certainty label on a face.** `[CONVENTIONAL-ESTIMATE]` *must* be labelled on the slide (CLAUDE.md §0.1), and
   the build's forbidden list refuses any bracketed label on a face (#30). As written, one rule fails the other.
 - **Hands-up prompts.** The worksheet was dropped (#60); the notes still carry a dozen prompts an evening.

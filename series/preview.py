@@ -16,9 +16,11 @@ obvious in a way that clicking through a deck does not.
 Requires PowerPoint (COM) and Pillow. Both are present on Daniyal's machine.
 """
 import os
+import shutil
 import subprocess
 import sys
 import glob
+import tempfile
 
 from PIL import Image
 
@@ -26,24 +28,46 @@ PPT_SAVE_AS_PNG = 18
 PPT_SAVE_AS_PDF = 32
 
 
+def _powerpoint(pptx, body):
+    """Run `body` (PowerShell; the deck is $p) in PowerPoint WITHOUT touching anything Daniyal has open.
+
+    PowerPoint is one process for the whole desktop: a COM client is handed the PowerPoint he is working in. Until
+    2026-10-08 this opened the deck's own path and then called $app.Quit() — which, with his PowerPoint open, is
+    his PowerPoint, every deck in it, saved or not. So:
+
+      * it opens a COPY of the deck from a temporary folder, never the path he may have open, so the
+        presentation it closes can only ever be its own;
+      * it quits PowerPoint only if PowerPoint was not running when it began AND nothing else has been opened
+        in it since — an export takes a minute, and he may open a deck while it runs.
+    """
+    tmp = tempfile.mkdtemp(prefix="deck-")
+    copy = os.path.join(tmp, os.path.basename(pptx))
+    shutil.copy2(pptx, copy)
+    ps = ("$ErrorActionPreference='Stop';"
+          "$was = [bool](Get-Process POWERPNT -ErrorAction SilentlyContinue);"
+          "$app = New-Object -ComObject PowerPoint.Application;"
+          "$p = $app.Presentations.Open('%s', $true, $false, $false);"
+          "try { %s } finally { $p.Saved = -1; $p.Close();"
+          " if (-not $was -and $app.Presentations.Count -eq 0) { $app.Quit() } };"
+          "[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app) | Out-Null"
+          % (copy.replace("'", "''"), body))
+    try:
+        return subprocess.run(["powershell", "-NoProfile", "-NonInteractive", "-Command", ps],
+                              capture_output=True, text=True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def to_pdf(pptx, out=None):
     """Export a deck to PDF beside it, so it can be read anywhere a .pptx cannot be opened."""
     pptx = os.path.abspath(pptx)
     out = os.path.abspath(out or os.path.splitext(pptx)[0] + ".pdf")
-    ps = ("$ErrorActionPreference='Stop';"
-          "$app = New-Object -ComObject PowerPoint.Application;"
-          "$p = $app.Presentations.Open('%s', $true, $false, $false);"
-          # Hidden slides are unhidden IN MEMORY (the file is open read-only and is never saved) before
-          # the PDF is written: SaveCopyAs leaves them out, so the early-close sets a cue sheet sends the
-          # speaker to ("type 56") were missing from the PDF he checks on his phone, and every page after
-          # them was numbered wrong. The PDF's page n is now the deck's slide n.
-          "foreach ($s in $p.Slides) { $s.SlideShowTransition.Hidden = 0 };"
-          "$p.SaveCopyAs('%s', %d);"
-          "$p.Close(); $app.Quit();"
-          "[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app) | Out-Null"
-          % (pptx.replace("'", "''"), out.replace("'", "''"), PPT_SAVE_AS_PDF))
-    r = subprocess.run(["powershell", "-NoProfile", "-NonInteractive", "-Command", ps],
-                       capture_output=True, text=True)
+    # Hidden slides are unhidden IN MEMORY (the copy is open read-only and is never saved) before the PDF is
+    # written: SaveCopyAs leaves them out, so the early-close sets a cue sheet sends the speaker to ("type 56")
+    # were missing from the PDF he checks on his phone, and every page after them was numbered wrong. The PDF's
+    # page n is now the deck's slide n.
+    r = _powerpoint(pptx, "foreach ($s in $p.Slides) { $s.SlideShowTransition.Hidden = 0 };"
+                          "$p.SaveCopyAs('%s', %d)" % (out.replace("'", "''"), PPT_SAVE_AS_PDF))
     if r.returncode != 0 or not os.path.exists(out):
         raise SystemExit("PDF export failed:\n" + (r.stderr or r.stdout)[:800])
     return out
@@ -59,17 +83,7 @@ def export(pptx, outdir=None):
             os.remove(f)
 
     # SaveCopyAs, not SaveAs — SaveAs would repoint the open presentation at the image folder.
-    ps = (
-        "$ErrorActionPreference='Stop';"
-        "$app = New-Object -ComObject PowerPoint.Application;"
-        "$p = $app.Presentations.Open('%s', $true, $false, $false);"
-        "$p.SaveCopyAs('%s', %d);"
-        "$p.Close(); $app.Quit();"
-        "[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app) | Out-Null"
-        % (pptx.replace("'", "''"), outdir.replace("'", "''"), PPT_SAVE_AS_PNG)
-    )
-    r = subprocess.run(["powershell", "-NoProfile", "-NonInteractive", "-Command", ps],
-                       capture_output=True, text=True)
+    r = _powerpoint(pptx, "$p.SaveCopyAs('%s', %d)" % (outdir.replace("'", "''"), PPT_SAVE_AS_PNG))
     if r.returncode != 0:
         raise SystemExit("PowerPoint export failed:\n" + (r.stderr or r.stdout)[:1500])
     return outdir

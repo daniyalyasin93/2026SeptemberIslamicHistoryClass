@@ -28,6 +28,7 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(ROOT, "series"))
 sys.path.insert(0, HERE)
 
+import glyphs                                             # noqa: E402
 import mapkit                                             # noqa: E402
 import notes2                                             # noqa: E402
 
@@ -393,6 +394,11 @@ def check(folder, only=None, slides=None):
             drawn = [e for e in t.get("events", []) if e.get("group") == "delivered" or e.get("group") in r.get("lit", [])]
             if len(drawn) > 8:
                 R.add("L1", "timeline", "%d events on the Line %r; eight at most" % (len(drawn), r.get("name")))
+
+    # Q5 — every Arabic character on a face, and in its notes, has a glyph in a font that is here. One that has
+    # none is a box on the projector, and PowerPoint un-joins every letter of the line it stands in.
+    for g in glyphs.gaps(prs):
+        R.add("Q5", g[0], glyphs.describe(g).split(": ", 1)[1])
 
     # I1 — one file with every brief
     if any(f["placeholder"] for f in facts.values()) and not os.path.exists(os.path.join(folder, "IMAGE_BRIEFS.md")):

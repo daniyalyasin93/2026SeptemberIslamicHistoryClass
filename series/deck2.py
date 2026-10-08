@@ -46,6 +46,7 @@ SIX PERMITTED SLIDE KINDS. Anything that is only a line of text is not a slide.
 """
 import os
 import re
+import sys
 
 from pptx import Presentation
 from pptx.util import Inches, Pt, Emu
@@ -54,6 +55,9 @@ from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.enum.shapes import MSO_SHAPE
 from pptx.enum.dml import MSO_LINE_DASH_STYLE
 from pptx.oxml.ns import qn
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import glyphs                                              # noqa: E402  — can the font draw it? (VISION Q5)
 
 # --------------------------------------------------------------------------- palette
 WHITE = RGBColor(0xFF, 0xFF, 0xFF)
@@ -162,6 +166,9 @@ def text(slide, txt, x, y, w, h, size=BODY_PT, color=INK, font=EN, bold=False,
             "%.0fpt is below the %dpt floor (DECISIONS.md #21) — text was %r. The back of the "
             "hall could not read session 1; raise the size or cut the words."
             % (size, MIN_PT, str(txt)[:60]))
+    # An honorific the page prints as one calligraphic sort reaches us as one character no font here can draw.
+    # It is set as the words it is the ligature of (series/glyphs.py; docs/VISION.md Q5).
+    txt = glyphs.spell(txt)
 
     box = slide.shapes.add_textbox(x, y, w, h)
     if name:
@@ -240,7 +247,7 @@ def blank(prs):
 
 
 def note(slide, s):
-    slide.notes_slide.notes_text_frame.text = str(s)
+    slide.notes_slide.notes_text_frame.text = glyphs.spell(s)     # the notes pane draws a box for it too
 
 
 def header(slide, headline, kicker=None):
@@ -467,6 +474,9 @@ def parts_slides(prs, parts, cite=None, headline=None, kicker=None, speaker=None
     if not headline:
         raise DeckContractError("a quotation in parts carries its headline on every slide")
     authored = bool(parts) and isinstance(parts[0], list)
+    # spelled before it is measured: «﷿» is one character wide on the page and two words wide on the slide
+    parts = ([[(glyphs.spell(a), e) for a, e in g] for g in parts] if authored
+             else [(glyphs.spell(a), e) for a, e in parts])
     scene = [str(x).strip() for x in (scene or []) if x and str(x).strip()]
     if len(scene) > 2 or sum(_count_words(x) for x in scene) > MAX_BODY_WORDS:
         raise DeckContractError("scene lines: two at most, %d words in all; got %r" % (MAX_BODY_WORDS, scene))
@@ -631,6 +641,7 @@ def statement_slide(prs, english, arabic=None, cite=None, headline=None, kicker=
     Arabic carries authority in this room (CLAUDE.md 1.4), so where a source supplies the saying
     in Arabic it goes on the slide in Arabic — never the rendering alone.
     """
+    arabic = glyphs.spell(arabic) if arabic else arabic    # before it is measured (docs/VISION.md Q5)
     s = blank(prs)
     if headline:
         header(s, headline, kicker)
@@ -855,6 +866,8 @@ def audit(prs):
                 bad.append("slide %d: %d words in one box — far past the %d-word body cap. "
                            "This is the 'text-heavy' failure from session 1."
                            % (i, words, MAX_BODY_WORDS))
+    # Q5 — a character the font cannot draw is a box on the projector and a line of un-joined Arabic around it
+    bad += [glyphs.describe(g) for g in glyphs.gaps(prs)]
     if bad:
         raise DeckContractError(
             "the deck violates the contract in %d place(s):\n  - %s" % (len(bad), "\n  - ".join(bad)))
@@ -869,6 +882,13 @@ def save(prs, path, pdf=True):
     1's defects were all things a single glance would have caught.
     """
     scaffolds = audit(prs)
+    # A deck that is open in PowerPoint is never written to (DECISIONS.md #67): the "~$" file beside it is
+    # PowerPoint saying somebody is in it, and what he saves next would silently replace this build — or this
+    # build what he has not saved yet. The build goes beside it.
+    if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(path)), "~$" + os.path.basename(path))):
+        print("   !! %s is open in PowerPoint - NOT touched. This build is written beside it."
+              % os.path.basename(path))
+        path = os.path.splitext(path)[0] + "_NEW.pptx"
     try:
         prs.save(path)
     except PermissionError:                     # PowerPoint holds a lock on the open file

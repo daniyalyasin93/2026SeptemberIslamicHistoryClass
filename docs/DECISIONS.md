@@ -1924,3 +1924,86 @@ sharing one id now stops the build.**
 **Also made, as asked:** `S06_notes.pdf` and `S06_notes.md` (the home reading of #60), and the Ḥaḍramawt map
 re-written through `series/mapkit.py` — sixteen steps, the same slices.
 
+## 79. A character the font cannot draw never reaches a face; an honorific ligature is set as its words — 2026-10-08
+
+Daniyal, reviewing the deck: *"there seems to be some errors in arabic on slide 104"*.
+
+**What he saw.** The first Arabic line of `ISA/E-C1` (the order to Iraq) ended in an empty box, and every letter of
+that line stood apart from its neighbours. **The cause is one character.** The page prints «عز وجل» after the name
+of God as a single calligraphic sort; Shamela types that sort as one code point, U+FDFF. `Traditional Arabic` has
+no glyph for it — no permitted font on this machine has — so PowerPoint drew a box, and, having gone looking for
+another font inside the run, laid the whole line out un-joined. The card was faithful to the cache; the cache was
+faithful to the page; the slide was broken Arabic.
+
+**It was the third time.** Evening 2 cut the character off by hand, card by card (`L02_baarah_saal/build.py`).
+Evening 3 left the box on the slide and flagged it "for Daniyal to decide by hand" (#34.5). He was never shown
+it as a choice, nothing checked for it, and evening 6 walked into it again. The 23–41 AH pool carries «﵁» on
+thirty-eight cards: left alone, most of evening 8 would have projected boxes.
+
+**Settled.**
+
+1. **The gate — `Q5`.** `series/glyphs.py` reads the cmap of the font each run is set in and reports every Arabic
+   character the font has no glyph for; the notes are tested against the fonts the system falls back on.
+   `deck2.audit()` calls it, so **a deck with such a character is never written**, and `check_vision` reports it.
+   Latin is not tested: a transliterated *ḥ* that Georgia lacks is borrowed from another font one letter at a
+   time and reads; an Arabic letter cannot be borrowed without breaking the word it is joined into.
+2. **An honorific ligature is set as the words it is the ligature of. This supersedes #34.5.** The table is
+   closed, it lives in `series/glyphs.py` (`SPELLED`), and each row is checked at import against the character's
+   own name in the Unicode standard — U+FDFF *is* `ARABIC LIGATURE AZZA WA JALL`:
+
+   | The page's sort | The Unicode name | Set as |
+   |---|---|---|
+   | U+FDFF | AZZA WA JALL | the two words of that formula |
+   | U+FD41 · FD42 · FD43 · FD44 | RADI ALLAAHU ANH · ANHAA · ANHUM · ANHUMAA | the three words, with the pronoun the name gives |
+   | U+FD40 | RAHIMAHU ALLAAH | the two words |
+   | U+FD47 · FD4A | ALAYHI AS-SALAAM · ALAYHI AS-SALAATU WAS-SALAAM | the words |
+
+   The eight, exactly as the table sets them, in that order:
+
+   > عز وجل
+
+   > رضي الله عنه
+
+   > رضي الله عنها
+
+   > رضي الله عنهم
+
+   > رضي الله عنهما
+
+   > رحمه الله
+
+   > عليه السلام
+
+   > عليه الصلاة والسلام
+
+   Only the eight that occur in the two pools. Any other stops the build and is given a row by somebody who has
+   looked at it. **The pool and the cache keep the page's bytes**; `PARTS` still lifts by bytes; the words are
+   set at the last step, in `deck2.text()`, in the quotation setters before they measure, and in the notes.
+
+   #34.5 called this "writing Arabic into a quotation". It is not: the page carries these words, as a ligature;
+   what changes is the encoding, not the text — and the alternative it chose was a box on a projector.
+   **This is nonetheless the one place where a face carries letters that were not copied from the cache byte for
+   byte, and it is Daniyal's to overrule.** The other course is evening 2's: end the part before the ligature and
+   speak the honorific.
+3. **An export never closes his PowerPoint.** Found on the way, and worse than the slide. `series/preview.py`
+   opened the deck in PowerPoint over COM and then called `$app.Quit()`. PowerPoint is one process for the whole
+   desktop: with his PowerPoint open — as it was when he wrote the comment — that call closes *his* PowerPoint
+   and every deck in it, saved or not. Every build until today did this. Now the exporter opens a **copy** of the
+   deck from a temporary folder, so the presentation it closes can only be its own, and quits PowerPoint only if
+   PowerPoint was not running when it began and nothing has been opened in it since.
+4. **A deck that is open is never written to.** `deck2.save()` looks for the `~$` file beside the deck — #67's
+   "look for its lock file", which until now was a sentence — and writes `SNN_NEW.pptx` beside it instead.
+5. **A deck he has edited is mended in place:** `python series/glyphs.py --fix SNN_<slug>/SNN.pptx` spells the
+   ligatures out in every run and note of an existing deck and changes nothing else.
+
+**Not solved, and his to choose.** The sign ؓ after a Latin name is drawn **on a dotted circle** — PowerPoint's
+mark for a combining sign with no letter under it. Six ways of typing it were rendered and looked at: after a
+space, after a no-break space, on a tatweel, on a zero-width joiner, on a zero-width non-joiner, in a run of its
+own. The joiner removes the circle and drops the sign onto the next word; the rest keep the circle. On a face
+it is three pixels of lettering either way. `docs/honorific-on-english-faces.png` sets slide 104's own headline
+and speaker line three ways — the sign, *R.A* (which is what he types), *(RA)* — and the choice changes
+CLAUDE.md §1.2, so it is his.
+
+**Checked:** the gate was run on the deck as it stood and named slide 104 and the notes of 103 and 104 — nothing
+else in 119 slides; after the rebuild it is silent, and the rendered slide was looked at. The rebuild changed that
+one face and those two notes. **Not checked:** the slide show itself; the export is the same text engine.

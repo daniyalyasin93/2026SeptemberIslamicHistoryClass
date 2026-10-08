@@ -3994,7 +3994,7 @@ SAY
 6. And use no man who turned — The second: nobody who apostatised, even if he has come back.  
 7. Whose date it is — Muḥarram of year 12 is al-Madāʾinī's, by his chain. Ibn Kathīr reports it.  
 
-> وأن يَتألَّفَ الناسَ ويدعوهم إلى الله ﷿، فإن أجابوا وإلا أخذ منهم الجزيةَ فإن امتنعوا عن ذلك قاتلهم، وأمره أن لا يُكْرِه أحدًا على المسير معه، ولا يستعينُ بمنِ ارتدّ عن الإسلام وإن كان [قد] عاد إليه
+> وأن يَتألَّفَ الناسَ ويدعوهم إلى الله عز وجل، فإن أجابوا وإلا أخذ منهم الجزيةَ فإن امتنعوا عن ذلك قاتلهم، وأمره أن لا يُكْرِه أحدًا على المسير معه، ولا يستعينُ بمنِ ارتدّ عن الإسلام وإن كان [قد] عاد إليه
 
 "…that he should win the people over and call them to God; if they answered, well, and if not, take the jizya from them; and if they refused that, fight them. And he ordered him not to compel anyone to march with him, and not to make use of any man who had apostatised from Islam, even if he had returned to it."  
 — Ibn Kathīr, on what Abū Bakr ؓ ordered Khālid ؓ · البدایہ والنہایہ ج۷ ص۶۲
@@ -4015,7 +4015,7 @@ LESSON — A state that has just won a civil war and still refuses to conscript 
 
 **DETAIL — only if you need it**
 
-> وأن يَتألَّفَ الناسَ ويدعوهم إلى الله ﷿، فإن أجابوا وإلا أخذ منهم الجزيةَ فإن امتنعوا عن ذلك قاتلهم، وأمره أن لا يُكْرِه أحدًا على المسير معه، ولا يستعينُ بمنِ ارتدّ عن الإسلام وإن كان [قد] عاد إليه
+> وأن يَتألَّفَ الناسَ ويدعوهم إلى الله عز وجل، فإن أجابوا وإلا أخذ منهم الجزيةَ فإن امتنعوا عن ذلك قاتلهم، وأمره أن لا يُكْرِه أحدًا على المسير معه، ولا يستعينُ بمنِ ارتدّ عن الإسلام وإن كان [قد] عاد إليه
 
 "…that he should win the people over and call them to God; if they answered, well, and if not, take the jizya from them; and if they refused that, fight them. And he ordered him not to compel anyone to march with him, and not to make use of any man who had apostatised from Islam, even if he had returned to it."  
 
